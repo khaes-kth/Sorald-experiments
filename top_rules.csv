@@ -1,3 +1,4 @@
+rule,count
 squid:S1161,12879
 squid:S1213,10592
 squid:CommentedOutCodeLine,8791
