@@ -1,0 +1,54 @@
+{
+  "ruleViolations": [
+    {
+      "ruleKey": 2111,
+      "ruleName": "BigDecimalDoubleConstructor",
+      "violationCnt": 102
+    },
+    {
+      "ruleKey": 2142,
+      "ruleName": "InterruptedException",
+      "violationCnt": 555
+    },
+    {
+      "ruleKey": 2272,
+      "ruleName": "IteratorNextException",
+      "violationCnt": 42
+    },
+    {
+      "ruleKey": 2184,
+      "ruleName": "CastArithmeticOperand",
+      "violationCnt": 399
+    },
+    {
+      "ruleKey": 2095,
+      "ruleName": "UnclosedResources",
+      "violationCnt": 785
+    },
+    {
+      "ruleKey": 4973,
+      "ruleName": "CompareStringsBoxedTypesWithEquals",
+      "violationCnt": 92
+    },
+    {
+      "ruleKey": 1860,
+      "ruleName": "SynchronizationOnStringOrBoxed",
+      "violationCnt": 5
+    },
+    {
+      "ruleKey": 1948,
+      "ruleName": "SerializableFieldInSerializableClass",
+      "violationCnt": 459
+    },
+    {
+      "ruleKey": 1854,
+      "ruleName": "DeadStore",
+      "violationCnt": 2668
+    },
+    {
+      "ruleKey": 1444,
+      "ruleName": "PublicStaticFieldShouldBeFinal",
+      "violationCnt": 799
+    }
+  ]
+}
