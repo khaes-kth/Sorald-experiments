@@ -15,6 +15,11 @@
       "ruleName": "IteratorNextException",
       "violationCnt": 42
     },
+	{
+      "ruleKey": 2116,
+      "ruleName": "ArrayHashCodeAndToString",
+      "violationCnt": 1
+    },
     {
       "ruleKey": 2184,
       "ruleName": "CastArithmeticOperand",
