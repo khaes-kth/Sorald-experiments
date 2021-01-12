@@ -40,6 +40,16 @@
       "ruleName": "SynchronizationOnStringOrBoxed",
       "violationCnt": 5
     },
+	{
+      "ruleKey": 1217,
+      "ruleName": "ThreadRun",
+      "violationCnt": 2
+    },
+	{
+      "ruleKey": 2225,
+      "ruleName": "ToStringReturningNull",
+      "violationCnt": 22
+    },
     {
       "ruleKey": 1948,
       "ruleName": "SerializableFieldInSerializableClass",
