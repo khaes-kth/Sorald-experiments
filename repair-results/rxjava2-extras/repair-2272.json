@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [
+            {
+                "endLine": 43,
+                "endColumn": 33,
+                "startColumn": 29,
+                "startLine": 43,
+                "filePath": "src/main/java/com/github/davidmoten/rx2/internal/flowable/FlowableReverse.java",
+                "violationSpecifier": "2272:src/main/java/com/github/davidmoten/rx2/internal/flowable/FlowableReverse.java:43:29:43:33"
+            },
+            {
+                "endLine": 47,
+                "endColumn": 25,
+                "startColumn": 21,
+                "startLine": 47,
+                "filePath": "src/main/java/com/github/davidmoten/util/RingBuffer.java",
+                "violationSpecifier": "2272:src/main/java/com/github/davidmoten/util/RingBuffer.java:47:21:47:25"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 6259,
+    "repairTimeMs": 681,
+    "startTimeMs": 1610917749805,
+    "crashes": [],
+    "endTimeMs": 1610917756064,
+    "parseTimeMs": 2531
+}

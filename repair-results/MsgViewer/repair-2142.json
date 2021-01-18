@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 256,
+                "endColumn": 52,
+                "startColumn": 29,
+                "startLine": 256,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/LocalRoot.java",
+                "violationSpecifier": "2142:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/LocalRoot.java:256:29:256:52"
+            },
+            {
+                "endLine": 60,
+                "endColumn": 40,
+                "startColumn": 17,
+                "startLine": 60,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/WorkerThread/WorkerThread.java",
+                "violationSpecifier": "2142:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/WorkerThread/WorkerThread.java:60:17:60:40"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 8510,
+    "repairTimeMs": 364,
+    "startTimeMs": 1610918756512,
+    "crashes": [],
+    "endTimeMs": 1610918765022,
+    "parseTimeMs": 3654
+}

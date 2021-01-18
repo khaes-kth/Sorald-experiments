@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 101,
+                "endColumn": 56,
+                "startColumn": 32,
+                "startLine": 101,
+                "filePath": "openapi-validator/src/test/java/com/networknt/openapi/ValidatorHandlerTest.java",
+                "violationSpecifier": "2095:openapi-validator/src/test/java/com/networknt/openapi/ValidatorHandlerTest.java:101:32:101:56"
+            },
+            {
+                "endLine": 638,
+                "endColumn": 90,
+                "startColumn": 32,
+                "startLine": 638,
+                "filePath": "openapi-validator/src/test/java/com/networknt/openapi/ValidatorHandlerTest.java",
+                "violationSpecifier": "2095:openapi-validator/src/test/java/com/networknt/openapi/ValidatorHandlerTest.java:638:32:638:90"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5920,
+    "startTimeMs": 1610918012648,
+    "repairTimeMs": 224,
+    "crashes": [],
+    "endTimeMs": 1610918018568,
+    "parseTimeMs": 2020
+}

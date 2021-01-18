@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 95,
+            "endColumn": 35,
+            "startColumn": 20,
+            "startLine": 95,
+            "filePath": "core/src/main/java/org/modelmapper/internal/Errors.java",
+            "violationSpecifier": "2095:core/src/main/java/org/modelmapper/internal/Errors.java:95:20:95:35"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 13688,
+    "repairTimeMs": 369,
+    "startTimeMs": 1610902014024,
+    "crashes": [],
+    "endTimeMs": 1610902027712,
+    "parseTimeMs": 3997
+}

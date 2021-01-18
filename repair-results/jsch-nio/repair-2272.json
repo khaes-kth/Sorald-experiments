@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [{
+            "endLine": 63,
+            "endColumn": 28,
+            "startColumn": 24,
+            "startLine": 63,
+            "filePath": "src/main/java/com/pastdev/jsch/nio/file/AbstractSshPath.java",
+            "violationSpecifier": "2272:src/main/java/com/pastdev/jsch/nio/file/AbstractSshPath.java:63:24:63:28"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 3406,
+    "repairTimeMs": 332,
+    "startTimeMs": 1610907095972,
+    "crashes": [],
+    "endTimeMs": 1610907099378,
+    "parseTimeMs": 1262
+}

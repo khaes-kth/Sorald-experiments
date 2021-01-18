@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [
+            {
+                "endLine": 82,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 82,
+                "filePath": "plugin/turbojpeg/src/test/java/it/geosolutions/imageio/plugins/turbojpeg/JPEGMultiThTest.java",
+                "violationSpecifier": "2142:plugin/turbojpeg/src/test/java/it/geosolutions/imageio/plugins/turbojpeg/JPEGMultiThTest.java:82:17:82:39"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 51,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "library/utilities/src/main/java/it/geosolutions/imageio/utilities/WeakCollectionCleaner.java",
+                "violationSpecifier": "2142:library/utilities/src/main/java/it/geosolutions/imageio/utilities/WeakCollectionCleaner.java:92:21:92:51"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 14575,
+    "repairTimeMs": 693,
+    "startTimeMs": 1610904733744,
+    "crashes": [],
+    "endTimeMs": 1610904748319,
+    "parseTimeMs": 6517
+}

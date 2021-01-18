@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [{
+            "endLine": 66,
+            "endColumn": 63,
+            "startColumn": 21,
+            "startLine": 66,
+            "filePath": "playground/jolie-javafx/src/joliex/javafx/impl/SodepRequestRunnable.java",
+            "violationSpecifier": "2095:playground/jolie-javafx/src/joliex/javafx/impl/SodepRequestRunnable.java:66:21:66:63"
+        }],
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 48416,
+    "repairTimeMs": 798,
+    "startTimeMs": 1610912510786,
+    "crashes": [],
+    "endTimeMs": 1610912559202,
+    "parseTimeMs": 6374
+}

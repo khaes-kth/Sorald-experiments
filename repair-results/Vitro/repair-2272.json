@@ -1,0 +1,82 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 6,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [
+            {
+                "endLine": 93,
+                "endColumn": 22,
+                "startColumn": 18,
+                "startLine": 93,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/controller/datatools/dumprestore/NquadsParser.java",
+                "violationSpecifier": "2272:api/src/main/java/edu/cornell/mannlib/vitro/webapp/controller/datatools/dumprestore/NquadsParser.java:93:18:93:22"
+            },
+            {
+                "endLine": 69,
+                "endColumn": 34,
+                "startColumn": 30,
+                "startLine": 69,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/searchengine/solr/SolrSearchResultDocumentList.java",
+                "violationSpecifier": "2272:api/src/main/java/edu/cornell/mannlib/vitro/webapp/searchengine/solr/SolrSearchResultDocumentList.java:69:30:69:34"
+            },
+            {
+                "endLine": 31,
+                "endColumn": 29,
+                "startColumn": 25,
+                "startLine": 31,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/utils/IterableAdaptor.java",
+                "violationSpecifier": "2272:api/src/main/java/edu/cornell/mannlib/vitro/webapp/utils/IterableAdaptor.java:31:25:31:29"
+            },
+            {
+                "endLine": 43,
+                "endColumn": 29,
+                "startColumn": 25,
+                "startLine": 43,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/utils/IterableAdaptor.java",
+                "violationSpecifier": "2272:api/src/main/java/edu/cornell/mannlib/vitro/webapp/utils/IterableAdaptor.java:43:25:43:29"
+            },
+            {
+                "endLine": 38,
+                "endColumn": 18,
+                "startColumn": 14,
+                "startLine": 38,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/utils/sparql/ResultSetIterators.java",
+                "violationSpecifier": "2272:api/src/main/java/edu/cornell/mannlib/vitro/webapp/utils/sparql/ResultSetIterators.java:38:14:38:18"
+            },
+            {
+                "endLine": 69,
+                "endColumn": 20,
+                "startColumn": 16,
+                "startLine": 69,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/utils/sparql/ResultSetIterators.java",
+                "violationSpecifier": "2272:api/src/main/java/edu/cornell/mannlib/vitro/webapp/utils/sparql/ResultSetIterators.java:69:16:69:20"
+            }
+        ],
+        "nbViolationsBefore": 6,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 28414,
+    "repairTimeMs": 2904,
+    "startTimeMs": 1610907223356,
+    "crashes": [],
+    "endTimeMs": 1610907251770,
+    "parseTimeMs": 12152
+}

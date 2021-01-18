@@ -1,0 +1,49 @@
+WARN  Invalid character encountered in file fromString at line 5 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 5 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 8 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+INFO  Configured Java source version (sonar.java.source): 14
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=17ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  485 source files to be analyzed
+INFO  61/485 files analyzed, current file: plugin/unidata-netcdf/grib1/src/test/java/it/geosolutions/imageio/plugins/grib1/GRIB1ReadTest.java
+INFO  235/485 files analyzed, current file: plugin/unidata-netcdf/netcdfconverters/src/main/java/it/geosolutions/imageio/plugins/netcdf/InterpolateVNetCDF.java
+INFO  371/485 files analyzed, current file: plugin/gdal/gdaljpeg/src/main/java/it/geosolutions/imageio/plugins/jpeg/JpegGDALImageReader.java
+INFO  485/485 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=39361ms
+INFO  Java Test Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=3ms
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0/0 source files have been analyzed
+INFO  0/0 source files have been analyzed
+-----Number of fixes------
+UnclosedResourcesProcessor: 14
+-----End of report------
+WARN  Invalid character encountered in file fromString at line 5 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 5 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 8 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+INFO  Configured Java source version (sonar.java.source): 14
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  485 source files to be analyzed
+INFO  147/485 files analyzed, current file: plugin/tiff/src/main/java/it/geosolutions/imageioimpl/plugins/tiff/TIFFBaseJPEGCompressor.java
+INFO  313/485 files analyzed, current file: plugin/kakadujp2/src/main/java/it/geosolutions/imageio/plugins/jp2k/JP2KKakaduImageWriter.java
+INFO  468/485 files analyzed, current file: library/gdalframework/src/main/java/it/geosolutions/imageio/gdalframework/GDALUtilities.java
+INFO  Java Main Files AST scan (done) | time=31594ms
+INFO  Java Test Files AST scan
+INFO  485/485 source files have been analyzed
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=0ms
+INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed

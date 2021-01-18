@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 822,
+            "endColumn": 43,
+            "startColumn": 22,
+            "startLine": 822,
+            "filePath": "src/main/java/org/mitre/dsmiley/httpproxy/ProxyServlet.java",
+            "violationSpecifier": "2095:src/main/java/org/mitre/dsmiley/httpproxy/ProxyServlet.java:822:22:822:43"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4280,
+    "repairTimeMs": 189,
+    "startTimeMs": 1610903841438,
+    "crashes": [],
+    "endTimeMs": 1610903845718,
+    "parseTimeMs": 922
+}

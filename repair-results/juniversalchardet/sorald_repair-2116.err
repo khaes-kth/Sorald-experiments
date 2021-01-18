@@ -1,0 +1,25 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+spoon.SpoonException: Modules are only available since Java 9. Please set appropriate compliance level.
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.forEachCompilationUnit(JDTBasedSpoonCompiler.java:459)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildModel(JDTBasedSpoonCompiler.java:435)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildUnitsAndModel(JDTBasedSpoonCompiler.java:372)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.buildSources(JDTBasedSpoonCompiler.java:335)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:116)
+	at spoon.support.compiler.jdt.JDTBasedSpoonCompiler.build(JDTBasedSpoonCompiler.java:99)
+	at spoon.Launcher.buildModel(Launcher.java:766)
+	at sorald.Repair.initLauncher(Repair.java:367)
+	at sorald.Repair.defaultRepair(Repair.java:163)
+	at sorald.Repair.repair(Repair.java:146)
+	at sorald.Repair.repair(Repair.java:91)
+	at sorald.cli.RepairCommand.call(RepairCommand.java:121)
+	at sorald.cli.RepairCommand.call(RepairCommand.java:27)
+	at picocli.CommandLine.executeUserObject(CommandLine.java:1933)
+	at picocli.CommandLine.access$1200(CommandLine.java:145)
+	at picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2326)
+	at picocli.CommandLine$RunLast.handle(CommandLine.java:2291)
+	at picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)
+	at picocli.CommandLine.execute(CommandLine.java:2058)
+	at sorald.Main.main(Main.java:7)

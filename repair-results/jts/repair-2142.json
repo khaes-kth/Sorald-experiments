@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 20,
+            "endColumn": 49,
+            "startColumn": 13,
+            "startLine": 20,
+            "filePath": "modules/app/src/test/java/org/locationtech/jtstest/util/CommandRunnerTester.java",
+            "violationSpecifier": "2142:modules/app/src/test/java/org/locationtech/jtstest/util/CommandRunnerTester.java:20:13:20:49"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 20218,
+    "repairTimeMs": 864,
+    "startTimeMs": 1610914781598,
+    "crashes": [],
+    "endTimeMs": 1610914801816,
+    "parseTimeMs": 8887
+}

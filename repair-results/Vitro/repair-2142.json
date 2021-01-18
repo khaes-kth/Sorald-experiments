@@ -1,0 +1,142 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 10,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [
+            {
+                "endLine": 414,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 414,
+                "filePath": "api/src/main/java/edu/ucsf/vitro/opensocial/OpenSocialSmokeTests.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/ucsf/vitro/opensocial/OpenSocialSmokeTests.java:414:12:414:34"
+            },
+            {
+                "endLine": 558,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 558,
+                "filePath": "api/src/main/java/edu/ucsf/vitro/opensocial/OpenSocialSmokeTests.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/ucsf/vitro/opensocial/OpenSocialSmokeTests.java:558:12:558:34"
+            }
+        ],
+        "nbCrashedRepairs": 2,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 138,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 138,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/controller/admin/WaitForBackgroundThreadsController.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/cornell/mannlib/vitro/webapp/controller/admin/WaitForBackgroundThreadsController.java:138:12:138:34"
+            },
+            {
+                "endLine": 195,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 195,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/dao/jena/VClassGroupCache.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/cornell/mannlib/vitro/webapp/dao/jena/VClassGroupCache.java:195:21:195:43"
+            },
+            {
+                "endLine": 220,
+                "endColumn": 46,
+                "startColumn": 23,
+                "startLine": 220,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/dao/jena/VClassGroupCache.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/cornell/mannlib/vitro/webapp/dao/jena/VClassGroupCache.java:220:23:220:46"
+            },
+            {
+                "endLine": 439,
+                "endColumn": 55,
+                "startColumn": 33,
+                "startLine": 439,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/dao/jena/VClassGroupCache.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/cornell/mannlib/vitro/webapp/dao/jena/VClassGroupCache.java:439:33:439:55"
+            },
+            {
+                "endLine": 502,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 502,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/searchindex/SearchIndexerImpl.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/cornell/mannlib/vitro/webapp/searchindex/SearchIndexerImpl.java:502:12:502:34"
+            },
+            {
+                "endLine": 267,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 267,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/servlet/setup/SolrSmokeTest.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/cornell/mannlib/vitro/webapp/servlet/setup/SolrSmokeTest.java:267:12:267:34"
+            },
+            {
+                "endLine": 152,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 152,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/tboxreasoner/impl/BasicTBoxReasonerDriver.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/cornell/mannlib/vitro/webapp/tboxreasoner/impl/BasicTBoxReasonerDriver.java:152:12:152:34"
+            },
+            {
+                "endLine": 86,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 86,
+                "filePath": "api/src/main/java/edu/cornell/mannlib/vitro/webapp/tboxreasoner/impl/jfact/JFactTBoxReasonerModule.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/cornell/mannlib/vitro/webapp/tboxreasoner/impl/jfact/JFactTBoxReasonerModule.java:86:12:86:34"
+            },
+            {
+                "endLine": 414,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 414,
+                "filePath": "api/src/main/java/edu/ucsf/vitro/opensocial/OpenSocialSmokeTests.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/ucsf/vitro/opensocial/OpenSocialSmokeTests.java:414:12:414:34"
+            },
+            {
+                "endLine": 558,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 558,
+                "filePath": "api/src/main/java/edu/ucsf/vitro/opensocial/OpenSocialSmokeTests.java",
+                "violationSpecifier": "2142:api/src/main/java/edu/ucsf/vitro/opensocial/OpenSocialSmokeTests.java:558:12:558:34"
+            }
+        ],
+        "nbViolationsBefore": 10,
+        "nbViolationsAfter": 3
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 27615,
+    "repairTimeMs": 1290,
+    "startTimeMs": 1610907184726,
+    "crashes": [
+        {
+            "description": "Crash in sorald.processor.InterruptedExceptionProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 16, length 16\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:739)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 16, length 16"
+        },
+        {
+            "description": "Crash in sorald.processor.InterruptedExceptionProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 16, length 16\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:739)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 16, length 16"
+        }
+    ],
+    "endTimeMs": 1610907212341,
+    "parseTimeMs": 12771
+}

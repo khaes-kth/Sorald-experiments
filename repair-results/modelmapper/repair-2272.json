@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [
+            {
+                "endLine": 347,
+                "endColumn": 22,
+                "startColumn": 18,
+                "startLine": 347,
+                "filePath": "core/src/main/java/org/modelmapper/internal/ImplicitMappingBuilder.java",
+                "violationSpecifier": "2272:core/src/main/java/org/modelmapper/internal/ImplicitMappingBuilder.java:347:18:347:22"
+            },
+            {
+                "endLine": 42,
+                "endColumn": 20,
+                "startColumn": 16,
+                "startLine": 42,
+                "filePath": "core/src/main/java/org/modelmapper/internal/util/ArrayIterator.java",
+                "violationSpecifier": "2272:core/src/main/java/org/modelmapper/internal/util/ArrayIterator.java:42:16:42:20"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 12777,
+    "repairTimeMs": 3686,
+    "startTimeMs": 1610901967425,
+    "crashes": [],
+    "endTimeMs": 1610901980202,
+    "parseTimeMs": 4074
+}

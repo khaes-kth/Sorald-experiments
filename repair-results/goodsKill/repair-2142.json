@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 73,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 73,
+                "filePath": "goodsKill-spring-boot-provider/goodsKill-service/src/test/java/org/seckill/service/test/base/BaseServiceConfigForTest.java",
+                "violationSpecifier": "2142:goodsKill-spring-boot-provider/goodsKill-service/src/test/java/org/seckill/service/test/base/BaseServiceConfigForTest.java:73:29:73:51"
+            },
+            {
+                "endLine": 35,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 35,
+                "filePath": "goodsKill-spring-boot-provider/goodsKill-service/src/test/java/org/seckill/service/util/ZookeeperLockUtilTest.java",
+                "violationSpecifier": "2142:goodsKill-spring-boot-provider/goodsKill-service/src/test/java/org/seckill/service/util/ZookeeperLockUtilTest.java:35:29:35:51"
+            },
+            {
+                "endLine": 47,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 47,
+                "filePath": "goodsKill-spring-boot-provider/goodsKill-service/src/test/java/org/seckill/service/util/ZookeeperLockUtilTest.java",
+                "violationSpecifier": "2142:goodsKill-spring-boot-provider/goodsKill-service/src/test/java/org/seckill/service/util/ZookeeperLockUtilTest.java:47:29:47:51"
+            }
+        ],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4219,
+    "repairTimeMs": 238,
+    "startTimeMs": 1610917497552,
+    "crashes": [],
+    "endTimeMs": 1610917501771,
+    "parseTimeMs": 1575
+}

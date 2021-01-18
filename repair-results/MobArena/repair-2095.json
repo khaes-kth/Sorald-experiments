@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [{
+            "endLine": 111,
+            "endColumn": 64,
+            "startColumn": 31,
+            "startLine": 111,
+            "filePath": ".mvn/wrapper/MavenWrapperDownloader.java",
+            "violationSpecifier": "2095:.mvn/wrapper/MavenWrapperDownloader.java:111:31:111:64"
+        }],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 10928,
+    "repairTimeMs": 325,
+    "startTimeMs": 1610903172718,
+    "crashes": [],
+    "endTimeMs": 1610903183646,
+    "parseTimeMs": 2585
+}

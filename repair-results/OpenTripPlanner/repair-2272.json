@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [
+            {
+                "endLine": 195,
+                "endColumn": 34,
+                "startColumn": 30,
+                "startLine": 195,
+                "filePath": "src/main/java/org/opentripplanner/graph_builder/module/map/LinearIterator.java",
+                "violationSpecifier": "2272:src/main/java/org/opentripplanner/graph_builder/module/map/LinearIterator.java:195:30:195:34"
+            },
+            {
+                "endLine": 218,
+                "endColumn": 35,
+                "startColumn": 31,
+                "startLine": 218,
+                "filePath": "src/main/java/org/opentripplanner/transit/raptor/util/paretoset/ParetoSet.java",
+                "violationSpecifier": "2272:src/main/java/org/opentripplanner/transit/raptor/util/paretoset/ParetoSet.java:218:31:218:35"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 76137,
+    "repairTimeMs": 50001,
+    "startTimeMs": 1610902161796,
+    "crashes": [],
+    "endTimeMs": 1610902237933,
+    "parseTimeMs": 12916
+}

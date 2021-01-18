@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [{
+            "endLine": 64,
+            "endColumn": 37,
+            "startColumn": 15,
+            "startLine": 64,
+            "filePath": "wls-exporter-core/src/main/java11/com/oracle/wls/exporter/WebClient11Impl.java",
+            "violationSpecifier": "2142:wls-exporter-core/src/main/java11/com/oracle/wls/exporter/WebClient11Impl.java:64:15:64:37"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4921,
+    "repairTimeMs": 259,
+    "startTimeMs": 1610919835733,
+    "crashes": [],
+    "endTimeMs": 1610919840654,
+    "parseTimeMs": 1986
+}

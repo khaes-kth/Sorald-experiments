@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [{
+            "endLine": 383,
+            "endColumn": 118,
+            "startColumn": 38,
+            "startLine": 383,
+            "filePath": "src/main/java/com/github/vincentrussell/query/mongodb/sql/converter/Main.java",
+            "violationSpecifier": "2095:src/main/java/com/github/vincentrussell/query/mongodb/sql/converter/Main.java:383:38:383:118"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 6373,
+    "repairTimeMs": 282,
+    "startTimeMs": 1610916950363,
+    "crashes": [],
+    "endTimeMs": 1610916956736,
+    "parseTimeMs": 1923
+}

@@ -1,0 +1,66 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 4,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "nbViolationsBefore": 4,
+        "performedRepairsLocations": [
+            {
+                "endLine": 1838,
+                "endColumn": 39,
+                "startColumn": 35,
+                "startLine": 1838,
+                "filePath": "src/test/java/com/github/underscore/CollectionsTest.java",
+                "violationSpecifier": "2272:src/test/java/com/github/underscore/CollectionsTest.java:1838:35:1838:39"
+            },
+            {
+                "endLine": 217,
+                "endColumn": 29,
+                "startColumn": 25,
+                "startLine": 217,
+                "filePath": "src/main/java/com/github/underscore/U.java",
+                "violationSpecifier": "2272:src/main/java/com/github/underscore/U.java:217:25:217:29"
+            },
+            {
+                "endLine": 355,
+                "endColumn": 39,
+                "startColumn": 35,
+                "startLine": 355,
+                "filePath": "src/test/java/com/github/underscore/UnderscoreTest.java",
+                "violationSpecifier": "2272:src/test/java/com/github/underscore/UnderscoreTest.java:355:35:355:39"
+            },
+            {
+                "endLine": 402,
+                "endColumn": 33,
+                "startColumn": 29,
+                "startLine": 402,
+                "filePath": "src/test/java/com/github/underscore/UnderscoreTest.java",
+                "violationSpecifier": "2272:src/test/java/com/github/underscore/UnderscoreTest.java:402:29:402:33"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 11898,
+    "repairTimeMs": 3659,
+    "startTimeMs": 1610910497343,
+    "crashes": [],
+    "endTimeMs": 1610910509241,
+    "parseTimeMs": 3577
+}

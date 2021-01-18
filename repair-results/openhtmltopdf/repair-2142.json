@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [
+            {
+                "endLine": 407,
+                "endColumn": 48,
+                "startColumn": 25,
+                "startLine": 407,
+                "filePath": "obsolete-archive/examples/nomaven/misc/src/main/java/Review.java",
+                "violationSpecifier": "2142:obsolete-archive/examples/nomaven/misc/src/main/java/Review.java:407:25:407:48"
+            },
+            {
+                "endLine": 61,
+                "endColumn": 59,
+                "startColumn": 37,
+                "startLine": 61,
+                "filePath": "obsolete-archive/src/experimental/java/org/xhtmlrenderer/experimental/WorkQueue.java",
+                "violationSpecifier": "2142:obsolete-archive/src/experimental/java/org/xhtmlrenderer/experimental/WorkQueue.java:61:37:61:59"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 12900,
+    "startTimeMs": 1610914542540,
+    "repairTimeMs": 602,
+    "crashes": [],
+    "endTimeMs": 1610914555440,
+    "parseTimeMs": 5708
+}

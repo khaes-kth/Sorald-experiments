@@ -1,0 +1,130 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 12,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 171,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 171,
+                "filePath": "motan-core/src/test/java/com/weibo/api/motan/filter/ServiceMockFilterTest.java",
+                "violationSpecifier": "2142:motan-core/src/test/java/com/weibo/api/motan/filter/ServiceMockFilterTest.java:171:17:171:39"
+            },
+            {
+                "endLine": 43,
+                "endColumn": 44,
+                "startColumn": 17,
+                "startLine": 43,
+                "filePath": "motan-core/src/test/java/com/weibo/api/motan/protocol/example/MockWorld.java",
+                "violationSpecifier": "2142:motan-core/src/test/java/com/weibo/api/motan/protocol/example/MockWorld.java:43:17:43:44"
+            },
+            {
+                "endLine": 40,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 40,
+                "filePath": "motan-core/src/test/java/com/weibo/api/motan/protocol/example/World.java",
+                "violationSpecifier": "2142:motan-core/src/test/java/com/weibo/api/motan/protocol/example/World.java:40:21:40:43"
+            },
+            {
+                "endLine": 349,
+                "endColumn": 57,
+                "startColumn": 29,
+                "startLine": 349,
+                "filePath": "motan-registry-consul/src/main/java/com/weibo/api/motan/registry/consul/ConsulRegistry.java",
+                "violationSpecifier": "2142:motan-registry-consul/src/main/java/com/weibo/api/motan/registry/consul/ConsulRegistry.java:349:29:349:57"
+            },
+            {
+                "endLine": 375,
+                "endColumn": 57,
+                "startColumn": 29,
+                "startLine": 375,
+                "filePath": "motan-registry-consul/src/main/java/com/weibo/api/motan/registry/consul/ConsulRegistry.java",
+                "violationSpecifier": "2142:motan-registry-consul/src/main/java/com/weibo/api/motan/registry/consul/ConsulRegistry.java:375:29:375:57"
+            },
+            {
+                "endLine": 103,
+                "endColumn": 55,
+                "startColumn": 33,
+                "startLine": 103,
+                "filePath": "motan-core/src/main/java/com/weibo/api/motan/rpc/DefaultResponseFuture.java",
+                "violationSpecifier": "2142:motan-core/src/main/java/com/weibo/api/motan/rpc/DefaultResponseFuture.java:103:33:103:55"
+            },
+            {
+                "endLine": 119,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 119,
+                "filePath": "motan-extension/protocol-extension/motan-protocol-yar/src/main/java/com/weibo/api/motan/transport/netty4/http/Netty4HttpServer.java",
+                "violationSpecifier": "2142:motan-extension/protocol-extension/motan-protocol-yar/src/main/java/com/weibo/api/motan/transport/netty4/http/Netty4HttpServer.java:119:17:119:39"
+            },
+            {
+                "endLine": 62,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 62,
+                "filePath": "motan-core/src/test/java/com/weibo/api/motan/util/RequestIdGeneratorTest.java",
+                "violationSpecifier": "2142:motan-core/src/test/java/com/weibo/api/motan/util/RequestIdGeneratorTest.java:62:17:62:39"
+            },
+            {
+                "endLine": 69,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 69,
+                "filePath": "motan-core/src/test/java/com/weibo/api/motan/util/RequestIdGeneratorTest.java",
+                "violationSpecifier": "2142:motan-core/src/test/java/com/weibo/api/motan/util/RequestIdGeneratorTest.java:69:21:69:43"
+            },
+            {
+                "endLine": 69,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 69,
+                "filePath": "motan-benchmark/motan-benchmark-client/src/main/java/com/weibo/motan/benchmark/AbstractBenchmarkClient.java",
+                "violationSpecifier": "2142:motan-benchmark/motan-benchmark-client/src/main/java/com/weibo/motan/benchmark/AbstractBenchmarkClient.java:69:17:69:39"
+            },
+            {
+                "endLine": 53,
+                "endColumn": 64,
+                "startColumn": 17,
+                "startLine": 53,
+                "filePath": "motan-benchmark/motan-benchmark-client/src/main/java/com/weibo/motan/benchmark/AbstractClientRunnable.java",
+                "violationSpecifier": "2142:motan-benchmark/motan-benchmark-client/src/main/java/com/weibo/motan/benchmark/AbstractClientRunnable.java:53:17:53:64"
+            },
+            {
+                "endLine": 67,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 67,
+                "filePath": "motan-demo/motan-demo-client/src/main/java/com/weibo/motan/demo/client/DemoRpcAsyncClient.java",
+                "violationSpecifier": "2142:motan-demo/motan-demo-client/src/main/java/com/weibo/motan/demo/client/DemoRpcAsyncClient.java:67:21:67:43"
+            }
+        ],
+        "nbViolationsBefore": 12,
+        "nbViolationsAfter": 5
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 11545,
+    "repairTimeMs": 465,
+    "startTimeMs": 1610916563072,
+    "crashes": [],
+    "endTimeMs": 1610916574617,
+    "parseTimeMs": 4949
+}

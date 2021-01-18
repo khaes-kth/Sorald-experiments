@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 159,
+            "endColumn": 37,
+            "startColumn": 15,
+            "startLine": 159,
+            "filePath": "core/src/test/java/org/modelmapper/performance/Comparison.java",
+            "violationSpecifier": "2142:core/src/test/java/org/modelmapper/performance/Comparison.java:159:15:159:37"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 9620,
+    "repairTimeMs": 409,
+    "startTimeMs": 1610901952680,
+    "crashes": [],
+    "endTimeMs": 1610901962300,
+    "parseTimeMs": 4124
+}

@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CastArithmeticOperand",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2184",
+        "performedRepairsLocations": [{
+            "endLine": 37,
+            "endColumn": 26,
+            "startColumn": 25,
+            "startLine": 37,
+            "filePath": "src/test/java/org/zeroturnaround/process/test/Sleep.java",
+            "violationSpecifier": "2184:src/test/java/org/zeroturnaround/process/test/Sleep.java:37:25:37:26"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2184",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 2672,
+    "repairTimeMs": 181,
+    "startTimeMs": 1610914046521,
+    "crashes": [],
+    "endTimeMs": 1610914049193,
+    "parseTimeMs": 875
+}

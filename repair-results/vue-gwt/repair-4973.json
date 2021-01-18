@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [
+            {
+                "endLine": 38,
+                "endColumn": 27,
+                "startColumn": 25,
+                "startLine": 38,
+                "filePath": "core/src/main/java/com/axellience/vuegwt/core/client/VueGWT.java",
+                "violationSpecifier": "4973:core/src/main/java/com/axellience/vuegwt/core/client/VueGWT.java:38:25:38:27"
+            },
+            {
+                "endLine": 39,
+                "endColumn": 15,
+                "startColumn": 13,
+                "startLine": 39,
+                "filePath": "core/src/main/java/com/axellience/vuegwt/core/client/VueGWT.java",
+                "violationSpecifier": "4973:core/src/main/java/com/axellience/vuegwt/core/client/VueGWT.java:39:13:39:15"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5540,
+    "repairTimeMs": 242,
+    "startTimeMs": 1610917693988,
+    "crashes": [],
+    "endTimeMs": 1610917699528,
+    "parseTimeMs": 2067
+}

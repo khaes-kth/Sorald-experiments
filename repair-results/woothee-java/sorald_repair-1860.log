@@ -1,0 +1,45 @@
+INFO  Configured Java source version (sonar.java.source): 14
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=16ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  57 source files to be analyzed
+ERROR Unable to parse source file : 'src/misc/header_dataset.java'
+ERROR Parse error at line 43 column 104: Syntax error, insert "}" to complete ClassBody
+ERROR Unable to parse source file : 'src/misc/footer_dataset.java'
+ERROR Parse error at line 2 column 9: Syntax error on token "static", record expected after this token
+INFO  57/57 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=1244ms
+INFO  Java Test Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0/0 source files have been analyzed
+-----Number of fixes------
+SynchronizationOnStringOrBoxedProcessor: 0
+-----End of report------
+INFO  Configured Java source version (sonar.java.source): 14
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  57 source files to be analyzed
+ERROR Unable to parse source file : 'src/misc/header_dataset.java'
+ERROR Parse error at line 43 column 104: Syntax error, insert "}" to complete ClassBody
+ERROR Unable to parse source file : 'src/misc/footer_dataset.java'
+ERROR Parse error at line 2 column 9: Syntax error on token "static", record expected after this token
+INFO  Java Main Files AST scan (done) | time=439ms
+INFO  Java Test Files AST scan
+INFO  57/57 source files have been analyzed
+INFO  0 source files to be analyzed
+INFO  0/0 source files have been analyzed
+INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms

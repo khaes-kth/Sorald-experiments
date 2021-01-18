@@ -1,0 +1,865 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 63,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [
+            {
+                "endLine": 92,
+                "endColumn": 75,
+                "startColumn": 35,
+                "startLine": 92,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/data/simulation/LoadDataAndGraphs.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/data/simulation/LoadDataAndGraphs.java:92:35:92:75"
+            },
+            {
+                "endLine": 55,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 55,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/reveal/LTestRevealSearch.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/reveal/LTestRevealSearch.java:55:28:55:72"
+            },
+            {
+                "endLine": 55,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 55,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/urchin/LTestBoolSearch.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/urchin/LTestBoolSearch.java:55:28:55:72"
+            },
+            {
+                "endLine": 55,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 55,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/urchin/LTestRevealSearch.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/urchin/LTestRevealSearch.java:55:28:55:72"
+            },
+            {
+                "endLine": 107,
+                "endColumn": 74,
+                "startColumn": 32,
+                "startLine": 107,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/util/HandleyConvert.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/util/HandleyConvert.java:107:32:107:74"
+            },
+            {
+                "endLine": 2255,
+                "endColumn": 48,
+                "startColumn": 28,
+                "startLine": 2255,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java:2255:28:2255:48"
+            },
+            {
+                "endLine": 4084,
+                "endColumn": 39,
+                "startColumn": 24,
+                "startLine": 4084,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java:4084:24:4084:39"
+            },
+            {
+                "endLine": 4215,
+                "endColumn": 39,
+                "startColumn": 24,
+                "startLine": 4215,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java:4215:24:4215:39"
+            },
+            {
+                "endLine": 4273,
+                "endColumn": 39,
+                "startColumn": 24,
+                "startLine": 4273,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java:4273:24:4273:39"
+            },
+            {
+                "endLine": 648,
+                "endColumn": 56,
+                "startColumn": 36,
+                "startLine": 648,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/search/DMSearch.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/search/DMSearch.java:648:36:648:56"
+            },
+            {
+                "endLine": 69,
+                "endColumn": 75,
+                "startColumn": 33,
+                "startLine": 69,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/GdistanceApply.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/GdistanceApply.java:69:33:69:75"
+            },
+            {
+                "endLine": 52,
+                "endColumn": 75,
+                "startColumn": 33,
+                "startLine": 52,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/GdistanceTest.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/GdistanceTest.java:52:33:52:75"
+            },
+            {
+                "endLine": 549,
+                "endColumn": 74,
+                "startColumn": 30,
+                "startLine": 549,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/ExploreAutisticsNeurotypicals.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/ExploreAutisticsNeurotypicals.java:549:30:549:74"
+            },
+            {
+                "endLine": 96,
+                "endColumn": 52,
+                "startColumn": 32,
+                "startLine": 96,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDataReader.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDataReader.java:96:32:96:52"
+            },
+            {
+                "endLine": 109,
+                "endColumn": 87,
+                "startColumn": 54,
+                "startLine": 109,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/app/LoadSessionAction.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/app/LoadSessionAction.java:109:54:109:87"
+            },
+            {
+                "endLine": 357,
+                "endColumn": 52,
+                "startColumn": 32,
+                "startLine": 357,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/app/TetradLogArea.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/app/TetradLogArea.java:357:32:357:52"
+            },
+            {
+                "endLine": 102,
+                "endColumn": 55,
+                "startColumn": 34,
+                "startLine": 102,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java:102:34:102:55"
+            },
+            {
+                "endLine": 121,
+                "endColumn": 55,
+                "startColumn": 34,
+                "startLine": 121,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java:121:34:121:55"
+            },
+            {
+                "endLine": 139,
+                "endColumn": 55,
+                "startColumn": 34,
+                "startLine": 139,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java:139:34:139:55"
+            },
+            {
+                "endLine": 94,
+                "endColumn": 54,
+                "startColumn": 30,
+                "startLine": 94,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/model/YeastPcCcdSearchWrapper.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/model/YeastPcCcdSearchWrapper.java:94:30:94:54"
+            },
+            {
+                "endLine": 104,
+                "endColumn": 54,
+                "startColumn": 30,
+                "startLine": 104,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/model/YeastPcCcdSearchWrapper.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/model/YeastPcCcdSearchWrapper.java:104:30:104:54"
+            },
+            {
+                "endLine": 70,
+                "endColumn": 60,
+                "startColumn": 40,
+                "startLine": 70,
+                "filePath": "tetrad-gui/src/test/java/edu/cmu/tetradapp/test/AdjustCopyrights.java",
+                "violationSpecifier": "2095:tetrad-gui/src/test/java/edu/cmu/tetradapp/test/AdjustCopyrights.java:70:40:70:60"
+            },
+            {
+                "endLine": 103,
+                "endColumn": 72,
+                "startColumn": 32,
+                "startLine": 103,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/util/BrainSpecial.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/util/BrainSpecial.java:103:32:103:72"
+            },
+            {
+                "endLine": 40,
+                "endColumn": 55,
+                "startColumn": 30,
+                "startLine": 40,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/util/FileLoadingUtils.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/util/FileLoadingUtils.java:40:30:40:55"
+            },
+            {
+                "endLine": 59,
+                "endColumn": 61,
+                "startColumn": 17,
+                "startLine": 59,
+                "filePath": "tetrad-lib/src/main/java/jgpml/CSVtoMatrix.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/jgpml/CSVtoMatrix.java:59:17:59:61"
+            }
+        ],
+        "nbCrashedRepairs": 25,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 118,
+                "endColumn": 71,
+                "startColumn": 31,
+                "startLine": 118,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmBNTPc.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmBNTPc.java:118:31:118:71"
+            },
+            {
+                "endLine": 73,
+                "endColumn": 71,
+                "startColumn": 31,
+                "startLine": 73,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmBnlearnMmhc.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmBnlearnMmhc.java:73:31:73:71"
+            },
+            {
+                "endLine": 143,
+                "endColumn": 71,
+                "startColumn": 31,
+                "startLine": 143,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmBnlearnMmhc.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmBnlearnMmhc.java:143:31:143:71"
+            },
+            {
+                "endLine": 76,
+                "endColumn": 72,
+                "startColumn": 31,
+                "startLine": 76,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmPcalgGes.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmPcalgGes.java:76:31:76:72"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 74,
+                "startColumn": 31,
+                "startLine": 90,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmPcalgGes.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmPcalgGes.java:90:31:90:74"
+            },
+            {
+                "endLine": 149,
+                "endColumn": 71,
+                "startColumn": 31,
+                "startLine": 149,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmPcalgGes.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmPcalgGes.java:149:31:149:71"
+            },
+            {
+                "endLine": 116,
+                "endColumn": 71,
+                "startColumn": 31,
+                "startLine": 116,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmPcalgPc.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmPcalgPc.java:116:31:116:71"
+            },
+            {
+                "endLine": 104,
+                "endColumn": 71,
+                "startColumn": 31,
+                "startLine": 104,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmTetrad.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/algorithm/external/ExternalAlgorithmTetrad.java:104:31:104:71"
+            },
+            {
+                "endLine": 59,
+                "endColumn": 80,
+                "startColumn": 35,
+                "startLine": 59,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/data/simulation/LoadContinuousDataAndGraphs.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/data/simulation/LoadContinuousDataAndGraphs.java:59:35:59:80"
+            },
+            {
+                "endLine": 105,
+                "endColumn": 71,
+                "startColumn": 31,
+                "startLine": 105,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/data/simulation/LoadContinuousDataAndGraphs.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/data/simulation/LoadContinuousDataAndGraphs.java:105:31:105:71"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 75,
+                "startColumn": 35,
+                "startLine": 92,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/data/simulation/LoadDataAndGraphs.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/data/simulation/LoadDataAndGraphs.java:92:35:92:75"
+            },
+            {
+                "endLine": 55,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 55,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/akutsu/LTestBoolSearch.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/akutsu/LTestBoolSearch.java:55:28:55:72"
+            },
+            {
+                "endLine": 60,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 60,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/akutsu/LTestQnet3.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/akutsu/LTestQnet3.java:60:28:60:72"
+            },
+            {
+                "endLine": 55,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 55,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/akutsu/LTestSsys1.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/akutsu/LTestSsys1.java:55:28:55:72"
+            },
+            {
+                "endLine": 62,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 62,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/ideker/ReadControl.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/ideker/ReadControl.java:62:28:62:72"
+            },
+            {
+                "endLine": 69,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 69,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/ideker/ReadIdeker.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/ideker/ReadIdeker.java:69:28:69:72"
+            },
+            {
+                "endLine": 55,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 55,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/reveal/LTestRevealSearch.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/reveal/LTestRevealSearch.java:55:28:55:72"
+            },
+            {
+                "endLine": 55,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 55,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/urchin/LTestBoolSearch.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/urchin/LTestBoolSearch.java:55:28:55:72"
+            },
+            {
+                "endLine": 48,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 48,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/urchin/LTestReveal.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/urchin/LTestReveal.java:48:28:48:72"
+            },
+            {
+                "endLine": 55,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 55,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/urchin/LTestRevealSearch.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/urchin/LTestRevealSearch.java:55:28:55:72"
+            },
+            {
+                "endLine": 107,
+                "endColumn": 74,
+                "startColumn": 32,
+                "startLine": 107,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/util/HandleyConvert.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/util/HandleyConvert.java:107:32:107:74"
+            },
+            {
+                "endLine": 2255,
+                "endColumn": 48,
+                "startColumn": 28,
+                "startLine": 2255,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java:2255:28:2255:48"
+            },
+            {
+                "endLine": 4084,
+                "endColumn": 39,
+                "startColumn": 24,
+                "startLine": 4084,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java:4084:24:4084:39"
+            },
+            {
+                "endLine": 4215,
+                "endColumn": 39,
+                "startColumn": 24,
+                "startLine": 4215,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java:4215:24:4215:39"
+            },
+            {
+                "endLine": 4273,
+                "endColumn": 39,
+                "startColumn": 24,
+                "startLine": 4273,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java:4273:24:4273:39"
+            },
+            {
+                "endLine": 144,
+                "endColumn": 75,
+                "startColumn": 31,
+                "startLine": 144,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/performance/PerformanceTests.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/performance/PerformanceTests.java:144:31:144:75"
+            },
+            {
+                "endLine": 145,
+                "endColumn": 76,
+                "startColumn": 31,
+                "startLine": 145,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/performance/PerformanceTests.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/performance/PerformanceTests.java:145:31:145:76"
+            },
+            {
+                "endLine": 648,
+                "endColumn": 56,
+                "startColumn": 36,
+                "startLine": 648,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/search/DMSearch.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/search/DMSearch.java:648:36:648:56"
+            },
+            {
+                "endLine": 69,
+                "endColumn": 75,
+                "startColumn": 33,
+                "startLine": 69,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/GdistanceApply.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/GdistanceApply.java:69:33:69:75"
+            },
+            {
+                "endLine": 52,
+                "endColumn": 75,
+                "startColumn": 33,
+                "startLine": 52,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/GdistanceTest.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/GdistanceTest.java:52:33:52:75"
+            },
+            {
+                "endLine": 131,
+                "endColumn": 137,
+                "startColumn": 33,
+                "startLine": 131,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/HsimCompareRepeat.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/HsimCompareRepeat.java:131:33:131:137"
+            },
+            {
+                "endLine": 173,
+                "endColumn": 75,
+                "startColumn": 33,
+                "startLine": 173,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/HsimEvalFromData.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/HsimEvalFromData.java:173:33:173:75"
+            },
+            {
+                "endLine": 177,
+                "endColumn": 91,
+                "startColumn": 34,
+                "startLine": 177,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/HsimEvalFromData.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/HsimEvalFromData.java:177:34:177:91"
+            },
+            {
+                "endLine": 549,
+                "endColumn": 74,
+                "startColumn": 30,
+                "startLine": 549,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/ExploreAutisticsNeurotypicals.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/ExploreAutisticsNeurotypicals.java:549:30:549:74"
+            },
+            {
+                "endLine": 368,
+                "endColumn": 90,
+                "startColumn": 33,
+                "startLine": 368,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestAutisticClassification.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestAutisticClassification.java:368:33:368:90"
+            },
+            {
+                "endLine": 483,
+                "endColumn": 56,
+                "startColumn": 36,
+                "startLine": 483,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java:483:36:483:56"
+            },
+            {
+                "endLine": 581,
+                "endColumn": 56,
+                "startColumn": 36,
+                "startLine": 581,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java:581:36:581:56"
+            },
+            {
+                "endLine": 592,
+                "endColumn": 56,
+                "startColumn": 36,
+                "startLine": 592,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java:592:36:592:56"
+            },
+            {
+                "endLine": 886,
+                "endColumn": 56,
+                "startColumn": 36,
+                "startLine": 886,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java:886:36:886:56"
+            },
+            {
+                "endLine": 948,
+                "endColumn": 56,
+                "startColumn": 36,
+                "startLine": 948,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java:948:36:948:56"
+            },
+            {
+                "endLine": 959,
+                "endColumn": 56,
+                "startColumn": 36,
+                "startLine": 959,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java:959:36:959:56"
+            },
+            {
+                "endLine": 1026,
+                "endColumn": 56,
+                "startColumn": 32,
+                "startLine": 1026,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java:1026:32:1026:56"
+            },
+            {
+                "endLine": 1094,
+                "endColumn": 60,
+                "startColumn": 40,
+                "startLine": 1094,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDM.java:1094:40:1094:60"
+            },
+            {
+                "endLine": 96,
+                "endColumn": 52,
+                "startColumn": 32,
+                "startLine": 96,
+                "filePath": "tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDataReader.java",
+                "violationSpecifier": "2095:tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestDataReader.java:96:32:96:52"
+            },
+            {
+                "endLine": 286,
+                "endColumn": 61,
+                "startColumn": 35,
+                "startLine": 286,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/util/TetradSerializableUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/util/TetradSerializableUtils.java:286:35:286:61"
+            },
+            {
+                "endLine": 287,
+                "endColumn": 67,
+                "startColumn": 40,
+                "startLine": 287,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/util/TetradSerializableUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/util/TetradSerializableUtils.java:287:40:287:67"
+            },
+            {
+                "endLine": 412,
+                "endColumn": 71,
+                "startColumn": 44,
+                "startLine": 412,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/util/TetradSerializableUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/util/TetradSerializableUtils.java:412:44:412:71"
+            },
+            {
+                "endLine": 496,
+                "endColumn": 63,
+                "startColumn": 38,
+                "startLine": 496,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/util/TetradSerializableUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/util/TetradSerializableUtils.java:496:38:496:63"
+            },
+            {
+                "endLine": 683,
+                "endColumn": 65,
+                "startColumn": 28,
+                "startLine": 683,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/util/TetradSerializableUtils.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/edu/cmu/tetrad/util/TetradSerializableUtils.java:683:28:683:65"
+            },
+            {
+                "endLine": 109,
+                "endColumn": 87,
+                "startColumn": 54,
+                "startLine": 109,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/app/LoadSessionAction.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/app/LoadSessionAction.java:109:54:109:87"
+            },
+            {
+                "endLine": 357,
+                "endColumn": 52,
+                "startColumn": 32,
+                "startLine": 357,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/app/TetradLogArea.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/app/TetradLogArea.java:357:32:357:52"
+            },
+            {
+                "endLine": 251,
+                "endColumn": 72,
+                "startColumn": 32,
+                "startLine": 251,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/LoadKnowledgeAction.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/LoadKnowledgeAction.java:251:32:251:72"
+            },
+            {
+                "endLine": 78,
+                "endColumn": 72,
+                "startColumn": 32,
+                "startLine": 78,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/LoadTimeSeriesDataAction.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/LoadTimeSeriesDataAction.java:78:32:78:72"
+            },
+            {
+                "endLine": 102,
+                "endColumn": 55,
+                "startColumn": 34,
+                "startLine": 102,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java:102:34:102:55"
+            },
+            {
+                "endLine": 121,
+                "endColumn": 55,
+                "startColumn": 34,
+                "startLine": 121,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java:121:34:121:55"
+            },
+            {
+                "endLine": 139,
+                "endColumn": 55,
+                "startColumn": 34,
+                "startLine": 139,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SaveGraph.java:139:34:139:55"
+            },
+            {
+                "endLine": 854,
+                "endColumn": 57,
+                "startColumn": 28,
+                "startLine": 854,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/knowledge_editor/KnowledgeBoxEditor.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/knowledge_editor/KnowledgeBoxEditor.java:854:28:854:57"
+            },
+            {
+                "endLine": 94,
+                "endColumn": 54,
+                "startColumn": 30,
+                "startLine": 94,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/model/YeastPcCcdSearchWrapper.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/model/YeastPcCcdSearchWrapper.java:94:30:94:54"
+            },
+            {
+                "endLine": 104,
+                "endColumn": 54,
+                "startColumn": 30,
+                "startLine": 104,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/model/YeastPcCcdSearchWrapper.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/model/YeastPcCcdSearchWrapper.java:104:30:104:54"
+            },
+            {
+                "endLine": 70,
+                "endColumn": 60,
+                "startColumn": 40,
+                "startLine": 70,
+                "filePath": "tetrad-gui/src/test/java/edu/cmu/tetradapp/test/AdjustCopyrights.java",
+                "violationSpecifier": "2095:tetrad-gui/src/test/java/edu/cmu/tetradapp/test/AdjustCopyrights.java:70:40:70:60"
+            },
+            {
+                "endLine": 103,
+                "endColumn": 72,
+                "startColumn": 32,
+                "startLine": 103,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/util/BrainSpecial.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/util/BrainSpecial.java:103:32:103:72"
+            },
+            {
+                "endLine": 40,
+                "endColumn": 55,
+                "startColumn": 30,
+                "startLine": 40,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/util/FileLoadingUtils.java",
+                "violationSpecifier": "2095:tetrad-gui/src/main/java/edu/cmu/tetradapp/util/FileLoadingUtils.java:40:30:40:55"
+            },
+            {
+                "endLine": 59,
+                "endColumn": 61,
+                "startColumn": 17,
+                "startLine": 59,
+                "filePath": "tetrad-lib/src/main/java/jgpml/CSVtoMatrix.java",
+                "violationSpecifier": "2095:tetrad-lib/src/main/java/jgpml/CSVtoMatrix.java:59:17:59:61"
+            }
+        ],
+        "nbViolationsBefore": 64,
+        "nbViolationsAfter": 51
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 208679,
+    "repairTimeMs": 4436,
+    "startTimeMs": 1610915633779,
+    "crashes": [
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 9, length 9\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:483)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 9, length 9"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 10, length 10\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 10, length 10"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 8, length 8\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 8, length 8"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 10, length 10\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 10, length 10"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 12, length 12\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 12, length 12"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 9, length 9\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 9, length 9"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 9, length 9\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 9, length 9"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 9, length 9\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 9, length 9"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 9, length 9\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 9, length 9"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 8, length 8\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 8, length 8"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 18, length 18\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 18, length 18"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 17, length 17\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 17, length 17"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 10, length 10\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 10, length 10"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 12, length 12\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 12, length 12"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 17, length 17\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 17, length 17"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 13, length 13\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 13, length 13"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 12, length 12\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:483)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:484)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:484)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 12, length 12"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 12, length 12\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:483)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:484)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:484)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:484)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 12, length 12"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 12, length 12\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:483)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:484)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:484)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:484)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:484)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 12, length 12"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 8, length 8\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 8, length 8"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 8, length 8\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 8, length 8"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 17, length 17\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtForEach(CtScanner.java:474)\n\tat spoon.support.reflect.code.CtForEachImpl.accept(CtForEachImpl.java:30)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 17, length 17"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 13, length 13\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 13, length 13"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 17, length 17\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 17, length 17"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 12, length 12\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtAssignment(CtScanner.java:281)\n\tat spoon.support.reflect.code.CtAssignmentImpl.accept(CtAssignmentImpl.java:45)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 12, length 12"
+        }
+    ],
+    "endTimeMs": 1610915842458,
+    "parseTimeMs": 21469
+}

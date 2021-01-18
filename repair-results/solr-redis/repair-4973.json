@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 183,
+            "endColumn": 42,
+            "startColumn": 40,
+            "startLine": 183,
+            "filePath": "src/main/java/com/sematext/solr/redis/RedisQParser.java",
+            "violationSpecifier": "4973:src/main/java/com/sematext/solr/redis/RedisQParser.java:183:40:183:42"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 3994,
+    "repairTimeMs": 252,
+    "startTimeMs": 1610912290797,
+    "crashes": [],
+    "endTimeMs": 1610912294791,
+    "parseTimeMs": 1595
+}

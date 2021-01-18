@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [{
+            "endLine": 35,
+            "endColumn": 31,
+            "startColumn": 27,
+            "startLine": 35,
+            "filePath": "src/main/java/amidst/fragment/FragmentGraphItem.java",
+            "violationSpecifier": "2272:src/main/java/amidst/fragment/FragmentGraphItem.java:35:27:35:31"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 9032,
+    "repairTimeMs": 581,
+    "startTimeMs": 1610914410269,
+    "crashes": [],
+    "endTimeMs": 1610914419301,
+    "parseTimeMs": 3819
+}

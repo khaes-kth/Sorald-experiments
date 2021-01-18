@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 3,
+        "performedRepairsLocations": [
+            {
+                "endLine": 115,
+                "endColumn": 68,
+                "startColumn": 25,
+                "startLine": 115,
+                "filePath": "src/test/java/com/amihaiemil/docker/UnixDockerITCase.java",
+                "violationSpecifier": "2142:src/test/java/com/amihaiemil/docker/UnixDockerITCase.java:115:25:115:68"
+            },
+            {
+                "endLine": 153,
+                "endColumn": 68,
+                "startColumn": 25,
+                "startLine": 153,
+                "filePath": "src/test/java/com/amihaiemil/docker/UnixDockerITCase.java",
+                "violationSpecifier": "2142:src/test/java/com/amihaiemil/docker/UnixDockerITCase.java:153:25:153:68"
+            },
+            {
+                "endLine": 199,
+                "endColumn": 68,
+                "startColumn": 25,
+                "startLine": 199,
+                "filePath": "src/test/java/com/amihaiemil/docker/UnixDockerITCase.java",
+                "violationSpecifier": "2142:src/test/java/com/amihaiemil/docker/UnixDockerITCase.java:199:25:199:68"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4642,
+    "repairTimeMs": 234,
+    "startTimeMs": 1610919474225,
+    "crashes": [],
+    "endTimeMs": 1610919478867,
+    "parseTimeMs": 1839
+}

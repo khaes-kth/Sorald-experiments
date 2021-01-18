@@ -1,0 +1,38 @@
+INFO  Configured Java source version (sonar.java.source): 14
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=18ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  1684 source files to be analyzed
+INFO  1311/1684 files analyzed, current file: core/src/main/java/org/openstack4j/openstack/magnum/MagnumCarequest.java
+INFO  1684/1684 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=12130ms
+INFO  Java Test Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed
+INFO  0/0 source files have been analyzed
+-----Number of fixes------
+UnclosedResourcesProcessor: 1
+-----End of report------
+INFO  Configured Java source version (sonar.java.source): 14
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  1684 source files to be analyzed
+INFO  Java Main Files AST scan (done) | time=8734ms
+INFO  1684/1684 source files have been analyzed
+INFO  Java Test Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=2ms
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0/0 source files have been analyzed
+INFO  0/0 source files have been analyzed

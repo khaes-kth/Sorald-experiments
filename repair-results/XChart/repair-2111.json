@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "BigDecimalDoubleConstructor",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2111",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 273,
+            "endColumn": 85,
+            "startColumn": 38,
+            "startLine": 273,
+            "filePath": "xchart/src/main/java/org/knowm/xchart/internal/chartpart/AxisTickCalculator_.java",
+            "violationSpecifier": "2111:xchart/src/main/java/org/knowm/xchart/internal/chartpart/AxisTickCalculator_.java:273:38:273:85"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2111",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 9221,
+    "repairTimeMs": 440,
+    "startTimeMs": 1610902529078,
+    "crashes": [],
+    "endTimeMs": 1610902538299,
+    "parseTimeMs": 3761
+}

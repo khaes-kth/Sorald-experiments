@@ -1,0 +1,66 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 4,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 72,
+                "endColumn": 62,
+                "startColumn": 31,
+                "startLine": 72,
+                "filePath": "src/main/java/com/dd/plist/NSData.java",
+                "violationSpecifier": "2095:src/main/java/com/dd/plist/NSData.java:72:31:72:62"
+            },
+            {
+                "endLine": 134,
+                "endColumn": 52,
+                "startColumn": 20,
+                "startLine": 134,
+                "filePath": "src/main/java/com/dd/plist/NSString.java",
+                "violationSpecifier": "2095:src/main/java/com/dd/plist/NSString.java:134:20:134:52"
+            },
+            {
+                "endLine": 166,
+                "endColumn": 52,
+                "startColumn": 20,
+                "startLine": 166,
+                "filePath": "src/main/java/com/dd/plist/NSString.java",
+                "violationSpecifier": "2095:src/main/java/com/dd/plist/NSString.java:166:20:166:52"
+            },
+            {
+                "endLine": 22,
+                "endColumn": 68,
+                "startColumn": 38,
+                "startLine": 22,
+                "filePath": "src/test/java/com/dd/plist/test/IssueTest.java",
+                "violationSpecifier": "2095:src/test/java/com/dd/plist/test/IssueTest.java:22:38:22:68"
+            }
+        ],
+        "nbViolationsBefore": 4,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 9613,
+    "repairTimeMs": 257,
+    "startTimeMs": 1610912352995,
+    "crashes": [],
+    "endTimeMs": 1610912362608,
+    "parseTimeMs": 1350
+}

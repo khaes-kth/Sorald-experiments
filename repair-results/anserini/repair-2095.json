@@ -1,0 +1,198 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 17,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [
+            {
+                "endLine": 152,
+                "endColumn": 116,
+                "startColumn": 26,
+                "startLine": 152,
+                "filePath": "src/main/java/io/anserini/search/SearchElastic.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/search/SearchElastic.java:152:26:152:116"
+            },
+            {
+                "endLine": 125,
+                "endColumn": 116,
+                "startColumn": 26,
+                "startLine": 125,
+                "filePath": "src/main/java/io/anserini/search/SearchSolr.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/search/SearchSolr.java:125:26:125:116"
+            }
+        ],
+        "nbCrashedRepairs": 2,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 2289,
+                "endColumn": 47,
+                "startColumn": 28,
+                "startLine": 2288,
+                "filePath": "src/main/java/io/anserini/collection/NewYorkTimesCollection.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/collection/NewYorkTimesCollection.java:2288:28:2289:47"
+            },
+            {
+                "endLine": 88,
+                "endColumn": 60,
+                "startColumn": 28,
+                "startLine": 88,
+                "filePath": "src/main/java/io/anserini/index/generator/TweetGenerator.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/index/generator/TweetGenerator.java:88:28:88:60"
+            },
+            {
+                "endLine": 91,
+                "endColumn": 95,
+                "startColumn": 26,
+                "startLine": 91,
+                "filePath": "src/main/java/io/anserini/index/generator/TweetGenerator.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/index/generator/TweetGenerator.java:91:26:91:95"
+            },
+            {
+                "endLine": 274,
+                "endColumn": 66,
+                "startColumn": 24,
+                "startLine": 274,
+                "filePath": "src/test/java/io/anserini/integration/EndToEndTest.java",
+                "violationSpecifier": "2095:src/test/java/io/anserini/integration/EndToEndTest.java:274:24:274:66"
+            },
+            {
+                "endLine": 181,
+                "endColumn": 69,
+                "startColumn": 26,
+                "startLine": 181,
+                "filePath": "src/test/java/io/anserini/integration/MultiThreadingSearchTest.java",
+                "violationSpecifier": "2095:src/test/java/io/anserini/integration/MultiThreadingSearchTest.java:181:26:181:69"
+            },
+            {
+                "endLine": 209,
+                "endColumn": 77,
+                "startColumn": 24,
+                "startLine": 209,
+                "filePath": "src/test/java/io/anserini/integration/solr/SolrEndToEndTest.java",
+                "violationSpecifier": "2095:src/test/java/io/anserini/integration/solr/SolrEndToEndTest.java:209:24:209:77"
+            },
+            {
+                "endLine": 165,
+                "endColumn": 74,
+                "startColumn": 33,
+                "startLine": 165,
+                "filePath": "src/main/java/io/anserini/kg/LookupFreebaseNodes.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/kg/LookupFreebaseNodes.java:165:33:165:74"
+            },
+            {
+                "endLine": 68,
+                "endColumn": 96,
+                "startColumn": 28,
+                "startLine": 68,
+                "filePath": "src/main/java/io/anserini/ltr/FeatureExtractorCli.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/ltr/FeatureExtractorCli.java:68:28:68:96"
+            },
+            {
+                "endLine": 169,
+                "endColumn": 116,
+                "startColumn": 26,
+                "startLine": 169,
+                "filePath": "src/main/java/io/anserini/search/SearchCollection.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/search/SearchCollection.java:169:26:169:116"
+            },
+            {
+                "endLine": 714,
+                "endColumn": 49,
+                "startColumn": 17,
+                "startLine": 714,
+                "filePath": "src/main/java/io/anserini/search/SearchCollection.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/search/SearchCollection.java:714:17:714:49"
+            },
+            {
+                "endLine": 152,
+                "endColumn": 116,
+                "startColumn": 26,
+                "startLine": 152,
+                "filePath": "src/main/java/io/anserini/search/SearchElastic.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/search/SearchElastic.java:152:26:152:116"
+            },
+            {
+                "endLine": 125,
+                "endColumn": 116,
+                "startColumn": 26,
+                "startLine": 125,
+                "filePath": "src/main/java/io/anserini/search/SearchSolr.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/search/SearchSolr.java:125:26:125:116"
+            },
+            {
+                "endLine": 691,
+                "endColumn": 66,
+                "startColumn": 30,
+                "startLine": 691,
+                "filePath": "src/main/java/io/anserini/search/SimpleSearcher.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/search/SimpleSearcher.java:691:30:691:66"
+            },
+            {
+                "endLine": 694,
+                "endColumn": 119,
+                "startColumn": 22,
+                "startLine": 694,
+                "filePath": "src/main/java/io/anserini/search/SimpleSearcher.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/search/SimpleSearcher.java:694:22:694:119"
+            },
+            {
+                "endLine": 174,
+                "endColumn": 76,
+                "startColumn": 35,
+                "startLine": 174,
+                "filePath": "src/main/java/io/anserini/search/SimpleTweetSearcher.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/search/SimpleTweetSearcher.java:174:35:174:76"
+            },
+            {
+                "endLine": 177,
+                "endColumn": 119,
+                "startColumn": 22,
+                "startLine": 177,
+                "filePath": "src/main/java/io/anserini/search/SimpleTweetSearcher.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/search/SimpleTweetSearcher.java:177:22:177:119"
+            },
+            {
+                "endLine": 93,
+                "endColumn": 60,
+                "startColumn": 27,
+                "startLine": 93,
+                "filePath": "src/main/java/io/anserini/util/DumpAnalyzedQueries.java",
+                "violationSpecifier": "2095:src/main/java/io/anserini/util/DumpAnalyzedQueries.java:93:27:93:60"
+            }
+        ],
+        "nbViolationsBefore": 17,
+        "nbViolationsAfter": 12
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 21200,
+    "repairTimeMs": 455,
+    "startTimeMs": 1610915142526,
+    "crashes": [
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 18, length 18\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 18, length 18"
+        },
+        {
+            "description": "Crash in sorald.processor.UnclosedResourcesProcessor::process",
+            "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 15, length 15\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtLocalVariable(CtScanner.java:532)\n\tat spoon.support.reflect.code.CtLocalVariableImpl.accept(CtLocalVariableImpl.java:51)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:738)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:256)\n\tat sorald.Repair.defaultRepair(Repair.java:167)\n\tat sorald.Repair.repair(Repair.java:146)\n\tat sorald.Repair.repair(Repair.java:91)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+            "message": "begin 19, end 15, length 15"
+        }
+    ],
+    "endTimeMs": 1610915163726,
+    "parseTimeMs": 4149
+}

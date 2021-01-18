@@ -1,0 +1,146 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 14,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [
+            {
+                "endLine": 75,
+                "endColumn": 28,
+                "startColumn": 26,
+                "startLine": 75,
+                "filePath": "src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java:75:26:75:28"
+            },
+            {
+                "endLine": 78,
+                "endColumn": 33,
+                "startColumn": 31,
+                "startLine": 78,
+                "filePath": "src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java:78:31:78:33"
+            },
+            {
+                "endLine": 81,
+                "endColumn": 33,
+                "startColumn": 31,
+                "startLine": 81,
+                "filePath": "src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java:81:31:81:33"
+            },
+            {
+                "endLine": 84,
+                "endColumn": 33,
+                "startColumn": 31,
+                "startLine": 84,
+                "filePath": "src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java:84:31:84:33"
+            },
+            {
+                "endLine": 87,
+                "endColumn": 33,
+                "startColumn": 31,
+                "startLine": 87,
+                "filePath": "src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java:87:31:87:33"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 33,
+                "startColumn": 31,
+                "startLine": 90,
+                "filePath": "src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java:90:31:90:33"
+            },
+            {
+                "endLine": 93,
+                "endColumn": 33,
+                "startColumn": 31,
+                "startLine": 93,
+                "filePath": "src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/common/RepeatingTimePeriod.java:93:31:93:33"
+            },
+            {
+                "endLine": 330,
+                "endColumn": 20,
+                "startColumn": 18,
+                "startLine": 330,
+                "filePath": "src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java:330:18:330:20"
+            },
+            {
+                "endLine": 330,
+                "endColumn": 38,
+                "startColumn": 36,
+                "startLine": 330,
+                "filePath": "src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java:330:36:330:38"
+            },
+            {
+                "endLine": 330,
+                "endColumn": 57,
+                "startColumn": 55,
+                "startLine": 330,
+                "filePath": "src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java:330:55:330:57"
+            },
+            {
+                "endLine": 330,
+                "endColumn": 76,
+                "startColumn": 74,
+                "startLine": 330,
+                "filePath": "src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java:330:74:330:76"
+            },
+            {
+                "endLine": 332,
+                "endColumn": 25,
+                "startColumn": 23,
+                "startLine": 332,
+                "filePath": "src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java:332:23:332:25"
+            },
+            {
+                "endLine": 334,
+                "endColumn": 25,
+                "startColumn": 23,
+                "startLine": 334,
+                "filePath": "src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/graph_builder/module/osm/WayPropertySet.java:334:23:334:25"
+            },
+            {
+                "endLine": 171,
+                "endColumn": 44,
+                "startColumn": 42,
+                "startLine": 171,
+                "filePath": "src/main/java/org/opentripplanner/graph_builder/module/shapefile/ShapefileStreetModule.java",
+                "violationSpecifier": "4973:src/main/java/org/opentripplanner/graph_builder/module/shapefile/ShapefileStreetModule.java:171:42:171:44"
+            }
+        ],
+        "nbViolationsBefore": 14,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 27052,
+    "repairTimeMs": 1126,
+    "startTimeMs": 1610902376808,
+    "crashes": [],
+    "endTimeMs": 1610902403860,
+    "parseTimeMs": 12572
+}

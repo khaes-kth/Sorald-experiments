@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 147,
+                "endColumn": 42,
+                "startColumn": 12,
+                "startLine": 147,
+                "filePath": "src/main/java/com/adobe/epubcheck/api/EpubCheck.java",
+                "violationSpecifier": "2095:src/main/java/com/adobe/epubcheck/api/EpubCheck.java:147:12:147:42"
+            },
+            {
+                "endLine": 231,
+                "endColumn": 37,
+                "startColumn": 11,
+                "startLine": 231,
+                "filePath": "src/main/java/com/adobe/epubcheck/bitmap/BitmapChecker.java",
+                "violationSpecifier": "2095:src/main/java/com/adobe/epubcheck/bitmap/BitmapChecker.java:231:11:231:37"
+            },
+            {
+                "endLine": 203,
+                "endColumn": 52,
+                "startColumn": 12,
+                "startLine": 203,
+                "filePath": "src/main/java/com/adobe/epubcheck/util/Archive.java",
+                "violationSpecifier": "2095:src/main/java/com/adobe/epubcheck/util/Archive.java:203:12:203:52"
+            }
+        ],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 23228,
+    "repairTimeMs": 535,
+    "startTimeMs": 1610908803226,
+    "crashes": [],
+    "endTimeMs": 1610908826454,
+    "parseTimeMs": 4126
+}

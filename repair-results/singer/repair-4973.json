@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 128,
+            "endColumn": 35,
+            "startColumn": 33,
+            "startLine": 128,
+            "filePath": "singer-commons/src/main/java/com/pinterest/singer/loggingaudit/client/utils/ConfigUtils.java",
+            "violationSpecifier": "4973:singer-commons/src/main/java/com/pinterest/singer/loggingaudit/client/utils/ConfigUtils.java:128:33:128:35"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 7438,
+    "repairTimeMs": 358,
+    "startTimeMs": 1610920996396,
+    "crashes": [],
+    "endTimeMs": 1610921003834,
+    "parseTimeMs": 3353
+}

@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 52,
+            "endColumn": 29,
+            "startColumn": 27,
+            "startLine": 52,
+            "filePath": "src/main/java/org/nlpcn/commons/lang/tire/SmartGetWord.java",
+            "violationSpecifier": "4973:src/main/java/org/nlpcn/commons/lang/tire/SmartGetWord.java:52:27:52:29"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5579,
+    "repairTimeMs": 291,
+    "startTimeMs": 1610908375021,
+    "crashes": [],
+    "endTimeMs": 1610908380600,
+    "parseTimeMs": 2293
+}

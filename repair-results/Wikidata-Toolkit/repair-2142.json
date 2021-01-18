@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [
+            {
+                "endLine": 159,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 159,
+                "filePath": "wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java",
+                "violationSpecifier": "2142:wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java:159:12:159:34"
+            },
+            {
+                "endLine": 58,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 58,
+                "filePath": "wdtk-util/src/test/java/org/wikidata/wdtk/util/TimerTest.java",
+                "violationSpecifier": "2142:wdtk-util/src/test/java/org/wikidata/wdtk/util/TimerTest.java:58:11:58:33"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 10159,
+    "repairTimeMs": 441,
+    "startTimeMs": 1610910616904,
+    "crashes": [],
+    "endTimeMs": 1610910627063,
+    "parseTimeMs": 4672
+}

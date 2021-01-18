@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [
+            {
+                "endLine": 906,
+                "endColumn": 21,
+                "startColumn": 19,
+                "startLine": 906,
+                "filePath": "modules/core/src/main/java/org/locationtech/jts/io/WKTReader.java",
+                "violationSpecifier": "4973:modules/core/src/main/java/org/locationtech/jts/io/WKTReader.java:906:19:906:21"
+            },
+            {
+                "endLine": 87,
+                "endColumn": 21,
+                "startColumn": 19,
+                "startLine": 87,
+                "filePath": "modules/app/src/main/java/org/locationtech/jtstest/testbuilder/TestListPanel.java",
+                "violationSpecifier": "4973:modules/app/src/main/java/org/locationtech/jtstest/testbuilder/TestListPanel.java:87:19:87:21"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 20606,
+    "repairTimeMs": 1416,
+    "startTimeMs": 1610914953103,
+    "crashes": [],
+    "endTimeMs": 1610914973709,
+    "parseTimeMs": 8674
+}

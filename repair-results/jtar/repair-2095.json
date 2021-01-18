@@ -1,0 +1,66 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 4,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "nbViolationsBefore": 4,
+        "performedRepairsLocations": [
+            {
+                "endLine": 154,
+                "endColumn": 54,
+                "startColumn": 25,
+                "startLine": 154,
+                "filePath": "src/test/java/org/kamranzafar/jtar/JTarTest.java",
+                "violationSpecifier": "2095:src/test/java/org/kamranzafar/jtar/JTarTest.java:154:25:154:54"
+            },
+            {
+                "endLine": 182,
+                "endColumn": 39,
+                "startColumn": 10,
+                "startLine": 182,
+                "filePath": "src/test/java/org/kamranzafar/jtar/JTarTest.java",
+                "violationSpecifier": "2095:src/test/java/org/kamranzafar/jtar/JTarTest.java:182:10:182:39"
+            },
+            {
+                "endLine": 227,
+                "endColumn": 39,
+                "startColumn": 12,
+                "startLine": 227,
+                "filePath": "src/test/java/org/kamranzafar/jtar/JTarTest.java",
+                "violationSpecifier": "2095:src/test/java/org/kamranzafar/jtar/JTarTest.java:227:12:227:39"
+            },
+            {
+                "endLine": 55,
+                "endColumn": 57,
+                "startColumn": 25,
+                "startLine": 55,
+                "filePath": "src/main/java/org/kamranzafar/jtar/TarOutputStream.java",
+                "violationSpecifier": "2095:src/main/java/org/kamranzafar/jtar/TarOutputStream.java:55:25:55:57"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 3371,
+    "repairTimeMs": 192,
+    "startTimeMs": 1610904231170,
+    "crashes": [],
+    "endTimeMs": 1610904234541,
+    "parseTimeMs": 591
+}

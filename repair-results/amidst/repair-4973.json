@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 61,
+            "endColumn": 28,
+            "startColumn": 26,
+            "startLine": 61,
+            "filePath": "src/main/java/amidst/gui/profileselect/LocalProfileComponent.java",
+            "violationSpecifier": "4973:src/main/java/amidst/gui/profileselect/LocalProfileComponent.java:61:26:61:28"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 9096,
+    "repairTimeMs": 419,
+    "startTimeMs": 1610914469135,
+    "crashes": [],
+    "endTimeMs": 1610914478231,
+    "parseTimeMs": 3941
+}

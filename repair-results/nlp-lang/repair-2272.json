@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 74,
+            "endColumn": 19,
+            "startColumn": 15,
+            "startLine": 74,
+            "filePath": "src/main/java/org/nlpcn/commons/lang/util/FileIterator.java",
+            "violationSpecifier": "2272:src/main/java/org/nlpcn/commons/lang/util/FileIterator.java:74:15:74:19"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5714,
+    "repairTimeMs": 468,
+    "startTimeMs": 1610908330176,
+    "crashes": [],
+    "endTimeMs": 1610908335890,
+    "parseTimeMs": 2245
+}

@@ -1,0 +1,90 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 7,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 59,
+                "endColumn": 36,
+                "startColumn": 13,
+                "startLine": 59,
+                "filePath": "src/main/java/com/commafeed/backend/feed/FeedRefreshExecutor.java",
+                "violationSpecifier": "2142:src/main/java/com/commafeed/backend/feed/FeedRefreshExecutor.java:59:13:59:36"
+            },
+            {
+                "endLine": 93,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 93,
+                "filePath": "src/main/java/com/commafeed/backend/feed/FeedRefreshExecutor.java",
+                "violationSpecifier": "2142:src/main/java/com/commafeed/backend/feed/FeedRefreshExecutor.java:93:12:93:34"
+            },
+            {
+                "endLine": 52,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 52,
+                "filePath": "src/main/java/com/commafeed/backend/feed/FeedRefreshTaskGiver.java",
+                "violationSpecifier": "2142:src/main/java/com/commafeed/backend/feed/FeedRefreshTaskGiver.java:52:12:52:34"
+            },
+            {
+                "endLine": 75,
+                "endColumn": 38,
+                "startColumn": 16,
+                "startLine": 75,
+                "filePath": "src/main/java/com/commafeed/backend/feed/FeedRefreshTaskGiver.java",
+                "violationSpecifier": "2142:src/main/java/com/commafeed/backend/feed/FeedRefreshTaskGiver.java:75:16:75:38"
+            },
+            {
+                "endLine": 190,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 190,
+                "filePath": "src/main/java/com/commafeed/backend/feed/FeedRefreshUpdater.java",
+                "violationSpecifier": "2142:src/main/java/com/commafeed/backend/feed/FeedRefreshUpdater.java:190:11:190:33"
+            },
+            {
+                "endLine": 102,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 102,
+                "filePath": "src/main/java/com/commafeed/backend/service/FeedEntryFilteringService.java",
+                "violationSpecifier": "2142:src/main/java/com/commafeed/backend/service/FeedEntryFilteringService.java:102:11:102:33"
+            },
+            {
+                "endLine": 49,
+                "endColumn": 34,
+                "startColumn": 11,
+                "startLine": 49,
+                "filePath": "src/main/java/com/commafeed/backend/service/PubSubService.java",
+                "violationSpecifier": "2142:src/main/java/com/commafeed/backend/service/PubSubService.java:49:11:49:34"
+            }
+        ],
+        "nbViolationsBefore": 7,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5377,
+    "repairTimeMs": 248,
+    "startTimeMs": 1610905292319,
+    "crashes": [],
+    "endTimeMs": 1610905297696,
+    "parseTimeMs": 2251
+}

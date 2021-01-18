@@ -1,0 +1,82 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 6,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 56,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 56,
+                "filePath": "src/test/java/com/github/davidmoten/rx2/FlowablesTest.java",
+                "violationSpecifier": "2142:src/test/java/com/github/davidmoten/rx2/FlowablesTest.java:56:17:56:39"
+            },
+            {
+                "endLine": 63,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 63,
+                "filePath": "src/test/java/com/github/davidmoten/rx2/FlowablesTest.java",
+                "violationSpecifier": "2142:src/test/java/com/github/davidmoten/rx2/FlowablesTest.java:63:17:63:39"
+            },
+            {
+                "endLine": 53,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 53,
+                "filePath": "src/test/java/com/github/davidmoten/rx2/ObservablesTest.java",
+                "violationSpecifier": "2142:src/test/java/com/github/davidmoten/rx2/ObservablesTest.java:53:17:53:39"
+            },
+            {
+                "endLine": 60,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 60,
+                "filePath": "src/test/java/com/github/davidmoten/rx2/ObservablesTest.java",
+                "violationSpecifier": "2142:src/test/java/com/github/davidmoten/rx2/ObservablesTest.java:60:17:60:39"
+            },
+            {
+                "endLine": 48,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 48,
+                "filePath": "src/main/java/com/github/davidmoten/rx2/SchedulerHelper.java",
+                "violationSpecifier": "2142:src/main/java/com/github/davidmoten/rx2/SchedulerHelper.java:48:17:48:39"
+            },
+            {
+                "endLine": 121,
+                "endColumn": 56,
+                "startColumn": 33,
+                "startLine": 121,
+                "filePath": "src/main/java/com/github/davidmoten/rx2/internal/flowable/FlowableStringInputStream.java",
+                "violationSpecifier": "2142:src/main/java/com/github/davidmoten/rx2/internal/flowable/FlowableStringInputStream.java:121:33:121:56"
+            }
+        ],
+        "nbViolationsBefore": 6,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 6087,
+    "repairTimeMs": 310,
+    "startTimeMs": 1610917740183,
+    "crashes": [],
+    "endTimeMs": 1610917746270,
+    "parseTimeMs": 2691
+}

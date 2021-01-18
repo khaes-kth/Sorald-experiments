@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 48,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 48,
+                "filePath": "src/main/java/com/github/lianjiatech/retrofit/spring/boot/retry/BaseRetryInterceptor.java",
+                "violationSpecifier": "2142:src/main/java/com/github/lianjiatech/retrofit/spring/boot/retry/BaseRetryInterceptor.java:48:17:48:39"
+            },
+            {
+                "endLine": 46,
+                "endColumn": 48,
+                "startColumn": 25,
+                "startLine": 46,
+                "filePath": "src/main/java/com/github/lianjiatech/retrofit/spring/boot/retry/DefaultRetryInterceptor.java",
+                "violationSpecifier": "2142:src/main/java/com/github/lianjiatech/retrofit/spring/boot/retry/DefaultRetryInterceptor.java:46:25:46:48"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 3460,
+    "repairTimeMs": 170,
+    "startTimeMs": 1610921197003,
+    "crashes": [],
+    "endTimeMs": 1610921200463,
+    "parseTimeMs": 1277
+}

@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 274,
+            "endColumn": 27,
+            "startColumn": 23,
+            "startLine": 274,
+            "filePath": "src/main/java/io/anserini/index/IndexReaderUtils.java",
+            "violationSpecifier": "2272:src/main/java/io/anserini/index/IndexReaderUtils.java:274:23:274:27"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 10124,
+    "repairTimeMs": 737,
+    "startTimeMs": 1610915098417,
+    "crashes": [],
+    "endTimeMs": 1610915108541,
+    "parseTimeMs": 4649
+}

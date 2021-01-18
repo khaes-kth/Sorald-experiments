@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 398,
+                "endColumn": 79,
+                "startColumn": 17,
+                "startLine": 398,
+                "filePath": "src/main/java/com/github/vincentrussell/query/mongodb/sql/converter/Main.java",
+                "violationSpecifier": "2142:src/main/java/com/github/vincentrussell/query/mongodb/sql/converter/Main.java:398:17:398:79"
+            },
+            {
+                "endLine": 49,
+                "endColumn": 79,
+                "startColumn": 17,
+                "startLine": 49,
+                "filePath": "src/main/java/com/github/vincentrussell/query/mongodb/sql/converter/TimeoutInputStream.java",
+                "violationSpecifier": "2142:src/main/java/com/github/vincentrussell/query/mongodb/sql/converter/TimeoutInputStream.java:49:17:49:79"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4749,
+    "repairTimeMs": 343,
+    "startTimeMs": 1610916919587,
+    "crashes": [],
+    "endTimeMs": 1610916924336,
+    "parseTimeMs": 2006
+}

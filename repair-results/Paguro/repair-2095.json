@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 107,
+                "endColumn": 105,
+                "startColumn": 24,
+                "filePath": "tupleGenerator/TupleGenerator.java",
+                "startLine": 107,
+                "violationSpecifier": "2095:tupleGenerator/TupleGenerator.java:107:24:107:105"
+            },
+            {
+                "endLine": 324,
+                "endColumn": 51,
+                "startColumn": 24,
+                "filePath": "tupleGenerator/TupleGenerator.java",
+                "startLine": 323,
+                "violationSpecifier": "2095:tupleGenerator/TupleGenerator.java:323:24:324:51"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 17317,
+    "repairTimeMs": 461,
+    "startTimeMs": 1610911088614,
+    "crashes": [],
+    "endTimeMs": 1610911105931,
+    "parseTimeMs": 4545
+}

@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [{
+            "endLine": 2675,
+            "endColumn": 39,
+            "startColumn": 17,
+            "startLine": 2675,
+            "filePath": "src/main/java/org/zendesk/client/v2/Zendesk.java",
+            "violationSpecifier": "2142:src/main/java/org/zendesk/client/v2/Zendesk.java:2675:17:2675:39"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 7550,
+    "repairTimeMs": 254,
+    "startTimeMs": 1610906999893,
+    "crashes": [],
+    "endTimeMs": 1610907007443,
+    "parseTimeMs": 2545
+}

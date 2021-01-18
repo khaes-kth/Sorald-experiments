@@ -1,0 +1,82 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 6,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [
+            {
+                "endLine": 29,
+                "endColumn": 23,
+                "startColumn": 21,
+                "startLine": 29,
+                "filePath": "src/test/java/org/organicdesign/fp/collections/ComparisonContextTest.java",
+                "violationSpecifier": "4973:src/test/java/org/organicdesign/fp/collections/ComparisonContextTest.java:29:21:29:23"
+            },
+            {
+                "endLine": 89,
+                "endColumn": 38,
+                "startColumn": 36,
+                "startLine": 89,
+                "filePath": "src/main/java/org/organicdesign/fp/function/Fn1.java",
+                "violationSpecifier": "4973:src/main/java/org/organicdesign/fp/function/Fn1.java:89:36:89:38"
+            },
+            {
+                "endLine": 89,
+                "endColumn": 70,
+                "startColumn": 68,
+                "startLine": 89,
+                "filePath": "src/main/java/org/organicdesign/fp/function/Fn1.java",
+                "violationSpecifier": "4973:src/main/java/org/organicdesign/fp/function/Fn1.java:89:68:89:70"
+            },
+            {
+                "endLine": 98,
+                "endColumn": 38,
+                "startColumn": 36,
+                "startLine": 98,
+                "filePath": "src/main/java/org/organicdesign/fp/function/Fn1.java",
+                "violationSpecifier": "4973:src/main/java/org/organicdesign/fp/function/Fn1.java:98:36:98:38"
+            },
+            {
+                "endLine": 98,
+                "endColumn": 70,
+                "startColumn": 68,
+                "startLine": 98,
+                "filePath": "src/main/java/org/organicdesign/fp/function/Fn1.java",
+                "violationSpecifier": "4973:src/main/java/org/organicdesign/fp/function/Fn1.java:98:68:98:70"
+            },
+            {
+                "endLine": 104,
+                "endColumn": 38,
+                "startColumn": 36,
+                "startLine": 104,
+                "filePath": "src/main/java/org/organicdesign/fp/function/Fn1.java",
+                "violationSpecifier": "4973:src/main/java/org/organicdesign/fp/function/Fn1.java:104:36:104:38"
+            }
+        ],
+        "nbViolationsBefore": 6,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 9189,
+    "repairTimeMs": 490,
+    "startTimeMs": 1610911114175,
+    "crashes": [],
+    "endTimeMs": 1610911123364,
+    "parseTimeMs": 4655
+}

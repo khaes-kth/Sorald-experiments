@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 121,
+            "endColumn": 29,
+            "startColumn": 25,
+            "startLine": 121,
+            "filePath": "src/main/java/org/davidmoten/hilbert/Ranges.java",
+            "violationSpecifier": "2272:src/main/java/org/davidmoten/hilbert/Ranges.java:121:25:121:29"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 2789,
+    "repairTimeMs": 246,
+    "startTimeMs": 1610918279634,
+    "crashes": [],
+    "endTimeMs": 1610918282423,
+    "parseTimeMs": 938
+}

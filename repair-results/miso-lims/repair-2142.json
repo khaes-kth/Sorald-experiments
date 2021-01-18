@@ -1,0 +1,90 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 7,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 68,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 68,
+                "filePath": "integration-tools/src/test/java/uk/ac/bbsrc/tgac/miso/integration/test/BoxScannerTests.java",
+                "violationSpecifier": "2142:integration-tools/src/test/java/uk/ac/bbsrc/tgac/miso/integration/test/BoxScannerTests.java:68:17:68:39"
+            },
+            {
+                "endLine": 75,
+                "endColumn": 37,
+                "startColumn": 15,
+                "startLine": 75,
+                "filePath": "integration-tools/src/test/java/uk/ac/bbsrc/tgac/miso/integration/test/visionmate/VisionMateScannerTests.java",
+                "violationSpecifier": "2142:integration-tools/src/test/java/uk/ac/bbsrc/tgac/miso/integration/test/visionmate/VisionMateScannerTests.java:75:15:75:37"
+            },
+            {
+                "endLine": 87,
+                "endColumn": 38,
+                "startColumn": 15,
+                "startLine": 87,
+                "filePath": "integration-tools/src/test/java/uk/ac/bbsrc/tgac/miso/integration/test/visionmate/VisionMateScannerTests.java",
+                "violationSpecifier": "2142:integration-tools/src/test/java/uk/ac/bbsrc/tgac/miso/integration/test/visionmate/VisionMateScannerTests.java:87:15:87:38"
+            },
+            {
+                "endLine": 84,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 84,
+                "filePath": "integration-tools/src/test/java/uk/ac/bbsrc/tgac/miso/integration/test/visionmate/VisionMateScannerTests.java",
+                "violationSpecifier": "2142:integration-tools/src/test/java/uk/ac/bbsrc/tgac/miso/integration/test/visionmate/VisionMateScannerTests.java:84:13:84:35"
+            },
+            {
+                "endLine": 143,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 143,
+                "filePath": "miso-web/src/it/java/uk/ac/bbsrc/tgac/miso/webapp/integrationtest/AbstractIT.java",
+                "violationSpecifier": "2142:miso-web/src/it/java/uk/ac/bbsrc/tgac/miso/webapp/integrationtest/AbstractIT.java:143:17:143:39"
+            },
+            {
+                "endLine": 36,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 36,
+                "filePath": "miso-web/src/it/java/uk/ac/bbsrc/tgac/miso/webapp/integrationtest/page/AbstractPage.java",
+                "violationSpecifier": "2142:miso-web/src/it/java/uk/ac/bbsrc/tgac/miso/webapp/integrationtest/page/AbstractPage.java:36:13:36:35"
+            },
+            {
+                "endLine": 30,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 30,
+                "filePath": "miso-web/src/it/java/uk/ac/bbsrc/tgac/miso/webapp/integrationtest/page/element/AbstractElement.java",
+                "violationSpecifier": "2142:miso-web/src/it/java/uk/ac/bbsrc/tgac/miso/webapp/integrationtest/page/element/AbstractElement.java:30:13:30:35"
+            }
+        ],
+        "nbViolationsBefore": 7,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 26762,
+    "repairTimeMs": 889,
+    "startTimeMs": 1610904292935,
+    "crashes": [],
+    "endTimeMs": 1610904319697,
+    "parseTimeMs": 12967
+}

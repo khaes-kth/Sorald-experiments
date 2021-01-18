@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "BigDecimalDoubleConstructor",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2111",
+        "performedRepairsLocations": [{
+            "endLine": 113,
+            "endColumn": 46,
+            "startColumn": 22,
+            "startLine": 113,
+            "filePath": "src/test/java/org/opentripplanner/netex/mapping/ServiceLinkMapperTest.java",
+            "violationSpecifier": "2111:src/test/java/org/opentripplanner/netex/mapping/ServiceLinkMapperTest.java:113:22:113:46"
+        }],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 2
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2111",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 28084,
+    "repairTimeMs": 1083,
+    "startTimeMs": 1610902092993,
+    "crashes": [],
+    "endTimeMs": 1610902121077,
+    "parseTimeMs": 12612
+}

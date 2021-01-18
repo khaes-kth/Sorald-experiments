@@ -1,0 +1,44 @@
+WARN  Invalid character encountered in file fromString at line 98 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+INFO  Configured Java source version (sonar.java.source): 14
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=17ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  1057 source files to be analyzed
+INFO  260/1057 files analyzed, current file: jmetal-core/src/main/java/org/uma/jmetal/operator/crossover/impl/DifferentialEvolutionCrossover.java
+INFO  699/1057 files analyzed, current file: jmetal-core/src/main/java/org/uma/jmetal/util/artificialdecisionmaker/impl/ArtificialDecisionMakerDecisionTree.java
+INFO  893/1057 files analyzed, current file: jmetal-problem/src/main/java/org/uma/jmetal/problem/multiobjective/ebes/Ebes.java
+INFO  1057/1057 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=33868ms
+INFO  Java Test Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0/0 source files have been analyzed
+INFO  0/0 source files have been analyzed
+-----Number of fixes------
+UnclosedResourcesProcessor: 11
+-----End of report------
+WARN  Invalid character encountered in file fromString at line 98 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+INFO  Configured Java source version (sonar.java.source): 14
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  1057 source files to be analyzed
+INFO  464/1057 files analyzed, current file: jmetal-example/src/main/java/org/uma/jmetal/example/multiobjective/nsgaii/RNSGAIIWithChartsRunner.java
+INFO  849/1057 files analyzed, current file: jmetal-lab/src/main/java/org/uma/jmetal/lab/experiment/component/impl/GenerateHtmlPages.java
+INFO  Java Main Files AST scan (done) | time=26837ms
+INFO  Java Test Files AST scan
+INFO  1057/1057 source files have been analyzed
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0/0 source files have been analyzed

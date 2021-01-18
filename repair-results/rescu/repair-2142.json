@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 544,
+            "endColumn": 43,
+            "startColumn": 21,
+            "startLine": 544,
+            "filePath": "src/test/java/si/mazi/rescu/RestInvocationHandlerTest.java",
+            "violationSpecifier": "2142:src/test/java/si/mazi/rescu/RestInvocationHandlerTest.java:544:21:544:43"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4130,
+    "repairTimeMs": 185,
+    "startTimeMs": 1610907784306,
+    "crashes": [],
+    "endTimeMs": 1610907788436,
+    "parseTimeMs": 1599
+}

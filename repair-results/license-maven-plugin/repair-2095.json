@@ -1,0 +1,74 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 5,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 39,
+                "endColumn": 56,
+                "startColumn": 30,
+                "startLine": 39,
+                "filePath": "license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/util/FileUtils.java",
+                "violationSpecifier": "2095:license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/util/FileUtils.java:39:30:39:56"
+            },
+            {
+                "endLine": 79,
+                "endColumn": 50,
+                "startColumn": 25,
+                "startLine": 79,
+                "filePath": "license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/util/FileUtils.java",
+                "violationSpecifier": "2095:license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/util/FileUtils.java:79:25:79:50"
+            },
+            {
+                "endLine": 113,
+                "endColumn": 57,
+                "startColumn": 32,
+                "startLine": 113,
+                "filePath": "license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/util/FileUtils.java",
+                "violationSpecifier": "2095:license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/util/FileUtils.java:113:32:113:57"
+            },
+            {
+                "endLine": 114,
+                "endColumn": 59,
+                "startColumn": 33,
+                "startLine": 114,
+                "filePath": "license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/util/FileUtils.java",
+                "violationSpecifier": "2095:license-maven-plugin/src/main/java/com/mycila/maven/plugin/license/util/FileUtils.java:114:33:114:59"
+            },
+            {
+                "endLine": 134,
+                "endColumn": 52,
+                "startColumn": 29,
+                "startLine": 134,
+                "filePath": "license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/util/SelectionTest.java",
+                "violationSpecifier": "2095:license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/util/SelectionTest.java:134:29:134:52"
+            }
+        ],
+        "nbViolationsBefore": 5,
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 6000,
+    "repairTimeMs": 272,
+    "startTimeMs": 1610906953148,
+    "crashes": [],
+    "endTimeMs": 1610906959148,
+    "parseTimeMs": 1519
+}

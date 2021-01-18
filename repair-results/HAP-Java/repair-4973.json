@@ -1,0 +1,130 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 12,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "nbViolationsBefore": 12,
+        "performedRepairsLocations": [
+            {
+                "endLine": 46,
+                "endColumn": 14,
+                "startColumn": 12,
+                "startLine": 46,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:46:12:46:14"
+            },
+            {
+                "endLine": 47,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 47,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:47:15:47:17"
+            },
+            {
+                "endLine": 48,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 48,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:48:15:48:17"
+            },
+            {
+                "endLine": 49,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 49,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:49:15:49:17"
+            },
+            {
+                "endLine": 50,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 50,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:50:15:50:17"
+            },
+            {
+                "endLine": 51,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 51,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:51:15:51:17"
+            },
+            {
+                "endLine": 52,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 52,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:52:15:52:17"
+            },
+            {
+                "endLine": 53,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 53,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:53:15:53:17"
+            },
+            {
+                "endLine": 54,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 54,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:54:15:54:17"
+            },
+            {
+                "endLine": 55,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 55,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:55:15:55:17"
+            },
+            {
+                "endLine": 56,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 56,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:56:15:56:17"
+            },
+            {
+                "endLine": 57,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 57,
+                "filePath": "src/main/java/io/github/hapjava/server/impl/HomekitUtils.java",
+                "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:57:15:57:17"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 0c75eb6f",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 6183,
+    "repairTimeMs": 275,
+    "startTimeMs": 1610912881558,
+    "crashes": [],
+    "endTimeMs": 1610912887741,
+    "parseTimeMs": 2239
+}
