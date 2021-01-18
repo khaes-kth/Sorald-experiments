@@ -1,4 +1,11 @@
 {
+  "totalDetectedViolationsBefore": 1358,
+  "totalDetectedViolationsAfter": 664,
+  "totalPerformedRepairs": 1072,
+  "totalRepairedViolations": 694,
+  "totalCrashes": 203,
+  "totalErrors": 97,
+  "reposWithoutErrors": 26,
   "ruleStats": {
     "1217": {
       "detectedViolationsBeforeRepair": 1,
