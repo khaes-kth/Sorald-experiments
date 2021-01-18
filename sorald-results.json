@@ -5,6 +5,7 @@
   "totalRepairedViolations": 694,
   "totalCrashes": 203,
   "totalErrors": 97,
+  "totalTime": 10754018,
   "reposWithoutErrors": 26,
   "ruleStats": {
     "1217": {
