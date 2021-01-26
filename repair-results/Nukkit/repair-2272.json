@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 208,
             "endColumn": 21,
@@ -13,11 +14,10 @@
             "filePath": "src/main/java/cn/nukkit/utils/BlockIterator.java",
             "violationSpecifier": "2272:src/main/java/cn/nukkit/utils/BlockIterator.java:208:17:208:21"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 21077,
-    "repairTimeMs": 1857,
-    "startTimeMs": 1610919193362,
+    "totalTimeMs": 20449,
+    "repairTimeMs": 1624,
+    "startTimeMs": 1611605684650,
     "crashes": [],
-    "endTimeMs": 1610919214439,
-    "parseTimeMs": 8558
+    "endTimeMs": 1611605705099,
+    "parseTimeMs": 8299
 }

@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
+        "nbViolationsBefore": 4,
         "performedRepairsLocations": [
             {
                 "endLine": 101,
@@ -39,11 +40,10 @@
                 "violationSpecifier": "4973:api/src/test/java/stubs/edu/cornell/mannlib/vitro/webapp/dao/VClassDaoStub.java:76:33:76:35"
             }
         ],
-        "nbViolationsBefore": 4,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -57,10 +57,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 26938,
-    "repairTimeMs": 1519,
-    "startTimeMs": 1610907456925,
+    "totalTimeMs": 26304,
+    "repairTimeMs": 1453,
+    "startTimeMs": 1611593672160,
     "crashes": [],
-    "endTimeMs": 1610907483863,
-    "parseTimeMs": 12213
+    "endTimeMs": 1611593698464,
+    "parseTimeMs": 11884
 }

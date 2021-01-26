@@ -8,10 +8,10 @@ INFO  268 source files to be analyzed
 ERROR Unable to parse source file : 'ask-sdk-servlet-support/tst/com/amazon/ask/servlet/verifiers/SkillRequestTimestampVerifierTest.java'
 ERROR Parse error at line 35 column 84: Syntax error on token ";", delete this token
 INFO  268/268 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=2928ms
+INFO  Java Main Files AST scan (done) | time=2927ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
@@ -29,13 +29,13 @@ INFO  Java Main Files AST scan
 INFO  268 source files to be analyzed
 ERROR Unable to parse source file : 'ask-sdk-servlet-support/tst/com/amazon/ask/servlet/verifiers/SkillRequestTimestampVerifierTest.java'
 ERROR Parse error at line 35 column 84: Syntax error on token ";", delete this token
-INFO  Java Main Files AST scan (done) | time=1527ms
-INFO  268/268 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=1525ms
 INFO  Java Test Files AST scan
+INFO  268/268 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=4ms
-INFO  0/0 source files have been analyzed
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed
 INFO  0/0 source files have been analyzed

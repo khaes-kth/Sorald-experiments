@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "1860",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 54,
@@ -23,11 +24,10 @@
                 "violationSpecifier": "1860:core/src/test/java/com/tdunning/math/stats/TDigestTest.java:68:22:68:26"
             }
         ],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 4614,
-    "repairTimeMs": 280,
-    "startTimeMs": 1610908709198,
+    "totalTimeMs": 5424,
+    "repairTimeMs": 338,
+    "startTimeMs": 1611595046559,
     "crashes": [],
-    "endTimeMs": 1610908713812,
-    "parseTimeMs": 1708
+    "endTimeMs": 1611595051983,
+    "parseTimeMs": 2056
 }

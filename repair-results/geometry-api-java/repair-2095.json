@@ -1,0 +1,122 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 11,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 172,
+                "endColumn": 61,
+                "startColumn": 30,
+                "filePath": "src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java",
+                "startLine": 172,
+                "violationSpecifier": "2095:src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java:172:30:172:61"
+            },
+            {
+                "endLine": 173,
+                "endColumn": 43,
+                "startColumn": 19,
+                "filePath": "src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java",
+                "startLine": 173,
+                "violationSpecifier": "2095:src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java:173:19:173:43"
+            },
+            {
+                "endLine": 188,
+                "endColumn": 58,
+                "startColumn": 28,
+                "filePath": "src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java",
+                "startLine": 188,
+                "violationSpecifier": "2095:src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java:188:28:188:58"
+            },
+            {
+                "endLine": 274,
+                "endColumn": 61,
+                "startColumn": 30,
+                "filePath": "src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java",
+                "startLine": 274,
+                "violationSpecifier": "2095:src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java:274:30:274:61"
+            },
+            {
+                "endLine": 275,
+                "endColumn": 43,
+                "startColumn": 19,
+                "filePath": "src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java",
+                "startLine": 275,
+                "violationSpecifier": "2095:src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java:275:19:275:43"
+            },
+            {
+                "endLine": 290,
+                "endColumn": 58,
+                "startColumn": 28,
+                "filePath": "src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java",
+                "startLine": 290,
+                "violationSpecifier": "2095:src/main/java/com/esri/core/geometry/OperatorFactoryLocal.java:290:28:290:58"
+            },
+            {
+                "endLine": 504,
+                "endColumn": 60,
+                "startColumn": 30,
+                "filePath": "src/main/java/com/esri/core/geometry/RasterizedGeometry2DImpl.java",
+                "startLine": 504,
+                "violationSpecifier": "2095:src/main/java/com/esri/core/geometry/RasterizedGeometry2DImpl.java:504:30:504:60"
+            },
+            {
+                "endLine": 236,
+                "endColumn": 50,
+                "startColumn": 27,
+                "filePath": "src/test/java/com/esri/core/geometry/TestCommonMethods.java",
+                "startLine": 236,
+                "violationSpecifier": "2095:src/test/java/com/esri/core/geometry/TestCommonMethods.java:236:27:236:50"
+            },
+            {
+                "endLine": 237,
+                "endColumn": 55,
+                "startColumn": 27,
+                "filePath": "src/test/java/com/esri/core/geometry/TestCommonMethods.java",
+                "startLine": 237,
+                "violationSpecifier": "2095:src/test/java/com/esri/core/geometry/TestCommonMethods.java:237:27:237:55"
+            },
+            {
+                "endLine": 251,
+                "endColumn": 52,
+                "startColumn": 30,
+                "filePath": "src/test/java/com/esri/core/geometry/TestCommonMethods.java",
+                "startLine": 251,
+                "violationSpecifier": "2095:src/test/java/com/esri/core/geometry/TestCommonMethods.java:251:30:251:52"
+            },
+            {
+                "endLine": 252,
+                "endColumn": 57,
+                "startColumn": 26,
+                "filePath": "src/test/java/com/esri/core/geometry/TestCommonMethods.java",
+                "startLine": 252,
+                "violationSpecifier": "2095:src/test/java/com/esri/core/geometry/TestCommonMethods.java:252:26:252:57"
+            }
+        ],
+        "nbViolationsBefore": 13,
+        "nbViolationsAfter": 2
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 9a05e51b",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 45848,
+    "repairTimeMs": 1093,
+    "startTimeMs": 1611591926800,
+    "crashes": [],
+    "endTimeMs": 1611591972648,
+    "parseTimeMs": 6445
+}

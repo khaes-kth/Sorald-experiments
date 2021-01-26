@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 7,
         "performedRepairsLocations": [
             {
                 "endLine": 870,
@@ -55,11 +56,10 @@
                 "violationSpecifier": "2095:robot-command/src/main/java/org/obolibrary/robot/ValidateProfileCommand.java:107:26:107:52"
             }
         ],
-        "nbViolationsBefore": 7,
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -73,10 +73,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 18873,
-    "repairTimeMs": 357,
-    "startTimeMs": 1610913182956,
+    "totalTimeMs": 18159,
+    "repairTimeMs": 332,
+    "startTimeMs": 1611599543843,
     "crashes": [],
-    "endTimeMs": 1610913201829,
-    "parseTimeMs": 2940
+    "endTimeMs": 1611599562002,
+    "parseTimeMs": 2877
 }

@@ -5,16 +5,16 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1855 source files to be analyzed
-INFO  573/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/MimbuildTrek.java
-INFO  1519/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/bayes/DirichletBayesIm.java
+INFO  617/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/FindOneFactorClusters.java
+INFO  1645/1855 files analyzed, current file: tetrad-lib/src/main/java/jgpml/covariancefunctions/CovNoise.java
 INFO  1855/1855 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=22770ms
+INFO  Java Main Files AST scan (done) | time=21630ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=1ms
+INFO  Java Test Files AST scan (done) | time=2ms
+INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
@@ -27,14 +27,14 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1855 source files to be analyzed
-INFO  1061/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/independence/ProbabilisticTest.java
+INFO  1059/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/EvidenceEditorObs.java
+INFO  Java Main Files AST scan (done) | time=15950ms
 INFO  1855/1855 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=16117ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=2ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

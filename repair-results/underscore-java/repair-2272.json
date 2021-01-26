@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
-        "nbViolationsBefore": 4,
         "performedRepairsLocations": [
             {
                 "endLine": 1838,
@@ -40,10 +39,11 @@
                 "violationSpecifier": "2272:src/test/java/com/github/underscore/UnderscoreTest.java:402:29:402:33"
             }
         ],
+        "nbViolationsBefore": 4,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -57,10 +57,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 11898,
-    "repairTimeMs": 3659,
-    "startTimeMs": 1610910497343,
+    "totalTimeMs": 11905,
+    "repairTimeMs": 3774,
+    "startTimeMs": 1611596832064,
     "crashes": [],
-    "endTimeMs": 1610910509241,
-    "parseTimeMs": 3577
+    "endTimeMs": 1611596843969,
+    "parseTimeMs": 3392
 }

@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 143,
@@ -31,11 +32,10 @@
                 "violationSpecifier": "2142:src/test/java/org/mitre/dsmiley/httpproxy/ParallelConnectionsTest.java:104:17:104:40"
             }
         ],
-        "nbViolationsBefore": 3,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 2737,
-    "repairTimeMs": 201,
-    "startTimeMs": 1610903820878,
+    "totalTimeMs": 2705,
+    "repairTimeMs": 182,
+    "startTimeMs": 1611589972716,
     "crashes": [],
-    "endTimeMs": 1610903823615,
-    "parseTimeMs": 963
+    "endTimeMs": 1611589975421,
+    "parseTimeMs": 951
 }

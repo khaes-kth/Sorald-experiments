@@ -1,21 +1,21 @@
 INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=17ms
+INFO  JavaClasspath initialization (done) | time=16ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=1ms
+INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1159 source files to be analyzed
 INFO  345/1159 files analyzed, current file: modules/core/src/main/java/org/locationtech/jts/io/WKBReader.java
-INFO  852/1159 files analyzed, current file: modules/core/src/main/java/org/locationtech/jts/geom/GeometryFactory.java
+INFO  854/1159 files analyzed, current file: modules/core/src/test/java/org/locationtech/jts/algorithm/NonRobustLineIntersector.java
 INFO  1159/1159 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=25542ms
+INFO  Java Main Files AST scan (done) | time=25421ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
-INFO  Java Generated Files AST scan
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 11
@@ -27,8 +27,8 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1159 source files to be analyzed
-INFO  608/1159 files analyzed, current file: modules/core/src/main/java/org/locationtech/jts/operation/valid/IndexedNestedRingTester.java
-INFO  Java Main Files AST scan (done) | time=18787ms
+INFO  603/1159 files analyzed, current file: modules/core/src/test/java/org/locationtech/jts/operation/overlayng/OverlayNGTest.java
+INFO  Java Main Files AST scan (done) | time=18788ms
 INFO  Java Test Files AST scan
 INFO  1159/1159 source files have been analyzed
 INFO  0 source files to be analyzed

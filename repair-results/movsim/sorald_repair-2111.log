@@ -1,12 +1,12 @@
 INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=17ms
+INFO  JavaClasspath initialization (done) | time=16ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=1ms
+INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
-INFO  223 source files to be analyzed
-INFO  223/223 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=3265ms
+INFO  330 source files to be analyzed
+INFO  330/330 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=4198ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
@@ -24,14 +24,14 @@ INFO  JavaClasspath initialization (done) | time=0ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
-INFO  223 source files to be analyzed
-INFO  Java Main Files AST scan (done) | time=1837ms
-INFO  223/223 source files have been analyzed
+INFO  330 source files to be analyzed
+INFO  330/330 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=2339ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
-INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

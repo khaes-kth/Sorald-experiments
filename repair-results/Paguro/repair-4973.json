@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
+        "nbViolationsBefore": 6,
         "performedRepairsLocations": [
             {
                 "endLine": 29,
@@ -55,11 +56,10 @@
                 "violationSpecifier": "4973:src/main/java/org/organicdesign/fp/function/Fn1.java:104:36:104:38"
             }
         ],
-        "nbViolationsBefore": 6,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -73,10 +73,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 9189,
-    "repairTimeMs": 490,
-    "startTimeMs": 1610911114175,
+    "totalTimeMs": 9041,
+    "repairTimeMs": 435,
+    "startTimeMs": 1611597452261,
     "crashes": [],
-    "endTimeMs": 1610911123364,
-    "parseTimeMs": 4655
+    "endTimeMs": 1611597461302,
+    "parseTimeMs": 4621
 }

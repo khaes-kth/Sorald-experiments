@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
-        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 74,
             "endColumn": 19,
@@ -14,10 +13,11 @@
             "filePath": "src/main/java/org/nlpcn/commons/lang/util/FileIterator.java",
             "violationSpecifier": "2272:src/main/java/org/nlpcn/commons/lang/util/FileIterator.java:74:15:74:19"
         }],
+        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5714,
-    "repairTimeMs": 468,
-    "startTimeMs": 1610908330176,
+    "totalTimeMs": 5916,
+    "repairTimeMs": 431,
+    "startTimeMs": 1611594638582,
     "crashes": [],
-    "endTimeMs": 1610908335890,
-    "parseTimeMs": 2245
+    "endTimeMs": 1611594644498,
+    "parseTimeMs": 2514
 }

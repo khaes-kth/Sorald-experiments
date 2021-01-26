@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
+        "nbViolationsBefore": 6,
         "performedRepairsLocations": [
             {
                 "endLine": 93,
@@ -55,11 +56,10 @@
                 "violationSpecifier": "2272:api/src/main/java/edu/cornell/mannlib/vitro/webapp/utils/sparql/ResultSetIterators.java:69:16:69:20"
             }
         ],
-        "nbViolationsBefore": 6,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -73,10 +73,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 28414,
-    "repairTimeMs": 2904,
-    "startTimeMs": 1610907223356,
+    "totalTimeMs": 28586,
+    "repairTimeMs": 2886,
+    "startTimeMs": 1611593431631,
     "crashes": [],
-    "endTimeMs": 1610907251770,
-    "parseTimeMs": 12152
+    "endTimeMs": 1611593460217,
+    "parseTimeMs": 12405
 }

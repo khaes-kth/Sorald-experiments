@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 39,
@@ -23,11 +24,10 @@
                 "violationSpecifier": "2272:src/main/java/bad/robot/excel/sheet/SheetNameIterator.java:37:18:37:22"
             }
         ],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 3807,
-    "repairTimeMs": 273,
-    "startTimeMs": 1610905045392,
+    "totalTimeMs": 3974,
+    "repairTimeMs": 271,
+    "startTimeMs": 1611591193932,
     "crashes": [],
-    "endTimeMs": 1610905049199,
-    "parseTimeMs": 1443
+    "endTimeMs": 1611591197906,
+    "parseTimeMs": 1539
 }

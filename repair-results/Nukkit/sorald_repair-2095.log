@@ -6,17 +6,17 @@ INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1533 source files to be analyzed
 INFO  481/1533 files analyzed, current file: src/main/java/cn/nukkit/inventory/BaseInventory.java
-INFO  911/1533 files analyzed, current file: src/main/java/cn/nukkit/level/format/anvil/Anvil.java
+INFO  919/1533 files analyzed, current file: src/main/java/cn/nukkit/block/BlockLeaves.java
 INFO  1433/1533 files analyzed, current file: src/main/java/cn/nukkit/level/Level.java
 INFO  1533/1533 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=32044ms
+INFO  Java Main Files AST scan (done) | time=31829ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=5ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 3
@@ -28,15 +28,15 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1533 source files to be analyzed
-INFO  750/1533 files analyzed, current file: src/main/java/cn/nukkit/command/defaults/ParticleCommand.java
-INFO  1274/1533 files analyzed, current file: src/main/java/cn/nukkit/level/format/generic/BaseChunk.java
-INFO  Java Main Files AST scan (done) | time=25411ms
+INFO  784/1533 files analyzed, current file: src/main/java/cn/nukkit/utils/Config.java
+INFO  1316/1533 files analyzed, current file: src/main/java/cn/nukkit/event/level/ThunderChangeEvent.java
+INFO  Java Main Files AST scan (done) | time=24928ms
 INFO  Java Test Files AST scan
 INFO  1533/1533 source files have been analyzed
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
-INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

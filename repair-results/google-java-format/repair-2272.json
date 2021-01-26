@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 189,
+            "endColumn": 22,
+            "startColumn": 18,
+            "startLine": 189,
+            "filePath": "core/src/main/java/com/google/googlejavaformat/Newlines.java",
+            "violationSpecifier": "2272:core/src/main/java/com/google/googlejavaformat/Newlines.java:189:18:189:22"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 9a05e51b",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 7092,
+    "repairTimeMs": 494,
+    "startTimeMs": 1611599886137,
+    "crashes": [],
+    "endTimeMs": 1611599893229,
+    "parseTimeMs": 3472
+}

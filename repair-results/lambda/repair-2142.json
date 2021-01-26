@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [{
+            "endLine": 24,
+            "endColumn": 39,
+            "startColumn": 17,
+            "startLine": 24,
+            "filePath": "src/test/java/testsupport/traits/InfiniteIterableSupport.java",
+            "violationSpecifier": "2142:src/test/java/testsupport/traits/InfiniteIterableSupport.java:24:17:24:39"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 9a05e51b",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 24948,
+    "repairTimeMs": 510,
+    "startTimeMs": 1611595433819,
+    "crashes": [],
+    "endTimeMs": 1611595458767,
+    "parseTimeMs": 18179
+}

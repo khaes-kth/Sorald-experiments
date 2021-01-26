@@ -5,19 +5,19 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 89,
             "endColumn": 41,
             "startColumn": 37,
-            "filePath": "moa/src/main/java/moa/recommender/rc/utils/DenseVector.java",
             "startLine": 89,
+            "filePath": "moa/src/main/java/moa/recommender/rc/utils/DenseVector.java",
             "violationSpecifier": "2272:moa/src/main/java/moa/recommender/rc/utils/DenseVector.java:89:37:89:41"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 22146,
-    "repairTimeMs": 3201,
-    "startTimeMs": 1610909728687,
+    "totalTimeMs": 21953,
+    "repairTimeMs": 2978,
+    "startTimeMs": 1611596070237,
     "crashes": [],
-    "endTimeMs": 1610909750833,
-    "parseTimeMs": 8623
+    "endTimeMs": 1611596092190,
+    "parseTimeMs": 8633
 }

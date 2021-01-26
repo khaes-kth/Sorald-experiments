@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 445,
+            "endColumn": 27,
+            "startColumn": 25,
+            "startLine": 445,
+            "filePath": "src/main/java/org/apache/joshua/pro/Optimizer.java",
+            "violationSpecifier": "4973:src/main/java/org/apache/joshua/pro/Optimizer.java:445:25:445:27"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 9a05e51b",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 15460,
+    "repairTimeMs": 873,
+    "startTimeMs": 1611603680219,
+    "crashes": [],
+    "endTimeMs": 1611603695679,
+    "parseTimeMs": 8011
+}

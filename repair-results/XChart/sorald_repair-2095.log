@@ -1,18 +1,18 @@
 INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=16ms
+INFO  JavaClasspath initialization (done) | time=17ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  308 source files to be analyzed
-INFO  216/308 files analyzed, current file: xchart/src/main/java/org/knowm/xchart/internal/chartpart/AxisTickCalculator_Logarithmic.java
+INFO  215/308 files analyzed, current file: xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue390.java
 INFO  308/308 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=12364ms
+INFO  Java Main Files AST scan (done) | time=12512ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
-INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
+INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
@@ -26,13 +26,13 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  308 source files to be analyzed
-INFO  Java Main Files AST scan (done) | time=8307ms
+INFO  Java Main Files AST scan (done) | time=8366ms
 INFO  308/308 source files have been analyzed
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
-INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
+INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2111",
-        "nbViolationsBefore": 32,
         "performedRepairsLocations": [
             {
                 "endLine": 486,
@@ -20,8 +19,8 @@
                 "endColumn": 57,
                 "startColumn": 27,
                 "startLine": 418,
-                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/CollectionTest.java",
-                "violationSpecifier": "2111:protostuff-runtime/src/test/java/io/protostuff/runtime/CollectionTest.java:418:27:418:57"
+                "filePath": "protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/CollectionTest.java",
+                "violationSpecifier": "2111:protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/CollectionTest.java:418:27:418:57"
             },
             {
                 "endLine": 192,
@@ -188,86 +187,87 @@
                 "endColumn": 61,
                 "startColumn": 41,
                 "startLine": 519,
-                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java",
-                "violationSpecifier": "2111:protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java:519:41:519:61"
+                "filePath": "protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java",
+                "violationSpecifier": "2111:protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java:519:41:519:61"
             },
             {
                 "endLine": 519,
                 "endColumn": 83,
                 "startColumn": 63,
                 "startLine": 519,
-                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java",
-                "violationSpecifier": "2111:protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java:519:63:519:83"
+                "filePath": "protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java",
+                "violationSpecifier": "2111:protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java:519:63:519:83"
             },
             {
                 "endLine": 559,
                 "endColumn": 55,
                 "startColumn": 35,
                 "startLine": 559,
-                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java",
-                "violationSpecifier": "2111:protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java:559:35:559:55"
+                "filePath": "protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java",
+                "violationSpecifier": "2111:protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java:559:35:559:55"
             },
             {
                 "endLine": 559,
                 "endColumn": 77,
                 "startColumn": 57,
                 "startLine": 559,
-                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java",
-                "violationSpecifier": "2111:protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java:559:57:559:77"
+                "filePath": "protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java",
+                "violationSpecifier": "2111:protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java:559:57:559:77"
             },
             {
                 "endLine": 599,
                 "endColumn": 55,
                 "startColumn": 35,
                 "startLine": 599,
-                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java",
-                "violationSpecifier": "2111:protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java:599:35:599:55"
+                "filePath": "protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java",
+                "violationSpecifier": "2111:protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java:599:35:599:55"
             },
             {
                 "endLine": 599,
                 "endColumn": 83,
                 "startColumn": 63,
                 "startLine": 599,
-                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java",
-                "violationSpecifier": "2111:protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java:599:63:599:83"
+                "filePath": "protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java",
+                "violationSpecifier": "2111:protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java:599:63:599:83"
             },
             {
                 "endLine": 639,
                 "endColumn": 61,
                 "startColumn": 41,
                 "startLine": 639,
-                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java",
-                "violationSpecifier": "2111:protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java:639:41:639:61"
+                "filePath": "protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java",
+                "violationSpecifier": "2111:protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java:639:41:639:61"
             },
             {
                 "endLine": 639,
                 "endColumn": 83,
                 "startColumn": 63,
                 "startLine": 639,
-                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java",
-                "violationSpecifier": "2111:protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java:639:63:639:83"
+                "filePath": "protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java",
+                "violationSpecifier": "2111:protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java:639:63:639:83"
             },
             {
                 "endLine": 679,
                 "endColumn": 61,
                 "startColumn": 41,
                 "startLine": 679,
-                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java",
-                "violationSpecifier": "2111:protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java:679:41:679:61"
+                "filePath": "protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java",
+                "violationSpecifier": "2111:protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java:679:41:679:61"
             },
             {
                 "endLine": 679,
                 "endColumn": 89,
                 "startColumn": 69,
                 "startLine": 679,
-                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java",
-                "violationSpecifier": "2111:protostuff-runtime/src/test/java/io/protostuff/runtime/NullArrayElementTest.java:679:69:679:89"
+                "filePath": "protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java",
+                "violationSpecifier": "2111:protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/NullArrayElementTest.java:679:69:679:89"
             }
         ],
-        "nbViolationsAfter": 0
+        "nbViolationsBefore": 63,
+        "nbViolationsAfter": 31
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -281,10 +281,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 15224,
-    "repairTimeMs": 847,
-    "startTimeMs": 1610908008237,
+    "totalTimeMs": 18954,
+    "repairTimeMs": 989,
+    "startTimeMs": 1611594218790,
     "crashes": [],
-    "endTimeMs": 1610908023461,
-    "parseTimeMs": 6472
+    "endTimeMs": 1611594237744,
+    "parseTimeMs": 7790
 }

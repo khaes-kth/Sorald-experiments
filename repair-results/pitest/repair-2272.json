@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 56,
             "endColumn": 24,
@@ -13,11 +14,10 @@
             "filePath": "pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/InputStreamLineIterable.java",
             "violationSpecifier": "2272:pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/InputStreamLineIterable.java:56:20:56:24"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 16520,
-    "repairTimeMs": 1764,
-    "startTimeMs": 1610908457783,
+    "totalTimeMs": 17661,
+    "repairTimeMs": 1696,
+    "startTimeMs": 1611594768855,
     "crashes": [],
-    "endTimeMs": 1610908474303,
-    "parseTimeMs": 6645
+    "endTimeMs": 1611594786516,
+    "parseTimeMs": 7306
 }

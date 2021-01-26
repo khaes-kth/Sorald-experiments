@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 16,
@@ -31,11 +32,10 @@
                 "violationSpecifier": "2095:src/main/java/com/spotify/sparkey/LogWriter.java:49:40:49:72"
             }
         ],
-        "nbViolationsBefore": 3,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 7014,
-    "repairTimeMs": 235,
-    "startTimeMs": 1610911553004,
+    "totalTimeMs": 10035,
+    "repairTimeMs": 319,
+    "startTimeMs": 1611597893909,
     "crashes": [],
-    "endTimeMs": 1610911560018,
-    "parseTimeMs": 1481
+    "endTimeMs": 1611597903944,
+    "parseTimeMs": 1704
 }

@@ -2,19 +2,19 @@ INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=17ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=1ms
+INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1268 source files to be analyzed
-INFO  978/1268 files analyzed, current file: api/src/main/java/edu/cornell/mannlib/vitro/webapp/dao/jena/JenaBaseDao.java
+INFO  985/1268 files analyzed, current file: api/src/test/java/edu/cornell/mannlib/vitro/webapp/controller/authenticate/AuthenticatorStub.java
 INFO  1268/1268 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=11959ms
+INFO  Java Main Files AST scan (done) | time=11920ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=1ms
+INFO  Java Test Files AST scan (done) | time=2ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=3ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 ThreadRunProcessor: 0
@@ -26,7 +26,7 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1268 source files to be analyzed
-INFO  Java Main Files AST scan (done) | time=8130ms
+INFO  Java Main Files AST scan (done) | time=7663ms
 INFO  1268/1268 source files have been analyzed
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
@@ -34,5 +34,5 @@ INFO  Java Test Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed

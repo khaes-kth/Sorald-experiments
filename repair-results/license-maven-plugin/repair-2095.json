@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 5,
         "performedRepairsLocations": [
             {
                 "endLine": 39,
@@ -47,11 +48,10 @@
                 "violationSpecifier": "2095:license-maven-plugin/src/test/java/com/mycila/maven/plugin/license/util/SelectionTest.java:134:29:134:52"
             }
         ],
-        "nbViolationsBefore": 5,
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -65,10 +65,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 6000,
-    "repairTimeMs": 272,
-    "startTimeMs": 1610906953148,
+    "totalTimeMs": 6801,
+    "repairTimeMs": 259,
+    "startTimeMs": 1611593161905,
     "crashes": [],
-    "endTimeMs": 1610906959148,
-    "parseTimeMs": 1519
+    "endTimeMs": 1611593168706,
+    "parseTimeMs": 1593
 }

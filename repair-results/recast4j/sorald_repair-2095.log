@@ -1,14 +1,14 @@
 INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=17ms
+INFO  JavaClasspath initialization (done) | time=16ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  235 source files to be analyzed
 INFO  77/235 files analyzed, current file: detourtilecache/src/main/java/org/recast4j/detour/tilecache/TileCacheBuilder.java
-INFO  136/235 files analyzed, current file: recast-demo/src/main/java/org/recast4j/demo/draw/RecastDebugDraw.java
+INFO  147/235 files analyzed, current file: detour/src/test/java/org/recast4j/detour/NavMeshBuilderTest.java
 INFO  235/235 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=26835ms
+INFO  Java Main Files AST scan (done) | time=25354ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
@@ -27,15 +27,14 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  235 source files to be analyzed
-INFO  101/235 files analyzed, current file: detour/src/test/java/org/recast4j/detour/TestDetourBuilder.java
-INFO  222/235 files analyzed, current file: recast-demo/src/main/java/org/recast4j/demo/tool/ConvexVolumeTool.java
-INFO  Java Main Files AST scan (done) | time=20688ms
-INFO  Java Test Files AST scan
+INFO  104/235 files analyzed, current file: recast-demo/src/main/java/org/recast4j/demo/draw/NavMeshRenderer.java
+INFO  Java Main Files AST scan (done) | time=19218ms
 INFO  235/235 source files have been analyzed
+INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=2ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

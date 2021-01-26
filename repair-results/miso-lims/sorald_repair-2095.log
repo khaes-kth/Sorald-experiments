@@ -1,22 +1,22 @@
 INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=18ms
+INFO  JavaClasspath initialization (done) | time=17ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization (done) | time=1ms
 INFO  Java Main Files AST scan
-INFO  1410 source files to be analyzed
-INFO  150/1410 files analyzed, current file: core/src/main/java/uk/ac/bbsrc/tgac/miso/core/data/impl/view/PoolableElementView.java
-INFO  640/1410 files analyzed, current file: core/src/main/java/uk/ac/bbsrc/tgac/miso/core/data/AbstractBox.java
-INFO  1285/1410 files analyzed, current file: migration/src/main/java/uk/ac/bbsrc/tgac/miso/migration/MigrationProperties.java
-INFO  1410/1410 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=32087ms
+INFO  1411 source files to be analyzed
+INFO  150/1411 files analyzed, current file: core/src/main/java/uk/ac/bbsrc/tgac/miso/core/data/impl/view/PoolableElementView.java
+INFO  640/1411 files analyzed, current file: core/src/main/java/uk/ac/bbsrc/tgac/miso/core/data/AbstractBox.java
+INFO  1290/1411 files analyzed, current file: miso-service/src/main/java/uk/ac/bbsrc/tgac/miso/service/impl/DefaultQcTypeService.java
+INFO  1411/1411 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=31973ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=13ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 5
@@ -27,16 +27,16 @@ INFO  JavaClasspath initialization (done) | time=0ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
-INFO  1410 source files to be analyzed
-INFO  332/1410 files analyzed, current file: pinery-miso/src/main/java/ca/on/oicr/pinery/lims/miso/MisoClient.java
-INFO  1060/1410 files analyzed, current file: miso-web/src/it/java/uk/ac/bbsrc/tgac/miso/webapp/integrationtest/BulkLibraryIT.java
-INFO  1410/1410 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=25612ms
+INFO  1411 source files to be analyzed
+INFO  332/1411 files analyzed, current file: pinery-miso/src/main/java/ca/on/oicr/pinery/lims/miso/MisoClient.java
+INFO  1148/1411 files analyzed, current file: miso-service/src/main/java/uk/ac/bbsrc/tgac/miso/service/impl/DefaultSampleClassService.java
+INFO  Java Main Files AST scan (done) | time=24707ms
 INFO  Java Test Files AST scan
+INFO  1411/1411 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=2ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
+INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=1ms
-INFO  0/0 source files have been analyzed
 INFO  0/0 source files have been analyzed

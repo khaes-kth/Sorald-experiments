@@ -3,16 +3,16 @@ INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=17ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization (done) | time=1ms
 INFO  Java Main Files AST scan
 INFO  341 source files to be analyzed
 INFO  92/341 files analyzed, current file: TestFiles/spdx-parser-source/org/spdx/spdxspreadsheet/PackageInfoSheetV9d1.java
 ERROR Unable to parse source file : 'TestFiles/spdx-parser-source/org/spdx/rdfparser/PrettyPrinter.java'
 ERROR Parse error at line 191 column 0: Syntax error, insert "}" to complete ClassBody
-INFO  233/341 files analyzed, current file: TestFiles/spdx-parser-source/org/spdx/spdxspreadsheet/PackageInfoSheetV09d2.java
+INFO  232/341 files analyzed, current file: src/org/spdx/tools/RdfToHtml.java
 INFO  315/341 files analyzed, current file: src/org/spdx/compare/SpdxComparer.java
 INFO  341/341 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=31915ms
+INFO  Java Main Files AST scan (done) | time=32211ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms

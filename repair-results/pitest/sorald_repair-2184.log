@@ -2,21 +2,21 @@ INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=17ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization (done) | time=1ms
 INFO  Java Main Files AST scan
-INFO  968 source files to be analyzed
-INFO  968/968 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=7324ms
+INFO  1069 source files to be analyzed
+INFO  1069/1069 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=7787ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=2ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
-CastArithmeticOperandProcessor: 0
+CastArithmeticOperandProcessor: 1
 -----End of report------
 INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
@@ -24,14 +24,14 @@ INFO  JavaClasspath initialization (done) | time=0ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
-INFO  968 source files to be analyzed
-INFO  Java Main Files AST scan (done) | time=4755ms
-INFO  968/968 source files have been analyzed
+INFO  1069 source files to be analyzed
+INFO  Java Main Files AST scan (done) | time=5039ms
+INFO  1069/1069 source files have been analyzed
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
-INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0/0 source files have been analyzed
 INFO  0/0 source files have been analyzed

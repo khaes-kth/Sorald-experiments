@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 12,
         "performedRepairsLocations": [
             {
                 "endLine": 117,
@@ -95,11 +96,10 @@
                 "violationSpecifier": "2095:jmetal-core/src/test/java/org/uma/jmetal/util/front/impl/ArrayFrontTest.java:45:26:45:69"
             }
         ],
-        "nbViolationsBefore": 12,
         "nbViolationsAfter": 4
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -113,10 +113,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 44201,
-    "repairTimeMs": 984,
-    "startTimeMs": 1610910184553,
+    "totalTimeMs": 43574,
+    "repairTimeMs": 1285,
+    "startTimeMs": 1611596522061,
     "crashes": [],
-    "endTimeMs": 1610910228754,
-    "parseTimeMs": 8223
+    "endTimeMs": 1611596565635,
+    "parseTimeMs": 8130
 }

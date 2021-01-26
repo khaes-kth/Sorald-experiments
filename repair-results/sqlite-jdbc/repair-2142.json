@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 47,
@@ -32,10 +31,11 @@
                 "violationSpecifier": "2142:src/main/java/org/sqlite/util/OSInfo.java:219:18:219:40"
             }
         ],
+        "nbViolationsBefore": 3,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5660,
-    "repairTimeMs": 356,
-    "startTimeMs": 1610907914278,
+    "totalTimeMs": 5745,
+    "repairTimeMs": 348,
+    "startTimeMs": 1611594125482,
     "crashes": [],
-    "endTimeMs": 1610907919938,
-    "parseTimeMs": 2373
+    "endTimeMs": 1611594131227,
+    "parseTimeMs": 2457
 }

@@ -10,32 +10,32 @@
                 "endLine": 75,
                 "endColumn": 48,
                 "startColumn": 23,
-                "filePath": "protostuff-compiler/src/main/java/io/protostuff/compiler/CompilerMain.java",
                 "startLine": 75,
+                "filePath": "protostuff-compiler/src/main/java/io/protostuff/compiler/CompilerMain.java",
                 "violationSpecifier": "2095:protostuff-compiler/src/main/java/io/protostuff/compiler/CompilerMain.java:75:23:75:48"
             },
             {
                 "endLine": 97,
                 "endColumn": 48,
                 "startColumn": 23,
-                "filePath": "protostuff-compiler/src/main/java/io/protostuff/compiler/CompilerMain.java",
                 "startLine": 97,
+                "filePath": "protostuff-compiler/src/main/java/io/protostuff/compiler/CompilerMain.java",
                 "violationSpecifier": "2095:protostuff-compiler/src/main/java/io/protostuff/compiler/CompilerMain.java:97:23:97:48"
             },
             {
                 "endLine": 48,
                 "endColumn": 63,
                 "startColumn": 31,
-                "filePath": "protostuff-compiler/src/main/java/io/protostuff/compiler/CompilerUtil.java",
                 "startLine": 48,
+                "filePath": "protostuff-compiler/src/main/java/io/protostuff/compiler/CompilerUtil.java",
                 "violationSpecifier": "2095:protostuff-compiler/src/main/java/io/protostuff/compiler/CompilerUtil.java:48:31:48:63"
             },
             {
                 "endLine": 61,
                 "endColumn": 83,
                 "startColumn": 32,
-                "filePath": "protostuff-compiler/src/main/java/io/protostuff/compiler/ProtoToProtoCompiler.java",
                 "startLine": 61,
+                "filePath": "protostuff-compiler/src/main/java/io/protostuff/compiler/ProtoToProtoCompiler.java",
                 "violationSpecifier": "2095:protostuff-compiler/src/main/java/io/protostuff/compiler/ProtoToProtoCompiler.java:61:32:61:83"
             }
         ],
@@ -43,7 +43,7 @@
         "nbViolationsAfter": 2
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -57,10 +57,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 62729,
-    "repairTimeMs": 701,
-    "startTimeMs": 1610908115604,
+    "totalTimeMs": 91345,
+    "repairTimeMs": 997,
+    "startTimeMs": 1611594350338,
     "crashes": [],
-    "endTimeMs": 1610908178333,
-    "parseTimeMs": 6231
+    "endTimeMs": 1611594441683,
+    "parseTimeMs": 7704
 }

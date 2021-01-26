@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 510,
             "endColumn": 34,
@@ -13,11 +14,10 @@
             "filePath": "src/main/java/de/timroes/axmlrpc/XMLRPCClient.java",
             "violationSpecifier": "2142:src/main/java/de/timroes/axmlrpc/XMLRPCClient.java:510:11:510:34"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 2789,
-    "repairTimeMs": 198,
-    "startTimeMs": 1610904023896,
+    "totalTimeMs": 2781,
+    "repairTimeMs": 199,
+    "startTimeMs": 1611590176445,
     "crashes": [],
-    "endTimeMs": 1610904026685,
-    "parseTimeMs": 943
+    "endTimeMs": 1611590179226,
+    "parseTimeMs": 937
 }

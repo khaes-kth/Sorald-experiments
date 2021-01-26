@@ -5,16 +5,16 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1513 source files to be analyzed
-INFO  1168/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/cte300/webservices/inutilizacao/CteInutilizacaoStub.java
+INFO  1068/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/nfe400/webservices/gerado/NFeAutorizacao4Stub.java
 INFO  1513/1513 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=12761ms
+INFO  Java Main Files AST scan (done) | time=13250ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  0/0 source files have been analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 IteratorNextExceptionProcessor: 0
@@ -26,13 +26,13 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1513 source files to be analyzed
+INFO  Java Main Files AST scan (done) | time=8978ms
 INFO  1513/1513 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=9082ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  0/0 source files have been analyzed
 INFO  Java Test Files AST scan (done) | time=2ms
 INFO  Java Generated Files AST scan
-INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
+INFO  0 source files to be analyzed
+INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms

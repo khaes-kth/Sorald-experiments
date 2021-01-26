@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [
+            {
+                "endLine": 43,
+                "endColumn": 37,
+                "startColumn": 33,
+                "startLine": 43,
+                "filePath": "src/test/java/com/googlecode/aviator/example/seq/ResultSetSequence.java",
+                "violationSpecifier": "2272:src/test/java/com/googlecode/aviator/example/seq/ResultSetSequence.java:43:33:43:37"
+            },
+            {
+                "endLine": 56,
+                "endColumn": 24,
+                "startColumn": 20,
+                "startLine": 56,
+                "filePath": "src/main/java/com/googlecode/aviator/runtime/type/seq/ArraySequence.java",
+                "violationSpecifier": "2272:src/main/java/com/googlecode/aviator/runtime/type/seq/ArraySequence.java:56:20:56:24"
+            },
+            {
+                "endLine": 46,
+                "endColumn": 24,
+                "startColumn": 20,
+                "startLine": 46,
+                "filePath": "src/main/java/com/googlecode/aviator/runtime/type/seq/CharSeqSequence.java",
+                "violationSpecifier": "2272:src/main/java/com/googlecode/aviator/runtime/type/seq/CharSeqSequence.java:46:20:46:24"
+            }
+        ],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 9a05e51b",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 10304,
+    "repairTimeMs": 820,
+    "startTimeMs": 1611587809345,
+    "crashes": [],
+    "endTimeMs": 1611587819649,
+    "parseTimeMs": 4275
+}

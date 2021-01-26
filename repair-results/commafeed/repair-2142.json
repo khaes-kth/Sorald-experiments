@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 7,
         "performedRepairsLocations": [
             {
                 "endLine": 59,
@@ -63,11 +64,10 @@
                 "violationSpecifier": "2142:src/main/java/com/commafeed/backend/service/PubSubService.java:49:11:49:34"
             }
         ],
-        "nbViolationsBefore": 7,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -81,10 +81,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5377,
-    "repairTimeMs": 248,
-    "startTimeMs": 1610905292319,
+    "totalTimeMs": 6665,
+    "repairTimeMs": 270,
+    "startTimeMs": 1611591455368,
     "crashes": [],
-    "endTimeMs": 1610905297696,
-    "parseTimeMs": 2251
+    "endTimeMs": 1611591462033,
+    "parseTimeMs": 3058
 }

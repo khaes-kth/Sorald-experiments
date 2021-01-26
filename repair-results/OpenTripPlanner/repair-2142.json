@@ -1,0 +1,149 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 13,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [{
+            "endLine": 37,
+            "endColumn": 43,
+            "startColumn": 21,
+            "startLine": 37,
+            "filePath": "src/main/java/org/opentripplanner/visualizer/VisualTraverseVisitor.java",
+            "violationSpecifier": "2142:src/main/java/org/opentripplanner/visualizer/VisualTraverseVisitor.java:37:21:37:43"
+        }],
+        "nbCrashedRepairs": 1,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 13,
+        "performedRepairsLocations": [
+            {
+                "endLine": 195,
+                "endColumn": 78,
+                "startColumn": 11,
+                "startLine": 195,
+                "filePath": "src/ext/java/org/opentripplanner/ext/legacygraphqlapi/LegacyGraphQLAPI.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/legacygraphqlapi/LegacyGraphQLAPI.java:195:11:195:78"
+            },
+            {
+                "endLine": 214,
+                "endColumn": 66,
+                "startColumn": 25,
+                "startLine": 214,
+                "filePath": "src/ext/java/org/opentripplanner/ext/siri/updater/SiriETGooglePubsubUpdater.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/siri/updater/SiriETGooglePubsubUpdater.java:214:25:214:66"
+            },
+            {
+                "endLine": 235,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 235,
+                "filePath": "src/ext/java/org/opentripplanner/ext/siri/updater/SiriETGooglePubsubUpdater.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/siri/updater/SiriETGooglePubsubUpdater.java:235:21:235:43"
+            },
+            {
+                "endLine": 127,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 127,
+                "filePath": "src/ext/java/org/opentripplanner/ext/siri/updater/SiriSXUpdater.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/siri/updater/SiriSXUpdater.java:127:21:127:44"
+            },
+            {
+                "endLine": 107,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 107,
+                "filePath": "src/ext/java/org/opentripplanner/ext/siri/updater/SiriVMHttpTripUpdateSource.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/siri/updater/SiriVMHttpTripUpdateSource.java:107:21:107:44"
+            },
+            {
+                "endLine": 158,
+                "endColumn": 84,
+                "startColumn": 17,
+                "startLine": 158,
+                "filePath": "src/ext/java/org/opentripplanner/ext/transmodelapi/TransmodelAPI.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/transmodelapi/TransmodelAPI.java:158:17:158:84"
+            },
+            {
+                "endLine": 158,
+                "endColumn": 40,
+                "startColumn": 17,
+                "startLine": 158,
+                "filePath": "src/main/java/org/opentripplanner/standalone/server/GrizzlyServer.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/standalone/server/GrizzlyServer.java:158:17:158:40"
+            },
+            {
+                "endLine": 160,
+                "endColumn": 58,
+                "startColumn": 15,
+                "startLine": 160,
+                "filePath": "src/main/java/org/opentripplanner/transit/raptor/service/RangRaptorDynamicSearch.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/transit/raptor/service/RangRaptorDynamicSearch.java:160:15:160:58"
+            },
+            {
+                "endLine": 107,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 107,
+                "filePath": "src/main/java/org/opentripplanner/updater/GraphUpdaterManager.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/updater/GraphUpdaterManager.java:107:17:107:39"
+            },
+            {
+                "endLine": 125,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 125,
+                "filePath": "src/main/java/org/opentripplanner/updater/GraphUpdaterManager.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/updater/GraphUpdaterManager.java:125:17:125:39"
+            },
+            {
+                "endLine": 75,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 75,
+                "filePath": "src/main/java/org/opentripplanner/updater/PollingGraphUpdater.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/updater/PollingGraphUpdater.java:75:17:75:39"
+            },
+            {
+                "endLine": 79,
+                "endColumn": 37,
+                "startColumn": 15,
+                "startLine": 79,
+                "filePath": "src/test/java/org/opentripplanner/util/ProgressTrackerTest.java",
+                "violationSpecifier": "2142:src/test/java/org/opentripplanner/util/ProgressTrackerTest.java:79:15:79:37"
+            },
+            {
+                "endLine": 37,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 37,
+                "filePath": "src/main/java/org/opentripplanner/visualizer/VisualTraverseVisitor.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/visualizer/VisualTraverseVisitor.java:37:21:37:43"
+            }
+        ],
+        "nbViolationsAfter": 7
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 9a05e51b",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 27040,
+    "repairTimeMs": 986,
+    "startTimeMs": 1611588151539,
+    "crashes": [{
+        "description": "Crash in sorald.processor.InterruptedExceptionProcessor::process",
+        "stackTrace": "java.lang.StringIndexOutOfBoundsException: begin 19, end 11, length 11\n\tat java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)\n\tat java.base/java.lang.String.substring(String.java:1874)\n\tat sorald.UniqueTypesCollector.checkIfThereIsTheSameClassInTheOriginalPath(UniqueTypesCollector.java:59)\n\tat sorald.UniqueTypesCollector.collect(UniqueTypesCollector.java:39)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:145)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtTry(CtScanner.java:739)\n\tat spoon.support.reflect.code.CtTryImpl.accept(CtTryImpl.java:43)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:483)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:255)\n\tat sorald.Repair.defaultRepair(Repair.java:166)\n\tat sorald.Repair.repair(Repair.java:145)\n\tat sorald.Repair.repair(Repair.java:90)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:121)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:27)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+        "message": "begin 19, end 11, length 11"
+    }],
+    "endTimeMs": 1611588178579,
+    "parseTimeMs": 12631
+}

@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2111",
+        "nbViolationsBefore": 23,
         "performedRepairsLocations": [
             {
                 "endLine": 483,
@@ -191,11 +192,10 @@
                 "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:660:17:660:36"
             }
         ],
-        "nbViolationsBefore": 23,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -209,10 +209,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 14861,
-    "repairTimeMs": 942,
-    "startTimeMs": 1610905642814,
+    "totalTimeMs": 14916,
+    "repairTimeMs": 977,
+    "startTimeMs": 1611591820890,
     "crashes": [],
-    "endTimeMs": 1610905657675,
-    "parseTimeMs": 6799
+    "endTimeMs": 1611591835806,
+    "parseTimeMs": 6891
 }

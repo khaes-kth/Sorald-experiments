@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 20,
             "endColumn": 49,
@@ -14,10 +13,11 @@
             "filePath": "modules/app/src/test/java/org/locationtech/jtstest/util/CommandRunnerTester.java",
             "violationSpecifier": "2142:modules/app/src/test/java/org/locationtech/jtstest/util/CommandRunnerTester.java:20:13:20:49"
         }],
+        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 20218,
-    "repairTimeMs": 864,
-    "startTimeMs": 1610914781598,
+    "totalTimeMs": 20666,
+    "repairTimeMs": 967,
+    "startTimeMs": 1611601231997,
     "crashes": [],
-    "endTimeMs": 1610914801816,
-    "parseTimeMs": 8887
+    "endTimeMs": 1611601252663,
+    "parseTimeMs": 9216
 }

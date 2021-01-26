@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 621,
@@ -23,11 +24,10 @@
                 "violationSpecifier": "2142:obfuscator-core/src/main/java/me/superblaubeere27/jobf/utils/scheduler/Scheduler.java:53:21:53:43"
             }
         ],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5120,
-    "repairTimeMs": 288,
-    "startTimeMs": 1610920311337,
+    "totalTimeMs": 5095,
+    "repairTimeMs": 303,
+    "startTimeMs": 1611606786020,
     "crashes": [],
-    "endTimeMs": 1610920316457,
-    "parseTimeMs": 2081
+    "endTimeMs": 1611606791115,
+    "parseTimeMs": 2055
 }

@@ -6,15 +6,15 @@ INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  136 source files to be analyzed
 INFO  136/136 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=1978ms
+INFO  Java Main Files AST scan (done) | time=2031ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
 -----Number of fixes------
 BigDecimalDoubleConstructorProcessor: 0
 -----End of report------
@@ -26,12 +26,12 @@ INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  136 source files to be analyzed
 INFO  136/136 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=809ms
+INFO  Java Main Files AST scan (done) | time=837ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
-INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=3ms
 INFO  0/0 source files have been analyzed

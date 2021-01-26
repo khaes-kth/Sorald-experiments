@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
-        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 58,
@@ -32,10 +31,11 @@
                 "violationSpecifier": "2272:lib/xsom/src/main/java/com/sun/xml/xsom/impl/scd/Iterators.java:186:17:186:21"
             }
         ],
-        "nbViolationsAfter": 1
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 16377,
-    "repairTimeMs": 1492,
-    "startTimeMs": 1610912442125,
+    "totalTimeMs": 16790,
+    "repairTimeMs": 1588,
+    "startTimeMs": 1611598804776,
     "crashes": [],
-    "endTimeMs": 1610912458502,
-    "parseTimeMs": 7204
+    "endTimeMs": 1611598821566,
+    "parseTimeMs": 7218
 }

@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
-        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 195,
             "endColumn": 22,
@@ -14,10 +13,11 @@
             "filePath": "core/src/main/java/uk/ac/bbsrc/tgac/miso/core/data/SequencingParameters.java",
             "violationSpecifier": "4973:core/src/main/java/uk/ac/bbsrc/tgac/miso/core/data/SequencingParameters.java:195:20:195:22"
         }],
+        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 26320,
-    "repairTimeMs": 1172,
-    "startTimeMs": 1610904517032,
+    "totalTimeMs": 26084,
+    "repairTimeMs": 1246,
+    "startTimeMs": 1611590665033,
     "crashes": [],
-    "endTimeMs": 1610904543352,
-    "parseTimeMs": 12578
+    "endTimeMs": 1611590691117,
+    "parseTimeMs": 12782
 }

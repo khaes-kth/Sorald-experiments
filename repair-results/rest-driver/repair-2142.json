@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 7,
         "performedRepairsLocations": [
             {
                 "endLine": 128,
@@ -64,10 +63,11 @@
                 "violationSpecifier": "2142:rest-server-driver/src/main/java/com/github/restdriver/serverdriver/polling/Poller.java:116:17:116:40"
             }
         ],
+        "nbViolationsBefore": 7,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -81,10 +81,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5240,
-    "repairTimeMs": 256,
-    "startTimeMs": 1610903041117,
+    "totalTimeMs": 5327,
+    "repairTimeMs": 249,
+    "startTimeMs": 1611589191866,
     "crashes": [],
-    "endTimeMs": 1610903046357,
-    "parseTimeMs": 2116
+    "endTimeMs": 1611589197193,
+    "parseTimeMs": 2201
 }

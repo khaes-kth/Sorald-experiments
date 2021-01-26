@@ -1,7 +1,7 @@
 {
     "repairs": [],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -15,10 +15,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 4067,
-    "repairTimeMs": 218,
-    "startTimeMs": 1610906939055,
+    "totalTimeMs": 4196,
+    "repairTimeMs": 237,
+    "startTimeMs": 1611593147713,
     "crashes": [],
-    "endTimeMs": 1610906943122,
-    "parseTimeMs": 1620
+    "endTimeMs": 1611593151909,
+    "parseTimeMs": 1706
 }

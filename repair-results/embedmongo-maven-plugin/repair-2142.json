@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 208,
             "endColumn": 51,
@@ -14,10 +13,11 @@
             "filePath": "src/main/java/com/github/joelittlejohn/embedmongo/StartMojo.java",
             "violationSpecifier": "2142:src/main/java/com/github/joelittlejohn/embedmongo/StartMojo.java:208:29:208:51"
         }],
+        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 2453,
-    "repairTimeMs": 177,
-    "startTimeMs": 1610904988026,
+    "totalTimeMs": 2562,
+    "repairTimeMs": 186,
+    "startTimeMs": 1611591135403,
     "crashes": [],
-    "endTimeMs": 1610904990479,
-    "parseTimeMs": 791
+    "endTimeMs": 1611591137965,
+    "parseTimeMs": 845
 }

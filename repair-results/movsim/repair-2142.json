@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 185,
@@ -24,10 +23,11 @@
                 "violationSpecifier": "2142:core/src/main/java/org/movsim/simulator/SimulationRunnable.java:261:21:261:49"
             }
         ],
+        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 7505,
-    "repairTimeMs": 338,
-    "startTimeMs": 1610902917369,
+    "totalTimeMs": 9429,
+    "repairTimeMs": 416,
+    "startTimeMs": 1611589022577,
     "crashes": [],
-    "endTimeMs": 1610902924874,
-    "parseTimeMs": 3322
+    "endTimeMs": 1611589032006,
+    "parseTimeMs": 4150
 }

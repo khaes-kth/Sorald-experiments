@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2111",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 552,
             "endColumn": 40,
@@ -13,11 +14,10 @@
             "filePath": "moa/src/main/java/moa/classifiers/rules/RuleClassifier.java",
             "violationSpecifier": "2111:moa/src/main/java/moa/classifiers/rules/RuleClassifier.java:552:21:552:40"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 20859,
-    "repairTimeMs": 1129,
-    "startTimeMs": 1610909676649,
+    "totalTimeMs": 21042,
+    "repairTimeMs": 1014,
+    "startTimeMs": 1611596017889,
     "crashes": [],
-    "endTimeMs": 1610909697508,
-    "parseTimeMs": 8646
+    "endTimeMs": 1611596038931,
+    "parseTimeMs": 8771
 }

@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 230,
         "performedRepairsLocations": [
             {
                 "endLine": 271,
@@ -47,11 +48,10 @@
                 "violationSpecifier": "2095:src/test/java/org/sqlite/UDFTest.java:462:38:462:60"
             }
         ],
-        "nbViolationsBefore": 230,
         "nbViolationsAfter": 228
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -65,10 +65,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 12880,
-    "repairTimeMs": 519,
-    "startTimeMs": 1610907950951,
+    "totalTimeMs": 12771,
+    "repairTimeMs": 622,
+    "startTimeMs": 1611594162229,
     "crashes": [],
-    "endTimeMs": 1610907963831,
-    "parseTimeMs": 2154
+    "endTimeMs": 1611594175000,
+    "parseTimeMs": 2142
 }

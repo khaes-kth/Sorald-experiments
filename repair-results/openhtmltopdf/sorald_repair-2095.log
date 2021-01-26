@@ -3,18 +3,18 @@ INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=17ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization (done) | time=1ms
 INFO  Java Main Files AST scan
-INFO  400 source files to be analyzed
-INFO  110/400 files analyzed, current file: openhtmltopdf-core/src/main/java/com/openhtmltopdf/newtable/TableBox.java
-INFO  305/400 files analyzed, current file: openhtmltopdf-core/src/main/java/com/openhtmltopdf/layout/Breaker.java
-INFO  400/400 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=25646ms
+INFO  406 source files to be analyzed
+INFO  111/406 files analyzed, current file: openhtmltopdf-core/src/main/java/com/openhtmltopdf/newtable/TableBox.java
+INFO  298/406 files analyzed, current file: openhtmltopdf-core/src/main/java/com/openhtmltopdf/render/displaylist/DisplayListPainter.java
+INFO  406/406 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=25431ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
-INFO  Java Generated Files AST scan
 INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
@@ -28,16 +28,15 @@ INFO  JavaClasspath initialization (done) | time=0ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
-INFO  400 source files to be analyzed
-INFO  182/400 files analyzed, current file: openhtmltopdf-pdfbox/src/main/java/com/openhtmltopdf/pdfboxout/PdfBoxRenderer.java
-INFO  391/400 files analyzed, current file: openhtmltopdf-core/src/test/java/com/openhtmltopdf/layout/WordBreakerTest.java
-INFO  400/400 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=20036ms
+INFO  406 source files to be analyzed
+INFO  184/406 files analyzed, current file: openhtmltopdf-pdfbox/src/main/java/com/openhtmltopdf/pdfboxout/PdfBoxRenderer.java
+INFO  Java Main Files AST scan (done) | time=19457ms
 INFO  Java Test Files AST scan
+INFO  406/406 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
-INFO  0/0 source files have been analyzed
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
+INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=3ms
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed

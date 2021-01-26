@@ -5,45 +5,45 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 4,
         "performedRepairsLocations": [
             {
                 "endLine": 186,
                 "endColumn": 108,
                 "startColumn": 32,
-                "startLine": 186,
                 "filePath": "quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java",
+                "startLine": 186,
                 "violationSpecifier": "2095:quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java:186:32:186:108"
             },
             {
                 "endLine": 187,
                 "endColumn": 110,
                 "startColumn": 28,
-                "startLine": 187,
                 "filePath": "quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java",
+                "startLine": 187,
                 "violationSpecifier": "2095:quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java:187:28:187:110"
             },
             {
                 "endLine": 188,
                 "endColumn": 106,
                 "startColumn": 26,
-                "startLine": 188,
                 "filePath": "quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java",
+                "startLine": 188,
                 "violationSpecifier": "2095:quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java:188:26:188:106"
             },
             {
                 "endLine": 369,
                 "endColumn": 69,
                 "startColumn": 30,
-                "startLine": 369,
                 "filePath": "quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java",
+                "startLine": 369,
                 "violationSpecifier": "2095:quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java:369:30:369:69"
             }
         ],
-        "nbViolationsBefore": 4,
         "nbViolationsAfter": 2
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -57,10 +57,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 10400,
-    "repairTimeMs": 276,
-    "startTimeMs": 1610908683908,
+    "totalTimeMs": 12215,
+    "repairTimeMs": 360,
+    "startTimeMs": 1611595017744,
     "crashes": [],
-    "endTimeMs": 1610908694308,
-    "parseTimeMs": 1434
+    "endTimeMs": 1611595029959,
+    "parseTimeMs": 1997
 }

@@ -2,39 +2,39 @@ INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=17ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=1ms
+INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  547 source files to be analyzed
 INFO  157/547 files analyzed, current file: boot/src/main/java/com/taobao/arthas/boot/ProcessUtils.java
 INFO  461/547 files analyzed, current file: core/src/main/java/com/taobao/arthas/core/advisor/SpyImpl.java
 INFO  547/547 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=22475ms
+INFO  Java Main Files AST scan (done) | time=21949ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=1ms
+INFO  Java Test Files AST scan (done) | time=4ms
+INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=2ms
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 7
 -----End of report------
 INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=0ms
+INFO  JavaClasspath initialization (done) | time=1ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  547 source files to be analyzed
 INFO  337/547 files analyzed, current file: core/src/main/java/com/taobao/arthas/core/command/klass100/ClassLoaderCommand.java
-INFO  Java Main Files AST scan (done) | time=16505ms
-INFO  547/547 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=16235ms
 INFO  Java Test Files AST scan
+INFO  547/547 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=8ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
+INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=0ms
-INFO  0/0 source files have been analyzed
 INFO  0/0 source files have been analyzed

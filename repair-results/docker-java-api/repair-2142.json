@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 115,
@@ -32,10 +31,11 @@
                 "violationSpecifier": "2142:src/test/java/com/amihaiemil/docker/UnixDockerITCase.java:199:25:199:68"
             }
         ],
+        "nbViolationsBefore": 3,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 4642,
-    "repairTimeMs": 234,
-    "startTimeMs": 1610919474225,
+    "totalTimeMs": 4648,
+    "repairTimeMs": 237,
+    "startTimeMs": 1611605959051,
     "crashes": [],
-    "endTimeMs": 1610919478867,
-    "parseTimeMs": 1839
+    "endTimeMs": 1611605963699,
+    "parseTimeMs": 1858
 }

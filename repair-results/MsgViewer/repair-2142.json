@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 256,
@@ -23,11 +24,10 @@
                 "violationSpecifier": "2142:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/WorkerThread/WorkerThread.java:60:17:60:40"
             }
         ],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 8510,
-    "repairTimeMs": 364,
-    "startTimeMs": 1610918756512,
+    "totalTimeMs": 8379,
+    "repairTimeMs": 360,
+    "startTimeMs": 1611605252434,
     "crashes": [],
-    "endTimeMs": 1610918765022,
-    "parseTimeMs": 3654
+    "endTimeMs": 1611605260813,
+    "parseTimeMs": 3576
 }

@@ -6,14 +6,14 @@ INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  10 source files to be analyzed
 INFO  10/10 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=881ms
+INFO  Java Main Files AST scan (done) | time=874ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=3ms
+INFO  Java Test Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=3ms
-INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=2ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 CompareStringsBoxedTypesWithEqualsProcessor: 0
@@ -25,13 +25,13 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  10 source files to be analyzed
+INFO  Java Main Files AST scan (done) | time=177ms
 INFO  10/10 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=155ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=3ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=6ms
+INFO  Java Generated Files AST scan (done) | time=7ms
 INFO  0/0 source files have been analyzed
 INFO  0/0 source files have been analyzed

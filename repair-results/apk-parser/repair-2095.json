@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 72,
             "endColumn": 50,
@@ -13,11 +14,10 @@
             "filePath": "src/main/java/net/dongliu/apk/parser/ApkFile.java",
             "violationSpecifier": "2095:src/main/java/net/dongliu/apk/parser/ApkFile.java:72:22:72:50"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 6888,
-    "repairTimeMs": 222,
-    "startTimeMs": 1610908936694,
+    "totalTimeMs": 6516,
+    "startTimeMs": 1611595278261,
+    "repairTimeMs": 244,
     "crashes": [],
-    "endTimeMs": 1610908943582,
-    "parseTimeMs": 1552
+    "endTimeMs": 1611595284777,
+    "parseTimeMs": 1436
 }

@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 56,
             "endColumn": 37,
@@ -14,10 +13,11 @@
             "filePath": "src/main/java/net/lingala/zip4j/progress/ProgressMonitor.java",
             "violationSpecifier": "2142:src/main/java/net/lingala/zip4j/progress/ProgressMonitor.java:56:15:56:37"
         }],
+        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5845,
-    "repairTimeMs": 351,
-    "startTimeMs": 1610920822687,
+    "totalTimeMs": 5782,
+    "repairTimeMs": 299,
+    "startTimeMs": 1611607291222,
     "crashes": [],
-    "endTimeMs": 1610920828532,
-    "parseTimeMs": 2309
+    "endTimeMs": 1611607297004,
+    "parseTimeMs": 2276
 }

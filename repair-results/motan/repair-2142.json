@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 12,
         "performedRepairsLocations": [
             {
                 "endLine": 171,
@@ -103,11 +104,10 @@
                 "violationSpecifier": "2142:motan-demo/motan-demo-client/src/main/java/com/weibo/motan/demo/client/DemoRpcAsyncClient.java:67:21:67:43"
             }
         ],
-        "nbViolationsBefore": 12,
         "nbViolationsAfter": 5
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -121,10 +121,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 11545,
-    "repairTimeMs": 465,
-    "startTimeMs": 1610916563072,
+    "totalTimeMs": 11152,
+    "repairTimeMs": 486,
+    "startTimeMs": 1611603002823,
     "crashes": [],
-    "endTimeMs": 1610916574617,
-    "parseTimeMs": 4949
+    "endTimeMs": 1611603013975,
+    "parseTimeMs": 4647
 }

@@ -8,14 +8,14 @@ INFO  Java Main Files AST scan
 INFO  259 source files to be analyzed
 INFO  129/259 files analyzed, current file: src/main/java/io/anserini/index/IndexCollection.java
 INFO  259/259 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=15693ms
+INFO  Java Main Files AST scan (done) | time=15521ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 15
@@ -28,14 +28,14 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  259 source files to be analyzed
-INFO  234/259 files analyzed, current file: src/main/java/io/anserini/collection/CommonCrawlWetCollection.java
-INFO  259/259 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=10614ms
+INFO  232/259 files analyzed, current file: src/main/java/io/anserini/ann/FeatureVectorsTokenizer.java
+INFO  Java Main Files AST scan (done) | time=10679ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  259/259 source files have been analyzed
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=8ms
 INFO  0/0 source files have been analyzed

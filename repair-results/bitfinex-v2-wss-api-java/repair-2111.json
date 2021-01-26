@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2111",
+        "nbViolationsBefore": 5,
         "performedRepairsLocations": [
             {
                 "endLine": 86,
@@ -47,11 +48,10 @@
                 "violationSpecifier": "2111:src/main/java/com/github/jnidzwetzki/bitfinex/v2/entity/BitfinexCandle.java:87:37:87:59"
             }
         ],
-        "nbViolationsBefore": 5,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -65,10 +65,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5183,
-    "repairTimeMs": 293,
-    "startTimeMs": 1610919651868,
+    "totalTimeMs": 4996,
+    "repairTimeMs": 267,
+    "startTimeMs": 1611606135405,
     "crashes": [],
-    "endTimeMs": 1610919657051,
-    "parseTimeMs": 1913
+    "endTimeMs": 1611606140401,
+    "parseTimeMs": 1900
 }

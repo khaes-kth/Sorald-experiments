@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 12,
         "performedRepairsLocations": [
             {
                 "endLine": 276,
@@ -96,10 +95,11 @@
                 "violationSpecifier": "2095:modules/core/src/test/java/test/jts/geom/TestSerializable.java:110:18:110:47"
             }
         ],
+        "nbViolationsBefore": 12,
         "nbViolationsAfter": 3
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -113,10 +113,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 36080,
-    "repairTimeMs": 1010,
-    "startTimeMs": 1610914895662,
+    "totalTimeMs": 36183,
+    "repairTimeMs": 1268,
+    "startTimeMs": 1611601350958,
     "crashes": [],
-    "endTimeMs": 1610914931742,
-    "parseTimeMs": 8609
+    "endTimeMs": 1611601387141,
+    "parseTimeMs": 8424
 }

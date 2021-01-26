@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 5,
         "performedRepairsLocations": [
             {
                 "endLine": 93,
@@ -48,10 +47,11 @@
                 "violationSpecifier": "2142:src/main/java/com/pastdev/jsch/nio/file/UnixSshPathWatchKey.java:293:16:293:38"
             }
         ],
+        "nbViolationsBefore": 5,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -65,10 +65,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 3631,
-    "repairTimeMs": 248,
-    "startTimeMs": 1610907089639,
+    "totalTimeMs": 3619,
+    "repairTimeMs": 258,
+    "startTimeMs": 1611593298871,
     "crashes": [],
-    "endTimeMs": 1610907093270,
-    "parseTimeMs": 1393
+    "endTimeMs": 1611593302490,
+    "parseTimeMs": 1387
 }

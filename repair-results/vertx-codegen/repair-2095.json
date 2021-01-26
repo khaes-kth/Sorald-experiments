@@ -1,0 +1,66 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 4,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 79,
+                "endColumn": 36,
+                "startColumn": 16,
+                "filePath": "src/test/java/io/vertx/test/codegen/ClassEnumerator.java",
+                "startLine": 79,
+                "violationSpecifier": "2095:src/test/java/io/vertx/test/codegen/ClassEnumerator.java:79:16:79:36"
+            },
+            {
+                "endLine": 68,
+                "endColumn": 37,
+                "startColumn": 15,
+                "filePath": "src/test/java/io/vertx/test/codegen/generator/CodeGeneratorTest.java",
+                "startLine": 68,
+                "violationSpecifier": "2095:src/test/java/io/vertx/test/codegen/generator/CodeGeneratorTest.java:68:15:68:37"
+            },
+            {
+                "endLine": 142,
+                "endColumn": 37,
+                "startColumn": 15,
+                "filePath": "src/test/java/io/vertx/test/codegen/generator/CodeGeneratorTest.java",
+                "startLine": 142,
+                "violationSpecifier": "2095:src/test/java/io/vertx/test/codegen/generator/CodeGeneratorTest.java:142:15:142:37"
+            },
+            {
+                "endLine": 154,
+                "endColumn": 79,
+                "startColumn": 25,
+                "filePath": "src/test/java/io/vertx/test/codegen/generator/CodeGeneratorTest.java",
+                "startLine": 154,
+                "violationSpecifier": "2095:src/test/java/io/vertx/test/codegen/generator/CodeGeneratorTest.java:154:25:154:79"
+            }
+        ],
+        "nbViolationsBefore": 5,
+        "nbViolationsAfter": 3
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 9a05e51b",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 17222,
+    "repairTimeMs": 599,
+    "startTimeMs": 1611598078130,
+    "crashes": [],
+    "endTimeMs": 1611598095352,
+    "parseTimeMs": 4880
+}

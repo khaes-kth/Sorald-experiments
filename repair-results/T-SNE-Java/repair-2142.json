@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 493,
             "endColumn": 35,
@@ -13,11 +14,10 @@
             "filePath": "tsne-demos/src/main/java/com/jujutsu/tsne/demos/BarnesHutTSneCsv.java",
             "violationSpecifier": "2142:tsne-demos/src/main/java/com/jujutsu/tsne/demos/BarnesHutTSneCsv.java:493:13:493:35"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 4514,
-    "repairTimeMs": 288,
-    "startTimeMs": 1610912691396,
+    "totalTimeMs": 4431,
+    "repairTimeMs": 291,
+    "startTimeMs": 1611599057789,
     "crashes": [],
-    "endTimeMs": 1610912695910,
-    "parseTimeMs": 1754
+    "endTimeMs": 1611599062220,
+    "parseTimeMs": 1715
 }

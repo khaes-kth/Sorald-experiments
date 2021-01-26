@@ -1,7 +1,41 @@
 {
-    "repairs": [],
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 252,
+                "endColumn": 59,
+                "startColumn": 31,
+                "startLine": 252,
+                "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkConfiguration.java",
+                "violationSpecifier": "2095:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkConfiguration.java:252:31:252:59"
+            },
+            {
+                "endLine": 253,
+                "endColumn": 56,
+                "startColumn": 30,
+                "startLine": 253,
+                "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkConfiguration.java",
+                "violationSpecifier": "2095:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkConfiguration.java:253:30:253:56"
+            },
+            {
+                "endLine": 75,
+                "endColumn": 66,
+                "startColumn": 42,
+                "startLine": 75,
+                "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugins/surefire/report/TestSuiteXmlParser.java",
+                "violationSpecifier": "2095:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugins/surefire/report/TestSuiteXmlParser.java:75:42:75:66"
+            }
+        ],
+        "nbViolationsBefore": 5,
+        "nbViolationsAfter": 2
+    }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -15,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 19192,
-    "repairTimeMs": 641,
-    "startTimeMs": 1610908526782,
+    "totalTimeMs": 21981,
+    "repairTimeMs": 758,
+    "startTimeMs": 1611594842936,
     "crashes": [],
-    "endTimeMs": 1610908545974,
-    "parseTimeMs": 6146
+    "endTimeMs": 1611594864917,
+    "parseTimeMs": 6582
 }

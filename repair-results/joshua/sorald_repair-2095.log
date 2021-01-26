@@ -5,17 +5,17 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  315 source files to be analyzed
-INFO  87/315 files analyzed, current file: src/main/java/org/apache/joshua/util/encoding/Analyzer.java
-INFO  178/315 files analyzed, current file: src/main/java/org/apache/joshua/decoder/ff/lm/StateMinimizingLanguageModel.java
+INFO  93/315 files analyzed, current file: src/main/java/org/apache/joshua/decoder/segment_file/Sentence.java
+INFO  182/315 files analyzed, current file: src/main/java/org/apache/joshua/tools/GrammarPacker.java
 INFO  315/315 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=29776ms
+INFO  Java Main Files AST scan (done) | time=29056ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
-INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
+INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=6ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 28
@@ -24,12 +24,12 @@ INFO  Configured Java source version (sonar.java.source): 14
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=0ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=1ms
+INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  315 source files to be analyzed
 INFO  160/315 files analyzed, current file: src/main/java/org/apache/joshua/adagrad/AdaGradCore.java
-INFO  267/315 files analyzed, current file: src/main/java/org/apache/joshua/decoder/chart_parser/StateConstraint.java
-INFO  Java Main Files AST scan (done) | time=22715ms
+INFO  240/315 files analyzed, current file: src/main/java/org/apache/joshua/decoder/ff/LexicalFeatures.java
+INFO  Java Main Files AST scan (done) | time=23585ms
 INFO  315/315 source files have been analyzed
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
@@ -37,5 +37,5 @@ INFO  Java Test Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

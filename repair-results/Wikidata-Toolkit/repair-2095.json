@@ -10,48 +10,48 @@
                 "endLine": 124,
                 "endColumn": 55,
                 "startColumn": 32,
-                "filePath": "wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java",
                 "startLine": 124,
+                "filePath": "wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java",
                 "violationSpecifier": "2095:wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java:124:32:124:55"
             },
             {
                 "endLine": 125,
                 "endColumn": 62,
                 "startColumn": 31,
-                "filePath": "wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java",
                 "startLine": 125,
+                "filePath": "wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java",
                 "violationSpecifier": "2095:wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java:125:31:125:62"
             },
             {
                 "endLine": 174,
                 "endColumn": 29,
                 "startColumn": 9,
-                "filePath": "wdtk-testing/src/main/java/org/wikidata/wdtk/testing/MockStringContentFactory.java",
                 "startLine": 172,
+                "filePath": "wdtk-testing/src/main/java/org/wikidata/wdtk/testing/MockStringContentFactory.java",
                 "violationSpecifier": "2095:wdtk-testing/src/main/java/org/wikidata/wdtk/testing/MockStringContentFactory.java:172:9:174:29"
             },
             {
                 "endLine": 178,
                 "endColumn": 29,
                 "startColumn": 9,
-                "filePath": "wdtk-testing/src/main/java/org/wikidata/wdtk/testing/MockStringContentFactory.java",
                 "startLine": 176,
+                "filePath": "wdtk-testing/src/main/java/org/wikidata/wdtk/testing/MockStringContentFactory.java",
                 "violationSpecifier": "2095:wdtk-testing/src/main/java/org/wikidata/wdtk/testing/MockStringContentFactory.java:176:9:178:29"
             },
             {
                 "endLine": 104,
                 "endColumn": 64,
                 "startColumn": 26,
-                "filePath": "wdtk-util/src/test/java/org/wikidata/wdtk/util/DirectoryManagerTest.java",
                 "startLine": 103,
+                "filePath": "wdtk-util/src/test/java/org/wikidata/wdtk/util/DirectoryManagerTest.java",
                 "violationSpecifier": "2095:wdtk-util/src/test/java/org/wikidata/wdtk/util/DirectoryManagerTest.java:103:26:104:64"
             },
             {
                 "endLine": 119,
                 "endColumn": 65,
                 "startColumn": 26,
-                "filePath": "wdtk-util/src/test/java/org/wikidata/wdtk/util/DirectoryManagerTest.java",
                 "startLine": 118,
+                "filePath": "wdtk-util/src/test/java/org/wikidata/wdtk/util/DirectoryManagerTest.java",
                 "violationSpecifier": "2095:wdtk-util/src/test/java/org/wikidata/wdtk/util/DirectoryManagerTest.java:118:26:119:65"
             }
         ],
@@ -59,7 +59,7 @@
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -73,10 +73,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 14744,
-    "repairTimeMs": 561,
-    "startTimeMs": 1610910677006,
+    "totalTimeMs": 14463,
+    "repairTimeMs": 524,
+    "startTimeMs": 1611597010848,
     "crashes": [],
-    "endTimeMs": 1610910691750,
-    "parseTimeMs": 4224
+    "endTimeMs": 1611597025311,
+    "parseTimeMs": 4160
 }

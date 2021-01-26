@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "nbViolationsBefore": 6,
+        "performedRepairsLocations": [
+            {
+                "endLine": 193,
+                "endColumn": 64,
+                "startColumn": 34,
+                "startLine": 193,
+                "filePath": "src/test/java/net/lingala/zip4j/io/outputstream/ZipOutputStreamIT.java",
+                "violationSpecifier": "2095:src/test/java/net/lingala/zip4j/io/outputstream/ZipOutputStreamIT.java:193:34:193:64"
+            },
+            {
+                "endLine": 65,
+                "endColumn": 67,
+                "startColumn": 30,
+                "startLine": 65,
+                "filePath": "src/test/java/net/lingala/zip4j/testutils/HeaderVerifier.java",
+                "violationSpecifier": "2095:src/test/java/net/lingala/zip4j/testutils/HeaderVerifier.java:65:30:65:67"
+            }
+        ],
+        "nbViolationsAfter": 4
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 9a05e51b",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 8860,
+    "repairTimeMs": 374,
+    "startTimeMs": 1611607328496,
+    "crashes": [],
+    "endTimeMs": 1611607337356,
+    "parseTimeMs": 2264
+}

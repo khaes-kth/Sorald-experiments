@@ -1,23 +1,41 @@
 {
     "repairs": [{
-        "nbPerformedRepairs": 1,
+        "nbPerformedRepairs": 3,
         "ruleName": "CompareStringsBoxedTypesWithEquals",
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
-        "performedRepairsLocations": [{
-            "endLine": 395,
-            "endColumn": 32,
-            "startColumn": 30,
-            "startLine": 395,
-            "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/PolymorphicSerializationTest.java",
-            "violationSpecifier": "4973:protostuff-runtime/src/test/java/io/protostuff/runtime/PolymorphicSerializationTest.java:395:30:395:32"
-        }],
-        "nbViolationsBefore": 1,
-        "nbViolationsAfter": 0
+        "nbViolationsBefore": 4,
+        "performedRepairsLocations": [
+            {
+                "endLine": 194,
+                "endColumn": 44,
+                "startColumn": 42,
+                "startLine": 194,
+                "filePath": "protostuff-it/target/generated-test-sources/test-proto/io/protostuff/compiler/it/java_bean/MessageWithDefaultValues.java",
+                "violationSpecifier": "4973:protostuff-it/target/generated-test-sources/test-proto/io/protostuff/compiler/it/java_bean/MessageWithDefaultValues.java:194:42:194:44"
+            },
+            {
+                "endLine": 200,
+                "endColumn": 44,
+                "startColumn": 42,
+                "startLine": 200,
+                "filePath": "protostuff-it/target/generated-test-sources/test-proto/io/protostuff/compiler/it/java_bean/MessageWithDefaultValues.java",
+                "violationSpecifier": "4973:protostuff-it/target/generated-test-sources/test-proto/io/protostuff/compiler/it/java_bean/MessageWithDefaultValues.java:200:42:200:44"
+            },
+            {
+                "endLine": 395,
+                "endColumn": 32,
+                "startColumn": 30,
+                "startLine": 395,
+                "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/PolymorphicSerializationTest.java",
+                "violationSpecifier": "4973:protostuff-runtime/src/test/java/io/protostuff/runtime/PolymorphicSerializationTest.java:395:30:395:32"
+            }
+        ],
+        "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 14553,
-    "repairTimeMs": 870,
-    "startTimeMs": 1610908231603,
+    "totalTimeMs": 17842,
+    "repairTimeMs": 1068,
+    "startTimeMs": 1611594518662,
     "crashes": [],
-    "endTimeMs": 1610908246156,
-    "parseTimeMs": 6789
+    "endTimeMs": 1611594536504,
+    "parseTimeMs": 7806
 }

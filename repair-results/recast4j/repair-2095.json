@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 33,
@@ -32,10 +31,11 @@
                 "violationSpecifier": "2095:recast/src/test/java/org/recast4j/recast/RecastSoloMeshTest.java:281:28:281:48"
             }
         ],
+        "nbViolationsBefore": 3,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 31265,
-    "repairTimeMs": 581,
-    "startTimeMs": 1610913868860,
+    "totalTimeMs": 29991,
+    "repairTimeMs": 681,
+    "startTimeMs": 1611600289555,
     "crashes": [],
-    "endTimeMs": 1610913900125,
-    "parseTimeMs": 3250
+    "endTimeMs": 1611600319546,
+    "parseTimeMs": 3349
 }

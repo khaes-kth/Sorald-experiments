@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [
+            {
+                "endLine": 45,
+                "endColumn": 25,
+                "startColumn": 21,
+                "startLine": 45,
+                "filePath": "src/main/java/com/jnape/palatable/lambda/internal/ImmutableQueue.java",
+                "violationSpecifier": "2272:src/main/java/com/jnape/palatable/lambda/internal/ImmutableQueue.java:45:21:45:25"
+            },
+            {
+                "endLine": 38,
+                "endColumn": 25,
+                "startColumn": 21,
+                "startLine": 38,
+                "filePath": "src/main/java/com/jnape/palatable/lambda/internal/ImmutableStack.java",
+                "violationSpecifier": "2272:src/main/java/com/jnape/palatable/lambda/internal/ImmutableStack.java:38:21:38:25"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 9a05e51b",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 26037,
+    "repairTimeMs": 1411,
+    "startTimeMs": 1611595464608,
+    "crashes": [],
+    "endTimeMs": 1611595490645,
+    "parseTimeMs": 18453
+}

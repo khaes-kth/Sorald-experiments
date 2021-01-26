@@ -1,0 +1,66 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 4,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 142,
+                "endColumn": 60,
+                "startColumn": 17,
+                "startLine": 142,
+                "filePath": "Scientist4JCore/src/main/java/com/github/rawls238/scientist4j/Experiment.java",
+                "violationSpecifier": "2142:Scientist4JCore/src/main/java/com/github/rawls238/scientist4j/Experiment.java:142:17:142:60"
+            },
+            {
+                "endLine": 23,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 23,
+                "filePath": "Scientist4JCore/src/test/java/com/github/rawls238/scientist4j/ExperimentAsyncTest.java",
+                "violationSpecifier": "2142:Scientist4JCore/src/test/java/com/github/rawls238/scientist4j/ExperimentAsyncTest.java:23:13:23:35"
+            },
+            {
+                "endLine": 32,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 32,
+                "filePath": "Scientist4JCore/src/test/java/com/github/rawls238/scientist4j/ExperimentAsyncTest.java",
+                "violationSpecifier": "2142:Scientist4JCore/src/test/java/com/github/rawls238/scientist4j/ExperimentAsyncTest.java:32:13:32:35"
+            },
+            {
+                "endLine": 30,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 30,
+                "filePath": "Scientist4JCore/src/test/java/com/github/rawls238/scientist4j/ExperimentTest.java",
+                "violationSpecifier": "2142:Scientist4JCore/src/test/java/com/github/rawls238/scientist4j/ExperimentTest.java:30:17:30:39"
+            }
+        ],
+        "nbViolationsBefore": 4,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 9a05e51b",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 2258,
+    "repairTimeMs": 179,
+    "startTimeMs": 1611601691709,
+    "crashes": [],
+    "endTimeMs": 1611601693967,
+    "parseTimeMs": 703
+}

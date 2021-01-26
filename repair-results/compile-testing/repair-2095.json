@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 355,
+                "endColumn": 71,
+                "startColumn": 23,
+                "startLine": 355,
+                "filePath": "src/test/java/com/google/testing/compile/CompilationSubjectTest.java",
+                "violationSpecifier": "2095:src/test/java/com/google/testing/compile/CompilationSubjectTest.java:355:23:355:71"
+            },
+            {
+                "endLine": 52,
+                "endColumn": 76,
+                "startColumn": 26,
+                "startLine": 52,
+                "filePath": "src/test/java/com/google/testing/compile/JarFileResourcesCompilationTest.java",
+                "violationSpecifier": "2095:src/test/java/com/google/testing/compile/JarFileResourcesCompilationTest.java:52:26:52:76"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 9a05e51b",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5551,
+    "repairTimeMs": 276,
+    "startTimeMs": 1611592126318,
+    "crashes": [],
+    "endTimeMs": 1611592131869,
+    "parseTimeMs": 1866
+}

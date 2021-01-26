@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 35,
             "endColumn": 31,
@@ -13,11 +14,10 @@
             "filePath": "src/main/java/amidst/fragment/FragmentGraphItem.java",
             "violationSpecifier": "2272:src/main/java/amidst/fragment/FragmentGraphItem.java:35:27:35:31"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: 0c75eb6f",
+        "soraldVersion": "commit: 9a05e51b",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 9032,
-    "repairTimeMs": 581,
-    "startTimeMs": 1610914410269,
+    "totalTimeMs": 9216,
+    "repairTimeMs": 564,
+    "startTimeMs": 1611600861406,
     "crashes": [],
-    "endTimeMs": 1610914419301,
-    "parseTimeMs": 3819
+    "endTimeMs": 1611600870622,
+    "parseTimeMs": 4066
 }
