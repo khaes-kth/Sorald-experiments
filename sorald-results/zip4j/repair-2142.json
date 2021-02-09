@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 56,
+            "endColumn": 37,
+            "startColumn": 15,
+            "startLine": 56,
+            "filePath": "src/main/java/net/lingala/zip4j/progress/ProgressMonitor.java",
+            "violationSpecifier": "2142:src/main/java/net/lingala/zip4j/progress/ProgressMonitor.java:56:15:56:37"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5761,
+    "repairTimeMs": 340,
+    "startTimeMs": 1612819207553,
+    "crashes": [],
+    "endTimeMs": 1612819213314,
+    "parseTimeMs": 2322
+}

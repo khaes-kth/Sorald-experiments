@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [
+            {
+                "endLine": 889,
+                "endColumn": 17,
+                "startColumn": 15,
+                "startLine": 889,
+                "filePath": "jmetal-algorithm/src/main/java/org/uma/jmetal/algorithm/multiobjective/cdg/AbstractCDG.java",
+                "violationSpecifier": "4973:jmetal-algorithm/src/main/java/org/uma/jmetal/algorithm/multiobjective/cdg/AbstractCDG.java:889:15:889:17"
+            },
+            {
+                "endLine": 1414,
+                "endColumn": 31,
+                "startColumn": 29,
+                "startLine": 1414,
+                "filePath": "jmetal-problem/src/main/java/org/uma/jmetal/problem/multiobjective/ebes/Ebes.java",
+                "violationSpecifier": "4973:jmetal-problem/src/main/java/org/uma/jmetal/problem/multiobjective/ebes/Ebes.java:1414:29:1414:31"
+            },
+            {
+                "endLine": 5564,
+                "endColumn": 28,
+                "startColumn": 26,
+                "startLine": 5564,
+                "filePath": "jmetal-problem/src/main/java/org/uma/jmetal/problem/multiobjective/ebes/Ebes.java",
+                "violationSpecifier": "4973:jmetal-problem/src/main/java/org/uma/jmetal/problem/multiobjective/ebes/Ebes.java:5564:26:5564:28"
+            }
+        ],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 19514,
+    "repairTimeMs": 974,
+    "startTimeMs": 1612808219043,
+    "crashes": [],
+    "endTimeMs": 1612808238557,
+    "parseTimeMs": 8651
+}

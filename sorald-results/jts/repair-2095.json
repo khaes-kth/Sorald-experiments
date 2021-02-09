@@ -1,0 +1,122 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 11,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 276,
+                "endColumn": 90,
+                "startColumn": 22,
+                "startLine": 276,
+                "filePath": "modules/tests/src/main/java/org/locationtech/jtstest/testrunner/JTSTestRunnerCmd.java",
+                "violationSpecifier": "2095:modules/tests/src/main/java/org/locationtech/jtstest/testrunner/JTSTestRunnerCmd.java:276:22:276:90"
+            },
+            {
+                "endLine": 590,
+                "endColumn": 70,
+                "startColumn": 40,
+                "startLine": 590,
+                "filePath": "modules/tests/src/main/java/org/locationtech/jtstest/testrunner/TestReader.java",
+                "violationSpecifier": "2095:modules/tests/src/main/java/org/locationtech/jtstest/testrunner/TestReader.java:590:40:590:70"
+            },
+            {
+                "endLine": 65,
+                "endColumn": 70,
+                "startColumn": 40,
+                "startLine": 65,
+                "filePath": "modules/app/src/main/java/org/locationtech/jtstest/util/FileUtil.java",
+                "violationSpecifier": "2095:modules/app/src/main/java/org/locationtech/jtstest/util/FileUtil.java:65:40:65:70"
+            },
+            {
+                "endLine": 93,
+                "endColumn": 68,
+                "startColumn": 22,
+                "startLine": 93,
+                "filePath": "modules/app/src/main/java/org/locationtech/jtstest/util/FileUtil.java",
+                "violationSpecifier": "2095:modules/app/src/main/java/org/locationtech/jtstest/util/FileUtil.java:93:22:93:68"
+            },
+            {
+                "endLine": 106,
+                "endColumn": 70,
+                "startColumn": 40,
+                "startLine": 106,
+                "filePath": "modules/app/src/main/java/org/locationtech/jtstest/util/FileUtil.java",
+                "violationSpecifier": "2095:modules/app/src/main/java/org/locationtech/jtstest/util/FileUtil.java:106:40:106:70"
+            },
+            {
+                "endLine": 118,
+                "endColumn": 70,
+                "startColumn": 31,
+                "startLine": 118,
+                "filePath": "modules/app/src/main/java/org/locationtech/jtstest/util/FileUtil.java",
+                "violationSpecifier": "2095:modules/app/src/main/java/org/locationtech/jtstest/util/FileUtil.java:118:31:118:70"
+            },
+            {
+                "endLine": 122,
+                "endColumn": 56,
+                "startColumn": 29,
+                "startLine": 122,
+                "filePath": "modules/app/src/main/java/org/locationtech/jtstest/util/FileUtil.java",
+                "violationSpecifier": "2095:modules/app/src/main/java/org/locationtech/jtstest/util/FileUtil.java:122:29:122:56"
+            },
+            {
+                "endLine": 78,
+                "endColumn": 44,
+                "startColumn": 18,
+                "startLine": 78,
+                "filePath": "modules/core/src/test/java/test/jts/geom/TestSerializable.java",
+                "violationSpecifier": "2095:modules/core/src/test/java/test/jts/geom/TestSerializable.java:78:18:78:44"
+            },
+            {
+                "endLine": 82,
+                "endColumn": 51,
+                "startColumn": 18,
+                "startLine": 82,
+                "filePath": "modules/core/src/test/java/test/jts/geom/TestSerializable.java",
+                "violationSpecifier": "2095:modules/core/src/test/java/test/jts/geom/TestSerializable.java:82:18:82:51"
+            },
+            {
+                "endLine": 106,
+                "endColumn": 40,
+                "startColumn": 15,
+                "startLine": 106,
+                "filePath": "modules/core/src/test/java/test/jts/geom/TestSerializable.java",
+                "violationSpecifier": "2095:modules/core/src/test/java/test/jts/geom/TestSerializable.java:106:15:106:40"
+            },
+            {
+                "endLine": 110,
+                "endColumn": 47,
+                "startColumn": 18,
+                "startLine": 110,
+                "filePath": "modules/core/src/test/java/test/jts/geom/TestSerializable.java",
+                "violationSpecifier": "2095:modules/core/src/test/java/test/jts/geom/TestSerializable.java:110:18:110:47"
+            }
+        ],
+        "nbViolationsBefore": 12,
+        "nbViolationsAfter": 3
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 35024,
+    "repairTimeMs": 1165,
+    "startTimeMs": 1612812955595,
+    "crashes": [],
+    "endTimeMs": 1612812990619,
+    "parseTimeMs": 8275
+}

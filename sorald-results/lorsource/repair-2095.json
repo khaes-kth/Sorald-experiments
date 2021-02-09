@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 69,
+                "endColumn": 89,
+                "startColumn": 20,
+                "startLine": 69,
+                "filePath": "src/test/java/ru/org/linux/topic/TopicIntegrationTestConfiguration.java",
+                "violationSpecifier": "2095:src/test/java/ru/org/linux/topic/TopicIntegrationTestConfiguration.java:69:20:69:89"
+            },
+            {
+                "endLine": 29,
+                "endColumn": 106,
+                "startColumn": 24,
+                "startLine": 29,
+                "filePath": "src/main/java/ru/org/linux/util/FileUtils.java",
+                "violationSpecifier": "2095:src/main/java/ru/org/linux/util/FileUtils.java:29:24:29:106"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 14338,
+    "repairTimeMs": 339,
+    "startTimeMs": 1612799187387,
+    "crashes": [],
+    "endTimeMs": 1612799201725,
+    "parseTimeMs": 3333
+}

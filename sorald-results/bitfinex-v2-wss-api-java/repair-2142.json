@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 251,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 251,
+                "filePath": "src/test/java/com/github/jnidzwetzki/bitfinex/v2/test/manager/OrderManagerTest.java",
+                "violationSpecifier": "2142:src/test/java/com/github/jnidzwetzki/bitfinex/v2/test/manager/OrderManagerTest.java:251:21:251:43"
+            },
+            {
+                "endLine": 308,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 308,
+                "filePath": "src/test/java/com/github/jnidzwetzki/bitfinex/v2/test/manager/OrderManagerTest.java",
+                "violationSpecifier": "2142:src/test/java/com/github/jnidzwetzki/bitfinex/v2/test/manager/OrderManagerTest.java:308:21:308:43"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4949,
+    "repairTimeMs": 291,
+    "startTimeMs": 1612817828570,
+    "crashes": [],
+    "endTimeMs": 1612817833519,
+    "parseTimeMs": 2108
+}

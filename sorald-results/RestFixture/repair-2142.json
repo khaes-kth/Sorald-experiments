@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [{
+            "endLine": 145,
+            "endColumn": 39,
+            "startColumn": 17,
+            "startLine": 145,
+            "filePath": "src/test/fitnesse/smartrics/rest/test/fitnesse/fixture/HttpServer.java",
+            "violationSpecifier": "2142:src/test/fitnesse/smartrics/rest/test/fitnesse/fixture/HttpServer.java:145:17:145:39"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4615,
+    "repairTimeMs": 272,
+    "startTimeMs": 1612801102115,
+    "crashes": [],
+    "endTimeMs": 1612801106730,
+    "parseTimeMs": 1877
+}

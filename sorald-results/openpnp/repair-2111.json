@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "BigDecimalDoubleConstructor",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2111",
+        "performedRepairsLocations": [{
+            "endLine": 489,
+            "endColumn": 39,
+            "startColumn": 18,
+            "startLine": 489,
+            "filePath": "src/main/java/org/openpnp/machine/reference/feeder/wizards/ReferenceRotatedTrayFeederConfigurationWizard.java",
+            "violationSpecifier": "2111:src/main/java/org/openpnp/machine/reference/feeder/wizards/ReferenceRotatedTrayFeederConfigurationWizard.java:489:18:489:39"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2111",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 17588,
+    "repairTimeMs": 844,
+    "startTimeMs": 1612803220879,
+    "crashes": [],
+    "endTimeMs": 1612803238467,
+    "parseTimeMs": 7692
+}

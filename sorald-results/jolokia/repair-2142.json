@@ -1,0 +1,114 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 10,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 10,
+        "performedRepairsLocations": [
+            {
+                "endLine": 97,
+                "endColumn": 48,
+                "startColumn": 25,
+                "startLine": 97,
+                "filePath": "client/java/src/test/java/org/jolokia/client/request/J4pReadIntegrationTest.java",
+                "violationSpecifier": "2142:client/java/src/test/java/org/jolokia/client/request/J4pReadIntegrationTest.java:97:25:97:48"
+            },
+            {
+                "endLine": 116,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 116,
+                "filePath": "agent/core/src/main/java/org/jolokia/detector/JBossDetector.java",
+                "violationSpecifier": "2142:agent/core/src/main/java/org/jolokia/detector/JBossDetector.java:116:21:116:43"
+            },
+            {
+                "endLine": 57,
+                "endColumn": 47,
+                "startColumn": 25,
+                "startLine": 57,
+                "filePath": "agent/core/src/main/java/org/jolokia/detector/LightstreamerDetector.java",
+                "violationSpecifier": "2142:agent/core/src/main/java/org/jolokia/detector/LightstreamerDetector.java:57:25:57:47"
+            },
+            {
+                "endLine": 66,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 66,
+                "filePath": "agent/core/src/main/java/org/jolokia/detector/LightstreamerDetector.java",
+                "violationSpecifier": "2142:agent/core/src/main/java/org/jolokia/detector/LightstreamerDetector.java:66:21:66:43"
+            },
+            {
+                "endLine": 119,
+                "endColumn": 45,
+                "startColumn": 21,
+                "startLine": 119,
+                "filePath": "agent/core/src/main/java/org/jolokia/discovery/MulticastUtil.java",
+                "violationSpecifier": "2142:agent/core/src/main/java/org/jolokia/discovery/MulticastUtil.java:119:21:119:45"
+            },
+            {
+                "endLine": 285,
+                "endColumn": 47,
+                "startColumn": 25,
+                "startLine": 285,
+                "filePath": "agent/core/src/test/java/org/jolokia/history/HistoryStoreTest.java",
+                "violationSpecifier": "2142:agent/core/src/test/java/org/jolokia/history/HistoryStoreTest.java:285:25:285:47"
+            },
+            {
+                "endLine": 505,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 505,
+                "filePath": "agent/jvm/src/test/java/org/jolokia/jvmagent/JolokiaServerTest.java",
+                "violationSpecifier": "2142:agent/jvm/src/test/java/org/jolokia/jvmagent/JolokiaServerTest.java:505:21:505:43"
+            },
+            {
+                "endLine": 32,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 32,
+                "filePath": "agent/jvm/src/test/java/org/jolokia/jvmagent/TestMain.java",
+                "violationSpecifier": "2142:agent/jvm/src/test/java/org/jolokia/jvmagent/TestMain.java:32:29:32:51"
+            },
+            {
+                "endLine": 100,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 100,
+                "filePath": "agent/jvm/src/main/java/org/jolokia/jvmagent/client/command/AbstractBaseCommand.java",
+                "violationSpecifier": "2142:agent/jvm/src/main/java/org/jolokia/jvmagent/client/command/AbstractBaseCommand.java:100:21:100:43"
+            },
+            {
+                "endLine": 43,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 43,
+                "filePath": "agent/jvm-spring/src/test/java/org/jolokia/jvmagent/spring/BaseServerTest.java",
+                "violationSpecifier": "2142:agent/jvm-spring/src/test/java/org/jolokia/jvmagent/spring/BaseServerTest.java:43:21:43:43"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 10939,
+    "repairTimeMs": 498,
+    "startTimeMs": 1612800457059,
+    "crashes": [],
+    "endTimeMs": 1612800467998,
+    "parseTimeMs": 4551
+}

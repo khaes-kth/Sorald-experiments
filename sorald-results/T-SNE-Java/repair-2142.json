@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 493,
+            "endColumn": 35,
+            "startColumn": 13,
+            "startLine": 493,
+            "filePath": "tsne-demos/src/main/java/com/jujutsu/tsne/demos/BarnesHutTSneCsv.java",
+            "violationSpecifier": "2142:tsne-demos/src/main/java/com/jujutsu/tsne/demos/BarnesHutTSneCsv.java:493:13:493:35"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4225,
+    "repairTimeMs": 262,
+    "startTimeMs": 1612810674447,
+    "crashes": [],
+    "endTimeMs": 1612810678672,
+    "parseTimeMs": 1572
+}

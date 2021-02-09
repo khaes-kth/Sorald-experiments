@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 37,
+                "endColumn": 61,
+                "startColumn": 23,
+                "startLine": 37,
+                "filePath": "src/test/java/com/github/alexcojocaru/mojo/elasticsearch/v2/ItBase.java",
+                "violationSpecifier": "2095:src/test/java/com/github/alexcojocaru/mojo/elasticsearch/v2/ItBase.java:37:23:37:61"
+            },
+            {
+                "endLine": 68,
+                "endColumn": 50,
+                "startColumn": 24,
+                "startLine": 68,
+                "filePath": "src/test/java/com/github/alexcojocaru/mojo/elasticsearch/v2/ItSetup.java",
+                "violationSpecifier": "2095:src/test/java/com/github/alexcojocaru/mojo/elasticsearch/v2/ItSetup.java:68:24:68:50"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 2
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5897,
+    "repairTimeMs": 150,
+    "startTimeMs": 1612809900028,
+    "crashes": [],
+    "endTimeMs": 1612809905925,
+    "parseTimeMs": 1626
+}

@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [
+            {
+                "endLine": 1104,
+                "endColumn": 27,
+                "startColumn": 23,
+                "startLine": 1104,
+                "filePath": "core/src/main/java/org/movsim/simulator/roadnetwork/RoadSegment.java",
+                "violationSpecifier": "2272:core/src/main/java/org/movsim/simulator/roadnetwork/RoadSegment.java:1104:23:1104:27"
+            },
+            {
+                "endLine": 1220,
+                "endColumn": 31,
+                "startColumn": 27,
+                "startLine": 1220,
+                "filePath": "core/src/main/java/org/movsim/simulator/roadnetwork/RoadSegment.java",
+                "violationSpecifier": "2272:core/src/main/java/org/movsim/simulator/roadnetwork/RoadSegment.java:1220:27:1220:31"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 29513,
+    "repairTimeMs": 20592,
+    "startTimeMs": 1612800698153,
+    "crashes": [],
+    "endTimeMs": 1612800727666,
+    "parseTimeMs": 4087
+}

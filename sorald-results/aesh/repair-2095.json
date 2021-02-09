@@ -1,0 +1,138 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 13,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "nbViolationsBefore": 13,
+        "performedRepairsLocations": [
+            {
+                "endLine": 201,
+                "endColumn": 90,
+                "startColumn": 32,
+                "startLine": 201,
+                "filePath": "examples/src/main/java/examples/Example.java",
+                "violationSpecifier": "2095:examples/src/main/java/examples/Example.java:201:32:201:90"
+            },
+            {
+                "endLine": 116,
+                "endColumn": 92,
+                "startColumn": 28,
+                "startLine": 116,
+                "filePath": "aesh/src/test/java/org/aesh/command/AeshScriptTest.java",
+                "violationSpecifier": "2095:aesh/src/test/java/org/aesh/command/AeshScriptTest.java:116:28:116:92"
+            },
+            {
+                "endLine": 261,
+                "endColumn": 58,
+                "startColumn": 32,
+                "startLine": 261,
+                "filePath": "aesh/src/main/java/org/aesh/command/export/ExportManager.java",
+                "violationSpecifier": "2095:aesh/src/main/java/org/aesh/command/export/ExportManager.java:261:32:261:58"
+            },
+            {
+                "endLine": 141,
+                "endColumn": 134,
+                "startColumn": 40,
+                "startLine": 141,
+                "filePath": "aesh/src/test/java/org/aesh/command/operator/AeshCommandPipelineTest.java",
+                "violationSpecifier": "2095:aesh/src/test/java/org/aesh/command/operator/AeshCommandPipelineTest.java:141:40:141:134"
+            },
+            {
+                "endLine": 165,
+                "endColumn": 93,
+                "startColumn": 40,
+                "startLine": 165,
+                "filePath": "aesh/src/test/java/org/aesh/command/operator/AeshCommandPipelineTest.java",
+                "violationSpecifier": "2095:aesh/src/test/java/org/aesh/command/operator/AeshCommandPipelineTest.java:165:40:165:93"
+            },
+            {
+                "endLine": 430,
+                "endColumn": 89,
+                "startColumn": 36,
+                "startLine": 430,
+                "filePath": "aesh/src/test/java/org/aesh/command/operator/ConsoleRedirectionTest.java",
+                "violationSpecifier": "2095:aesh/src/test/java/org/aesh/command/operator/ConsoleRedirectionTest.java:430:36:430:89"
+            },
+            {
+                "endLine": 453,
+                "endColumn": 89,
+                "startColumn": 36,
+                "startLine": 453,
+                "filePath": "aesh/src/test/java/org/aesh/command/operator/ConsoleRedirectionTest.java",
+                "violationSpecifier": "2095:aesh/src/test/java/org/aesh/command/operator/ConsoleRedirectionTest.java:453:36:453:89"
+            },
+            {
+                "endLine": 471,
+                "endColumn": 131,
+                "startColumn": 37,
+                "startLine": 471,
+                "filePath": "aesh/src/test/java/org/aesh/command/operator/ConsoleRedirectionTest.java",
+                "violationSpecifier": "2095:aesh/src/test/java/org/aesh/command/operator/ConsoleRedirectionTest.java:471:37:471:131"
+            },
+            {
+                "endLine": 45,
+                "endColumn": 55,
+                "startColumn": 32,
+                "startLine": 45,
+                "filePath": "aesh/src/test/java/org/aesh/io/filter/DirectoryResourceFilterTest.java",
+                "violationSpecifier": "2095:aesh/src/test/java/org/aesh/io/filter/DirectoryResourceFilterTest.java:45:32:45:55"
+            },
+            {
+                "endLine": 45,
+                "endColumn": 55,
+                "startColumn": 32,
+                "startLine": 45,
+                "filePath": "aesh/src/test/java/org/aesh/io/filter/LeafResourceFilterTest.java",
+                "violationSpecifier": "2095:aesh/src/test/java/org/aesh/io/filter/LeafResourceFilterTest.java:45:32:45:55"
+            },
+            {
+                "endLine": 45,
+                "endColumn": 55,
+                "startColumn": 32,
+                "startLine": 45,
+                "filePath": "aesh/src/test/java/org/aesh/io/filter/NoDotNamesFilterTest.java",
+                "violationSpecifier": "2095:aesh/src/test/java/org/aesh/io/filter/NoDotNamesFilterTest.java:45:32:45:55"
+            },
+            {
+                "endLine": 49,
+                "endColumn": 55,
+                "startColumn": 32,
+                "startLine": 49,
+                "filePath": "aesh/src/test/java/org/aesh/util/FileUtilsTest.java",
+                "violationSpecifier": "2095:aesh/src/test/java/org/aesh/util/FileUtilsTest.java:49:32:49:55"
+            },
+            {
+                "endLine": 81,
+                "endColumn": 68,
+                "startColumn": 28,
+                "startLine": 81,
+                "filePath": "aesh/src/test/java/org/aesh/util/graal/GraalReflectionFileGeneratorTest.java",
+                "violationSpecifier": "2095:aesh/src/test/java/org/aesh/util/graal/GraalReflectionFileGeneratorTest.java:81:28:81:68"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 15206,
+    "repairTimeMs": 485,
+    "startTimeMs": 1612801291255,
+    "crashes": [],
+    "endTimeMs": 1612801306461,
+    "parseTimeMs": 3248
+}

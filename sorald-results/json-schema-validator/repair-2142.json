@@ -1,0 +1,66 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 4,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 62,
+                "endColumn": 49,
+                "startColumn": 21,
+                "startLine": 62,
+                "filePath": "src/test/java/com/networknt/schema/V201909JsonSchemaTest.java",
+                "violationSpecifier": "2142:src/test/java/com/networknt/schema/V201909JsonSchemaTest.java:62:21:62:49"
+            },
+            {
+                "endLine": 65,
+                "endColumn": 49,
+                "startColumn": 21,
+                "startLine": 65,
+                "filePath": "src/test/java/com/networknt/schema/V4JsonSchemaTest.java",
+                "violationSpecifier": "2142:src/test/java/com/networknt/schema/V4JsonSchemaTest.java:65:21:65:49"
+            },
+            {
+                "endLine": 62,
+                "endColumn": 49,
+                "startColumn": 21,
+                "startLine": 62,
+                "filePath": "src/test/java/com/networknt/schema/V6JsonSchemaTest.java",
+                "violationSpecifier": "2142:src/test/java/com/networknt/schema/V6JsonSchemaTest.java:62:21:62:49"
+            },
+            {
+                "endLine": 62,
+                "endColumn": 49,
+                "startColumn": 21,
+                "startLine": 62,
+                "filePath": "src/test/java/com/networknt/schema/V7JsonSchemaTest.java",
+                "violationSpecifier": "2142:src/test/java/com/networknt/schema/V7JsonSchemaTest.java:62:21:62:49"
+            }
+        ],
+        "nbViolationsBefore": 4,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5487,
+    "repairTimeMs": 250,
+    "startTimeMs": 1612814818001,
+    "crashes": [],
+    "endTimeMs": 1612814823488,
+    "parseTimeMs": 2414
+}

@@ -1,0 +1,90 @@
+WARN  Invalid character encountered in file fromString at line 210 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 248 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 749 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 5 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 11 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 5 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=17ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  861 source files to be analyzed
+INFO  167/861 files analyzed, current file: moa/src/main/java/moa/tasks/WriteStreamToARFFFile.java
+INFO  362/861 files analyzed, current file: moa/src/main/java/moa/classifiers/lazy/neighboursearch/NormalizableDistance.java
+INFO  496/861 files analyzed, current file: moa/src/main/java/moa/classifiers/trees/EFDT.java
+INFO  636/861 files analyzed, current file: moa/src/main/java/moa/clusterers/outliers/utils/mtree/MTree.java
+INFO  766/861 files analyzed, current file: moa/src/main/java/moa/gui/experimentertab/SummaryTab.java
+INFO  861/861 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=55877ms
+INFO  Java Test Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Generated Files AST scan
+INFO  0/0 source files have been analyzed
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed
+-----Number of fixes------
+UnclosedResourcesProcessor: 59
+-----End of report------
+WARN  Invalid character encountered in file fromString at line 210 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 248 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 749 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 5 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 11 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 5 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  861 source files to be analyzed
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluateModelMultiLabel.java'
+ERROR Parse error at line 110 column 139: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluateModel.java'
+ERROR Parse error at line 115 column 139: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluateConceptDrift.java'
+ERROR Parse error at line 122 column 120: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluateInterleavedTestThenTrain.java'
+ERROR Parse error at line 130 column 120: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluatePrequentialMultiTargetSemiSuper.java'
+ERROR Parse error at line 172 column 120: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluatePrequentialCV.java'
+ERROR Parse error at line 147 column 120: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluateModelMultiTarget.java'
+ERROR Parse error at line 106 column 139: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluatePrequentialMultiTarget.java'
+ERROR Parse error at line 161 column 120: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluatePrequentialDelayed.java'
+ERROR Parse error at line 185 column 120: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluatePrequentialRegression.java'
+ERROR Parse error at line 161 column 120: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluateModelRegression.java'
+ERROR Parse error at line 106 column 139: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/meta/ALPrequentialEvaluationTask.java'
+ERROR Parse error at line 154 column 105: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluatePeriodicHeldOutTest.java'
+ERROR Parse error at line 111 column 120: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluateInterleavedChunks.java'
+ERROR Parse error at line 149 column 105: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluatePrequential.java'
+ERROR Parse error at line 159 column 120: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluatePrequentialDelayedCV.java'
+ERROR Parse error at line 168 column 120: Syntax error on token ")", Block expected after this token
+ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluatePrequentialMultiLabel.java'
+ERROR Parse error at line 162 column 120: Syntax error on token ")", Block expected after this token
+INFO  307/861 files analyzed, current file: moa/src/main/java/moa/classifiers/rules/multilabel/AMRulesMultiLabelLearner.java
+INFO  493/861 files analyzed, current file: moa/src/main/java/moa/classifiers/trees/ORTO.java
+INFO  636/861 files analyzed, current file: moa/src/main/java/moa/clusterers/outliers/utils/mtree/MTree.java
+INFO  794/861 files analyzed, current file: moa/src/main/java/moa/gui/visualization/RunOutlierVisualizer.java
+INFO  Java Main Files AST scan (done) | time=43299ms
+INFO  Java Test Files AST scan
+INFO  861/861 source files have been analyzed
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed

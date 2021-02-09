@@ -1,0 +1,322 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 36,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 56,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 56,
+                "filePath": "src/test/java/com/github/davidmoten/rx2/FlowablesTest.java",
+                "violationSpecifier": "2142:src/test/java/com/github/davidmoten/rx2/FlowablesTest.java:56:17:56:39"
+            },
+            {
+                "endLine": 63,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 63,
+                "filePath": "src/test/java/com/github/davidmoten/rx2/FlowablesTest.java",
+                "violationSpecifier": "2142:src/test/java/com/github/davidmoten/rx2/FlowablesTest.java:63:17:63:39"
+            },
+            {
+                "endLine": 53,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 53,
+                "filePath": "src/test/java/com/github/davidmoten/rx2/ObservablesTest.java",
+                "violationSpecifier": "2142:src/test/java/com/github/davidmoten/rx2/ObservablesTest.java:53:17:53:39"
+            },
+            {
+                "endLine": 60,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 60,
+                "filePath": "src/test/java/com/github/davidmoten/rx2/ObservablesTest.java",
+                "violationSpecifier": "2142:src/test/java/com/github/davidmoten/rx2/ObservablesTest.java:60:17:60:39"
+            },
+            {
+                "endLine": 48,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 48,
+                "filePath": "src/main/java/com/github/davidmoten/rx2/SchedulerHelper.java",
+                "violationSpecifier": "2142:src/main/java/com/github/davidmoten/rx2/SchedulerHelper.java:48:17:48:39"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 90,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreamsInterleaved_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreamsInterleaved_jmhTest.java:90:21:90:44"
+            },
+            {
+                "endLine": 157,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 157,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreamsInterleaved_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreamsInterleaved_jmhTest.java:157:21:157:44"
+            },
+            {
+                "endLine": 228,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 228,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreamsInterleaved_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreamsInterleaved_jmhTest.java:228:21:228:44"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 90,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreams_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreams_jmhTest.java:90:21:90:44"
+            },
+            {
+                "endLine": 157,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 157,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreams_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreams_jmhTest.java:157:21:157:44"
+            },
+            {
+                "endLine": 228,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 228,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreams_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_mergeTwoStreams_jmhTest.java:228:21:228:44"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 90,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaStringTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaStringTake5_jmhTest.java:90:21:90:44"
+            },
+            {
+                "endLine": 157,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 157,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaStringTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaStringTake5_jmhTest.java:157:21:157:44"
+            },
+            {
+                "endLine": 228,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 228,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaStringTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaStringTake5_jmhTest.java:228:21:228:44"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 90,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaString_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaString_jmhTest.java:90:21:90:44"
+            },
+            {
+                "endLine": 157,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 157,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaString_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaString_jmhTest.java:157:21:157:44"
+            },
+            {
+                "endLine": 228,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 228,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaString_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitRxJavaString_jmhTest.java:228:21:228:44"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 90,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimpleTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimpleTake5_jmhTest.java:90:21:90:44"
+            },
+            {
+                "endLine": 157,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 157,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimpleTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimpleTake5_jmhTest.java:157:21:157:44"
+            },
+            {
+                "endLine": 228,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 228,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimpleTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimpleTake5_jmhTest.java:228:21:228:44"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 90,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimple_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimple_jmhTest.java:90:21:90:44"
+            },
+            {
+                "endLine": 157,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 157,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimple_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimple_jmhTest.java:157:21:157:44"
+            },
+            {
+                "endLine": 228,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 228,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimple_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitSimple_jmhTest.java:228:21:228:44"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 90,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardTake5_jmhTest.java:90:21:90:44"
+            },
+            {
+                "endLine": 157,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 157,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardTake5_jmhTest.java:157:21:157:44"
+            },
+            {
+                "endLine": 228,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 228,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardTake5_jmhTest.java:228:21:228:44"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 90,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPatternTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPatternTake5_jmhTest.java:90:21:90:44"
+            },
+            {
+                "endLine": 157,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 157,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPatternTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPatternTake5_jmhTest.java:157:21:157:44"
+            },
+            {
+                "endLine": 228,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 228,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPatternTake5_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPatternTake5_jmhTest.java:228:21:228:44"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 90,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPattern_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPattern_jmhTest.java:90:21:90:44"
+            },
+            {
+                "endLine": 157,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 157,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPattern_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPattern_jmhTest.java:157:21:157:44"
+            },
+            {
+                "endLine": 228,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 228,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPattern_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandardWithPattern_jmhTest.java:228:21:228:44"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 90,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandard_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandard_jmhTest.java:90:21:90:44"
+            },
+            {
+                "endLine": 157,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 157,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandard_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandard_jmhTest.java:157:21:157:44"
+            },
+            {
+                "endLine": 228,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 228,
+                "filePath": "target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandard_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx2/generated/Benchmarks_splitStandard_jmhTest.java:228:21:228:44"
+            },
+            {
+                "endLine": 121,
+                "endColumn": 56,
+                "startColumn": 33,
+                "startLine": 121,
+                "filePath": "src/main/java/com/github/davidmoten/rx2/internal/flowable/FlowableStringInputStream.java",
+                "violationSpecifier": "2142:src/main/java/com/github/davidmoten/rx2/internal/flowable/FlowableStringInputStream.java:121:33:121:56"
+            }
+        ],
+        "nbViolationsBefore": 36,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 6993,
+    "repairTimeMs": 458,
+    "startTimeMs": 1612815812189,
+    "crashes": [],
+    "endTimeMs": 1612815819182,
+    "parseTimeMs": 2943
+}

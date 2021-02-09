@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 33,
+                "endColumn": 49,
+                "startColumn": 19,
+                "startLine": 33,
+                "filePath": "src/main/java/com/github/alexcojocaru/mojo/elasticsearch/v2/ExecutionLock.java",
+                "violationSpecifier": "2142:src/main/java/com/github/alexcojocaru/mojo/elasticsearch/v2/ExecutionLock.java:33:19:33:49"
+            },
+            {
+                "endLine": 148,
+                "endColumn": 56,
+                "startColumn": 33,
+                "startLine": 148,
+                "filePath": "src/main/java/com/github/alexcojocaru/mojo/elasticsearch/v2/ForkedElasticsearchProcessDestroyer.java",
+                "violationSpecifier": "2142:src/main/java/com/github/alexcojocaru/mojo/elasticsearch/v2/ForkedElasticsearchProcessDestroyer.java:148:33:148:56"
+            },
+            {
+                "endLine": 181,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 181,
+                "filePath": "src/main/java/com/github/alexcojocaru/mojo/elasticsearch/v2/ForkedElasticsearchProcessDestroyer.java",
+                "violationSpecifier": "2142:src/main/java/com/github/alexcojocaru/mojo/elasticsearch/v2/ForkedElasticsearchProcessDestroyer.java:181:19:181:41"
+            }
+        ],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4246,
+    "repairTimeMs": 213,
+    "startTimeMs": 1612809871838,
+    "crashes": [],
+    "endTimeMs": 1612809876084,
+    "parseTimeMs": 1769
+}

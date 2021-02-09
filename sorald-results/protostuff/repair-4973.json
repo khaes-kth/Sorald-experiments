@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [{
+            "endLine": 395,
+            "endColumn": 32,
+            "startColumn": 30,
+            "startLine": 395,
+            "filePath": "protostuff-runtime/src/test/java/io/protostuff/runtime/PolymorphicSerializationTest.java",
+            "violationSpecifier": "4973:protostuff-runtime/src/test/java/io/protostuff/runtime/PolymorphicSerializationTest.java:395:30:395:32"
+        }],
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 17309,
+    "repairTimeMs": 967,
+    "startTimeMs": 1612806152837,
+    "crashes": [],
+    "endTimeMs": 1612806170146,
+    "parseTimeMs": 7815
+}

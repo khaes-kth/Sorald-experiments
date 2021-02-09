@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "BigDecimalDoubleConstructor",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2111",
+        "performedRepairsLocations": [{
+            "endLine": 109,
+            "endColumn": 47,
+            "startColumn": 15,
+            "startLine": 109,
+            "filePath": "src/main/java/com/github/javafaker/Number.java",
+            "violationSpecifier": "2111:src/main/java/com/github/javafaker/Number.java:109:15:109:47"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2111",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5597,
+    "repairTimeMs": 267,
+    "startTimeMs": 1612799354957,
+    "crashes": [],
+    "endTimeMs": 1612799360554,
+    "parseTimeMs": 2121
+}

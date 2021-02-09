@@ -1,0 +1,90 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 7,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 7,
+        "performedRepairsLocations": [
+            {
+                "endLine": 128,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 128,
+                "filePath": "rest-client-driver/src/main/java/com/github/restdriver/clientdriver/RestClientDriver.java",
+                "violationSpecifier": "2142:rest-client-driver/src/main/java/com/github/restdriver/clientdriver/RestClientDriver.java:128:21:128:43"
+            },
+            {
+                "endLine": 141,
+                "endColumn": 47,
+                "startColumn": 25,
+                "startLine": 141,
+                "filePath": "rest-client-driver/src/main/java/com/github/restdriver/clientdriver/RestClientDriver.java",
+                "violationSpecifier": "2142:rest-client-driver/src/main/java/com/github/restdriver/clientdriver/RestClientDriver.java:141:25:141:47"
+            },
+            {
+                "endLine": 203,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 203,
+                "filePath": "rest-client-driver/src/test/java/com/github/restdriver/clientdriver/integration/VerifyWithinTest.java",
+                "violationSpecifier": "2142:rest-client-driver/src/test/java/com/github/restdriver/clientdriver/integration/VerifyWithinTest.java:203:17:203:39"
+            },
+            {
+                "endLine": 86,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 86,
+                "filePath": "rest-client-driver/src/test/java/com/github/restdriver/clientdriver/integration/WhenCompletedTest.java",
+                "violationSpecifier": "2142:rest-client-driver/src/test/java/com/github/restdriver/clientdriver/integration/WhenCompletedTest.java:86:17:86:39"
+            },
+            {
+                "endLine": 124,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 124,
+                "filePath": "rest-client-driver/src/main/java/com/github/restdriver/clientdriver/jetty/DefaultClientDriverJettyHandler.java",
+                "violationSpecifier": "2142:rest-client-driver/src/main/java/com/github/restdriver/clientdriver/jetty/DefaultClientDriverJettyHandler.java:124:21:124:44"
+            },
+            {
+                "endLine": 247,
+                "endColumn": 40,
+                "startColumn": 17,
+                "startLine": 247,
+                "filePath": "rest-client-driver/src/main/java/com/github/restdriver/clientdriver/jetty/DefaultClientDriverJettyHandler.java",
+                "violationSpecifier": "2142:rest-client-driver/src/main/java/com/github/restdriver/clientdriver/jetty/DefaultClientDriverJettyHandler.java:247:17:247:40"
+            },
+            {
+                "endLine": 116,
+                "endColumn": 40,
+                "startColumn": 17,
+                "startLine": 116,
+                "filePath": "rest-server-driver/src/main/java/com/github/restdriver/serverdriver/polling/Poller.java",
+                "violationSpecifier": "2142:rest-server-driver/src/main/java/com/github/restdriver/serverdriver/polling/Poller.java:116:17:116:40"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5332,
+    "repairTimeMs": 255,
+    "startTimeMs": 1612800849512,
+    "crashes": [],
+    "endTimeMs": 1612800854844,
+    "parseTimeMs": 2181
+}

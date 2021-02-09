@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [
+            {
+                "endLine": 39,
+                "endColumn": 21,
+                "startColumn": 17,
+                "startLine": 39,
+                "filePath": "src/main/java/bad/robot/excel/sheet/SheetIterator.java",
+                "violationSpecifier": "2272:src/main/java/bad/robot/excel/sheet/SheetIterator.java:39:17:39:21"
+            },
+            {
+                "endLine": 37,
+                "endColumn": 22,
+                "startColumn": 18,
+                "startLine": 37,
+                "filePath": "src/main/java/bad/robot/excel/sheet/SheetNameIterator.java",
+                "violationSpecifier": "2272:src/main/java/bad/robot/excel/sheet/SheetNameIterator.java:37:18:37:22"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 3799,
+    "repairTimeMs": 258,
+    "startTimeMs": 1612802866150,
+    "crashes": [],
+    "endTimeMs": 1612802869949,
+    "parseTimeMs": 1445
+}

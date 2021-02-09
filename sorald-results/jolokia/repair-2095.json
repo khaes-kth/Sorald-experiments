@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 30,
+                "endColumn": 68,
+                "startColumn": 33,
+                "startLine": 30,
+                "filePath": "agent/core/src/main/java/org/jolokia/discovery/MulticastUtil.java",
+                "violationSpecifier": "2095:agent/core/src/main/java/org/jolokia/discovery/MulticastUtil.java:30:33:30:68"
+            },
+            {
+                "endLine": 183,
+                "endColumn": 72,
+                "startColumn": 42,
+                "startLine": 183,
+                "filePath": "agent/core/src/main/java/org/jolokia/discovery/MulticastUtil.java",
+                "violationSpecifier": "2095:agent/core/src/main/java/org/jolokia/discovery/MulticastUtil.java:183:42:183:72"
+            },
+            {
+                "endLine": 46,
+                "endColumn": 49,
+                "startColumn": 34,
+                "startLine": 46,
+                "filePath": "agent/jvm/src/main/java/org/jolokia/jvmagent/client/command/ListCommand.java",
+                "violationSpecifier": "2095:agent/jvm/src/main/java/org/jolokia/jvmagent/client/command/ListCommand.java:46:34:46:49"
+            }
+        ],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 20972,
+    "repairTimeMs": 439,
+    "startTimeMs": 1612800522816,
+    "crashes": [],
+    "endTimeMs": 1612800543788,
+    "parseTimeMs": 3917
+}

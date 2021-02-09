@@ -1,0 +1,138 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 13,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 195,
+                "endColumn": 78,
+                "startColumn": 11,
+                "startLine": 195,
+                "filePath": "src/ext/java/org/opentripplanner/ext/legacygraphqlapi/LegacyGraphQLAPI.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/legacygraphqlapi/LegacyGraphQLAPI.java:195:11:195:78"
+            },
+            {
+                "endLine": 214,
+                "endColumn": 66,
+                "startColumn": 25,
+                "startLine": 214,
+                "filePath": "src/ext/java/org/opentripplanner/ext/siri/updater/SiriETGooglePubsubUpdater.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/siri/updater/SiriETGooglePubsubUpdater.java:214:25:214:66"
+            },
+            {
+                "endLine": 235,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 235,
+                "filePath": "src/ext/java/org/opentripplanner/ext/siri/updater/SiriETGooglePubsubUpdater.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/siri/updater/SiriETGooglePubsubUpdater.java:235:21:235:43"
+            },
+            {
+                "endLine": 127,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 127,
+                "filePath": "src/ext/java/org/opentripplanner/ext/siri/updater/SiriSXUpdater.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/siri/updater/SiriSXUpdater.java:127:21:127:44"
+            },
+            {
+                "endLine": 107,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 107,
+                "filePath": "src/ext/java/org/opentripplanner/ext/siri/updater/SiriVMHttpTripUpdateSource.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/siri/updater/SiriVMHttpTripUpdateSource.java:107:21:107:44"
+            },
+            {
+                "endLine": 158,
+                "endColumn": 84,
+                "startColumn": 17,
+                "startLine": 158,
+                "filePath": "src/ext/java/org/opentripplanner/ext/transmodelapi/TransmodelAPI.java",
+                "violationSpecifier": "2142:src/ext/java/org/opentripplanner/ext/transmodelapi/TransmodelAPI.java:158:17:158:84"
+            },
+            {
+                "endLine": 158,
+                "endColumn": 40,
+                "startColumn": 17,
+                "startLine": 158,
+                "filePath": "src/main/java/org/opentripplanner/standalone/server/GrizzlyServer.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/standalone/server/GrizzlyServer.java:158:17:158:40"
+            },
+            {
+                "endLine": 160,
+                "endColumn": 58,
+                "startColumn": 15,
+                "startLine": 160,
+                "filePath": "src/main/java/org/opentripplanner/transit/raptor/service/RangRaptorDynamicSearch.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/transit/raptor/service/RangRaptorDynamicSearch.java:160:15:160:58"
+            },
+            {
+                "endLine": 107,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 107,
+                "filePath": "src/main/java/org/opentripplanner/updater/GraphUpdaterManager.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/updater/GraphUpdaterManager.java:107:17:107:39"
+            },
+            {
+                "endLine": 125,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 125,
+                "filePath": "src/main/java/org/opentripplanner/updater/GraphUpdaterManager.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/updater/GraphUpdaterManager.java:125:17:125:39"
+            },
+            {
+                "endLine": 75,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 75,
+                "filePath": "src/main/java/org/opentripplanner/updater/PollingGraphUpdater.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/updater/PollingGraphUpdater.java:75:17:75:39"
+            },
+            {
+                "endLine": 79,
+                "endColumn": 37,
+                "startColumn": 15,
+                "startLine": 79,
+                "filePath": "src/test/java/org/opentripplanner/util/ProgressTrackerTest.java",
+                "violationSpecifier": "2142:src/test/java/org/opentripplanner/util/ProgressTrackerTest.java:79:15:79:37"
+            },
+            {
+                "endLine": 37,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 37,
+                "filePath": "src/main/java/org/opentripplanner/visualizer/VisualTraverseVisitor.java",
+                "violationSpecifier": "2142:src/main/java/org/opentripplanner/visualizer/VisualTraverseVisitor.java:37:21:37:43"
+            }
+        ],
+        "nbViolationsBefore": 13,
+        "nbViolationsAfter": 3
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 29073,
+    "repairTimeMs": 1058,
+    "startTimeMs": 1612799815661,
+    "crashes": [],
+    "endTimeMs": 1612799844734,
+    "parseTimeMs": 13032
+}

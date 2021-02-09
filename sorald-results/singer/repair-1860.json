@@ -1,0 +1,66 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 4,
+        "ruleName": "SynchronizationOnStringOrBoxed",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "1860",
+        "performedRepairsLocations": [
+            {
+                "endLine": 391,
+                "endColumn": 27,
+                "startColumn": 18,
+                "startLine": 391,
+                "filePath": "singer/src/main/java/com/pinterest/singer/monitor/DefaultLogMonitor.java",
+                "violationSpecifier": "1860:singer/src/main/java/com/pinterest/singer/monitor/DefaultLogMonitor.java:391:18:391:27"
+            },
+            {
+                "endLine": 409,
+                "endColumn": 27,
+                "startColumn": 18,
+                "startLine": 409,
+                "filePath": "singer/src/main/java/com/pinterest/singer/monitor/DefaultLogMonitor.java",
+                "violationSpecifier": "1860:singer/src/main/java/com/pinterest/singer/monitor/DefaultLogMonitor.java:409:18:409:27"
+            },
+            {
+                "endLine": 340,
+                "endColumn": 27,
+                "startColumn": 18,
+                "startLine": 340,
+                "filePath": "singer/src/main/java/com/pinterest/singer/processor/DefaultLogStreamProcessor.java",
+                "violationSpecifier": "1860:singer/src/main/java/com/pinterest/singer/processor/DefaultLogStreamProcessor.java:340:18:340:27"
+            },
+            {
+                "endLine": 363,
+                "endColumn": 27,
+                "startColumn": 18,
+                "startLine": 363,
+                "filePath": "singer/src/main/java/com/pinterest/singer/processor/DefaultLogStreamProcessor.java",
+                "violationSpecifier": "1860:singer/src/main/java/com/pinterest/singer/processor/DefaultLogStreamProcessor.java:363:18:363:27"
+            }
+        ],
+        "nbViolationsBefore": 4,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "1860",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 11530,
+    "repairTimeMs": 524,
+    "startTimeMs": 1612819461046,
+    "crashes": [],
+    "endTimeMs": 1612819472576,
+    "parseTimeMs": 4791
+}

@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [{
+            "endLine": 160,
+            "endColumn": 45,
+            "startColumn": 17,
+            "startLine": 160,
+            "filePath": "examples/src/main/java/com/spotify/metrics/example/MetricTypesExample.java",
+            "violationSpecifier": "2142:examples/src/main/java/com/spotify/metrics/example/MetricTypesExample.java:160:17:160:45"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4560,
+    "repairTimeMs": 200,
+    "startTimeMs": 1612814550804,
+    "crashes": [],
+    "endTimeMs": 1612814555364,
+    "parseTimeMs": 2033
+}

@@ -1,0 +1,146 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 14,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 115,
+                "endColumn": 47,
+                "startColumn": 19,
+                "startLine": 115,
+                "filePath": "examples/src/main/java/examples/AeshGraphicsExample.java",
+                "violationSpecifier": "2142:examples/src/main/java/examples/AeshGraphicsExample.java:115:19:115:47"
+            },
+            {
+                "endLine": 177,
+                "endColumn": 47,
+                "startColumn": 19,
+                "startLine": 177,
+                "filePath": "examples/src/main/java/examples/AeshGraphicsExample.java",
+                "violationSpecifier": "2142:examples/src/main/java/examples/AeshGraphicsExample.java:177:19:177:47"
+            },
+            {
+                "endLine": 410,
+                "endColumn": 45,
+                "startColumn": 23,
+                "startLine": 410,
+                "filePath": "examples/src/main/java/examples/Example.java",
+                "violationSpecifier": "2142:examples/src/main/java/examples/Example.java:410:23:410:45"
+            },
+            {
+                "endLine": 468,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 468,
+                "filePath": "examples/src/main/java/examples/Example.java",
+                "violationSpecifier": "2142:examples/src/main/java/examples/Example.java:468:21:468:43"
+            },
+            {
+                "endLine": 125,
+                "endColumn": 57,
+                "startColumn": 21,
+                "startLine": 125,
+                "filePath": "aesh/src/main/java/org/aesh/AeshRuntimeRunner.java",
+                "violationSpecifier": "2142:aesh/src/main/java/org/aesh/AeshRuntimeRunner.java:125:21:125:57"
+            },
+            {
+                "endLine": 109,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 109,
+                "filePath": "aesh/src/test/java/org/aesh/command/AeshCommandPasteTest.java",
+                "violationSpecifier": "2142:aesh/src/test/java/org/aesh/command/AeshCommandPasteTest.java:109:19:109:41"
+            },
+            {
+                "endLine": 175,
+                "endColumn": 48,
+                "startColumn": 26,
+                "startLine": 175,
+                "filePath": "aesh/src/main/java/org/aesh/command/impl/Executions.java",
+                "violationSpecifier": "2142:aesh/src/main/java/org/aesh/command/impl/Executions.java:175:26:175:48"
+            },
+            {
+                "endLine": 105,
+                "endColumn": 43,
+                "startColumn": 15,
+                "startLine": 105,
+                "filePath": "aesh/src/main/java/org/aesh/command/impl/invocation/DefaultCommandInvocation.java",
+                "violationSpecifier": "2142:aesh/src/main/java/org/aesh/command/impl/invocation/DefaultCommandInvocation.java:105:15:105:43"
+            },
+            {
+                "endLine": 120,
+                "endColumn": 43,
+                "startColumn": 15,
+                "startLine": 120,
+                "filePath": "aesh/src/main/java/org/aesh/command/impl/invocation/DefaultCommandInvocation.java",
+                "violationSpecifier": "2142:aesh/src/main/java/org/aesh/command/impl/invocation/DefaultCommandInvocation.java:120:15:120:43"
+            },
+            {
+                "endLine": 605,
+                "endColumn": 52,
+                "startColumn": 29,
+                "startLine": 605,
+                "filePath": "aesh/src/main/java/org/aesh/readline/PagingSupport.java",
+                "violationSpecifier": "2142:aesh/src/main/java/org/aesh/readline/PagingSupport.java:605:29:605:52"
+            },
+            {
+                "endLine": 86,
+                "endColumn": 37,
+                "startColumn": 15,
+                "startLine": 86,
+                "filePath": "aesh/src/main/java/org/aesh/readline/Process.java",
+                "violationSpecifier": "2142:aesh/src/main/java/org/aesh/readline/Process.java:86:15:86:37"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 40,
+                "startColumn": 18,
+                "startLine": 159,
+                "filePath": "aesh/src/main/java/org/aesh/selector/MultiSelect.java",
+                "violationSpecifier": "2142:aesh/src/main/java/org/aesh/selector/MultiSelect.java:159:18:159:40"
+            },
+            {
+                "endLine": 120,
+                "endColumn": 40,
+                "startColumn": 18,
+                "startLine": 120,
+                "filePath": "aesh/src/main/java/org/aesh/selector/Selector.java",
+                "violationSpecifier": "2142:aesh/src/main/java/org/aesh/selector/Selector.java:120:18:120:40"
+            },
+            {
+                "endLine": 207,
+                "endColumn": 45,
+                "startColumn": 23,
+                "startLine": 207,
+                "filePath": "aesh/src/test/java/org/aesh/tty/TestConnection.java",
+                "violationSpecifier": "2142:aesh/src/test/java/org/aesh/tty/TestConnection.java:207:23:207:45"
+            }
+        ],
+        "nbViolationsBefore": 14,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 8343,
+    "repairTimeMs": 417,
+    "startTimeMs": 1612801240697,
+    "crashes": [],
+    "endTimeMs": 1612801249040,
+    "parseTimeMs": 3437
+}

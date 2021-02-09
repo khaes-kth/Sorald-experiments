@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CastArithmeticOperand",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2184",
+        "performedRepairsLocations": [{
+            "endLine": 70,
+            "endColumn": 26,
+            "startColumn": 25,
+            "startLine": 70,
+            "filePath": "src/main/java/org/tinyradius/test/TestServer.java",
+            "violationSpecifier": "2184:src/main/java/org/tinyradius/test/TestServer.java:70:25:70:26"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2184",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 2852,
+    "repairTimeMs": 196,
+    "startTimeMs": 1612801194068,
+    "crashes": [],
+    "endTimeMs": 1612801196920,
+    "parseTimeMs": 963
+}

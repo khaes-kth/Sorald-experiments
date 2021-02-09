@@ -1,0 +1,66 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 4,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 186,
+                "endColumn": 108,
+                "startColumn": 32,
+                "startLine": 186,
+                "filePath": "quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java",
+                "violationSpecifier": "2095:quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java:186:32:186:108"
+            },
+            {
+                "endLine": 187,
+                "endColumn": 110,
+                "startColumn": 28,
+                "startLine": 187,
+                "filePath": "quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java",
+                "violationSpecifier": "2095:quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java:187:28:187:110"
+            },
+            {
+                "endLine": 188,
+                "endColumn": 106,
+                "startColumn": 26,
+                "startLine": 188,
+                "filePath": "quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java",
+                "violationSpecifier": "2095:quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java:188:26:188:106"
+            },
+            {
+                "endLine": 369,
+                "endColumn": 69,
+                "startColumn": 30,
+                "startLine": 369,
+                "filePath": "quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java",
+                "violationSpecifier": "2095:quality/src/test/java/com/tdunning/tdigest/quality/AccuracyTest.java:369:30:369:69"
+            }
+        ],
+        "nbViolationsBefore": 4,
+        "nbViolationsAfter": 2
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 12516,
+    "repairTimeMs": 397,
+    "startTimeMs": 1612806645273,
+    "crashes": [],
+    "endTimeMs": 1612806657789,
+    "parseTimeMs": 1923
+}

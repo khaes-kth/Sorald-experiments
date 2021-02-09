@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "nbViolationsBefore": 4,
+        "performedRepairsLocations": [
+            {
+                "endLine": 111,
+                "endColumn": 64,
+                "startColumn": 31,
+                "startLine": 111,
+                "filePath": ".mvn/wrapper/MavenWrapperDownloader.java",
+                "violationSpecifier": "2095:.mvn/wrapper/MavenWrapperDownloader.java:111:31:111:64"
+            },
+            {
+                "endLine": 100,
+                "endColumn": 41,
+                "startColumn": 17,
+                "startLine": 100,
+                "filePath": "src/main/java/cn/nukkit/utils/Utils.java",
+                "violationSpecifier": "2095:src/main/java/cn/nukkit/utils/Utils.java:100:17:100:41"
+            },
+            {
+                "endLine": 240,
+                "endColumn": 56,
+                "startColumn": 32,
+                "startLine": 240,
+                "filePath": "src/main/java/co/aikar/timings/TimingsExport.java",
+                "violationSpecifier": "2095:src/main/java/co/aikar/timings/TimingsExport.java:240:32:240:56"
+            }
+        ],
+        "nbViolationsAfter": 2
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 42100,
+    "repairTimeMs": 1073,
+    "startTimeMs": 1612817461460,
+    "crashes": [],
+    "endTimeMs": 1612817503560,
+    "parseTimeMs": 7954
+}

@@ -1,0 +1,74 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 5,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "nbViolationsBefore": 230,
+        "performedRepairsLocations": [
+            {
+                "endLine": 271,
+                "endColumn": 56,
+                "startColumn": 31,
+                "startLine": 271,
+                "filePath": "src/test/java/org/sqlite/ConnectionTest.java",
+                "violationSpecifier": "2095:src/test/java/org/sqlite/ConnectionTest.java:271:31:271:56"
+            },
+            {
+                "endLine": 1230,
+                "endColumn": 46,
+                "startColumn": 19,
+                "startLine": 1230,
+                "filePath": "src/test/java/org/sqlite/DBMetaDataTest.java",
+                "violationSpecifier": "2095:src/test/java/org/sqlite/DBMetaDataTest.java:1230:19:1230:46"
+            },
+            {
+                "endLine": 292,
+                "endColumn": 62,
+                "startColumn": 34,
+                "startLine": 292,
+                "filePath": "src/main/java/org/sqlite/SQLiteConnection.java",
+                "violationSpecifier": "2095:src/main/java/org/sqlite/SQLiteConnection.java:292:34:292:62"
+            },
+            {
+                "endLine": 135,
+                "endColumn": 78,
+                "startColumn": 42,
+                "startLine": 135,
+                "filePath": "src/test/java/org/sqlite/SQLiteJDBCLoaderTest.java",
+                "violationSpecifier": "2095:src/test/java/org/sqlite/SQLiteJDBCLoaderTest.java:135:42:135:78"
+            },
+            {
+                "endLine": 462,
+                "endColumn": 60,
+                "startColumn": 38,
+                "startLine": 462,
+                "filePath": "src/test/java/org/sqlite/UDFTest.java",
+                "violationSpecifier": "2095:src/test/java/org/sqlite/UDFTest.java:462:38:462:60"
+            }
+        ],
+        "nbViolationsAfter": 228
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 12255,
+    "repairTimeMs": 515,
+    "startTimeMs": 1612805807041,
+    "crashes": [],
+    "endTimeMs": 1612805819296,
+    "parseTimeMs": 2276
+}

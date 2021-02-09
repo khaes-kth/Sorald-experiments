@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "CastArithmeticOperand",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2184",
+        "performedRepairsLocations": [
+            {
+                "endLine": 53,
+                "endColumn": 44,
+                "startColumn": 43,
+                "startLine": 53,
+                "filePath": "ascii-render/src/main/java/com/indvd00m/ascii/render/elements/Circle.java",
+                "violationSpecifier": "2184:ascii-render/src/main/java/com/indvd00m/ascii/render/elements/Circle.java:53:43:53:44"
+            },
+            {
+                "endLine": 53,
+                "endColumn": 66,
+                "startColumn": 65,
+                "startLine": 53,
+                "filePath": "ascii-render/src/main/java/com/indvd00m/ascii/render/elements/Circle.java",
+                "violationSpecifier": "2184:ascii-render/src/main/java/com/indvd00m/ascii/render/elements/Circle.java:53:65:53:66"
+            },
+            {
+                "endLine": 198,
+                "endColumn": 46,
+                "startColumn": 45,
+                "startLine": 198,
+                "filePath": "ascii-render/src/main/java/com/indvd00m/ascii/render/elements/PseudoText.java",
+                "violationSpecifier": "2184:ascii-render/src/main/java/com/indvd00m/ascii/render/elements/PseudoText.java:198:45:198:46"
+            }
+        ],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2184",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4072,
+    "repairTimeMs": 270,
+    "startTimeMs": 1612816010118,
+    "crashes": [],
+    "endTimeMs": 1612816014190,
+    "parseTimeMs": 1461
+}

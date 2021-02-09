@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 33,
+                "endColumn": 44,
+                "startColumn": 24,
+                "startLine": 33,
+                "filePath": "detour-extras/src/main/java/org/recast4j/detour/extras/ObjExporter.java",
+                "violationSpecifier": "2095:detour-extras/src/main/java/org/recast4j/detour/extras/ObjExporter.java:33:24:33:44"
+            },
+            {
+                "endLine": 254,
+                "endColumn": 48,
+                "startColumn": 28,
+                "startLine": 254,
+                "filePath": "recast/src/test/java/org/recast4j/recast/RecastSoloMeshTest.java",
+                "violationSpecifier": "2095:recast/src/test/java/org/recast4j/recast/RecastSoloMeshTest.java:254:28:254:48"
+            },
+            {
+                "endLine": 281,
+                "endColumn": 48,
+                "startColumn": 28,
+                "startLine": 281,
+                "filePath": "recast/src/test/java/org/recast4j/recast/RecastSoloMeshTest.java",
+                "violationSpecifier": "2095:recast/src/test/java/org/recast4j/recast/RecastSoloMeshTest.java:281:28:281:48"
+            }
+        ],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 29330,
+    "repairTimeMs": 546,
+    "startTimeMs": 1612811890594,
+    "crashes": [],
+    "endTimeMs": 1612811919924,
+    "parseTimeMs": 3146
+}

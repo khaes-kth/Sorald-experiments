@@ -1,0 +1,90 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 7,
+        "ruleName": "CastArithmeticOperand",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2184",
+        "performedRepairsLocations": [
+            {
+                "endLine": 30,
+                "endColumn": 42,
+                "startColumn": 41,
+                "startLine": 30,
+                "filePath": "src/main/java/com/uber/profiling/examples/HelloWorldApplication.java",
+                "violationSpecifier": "2184:src/main/java/com/uber/profiling/examples/HelloWorldApplication.java:30:41:30:42"
+            },
+            {
+                "endLine": 124,
+                "endColumn": 101,
+                "startColumn": 100,
+                "startLine": 124,
+                "filePath": "src/main/java/com/uber/profiling/profilers/ProcessInfoProfiler.java",
+                "violationSpecifier": "2184:src/main/java/com/uber/profiling/profilers/ProcessInfoProfiler.java:124:100:124:101"
+            },
+            {
+                "endLine": 47,
+                "endColumn": 35,
+                "startColumn": 34,
+                "startLine": 47,
+                "filePath": "src/test/java/com/uber/profiling/profilers/StacktraceCollectorProfilerTest.java",
+                "violationSpecifier": "2184:src/test/java/com/uber/profiling/profilers/StacktraceCollectorProfilerTest.java:47:34:47:35"
+            },
+            {
+                "endLine": 133,
+                "endColumn": 35,
+                "startColumn": 34,
+                "startLine": 133,
+                "filePath": "src/test/java/com/uber/profiling/profilers/StacktraceCollectorProfilerTest.java",
+                "violationSpecifier": "2184:src/test/java/com/uber/profiling/profilers/StacktraceCollectorProfilerTest.java:133:34:133:35"
+            },
+            {
+                "endLine": 253,
+                "endColumn": 35,
+                "startColumn": 34,
+                "startLine": 253,
+                "filePath": "src/test/java/com/uber/profiling/profilers/StacktraceCollectorProfilerTest.java",
+                "violationSpecifier": "2184:src/test/java/com/uber/profiling/profilers/StacktraceCollectorProfilerTest.java:253:34:253:35"
+            },
+            {
+                "endLine": 144,
+                "endColumn": 40,
+                "startColumn": 39,
+                "startLine": 144,
+                "filePath": "src/main/java_jdbc/com/uber/profiling/reporters/util/DateTimeUtils.java",
+                "violationSpecifier": "2184:src/main/java_jdbc/com/uber/profiling/reporters/util/DateTimeUtils.java:144:39:144:40"
+            },
+            {
+                "endLine": 149,
+                "endColumn": 40,
+                "startColumn": 39,
+                "startLine": 149,
+                "filePath": "src/main/java_jdbc/com/uber/profiling/reporters/util/DateTimeUtils.java",
+                "violationSpecifier": "2184:src/main/java_jdbc/com/uber/profiling/reporters/util/DateTimeUtils.java:149:39:149:40"
+            }
+        ],
+        "nbViolationsBefore": 7,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2184",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5074,
+    "repairTimeMs": 255,
+    "startTimeMs": 1612817262384,
+    "crashes": [],
+    "endTimeMs": 1612817267458,
+    "parseTimeMs": 2083
+}

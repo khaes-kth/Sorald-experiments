@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CastArithmeticOperand",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2184",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 72,
+            "endColumn": 42,
+            "startColumn": 41,
+            "startLine": 72,
+            "filePath": "src/main/java/com/spotify/annoy/ANNIndex.java",
+            "violationSpecifier": "2184:src/main/java/com/spotify/annoy/ANNIndex.java:72:41:72:42"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2184",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 1947,
+    "repairTimeMs": 172,
+    "startTimeMs": 1612810769705,
+    "crashes": [],
+    "endTimeMs": 1612810771652,
+    "parseTimeMs": 513
+}

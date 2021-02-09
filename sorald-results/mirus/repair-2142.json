@@ -1,0 +1,66 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 4,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 71,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 71,
+                "filePath": "src/main/java/com/salesforce/mirus/HerderStatusMonitor.java",
+                "violationSpecifier": "2142:src/main/java/com/salesforce/mirus/HerderStatusMonitor.java:71:17:71:39"
+            },
+            {
+                "endLine": 195,
+                "endColumn": 55,
+                "startColumn": 15,
+                "startLine": 195,
+                "filePath": "src/main/java/com/salesforce/mirus/KafkaMonitor.java",
+                "violationSpecifier": "2142:src/main/java/com/salesforce/mirus/KafkaMonitor.java:195:15:195:55"
+            },
+            {
+                "endLine": 219,
+                "endColumn": 37,
+                "startColumn": 15,
+                "startLine": 219,
+                "filePath": "src/main/java/com/salesforce/mirus/KafkaMonitor.java",
+                "violationSpecifier": "2142:src/main/java/com/salesforce/mirus/KafkaMonitor.java:219:15:219:37"
+            },
+            {
+                "endLine": 86,
+                "endColumn": 56,
+                "startColumn": 13,
+                "startLine": 86,
+                "filePath": "src/main/java/com/salesforce/mirus/offsets/OffsetFetcher.java",
+                "violationSpecifier": "2142:src/main/java/com/salesforce/mirus/offsets/OffsetFetcher.java:86:13:86:56"
+            }
+        ],
+        "nbViolationsBefore": 4,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 3826,
+    "repairTimeMs": 208,
+    "startTimeMs": 1612818590046,
+    "crashes": [],
+    "endTimeMs": 1612818593872,
+    "parseTimeMs": 1534
+}

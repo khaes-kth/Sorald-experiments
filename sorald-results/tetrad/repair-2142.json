@@ -1,0 +1,298 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 33,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 134,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 134,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/bayes/FactoredBayesStructuralEM.java",
+                "violationSpecifier": "2142:tetrad-lib/src/main/java/edu/cmu/tetrad/bayes/FactoredBayesStructuralEM.java:134:17:134:39"
+            },
+            {
+                "endLine": 1719,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 1719,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/data/DataUtils.java",
+                "violationSpecifier": "2142:tetrad-lib/src/main/java/edu/cmu/tetrad/data/DataUtils.java:1719:29:1719:51"
+            },
+            {
+                "endLine": 1735,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 1735,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/data/DataUtils.java",
+                "violationSpecifier": "2142:tetrad-lib/src/main/java/edu/cmu/tetrad/data/DataUtils.java:1735:17:1735:39"
+            },
+            {
+                "endLine": 787,
+                "endColumn": 47,
+                "startColumn": 25,
+                "startLine": 787,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/search/Dci.java",
+                "violationSpecifier": "2142:tetrad-lib/src/main/java/edu/cmu/tetrad/search/Dci.java:787:25:787:47"
+            },
+            {
+                "endLine": 1668,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 1668,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/search/SampleVcpc.java",
+                "violationSpecifier": "2142:tetrad-lib/src/main/java/edu/cmu/tetrad/search/SampleVcpc.java:1668:17:1668:39"
+            },
+            {
+                "endLine": 1669,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 1669,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/search/SampleVcpcFast.java",
+                "violationSpecifier": "2142:tetrad-lib/src/main/java/edu/cmu/tetrad/search/SampleVcpcFast.java:1669:17:1669:39"
+            },
+            {
+                "endLine": 1118,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 1118,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/search/Vcpc.java",
+                "violationSpecifier": "2142:tetrad-lib/src/main/java/edu/cmu/tetrad/search/Vcpc.java:1118:17:1118:39"
+            },
+            {
+                "endLine": 937,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 937,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/search/VcpcAlt.java",
+                "violationSpecifier": "2142:tetrad-lib/src/main/java/edu/cmu/tetrad/search/VcpcAlt.java:937:17:937:39"
+            },
+            {
+                "endLine": 1112,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 1112,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/search/VcpcFast.java",
+                "violationSpecifier": "2142:tetrad-lib/src/main/java/edu/cmu/tetrad/search/VcpcFast.java:1112:17:1112:39"
+            },
+            {
+                "endLine": 55,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 55,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/app/hpc/task/HpcJobPreProcessTask.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/app/hpc/task/HpcJobPreProcessTask.java:55:12:55:34"
+            },
+            {
+                "endLine": 300,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 300,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/AbstractSearchEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/AbstractSearchEditor.java:300:29:300:51"
+            },
+            {
+                "endLine": 222,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 222,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/FgesSearchEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/FgesSearchEditor.java:222:29:222:51"
+            },
+            {
+                "endLine": 236,
+                "endColumn": 45,
+                "startColumn": 23,
+                "startLine": 236,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/FofcSearchEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/FofcSearchEditor.java:236:23:236:45"
+            },
+            {
+                "endLine": 284,
+                "endColumn": 49,
+                "startColumn": 27,
+                "startLine": 284,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/FofcSearchEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/FofcSearchEditor.java:284:27:284:49"
+            },
+            {
+                "endLine": 236,
+                "endColumn": 47,
+                "startColumn": 25,
+                "startLine": 236,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/FtfcSearchEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/FtfcSearchEditor.java:236:25:236:47"
+            },
+            {
+                "endLine": 283,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 283,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/FtfcSearchEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/FtfcSearchEditor.java:283:29:283:51"
+            },
+            {
+                "endLine": 316,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 316,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/GeneralizedExpressionEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/GeneralizedExpressionEditor.java:316:29:316:51"
+            },
+            {
+                "endLine": 535,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 535,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/GeneralizedExpressionEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/GeneralizedExpressionEditor.java:535:29:535:51"
+            },
+            {
+                "endLine": 417,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 417,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/GeneralizedTemplateEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/GeneralizedTemplateEditor.java:417:29:417:51"
+            },
+            {
+                "endLine": 276,
+                "endColumn": 49,
+                "startColumn": 27,
+                "startLine": 276,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/IonSearchEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/IonSearchEditor.java:276:27:276:49"
+            },
+            {
+                "endLine": 284,
+                "endColumn": 49,
+                "startColumn": 27,
+                "startLine": 284,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/LingSearchEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/LingSearchEditor.java:284:27:284:49"
+            },
+            {
+                "endLine": 216,
+                "endColumn": 49,
+                "startColumn": 27,
+                "startLine": 216,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MarkovBlanketSearchEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MarkovBlanketSearchEditor.java:216:27:216:49"
+            },
+            {
+                "endLine": 276,
+                "endColumn": 45,
+                "startColumn": 23,
+                "startLine": 276,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimSearchEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimSearchEditor.java:276:23:276:45"
+            },
+            {
+                "endLine": 324,
+                "endColumn": 49,
+                "startColumn": 27,
+                "startLine": 324,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimSearchEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimSearchEditor.java:324:27:324:49"
+            },
+            {
+                "endLine": 276,
+                "endColumn": 45,
+                "startColumn": 23,
+                "startLine": 276,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimSearchEditor2.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimSearchEditor2.java:276:23:276:45"
+            },
+            {
+                "endLine": 324,
+                "endColumn": 49,
+                "startColumn": 27,
+                "startLine": 324,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimSearchEditor2.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimSearchEditor2.java:324:27:324:49"
+            },
+            {
+                "endLine": 327,
+                "endColumn": 45,
+                "startColumn": 23,
+                "startLine": 327,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimbuildEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimbuildEditor.java:327:23:327:45"
+            },
+            {
+                "endLine": 375,
+                "endColumn": 49,
+                "startColumn": 27,
+                "startLine": 375,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimbuildEditor.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/MimbuildEditor.java:375:27:375:49"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 47,
+                "startColumn": 25,
+                "startLine": 90,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/util/TextAreaOutputStream.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/util/TextAreaOutputStream.java:90:25:90:47"
+            },
+            {
+                "endLine": 189,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 189,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/util/WatchedProcess.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/util/WatchedProcess.java:189:29:189:51"
+            },
+            {
+                "endLine": 213,
+                "endColumn": 68,
+                "startColumn": 45,
+                "startLine": 213,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/util/WatchedProcess.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/util/WatchedProcess.java:213:45:213:68"
+            },
+            {
+                "endLine": 267,
+                "endColumn": 59,
+                "startColumn": 37,
+                "startLine": 267,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/util/WatchedProcess.java",
+                "violationSpecifier": "2142:tetrad-gui/src/main/java/edu/cmu/tetradapp/util/WatchedProcess.java:267:37:267:59"
+            },
+            {
+                "endLine": 313,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 313,
+                "filePath": "tetrad-lib/src/main/java/edu/pitt/dbmi/algo/resampling/GeneralResamplingSearch.java",
+                "violationSpecifier": "2142:tetrad-lib/src/main/java/edu/pitt/dbmi/algo/resampling/GeneralResamplingSearch.java:313:13:313:35"
+            }
+        ],
+        "nbViolationsBefore": 33,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 50461,
+    "repairTimeMs": 2274,
+    "startTimeMs": 1612813402406,
+    "crashes": [],
+    "endTimeMs": 1612813452867,
+    "parseTimeMs": 21565
+}

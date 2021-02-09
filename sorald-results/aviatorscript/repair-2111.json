@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "BigDecimalDoubleConstructor",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2111",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 283,
+            "endColumn": 76,
+            "startColumn": 13,
+            "startLine": 283,
+            "filePath": "src/main/java/com/googlecode/aviator/runtime/type/AviatorNumber.java",
+            "violationSpecifier": "2111:src/main/java/com/googlecode/aviator/runtime/type/AviatorNumber.java:283:13:283:76"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2111",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 11155,
+    "repairTimeMs": 542,
+    "startTimeMs": 1612799442209,
+    "crashes": [],
+    "endTimeMs": 1612799453364,
+    "parseTimeMs": 4746
+}

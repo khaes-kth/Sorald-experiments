@@ -1,0 +1,218 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 23,
+        "ruleName": "BigDecimalDoubleConstructor",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2111",
+        "nbViolationsBefore": 23,
+        "performedRepairsLocations": [
+            {
+                "endLine": 483,
+                "endColumn": 41,
+                "startColumn": 22,
+                "startLine": 483,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:483:22:483:41"
+            },
+            {
+                "endLine": 484,
+                "endColumn": 40,
+                "startColumn": 21,
+                "startLine": 484,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:484:21:484:40"
+            },
+            {
+                "endLine": 485,
+                "endColumn": 40,
+                "startColumn": 21,
+                "startLine": 485,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:485:21:485:40"
+            },
+            {
+                "endLine": 488,
+                "endColumn": 42,
+                "startColumn": 23,
+                "startLine": 488,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:488:23:488:42"
+            },
+            {
+                "endLine": 491,
+                "endColumn": 42,
+                "startColumn": 23,
+                "startLine": 491,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:491:23:491:42"
+            },
+            {
+                "endLine": 494,
+                "endColumn": 42,
+                "startColumn": 23,
+                "startLine": 494,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:494:23:494:42"
+            },
+            {
+                "endLine": 505,
+                "endColumn": 40,
+                "startColumn": 21,
+                "startLine": 505,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:505:21:505:40"
+            },
+            {
+                "endLine": 505,
+                "endColumn": 69,
+                "startColumn": 50,
+                "startLine": 505,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:505:50:505:69"
+            },
+            {
+                "endLine": 507,
+                "endColumn": 41,
+                "startColumn": 22,
+                "startLine": 507,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:507:22:507:41"
+            },
+            {
+                "endLine": 507,
+                "endColumn": 71,
+                "startColumn": 52,
+                "startLine": 507,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:507:52:507:71"
+            },
+            {
+                "endLine": 511,
+                "endColumn": 41,
+                "startColumn": 22,
+                "startLine": 511,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:511:22:511:41"
+            },
+            {
+                "endLine": 511,
+                "endColumn": 71,
+                "startColumn": 52,
+                "startLine": 511,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:511:52:511:71"
+            },
+            {
+                "endLine": 515,
+                "endColumn": 41,
+                "startColumn": 22,
+                "startLine": 515,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:515:22:515:41"
+            },
+            {
+                "endLine": 515,
+                "endColumn": 71,
+                "startColumn": 52,
+                "startLine": 515,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:515:52:515:71"
+            },
+            {
+                "endLine": 643,
+                "endColumn": 45,
+                "startColumn": 18,
+                "startLine": 643,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:643:18:643:45"
+            },
+            {
+                "endLine": 644,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 644,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:644:19:644:41"
+            },
+            {
+                "endLine": 645,
+                "endColumn": 45,
+                "startColumn": 18,
+                "startLine": 645,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:645:18:645:45"
+            },
+            {
+                "endLine": 646,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 646,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:646:19:646:41"
+            },
+            {
+                "endLine": 647,
+                "endColumn": 38,
+                "startColumn": 18,
+                "startLine": 647,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:647:18:647:38"
+            },
+            {
+                "endLine": 648,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 648,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:648:19:648:41"
+            },
+            {
+                "endLine": 649,
+                "endColumn": 38,
+                "startColumn": 18,
+                "startLine": 649,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:649:18:649:38"
+            },
+            {
+                "endLine": 650,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 650,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:650:19:650:41"
+            },
+            {
+                "endLine": 660,
+                "endColumn": 36,
+                "startColumn": 17,
+                "startLine": 660,
+                "filePath": "src/main/java/com/esri/core/geometry/Point2D.java",
+                "violationSpecifier": "2111:src/main/java/com/esri/core/geometry/Point2D.java:660:17:660:36"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2111",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 13895,
+    "repairTimeMs": 907,
+    "startTimeMs": 1612803481084,
+    "crashes": [],
+    "endTimeMs": 1612803494979,
+    "parseTimeMs": 6231
+}

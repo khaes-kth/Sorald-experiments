@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [{
+            "endLine": 212,
+            "endColumn": 33,
+            "startColumn": 10,
+            "startLine": 212,
+            "filePath": "src/test/java/simplenlg/lexicon/english/NIHDBLexiconTest.java",
+            "violationSpecifier": "2142:src/test/java/simplenlg/lexicon/english/NIHDBLexiconTest.java:212:10:212:33"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5623,
+    "repairTimeMs": 368,
+    "startTimeMs": 1612807354865,
+    "crashes": [],
+    "endTimeMs": 1612807360488,
+    "parseTimeMs": 2159
+}

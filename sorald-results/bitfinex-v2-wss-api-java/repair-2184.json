@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CastArithmeticOperand",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2184",
+        "performedRepairsLocations": [{
+            "endLine": 104,
+            "endColumn": 59,
+            "startColumn": 58,
+            "startLine": 104,
+            "filePath": "src/main/java/com/github/jnidzwetzki/bitfinex/v2/util/EventsInTimeslotManager.java",
+            "violationSpecifier": "2184:src/main/java/com/github/jnidzwetzki/bitfinex/v2/util/EventsInTimeslotManager.java:104:58:104:59"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2184",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5004,
+    "repairTimeMs": 262,
+    "startTimeMs": 1612817852904,
+    "crashes": [],
+    "endTimeMs": 1612817857908,
+    "parseTimeMs": 2086
+}

@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "nbViolationsBefore": 3,
+        "performedRepairsLocations": [
+            {
+                "endLine": 58,
+                "endColumn": 36,
+                "startColumn": 32,
+                "startLine": 58,
+                "filePath": "lib/xsom/src/main/java/com/sun/xml/xsom/impl/UnionSimpleTypeImpl.java",
+                "violationSpecifier": "2272:lib/xsom/src/main/java/com/sun/xml/xsom/impl/UnionSimpleTypeImpl.java:58:32:58:36"
+            },
+            {
+                "endLine": 46,
+                "endColumn": 21,
+                "startColumn": 17,
+                "startLine": 46,
+                "filePath": "lib/xsom/src/main/java/com/sun/xml/xsom/impl/scd/Iterators.java",
+                "violationSpecifier": "2272:lib/xsom/src/main/java/com/sun/xml/xsom/impl/scd/Iterators.java:46:17:46:21"
+            },
+            {
+                "endLine": 186,
+                "endColumn": 21,
+                "startColumn": 17,
+                "startLine": 186,
+                "filePath": "lib/xsom/src/main/java/com/sun/xml/xsom/impl/scd/Iterators.java",
+                "violationSpecifier": "2272:lib/xsom/src/main/java/com/sun/xml/xsom/impl/scd/Iterators.java:186:17:186:21"
+            }
+        ],
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 16358,
+    "repairTimeMs": 1768,
+    "startTimeMs": 1612810426453,
+    "crashes": [],
+    "endTimeMs": 1612810442811,
+    "parseTimeMs": 6995
+}

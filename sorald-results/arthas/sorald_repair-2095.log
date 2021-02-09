@@ -1,0 +1,38 @@
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=26ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  549 source files to be analyzed
+INFO  160/549 files analyzed, current file: core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadCommand.java
+INFO  537/549 files analyzed, current file: common/src/main/java/com/taobao/arthas/common/concurrent/ConcurrentWeakKeyHashMap.java
+INFO  549/549 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=21346ms
+INFO  Java Test Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=4ms
+INFO  0/0 source files have been analyzed
+-----Number of fixes------
+UnclosedResourcesProcessor: 12
+-----End of report------
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  549 source files to be analyzed
+INFO  370/549 files analyzed, current file: core/src/main/java/com/taobao/arthas/core/view/TableView.java
+INFO  Java Main Files AST scan (done) | time=15563ms
+INFO  Java Test Files AST scan
+INFO  549/549 source files have been analyzed
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Generated Files AST scan
+INFO  0/0 source files have been analyzed
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed

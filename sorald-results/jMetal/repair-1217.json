@@ -1,0 +1,24 @@
+{
+    "repairs": [],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "1217",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 19584,
+    "repairTimeMs": 850,
+    "startTimeMs": 1612808274027,
+    "crashes": [],
+    "endTimeMs": 1612808293611,
+    "parseTimeMs": 9061
+}

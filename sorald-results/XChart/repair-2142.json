@@ -1,0 +1,90 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 7,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 7,
+        "performedRepairsLocations": [
+            {
+                "endLine": 91,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 91,
+                "filePath": "xchart/src/main/java/org/knowm/xchart/SwingWrapper.java",
+                "violationSpecifier": "2142:xchart/src/main/java/org/knowm/xchart/SwingWrapper.java:91:13:91:35"
+            },
+            {
+                "endLine": 39,
+                "endColumn": 37,
+                "startColumn": 15,
+                "startLine": 39,
+                "filePath": "xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue291.java",
+                "violationSpecifier": "2142:xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue291.java:39:15:39:37"
+            },
+            {
+                "endLine": 51,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 51,
+                "filePath": "xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue325.java",
+                "violationSpecifier": "2142:xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue325.java:51:13:51:35"
+            },
+            {
+                "endLine": 46,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 46,
+                "filePath": "xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue349.java",
+                "violationSpecifier": "2142:xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue349.java:46:13:46:35"
+            },
+            {
+                "endLine": 38,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 38,
+                "filePath": "xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue416.java",
+                "violationSpecifier": "2142:xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue416.java:38:13:38:35"
+            },
+            {
+                "endLine": 72,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 72,
+                "filePath": "xchart-demo/src/main/java/org/knowm/xchart/standalone/readme/SwingWorkerRealTime.java",
+                "violationSpecifier": "2142:xchart-demo/src/main/java/org/knowm/xchart/standalone/readme/SwingWorkerRealTime.java:72:17:72:39"
+            },
+            {
+                "endLine": 96,
+                "endColumn": 37,
+                "startColumn": 15,
+                "startLine": 96,
+                "filePath": "xchart-demo/src/main/java/org/knowm/xchart/standalone/readme/SwingWorkerRealTime.java",
+                "violationSpecifier": "2142:xchart-demo/src/main/java/org/knowm/xchart/standalone/readme/SwingWorkerRealTime.java:96:15:96:37"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 8645,
+    "repairTimeMs": 383,
+    "startTimeMs": 1612800309819,
+    "crashes": [],
+    "endTimeMs": 1612800318464,
+    "parseTimeMs": 3589
+}

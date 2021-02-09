@@ -1,0 +1,386 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 44,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 309,
+                "endColumn": 90,
+                "startColumn": 12,
+                "startLine": 309,
+                "filePath": "jolie/src/main/java/jolie/Interpreter.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/Interpreter.java:309:12:309:90"
+            },
+            {
+                "endLine": 624,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 624,
+                "filePath": "jolie/src/main/java/jolie/Interpreter.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/Interpreter.java:624:11:624:33"
+            },
+            {
+                "endLine": 628,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 628,
+                "filePath": "jolie/src/main/java/jolie/Interpreter.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/Interpreter.java:628:11:628:33"
+            },
+            {
+                "endLine": 632,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 632,
+                "filePath": "jolie/src/main/java/jolie/Interpreter.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/Interpreter.java:632:11:632:33"
+            },
+            {
+                "endLine": 1074,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 1074,
+                "filePath": "jolie/src/main/java/jolie/Interpreter.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/Interpreter.java:1074:12:1074:34"
+            },
+            {
+                "endLine": 1087,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 1087,
+                "filePath": "jolie/src/main/java/jolie/Interpreter.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/Interpreter.java:1087:13:1087:35"
+            },
+            {
+                "endLine": 1094,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 1094,
+                "filePath": "jolie/src/main/java/jolie/Interpreter.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/Interpreter.java:1094:13:1094:35"
+            },
+            {
+                "endLine": 1299,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 1299,
+                "filePath": "jolie/src/main/java/jolie/Interpreter.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/Interpreter.java:1299:11:1299:33"
+            },
+            {
+                "endLine": 143,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 143,
+                "filePath": "jolie/src/main/java/jolie/net/AbstractCommChannel.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/net/AbstractCommChannel.java:143:12:143:34"
+            },
+            {
+                "endLine": 88,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 88,
+                "filePath": "jolie/src/main/java/jolie/net/AggregatedOperation.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/net/AggregatedOperation.java:88:13:88:35"
+            },
+            {
+                "endLine": 130,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 130,
+                "filePath": "jolie/src/main/java/jolie/net/AggregatedOperation.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/net/AggregatedOperation.java:130:13:130:35"
+            },
+            {
+                "endLine": 197,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 197,
+                "filePath": "jolie/src/main/java/jolie/net/AggregatedOperation.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/net/AggregatedOperation.java:197:13:197:35"
+            },
+            {
+                "endLine": 254,
+                "endColumn": 69,
+                "startColumn": 12,
+                "startLine": 254,
+                "filePath": "jolie/src/main/java/jolie/net/AggregatedOperation.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/net/AggregatedOperation.java:254:12:254:69"
+            },
+            {
+                "endLine": 47,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 47,
+                "filePath": "extensions/btl2cap/src/main/java/jolie/net/BTServiceDiscoveryListener.java",
+                "violationSpecifier": "2142:extensions/btl2cap/src/main/java/jolie/net/BTServiceDiscoveryListener.java:47:13:47:35"
+            },
+            {
+                "endLine": 484,
+                "endColumn": 57,
+                "startColumn": 14,
+                "startLine": 484,
+                "filePath": "jolie/src/main/java/jolie/net/CommCore.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/net/CommCore.java:484:14:484:57"
+            },
+            {
+                "endLine": 577,
+                "endColumn": 37,
+                "startColumn": 15,
+                "startLine": 577,
+                "filePath": "jolie/src/main/java/jolie/net/CommCore.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/net/CommCore.java:577:15:577:37"
+            },
+            {
+                "endLine": 595,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 595,
+                "filePath": "jolie/src/main/java/jolie/net/CommCore.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/net/CommCore.java:595:13:595:35"
+            },
+            {
+                "endLine": 828,
+                "endColumn": 36,
+                "startColumn": 14,
+                "startLine": 828,
+                "filePath": "jolie/src/main/java/jolie/net/CommCore.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/net/CommCore.java:828:14:828:36"
+            },
+            {
+                "endLine": 837,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 837,
+                "filePath": "jolie/src/main/java/jolie/net/CommCore.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/net/CommCore.java:837:12:837:34"
+            },
+            {
+                "endLine": 842,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 842,
+                "filePath": "jolie/src/main/java/jolie/net/CommCore.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/net/CommCore.java:842:12:842:34"
+            },
+            {
+                "endLine": 54,
+                "endColumn": 35,
+                "startColumn": 12,
+                "startLine": 54,
+                "filePath": "jolie/src/main/java/jolie/process/LinkInProcess.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/process/LinkInProcess.java:54:12:54:35"
+            },
+            {
+                "endLine": 107,
+                "endColumn": 78,
+                "startColumn": 11,
+                "startLine": 107,
+                "filePath": "jolie/src/main/java/jolie/process/NDChoiceProcess.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/process/NDChoiceProcess.java:107:11:107:78"
+            },
+            {
+                "endLine": 127,
+                "endColumn": 56,
+                "startColumn": 13,
+                "startLine": 127,
+                "filePath": "jolie/src/main/java/jolie/process/NotificationProcess.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/process/NotificationProcess.java:127:13:127:56"
+            },
+            {
+                "endLine": 83,
+                "endColumn": 78,
+                "startColumn": 11,
+                "startLine": 83,
+                "filePath": "jolie/src/main/java/jolie/process/ProvideUntilProcess.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/process/ProvideUntilProcess.java:83:11:83:78"
+            },
+            {
+                "endLine": 149,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 149,
+                "filePath": "jolie/src/main/java/jolie/process/SolicitResponseProcess.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/process/SolicitResponseProcess.java:149:13:149:35"
+            },
+            {
+                "endLine": 119,
+                "endColumn": 56,
+                "startColumn": 13,
+                "startLine": 119,
+                "filePath": "jolie/src/main/java/jolie/process/courier/ForwardNotificationProcess.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/process/courier/ForwardNotificationProcess.java:119:13:119:56"
+            },
+            {
+                "endLine": 122,
+                "endColumn": 56,
+                "startColumn": 13,
+                "startLine": 122,
+                "filePath": "jolie/src/main/java/jolie/process/courier/ForwardSolicitResponseProcess.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/process/courier/ForwardSolicitResponseProcess.java:122:13:122:56"
+            },
+            {
+                "endLine": 110,
+                "endColumn": 69,
+                "startColumn": 12,
+                "startLine": 110,
+                "filePath": "jolie/src/main/java/jolie/runtime/JavaService.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/runtime/JavaService.java:110:12:110:69"
+            },
+            {
+                "endLine": 88,
+                "endColumn": 39,
+                "startColumn": 16,
+                "startLine": 88,
+                "filePath": "jolie/src/main/java/jolie/runtime/ParallelExecution.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/runtime/ParallelExecution.java:88:16:88:39"
+            },
+            {
+                "endLine": 102,
+                "endColumn": 36,
+                "startColumn": 14,
+                "startLine": 102,
+                "filePath": "jolie/src/main/java/jolie/runtime/ParallelExecution.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/runtime/ParallelExecution.java:102:14:102:36"
+            },
+            {
+                "endLine": 93,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 93,
+                "filePath": "jolie/src/main/java/jolie/runtime/SpawnExecution.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/runtime/SpawnExecution.java:93:11:93:33"
+            },
+            {
+                "endLine": 69,
+                "endColumn": 88,
+                "startColumn": 11,
+                "startLine": 69,
+                "filePath": "jolie/src/main/java/jolie/runtime/embedding/InternalJolieServiceLoader.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/runtime/embedding/InternalJolieServiceLoader.java:69:11:69:88"
+            },
+            {
+                "endLine": 101,
+                "endColumn": 88,
+                "startColumn": 11,
+                "startLine": 101,
+                "filePath": "jolie/src/main/java/jolie/runtime/embedding/JolieServiceLoader.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/runtime/embedding/JolieServiceLoader.java:101:11:101:88"
+            },
+            {
+                "endLine": 66,
+                "endColumn": 68,
+                "startColumn": 11,
+                "startLine": 66,
+                "filePath": "jolie/src/main/java/jolie/runtime/embedding/JolieServiceNodeLoader.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/runtime/embedding/JolieServiceNodeLoader.java:66:11:66:68"
+            },
+            {
+                "endLine": 68,
+                "endColumn": 68,
+                "startColumn": 11,
+                "startLine": 68,
+                "filePath": "jolie/src/main/java/jolie/runtime/embedding/java/OutputPort.java",
+                "violationSpecifier": "2142:jolie/src/main/java/jolie/runtime/embedding/java/OutputPort.java:68:11:68:68"
+            },
+            {
+                "endLine": 56,
+                "endColumn": 68,
+                "startColumn": 11,
+                "startLine": 56,
+                "filePath": "tools/jolie2java/src/main/java/joliex/java/JolieAdapter.java",
+                "violationSpecifier": "2142:tools/jolie2java/src/main/java/joliex/java/JolieAdapter.java:56:11:56:68"
+            },
+            {
+                "endLine": 47,
+                "endColumn": 34,
+                "startColumn": 11,
+                "startLine": 47,
+                "filePath": "javaServices/coreJavaServices/src/main/java/joliex/lang/Concurrent.java",
+                "violationSpecifier": "2142:javaServices/coreJavaServices/src/main/java/joliex/lang/Concurrent.java:47:11:47:34"
+            },
+            {
+                "endLine": 138,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 138,
+                "filePath": "javaServices/coreJavaServices/src/main/java/joliex/lang/reflection/Reflection.java",
+                "violationSpecifier": "2142:javaServices/coreJavaServices/src/main/java/joliex/lang/reflection/Reflection.java:138:11:138:33"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 92,
+                "filePath": "support/metaservice-java/src/main/java/joliex/metaservice/impl/EmbeddedMetaService.java",
+                "violationSpecifier": "2142:support/metaservice-java/src/main/java/joliex/metaservice/impl/EmbeddedMetaService.java:92:11:92:33"
+            },
+            {
+                "endLine": 59,
+                "endColumn": 36,
+                "startColumn": 14,
+                "startLine": 59,
+                "filePath": "extensions/btl2cap/src/main/java/joliex/net/BluetoothService.java",
+                "violationSpecifier": "2142:extensions/btl2cap/src/main/java/joliex/net/BluetoothService.java:59:14:59:36"
+            },
+            {
+                "endLine": 99,
+                "endColumn": 47,
+                "startColumn": 11,
+                "startLine": 99,
+                "filePath": "javaServices/coreJavaServices/src/main/java/joliex/util/ExecService.java",
+                "violationSpecifier": "2142:javaServices/coreJavaServices/src/main/java/joliex/util/ExecService.java:99:11:99:47"
+            },
+            {
+                "endLine": 70,
+                "endColumn": 34,
+                "startColumn": 11,
+                "startLine": 70,
+                "filePath": "javaServices/coreJavaServices/src/main/java/joliex/util/SemaphoreUtils.java",
+                "violationSpecifier": "2142:javaServices/coreJavaServices/src/main/java/joliex/util/SemaphoreUtils.java:70:11:70:34"
+            },
+            {
+                "endLine": 59,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 59,
+                "filePath": "javaServices/coreJavaServices/src/main/java/joliex/util/TimeService.java",
+                "violationSpecifier": "2142:javaServices/coreJavaServices/src/main/java/joliex/util/TimeService.java:59:12:59:34"
+            },
+            {
+                "endLine": 168,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 168,
+                "filePath": "javaServices/coreJavaServices/src/main/java/joliex/util/TimeService.java",
+                "violationSpecifier": "2142:javaServices/coreJavaServices/src/main/java/joliex/util/TimeService.java:168:11:168:33"
+            }
+        ],
+        "nbViolationsBefore": 46,
+        "nbViolationsAfter": 2
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 15897,
+    "repairTimeMs": 909,
+    "startTimeMs": 1612810403700,
+    "crashes": [],
+    "endTimeMs": 1612810419597,
+    "parseTimeMs": 6911
+}

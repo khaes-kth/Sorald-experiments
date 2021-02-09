@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [
+            {
+                "endLine": 211,
+                "endColumn": 32,
+                "startColumn": 30,
+                "startLine": 211,
+                "filePath": "core-test/src/main/java/org/openstack4j/api/identity/v3/KeystoneAuthenticationTests.java",
+                "violationSpecifier": "4973:core-test/src/main/java/org/openstack4j/api/identity/v3/KeystoneAuthenticationTests.java:211:30:211:32"
+            },
+            {
+                "endLine": 281,
+                "endColumn": 37,
+                "startColumn": 35,
+                "startLine": 281,
+                "filePath": "core-test/src/main/java/org/openstack4j/api/identity/v3/KeystoneAuthenticationTests.java",
+                "violationSpecifier": "4973:core-test/src/main/java/org/openstack4j/api/identity/v3/KeystoneAuthenticationTests.java:281:35:281:37"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 18053,
+    "repairTimeMs": 619,
+    "startTimeMs": 1612808883794,
+    "crashes": [],
+    "endTimeMs": 1612808901847,
+    "parseTimeMs": 7524
+}

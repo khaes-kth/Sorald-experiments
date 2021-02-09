@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "nbViolationsBefore": 5,
+        "performedRepairsLocations": [
+            {
+                "endLine": 252,
+                "endColumn": 59,
+                "startColumn": 31,
+                "startLine": 252,
+                "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkConfiguration.java",
+                "violationSpecifier": "2095:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkConfiguration.java:252:31:252:59"
+            },
+            {
+                "endLine": 253,
+                "endColumn": 56,
+                "startColumn": 30,
+                "startLine": 253,
+                "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkConfiguration.java",
+                "violationSpecifier": "2095:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkConfiguration.java:253:30:253:56"
+            },
+            {
+                "endLine": 75,
+                "endColumn": 66,
+                "startColumn": 42,
+                "startLine": 75,
+                "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugins/surefire/report/TestSuiteXmlParser.java",
+                "violationSpecifier": "2095:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugins/surefire/report/TestSuiteXmlParser.java:75:42:75:66"
+            }
+        ],
+        "nbViolationsAfter": 2
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 21971,
+    "repairTimeMs": 797,
+    "startTimeMs": 1612806469697,
+    "crashes": [],
+    "endTimeMs": 1612806491668,
+    "parseTimeMs": 7002
+}

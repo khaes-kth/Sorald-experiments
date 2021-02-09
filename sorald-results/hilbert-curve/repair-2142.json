@@ -1,0 +1,322 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 36,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 36,
+        "performedRepairsLocations": [
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024CallsLowAllocation_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024CallsLowAllocation_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024CallsLowAllocation_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024Calls_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024Calls_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointAllPoints10Bits1024Calls_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024Calls_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024Calls_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_pointSmallAllPoints10Bits1024Calls_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydneyMaxRanges8_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydneyMaxRanges8_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydneyMaxRanges8_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydneyMaxRanges8_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydneyMaxRanges8_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydneyMaxRanges8_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydney_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydney_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydney_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydney_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydney_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_querySydney_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024CallsLowAllocation_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024CallsLowAllocation_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024CallsLowAllocation_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024Calls_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024Calls_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripAllPoints10Bits1024Calls_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024CallsLowAllocation_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024Calls_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024Calls_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_roundTripSmallAllPoints10Bits1024Calls_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024CallsSmall_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024CallsSmall_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024CallsSmall_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024CallsSmall_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024CallsSmall_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024CallsSmall_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 92,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024Calls_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024Calls_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 230,
+                "filePath": "target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024Calls_jmhTest.java",
+                "violationSpecifier": "2142:target/generated-test-sources/test-annotations/org/davidmoten/hilbert/jmh_generated/Benchmarks_toIndexAllPoints10Bits1024Calls_jmhTest.java:230:21:230:44"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4427,
+    "repairTimeMs": 419,
+    "startTimeMs": 1612816425539,
+    "crashes": [],
+    "endTimeMs": 1612816429966,
+    "parseTimeMs": 1562
+}

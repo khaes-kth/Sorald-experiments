@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [{
+            "endLine": 56,
+            "endColumn": 24,
+            "startColumn": 20,
+            "startLine": 56,
+            "filePath": "pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/InputStreamLineIterable.java",
+            "violationSpecifier": "2272:pitest-html-report/src/main/java/org/pitest/mutationtest/report/html/InputStreamLineIterable.java:56:20:56:24"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 17418,
+    "repairTimeMs": 1987,
+    "startTimeMs": 1612806396583,
+    "crashes": [],
+    "endTimeMs": 1612806414001,
+    "parseTimeMs": 7065
+}

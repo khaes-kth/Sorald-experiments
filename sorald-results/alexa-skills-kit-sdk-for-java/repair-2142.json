@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [
+            {
+                "endLine": 111,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 111,
+                "filePath": "ask-sdk-local-debug/src/com/amazon/ask/localdebug/client/WebSocketClientImpl.java",
+                "violationSpecifier": "2142:ask-sdk-local-debug/src/com/amazon/ask/localdebug/client/WebSocketClientImpl.java:111:17:111:39"
+            },
+            {
+                "endLine": 252,
+                "endColumn": 44,
+                "startColumn": 21,
+                "startLine": 252,
+                "filePath": "ask-sdk-servlet-support/src/com/amazon/ask/servlet/verifiers/SkillRequestSignatureVerifier.java",
+                "violationSpecifier": "2142:ask-sdk-servlet-support/src/com/amazon/ask/servlet/verifiers/SkillRequestSignatureVerifier.java:252:21:252:44"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 7433,
+    "repairTimeMs": 347,
+    "startTimeMs": 1612811672991,
+    "crashes": [],
+    "endTimeMs": 1612811680424,
+    "parseTimeMs": 3471
+}

@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 358,
+            "endColumn": 34,
+            "startColumn": 32,
+            "startLine": 358,
+            "filePath": "src/main/java/com/vdurmont/semver4j/Semver.java",
+            "violationSpecifier": "4973:src/main/java/com/vdurmont/semver4j/Semver.java:358:32:358:34"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 2950,
+    "repairTimeMs": 209,
+    "startTimeMs": 1612811807367,
+    "crashes": [],
+    "endTimeMs": 1612811810317,
+    "parseTimeMs": 1075
+}

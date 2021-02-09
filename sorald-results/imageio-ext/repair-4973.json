@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [
+            {
+                "endLine": 153,
+                "endColumn": 51,
+                "startColumn": 49,
+                "startLine": 153,
+                "filePath": "plugin/arcgrid/src/main/java/it/geosolutions/imageio/plugins/arcgrid/raster/EsriAsciiGridRaster.java",
+                "violationSpecifier": "4973:plugin/arcgrid/src/main/java/it/geosolutions/imageio/plugins/arcgrid/raster/EsriAsciiGridRaster.java:153:49:153:51"
+            },
+            {
+                "endLine": 150,
+                "endColumn": 51,
+                "startColumn": 49,
+                "startLine": 150,
+                "filePath": "plugin/arcgrid/src/main/java/it/geosolutions/imageio/plugins/arcgrid/raster/GrassAsciiGridRaster.java",
+                "violationSpecifier": "4973:plugin/arcgrid/src/main/java/it/geosolutions/imageio/plugins/arcgrid/raster/GrassAsciiGridRaster.java:150:49:150:51"
+            },
+            {
+                "endLine": 169,
+                "endColumn": 27,
+                "startColumn": 25,
+                "startLine": 169,
+                "filePath": "plugin/tiff/src/main/java/it/geosolutions/imageioimpl/plugins/tiff/TIFFFieldNode.java",
+                "violationSpecifier": "4973:plugin/tiff/src/main/java/it/geosolutions/imageioimpl/plugins/tiff/TIFFFieldNode.java:169:25:169:27"
+            }
+        ],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 15309,
+    "repairTimeMs": 685,
+    "startTimeMs": 1612802717597,
+    "crashes": [],
+    "endTimeMs": 1612802732906,
+    "parseTimeMs": 7214
+}

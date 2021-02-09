@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "BigDecimalDoubleConstructor",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2111",
+        "performedRepairsLocations": [
+            {
+                "endLine": 79,
+                "endColumn": 41,
+                "startColumn": 22,
+                "startLine": 79,
+                "filePath": "modules/core/src/test/java/test/jts/perf/math/DDExpressionPerf.java",
+                "violationSpecifier": "2111:modules/core/src/test/java/test/jts/perf/math/DDExpressionPerf.java:79:22:79:41"
+            },
+            {
+                "endLine": 80,
+                "endColumn": 47,
+                "startColumn": 27,
+                "startLine": 80,
+                "filePath": "modules/core/src/test/java/test/jts/perf/math/DDExpressionPerf.java",
+                "violationSpecifier": "2111:modules/core/src/test/java/test/jts/perf/math/DDExpressionPerf.java:80:27:80:47"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2111",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 21452,
+    "repairTimeMs": 1203,
+    "startTimeMs": 1612812808941,
+    "crashes": [],
+    "endTimeMs": 1612812830393,
+    "parseTimeMs": 8825
+}

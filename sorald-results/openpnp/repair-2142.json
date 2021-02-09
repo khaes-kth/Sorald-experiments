@@ -1,0 +1,98 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 8,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 130,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 130,
+                "filePath": "src/main/java/org/openpnp/machine/neoden4/Neoden4Camera.java",
+                "violationSpecifier": "2142:src/main/java/org/openpnp/machine/neoden4/Neoden4Camera.java:130:21:130:43"
+            },
+            {
+                "endLine": 172,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 172,
+                "filePath": "src/main/java/org/openpnp/machine/reference/camera/ImageCamera.java",
+                "violationSpecifier": "2142:src/main/java/org/openpnp/machine/reference/camera/ImageCamera.java:172:19:172:41"
+            },
+            {
+                "endLine": 146,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 146,
+                "filePath": "src/main/java/org/openpnp/machine/reference/camera/OnvifIPCamera.java",
+                "violationSpecifier": "2142:src/main/java/org/openpnp/machine/reference/camera/OnvifIPCamera.java:146:19:146:41"
+            },
+            {
+                "endLine": 107,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 107,
+                "filePath": "src/main/java/org/openpnp/machine/reference/camera/OpenCvCamera.java",
+                "violationSpecifier": "2142:src/main/java/org/openpnp/machine/reference/camera/OpenCvCamera.java:107:19:107:41"
+            },
+            {
+                "endLine": 229,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 229,
+                "filePath": "src/main/java/org/openpnp/machine/reference/camera/OpenPnpCaptureCamera.java",
+                "violationSpecifier": "2142:src/main/java/org/openpnp/machine/reference/camera/OpenPnpCaptureCamera.java:229:19:229:41"
+            },
+            {
+                "endLine": 198,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 198,
+                "filePath": "src/main/java/org/openpnp/machine/reference/camera/SimulatedUpCamera.java",
+                "violationSpecifier": "2142:src/main/java/org/openpnp/machine/reference/camera/SimulatedUpCamera.java:198:19:198:41"
+            },
+            {
+                "endLine": 134,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 134,
+                "filePath": "src/main/java/org/openpnp/machine/reference/camera/SwitcherCamera.java",
+                "violationSpecifier": "2142:src/main/java/org/openpnp/machine/reference/camera/SwitcherCamera.java:134:19:134:41"
+            },
+            {
+                "endLine": 105,
+                "endColumn": 41,
+                "startColumn": 19,
+                "startLine": 105,
+                "filePath": "src/main/java/org/openpnp/machine/reference/camera/Webcams.java",
+                "violationSpecifier": "2142:src/main/java/org/openpnp/machine/reference/camera/Webcams.java:105:19:105:41"
+            }
+        ],
+        "nbViolationsBefore": 8,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 16552,
+    "repairTimeMs": 771,
+    "startTimeMs": 1612803245917,
+    "crashes": [],
+    "endTimeMs": 1612803262469,
+    "parseTimeMs": 7302
+}

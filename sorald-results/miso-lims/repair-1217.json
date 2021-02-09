@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "ThreadRun",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "1217",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 73,
+            "endColumn": 10,
+            "startColumn": 7,
+            "startLine": 73,
+            "filePath": "integration-tools/src/test/java/uk/ac/bbsrc/tgac/miso/integration/test/BoxScannerTests.java",
+            "violationSpecifier": "1217:integration-tools/src/test/java/uk/ac/bbsrc/tgac/miso/integration/test/BoxScannerTests.java:73:7:73:10"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "1217",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 26380,
+    "repairTimeMs": 980,
+    "startTimeMs": 1612802412103,
+    "crashes": [],
+    "endTimeMs": 1612802438483,
+    "parseTimeMs": 13129
+}

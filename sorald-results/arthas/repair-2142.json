@@ -1,0 +1,114 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 10,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 69,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 69,
+                "filePath": "client/src/main/java/com/taobao/arthas/client/IOUtil.java",
+                "violationSpecifier": "2142:client/src/main/java/com/taobao/arthas/client/IOUtil.java:69:17:69:39"
+            },
+            {
+                "endLine": 184,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 184,
+                "filePath": "core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java",
+                "violationSpecifier": "2142:core/src/main/java/com/taobao/arthas/core/command/monitor200/ThreadSampler.java:184:17:184:39"
+            },
+            {
+                "endLine": 97,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 97,
+                "filePath": "core/src/main/java/com/taobao/arthas/core/distribution/impl/ResultConsumerImpl.java",
+                "violationSpecifier": "2142:core/src/main/java/com/taobao/arthas/core/distribution/impl/ResultConsumerImpl.java:97:17:97:39"
+            },
+            {
+                "endLine": 52,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 52,
+                "filePath": "core/src/main/java/com/taobao/arthas/core/distribution/impl/SharingResultDistributorImpl.java",
+                "violationSpecifier": "2142:core/src/main/java/com/taobao/arthas/core/distribution/impl/SharingResultDistributorImpl.java:52:17:52:39"
+            },
+            {
+                "endLine": 567,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 567,
+                "filePath": "core/src/main/java/com/taobao/arthas/core/shell/term/impl/http/api/HttpApiHandler.java",
+                "violationSpecifier": "2142:core/src/main/java/com/taobao/arthas/core/shell/term/impl/http/api/HttpApiHandler.java:567:21:567:43"
+            },
+            {
+                "endLine": 386,
+                "endColumn": 53,
+                "startColumn": 31,
+                "startLine": 386,
+                "filePath": "client/src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java",
+                "violationSpecifier": "2142:client/src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java:386:31:386:53"
+            },
+            {
+                "endLine": 418,
+                "endColumn": 75,
+                "startColumn": 43,
+                "startLine": 418,
+                "filePath": "client/src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java",
+                "violationSpecifier": "2142:client/src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java:418:43:418:75"
+            },
+            {
+                "endLine": 434,
+                "endColumn": 57,
+                "startColumn": 35,
+                "startLine": 434,
+                "filePath": "client/src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java",
+                "violationSpecifier": "2142:client/src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java:434:35:434:57"
+            },
+            {
+                "endLine": 617,
+                "endColumn": 63,
+                "startColumn": 31,
+                "startLine": 617,
+                "filePath": "client/src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java",
+                "violationSpecifier": "2142:client/src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java:617:31:617:63"
+            },
+            {
+                "endLine": 641,
+                "endColumn": 45,
+                "startColumn": 23,
+                "startLine": 641,
+                "filePath": "client/src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java",
+                "violationSpecifier": "2142:client/src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java:641:23:641:45"
+            }
+        ],
+        "nbViolationsBefore": 10,
+        "nbViolationsAfter": 2
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 11656,
+    "repairTimeMs": 498,
+    "startTimeMs": 1612818188865,
+    "crashes": [],
+    "endTimeMs": 1612818200521,
+    "parseTimeMs": 4937
+}

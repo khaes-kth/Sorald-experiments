@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 57,
+            "endColumn": 42,
+            "startColumn": 20,
+            "startLine": 57,
+            "filePath": "src/test/java/com/github/joelittlejohn/embedmongo/NetworkUtilsTest.java",
+            "violationSpecifier": "2095:src/test/java/com/github/joelittlejohn/embedmongo/NetworkUtilsTest.java:57:20:57:42"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 2993,
+    "repairTimeMs": 168,
+    "startTimeMs": 1612802828026,
+    "crashes": [],
+    "endTimeMs": 1612802831019,
+    "parseTimeMs": 722
+}

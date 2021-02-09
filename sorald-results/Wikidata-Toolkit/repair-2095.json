@@ -1,0 +1,82 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 6,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "nbViolationsBefore": 6,
+        "performedRepairsLocations": [
+            {
+                "endLine": 124,
+                "endColumn": 55,
+                "startColumn": 32,
+                "startLine": 124,
+                "filePath": "wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java",
+                "violationSpecifier": "2095:wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java:124:32:124:55"
+            },
+            {
+                "endLine": 125,
+                "endColumn": 62,
+                "startColumn": 31,
+                "startLine": 125,
+                "filePath": "wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java",
+                "violationSpecifier": "2095:wdtk-examples/src/main/java/org/wikidata/wdtk/examples/RdfSerializationExample.java:125:31:125:62"
+            },
+            {
+                "endLine": 174,
+                "endColumn": 29,
+                "startColumn": 9,
+                "startLine": 172,
+                "filePath": "wdtk-testing/src/main/java/org/wikidata/wdtk/testing/MockStringContentFactory.java",
+                "violationSpecifier": "2095:wdtk-testing/src/main/java/org/wikidata/wdtk/testing/MockStringContentFactory.java:172:9:174:29"
+            },
+            {
+                "endLine": 178,
+                "endColumn": 29,
+                "startColumn": 9,
+                "startLine": 176,
+                "filePath": "wdtk-testing/src/main/java/org/wikidata/wdtk/testing/MockStringContentFactory.java",
+                "violationSpecifier": "2095:wdtk-testing/src/main/java/org/wikidata/wdtk/testing/MockStringContentFactory.java:176:9:178:29"
+            },
+            {
+                "endLine": 104,
+                "endColumn": 64,
+                "startColumn": 26,
+                "startLine": 103,
+                "filePath": "wdtk-util/src/test/java/org/wikidata/wdtk/util/DirectoryManagerTest.java",
+                "violationSpecifier": "2095:wdtk-util/src/test/java/org/wikidata/wdtk/util/DirectoryManagerTest.java:103:26:104:64"
+            },
+            {
+                "endLine": 119,
+                "endColumn": 65,
+                "startColumn": 26,
+                "startLine": 118,
+                "filePath": "wdtk-util/src/test/java/org/wikidata/wdtk/util/DirectoryManagerTest.java",
+                "violationSpecifier": "2095:wdtk-util/src/test/java/org/wikidata/wdtk/util/DirectoryManagerTest.java:118:26:119:65"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 14195,
+    "repairTimeMs": 572,
+    "startTimeMs": 1612808636631,
+    "crashes": [],
+    "endTimeMs": 1612808650826,
+    "parseTimeMs": 4133
+}

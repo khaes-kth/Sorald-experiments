@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [{
+            "endLine": 72,
+            "endColumn": 50,
+            "startColumn": 22,
+            "startLine": 72,
+            "filePath": "src/main/java/net/dongliu/apk/parser/ApkFile.java",
+            "violationSpecifier": "2095:src/main/java/net/dongliu/apk/parser/ApkFile.java:72:22:72:50"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 6405,
+    "repairTimeMs": 208,
+    "startTimeMs": 1612806904075,
+    "crashes": [],
+    "endTimeMs": 1612806910480,
+    "parseTimeMs": 1579
+}

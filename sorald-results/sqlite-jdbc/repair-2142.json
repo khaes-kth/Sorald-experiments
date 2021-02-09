@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 47,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 47,
+                "filePath": "src/test/java/org/sqlite/BusyHandlerTest.java",
+                "violationSpecifier": "2142:src/test/java/org/sqlite/BusyHandlerTest.java:47:29:47:51"
+            },
+            {
+                "endLine": 130,
+                "endColumn": 51,
+                "startColumn": 29,
+                "startLine": 130,
+                "filePath": "src/test/java/org/sqlite/SQLiteJDBCLoaderTest.java",
+                "violationSpecifier": "2142:src/test/java/org/sqlite/SQLiteJDBCLoaderTest.java:130:29:130:51"
+            },
+            {
+                "endLine": 219,
+                "endColumn": 40,
+                "startColumn": 18,
+                "startLine": 219,
+                "filePath": "src/main/java/org/sqlite/util/OSInfo.java",
+                "violationSpecifier": "2142:src/main/java/org/sqlite/util/OSInfo.java:219:18:219:40"
+            }
+        ],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5593,
+    "repairTimeMs": 306,
+    "startTimeMs": 1612805770798,
+    "crashes": [],
+    "endTimeMs": 1612805776391,
+    "parseTimeMs": 2308
+}

@@ -1,0 +1,98 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 8,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 407,
+                "endColumn": 48,
+                "startColumn": 25,
+                "filePath": "obsolete-archive/examples/nomaven/misc/src/main/java/Review.java",
+                "startLine": 407,
+                "violationSpecifier": "2142:obsolete-archive/examples/nomaven/misc/src/main/java/Review.java:407:25:407:48"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java",
+                "startLine": 92,
+                "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java",
+                "startLine": 159,
+                "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java",
+                "startLine": 230,
+                "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 92,
+                "endColumn": 44,
+                "startColumn": 21,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java",
+                "startLine": 92,
+                "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java:92:21:92:44"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 44,
+                "startColumn": 21,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java",
+                "startLine": 159,
+                "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java:159:21:159:44"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 44,
+                "startColumn": 21,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java",
+                "startLine": 230,
+                "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java:230:21:230:44"
+            },
+            {
+                "endLine": 61,
+                "endColumn": 59,
+                "startColumn": 37,
+                "filePath": "obsolete-archive/src/experimental/java/org/xhtmlrenderer/experimental/WorkQueue.java",
+                "startLine": 61,
+                "violationSpecifier": "2142:obsolete-archive/src/experimental/java/org/xhtmlrenderer/experimental/WorkQueue.java:61:37:61:59"
+            }
+        ],
+        "nbViolationsBefore": 8,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 14690,
+    "repairTimeMs": 757,
+    "startTimeMs": 1612812591200,
+    "crashes": [],
+    "endTimeMs": 1612812605890,
+    "parseTimeMs": 6954
+}

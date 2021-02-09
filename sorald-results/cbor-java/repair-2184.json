@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "CastArithmeticOperand",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2184",
+        "performedRepairsLocations": [
+            {
+                "endLine": 185,
+                "endColumn": 64,
+                "startColumn": 63,
+                "startLine": 185,
+                "filePath": "src/test/java/co/nstant/in/cbor/decoder/CborDecoderTest.java",
+                "violationSpecifier": "2184:src/test/java/co/nstant/in/cbor/decoder/CborDecoderTest.java:185:63:185:64"
+            },
+            {
+                "endLine": 36,
+                "endColumn": 59,
+                "startColumn": 58,
+                "startLine": 36,
+                "filePath": "src/main/java/co/nstant/in/cbor/decoder/HalfPrecisionFloatDecoder.java",
+                "violationSpecifier": "2184:src/main/java/co/nstant/in/cbor/decoder/HalfPrecisionFloatDecoder.java:36:58:36:59"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2184",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4235,
+    "repairTimeMs": 278,
+    "startTimeMs": 1612810035819,
+    "crashes": [],
+    "endTimeMs": 1612810040054,
+    "parseTimeMs": 1415
+}

@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 130,
+            "endColumn": 47,
+            "startColumn": 25,
+            "startLine": 130,
+            "filePath": "reader-core/src/main/java/com/sismics/reader/core/model/context/AppContext.java",
+            "violationSpecifier": "2142:reader-core/src/main/java/com/sismics/reader/core/model/context/AppContext.java:130:25:130:47"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 7688,
+    "repairTimeMs": 369,
+    "startTimeMs": 1612804471735,
+    "crashes": [],
+    "endTimeMs": 1612804479423,
+    "parseTimeMs": 3498
+}

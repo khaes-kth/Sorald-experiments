@@ -1,0 +1,138 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 13,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 14,
+        "performedRepairsLocations": [
+            {
+                "endLine": 246,
+                "endColumn": 46,
+                "startColumn": 24,
+                "startLine": 246,
+                "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkStarter.java",
+                "violationSpecifier": "2142:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkStarter.java:246:24:246:46"
+            },
+            {
+                "endLine": 310,
+                "endColumn": 46,
+                "startColumn": 24,
+                "startLine": 310,
+                "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkStarter.java",
+                "violationSpecifier": "2142:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkStarter.java:310:24:310:46"
+            },
+            {
+                "endLine": 338,
+                "endColumn": 38,
+                "startColumn": 16,
+                "startLine": 338,
+                "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkStarter.java",
+                "violationSpecifier": "2142:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/ForkStarter.java:338:16:338:38"
+            },
+            {
+                "endLine": 101,
+                "endColumn": 47,
+                "startColumn": 20,
+                "startLine": 101,
+                "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/output/ThreadedStreamConsumer.java",
+                "violationSpecifier": "2142:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/output/ThreadedStreamConsumer.java:101:20:101:47"
+            },
+            {
+                "endLine": 115,
+                "endColumn": 38,
+                "startColumn": 16,
+                "startLine": 115,
+                "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/output/ThreadedStreamConsumer.java",
+                "violationSpecifier": "2142:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/output/ThreadedStreamConsumer.java:115:16:115:38"
+            },
+            {
+                "endLine": 265,
+                "endColumn": 45,
+                "startColumn": 17,
+                "startLine": 265,
+                "filePath": "pitest/src/test/java/org/pitest/TestJUnitConfiguration.java",
+                "violationSpecifier": "2142:pitest/src/test/java/org/pitest/TestJUnitConfiguration.java:265:17:265:45"
+            },
+            {
+                "endLine": 202,
+                "endColumn": 45,
+                "startColumn": 17,
+                "startLine": 202,
+                "filePath": "pitest-entry/src/test/java/org/pitest/mutationtest/TestMutationTesting.java",
+                "violationSpecifier": "2142:pitest-entry/src/test/java/org/pitest/mutationtest/TestMutationTesting.java:202:17:202:45"
+            },
+            {
+                "endLine": 53,
+                "endColumn": 41,
+                "startColumn": 13,
+                "startLine": 53,
+                "filePath": "pitest-entry/src/main/java/org/pitest/mutationtest/execute/MutationAnalysisExecutor.java",
+                "violationSpecifier": "2142:pitest-entry/src/main/java/org/pitest/mutationtest/execute/MutationAnalysisExecutor.java:53:13:53:41"
+            },
+            {
+                "endLine": 64,
+                "endColumn": 41,
+                "startColumn": 13,
+                "startLine": 64,
+                "filePath": "pitest/src/main/java/org/pitest/mutationtest/execute/MutationTimeoutDecorator.java",
+                "violationSpecifier": "2142:pitest/src/main/java/org/pitest/mutationtest/execute/MutationTimeoutDecorator.java:64:13:64:41"
+            },
+            {
+                "endLine": 24,
+                "endColumn": 41,
+                "startColumn": 13,
+                "startLine": 24,
+                "filePath": "pitest-entry/src/test/java/org/pitest/process/WrappingProcessTest.java",
+                "violationSpecifier": "2142:pitest-entry/src/test/java/org/pitest/process/WrappingProcessTest.java:24:13:24:41"
+            },
+            {
+                "endLine": 63,
+                "endColumn": 41,
+                "startColumn": 13,
+                "startLine": 63,
+                "filePath": "pitest-entry/src/main/java/org/pitest/util/CommunicationThread.java",
+                "violationSpecifier": "2142:pitest-entry/src/main/java/org/pitest/util/CommunicationThread.java:63:13:63:41"
+            },
+            {
+                "endLine": 144,
+                "endColumn": 47,
+                "startColumn": 19,
+                "startLine": 144,
+                "filePath": "pitest/src/test/java/sun/pitest/CodeCoverageStoreTest.java",
+                "violationSpecifier": "2142:pitest/src/test/java/sun/pitest/CodeCoverageStoreTest.java:144:19:144:47"
+            },
+            {
+                "endLine": 159,
+                "endColumn": 45,
+                "startColumn": 17,
+                "startLine": 159,
+                "filePath": "pitest/src/test/java/sun/pitest/CodeCoverageStoreTest.java",
+                "violationSpecifier": "2142:pitest/src/test/java/sun/pitest/CodeCoverageStoreTest.java:159:17:159:45"
+            }
+        ],
+        "nbViolationsAfter": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 16882,
+    "repairTimeMs": 650,
+    "startTimeMs": 1612806371966,
+    "crashes": [],
+    "endTimeMs": 1612806388848,
+    "parseTimeMs": 7450
+}

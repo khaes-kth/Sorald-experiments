@@ -1,0 +1,90 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 7,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [
+            {
+                "endLine": 111,
+                "endColumn": 25,
+                "startColumn": 21,
+                "filePath": "src/main/java/org/apache/joshua/decoder/TranslationResponseStream.java",
+                "startLine": 111,
+                "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/TranslationResponseStream.java:111:21:111:25"
+            },
+            {
+                "endLine": 45,
+                "endColumn": 32,
+                "startColumn": 28,
+                "filePath": "src/main/java/org/apache/joshua/decoder/ff/fragmentlm/PennTreebankReader.java",
+                "startLine": 45,
+                "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/ff/fragmentlm/PennTreebankReader.java:45:28:45:32"
+            },
+            {
+                "endLine": 420,
+                "endColumn": 20,
+                "startColumn": 16,
+                "filePath": "src/main/java/org/apache/joshua/decoder/ff/fragmentlm/Tree.java",
+                "startLine": 420,
+                "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/ff/fragmentlm/Tree.java:420:16:420:20"
+            },
+            {
+                "endLine": 122,
+                "endColumn": 15,
+                "startColumn": 11,
+                "filePath": "src/main/java/org/apache/joshua/decoder/ff/tm/GrammarReader.java",
+                "startLine": 122,
+                "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/ff/tm/GrammarReader.java:122:11:122:15"
+            },
+            {
+                "endLine": 61,
+                "endColumn": 21,
+                "startColumn": 17,
+                "filePath": "src/main/java/org/apache/joshua/decoder/ff/tm/hash_based/ExtensionIterator.java",
+                "startLine": 61,
+                "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/ff/tm/hash_based/ExtensionIterator.java:61:17:61:21"
+            },
+            {
+                "endLine": 768,
+                "endColumn": 27,
+                "startColumn": 23,
+                "filePath": "src/main/java/org/apache/joshua/decoder/ff/tm/packed/PackedGrammar.java",
+                "startLine": 768,
+                "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/ff/tm/packed/PackedGrammar.java:768:23:768:27"
+            },
+            {
+                "endLine": 117,
+                "endColumn": 29,
+                "startColumn": 25,
+                "filePath": "src/main/java/org/apache/joshua/lattice/Node.java",
+                "startLine": 117,
+                "violationSpecifier": "2272:src/main/java/org/apache/joshua/lattice/Node.java:117:25:117:29"
+            }
+        ],
+        "nbViolationsBefore": 7,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 17442,
+    "repairTimeMs": 1391,
+    "startTimeMs": 1612815186077,
+    "crashes": [],
+    "endTimeMs": 1612815203519,
+    "parseTimeMs": 8134
+}

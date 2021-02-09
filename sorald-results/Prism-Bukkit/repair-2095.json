@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [{
+            "endLine": 116,
+            "endColumn": 65,
+            "startColumn": 35,
+            "startLine": 116,
+            "filePath": "src/main/java/me/botsko/prism/database/mysql/MySqlPrismDataSource.java",
+            "violationSpecifier": "2095:src/main/java/me/botsko/prism/database/mysql/MySqlPrismDataSource.java:116:35:116:65"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 12827,
+    "repairTimeMs": 317,
+    "startTimeMs": 1612805521975,
+    "crashes": [],
+    "endTimeMs": 1612805534802,
+    "parseTimeMs": 3019
+}

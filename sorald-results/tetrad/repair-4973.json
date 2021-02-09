@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "nbViolationsBefore": 3,
+        "performedRepairsLocations": [
+            {
+                "endLine": 80,
+                "endColumn": 25,
+                "startColumn": 23,
+                "startLine": 80,
+                "filePath": "tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/util/HandleyConvert.java",
+                "violationSpecifier": "4973:tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/util/HandleyConvert.java:80:23:80:25"
+            },
+            {
+                "endLine": 113,
+                "endColumn": 23,
+                "startColumn": 21,
+                "startLine": 113,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/util/IntSpinner.java",
+                "violationSpecifier": "4973:tetrad-gui/src/main/java/edu/cmu/tetradapp/util/IntSpinner.java:113:21:113:23"
+            },
+            {
+                "endLine": 131,
+                "endColumn": 23,
+                "startColumn": 21,
+                "startLine": 131,
+                "filePath": "tetrad-gui/src/main/java/edu/cmu/tetradapp/util/IntSpinner.java",
+                "violationSpecifier": "4973:tetrad-gui/src/main/java/edu/cmu/tetradapp/util/IntSpinner.java:131:21:131:23"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 49207,
+    "repairTimeMs": 2629,
+    "startTimeMs": 1612814057071,
+    "crashes": [],
+    "endTimeMs": 1612814106278,
+    "parseTimeMs": 21462
+}

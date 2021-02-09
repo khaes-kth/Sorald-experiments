@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [{
+            "endLine": 138,
+            "endColumn": 56,
+            "startColumn": 13,
+            "startLine": 138,
+            "filePath": "src/main/java/io/github/hapjava/characteristics/impl/base/BaseCharacteristic.java",
+            "violationSpecifier": "2142:src/main/java/io/github/hapjava/characteristics/impl/base/BaseCharacteristic.java:138:13:138:56"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5946,
+    "repairTimeMs": 249,
+    "startTimeMs": 1612810806069,
+    "crashes": [],
+    "endTimeMs": 1612810812015,
+    "parseTimeMs": 2158
+}

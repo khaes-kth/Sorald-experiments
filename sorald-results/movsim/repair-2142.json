@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [
+            {
+                "endLine": 185,
+                "endColumn": 49,
+                "startColumn": 21,
+                "startLine": 185,
+                "filePath": "core/src/main/java/org/movsim/simulator/SimulationRunnable.java",
+                "violationSpecifier": "2142:core/src/main/java/org/movsim/simulator/SimulationRunnable.java:185:21:185:49"
+            },
+            {
+                "endLine": 261,
+                "endColumn": 49,
+                "startColumn": 21,
+                "startLine": 261,
+                "filePath": "core/src/main/java/org/movsim/simulator/SimulationRunnable.java",
+                "violationSpecifier": "2142:core/src/main/java/org/movsim/simulator/SimulationRunnable.java:261:21:261:49"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 9448,
+    "repairTimeMs": 422,
+    "startTimeMs": 1612800683856,
+    "crashes": [],
+    "endTimeMs": 1612800693304,
+    "parseTimeMs": 4246
+}

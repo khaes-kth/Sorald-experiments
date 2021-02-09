@@ -1,0 +1,218 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 23,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 72,
+                "endColumn": 56,
+                "startColumn": 24,
+                "startLine": 72,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/LocalSetup.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/LocalSetup.java:72:24:72:56"
+            },
+            {
+                "endLine": 97,
+                "endColumn": 57,
+                "startColumn": 25,
+                "startLine": 97,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/LocalSetup.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/LocalSetup.java:97:25:97:57"
+            },
+            {
+                "endLine": 118,
+                "endColumn": 59,
+                "startColumn": 26,
+                "startLine": 118,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/LocalSetup.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/LocalSetup.java:118:26:118:59"
+            },
+            {
+                "endLine": 45,
+                "endColumn": 66,
+                "startColumn": 36,
+                "startLine": 45,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/proxy/ProxyVoleDLL.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/proxy/ProxyVoleDLL.java:45:36:45:66"
+            },
+            {
+                "endLine": 63,
+                "endColumn": 63,
+                "startColumn": 33,
+                "startLine": 63,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/MLHelper.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/MLHelper.java:63:33:63:63"
+            },
+            {
+                "endLine": 158,
+                "endColumn": 68,
+                "startColumn": 41,
+                "startLine": 158,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/MLHelper.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/MLHelper.java:158:41:158:68"
+            },
+            {
+                "endLine": 183,
+                "endColumn": 86,
+                "startColumn": 39,
+                "startLine": 183,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/MLHelper.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/MLHelper.java:183:39:183:86"
+            },
+            {
+                "endLine": 164,
+                "endColumn": 63,
+                "startColumn": 33,
+                "startLine": 164,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/MLUtil.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/MLUtil.java:164:33:164:63"
+            },
+            {
+                "endLine": 540,
+                "endColumn": 70,
+                "startColumn": 39,
+                "startLine": 540,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/TranslationDialog.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/TranslationDialog.java:540:39:540:70"
+            },
+            {
+                "endLine": 690,
+                "endColumn": 58,
+                "startColumn": 33,
+                "startLine": 690,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/TranslationDialog.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/base/translation/TranslationDialog.java:690:33:690:58"
+            },
+            {
+                "endLine": 32,
+                "endColumn": 61,
+                "startColumn": 34,
+                "startLine": 32,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/CopyFile.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/CopyFile.java:32:34:32:61"
+            },
+            {
+                "endLine": 34,
+                "endColumn": 60,
+                "startColumn": 36,
+                "startLine": 34,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/CopyFile.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/CopyFile.java:34:36:34:60"
+            },
+            {
+                "endLine": 51,
+                "endColumn": 44,
+                "startColumn": 18,
+                "startLine": 51,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/DownloadUrl.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/DownloadUrl.java:51:18:51:44"
+            },
+            {
+                "endLine": 53,
+                "endColumn": 51,
+                "startColumn": 18,
+                "startLine": 53,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/DownloadUrl.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/DownloadUrl.java:53:18:53:51"
+            },
+            {
+                "endLine": 168,
+                "endColumn": 81,
+                "startColumn": 22,
+                "startLine": 168,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/DownloadUrl.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/DownloadUrl.java:168:22:168:81"
+            },
+            {
+                "endLine": 172,
+                "endColumn": 71,
+                "startColumn": 22,
+                "startLine": 172,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/DownloadUrl.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/DownloadUrl.java:172:22:172:71"
+            },
+            {
+                "endLine": 96,
+                "endColumn": 83,
+                "startColumn": 33,
+                "startLine": 96,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/MD5Calc.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/MD5Calc.java:96:33:96:83"
+            },
+            {
+                "endLine": 44,
+                "endColumn": 35,
+                "startColumn": 12,
+                "startLine": 44,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/ReadFile.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/ReadFile.java:44:12:44:35"
+            },
+            {
+                "endLine": 85,
+                "endColumn": 35,
+                "startColumn": 12,
+                "startLine": 85,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/ReadFile.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/ReadFile.java:85:12:85:35"
+            },
+            {
+                "endLine": 131,
+                "endColumn": 50,
+                "startColumn": 25,
+                "startLine": 131,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/ReadFile.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/ReadFile.java:131:25:131:50"
+            },
+            {
+                "endLine": 64,
+                "endColumn": 79,
+                "startColumn": 40,
+                "startLine": 64,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/zip/UnZip.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/zip/UnZip.java:64:40:64:79"
+            },
+            {
+                "endLine": 90,
+                "endColumn": 63,
+                "startColumn": 29,
+                "startLine": 90,
+                "filePath": "FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/zip/Zip.java",
+                "violationSpecifier": "2095:FrameWorkMinimized/src/main/java/at/redeye/FrameWork/utilities/zip/Zip.java:90:29:90:63"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 70,
+                "startColumn": 43,
+                "startLine": 230,
+                "filePath": "MSGViewer/src/main/java/net/sourceforge/MSGViewer/factory/mbox/MBoxWriterViaJavaMail.java",
+                "violationSpecifier": "2095:MSGViewer/src/main/java/net/sourceforge/MSGViewer/factory/mbox/MBoxWriterViaJavaMail.java:230:43:230:70"
+            }
+        ],
+        "nbViolationsBefore": 23,
+        "nbViolationsAfter": 4
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 17026,
+    "repairTimeMs": 517,
+    "startTimeMs": 1612816980282,
+    "crashes": [],
+    "endTimeMs": 1612816997308,
+    "parseTimeMs": 3295
+}

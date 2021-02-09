@@ -1,0 +1,58 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 3,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 16,
+                "endColumn": 65,
+                "startColumn": 35,
+                "startLine": 16,
+                "filePath": "src/test/java/com/spotify/sparkey/CompressedOutputStreamTest.java",
+                "violationSpecifier": "2095:src/test/java/com/spotify/sparkey/CompressedOutputStreamTest.java:16:35:16:65"
+            },
+            {
+                "endLine": 52,
+                "endColumn": 77,
+                "startColumn": 40,
+                "startLine": 52,
+                "filePath": "src/test/java/com/spotify/sparkey/IndexHashTest.java",
+                "violationSpecifier": "2095:src/test/java/com/spotify/sparkey/IndexHashTest.java:52:40:52:77"
+            },
+            {
+                "endLine": 49,
+                "endColumn": 72,
+                "startColumn": 40,
+                "startLine": 49,
+                "filePath": "src/main/java/com/spotify/sparkey/LogWriter.java",
+                "violationSpecifier": "2095:src/main/java/com/spotify/sparkey/LogWriter.java:49:40:49:72"
+            }
+        ],
+        "nbViolationsBefore": 3,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 9923,
+    "repairTimeMs": 295,
+    "startTimeMs": 1612809522467,
+    "crashes": [],
+    "endTimeMs": 1612809532390,
+    "parseTimeMs": 1881
+}

@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [{
+            "endLine": 945,
+            "endColumn": 21,
+            "startColumn": 17,
+            "startLine": 945,
+            "filePath": "kcp-netty/src/main/java/io/jpower/kcp/netty/internal/ReItrLinkedList.java",
+            "violationSpecifier": "2272:kcp-netty/src/main/java/io/jpower/kcp/netty/internal/ReItrLinkedList.java:945:17:945:21"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 4089,
+    "repairTimeMs": 464,
+    "startTimeMs": 1612816697360,
+    "crashes": [],
+    "endTimeMs": 1612816701449,
+    "parseTimeMs": 1514
+}

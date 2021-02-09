@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [
+            {
+                "endLine": 116,
+                "endColumn": 47,
+                "startColumn": 45,
+                "startLine": 116,
+                "filePath": "lib/xsom/src/main/java/com/sun/xml/xsom/impl/parser/state/NGCCHandler.java",
+                "violationSpecifier": "4973:lib/xsom/src/main/java/com/sun/xml/xsom/impl/parser/state/NGCCHandler.java:116:45:116:47"
+            },
+            {
+                "endLine": 116,
+                "endColumn": 61,
+                "startColumn": 59,
+                "startLine": 116,
+                "filePath": "lib/xsom/src/main/java/com/sun/xml/xsom/impl/parser/state/NGCCHandler.java",
+                "violationSpecifier": "4973:lib/xsom/src/main/java/com/sun/xml/xsom/impl/parser/state/NGCCHandler.java:116:59:116:61"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 15741,
+    "repairTimeMs": 1031,
+    "startTimeMs": 1612810577162,
+    "crashes": [],
+    "endTimeMs": 1612810592903,
+    "parseTimeMs": 6885
+}

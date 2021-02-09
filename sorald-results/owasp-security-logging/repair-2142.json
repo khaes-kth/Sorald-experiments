@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 65,
+                "endColumn": 34,
+                "startColumn": 12,
+                "startLine": 65,
+                "filePath": "owasp-security-logging-logback/src/test/java/org/owasp/security/logging/util/ExtendedIntervalLoggingTest.java",
+                "violationSpecifier": "2142:owasp-security-logging-logback/src/test/java/org/owasp/security/logging/util/ExtendedIntervalLoggingTest.java:65:12:65:34"
+            },
+            {
+                "endLine": 26,
+                "endColumn": 59,
+                "startColumn": 37,
+                "startLine": 26,
+                "filePath": "owasp-security-logging-logback/src/test/java/org/owasp/security/logging/util/SimpleIntervalLoggingTest.java",
+                "violationSpecifier": "2142:owasp-security-logging-logback/src/test/java/org/owasp/security/logging/util/SimpleIntervalLoggingTest.java:26:37:26:59"
+            }
+        ],
+        "nbViolationsBefore": 2,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 3201,
+    "repairTimeMs": 196,
+    "startTimeMs": 1612809810546,
+    "crashes": [],
+    "endTimeMs": 1612809813747,
+    "parseTimeMs": 1100
+}

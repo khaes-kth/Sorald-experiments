@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "CastArithmeticOperand",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2184",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [
+            {
+                "endLine": 40,
+                "endColumn": 62,
+                "startColumn": 61,
+                "startLine": 40,
+                "filePath": "ask-sdk-runtime/src/com/amazon/ask/response/template/loader/impl/ConcurrentLRUTemplateCache.java",
+                "violationSpecifier": "2184:ask-sdk-runtime/src/com/amazon/ask/response/template/loader/impl/ConcurrentLRUTemplateCache.java:40:61:40:62"
+            },
+            {
+                "endLine": 45,
+                "endColumn": 79,
+                "startColumn": 78,
+                "startLine": 45,
+                "filePath": "ask-sdk-runtime/src/com/amazon/ask/response/template/loader/impl/ConcurrentLRUTemplateCache.java",
+                "violationSpecifier": "2184:ask-sdk-runtime/src/com/amazon/ask/response/template/loader/impl/ConcurrentLRUTemplateCache.java:45:78:45:79"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2184",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 6789,
+    "repairTimeMs": 302,
+    "startTimeMs": 1612811705738,
+    "crashes": [],
+    "endTimeMs": 1612811712527,
+    "parseTimeMs": 2954
+}

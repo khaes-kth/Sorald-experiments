@@ -1,0 +1,82 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 6,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [
+            {
+                "endLine": 53,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 53,
+                "filePath": "sds-client/src/test/java/com/didiglobal/sds/client/test/AbstractDowngradeTest.java",
+                "violationSpecifier": "2142:sds-client/src/test/java/com/didiglobal/sds/client/test/AbstractDowngradeTest.java:53:17:53:39"
+            },
+            {
+                "endLine": 138,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 138,
+                "filePath": "sds-client/src/test/java/com/didiglobal/sds/client/test/AbstractDowngradeTest.java",
+                "violationSpecifier": "2142:sds-client/src/test/java/com/didiglobal/sds/client/test/AbstractDowngradeTest.java:138:17:138:39"
+            },
+            {
+                "endLine": 48,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 48,
+                "filePath": "sds-client/src/main/java/com/didiglobal/sds/client/util/TimeStatisticsUtil.java",
+                "violationSpecifier": "2142:sds-client/src/main/java/com/didiglobal/sds/client/util/TimeStatisticsUtil.java:48:17:48:39"
+            },
+            {
+                "endLine": 71,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 71,
+                "filePath": "sds-easy/src/test/java/com/didiglobal/sds/easy/test/SdsEasyUtilTest.java",
+                "violationSpecifier": "2142:sds-easy/src/test/java/com/didiglobal/sds/easy/test/SdsEasyUtilTest.java:71:21:71:43"
+            },
+            {
+                "endLine": 22,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 22,
+                "filePath": "sds-example/sds-apache-dubbo-example/src/main/java/com/didiglobal/sds/example/service/HelloServiceImpl.java",
+                "violationSpecifier": "2142:sds-example/sds-apache-dubbo-example/src/main/java/com/didiglobal/sds/example/service/HelloServiceImpl.java:22:17:22:39"
+            },
+            {
+                "endLine": 33,
+                "endColumn": 43,
+                "startColumn": 21,
+                "startLine": 33,
+                "filePath": "sds-example/sds-apache-dubbo-example/src/main/java/com/didiglobal/sds/example/service/HelloServiceImpl.java",
+                "violationSpecifier": "2142:sds-example/sds-apache-dubbo-example/src/main/java/com/didiglobal/sds/example/service/HelloServiceImpl.java:33:21:33:43"
+            }
+        ],
+        "nbViolationsBefore": 6,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 5644,
+    "repairTimeMs": 297,
+    "startTimeMs": 1612819731094,
+    "crashes": [],
+    "endTimeMs": 1612819736738,
+    "parseTimeMs": 2410
+}

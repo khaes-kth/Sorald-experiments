@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "performedRepairsLocations": [{
+            "endLine": 510,
+            "endColumn": 34,
+            "startColumn": 11,
+            "startLine": 510,
+            "filePath": "src/main/java/de/timroes/axmlrpc/XMLRPCClient.java",
+            "violationSpecifier": "2142:src/main/java/de/timroes/axmlrpc/XMLRPCClient.java:510:11:510:34"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ad3fdd7c",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 2927,
+    "repairTimeMs": 190,
+    "startTimeMs": 1612801847379,
+    "crashes": [],
+    "endTimeMs": 1612801850306,
+    "parseTimeMs": 1086
+}
