@@ -1,0 +1,238 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] -----------------< com.github.davidmoten:rxjava-jdbc >------------------
+[INFO] Building rxjava-jdbc 0.7.18-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rxjava-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/rxjava-jdbc/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ rxjava-jdbc ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 52 source files to /workdir/rxjava-jdbc/target/classes
+[INFO] /workdir/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/RxUtil.java: Some input files use or override a deprecated API.
+[INFO] /workdir/rxjava-jdbc/src/main/java/com/github/davidmoten/rx/RxUtil.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rxjava-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ rxjava-jdbc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ rxjava-jdbc ---
+[INFO] Surefire report directory: /workdir/rxjava-jdbc/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.davidmoten.rx.jdbc.FetchSizeTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.352 sec
+Running com.github.davidmoten.rx.jdbc.ConnectionProviderAutoCommittingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running com.github.davidmoten.rx.jdbc.BatchingTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.174 sec
+Running com.github.davidmoten.rx.jdbc.DatabaseExampleTest
+FRED has score 21
+JOE has score 34
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.032 sec
+Running com.github.davidmoten.rx.jdbc.DatabaseDerbyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.004 sec
+Running com.github.davidmoten.rx.jdbc.TransactionOnNextOperatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.github.davidmoten.rx.jdbc.DatabaseMasterDetailTest
+MasterAndDetails [id=1, name=FRED, details=[Detail [id=10, description=a good fellow], Detail [id=11, description=rides his bike]]]
+MasterAndDetails [id=2, name=JOHN, details=[Detail [id=20, description=a bit of a bore], Detail [id=21, description=is a good cook]]]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.github.davidmoten.rx.jdbc.NamedParametersTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.github.davidmoten.rx.jdbc.DatabaseAsyncTest
+2021-02-14 22:08:13.492 [RxComputationScheduler-3] INFO  com.github.davidmoten.rx.RxUtil - 0
+2021-02-14 22:08:13.494 [RxIoScheduler-2] INFO  com.github.davidmoten.rx.RxUtil - 21
+[FRED, JOSEPH, MARMADUKE]
+2021-02-14 22:08:13.520 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-0 is starting.
+2021-02-14 22:08:13.639 [RxIoScheduler-3] INFO  com.github.davidmoten.rx.RxUtil - 21
+2021-02-14 22:08:13.640 [RxIoScheduler-4] INFO  com.github.davidmoten.rx.RxUtil - 34
+2021-02-14 22:08:13.747 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@495083a0
+2021-02-14 22:08:13.747 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@495083a0
+2021-02-14 22:08:13.747 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@5fd62371
+2021-02-14 22:08:13.748 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@66629f63
+2021-02-14 22:08:13.749 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@66629f63
+2021-02-14 22:08:13.749 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@841e575
+2021-02-14 22:08:13.752 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - committed 1
+2021-02-14 22:08:13.753 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - gets ok
+2021-02-14 22:08:13.753 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - closes ok
+2021-02-14 22:08:13.772 [main] INFO  com.github.davidmoten.rx.RxUtil - 1
+2021-02-14 22:08:13.773 [main] INFO  com.github.davidmoten.rx.RxUtil - 2
+2021-02-14 22:08:13.773 [main] INFO  com.github.davidmoten.rx.RxUtil - 3
+Syntax error in SQL statement "ZZZ[*] "; SQL statement:
+zzz [42000-192]
+Syntax error in SQL statement "ZZZ[*] "; SQL statement:
+zzz [42000-192]
+2021-02-14 22:08:13.893 [RxComputationScheduler-4] INFO  com.github.davidmoten.rx.RxUtil - 0
+2021-02-14 22:08:13.895 [RxIoScheduler-2] INFO  com.github.davidmoten.rx.RxUtil - 21
+2021-02-14 22:08:13.901 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-1 is starting.
+2021-02-14 22:08:13.905 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariCP pool HikariPool-1 is shutting down.
+2021-02-14 22:08:13.921 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - committed 1
+2021-02-14 22:08:13.921 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - gets ok
+2021-02-14 22:08:13.921 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - closes ok
+2021-02-14 22:08:13.926 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@26be6ca7
+2021-02-14 22:08:13.926 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@26be6ca7
+2021-02-14 22:08:13.926 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@6ea1bcdc
+2021-02-14 22:08:13.929 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@53499d85
+2021-02-14 22:08:13.929 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@53499d85
+2021-02-14 22:08:13.929 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@30ed9c6c
+2021-02-14 22:08:14.001 [main] INFO  com.github.davidmoten.rx.RxUtil - 99
+2021-02-14 22:08:14.003 [main] INFO  com.github.davidmoten.rx.RxUtil - 88
+threads=[main]
+2021-02-14 22:08:14.048 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-2 is starting.
+[MARMADUKE, JOSEPH, MARMADUKE, JOSEPH, MARMADUKE, MARMADUKE, MARMADUKE, JOSEPH, MARMADUKE, JOSEPH, MARMADUKE, MARMADUKE]
+2021-02-14 22:08:14.144 [main] INFO  com.github.davidmoten.rx.RxUtil - 99
+2021-02-14 22:08:14.145 [main] INFO  com.github.davidmoten.rx.RxUtil - 88
+2021-02-14 22:08:14.179 [RxIoScheduler-5] INFO  com.github.davidmoten.rx.RxUtil - 3
+Column "NAMEZ" not found; SQL statement:
+select namez from person where name=? [42122-192]
+Column "NAMEZ" not found; SQL statement:
+select namez from person where name=? [42122-192]
+Tests run: 116, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.252 sec
+Running com.github.davidmoten.rx.jdbc.QueriesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.davidmoten.rx.jdbc.ConnectionDemoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.github.davidmoten.rx.jdbc.ExceptionsTest
+FRED
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.github.davidmoten.rx.jdbc.ColumnNotFoundTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.davidmoten.rx.jdbc.ConditionsTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.davidmoten.rx.jdbc.DatabaseSyncTest
+2021-02-14 22:08:14.505 [RxComputationScheduler-2] INFO  com.github.davidmoten.rx.RxUtil - 0
+2021-02-14 22:08:14.508 [RxComputationScheduler-2] INFO  com.github.davidmoten.rx.RxUtil - 21
+[FRED, JOSEPH, MARMADUKE]
+2021-02-14 22:08:14.550 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-3 is starting.
+2021-02-14 22:08:14.641 [main] INFO  com.github.davidmoten.rx.RxUtil - 21
+2021-02-14 22:08:14.642 [main] INFO  com.github.davidmoten.rx.RxUtil - 34
+2021-02-14 22:08:14.683 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@4e6d7365
+2021-02-14 22:08:14.684 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@4e6d7365
+2021-02-14 22:08:14.684 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@7c0da600
+2021-02-14 22:08:14.685 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@47dd778
+2021-02-14 22:08:14.685 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@47dd778
+2021-02-14 22:08:14.685 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@15515c51
+2021-02-14 22:08:14.687 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - committed 1
+2021-02-14 22:08:14.688 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - gets ok
+2021-02-14 22:08:14.688 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - closes ok
+2021-02-14 22:08:14.697 [main] INFO  com.github.davidmoten.rx.RxUtil - 1
+2021-02-14 22:08:14.698 [main] INFO  com.github.davidmoten.rx.RxUtil - 2
+2021-02-14 22:08:14.698 [main] INFO  com.github.davidmoten.rx.RxUtil - 3
+Syntax error in SQL statement "ZZZ[*] "; SQL statement:
+zzz [42000-192]
+Syntax error in SQL statement "ZZZ[*] "; SQL statement:
+zzz [42000-192]
+2021-02-14 22:08:14.809 [RxComputationScheduler-3] INFO  com.github.davidmoten.rx.RxUtil - 0
+2021-02-14 22:08:14.810 [RxComputationScheduler-3] INFO  com.github.davidmoten.rx.RxUtil - 21
+2021-02-14 22:08:14.814 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-4 is starting.
+2021-02-14 22:08:14.822 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariCP pool HikariPool-4 is shutting down.
+2021-02-14 22:08:14.831 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - committed 1
+2021-02-14 22:08:14.831 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - gets ok
+2021-02-14 22:08:14.831 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - closes ok
+2021-02-14 22:08:14.832 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@6f63c44f
+2021-02-14 22:08:14.832 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@6f63c44f
+2021-02-14 22:08:14.832 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@408a247c
+2021-02-14 22:08:14.833 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@5f5b5ca4
+2021-02-14 22:08:14.833 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@5f5b5ca4
+2021-02-14 22:08:14.833 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@4ee33af7
+2021-02-14 22:08:14.870 [main] INFO  com.github.davidmoten.rx.RxUtil - 99
+2021-02-14 22:08:14.871 [main] INFO  com.github.davidmoten.rx.RxUtil - 88
+threads=[main]
+2021-02-14 22:08:14.894 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-5 is starting.
+[MARMADUKE, JOSEPH, MARMADUKE, JOSEPH, MARMADUKE, MARMADUKE, MARMADUKE, JOSEPH, MARMADUKE, JOSEPH, MARMADUKE, MARMADUKE]
+2021-02-14 22:08:14.927 [main] INFO  com.github.davidmoten.rx.RxUtil - 99
+2021-02-14 22:08:14.928 [main] INFO  com.github.davidmoten.rx.RxUtil - 88
+2021-02-14 22:08:14.946 [main] INFO  com.github.davidmoten.rx.RxUtil - 3
+Column "NAMEZ" not found; SQL statement:
+select namez from person where name=? [42122-192]
+Column "NAMEZ" not found; SQL statement:
+select namez from person where name=? [42122-192]
+Tests run: 115, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.721 sec
+Running com.github.davidmoten.rx.jdbc.ConnectionNonClosingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.github.davidmoten.rx.jdbc.UtilTest
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+Running com.github.davidmoten.rx.jdbc.tuple.TuplesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.davidmoten.rx.jdbc.ConnectionProviderFromUrlTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.davidmoten.rx.jdbc.DatabaseViaDataSourceTest
+2021-02-14 22:08:15.282 [RxComputationScheduler-1] INFO  com.github.davidmoten.rx.RxUtil - 0
+2021-02-14 22:08:15.283 [RxComputationScheduler-1] INFO  com.github.davidmoten.rx.RxUtil - 21
+[FRED, JOSEPH, MARMADUKE]
+2021-02-14 22:08:15.305 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-6 is starting.
+2021-02-14 22:08:15.339 [main] INFO  com.github.davidmoten.rx.RxUtil - 21
+2021-02-14 22:08:15.341 [main] INFO  com.github.davidmoten.rx.RxUtil - 34
+2021-02-14 22:08:15.390 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@ea9e141
+2021-02-14 22:08:15.391 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@ea9e141
+2021-02-14 22:08:15.391 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@1e54cb33
+2021-02-14 22:08:15.392 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@5c748168
+2021-02-14 22:08:15.392 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.internal.util.ScalarSynchronousObservable@5c748168
+2021-02-14 22:08:15.392 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@6441c486
+2021-02-14 22:08:15.396 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - committed 1
+2021-02-14 22:08:15.397 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - gets ok
+2021-02-14 22:08:15.397 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - closes ok
+2021-02-14 22:08:15.408 [main] INFO  com.github.davidmoten.rx.RxUtil - 1
+2021-02-14 22:08:15.409 [main] INFO  com.github.davidmoten.rx.RxUtil - 2
+2021-02-14 22:08:15.410 [main] INFO  com.github.davidmoten.rx.RxUtil - 3
+Syntax error in SQL statement "ZZZ[*] "; SQL statement:
+zzz [42000-192]
+Syntax error in SQL statement "ZZZ[*] "; SQL statement:
+zzz [42000-192]
+2021-02-14 22:08:15.520 [RxComputationScheduler-2] INFO  com.github.davidmoten.rx.RxUtil - 0
+2021-02-14 22:08:15.521 [RxComputationScheduler-2] INFO  com.github.davidmoten.rx.RxUtil - 21
+2021-02-14 22:08:15.525 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-7 is starting.
+2021-02-14 22:08:15.537 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariCP pool HikariPool-7 is shutting down.
+2021-02-14 22:08:15.546 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - committed 1
+2021-02-14 22:08:15.546 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - gets ok
+2021-02-14 22:08:15.546 [main] INFO  com.github.davidmoten.rx.jdbc.DatabaseTestBase - closes ok
+2021-02-14 22:08:15.547 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@6972c30a
+2021-02-14 22:08:15.547 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@6972c30a
+2021-02-14 22:08:15.547 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@57a48985
+2021-02-14 22:08:15.548 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@460510aa
+2021-02-14 22:08:15.548 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@460510aa
+2021-02-14 22:08:15.548 [main] INFO  com.github.davidmoten.rx.RxUtil - rx.Observable@351e414e
+2021-02-14 22:08:15.569 [main] INFO  com.github.davidmoten.rx.RxUtil - 99
+2021-02-14 22:08:15.570 [main] INFO  com.github.davidmoten.rx.RxUtil - 88
+threads=[main]
+2021-02-14 22:08:15.589 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariCP pool HikariPool-8 is starting.
+[MARMADUKE, JOSEPH, MARMADUKE, JOSEPH, MARMADUKE, MARMADUKE, MARMADUKE, JOSEPH, MARMADUKE, JOSEPH, MARMADUKE, MARMADUKE]
+2021-02-14 22:08:15.621 [main] INFO  com.github.davidmoten.rx.RxUtil - 99
+2021-02-14 22:08:15.622 [main] INFO  com.github.davidmoten.rx.RxUtil - 88
+2021-02-14 22:08:15.641 [main] INFO  com.github.davidmoten.rx.RxUtil - 3
+Column "NAMEZ" not found; SQL statement:
+select namez from person where name=? [42122-192]
+Column "NAMEZ" not found; SQL statement:
+select namez from person where name=? [42122-192]
+Tests run: 115, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.641 sec
+Running com.github.davidmoten.rx.RetryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.github.davidmoten.rx.DynamicProxyTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 454, Failures: 0, Errors: 0, Skipped: 2
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.044 s
+[INFO] Finished at: 2021-02-14T22:08:15Z
+[INFO] ------------------------------------------------------------------------

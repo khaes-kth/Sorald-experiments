@@ -1,0 +1,497 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 8 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 8 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] org.uma.jmetal:jmetal                                              [pom]
+[INFO] org.uma.jmetal:jmetal-core                                         [jar]
+[INFO] org.uma.jmetal:jmetal-problem                                      [jar]
+[INFO] org.uma.jmetal:jmetal-algorithm                                    [jar]
+[INFO] org.uma.jmetal:jmetal-lab                                          [jar]
+[INFO] org.uma.jmetal:jmetal-example                                      [jar]
+[INFO] org.uma.jmetal:jmetal-experimental                                 [jar]
+[INFO] org.uma.jmetal:jmetal-parallel                                     [jar]
+[INFO] 
+[INFO] -----------------------< org.uma.jmetal:jmetal >------------------------
+[INFO] Building org.uma.jmetal:jmetal 5.11-SNAPSHOT                       [1/8]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ jmetal ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/jMetal/target/jacoco.exec
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ jmetal ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] ---------------------< org.uma.jmetal:jmetal-core >---------------------
+[INFO] Building org.uma.jmetal:jmetal-core 5.11-SNAPSHOT                  [2/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ jmetal-core ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/jMetal/jmetal-core/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmetal-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 90 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ jmetal-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 299 source files to /workdir/jMetal/jmetal-core/target/classes
+[INFO] /workdir/jMetal/jmetal-core/src/main/java/org/uma/jmetal/util/front/impl/ArrayFront.java: Some input files use or override a deprecated API.
+[INFO] /workdir/jMetal/jmetal-core/src/main/java/org/uma/jmetal/util/front/impl/ArrayFront.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/jMetal/jmetal-core/src/main/java/org/uma/jmetal/util/chartcontainer/GenericChartContainer.java: Some input files use unchecked or unsafe operations.
+[INFO] /workdir/jMetal/jmetal-core/src/main/java/org/uma/jmetal/util/chartcontainer/GenericChartContainer.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jmetal-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ jmetal-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 101 source files to /workdir/jMetal/jmetal-core/target/test-classes
+[INFO] /workdir/jMetal/jmetal-core/src/test/java/org/uma/jmetal/util/comparator/CrowdingDistanceComparatorTest.java: Some input files use or override a deprecated API.
+[INFO] /workdir/jMetal/jmetal-core/src/test/java/org/uma/jmetal/util/comparator/CrowdingDistanceComparatorTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/jMetal/jmetal-core/src/test/java/org/uma/jmetal/operator/selection/BinaryTournamentSelectionTest.java: /workdir/jMetal/jmetal-core/src/test/java/org/uma/jmetal/operator/selection/BinaryTournamentSelectionTest.java uses unchecked or unsafe operations.
+[INFO] /workdir/jMetal/jmetal-core/src/test/java/org/uma/jmetal/operator/selection/BinaryTournamentSelectionTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jmetal-core ---
+[INFO] Surefire report directory: /workdir/jMetal/jmetal-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.uma.jmetal.operator.crossover.IntegerSBXCrossoverTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.072 sec
+Running org.uma.jmetal.operator.crossover.CompositeCrossoverTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running org.uma.jmetal.operator.crossover.DifferentialEvolutionCrossoverTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.uma.jmetal.operator.crossover.NullCrossoverTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.uma.jmetal.operator.crossover.BLXAlphaCrossoverTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.564 sec
+Running org.uma.jmetal.operator.crossover.SinglePointCrossoverTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running org.uma.jmetal.operator.crossover.PMXCrossoverTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.uma.jmetal.operator.crossover.HUXCrossoverTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.operator.crossover.SBXCrossoverTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
+Running org.uma.jmetal.operator.localsearch.BasicLocalSearchTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.operator.mutation.SimpleRandomMutationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.operator.mutation.PermutationSwapMutationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.uma.jmetal.operator.mutation.CompositeMutationTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running org.uma.jmetal.operator.mutation.UniformMutationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.operator.mutation.IntegerPolynomialMutationTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.023 sec
+Running org.uma.jmetal.operator.mutation.NonUniformMutationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.operator.mutation.PolynomialMutationTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.032 sec
+Running org.uma.jmetal.operator.mutation.BitFlipMutationTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running org.uma.jmetal.operator.selection.TournamentSelectionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 sec
+Running org.uma.jmetal.operator.selection.RankingAndCrowdingSelectionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.uma.jmetal.qualityindicator.ErrorRatioTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running org.uma.jmetal.qualityindicator.HypervolumeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.uma.jmetal.qualityindicator.SetCoverageTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.uma.jmetal.qualityindicator.R2Test
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.uma.jmetal.qualityindicator.NormalizedHypervolumeTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.132 sec
+Running org.uma.jmetal.qualityindicator.EpsilonTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.uma.jmetal.qualityindicator.impl.hypervolume.WFGHypervolumeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+Running org.uma.jmetal.qualityindicator.impl.hypervolume.PISAHypervolumeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.uma.jmetal.qualityindicator.GenerationalDistanceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.qualityindicator.InvertedGenerationalDistancePlusTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.uma.jmetal.util.point.util.PointDimensionComparatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.uma.jmetal.util.point.util.LexicographicalPointComparatorTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.uma.jmetal.util.point.impl.IdealPointTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec
+Running org.uma.jmetal.util.point.impl.NadirPointTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.uma.jmetal.util.point.impl.ArrayPointTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running org.uma.jmetal.util.point.impl.PointSolutionTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.uma.jmetal.util.pseudorandom.RandomGeneratorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running org.uma.jmetal.util.pseudorandom.impl.AuditableRandomGeneratorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.uma.jmetal.util.pseudorandom.BoundedRandomGeneratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running org.uma.jmetal.util.comparator.RankingAndCrowdingDistanceComparatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+Running org.uma.jmetal.util.comparator.DominanceComparatorTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+Running org.uma.jmetal.util.comparator.CrowdingDistanceComparatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running org.uma.jmetal.util.comparator.ObjectiveComparatorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.uma.jmetal.util.comparator.LexicographicalVectorComparatorTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.util.comparator.RankingComparatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.uma.jmetal.util.archive.impl.AdaptiveGridArchiveTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.uma.jmetal.util.archive.impl.NonDominatedSolutionListArchiveTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running org.uma.jmetal.util.SolutionUtilsTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.uma.jmetal.util.SolutionListUtilsTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.uma.jmetal.util.checking.CheckerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running org.uma.jmetal.util.solutionattribute.impl.CrowdingDistanceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.util.solutionattribute.impl.GenericSolutionAttributeTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+Running org.uma.jmetal.util.solutionattribute.impl.DominanceRankingTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.uma.jmetal.util.distance.DistanceBetweenSolutionAndKNearestNeighborsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.uma.jmetal.util.distance.EuclideanDistanceBetweenVectorsTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.util.distance.DominanceDistanceBetweenVectorsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.util.distance.CosineDistanceBetweenSolutionsInObjectiveSpaceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.uma.jmetal.util.fileinput.VectorFileUtilsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.uma.jmetal.util.ConstraintHandlingTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.uma.jmetal.util.AdaptiveGridTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.uma.jmetal.util.measure.impl.LastEvaluationMeasureTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.util.measure.impl.SimpleMeasureManagerTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.uma.jmetal.util.measure.impl.MeasureFactoryTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.843 sec
+Running org.uma.jmetal.util.measure.impl.DurationMeasureTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.206 sec
+Running org.uma.jmetal.util.measure.impl.ListenerTimeMeasureTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.364 sec
+Running org.uma.jmetal.util.measure.impl.CountingMeasureTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.uma.jmetal.util.measure.impl.SimplePushMeasureTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.uma.jmetal.util.neighborhood.util.TwoDimensionalMeshTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.uma.jmetal.util.neighborhood.impl.L13Test
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.uma.jmetal.util.neighborhood.impl.KNearestNeighborhoodTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.uma.jmetal.util.neighborhood.impl.C9Test
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.uma.jmetal.util.neighborhood.impl.AdaptiveRandomNeighborhoodTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.uma.jmetal.util.neighborhood.impl.L5Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.uma.jmetal.util.neighborhood.impl.WeightVectorNeighborhoodTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+Running org.uma.jmetal.util.NormalizeUtilsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.uma.jmetal.util.aggregativefunction.impl.WeightedSumTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.util.naming.impl.SimpleDescribedEntityTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.util.naming.impl.DescribedEntitySetTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.uma.jmetal.util.front.util.FrontNormalizerTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.uma.jmetal.util.front.impl.FrontUtilsTest
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.uma.jmetal.solution.compositesolution.CompositeSolutionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.solution.util.repairsolution.impl.RepairDoubleSolutionWithOppositeBoundValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.solution.util.repairsolution.impl.RepairDoubleSolutionWithRandomValueTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.uma.jmetal.solution.util.repairsolution.impl.RepairDoubleSolutionWithBoundValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.solution.impl.DefaultBinarySolutionTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.solution.impl.DefaultIntegerPermutationSolutionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 654, Failures: 0, Errors: 0, Skipped: 13
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ jmetal-core ---
+[INFO] Loading execution data file /workdir/jMetal/jmetal-core/target/jacoco.exec
+[INFO] Analyzed bundle 'org.uma.jmetal:jmetal-core' with 273 classes
+[INFO] 
+[INFO] -------------------< org.uma.jmetal:jmetal-problem >--------------------
+[INFO] Building org.uma.jmetal:jmetal-problem 5.11-SNAPSHOT               [3/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ jmetal-problem ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/jMetal/jmetal-problem/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmetal-problem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 113 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ jmetal-problem ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jmetal-problem ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jMetal/jmetal-problem/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ jmetal-problem ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jmetal-problem ---
+[INFO] Surefire report directory: /workdir/jMetal/jmetal-problem/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.uma.jmetal.problem.multiobjective.NMMinTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ jmetal-problem ---
+[INFO] Loading execution data file /workdir/jMetal/jmetal-problem/target/jacoco.exec
+[INFO] Analyzed bundle 'org.uma.jmetal:jmetal-problem' with 201 classes
+[INFO] 
+[INFO] ------------------< org.uma.jmetal:jmetal-algorithm >-------------------
+[INFO] Building org.uma.jmetal:jmetal-algorithm 5.11-SNAPSHOT             [4/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ jmetal-algorithm ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/jMetal/jmetal-algorithm/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmetal-algorithm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 91 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ jmetal-algorithm ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jmetal-algorithm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jMetal/jmetal-algorithm/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ jmetal-algorithm ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jmetal-algorithm ---
+[INFO] Surefire report directory: /workdir/jMetal/jmetal-algorithm/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.uma.jmetal.algorithm.multiobjective.abyss.ABYSSTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.32 sec
+Running org.uma.jmetal.algorithm.multiobjective.pesa2.PESA2BuilderTest
+2021-02-14 23:13:53.675 INFO: Loggers configured with null [org.uma.jmetal.util.JMetalLogger configureLoggers]
+2021-02-14 23:13:53.713 INFO: Number of cores: 2 [org.uma.jmetal.util.evaluator.impl.MultiThreadedSolutionListEvaluator <init>]
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.271 sec
+Running org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilderTest
+2021-02-14 23:13:53.736 INFO: Number of cores: 2 [org.uma.jmetal.util.evaluator.impl.MultiThreadedSolutionListEvaluator <init>]
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running org.uma.jmetal.algorithm.singleobjective.differentialevolution.DifferentialEvolutionBuilderTest
+2021-02-14 23:13:53.759 INFO: Number of cores: 2 [org.uma.jmetal.util.evaluator.impl.MultiThreadedSolutionListEvaluator <init>]
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+
+Results :
+
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ jmetal-algorithm ---
+[INFO] Loading execution data file /workdir/jMetal/jmetal-algorithm/target/jacoco.exec
+[INFO] Analyzed bundle 'org.uma.jmetal:jmetal-algorithm' with 127 classes
+[INFO] 
+[INFO] ---------------------< org.uma.jmetal:jmetal-lab >----------------------
+[INFO] Building org.uma.jmetal:jmetal-lab 5.11-SNAPSHOT                   [5/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ jmetal-lab ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/jMetal/jmetal-lab/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmetal-lab ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ jmetal-lab ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jmetal-lab ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jMetal/jmetal-lab/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ jmetal-lab ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jmetal-lab ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ jmetal-lab ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] -------------------< org.uma.jmetal:jmetal-example >--------------------
+[INFO] Building org.uma.jmetal:jmetal-example 5.11-SNAPSHOT               [6/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ jmetal-example ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/jMetal/jmetal-example/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmetal-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jMetal/jmetal-example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ jmetal-example ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 100 source files to /workdir/jMetal/jmetal-example/target/classes
+[INFO] /workdir/jMetal/jmetal-example/src/main/java/org/uma/jmetal/example/multiobjective/nsgaii/NSGAIISolvingNMMin2Runner.java: /workdir/jMetal/jmetal-example/src/main/java/org/uma/jmetal/example/multiobjective/nsgaii/NSGAIISolvingNMMin2Runner.java uses or overrides a deprecated API.
+[INFO] /workdir/jMetal/jmetal-example/src/main/java/org/uma/jmetal/example/multiobjective/nsgaii/NSGAIISolvingNMMin2Runner.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jmetal-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jMetal/jmetal-example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ jmetal-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jmetal-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ jmetal-example ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] -----------------< org.uma.jmetal:jmetal-experimental >-----------------
+[INFO] Building org.uma.jmetal:jmetal-experimental 5.11-SNAPSHOT          [7/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ jmetal-experimental ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/jMetal/jmetal-experimental/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmetal-experimental ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ jmetal-experimental ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jmetal-experimental ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ jmetal-experimental ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jmetal-experimental ---
+[INFO] Surefire report directory: /workdir/jMetal/jmetal-experimental/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.uma.jmetal.experimental.qualityIndicator.ErrorRatioTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.experimental.qualityIndicator.HypervolumeTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.experimental.qualityIndicator.SetCoverageTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.experimental.qualityIndicator.R2Test
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running org.uma.jmetal.experimental.qualityIndicator.NormalizedHypervolumeTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.uma.jmetal.experimental.qualityIndicator.EpsilonTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.experimental.qualityIndicator.GenerationalDistanceTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.experimental.qualityIndicator.InvertedGenerationalDistancePlusTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+2021-02-14 23:13:55.445 INFO: Loggers configured with null [org.uma.jmetal.util.JMetalLogger configureLoggers]
+2021-02-14 23:13:55.494 INFO: Number of cores: 8 [org.uma.jmetal.util.evaluator.impl.MultiThreadedSolutionListEvaluator <init>]
+Running org.uma.jmetal.experimental.componentbasedalgorithm.catalogue.evaluation.MultithreadedEvaluationTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.experimental.componentbasedalgorithm.catalogue.evaluation.SequentialEvaluationTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.experimental.componentbasedalgorithm.catalogue.replacement.MuPlusLambdaReplacementTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.uma.jmetal.experimental.componentbasedalgorithm.catalogue.replacement.MuCommaLambdaReplacementTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ jmetal-experimental ---
+[INFO] Loading execution data file /workdir/jMetal/jmetal-experimental/target/jacoco.exec
+[INFO] Analyzed bundle 'org.uma.jmetal:jmetal-experimental' with 138 classes
+[INFO] 
+[INFO] -------------------< org.uma.jmetal:jmetal-parallel >-------------------
+[INFO] Building org.uma.jmetal:jmetal-parallel 5.11-SNAPSHOT              [8/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ jmetal-parallel ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/jMetal/jmetal-parallel/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jmetal-parallel ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jMetal/jmetal-parallel/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ jmetal-parallel ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /workdir/jMetal/jmetal-parallel/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jmetal-parallel ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jMetal/jmetal-parallel/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ jmetal-parallel ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jmetal-parallel ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ jmetal-parallel ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for org.uma.jmetal:jmetal 5.11-SNAPSHOT:
+[INFO] 
+[INFO] org.uma.jmetal:jmetal .............................. SUCCESS [  0.348 s]
+[INFO] org.uma.jmetal:jmetal-core ......................... SUCCESS [  9.757 s]
+[INFO] org.uma.jmetal:jmetal-problem ...................... SUCCESS [  0.809 s]
+[INFO] org.uma.jmetal:jmetal-algorithm .................... SUCCESS [  1.590 s]
+[INFO] org.uma.jmetal:jmetal-lab .......................... SUCCESS [  0.064 s]
+[INFO] org.uma.jmetal:jmetal-example ...................... SUCCESS [  0.536 s]
+[INFO] org.uma.jmetal:jmetal-experimental ................. SUCCESS [  1.306 s]
+[INFO] org.uma.jmetal:jmetal-parallel ..................... SUCCESS [  0.635 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.505 s
+[INFO] Finished at: 2021-02-14T23:13:56Z
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,324 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< io.vertx:vertx-codegen >-----------------------
+[INFO] Building vertx-codegen 4.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ vertx-codegen ---
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-source (add-source) @ vertx-codegen ---
+[INFO] Source directory: /workdir/vertx-codegen/src/examples/java added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ vertx-codegen ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ vertx-codegen ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:unpack (unpack) @ vertx-codegen ---
+[INFO] Configured Artifact: com.fasterxml.jackson.core:jackson-core:?:jar
+[INFO] Configured Artifact: junit:junit:?:jar
+[INFO] jackson-core-2.11.3.jar already unpacked.
+[INFO] junit-4.13.1.jar already unpacked.
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.0.0:add-test-source (add-test-source) @ vertx-codegen ---
+[INFO] Test Source directory: /workdir/vertx-codegen/src/converters/java added.
+[INFO] Test Source directory: /workdir/vertx-codegen/src/converters/generated added.
+[INFO] Test Source directory: /workdir/vertx-codegen/src/tck/java added.
+[INFO] 
+[INFO] --- maven-processor-plugin:3.1.0:process-test (generate-converters-sources) @ vertx-codegen ---
+[INFO] diagnostic: Note: Loaded cheatsheet code generator
+[INFO] diagnostic: Note: Loaded cheatsheet code generator
+[INFO] diagnostic: Note: Loaded data_object_converters code generator
+[INFO] diagnostic: Note: Loaded json-mappers.properties file:/workdir/vertx-codegen/src/converters/resources/META-INF/vertx/json-mappers.properties
+[WARNING] diagnostic: warning: Supported source version 'RELEASE_8' from annotation processor 'io.vertx.codegen.CodeGenProcessor' less than -source '11'
+[INFO] diagnostic: Note: Generated model io.vertx.test.codegen.converter.SetterAdderDataObject: io.vertx.test.codegen.converter.SetterAdderDataObjectConverter
+[INFO] diagnostic: Note: Generated model io.vertx.test.codegen.converter.ParentDataObject: io.vertx.test.codegen.converter.ParentDataObjectConverter
+[INFO] diagnostic: Note: Generated model io.vertx.test.codegen.converter.ChildNotInheritingDataObject: io.vertx.test.codegen.converter.ChildNotInheritingDataObjectConverter
+[INFO] diagnostic: Note: Generated model io.vertx.test.codegen.converter.ChildInheritingDataObject: io.vertx.test.codegen.converter.ChildInheritingDataObjectConverter
+[INFO] diagnostic: Note: Generated model io.vertx.test.codegen.converter.TestDataObject: io.vertx.test.codegen.converter.TestDataObjectConverter
+[INFO] diagnostic: Note: Generated model io.vertx.test.codegen.converter.ConverterGeneratesDeserializerWithFromJsonDataObject: io.vertx.test.codegen.converter.ConverterGeneratesDeserializerWithFromJsonDataObjectConverter
+[INFO] diagnostic: Note: Generated model io.vertx.test.codegen.converter.ConverterGeneratesSerializerWithToJsonDataObject: io.vertx.test.codegen.converter.ConverterGeneratesSerializerWithToJsonDataObjectConverter
+[INFO] diagnostic: Note: Generated model io.vertx.test.codegen.converter.SnakeFormattedDataObject: io.vertx.test.codegen.converter.SnakeFormattedDataObjectConverter
+[INFO] 
+[INFO] --- maven-processor-plugin:3.1.0:process-test (generate-tck-sources) @ vertx-codegen ---
+WARNING: io.vertx.codegen.ClassModel - Interface io.vertx.codegen.testmodel.InterfaceWithVariableArg does not redeclare the @Fluent return type  of method setValue(T) declared by io.vertx.codegen.testmodel.GenericRefedInterface 
+WARNING: io.vertx.codegen.ClassModel - Interface io.vertx.codegen.testmodel.InterfaceWithApiArg does not redeclare the @Fluent return type  of method setValue(T) declared by io.vertx.codegen.testmodel.GenericRefedInterface 
+WARNING: io.vertx.codegen.ClassModel - Interface io.vertx.codegen.testmodel.InterfaceWithStringArg does not redeclare the @Fluent return type  of method setValue(T) declared by io.vertx.codegen.testmodel.GenericRefedInterface 
+[INFO] diagnostic: Note: Loaded cheatsheet code generator
+[INFO] diagnostic: Note: Loaded cheatsheet code generator
+[INFO] diagnostic: Note: Loaded data_object_converters code generator
+[INFO] diagnostic: Note: Loaded json-mappers.properties file:/workdir/vertx-codegen/src/tck/resources/META-INF/vertx/json-mappers.properties
+[WARNING] diagnostic: warning: Supported source version 'RELEASE_8' from annotation processor 'io.vertx.codegen.CodeGenProcessor' less than -source '11'
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableByteHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Byte>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableShortHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Short>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableIntegerHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Integer>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableLongHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Long>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableFloatHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Float>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableDoubleHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Double>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableBooleanHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Boolean>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableStringHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableCharHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Character>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableJsonObjectHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableJsonArrayHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonArray>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableApiHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.RefedInterface1>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableDataObjectHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.TestDataObject>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableJsonMappedHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.time.ZonedDateTime>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableEnumHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.TestEnum>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableGenEnumHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.TestGenEnum>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: <T> void methodWithNullableTypeVariableHandlerAsyncResult(boolean notNull, T value, io.vertx.core.Handler<io.vertx.core.AsyncResult<T>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListByteHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Byte>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListShortHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Short>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListIntegerHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Integer>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListLongHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Long>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListFloatHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Float>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListDoubleHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Double>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListBooleanHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Boolean>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListStringHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.String>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListCharHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Character>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListJsonObjectHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListJsonArrayHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonArray>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListApiHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.RefedInterface1>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListDataObjectHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.TestDataObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListEnumHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.TestEnum>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableListGenEnumHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.TestGenEnum>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetByteHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Byte>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetShortHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Short>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetIntegerHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Integer>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetLongHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Long>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetFloatHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Float>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetDoubleHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Double>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetBooleanHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Boolean>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetStringHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.String>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetCharHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Character>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetJsonObjectHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetJsonArrayHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonArray>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetApiHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.RefedInterface1>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetDataObjectHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.TestDataObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetEnumHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.TestEnum>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableSetGenEnumHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.TestGenEnum>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableMapByteHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Byte>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableMapShortHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Short>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableMapIntegerHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Integer>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableMapLongHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Long>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableMapFloatHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Float>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableMapDoubleHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Double>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableMapBooleanHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Boolean>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableMapStringHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.String>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableMapCharHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Character>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableMapJsonObjectHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.core.json.JsonObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableMapJsonArrayHandlerAsyncResult(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.core.json.JsonArray>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableByteHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Byte>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableShortHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Short>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableIntegerHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Integer>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableLongHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Long>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableBooleanHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Boolean>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableFloatHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Float>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableDoubleHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Double>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableStringHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.String>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableCharHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Character>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableJsonObjectHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableJsonArrayHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonArray>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableApiHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.RefedInterface1>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableDataObjectHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.TestDataObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableEnumHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.TestEnum>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithListNullableGenEnumHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.TestGenEnum>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableByteHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Byte>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableShortHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Short>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableIntegerHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Integer>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableLongHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Long>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableBooleanHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Boolean>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableFloatHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Float>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableDoubleHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Double>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableStringHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.String>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableCharHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Character>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableJsonObjectHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableJsonArrayHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonArray>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableApiHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.RefedInterface1>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableDataObjectHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.TestDataObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableEnumHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.TestEnum>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithSetNullableGenEnumHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.TestGenEnum>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithMapNullableByteHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Byte>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithMapNullableShortHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Short>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithMapNullableIntegerHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Integer>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithMapNullableLongHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Long>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithMapNullableBooleanHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Boolean>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithMapNullableFloatHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Float>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithMapNullableDoubleHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Double>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithMapNullableStringHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.String>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithMapNullableCharHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Character>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithMapNullableJsonObjectHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.core.json.JsonObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithMapNullableJsonArrayHandlerAsyncResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.core.json.JsonArray>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.NullableTCK: void methodWithNullableHandlerAsyncResult(boolean expectNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> handler)
+[WARNING] diagnostic: /workdir/vertx-codegen/src/tck/java/io/vertx/codegen/testmodel/InterfaceWithVariableArg.java:9: warning: Interface io.vertx.codegen.testmodel.InterfaceWithVariableArg does not redeclare the @Fluent return type  of method setValue(T) declared by io.vertx.codegen.testmodel.GenericRefedInterface
+public interface InterfaceWithVariableArg<T, U> extends GenericRefedInterface<U> {
+       ^
+[WARNING] diagnostic: /workdir/vertx-codegen/src/tck/java/io/vertx/codegen/testmodel/InterfaceWithApiArg.java:9: warning: Interface io.vertx.codegen.testmodel.InterfaceWithApiArg does not redeclare the @Fluent return type  of method setValue(T) declared by io.vertx.codegen.testmodel.GenericRefedInterface
+public interface InterfaceWithApiArg extends GenericRefedInterface<RefedInterface1> {
+       ^
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultByteParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.lang.Byte>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultShortParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.lang.Short>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultIntegerParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.lang.Integer>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultLongParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.lang.Long>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultFloatParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.lang.Float>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultDoubleParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.lang.Double>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultBooleanParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.lang.Boolean>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultCharacterParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.lang.Character>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultStringParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.lang.String>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultJsonObjectParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<io.vertx.core.json.JsonObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultJsonArrayParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<io.vertx.core.json.JsonArray>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultDataObjectParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<io.vertx.codegen.testmodel.TestDataObject>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultEnumParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<io.vertx.codegen.testmodel.TestEnum>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultGenEnumParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<io.vertx.codegen.testmodel.TestGenEnum>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultUserTypeParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<io.vertx.codegen.testmodel.RefedInterface1>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultListOfObjectsParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.util.List<java.lang.Object>>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultSetOfObjectsParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.util.Set<java.lang.Object>>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultMapOfObjectsParameterized(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<java.util.Map<java.lang.String,java.lang.Object>>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: <U> void methodWithHandlerAsyncResultClassTypeParameterized(java.lang.Class<U> type, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<U>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: <U> void methodWithClassTypeHandlerAsyncResult(java.lang.Class<U> type, io.vertx.core.Handler<io.vertx.core.AsyncResult<U>> f)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: void methodWithHandlerAsyncResultGenericNullableApi(boolean notNull, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericNullableRefedInterface<io.vertx.codegen.testmodel.RefedInterface1>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.GenericsTCK: <T> void methodWithHandlerAsyncResultParamInfered(io.vertx.codegen.testmodel.GenericRefedInterface<T> param, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<T>>> handler)
+[WARNING] diagnostic: /workdir/vertx-codegen/src/tck/java/io/vertx/codegen/testmodel/InterfaceWithStringArg.java:9: warning: Interface io.vertx.codegen.testmodel.InterfaceWithStringArg does not redeclare the @Fluent return type  of method setValue(T) declared by io.vertx.codegen.testmodel.GenericRefedInterface
+public interface InterfaceWithStringArg extends GenericRefedInterface<String> {
+       ^
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultTypeToIntegerParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.MyPojoToInteger>> myPojoToIntegerHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultListOfTypeToIntegerParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.MyPojoToInteger>>> myPojoToIntegerListHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultSetOfTypeToIntegerParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.MyPojoToInteger>>> myPojoToIntegerSetHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultMapOfTypeToIntegerParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.codegen.testmodel.MyPojoToInteger>>> myPojoToIntegerMapHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultTypeToStringParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.time.ZonedDateTime>> zonedDateTimeHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultListOfTypeToStringParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.time.ZonedDateTime>>> zonedDateTimeListHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultSetOfTypeToStringParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.time.ZonedDateTime>>> zonedDateTimeSetHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultMapOfTypeToStringParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.time.ZonedDateTime>>> zonedDateTimeMapHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultTypeToJsonArrayParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.MyPojoToJsonArray>> myPojoToJsonArrayHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultListOfTypeToJsonArrayParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.MyPojoToJsonArray>>> myPojoToJsonArrayListHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultSetOfTypeToJsonArrayParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.MyPojoToJsonArray>>> myPojoToJsonArraySetHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultMapOfTypeToJsonArrayParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.codegen.testmodel.MyPojoToJsonArray>>> myPojoToJsonArrayMapHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultTypeToJsonObjectParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.MyPojoToJsonObject>> myPojoToJsonObjectHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultListOfTypeToJsonObjectParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.MyPojoToJsonObject>>> myPojoToJsonObjectListHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultSetOfTypeToJsonObjectParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.MyPojoToJsonObject>>> myPojoToJsonObjectSetHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.JsonMapperTCK: void methodWithHandlerAsyncResultMapOfTypeToJsonObjectParam(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.codegen.testmodel.MyPojoToJsonObject>>> myPojoToJsonObjectMapHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultListString(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.String>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultListInteger(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Integer>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultSetString(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.String>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultSetInteger(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Integer>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultListVertxGen(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.RefedInterface1>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultListAbstractVertxGen(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.RefedInterface2>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultListJsonObject(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonObject>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultListComplexJsonObject(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonObject>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultListJsonArray(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonArray>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultListComplexJsonArray(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonArray>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultListDataObject(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.TestDataObject>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultListEnum(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.codegen.testmodel.TestEnum>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultSetVertxGen(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.RefedInterface1>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultSetAbstractVertxGen(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.RefedInterface2>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultSetJsonObject(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonObject>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultSetComplexJsonObject(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonObject>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultSetJsonArray(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonArray>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultSetComplexJsonArray(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonArray>>> listHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultSetDataObject(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.TestDataObject>>> setHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.CollectionTCK: void methodWithHandlerAsyncResultSetEnum(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.codegen.testmodel.TestEnum>>> setHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultByte(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Byte>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultShort(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Short>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultInteger(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Integer>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultLong(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Long>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultFloat(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Float>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultDouble(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Double>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultBoolean(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Boolean>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultCharacter(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Character>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultString(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultDataObject(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.TestDataObject>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultStringDataObject(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.TestStringDataObject>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultUserTypes(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.RefedInterface1>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultVoid(boolean sendFailure, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Void>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: <U> void methodWithHandlerAsyncResultGenericUserType(U value, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.codegen.testmodel.GenericRefedInterface<U>>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: <U> void methodWithGenericHandlerAsyncResult(java.lang.String type, io.vertx.core.Handler<io.vertx.core.AsyncResult<U>> asyncResultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultJsonObject(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultNullJsonObject(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultComplexJsonObject(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultJsonArray(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonArray>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultNullJsonArray(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonArray>> handler)
+[INFO] diagnostic: Note: Non future method io.vertx.codegen.testmodel.TestInterface: void methodWithHandlerAsyncResultComplexJsonArray(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonArray>> handler)
+[INFO] diagnostic: Note: Generated model io.vertx.codegen.testmodel.DataObjectWithListAdders: io.vertx.codegen.testmodel.DataObjectWithListAddersConverter
+[INFO] diagnostic: Note: Generated model io.vertx.codegen.testmodel.DataObjectWithBuffer: io.vertx.codegen.testmodel.DataObjectWithBufferConverter
+[INFO] diagnostic: Note: Generated model io.vertx.codegen.testmodel.DataObjectWithOnlyJsonObjectConstructor: io.vertx.codegen.testmodel.DataObjectWithOnlyJsonObjectConstructorConverter
+[INFO] diagnostic: Note: Generated model io.vertx.codegen.testmodel.DataObjectWithRecursion: io.vertx.codegen.testmodel.DataObjectWithRecursionConverter
+[INFO] diagnostic: Note: Generated model io.vertx.codegen.testmodel.DataObjectWithMaps: io.vertx.codegen.testmodel.DataObjectWithMapsConverter
+[INFO] diagnostic: Note: Generated model io.vertx.codegen.testmodel.DataObjectWithMapAdders: io.vertx.codegen.testmodel.DataObjectWithMapAddersConverter
+[INFO] diagnostic: Note: Generated model io.vertx.codegen.testmodel.DataObjectWithValues: io.vertx.codegen.testmodel.DataObjectWithValuesConverter
+[INFO] diagnostic: Note: Generated model io.vertx.codegen.testmodel.DataObjectWithLists: io.vertx.codegen.testmodel.DataObjectWithListsConverter
+[INFO] diagnostic: Note: Generated model io.vertx.codegen.testmodel.DataObjectWithNestedBuffer: io.vertx.codegen.testmodel.DataObjectWithNestedBufferConverter
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ vertx-codegen ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/vertx-codegen/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ vertx-codegen ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 550 source files to /workdir/vertx-codegen/target/test-classes
+[INFO] /workdir/vertx-codegen/src/test/java/io/vertx/test/codegen/DeprecatedTest.java: Some input files use or override a deprecated API.
+[INFO] /workdir/vertx-codegen/src/test/java/io/vertx/test/codegen/DeprecatedTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/vertx-codegen/src/test/java/io/vertx/test/codegen/DataObjectTest.java: Some input files use unchecked or unsafe operations.
+[INFO] /workdir/vertx-codegen/src/test/java/io/vertx/test/codegen/DataObjectTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ vertx-codegen ---
+[INFO] Surefire report directory: /workdir/vertx-codegen/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running io.vertx.test.codegen.writer.CodeWriterTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in io.vertx.test.codegen.writer.CodeWriterTest
+Running io.vertx.test.codegen.JsonMapperTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.337 sec - in io.vertx.test.codegen.JsonMapperTest
+Running io.vertx.test.codegen.CaseTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in io.vertx.test.codegen.CaseTest
+Running io.vertx.test.codegen.generator.CodeGeneratorTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.755 sec - in io.vertx.test.codegen.generator.CodeGeneratorTest
+Running io.vertx.test.codegen.DeprecatedTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.248 sec - in io.vertx.test.codegen.DeprecatedTest
+Running io.vertx.test.codegen.PackageTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 sec - in io.vertx.test.codegen.PackageTest
+Running io.vertx.test.codegen.ClassTest
+Feb 15, 2021 12:25:05 AM io.vertx.codegen.ClassModel createMethod
+WARNING: Interface io.vertx.test.codegen.testapi.streams.InterfaceExtentingReadStreamAndWriteStream does not redeclare the @Fluent return type  of method exceptionHandler(io.vertx.core.Handler<java.lang.Throwable>) declared by io.vertx.core.streams.WriteStream
+Feb 15, 2021 12:25:06 AM io.vertx.codegen.ClassModel createMethod
+WARNING: Interface io.vertx.test.codegen.testapi.streams.GenericInterfaceExtentingWriteStream does not redeclare the @Fluent return type  of method exceptionHandler(io.vertx.core.Handler<java.lang.Throwable>) declared by io.vertx.core.streams.WriteStream
+Feb 15, 2021 12:25:07 AM io.vertx.codegen.ClassModel createMethod
+WARNING: Interface io.vertx.test.codegen.testapi.streams.GenericInterfaceExtentingReadStreamAndWriteStream does not redeclare the @Fluent return type  of method exceptionHandler(io.vertx.core.Handler<java.lang.Throwable>) declared by io.vertx.core.streams.WriteStream
+Feb 15, 2021 12:25:07 AM io.vertx.codegen.CodeGen lambda$init$0
+WARNING: Processed element io.vertx.test.codegen.testapi.impl.sub.InterfaceInImplParentPackage is in an implementation package
+Feb 15, 2021 12:25:07 AM io.vertx.codegen.CodeGen lambda$init$0
+WARNING: Processed element io.vertx.test.codegen.testapi.impl.InterfaceInImplPackage is in an implementation package
+Feb 15, 2021 12:25:11 AM io.vertx.codegen.ClassModel createMethod
+WARNING: Interface io.vertx.test.codegen.testapi.streams.InterfaceExtentingWriteStream does not redeclare the @Fluent return type  of method exceptionHandler(io.vertx.core.Handler<java.lang.Throwable>) declared by io.vertx.core.streams.WriteStream
+Tests run: 151, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.282 sec - in io.vertx.test.codegen.ClassTest
+Running io.vertx.test.codegen.TypeInfoTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.275 sec - in io.vertx.test.codegen.TypeInfoTest
+Running io.vertx.test.codegen.HelperTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec - in io.vertx.test.codegen.HelperTest
+Running io.vertx.test.codegen.DocTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.174 sec - in io.vertx.test.codegen.DocTest
+Running io.vertx.test.codegen.NameTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in io.vertx.test.codegen.NameTest
+Running io.vertx.test.codegen.ModuleTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.421 sec - in io.vertx.test.codegen.ModuleTest
+Running io.vertx.test.codegen.EnumTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec - in io.vertx.test.codegen.EnumTest
+Running io.vertx.test.codegen.ClassNullableTest
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.477 sec - in io.vertx.test.codegen.ClassNullableTest
+Running io.vertx.test.codegen.converter.DataObjectTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in io.vertx.test.codegen.converter.DataObjectTest
+Running io.vertx.test.codegen.DataObjectTest
+Tests run: 70, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.032 sec - in io.vertx.test.codegen.DataObjectTest
+
+Results :
+
+Tests run: 384, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.975 s
+[INFO] Finished at: 2021-02-15T00:25:17Z
+[INFO] ------------------------------------------------------------------------

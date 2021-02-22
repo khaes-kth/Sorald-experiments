@@ -1,0 +1,498 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< com.github.jonathanhds:sql-builder >-----------------
+[INFO] Building sql-builder 1.4-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ sql-builder ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sql-builder ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/sql-builder/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ sql-builder ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sql-builder ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ sql-builder ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /workdir/sql-builder/target/test-classes
+[WARNING] /workdir/sql-builder/src/test/java/com/github/jonathanhds/sqlbuilder/select/SelectTest.java: /workdir/sql-builder/src/test/java/com/github/jonathanhds/sqlbuilder/select/SelectTest.java uses or overrides a deprecated API.
+[WARNING] /workdir/sql-builder/src/test/java/com/github/jonathanhds/sqlbuilder/select/SelectTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sql-builder ---
+[INFO] Surefire report directory: /workdir/sql-builder/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.jonathanhds.sqlbuilder.update.UpdateQueryTest
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.356 sec
+Running com.github.jonathanhds.sqlbuilder.select.SelectTest
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+*
+FROM
+PERSON p
+
+
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+COUNT(*)
+FROM
+PERSON p
+
+
+GROUP BY
+p.birthday
+
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+COUNT(*)
+FROM
+PERSON p
+
+
+GROUP BY
+p.birthday
+
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+COUNT(c.country_name)
+FROM
+PERSON p,
+COUNTRY c
+
+
+WHERE p.country_id = c.id
+GROUP BY
+c.country_name
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+p.name,
+p.birthday,
+p.country_id,
+c.country_name
+FROM
+PERSON p
+
+
+INNER JOIN
+COUNTRY c ON c.id = p.country_id
+
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+p.name,
+p.birthday,
+p.country_id,
+c.country_name
+FROM
+PERSON p
+
+
+INNER JOIN
+COUNTRY c ON c.id = p.country_id
+
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+p.name,
+p.birthday,
+p.country_id,
+c.country_name
+FROM
+PERSON p,
+country c
+
+
+WHERE c.id = p.country_id
+
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+p.name,
+p.birthday,
+p.country_id,
+c.country_name
+FROM
+PERSON p,
+COUNTRY c
+
+
+WHERE c.id = p.country_id
+
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+p.name,
+p.birthday,
+p.country_id,
+c.country_name
+FROM
+PERSON p,
+(select * from country) c
+
+
+WHERE c.id = p.country_id
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+*
+FROM
+PERSON p
+
+
+WHERE 1 = 1
+AND p.id = ?
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+c.country_name
+FROM
+PERSON p,
+COUNTRY c
+
+
+WHERE c.id = p.country_id
+GROUP BY
+c.country_name
+HAVING
+count(1) > 1
+ORDER BY
+ 
+c.country_name
+ DESC
+
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+c.country_name
+FROM
+PERSON p,
+COUNTRY c
+
+
+WHERE c.id = p.country_id
+GROUP BY
+c.country_name
+ORDER BY
+ 
+c.country_name
+ DESC
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+*
+FROM
+PERSON p
+
+
+WHERE 1 = 1
+AND p.name = ?
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+*
+FROM
+PERSON p
+
+
+WHERE 1 = 1
+AND p.name = 'Jonathan'
+
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+*
+FROM
+PERSON p
+
+
+WHERE p.name = 'Jonathan'
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+COUNT(c.country_name)
+FROM
+COUNTRY c,
+PERSON p
+
+
+WHERE c.id = p.country_id
+GROUP BY
+c.country_name
+HAVING
+count(c.country_name) > 1
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+*
+FROM
+PERSON p
+
+
+ORDER BY
+ 
+p.name
+ ASC
+LIMIT ?
+OFFSET ?
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+data.*
+FROM
+(
+SELECT
+ord_data.*,
+rownum AS rnum
+FROM
+(
+SELECT
+*
+FROM
+PERSON p
+
+
+ORDER BY
+ 
+p.name
+ ASC
+
+)
+ord_data
+)
+data
+WHERE
+rnum BETWEEN ? AND ?
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+*
+FROM
+PERSON p
+
+
+ORDER BY
+ 
+p.name
+ DESC
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+*
+FROM
+PERSON p
+
+
+
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Feb 14, 2021 8:28:23 PM com.github.jonathanhds.sqlbuilder.Context execute
+INFO: 
+SELECT
+*
+FROM
+PERSON p
+
+
+INNER JOIN
+COUNTRY c ON c.id = p.country_id
+WHERE 1 = 1
+AND p.birthday >= ?
+
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 sec
+Running com.github.jonathanhds.sqlbuilder.insert.InsertQueryTest
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+Running com.github.jonathanhds.sqlbuilder.delete.DeleteQueryTest
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+CREATE TABLE country ( 	id INT, 	country_name VARCHAR(50), 	CONSTRAINT pk_country PRIMARY KEY (id) ) 
+CREATE TABLE person ( 	id INT, 	name VARCHAR(50), 	birthday DATE, 	country_id INT, 	CONSTRAINT pk_person PRIMARY KEY (id), 	CONSTRAINT fk_person_country FOREIGN KEY (country_id) REFERENCES country(id) ) 
+INSERT INTO country (id, country_name) VALUES (1, 'Brazil') 
+INSERT INTO country (id, country_name) VALUES (2, 'United States of America') 
+INSERT INTO person (id, name, birthday, country_id) VALUES (1, 'Jonathan', DATE'1988-11-08', 1) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (2, 'Steve Jobs', DATE'1955-02-24', 2) 
+INSERT INTO person (id, name, birthday, country_id) VALUES (3, 'Dom Pedro II', DATE'1825-12-02', 1) 
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.316 s
+[INFO] Finished at: 2021-02-14T20:28:23Z
+[INFO] ------------------------------------------------------------------------

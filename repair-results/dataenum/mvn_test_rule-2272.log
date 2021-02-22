@@ -1,0 +1,148 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Dataenum Parent                                                    [pom]
+[INFO] Dataenum Runtime Dependencies                                      [jar]
+[INFO] Dataenum Annotation Processor                                      [jar]
+[INFO] Dataenum Integration Tests                                         [jar]
+[INFO] 
+[INFO] ----------------< com.spotify.dataenum:dataenum-parent >----------------
+[INFO] Building Dataenum Parent 1.4.2-SNAPSHOT                            [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- license-maven-plugin:1.9:check-file-header (check-file-header) @ dataenum-parent ---
+[INFO] skip flag is on, will skip goal.
+[INFO] 
+[INFO] -------------------< com.spotify.dataenum:dataenum >--------------------
+[INFO] Building Dataenum Runtime Dependencies 1.4.2-SNAPSHOT              [2/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- license-maven-plugin:1.9:check-file-header (check-file-header) @ dataenum ---
+[INFO] skip flag is on, will skip goal.
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.0.0:format (default) @ dataenum ---
+[INFO] Processed 12 files (0 reformatted).
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dataenum ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/dataenum/dataenum/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ dataenum ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dataenum ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/dataenum/dataenum/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ dataenum ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ dataenum ---
+[INFO] Surefire report directory: /workdir/dataenum/dataenum/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.spotify.dataenum.DataenumUtilsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+Running com.spotify.dataenum.function.CasesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --------------< com.spotify.dataenum:dataenum-processor >---------------
+[INFO] Building Dataenum Annotation Processor 1.4.2-SNAPSHOT              [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- license-maven-plugin:1.9:check-file-header (check-file-header) @ dataenum-processor ---
+[INFO] skip flag is on, will skip goal.
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.0.0:format (default) @ dataenum-processor ---
+[INFO] Processed 23 files (0 reformatted).
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dataenum-processor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ dataenum-processor ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dataenum-processor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 46 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ dataenum-processor ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ dataenum-processor ---
+[INFO] Surefire report directory: /workdir/dataenum/dataenum-processor/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.spotify.dataenum.processor.AccessSelectorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec
+Running com.spotify.dataenum.processor.generator.data.OutputSpecFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+Running com.spotify.dataenum.processor.IntegrationTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.443 sec
+
+Results :
+
+Tests run: 35, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -----------< com.spotify.dataenum:dataenum-integration-test >-----------
+[INFO] Building Dataenum Integration Tests 1.4.2-SNAPSHOT                 [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- license-maven-plugin:1.9:check-file-header (check-file-header) @ dataenum-integration-test ---
+[INFO] skip flag is on, will skip goal.
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.0.0:format (default) @ dataenum-integration-test ---
+[INFO] Processed 6 files (0 reformatted).
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dataenum-integration-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/dataenum/dataenum-integration-test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ dataenum-integration-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dataenum-integration-test ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/dataenum/dataenum-integration-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ dataenum-integration-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ dataenum-integration-test ---
+[INFO] Surefire report directory: /workdir/dataenum/dataenum-integration-test/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.spotify.dataenum.it.OuterIntegrationTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.103 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Dataenum Parent 1.4.2-SNAPSHOT:
+[INFO] 
+[INFO] Dataenum Parent .................................... SUCCESS [  0.504 s]
+[INFO] Dataenum Runtime Dependencies ...................... SUCCESS [  1.229 s]
+[INFO] Dataenum Annotation Processor ...................... SUCCESS [  3.283 s]
+[INFO] Dataenum Integration Tests ......................... SUCCESS [  0.390 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.509 s
+[INFO] Finished at: 2021-02-15T08:21:23Z
+[INFO] ------------------------------------------------------------------------

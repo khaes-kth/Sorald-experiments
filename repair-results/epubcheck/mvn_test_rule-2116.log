@@ -1,0 +1,92 @@
+[INFO] Scanning for projects...
+[WARNING] The project org.w3c:epubcheck:jar:4.2.5-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] -------------------------< org.w3c:epubcheck >--------------------------
+[INFO] Building EPUBCheck :: Validation Tool for EPUB 4.2.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ epubcheck ---
+[INFO] 
+[INFO] --- license-maven-plugin:1.14:add-third-party (thirdparty-licenses) @ epubcheck ---
+[WARNING] There is 1 dependencies with no license :
+[WARNING]  - isorelax--isorelax--20030108
+[WARNING] There is 1 dependencies with no license :
+[WARNING]  - isorelax--isorelax--20030108
+[INFO] Writing third-party file to /workdir/epubcheck/target/generated-sources/license/THIRD-PARTY.txt
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ epubcheck ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources to /workdir/epubcheck/target
+[INFO] Copying 333 resources
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- xml-maven-plugin:1.0.1:transform (default) @ epubcheck ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ epubcheck ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 221 source files to /workdir/epubcheck/target/classes
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.2.0:manifest (bundle-manifest) @ epubcheck ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ epubcheck ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2279 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ epubcheck ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ epubcheck ---
+[INFO] Surefire report directory: /workdir/epubcheck/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.adobe.epubcheck.tools.CommandLineTest
+Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.419 sec - in com.adobe.epubcheck.tools.CommandLineTest
+Running com.adobe.epubcheck.util.OPFPeekerTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec - in com.adobe.epubcheck.util.OPFPeekerTest
+Running com.adobe.epubcheck.util.PathUtilTest
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.adobe.epubcheck.util.PathUtilTest
+Running com.adobe.epubcheck.util.SourceSetTest
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.adobe.epubcheck.util.SourceSetTest
+Running com.adobe.epubcheck.opf.MetadataSetTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.adobe.epubcheck.opf.MetadataSetTest
+Running com.adobe.epubcheck.ocf.OCFFilenameCheckerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.adobe.epubcheck.ocf.OCFFilenameCheckerTest
+Running com.adobe.epubcheck.vocab.PropertyTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in com.adobe.epubcheck.vocab.PropertyTest
+Running com.adobe.epubcheck.vocab.VocabTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in com.adobe.epubcheck.vocab.VocabTest
+Running com.adobe.epubcheck.vocab.PrefixParsingTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.adobe.epubcheck.vocab.PrefixParsingTest
+Running com.adobe.epubcheck.messages.LocalizedMessagesTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.adobe.epubcheck.messages.LocalizedMessagesTest
+Running org.w3c.epubcheck.test.RunCucumberTest
+No mimetype file found in expanded publication, output archive will be invalid
+Spine element not found within package root document OPS/package.opf
+Spine element not found within package root document OPS/package.opf
+Spine element not found within package root document OPS/package.opf
+Spine element not found within package root document OPS/package.opf
+No mimetype file found in expanded publication, output archive will be invalid
+Spine element not found within package root document EPUB/package.opf
+Tests run: 728, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.748 sec - in org.w3c.epubcheck.test.RunCucumberTest
+Running org.w3c.epubcheck.test.DebugCucumberTest
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec - in org.w3c.epubcheck.test.DebugCucumberTest
+Running org.idpf.epubcheck.util.css.CssParserTest
+Tests run: 125, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in org.idpf.epubcheck.util.css.CssParserTest
+Running org.idpf.epubcheck.util.css.CssScannerTest
+Tests run: 128, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec - in org.idpf.epubcheck.util.css.CssScannerTest
+Running org.idpf.epubcheck.util.css.CssInputStreamTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in org.idpf.epubcheck.util.css.CssInputStreamTest
+
+Results :
+
+Tests run: 1176, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  24.525 s
+[INFO] Finished at: 2021-02-14T22:00:14Z
+[INFO] ------------------------------------------------------------------------

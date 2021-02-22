@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 10,
         "performedRepairsLocations": [
             {
                 "endLine": 69,
@@ -87,11 +88,10 @@
                 "violationSpecifier": "2142:client/src/main/java/org/apache/commons/net/telnet/TelnetInputStream.java:641:23:641:45"
             }
         ],
-        "nbViolationsBefore": 10,
         "nbViolationsAfter": 2
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -105,10 +105,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 11656,
-    "repairTimeMs": 498,
-    "startTimeMs": 1612818188865,
+    "totalTimeMs": 12109,
+    "repairTimeMs": 587,
+    "startTimeMs": 1613379187410,
     "crashes": [],
-    "endTimeMs": 1612818200521,
-    "parseTimeMs": 4937
+    "endTimeMs": 1613379199519,
+    "parseTimeMs": 5069
 }

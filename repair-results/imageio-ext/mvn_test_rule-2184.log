@@ -1,0 +1,357 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for it.geosolutions.imageio-ext:imageio-ext-utilities:jar:1.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 517, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 530, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 542, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for it.geosolutions.imageio-ext:imageio-ext-test-data:jar:1.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 517, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 530, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 542, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for it.geosolutions.imageio-ext:imageio-ext-streams:jar:1.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 517, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 530, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 542, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for it.geosolutions.imageio-ext:imageio-ext-geocore:jar:1.3-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: javax.xml.bind:jaxb-api:jar -> version 2.3.0 vs 2.4.0-b180830.0359 @ line 42, column 17
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 517, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 530, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 542, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for it.geosolutions.imageio-ext:imageio-ext-gdalframework:jar:1.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 517, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 530, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 43, column 11
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 542, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for it.geosolutions.imageio-ext:imageio-ext-imagereadmt:jar:1.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 517, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 530, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 542, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for it.geosolutions.imageio-ext:imageio-ext-netcdf-core:jar:1.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 517, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 530, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 542, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.libjpegturbo:turbojpeg-wrapper:jar:1.2.1.5
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 18, column 17
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for it.geosolutions.imageio-ext:imageio-ext-library:pom:1.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 517, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 530, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 542, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for it.geosolutions.imageio-ext:imageio-ext-plugin:pom:1.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 517, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 530, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ it.geosolutions.imageio-ext:imageio-ext:1.3-SNAPSHOT, /workdir/imageio-ext/pom.xml, line 542, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for it.geosolutions.imageio-ext:imageio-ext:pom:1.3-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 517, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 530, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 542, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] GeoSolutions Image I/O-Extensions Library Root Project             [pom]
+[INFO] GeoSolutions Image I/O-Extensions libraries                        [pom]
+[INFO] Image I/O-Extensions - utilities classes and methods               [jar]
+[INFO] Image I/O-Extensions - Test-Data                                   [jar]
+[INFO] Image I/O-Extensions - Custom Streams                              [jar]
+[INFO] Image I/O-Extensions - GeoCore                                     [jar]
+[INFO] Image I/O-Extensions - GDAL Image IO Framework                     [jar]
+[INFO] Image I/O-Extensions - Multithreading ImageRead                    [jar]
+[INFO] Image I/O-Extensions - NetCDF Library support                      [jar]
+[INFO] Libjpegturbo java wrapper                                          [jar]
+[INFO] GeoSolutions Image I/O-Extensions plugins                          [pom]
+[INFO] 
+[INFO] --------------< it.geosolutions.imageio-ext:imageio-ext >---------------
+[INFO] Building GeoSolutions Image I/O-Extensions Library Root Project 1.3-SNAPSHOT [1/11]
+[INFO] --------------------------------[ pom ]---------------------------------
+Downloading from codehaus.org: http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-compiler-plugin/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-compiler-plugin/maven-metadata.xml
+Downloading from codehaus.org: http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-surefire-plugin/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-surefire-plugin/maven-metadata.xml
+Downloading from codehaus.org: http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[WARNING] Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] 
+[INFO] ----------< it.geosolutions.imageio-ext:imageio-ext-library >-----------
+[INFO] Building GeoSolutions Image I/O-Extensions libraries 1.3-SNAPSHOT [2/11]
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-compiler-plugin/maven-metadata.xml
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-surefire-plugin/maven-metadata.xml
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] 
+[INFO] ---------< it.geosolutions.imageio-ext:imageio-ext-utilities >----------
+[INFO] Building Image I/O-Extensions - utilities classes and methods 1.3-SNAPSHOT [3/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imageio-ext-utilities ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/imageio-ext/library/utilities/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imageio-ext-utilities ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imageio-ext-utilities ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/imageio-ext/library/utilities/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imageio-ext-utilities ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ imageio-ext-utilities ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------< it.geosolutions.imageio-ext:imageio-ext-test-data >----------
+[INFO] Building Image I/O-Extensions - Test-Data 1.3-SNAPSHOT            [4/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imageio-ext-test-data ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/imageio-ext/library/test-data/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imageio-ext-test-data ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imageio-ext-test-data ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/imageio-ext/library/test-data/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imageio-ext-test-data ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ imageio-ext-test-data ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------< it.geosolutions.imageio-ext:imageio-ext-streams >-----------
+[INFO] Building Image I/O-Extensions - Custom Streams 1.3-SNAPSHOT       [5/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imageio-ext-streams ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imageio-ext-streams ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imageio-ext-streams ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imageio-ext-streams ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ imageio-ext-streams ---
+[INFO] Surefire report directory: /workdir/imageio-ext/library/streams/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running it.geosolutions.imageio.stream.ImageOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.409 sec
+Running it.geosolutions.imageio.stream.ImageInputStreamTest
+Feb 14, 2021 6:26:52 PM it.geosolutions.imageio.stream.ImageInputStreamTest URLImageInputStream
+INFO: Testing capabilities of URLImageInputStreamSpi
+Feb 14, 2021 6:26:52 PM it.geosolutions.imageio.stream.ImageInputStreamTest URLImageInputStream
+INFO: Testing capabilities of URLImageInputStreamSpi: SUCCESS!!!
+Feb 14, 2021 6:26:52 PM it.geosolutions.imageio.stream.ImageInputStreamTest stringImageInputStream
+INFO: Testing capabilities of StringImageInputStreamSpi
+Feb 14, 2021 6:26:52 PM it.geosolutions.imageio.stream.ImageInputStreamTest stringImageInputStream
+INFO: Testing capabilities of URLImageInputStreamSpi: SUCCESS!!!
+Feb 14, 2021 6:26:52 PM it.geosolutions.imageio.stream.ImageInputStreamTest fileImageInputStreamExtImpl
+INFO: Testing capabilities of FileImageInputStreamExt
+Feb 14, 2021 6:26:52 PM it.geosolutions.imageio.stream.ImageInputStreamTest fileImageInputStreamExtImpl
+INFO: Testing capabilities of URLImageInputStreamSpi: SUCCESS!!!
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------< it.geosolutions.imageio-ext:imageio-ext-geocore >-----------
+[INFO] Building Image I/O-Extensions - GeoCore 1.3-SNAPSHOT              [6/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imageio-ext-geocore ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/imageio-ext/library/geocore/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imageio-ext-geocore ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imageio-ext-geocore ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imageio-ext-geocore ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ imageio-ext-geocore ---
+[INFO] Surefire report directory: /workdir/imageio-ext/library/geocore/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running it.geosolutions.imageio.pam.PAMParserTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.253 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -------< it.geosolutions.imageio-ext:imageio-ext-gdalframework >--------
+[INFO] Building Image I/O-Extensions - GDAL Image IO Framework 1.3-SNAPSHOT [7/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imageio-ext-gdalframework ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/imageio-ext/library/gdalframework/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imageio-ext-gdalframework ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imageio-ext-gdalframework ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/imageio-ext/library/gdalframework/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imageio-ext-gdalframework ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ imageio-ext-gdalframework ---
+[INFO] Surefire report directory: /workdir/imageio-ext/library/gdalframework/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running it.geosolutions.imageio.gdalframework.AbstractGDALTest
+Feb 14, 2021 6:26:53 PM it.geosolutions.imageio.gdalframework.GDALUtilities loadGDAL
+WARNING: Failed to load the GDAL native libs. This is not a problem unless you need to use the GDAL plugins: they won't be enabled.
+java.lang.UnsatisfiedLinkError: no gdaljni in java.library.path: [/usr/java/packages/lib, /usr/lib64, /lib64, /lib, /usr/lib]
+Feb 14, 2021 6:26:53 PM it.geosolutions.imageio.gdalframework.AbstractGDALTest setUp
+WARNING: GDAL Library is not Available
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --------< it.geosolutions.imageio-ext:imageio-ext-imagereadmt >---------
+[INFO] Building Image I/O-Extensions - Multithreading ImageRead 1.3-SNAPSHOT [8/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imageio-ext-imagereadmt ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imageio-ext-imagereadmt ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imageio-ext-imagereadmt ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imageio-ext-imagereadmt ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ imageio-ext-imagereadmt ---
+[INFO] Surefire report directory: /workdir/imageio-ext/library/imagereadmt/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running it.geosolutions.imageio.imageioimpl.imagereadmt.ImageIOExtTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.3 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --------< it.geosolutions.imageio-ext:imageio-ext-netcdf-core >---------
+[INFO] Building Image I/O-Extensions - NetCDF Library support 1.3-SNAPSHOT [9/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ imageio-ext-netcdf-core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/imageio-ext/library/netcdf-core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ imageio-ext-netcdf-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ imageio-ext-netcdf-core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/imageio-ext/library/netcdf-core/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ imageio-ext-netcdf-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ imageio-ext-netcdf-core ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------< org.libjpegturbo:turbojpeg-wrapper >-----------------
+[INFO] Building Libjpegturbo java wrapper 1.2.1.5                       [10/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ turbojpeg-wrapper ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/imageio-ext/library/libjpegturbo/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ turbojpeg-wrapper ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ turbojpeg-wrapper ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/imageio-ext/library/libjpegturbo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ turbojpeg-wrapper ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ turbojpeg-wrapper ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------< it.geosolutions.imageio-ext:imageio-ext-plugin >-----------
+[INFO] Building GeoSolutions Image I/O-Extensions plugins 1.3-SNAPSHOT  [11/11]
+[INFO] --------------------------------[ pom ]---------------------------------
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-compiler-plugin/maven-metadata.xml
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-surefire-plugin/maven-metadata.xml
+[WARNING] Failure to transfer org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from http://snapshots.repository.codehaus.org was cached in the local repository, resolution will not be reattempted until the update interval of codehaus.org has elapsed or updates are forced. Original error: Could not transfer metadata org.apache.maven.plugins:maven-source-plugin/maven-metadata.xml from/to codehaus.org (http://snapshots.repository.codehaus.org): Transfer failed for http://snapshots.repository.codehaus.org/org/apache/maven/plugins/maven-source-plugin/maven-metadata.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] GeoSolutions Image I/O-Extensions Library Root Project 1.3-SNAPSHOT SUCCESS [  0.514 s]
+[INFO] GeoSolutions Image I/O-Extensions libraries 1.3-SNAPSHOT SUCCESS [  0.009 s]
+[INFO] Image I/O-Extensions - utilities classes and methods 1.3-SNAPSHOT SUCCESS [  0.368 s]
+[INFO] Image I/O-Extensions - Test-Data 1.3-SNAPSHOT ...... SUCCESS [  0.018 s]
+[INFO] Image I/O-Extensions - Custom Streams 1.3-SNAPSHOT . SUCCESS [  0.843 s]
+[INFO] Image I/O-Extensions - GeoCore 1.3-SNAPSHOT ........ SUCCESS [  0.471 s]
+[INFO] Image I/O-Extensions - GDAL Image IO Framework 1.3-SNAPSHOT SUCCESS [  0.329 s]
+[INFO] Image I/O-Extensions - Multithreading ImageRead 1.3-SNAPSHOT SUCCESS [  0.503 s]
+[INFO] Image I/O-Extensions - NetCDF Library support 1.3-SNAPSHOT SUCCESS [  0.019 s]
+[INFO] Libjpegturbo java wrapper 1.2.1.5 .................. SUCCESS [  0.127 s]
+[INFO] GeoSolutions Image I/O-Extensions plugins 1.3-SNAPSHOT SUCCESS [  0.008 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.476 s
+[INFO] Finished at: 2021-02-14T18:26:54Z
+[INFO] ------------------------------------------------------------------------

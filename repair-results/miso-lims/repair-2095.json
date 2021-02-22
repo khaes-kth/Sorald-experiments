@@ -5,53 +5,53 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 6,
         "performedRepairsLocations": [
             {
                 "endLine": 205,
                 "endColumn": 107,
                 "startColumn": 25,
-                "startLine": 205,
                 "filePath": "core/src/main/java/uk/ac/bbsrc/tgac/miso/core/util/TransmissionUtils.java",
+                "startLine": 205,
                 "violationSpecifier": "2095:core/src/main/java/uk/ac/bbsrc/tgac/miso/core/util/TransmissionUtils.java:205:25:205:107"
             },
             {
                 "endLine": 181,
                 "endColumn": 55,
                 "startColumn": 28,
-                "startLine": 181,
                 "filePath": "integration-tools/src/main/java/uk/ac/bbsrc/tgac/miso/integration/util/IntegrationUtils.java",
+                "startLine": 181,
                 "violationSpecifier": "2095:integration-tools/src/main/java/uk/ac/bbsrc/tgac/miso/integration/util/IntegrationUtils.java:181:28:181:55"
             },
             {
                 "endLine": 189,
                 "endColumn": 108,
                 "startColumn": 26,
-                "startLine": 189,
                 "filePath": "integration-tools/src/main/java/uk/ac/bbsrc/tgac/miso/integration/util/IntegrationUtils.java",
+                "startLine": 189,
                 "violationSpecifier": "2095:integration-tools/src/main/java/uk/ac/bbsrc/tgac/miso/integration/util/IntegrationUtils.java:189:26:189:108"
             },
             {
                 "endLine": 132,
                 "endColumn": 53,
                 "startColumn": 28,
-                "startLine": 132,
                 "filePath": "miso-web/src/main/java/uk/ac/bbsrc/tgac/miso/webapp/controller/view/DownloadController.java",
+                "startLine": 132,
                 "violationSpecifier": "2095:miso-web/src/main/java/uk/ac/bbsrc/tgac/miso/webapp/controller/view/DownloadController.java:132:28:132:53"
             },
             {
                 "endLine": 90,
                 "endColumn": 83,
                 "startColumn": 27,
-                "startLine": 90,
                 "filePath": "miso-web/src/main/java/uk/ac/bbsrc/tgac/miso/webapp/util/MisoPropertyExporter.java",
+                "startLine": 90,
                 "violationSpecifier": "2095:miso-web/src/main/java/uk/ac/bbsrc/tgac/miso/webapp/util/MisoPropertyExporter.java:90:27:90:83"
             }
         ],
-        "nbViolationsBefore": 6,
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -65,10 +65,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 46439,
-    "repairTimeMs": 965,
-    "startTimeMs": 1612802264097,
+    "totalTimeMs": 48347,
+    "repairTimeMs": 978,
+    "startTimeMs": 1613326608703,
     "crashes": [],
-    "endTimeMs": 1612802310536,
-    "parseTimeMs": 12535
+    "endTimeMs": 1613326657050,
+    "parseTimeMs": 13216
 }

@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 13,
         "performedRepairsLocations": [
             {
                 "endLine": 104,
@@ -103,11 +104,10 @@
                 "violationSpecifier": "2095:client/src/main/java/org/apache/commons/net/DefaultSocketFactory.java:172:23:172:44"
             }
         ],
-        "nbViolationsBefore": 13,
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -121,10 +121,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 27392,
-    "repairTimeMs": 553,
-    "startTimeMs": 1612818258488,
+    "totalTimeMs": 27883,
+    "repairTimeMs": 489,
+    "startTimeMs": 1613379337908,
     "crashes": [],
-    "endTimeMs": 1612818285880,
-    "parseTimeMs": 4671
+    "endTimeMs": 1613379365791,
+    "parseTimeMs": 4675
 }

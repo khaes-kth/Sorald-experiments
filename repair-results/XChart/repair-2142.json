@@ -16,12 +16,12 @@
                 "violationSpecifier": "2142:xchart/src/main/java/org/knowm/xchart/SwingWrapper.java:91:13:91:35"
             },
             {
-                "endLine": 39,
+                "endLine": 38,
                 "endColumn": 37,
                 "startColumn": 15,
-                "startLine": 39,
+                "startLine": 38,
                 "filePath": "xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue291.java",
-                "violationSpecifier": "2142:xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue291.java:39:15:39:37"
+                "violationSpecifier": "2142:xchart-demo/src/main/java/org/knowm/xchart/standalone/issues/TestForIssue291.java:38:15:38:37"
             },
             {
                 "endLine": 51,
@@ -67,7 +67,7 @@
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -81,10 +81,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 8645,
-    "repairTimeMs": 383,
-    "startTimeMs": 1612800309819,
+    "totalTimeMs": 8956,
+    "repairTimeMs": 438,
+    "startTimeMs": 1613322134289,
     "crashes": [],
-    "endTimeMs": 1612800318464,
-    "parseTimeMs": 3589
+    "endTimeMs": 1613322143245,
+    "parseTimeMs": 3818
 }

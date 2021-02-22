@@ -1,0 +1,504 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Java-OCA-OCPP common                                               [jar]
+[INFO] Java-OCA-OCPP                                                      [pom]
+[INFO] Java-OCA-OCPP OCPP-J                                               [jar]
+[INFO] Java-OCA-OCPP v1.6                                                 [jar]
+[INFO] Java-OCA-OCPP v1.6 - Integration test                              [jar]
+[INFO] Java-OCA-OCPP v2.0                                                 [jar]
+[INFO] Java-OCA-OCPP v2.0 - Integration test                              [jar]
+[INFO] 
+[INFO] ---------------------< eu.chargetime.ocpp:common >----------------------
+[INFO] Building Java-OCA-OCPP common 0.5-SNAPSHOT                         [1/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ common ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/Java-OCA-OCPP/ocpp-common/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ common ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/Java-OCA-OCPP/ocpp-common/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ common ---
+[INFO] Surefire report directory: /workdir/Java-OCA-OCPP/ocpp-common/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running eu.chargetime.ocpp.test.FeatureRepositoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running eu.chargetime.ocpp.test.QueueTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+05:36:22.171 [main] DEBUG eu.chargetime.ocpp.Queue - Queue size: 1, store time: 5.747 ms
+05:36:22.177 [main] DEBUG eu.chargetime.ocpp.Queue - Queue size: 0, store time: 9.422 μs
+05:36:22.179 [main] DEBUG eu.chargetime.ocpp.Queue - Queue size: 1, store time: 42.94 μs
+05:36:22.179 [main] DEBUG eu.chargetime.ocpp.Queue - Queue size: 1, store time: 2.489 μs
+05:36:22.180 [main] DEBUG eu.chargetime.ocpp.Queue - Queue size: 0, store time: 2.372 μs
+05:36:22.181 [main] DEBUG eu.chargetime.ocpp.Queue - Queue size: 1, store time: 41.62 μs
+05:36:22.181 [main] DEBUG eu.chargetime.ocpp.Queue - Queue size: 0, store time: 4.623 μs
+05:36:22.182 [main] DEBUG eu.chargetime.ocpp.Queue - Queue size: 0, store time: 2.301 μs
+05:36:22.182 [main] DEBUG eu.chargetime.ocpp.Queue - Queue size: 1, store time: 44.19 μs
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.172 sec
+Running eu.chargetime.ocpp.test.SessionTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 sec
+Running eu.chargetime.ocpp.test.ClientTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running eu.chargetime.ocpp.test.SimpleRequestDispatcherTest
+05:36:22.327 [main] WARN eu.chargetime.ocpp.SimplePromiseFulfiller - fulfillPromis() failed
+java.lang.RuntimeException: null
+	at eu.chargetime.ocpp.SimplePromiseFulfiller.fulfill(SimplePromiseFulfiller.java:41)
+	at eu.chargetime.ocpp.test.SimpleRequestDispatcherTest.fulfill_throwsException_completesWithException(SimpleRequestDispatcherTest.java:65)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.mockito.internal.runners.JUnit45AndHigherRunnerImpl.run(JUnit45AndHigherRunnerImpl.java:37)
+	at org.mockito.runners.MockitoJUnitRunner.run(MockitoJUnitRunner.java:62)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running eu.chargetime.ocpp.test.ServerTest
+05:36:22.362 [main] DEBUG eu.chargetime.ocpp.Server - Session created: c81256d5-9bf1-4f13-abbc-b71c92b72dda
+05:36:22.363 [main] DEBUG eu.chargetime.ocpp.Server - Session created: 8734c6be-0eb4-4ff7-91f6-e8b892a8fa66
+05:36:22.365 [main] DEBUG eu.chargetime.ocpp.Server - Session created: 22caee73-77d8-4e84-9929-7a086d787209
+05:36:22.368 [main] DEBUG eu.chargetime.ocpp.Server - Session created: 77046257-2f46-4c03-a875-a659be9b213d
+05:36:22.369 [main] DEBUG eu.chargetime.ocpp.Server - Session created: b7672818-6450-42bd-9c91-d6033643f5a2
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+Running eu.chargetime.ocpp.test.CommunicatorTest
+05:36:22.381 [main] WARN eu.chargetime.ocpp.Communicator - sendCall() failed: not connected
+05:36:22.382 [main] WARN eu.chargetime.ocpp.Communicator - sendCall() failed: not connected
+05:36:22.385 [Thread-1] WARN eu.chargetime.ocpp.Communicator - RetryRunner::run() failed
+eu.chargetime.ocpp.NotConnectedException: null
+	at eu.chargetime.ocpp.Communicator$RetryRunner.run(Communicator.java:333)
+05:36:22.485 [Thread-2] WARN eu.chargetime.ocpp.Communicator - RetryRunner::run() failed
+eu.chargetime.ocpp.NotConnectedException: null
+	at eu.chargetime.ocpp.Communicator$RetryRunner.run(Communicator.java:333)
+05:36:22.589 [main] WARN eu.chargetime.ocpp.Communicator - sendCall() failed: not connected
+05:36:22.592 [Thread-3] WARN eu.chargetime.ocpp.Communicator - RetryRunner::run() failed
+eu.chargetime.ocpp.NotConnectedException: null
+	at eu.chargetime.ocpp.Communicator$RetryRunner.run(Communicator.java:333)
+05:36:22.695 [main] WARN eu.chargetime.ocpp.Communicator - sendCall() failed: not connected
+05:36:23.801 [main] WARN eu.chargetime.ocpp.Communicator - sendCall() failed: not connected
+05:36:23.806 [main] WARN eu.chargetime.ocpp.Communicator - sendCall() failed: not connected
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.437 sec
+Running eu.chargetime.ocpp.utilities.test.MoreObjectsTest
+05:36:23.815 [Thread-6] WARN eu.chargetime.ocpp.Communicator - RetryRunner::run() failed
+eu.chargetime.ocpp.NotConnectedException: null
+	at eu.chargetime.ocpp.Communicator$RetryRunner.run(Communicator.java:333)
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+Running eu.chargetime.ocpp.utilities.test.ModelUtilTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.utilities.test.StopwatchTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+
+Results :
+
+Tests run: 95, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -----------------------< eu.chargetime.ocpp:all >-----------------------
+[INFO] Building Java-OCA-OCPP 0.5-SNAPSHOT                                [2/7]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (prepare-agent) @ all ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/Java-OCA-OCPP/target/jacoco.exec
+[INFO] 
+[INFO] ---------------------< eu.chargetime.ocpp:OCPP-J >----------------------
+[INFO] Building Java-OCA-OCPP OCPP-J 0.1-SNAPSHOT                         [3/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (prepare-agent) @ OCPP-J ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/Java-OCA-OCPP/OCPP-J/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ OCPP-J ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/Java-OCA-OCPP/OCPP-J/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ OCPP-J ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ OCPP-J ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/Java-OCA-OCPP/OCPP-J/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ OCPP-J ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ OCPP-J ---
+[INFO] Surefire report directory: /workdir/Java-OCA-OCPP/OCPP-J/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running eu.chargetime.ocpp.wss.test.BaseWssFactoryBuilderTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.internal.creation.cglib.ClassImposterizer (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to constructor javax.net.ssl.SSLContext(javax.net.ssl.SSLContextSpi,java.security.Provider,java.lang.String)
+WARNING: Please consider reporting this to the maintainers of org.mockito.internal.creation.cglib.ClassImposterizer
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.264 sec
+Running eu.chargetime.ocpp.wss.test.CustomSSLWebSocketServerFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.146 sec
+Running eu.chargetime.ocpp.wss.test.BaseWssSocketBuilderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+
+Results :
+
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------------------< eu.chargetime.ocpp:v1_6 >-----------------------
+[INFO] Building Java-OCA-OCPP v1.6 0.5-SNAPSHOT                           [4/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ v1_6 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ v1_6 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ v1_6 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/Java-OCA-OCPP/ocpp-v1_6/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ v1_6 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ v1_6 ---
+[INFO] Surefire report directory: /workdir/Java-OCA-OCPP/ocpp-v1_6/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running eu.chargetime.ocpp.feature.profile.test.ServerLocalAuthListProfileTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 sec
+Running eu.chargetime.ocpp.feature.profile.test.ServerFirmwareManagementProfileTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 sec
+Running eu.chargetime.ocpp.feature.profile.test.ServerSmartChargingProfileTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec
+Running eu.chargetime.ocpp.feature.profile.test.ClientCoreProfileTest
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.179 sec
+Running eu.chargetime.ocpp.feature.profile.test.ServerRemoteTriggerProfileTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running eu.chargetime.ocpp.feature.profile.test.ClientSmartChargingProfileTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running eu.chargetime.ocpp.feature.profile.test.ClientRemoteTriggerProfileTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running eu.chargetime.ocpp.feature.profile.test.ClientLocalAuthListProfileTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running eu.chargetime.ocpp.feature.profile.test.ServerCoreProfileTest
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running eu.chargetime.ocpp.feature.profile.test.ClientFirmwareManagementProfileTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running eu.chargetime.ocpp.feature.profile.test.ServerReservationProfileTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.feature.profile.test.ClientReservationProfileTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running eu.chargetime.ocpp.test.SOAPCommunicatorTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 15, Time elapsed: 0.01 sec
+Running eu.chargetime.ocpp.test.JSONCommunicatorTest
+05:36:26.336 [main] ERROR eu.chargetime.ocpp.Communicator - An error occurred. Sending this information: uniqueId null: action: null, errorCore: NotImplemented, errorDescription: Requested Action is not known by receiver
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 sec
+Running eu.chargetime.ocpp.test.TimeoutSessionTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running eu.chargetime.ocpp.model.localauthlist.test.SendLocalListConfirmationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running eu.chargetime.ocpp.model.localauthlist.test.GetLocalListVersionRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.localauthlist.test.SendLocalListRequestTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running eu.chargetime.ocpp.model.localauthlist.test.GetLocalListVersionConfirmationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running eu.chargetime.ocpp.model.smartcharging.ClearChargingProfileRequestTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.model.firmware.test.UpdateFirmwareRequestTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.firmware.test.GetDiagnosticsConfirmationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.chargetime.ocpp.model.firmware.test.FirmwareStatusNotificationConfirmationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.firmware.test.FirmwareStatusNotificationRequestTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.firmware.test.DiagnosticsStatusNotificationConfirmationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.firmware.test.UpdateFirmwareConfirmationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.firmware.test.GetDiagnosticsRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.firmware.test.DiagnosticsStatusNotificationRequestTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.DataTransferConfirmationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.ChangeConfigurationRequestTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.MeterValueTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.StopTransactionConfirmationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.AuthorizeRequestTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.TriggerMessageRequestTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.SampledValueTest
+Tests run: 69, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running eu.chargetime.ocpp.model.test.RemoteStartTransactionConfirmationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.model.test.DataTransferRequestTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.chargetime.ocpp.model.test.HeartbeatRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.model.test.StartTransactionRequestTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.chargetime.ocpp.model.test.StartTransactionConfirmationTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.chargetime.ocpp.model.test.SetChargingProfileRequestTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.ChangeConfigurationConfirmationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.GetCompositeScheduleRequestTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.BootNotificationRequestTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.chargetime.ocpp.model.test.GetConfigurationRequestTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.model.test.MeterValuesConfirmationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.SetChargingProfileConfirmationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.StopTransactionRequestTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running eu.chargetime.ocpp.model.test.StatusNotificationRequestTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.model.test.ChargingSchedulePeriodTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.TriggerMessageConfirmationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.ResetRequestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.ClearCacheRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.ChangeAvailabilityConfirmationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.ChargingProfileTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running eu.chargetime.ocpp.model.test.RemoteStartTransactionRequestTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running eu.chargetime.ocpp.model.test.IdTagInfoTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.MeterValuesRequestTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running eu.chargetime.ocpp.model.test.ChangeAvailabilityRequestTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.chargetime.ocpp.model.test.StatusNotificationConfirmationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.RemoteStopTransactionRequestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.BootNotificationConfirmationTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.KeyValueTypeTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running eu.chargetime.ocpp.model.test.UnlockConnectorRequestTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.model.test.UnlockConnectorConfirmationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running eu.chargetime.ocpp.model.test.ChargingScheduleTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running eu.chargetime.ocpp.model.test.ResetConfirmationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running eu.chargetime.ocpp.model.test.HeartbeatConfirmationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running eu.chargetime.ocpp.model.test.AuthorizeConfirmationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.model.test.RemoteStopTransactionConfirmationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.model.test.GetConfigurationConfirmationTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running eu.chargetime.ocpp.model.test.ClearCacheConfirmationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running eu.chargetime.ocpp.model.reservation.test.ReserveNowConfirmationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.model.reservation.test.CancelReservationConfirmationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running eu.chargetime.ocpp.model.reservation.test.CancelReservationRequestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running eu.chargetime.ocpp.model.reservation.test.ReserveNowRequestTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 529, Failures: 0, Errors: 0, Skipped: 15
+
+[INFO] 
+[INFO] --------------------< eu.chargetime.ocpp:v1_6-test >--------------------
+[INFO] Building Java-OCA-OCPP v1.6 - Integration test 0.5-SNAPSHOT        [5/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.6:addTestSources (default) @ v1_6-test ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ v1_6-test ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/Java-OCA-OCPP/ocpp-v1_6-test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ v1_6-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ v1_6-test ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/Java-OCA-OCPP/ocpp-v1_6-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ v1_6-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.6:compileTests (default) @ v1_6-test ---
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass$3$1 (file:/home/maven/.m2/repository/org/codehaus/groovy/groovy-all/2.4.1/groovy-all-2.4.1.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass$3$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Using Groovy 2.4.1 to perform compileTests.
+[INFO] Compiled 137 files.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ v1_6-test ---
+[INFO] 
+[INFO] ----------------------< eu.chargetime.ocpp:v2_0 >-----------------------
+[INFO] Building Java-OCA-OCPP v2.0 0.1-SNAPSHOT                           [6/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (prepare-agent) @ v2_0 ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/Java-OCA-OCPP/ocpp-v2_0/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ v2_0 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/Java-OCA-OCPP/ocpp-v2_0/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ v2_0 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ v2_0 ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/Java-OCA-OCPP/ocpp-v2_0/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ v2_0 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ v2_0 ---
+[INFO] Surefire report directory: /workdir/Java-OCA-OCPP/ocpp-v2_0/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running eu.chargetime.ocpp.model.basic.types.ComponentTypeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec
+Running eu.chargetime.ocpp.model.basic.types.test.SetVariableDataTypeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running eu.chargetime.ocpp.model.basic.types.test.GetVariableResultTypeTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.178 sec
+Running eu.chargetime.ocpp.model.basic.types.test.ChargingStationTypeTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running eu.chargetime.ocpp.model.basic.types.test.VariableTypeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running eu.chargetime.ocpp.model.basic.SetVariablesConfirmationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running eu.chargetime.ocpp.model.basic.test.BootNotificationRequestTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running eu.chargetime.ocpp.model.basic.test.SetVariablesRequestTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running eu.chargetime.ocpp.model.basic.test.BootNotificationConfirmationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running eu.chargetime.ocpp.model.validation.test.IdentifierStringValidationRuleTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+
+Results :
+
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --------------------< eu.chargetime.ocpp:v2_0-test >--------------------
+[INFO] Building Java-OCA-OCPP v2.0 - Integration test 0.1-SNAPSHOT        [7/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.6:addTestSources (default) @ v2_0-test ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (prepare-agent) @ v2_0-test ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/Java-OCA-OCPP/ocpp-v2_0-test/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ v2_0-test ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/Java-OCA-OCPP/ocpp-v2_0-test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ v2_0-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ v2_0-test ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/Java-OCA-OCPP/ocpp-v2_0-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ v2_0-test ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- gmavenplus-plugin:1.6:compileTests (default) @ v2_0-test ---
+[INFO] Using Groovy 2.4.1 to perform compileTests.
+[INFO] Compiled 10 files.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20.1:test (default-test) @ v2_0-test ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Java-OCA-OCPP common 0.5-SNAPSHOT .................. SUCCESS [  3.367 s]
+[INFO] Java-OCA-OCPP 0.5-SNAPSHOT ......................... SUCCESS [  0.455 s]
+[INFO] Java-OCA-OCPP OCPP-J 0.1-SNAPSHOT .................. SUCCESS [  0.955 s]
+[INFO] Java-OCA-OCPP v1.6 0.5-SNAPSHOT .................... SUCCESS [  1.245 s]
+[INFO] Java-OCA-OCPP v1.6 - Integration test 0.5-SNAPSHOT . SUCCESS [  2.173 s]
+[INFO] Java-OCA-OCPP v2.0 0.1-SNAPSHOT .................... SUCCESS [  0.833 s]
+[INFO] Java-OCA-OCPP v2.0 - Integration test 0.1-SNAPSHOT . SUCCESS [  0.353 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.476 s
+[INFO] Finished at: 2021-02-15T05:36:29Z
+[INFO] ------------------------------------------------------------------------

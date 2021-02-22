@@ -1,0 +1,611 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.jnape.palatable:lambda >---------------------
+[INFO] Building Lambda 5.2.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ lambda ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ lambda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/lambda/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ lambda ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ lambda ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/lambda/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ lambda ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ lambda ---
+[INFO] Surefire report directory: /workdir/lambda/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.jnape.palatable.lambda.monad.SafeTTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.495 sec
+Running com.jnape.palatable.lambda.monad.transformer.builtin.WriterTTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.118 sec
+Running com.jnape.palatable.lambda.monad.transformer.builtin.LazyTTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec
+Running com.jnape.palatable.lambda.monad.transformer.builtin.EitherTTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 sec
+Running com.jnape.palatable.lambda.monad.transformer.builtin.ReaderTTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+Running com.jnape.palatable.lambda.monad.transformer.builtin.IdentityTTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
+Running com.jnape.palatable.lambda.monad.transformer.builtin.StateTTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 sec
+Running com.jnape.palatable.lambda.monad.transformer.builtin.IterateTTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.467 sec
+Running com.jnape.palatable.lambda.monad.transformer.builtin.MaybeTTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.MinTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.ComposeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.MinByTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.RightAllTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.CollapseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.LeftAnyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.MergeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.MaxTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.MaxByTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.RightAnyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.RunAllTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.MaxWithTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.IntersectionTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.EndoTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.AbsentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.MinWithTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.jnape.palatable.lambda.semigroup.builtin.LeftAllTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.semigroup.SemigroupTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.jnape.palatable.lambda.functor.builtin.ComposeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functor.builtin.TaggedTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+Running com.jnape.palatable.lambda.functor.builtin.WriterTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec
+Running com.jnape.palatable.lambda.functor.builtin.MarketTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+Running com.jnape.palatable.lambda.functor.builtin.LazyTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec
+Running com.jnape.palatable.lambda.functor.builtin.StateTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
+Running com.jnape.palatable.lambda.functor.builtin.ConstTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functor.builtin.IdentityTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.jnape.palatable.lambda.functor.BifunctorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functor.ProfunctorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.internal.iteration.PredicatedDroppingIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+Running com.jnape.palatable.lambda.internal.iteration.PrependingIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.internal.iteration.CombinatorialIteratorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running com.jnape.palatable.lambda.internal.iteration.CyclicIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.internal.iteration.ScanningIteratorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.internal.iteration.PredicatedTakingIteratorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.internal.iteration.FlatteningIteratorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.jnape.palatable.lambda.internal.iteration.InfiniteIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.internal.iteration.RewindableIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.internal.iteration.PredicatedTakingIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec
+Running com.jnape.palatable.lambda.internal.iteration.MappingIteratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.internal.iteration.TrampoliningIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.jnape.palatable.lambda.internal.iteration.DroppingIteratorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.jnape.palatable.lambda.internal.iteration.FilteringIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running com.jnape.palatable.lambda.internal.iteration.FilteringIteratorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.internal.iteration.DroppingIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.internal.iteration.TakingIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.internal.iteration.GroupingIteratorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.internal.iteration.PredicatedDroppingIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.jnape.palatable.lambda.internal.iteration.MappingIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+Running com.jnape.palatable.lambda.internal.iteration.SnocIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running com.jnape.palatable.lambda.internal.iteration.InitIteratorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.internal.iteration.RepetitiousIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.internal.iteration.ReversingIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.internal.iteration.ReversingIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.jnape.palatable.lambda.internal.iteration.UnfoldingIteratorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.internal.iteration.ConsingIteratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
+Running com.jnape.palatable.lambda.internal.iteration.TakingIteratorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.internal.iteration.ConcatenatingIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running com.jnape.palatable.lambda.internal.iteration.DistinctIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.internal.iteration.ZippingIteratorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 sec
+Running com.jnape.palatable.lambda.internal.iteration.ImmutableIteratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.internal.iteration.SnocIteratorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.internal.iteration.CyclicIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.internal.iteration.UnioningIterableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running com.jnape.palatable.lambda.matchers.StateMatcherTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.matchers.StateTMatcherTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.optics.LensTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running com.jnape.palatable.lambda.optics.IsoTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running com.jnape.palatable.lambda.optics.PrismTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.191 sec
+Running com.jnape.palatable.lambda.optics.lenses.IterableLensTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.jnape.palatable.lambda.optics.lenses.ListLensTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.jnape.palatable.lambda.optics.lenses.MaybeLensTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.jnape.palatable.lambda.optics.lenses.HMapLensTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.jnape.palatable.lambda.optics.lenses.SetLensTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.jnape.palatable.lambda.optics.lenses.EitherLensTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.optics.lenses.CollectionLensTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.jnape.palatable.lambda.optics.lenses.HListLensTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.jnape.palatable.lambda.optics.lenses.MapLensTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.031 sec
+Running com.jnape.palatable.lambda.optics.OpticTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.optics.prisms.MaybePrismTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.optics.prisms.UUIDPrismTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.jnape.palatable.lambda.optics.prisms.MapPrismTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.optics.prisms.EitherPrismTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.optics.functions.ReTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.optics.functions.PreTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.optics.functions.SetTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.optics.functions.OverTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.optics.functions.ViewTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.optics.functions.UnderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.adt.TheseTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.132 sec
+Running com.jnape.palatable.lambda.adt.EitherTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+Running com.jnape.palatable.lambda.adt.coproduct.CoProduct4Test
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running com.jnape.palatable.lambda.adt.coproduct.CoProduct7Test
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+Running com.jnape.palatable.lambda.adt.coproduct.CoProduct6Test
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Running com.jnape.palatable.lambda.adt.coproduct.CoProduct3Test
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.jnape.palatable.lambda.adt.coproduct.CoProduct2Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.adt.coproduct.CoProduct5Test
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running com.jnape.palatable.lambda.adt.coproduct.CoProduct8Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec
+Running com.jnape.palatable.lambda.adt.hlist.Tuple8Test
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.161 sec
+Running com.jnape.palatable.lambda.adt.hlist.Tuple4Test
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.076 sec
+Running com.jnape.palatable.lambda.adt.hlist.Tuple6Test
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.084 sec
+Running com.jnape.palatable.lambda.adt.hlist.Tuple7Test
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec
+Running com.jnape.palatable.lambda.adt.hlist.Tuple2Test
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+Running com.jnape.palatable.lambda.adt.hlist.Tuple5Test
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running com.jnape.palatable.lambda.adt.hlist.Tuple3Test
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Running com.jnape.palatable.lambda.adt.hlist.SingletonHListTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.jnape.palatable.lambda.adt.hlist.IndexTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.adt.hlist.HListTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.adt.choice.Choice4Test
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+Running com.jnape.palatable.lambda.adt.choice.Choice8Test
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.09 sec
+Running com.jnape.palatable.lambda.adt.choice.Choice3Test
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
+Running com.jnape.palatable.lambda.adt.choice.Choice2Test
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running com.jnape.palatable.lambda.adt.choice.Choice6Test
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec
+Running com.jnape.palatable.lambda.adt.choice.Choice5Test
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec
+Running com.jnape.palatable.lambda.adt.choice.Choice7Test
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.094 sec
+Running com.jnape.palatable.lambda.adt.product.Product2Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.adt.product.Product4Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.jnape.palatable.lambda.adt.product.Product7Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running com.jnape.palatable.lambda.adt.product.Product6Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running com.jnape.palatable.lambda.adt.product.Product3Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.jnape.palatable.lambda.adt.product.Product8Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running com.jnape.palatable.lambda.adt.product.Product5Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.jnape.palatable.lambda.adt.hmap.SchemaTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running com.jnape.palatable.lambda.adt.hmap.TypeSafeKeyTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.adt.hmap.SimpleTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.adt.hmap.HMapTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.jnape.palatable.lambda.adt.MaybeTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running com.jnape.palatable.lambda.adt.TryTest
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running com.jnape.palatable.lambda.monoid.builtin.ComposeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.monoid.builtin.RightAllTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.monoid.builtin.CollapseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.monoid.builtin.LeftAnyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.monoid.builtin.AndTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.monoid.builtin.MergeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.monoid.builtin.FirstTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.monoid.builtin.PutAllTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.monoid.builtin.LastTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.monoid.builtin.MergeHMapsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.jnape.palatable.lambda.monoid.builtin.TrivialTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.monoid.builtin.RightAnyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.monoid.builtin.PresentTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.monoid.builtin.JoinTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.monoid.builtin.UnionTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.jnape.palatable.lambda.monoid.builtin.RunAllTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.monoid.builtin.EndoKTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 sec
+Running com.jnape.palatable.lambda.monoid.builtin.XorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.monoid.builtin.ConcatTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.monoid.builtin.AddAllTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.monoid.builtin.OrTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.monoid.builtin.LeftAllTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.monoid.builtin.MergeMapsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.monoid.MonoidTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.io.IOTest
+Tests run: 36, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.087 sec
+Running com.jnape.palatable.lambda.functions.specialized.KleisliTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.specialized.SideEffectTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.specialized.PureTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.specialized.BiPredicateTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.jnape.palatable.lambda.functions.specialized.PredicateTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.IntersperseTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.UntilTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.Tupler2Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.SortWithTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.Into7Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.Into6Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.ToCollectionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.AllTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.InGroupsOfTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.EqTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.PartitionTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.PrependAllTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.TakeTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.BothTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.Into5Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.DropWhileTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.SortByTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.AutoBracketTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.GTETest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.CartesianProductTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.IntoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.DropTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.ConsTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.ReduceRightTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.GroupByTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.AnyTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.GTTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.ReduceLeftTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.IterateTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.608 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.LTETest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.MapTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.TakeWhileTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.LTTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.ToArrayTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.FilterTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.SpanTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.Into3Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.Into4Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.SequenceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.ToMapTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.FindTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.MagnetizeByTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.254 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.Into1Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.Into8Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.LazyRecTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.CmpEqTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.ReplicateTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.DifferenceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.SnocTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.AlterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.SlideTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.223 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.UnfoldrTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.553 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn2.ZipTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.FlattenTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.HeadTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.MagnetizeTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.RepeatTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.LastTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.ReverseTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.IdTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.SortTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.CatMaybesTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.InitsTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.UpcastTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.ConstantlyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.DowncastTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.EmptyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.SizeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.TailsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.InitTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.DistinctTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.TailTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.UnconsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.CycleTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.CoalesceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.OccurrencesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn1.NotTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn5.LiftA4Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn6.LiftA5Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn4.LiftA3Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn4.IfThenElseTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn4.RateLimitTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn8.LiftA7Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn7.LiftA6Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.ClampTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.GTWithTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.ScanLeftTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.FoldLeftTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.CmpEqByTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.TimesTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.GTEWithTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.GTByTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.LTEByTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.CompareTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.LiftA2Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.BetweenTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.BracketTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.LTWithTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.LTByTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.LTEWithTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.CmpEqWithTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.ZipWithTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.FoldRightTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.095 sec
+Running com.jnape.palatable.lambda.functions.builtin.fn3.GTEByTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.jnape.palatable.lambda.functions.ordering.ComparisonRelationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.functions.Fn3Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.jnape.palatable.lambda.functions.Fn0Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.jnape.palatable.lambda.functions.Fn4Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.jnape.palatable.lambda.functions.Fn1Test
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running com.jnape.palatable.lambda.functions.EffectTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.jnape.palatable.lambda.functions.Fn5Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.jnape.palatable.lambda.functions.Fn6Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running com.jnape.palatable.lambda.functions.Fn2Test
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.jnape.palatable.lambda.functions.Fn8Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running com.jnape.palatable.lambda.functions.recursion.TrampolineTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 sec
+Running com.jnape.palatable.lambda.functions.recursion.RecursiveResultTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+Running com.jnape.palatable.lambda.functions.Fn7Test
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running com.jnape.palatable.lambda.traversable.LambdaMapTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.jnape.palatable.lambda.traversable.LambdaIterableTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.427 sec
+Running com.jnape.palatable.lambda.traversable.TraversableTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 1266, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.100 s
+[INFO] Finished at: 2021-02-14T22:14:18Z
+[INFO] ------------------------------------------------------------------------

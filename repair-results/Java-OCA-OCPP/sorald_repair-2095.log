@@ -5,7 +5,7 @@ INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  391 source files to be analyzed
 INFO  391/391 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=5066ms
+INFO  Java Main Files AST scan (done) | time=5208ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms

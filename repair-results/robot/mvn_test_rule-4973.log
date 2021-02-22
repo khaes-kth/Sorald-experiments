@@ -1,0 +1,288 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] robot                                                              [pom]
+[INFO] robot-maven-plugin                                        [maven-plugin]
+[INFO] robot-core                                                         [jar]
+[INFO] robot-command                                                      [jar]
+[INFO] 
+[INFO] ---------------------< org.obolibrary.robot:robot >---------------------
+[INFO] Building robot 1.8.0-SNAPSHOT                                      [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --------------< org.obolibrary.robot:robot-maven-plugin >---------------
+[INFO] Building robot-maven-plugin 1.8.0-SNAPSHOT                         [2/4]
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.1.0:format (default) @ robot-maven-plugin ---
+[warn] Test source directory '/workdir/robot/robot-maven-plugin/src/test/java' does not exist, ignoring.
+[INFO] Processed 1 files (0 reformatted).
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ robot-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/robot/robot-maven-plugin/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ robot-maven-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.3:descriptor (default-descriptor) @ robot-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo metadata.
+[INFO] Applying mojo extractor for language: java
+[INFO] Mojo extractor for language: java found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: bsh
+[INFO] Mojo extractor for language: bsh found 0 mojo descriptors.
+[INFO] Applying mojo extractor for language: java-annotations
+[INFO] Mojo extractor for language: java-annotations found 1 mojo descriptors.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ robot-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/robot/robot-maven-plugin/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ robot-maven-plugin ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ robot-maven-plugin ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< org.obolibrary.robot:robot-core >-------------------
+[INFO] Building robot-core 1.8.0-SNAPSHOT                                 [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.1.0:format (default) @ robot-core ---
+[INFO] Processed 91 files (1 reformatted).
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ robot-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 32 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ robot-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 64 source files to /workdir/robot/robot-core/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ robot-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 93 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ robot-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ robot-core ---
+[INFO] Surefire report directory: /workdir/robot/robot-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.obolibrary.robot.RepairOperationTest
+Ontologies are identical
+
+Ontologies are identical
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.194 sec
+Running org.obolibrary.robot.MireotOperationTest
+Ontologies are identical
+
+Ontologies are identical
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.475 sec
+Running org.obolibrary.robot.MergeOperationTest
+Ontologies are identical
+
+Ontologies are identical
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running org.obolibrary.robot.OntologyHelperTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.091 sec
+Running org.obolibrary.robot.QuotedEntityCheckerTest
+PARSER
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running org.obolibrary.robot.ExtractOperationTest
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.076 sec
+Running org.obolibrary.robot.ExportOperationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.298 sec
+Running org.obolibrary.robot.DiffOperationTest
+Ontologies are identical
+
+0 axioms in left ontology but not in right ontology:
+
+1 axioms in right ontology but not in left ontology:
++ SubClassOf(<https://github.com/ontodev/robot/robot-core/src/test/resources/simple.owl#test1>[Test 1] <owl:Thing>)
+
+1 axioms in left ontology but not in right ontology:
+- OntologyID(OntologyIRI(<https://github.com/ontodev/robot/robot-core/src/test/resources/simple.owl>) VersionIRI(<null>))
+
+2 axioms in right ontology but not in left ontology:
++ AnnotationAssertion(rdfs:label <https://github.com/ontodev/robot/robot-core/src/test/resources/simple.owl#test1> "TEST #1"^^xsd:string)
++ OntologyID(OntologyIRI(<https://github.com/ontodev/robot/robot-core/src/test/resources/simple1.owl>) VersionIRI(<null>))
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+Running org.obolibrary.robot.ReduceOperationTest
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.534 sec
+Running org.obolibrary.robot.TemplateTest
+Ontologies are identical
+
+Ontologies are identical
+
+Ontologies are identical
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec
+Running org.obolibrary.robot.ValidateOperationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.894 sec
+Running org.obolibrary.robot.MaterializeOperationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.237 sec
+Running org.obolibrary.robot.RelatedObjectsHelperTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.obolibrary.robot.RelaxOperationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running org.obolibrary.robot.ReasonOperationTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.623 sec
+Running org.obolibrary.robot.QueryOperationTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.614 sec
+Running org.obolibrary.robot.ReasonerHelperTest
+ERROR There are 1 unsatisfiable properties in the ontology.
+ERROR     unsatisfiable property: http://x.org/Q
+ERROR There are 1 unsatisfiable classes in the ontology.
+ERROR     unsatisfiable: http://x.org/D
+ERROR The ontology is inconsistent. TIP: use a tool like Protege to find explanations
+ERROR There are 1 unsatisfiable classes in the ontology.
+ERROR     unsatisfiable: http://x.org/D
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 sec
+Running org.obolibrary.robot.CURIEShortFormProviderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.obolibrary.robot.MirrorOperationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.obolibrary.robot.FilterOperationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running org.obolibrary.robot.TemplateHelperTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec
+Running org.obolibrary.robot.RenameOperationTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.obolibrary.robot.IOHelperTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.126 sec
+Running org.obolibrary.robot.reason.EquivalentClassReasoningModeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.obolibrary.robot.reason.EquivalentClassReasoningTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec
+Running org.obolibrary.robot.UnmergeOperationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+
+Results :
+
+Tests run: 125, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -----------------< org.obolibrary.robot:robot-command >-----------------
+[INFO] Building robot-command 1.8.0-SNAPSHOT                              [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- fmt-maven-plugin:2.1.0:format (default) @ robot-command ---
+[INFO] Processed 37 files (0 reformatted).
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ robot-command ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ robot-command ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ robot-command ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/robot/robot-command/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ robot-command ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ robot-command ---
+[INFO] Surefire report directory: /workdir/robot/robot-command/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.obolibrary.robot.CommandLineHelperTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 sec
+Running org.obolibrary.robot.CommandManagerTest
+usage: robot [command] [options] <arguments>
+    --add-prefix <arg>      add prefix 'foo: http://bar' to the output
+    --add-prefixes <arg>    add JSON-LD prefixes to the output
+    --catalog <arg>         use catalog from provided file
+ -h,--help                  print usage information
+ -noprefixes                do not use default prefixes
+ -p,--prefix <arg>          add a prefix 'foo: http://bar'
+ -P,--prefixes <arg>        use prefixes from JSON-LD file
+ -V,--version               print version information
+ -v,--verbose               increased logging
+ -vv,--very-verbose         high logging
+ -vvv,--very-very-verbose   maximum logging, including stack traces
+ -x,--xml-entities          use entity substitution with ontology XML
+                            output
+usage: robot [command] [options] <arguments>
+    --add-prefix <arg>      add prefix 'foo: http://bar' to the output
+    --add-prefixes <arg>    add JSON-LD prefixes to the output
+    --catalog <arg>         use catalog from provided file
+ -h,--help                  print usage information
+ -noprefixes                do not use default prefixes
+ -p,--prefix <arg>          add a prefix 'foo: http://bar'
+ -P,--prefixes <arg>        use prefixes from JSON-LD file
+ -V,--version               print version information
+ -v,--verbose               increased logging
+ -vv,--very-verbose         high logging
+ -vvv,--very-very-verbose   maximum logging, including stack traces
+ -x,--xml-entities          use entity substitution with ontology XML
+                            output
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for robot 1.8.0-SNAPSHOT:
+[INFO] 
+[INFO] robot .............................................. SUCCESS [  0.003 s]
+[INFO] robot-maven-plugin ................................. SUCCESS [  2.289 s]
+[INFO] robot-core ......................................... SUCCESS [ 11.449 s]
+[INFO] robot-command ...................................... SUCCESS [  0.796 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.626 s
+[INFO] Finished at: 2021-02-15T01:46:59Z
+[INFO] ------------------------------------------------------------------------

@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 39,
@@ -32,10 +31,11 @@
                 "violationSpecifier": "2095:xchart-demo/src/main/java/org/knowm/xchart/demo/DemoChartsUtil.java:116:35:116:59"
             }
         ],
+        "nbViolationsBefore": 3,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 16222,
-    "repairTimeMs": 375,
-    "startTimeMs": 1612800361610,
+    "totalTimeMs": 16508,
+    "repairTimeMs": 415,
+    "startTimeMs": 1613322216204,
     "crashes": [],
-    "endTimeMs": 1612800377832,
-    "parseTimeMs": 3247
+    "endTimeMs": 1613322232712,
+    "parseTimeMs": 3460
 }

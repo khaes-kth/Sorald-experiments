@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 4,
         "performedRepairsLocations": [
             {
                 "endLine": 111,
@@ -32,10 +31,11 @@
                 "violationSpecifier": "2095:src/main/java/co/aikar/timings/TimingsExport.java:240:32:240:56"
             }
         ],
+        "nbViolationsBefore": 4,
         "nbViolationsAfter": 2
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 42100,
-    "repairTimeMs": 1073,
-    "startTimeMs": 1612817461460,
+    "totalTimeMs": 42957,
+    "repairTimeMs": 965,
+    "startTimeMs": 1613376866755,
     "crashes": [],
-    "endTimeMs": 1612817503560,
-    "parseTimeMs": 7954
+    "endTimeMs": 1613376909712,
+    "parseTimeMs": 8329
 }

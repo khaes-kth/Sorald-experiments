@@ -1,0 +1,294 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[WARNING] The project co.nstant.in:cbor:jar:0.9 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] -------------------------< co.nstant.in:cbor >--------------------------
+[INFO] Building CBOR for Java 0.9
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (prepare-agent) @ cbor ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/workdir/cbor-java/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ cbor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/cbor-java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ cbor ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ cbor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/cbor-java/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ cbor ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ cbor ---
+[INFO] Surefire report directory: /workdir/cbor-java/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running co.nstant.in.cbor.EncoderDecoderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 sec
+Running co.nstant.in.cbor.CborExceptionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.decoder.AbstractDecoderTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running co.nstant.in.cbor.decoder.SimpleValueDecoderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running co.nstant.in.cbor.decoder.MapDecoderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running co.nstant.in.cbor.decoder.LanguageTaggedStringDecoderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running co.nstant.in.cbor.decoder.SpecialDecoderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.decoder.UnsignedIntegerDecoderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running co.nstant.in.cbor.decoder.ByteStringDecoderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running co.nstant.in.cbor.decoder.ArrayDecoderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.decoder.UnicodeStringDecoderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.decoder.CborDecoderTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running co.nstant.in.cbor.encoder.ByteStringEncoderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.encoder.UnicodeStringEncoderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running co.nstant.in.cbor.encoder.AbstractEncoderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.encoder.SpecialEncoderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running co.nstant.in.cbor.encoder.RationalNumberEncoderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.encoder.MapEncoderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running co.nstant.in.cbor.builder.AbstractBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.builder.MapBuilderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.builder.ArrayBuilderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.CborEncoderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.DatemItemListenerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running co.nstant.in.cbor.CborBuilderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running co.nstant.in.cbor.examples.Example02Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example11Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example71Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example31Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running co.nstant.in.cbor.examples.Example63Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example39Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example52Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.examples.Example40Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running co.nstant.in.cbor.examples.Example07Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example74Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.examples.Example53Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example28Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example34Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example29Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example05Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example23Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example20Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example82Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example22Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running co.nstant.in.cbor.examples.Example41Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running co.nstant.in.cbor.examples.Example78Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example49Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example37Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example45Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example57Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example04Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example51Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example73Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running co.nstant.in.cbor.examples.Example66Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running co.nstant.in.cbor.examples.Example80Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.examples.Example55Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example59Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example08Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example83Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.examples.Example13Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example38Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example14Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example10Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running co.nstant.in.cbor.examples.Example69Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.examples.Example48Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example77Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.examples.Example72Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example44Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running co.nstant.in.cbor.examples.Example58Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example30Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example19Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example65Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.examples.Example16Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example18Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example21Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example27Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example06Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example79Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example68Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example12Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example75Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example60Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.examples.Example43Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example32Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example81Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example70Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example17Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example42Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example33Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example62Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.examples.Example47Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example35Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example67Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running co.nstant.in.cbor.examples.Example46Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example76Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example15Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example24Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example50Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example01Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example26Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example25Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example36Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example56Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.examples.Example64Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.examples.Example61Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.examples.Example03Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running co.nstant.in.cbor.examples.Example09Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running co.nstant.in.cbor.examples.Example54Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.model.SpecialTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.model.ArrayTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.model.TagTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running co.nstant.in.cbor.model.LanguageTaggedStringTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.model.DataItemTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.model.MajorTypeTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running co.nstant.in.cbor.model.DoublePrecisionFloatTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running co.nstant.in.cbor.model.RationalNumberTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.model.UnicodeStringTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.model.MapTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.model.SpecialTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.model.AbstractFloatTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running co.nstant.in.cbor.model.ByteStringTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.model.SimpleValueTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running co.nstant.in.cbor.model.ChunkableDataItemTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running co.nstant.in.cbor.model.NegativeIntegerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.206 sec
+Running co.nstant.in.cbor.model.UnsignedIntegerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.102 sec
+Running co.nstant.in.cbor.model.AdditionalInformationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 318, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.446 s
+[INFO] Finished at: 2021-02-15T00:42:42Z
+[INFO] ------------------------------------------------------------------------

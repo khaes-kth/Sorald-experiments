@@ -1,0 +1,152 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------< me.escoffier.vertx:vertx-completable-future >-------------
+[INFO] Building Vert.x Completable Future 0.1.3-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ vertx-completable-future ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/vertx-completable-future/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ vertx-completable-future ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ vertx-completable-future ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/vertx-completable-future/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ vertx-completable-future ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ vertx-completable-future ---
+[INFO] Surefire report directory: /workdir/vertx-completable-future/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running me.escoffier.vertx.completablefuture.VertxCompletableFutureTest
+16
+22
+*** Iteration 1/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 2/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 3/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 4/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 5/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 6/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 7/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 8/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 9/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 10/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 11/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 12/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 13/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 14/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 15/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 16/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 17/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 18/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 19/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 20/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 21/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 22/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 23/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 24/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 25/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 26/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 27/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 28/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 29/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 30/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 31/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 32/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 33/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 34/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 35/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 36/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 37/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 38/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 39/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 40/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 41/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 42/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 43/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 44/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 45/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 46/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 47/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 48/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 49/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 50/50 of test testApplyEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+1764
+me.escoffier.vertx.completablefuture.VertxCompletableFuture@3dbd6625[Not completed]
+*** Iteration 1/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 2/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 3/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 4/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 5/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 6/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 7/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 8/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 9/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 10/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 11/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 12/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 13/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 14/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 15/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 16/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 17/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 18/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 19/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 20/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 21/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 22/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 23/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 24/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 25/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 26/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 27/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 28/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 29/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 30/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 31/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 32/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 33/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 34/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 35/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 36/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 37/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 38/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 39/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 40/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 41/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 42/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 43/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 44/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 45/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 46/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 47/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 48/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 49/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+*** Iteration 50/50 of test testAcceptEitherAsyncWithExecutor(me.escoffier.vertx.completablefuture.VertxCompletableFutureTest)
+Tests run: 51, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.204 sec
+Running me.escoffier.vertx.completablefuture.SupplyAndRunAsyncTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running me.escoffier.vertx.completablefuture.CompletableFutureOperatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 sec
+Running me.escoffier.vertx.completablefuture.examples.HttpClientTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.357 sec
+
+Results :
+
+Tests run: 61, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  30.023 s
+[INFO] Finished at: 2021-02-15T05:48:28Z
+[INFO] ------------------------------------------------------------------------

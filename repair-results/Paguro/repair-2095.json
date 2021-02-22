@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 107,
@@ -23,11 +24,10 @@
                 "violationSpecifier": "2095:tupleGenerator/TupleGenerator.java:323:24:324:51"
             }
         ],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 16320,
-    "repairTimeMs": 443,
-    "startTimeMs": 1612809057430,
+    "totalTimeMs": 17649,
+    "repairTimeMs": 488,
+    "startTimeMs": 1613346894060,
     "crashes": [],
-    "endTimeMs": 1612809073750,
-    "parseTimeMs": 4055
+    "endTimeMs": 1613346911709,
+    "parseTimeMs": 4600
 }

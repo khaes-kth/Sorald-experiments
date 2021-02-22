@@ -6,16 +6,16 @@ INFO  Java Main Files AST scan
 INFO  321 source files to be analyzed
 INFO  59/321 files analyzed, current file: src/main/java/com/esri/core/geometry/TopologicalOperations.java
 INFO  147/321 files analyzed, current file: src/main/java/com/esri/core/geometry/Clusterer.java
-INFO  238/321 files analyzed, current file: src/main/java/com/esri/core/geometry/OperatorIntersectionCursor.java
+INFO  241/321 files analyzed, current file: src/main/java/com/esri/core/geometry/SweepComparator.java
 INFO  321/321 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=38197ms
+INFO  Java Main Files AST scan (done) | time=37894ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 11
@@ -28,14 +28,14 @@ INFO  Java Main Files AST scan
 INFO  321 source files to be analyzed
 INFO  87/321 files analyzed, current file: src/main/java/com/esri/core/geometry/TopoGraph.java
 INFO  202/321 files analyzed, current file: src/main/java/com/esri/core/geometry/Bufferer.java
-INFO  314/321 files analyzed, current file: src/main/java/com/esri/core/geometry/OperatorGeneralizeCursor.java
-INFO  Java Main Files AST scan (done) | time=30550ms
+INFO  280/321 files analyzed, current file: src/main/java/com/esri/core/geometry/OperatorImportFromWkbLocal.java
+INFO  Java Main Files AST scan (done) | time=31943ms
 INFO  Java Test Files AST scan
 INFO  321/321 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=1ms
+INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
 INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed

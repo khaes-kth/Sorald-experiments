@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 138,
             "endColumn": 56,
@@ -13,11 +14,10 @@
             "filePath": "src/main/java/io/github/hapjava/characteristics/impl/base/BaseCharacteristic.java",
             "violationSpecifier": "2142:src/main/java/io/github/hapjava/characteristics/impl/base/BaseCharacteristic.java:138:13:138:56"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5946,
-    "repairTimeMs": 249,
-    "startTimeMs": 1612810806069,
+    "totalTimeMs": 6266,
+    "repairTimeMs": 239,
+    "startTimeMs": 1613352799017,
     "crashes": [],
-    "endTimeMs": 1612810812015,
-    "parseTimeMs": 2158
+    "endTimeMs": 1613352805283,
+    "parseTimeMs": 2310
 }

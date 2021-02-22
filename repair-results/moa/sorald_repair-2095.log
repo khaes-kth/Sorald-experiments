@@ -5,25 +5,25 @@ WARN  Invalid character encountered in file fromString at line 5 for encoding UT
 WARN  Invalid character encountered in file fromString at line 11 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
 WARN  Invalid character encountered in file fromString at line 5 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=17ms
+INFO  JavaClasspath initialization (done) | time=16ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  861 source files to be analyzed
-INFO  167/861 files analyzed, current file: moa/src/main/java/moa/tasks/WriteStreamToARFFFile.java
-INFO  362/861 files analyzed, current file: moa/src/main/java/moa/classifiers/lazy/neighboursearch/NormalizableDistance.java
-INFO  496/861 files analyzed, current file: moa/src/main/java/moa/classifiers/trees/EFDT.java
-INFO  636/861 files analyzed, current file: moa/src/main/java/moa/clusterers/outliers/utils/mtree/MTree.java
-INFO  766/861 files analyzed, current file: moa/src/main/java/moa/gui/experimentertab/SummaryTab.java
+INFO  159/861 files analyzed, current file: moa/src/main/java/moa/tasks/meta/ALPrequentialEvaluationTask.java
+INFO  308/861 files analyzed, current file: moa/src/main/java/moa/classifiers/rules/multilabel/core/LearningLiteralRegression.java
+INFO  487/861 files analyzed, current file: moa/src/main/java/moa/classifiers/trees/ARFFIMTDD.java
+INFO  599/861 files analyzed, current file: moa/src/main/java/moa/clusterers/outliers/MCOD/MCODBase.java
+INFO  758/861 files analyzed, current file: moa/src/main/java/moa/gui/experimentertab/Summary.java
 INFO  861/861 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=55877ms
+INFO  Java Main Files AST scan (done) | time=58619ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=2ms
 INFO  Java Generated Files AST scan
 INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan (done) | time=3ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 59
@@ -74,11 +74,11 @@ ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluatePrequen
 ERROR Parse error at line 168 column 120: Syntax error on token ")", Block expected after this token
 ERROR Unable to parse source file : 'moa/src/main/java/moa/tasks/EvaluatePrequentialMultiLabel.java'
 ERROR Parse error at line 162 column 120: Syntax error on token ")", Block expected after this token
-INFO  307/861 files analyzed, current file: moa/src/main/java/moa/classifiers/rules/multilabel/AMRulesMultiLabelLearner.java
-INFO  493/861 files analyzed, current file: moa/src/main/java/moa/classifiers/trees/ORTO.java
-INFO  636/861 files analyzed, current file: moa/src/main/java/moa/clusterers/outliers/utils/mtree/MTree.java
-INFO  794/861 files analyzed, current file: moa/src/main/java/moa/gui/visualization/RunOutlierVisualizer.java
-INFO  Java Main Files AST scan (done) | time=43299ms
+INFO  276/861 files analyzed, current file: moa/src/main/java/moa/classifiers/rules/RuleClassifierNBayes.java
+INFO  481/861 files analyzed, current file: moa/src/main/java/moa/classifiers/multilabel/meta/OzaBagAdwinML.java
+INFO  608/861 files analyzed, current file: moa/src/main/java/moa/clusterers/outliers/Angiulli/ExactSTORM.java
+INFO  761/861 files analyzed, current file: moa/src/main/java/moa/gui/experimentertab/PlotTab.java
+INFO  Java Main Files AST scan (done) | time=45521ms
 INFO  Java Test Files AST scan
 INFO  861/861 source files have been analyzed
 INFO  0 source files to be analyzed

@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 27,
             "endColumn": 60,
@@ -13,11 +14,10 @@
             "filePath": "src/test/java/com/spotify/annoy/ANNIndexTest.java",
             "violationSpecifier": "2095:src/test/java/com/spotify/annoy/ANNIndexTest.java:26:28:27:60"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 2748,
-    "repairTimeMs": 167,
-    "startTimeMs": 1612810774066,
+    "totalTimeMs": 2842,
+    "repairTimeMs": 175,
+    "startTimeMs": 1613352743107,
     "crashes": [],
-    "endTimeMs": 1612810776814,
-    "parseTimeMs": 436
+    "endTimeMs": 1613352745949,
+    "parseTimeMs": 456
 }

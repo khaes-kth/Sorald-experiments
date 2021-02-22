@@ -1,0 +1,461 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.modelmapper:modelmapper:jar:2.3.9-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.modelmapper:modelmapper-parent:2.3.9-SNAPSHOT, /workdir/modelmapper/pom.xml, line 75, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 146, column 15
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 198, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.modelmapper.extensions:modelmapper-spring:jar:2.3.9-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.modelmapper:modelmapper-parent:2.3.9-SNAPSHOT, /workdir/modelmapper/pom.xml, line 75, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.modelmapper.extensions:modelmapper-guice:jar:2.3.9-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.modelmapper:modelmapper-parent:2.3.9-SNAPSHOT, /workdir/modelmapper/pom.xml, line 75, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.modelmapper.extensions:modelmapper-dagger:jar:2.3.9-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.modelmapper:modelmapper-parent:2.3.9-SNAPSHOT, /workdir/modelmapper/pom.xml, line 75, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.modelmapper.extensions:modelmapper-jackson:jar:2.3.9-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.modelmapper:modelmapper-parent:2.3.9-SNAPSHOT, /workdir/modelmapper/pom.xml, line 75, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.modelmapper.extensions:modelmapper-gson:jar:2.3.9-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.modelmapper:modelmapper-parent:2.3.9-SNAPSHOT, /workdir/modelmapper/pom.xml, line 75, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.modelmapper.extensions:modelmapper-jooq:jar:2.3.9-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.modelmapper:modelmapper-parent:2.3.9-SNAPSHOT, /workdir/modelmapper/pom.xml, line 75, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.modelmapper.extensions:modelmapper-protobuf:jar:2.3.9-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.modelmapper:modelmapper-parent:2.3.9-SNAPSHOT, /workdir/modelmapper/pom.xml, line 75, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.modelmapper.extensions:modelmapper-extensions:pom:2.3.9-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.modelmapper:modelmapper-parent:2.3.9-SNAPSHOT, /workdir/modelmapper/pom.xml, line 75, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.modelmapper:modelmapper-examples:jar:2.3.9-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ org.modelmapper:modelmapper-parent:2.3.9-SNAPSHOT, /workdir/modelmapper/pom.xml, line 75, column 15
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.modelmapper:modelmapper-parent:pom:2.3.9-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 75, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ModelMapper Parent                                                 [pom]
+[INFO] ModelMapper                                                        [jar]
+[INFO] ModelMapper Extensions                                             [pom]
+[INFO] ModelMapper Spring Extension                                       [jar]
+[INFO] ModelMapper Guice Extension                                        [jar]
+[INFO] ModelMapper Dagger Extension                                       [jar]
+[INFO] ModelMapper Jackson Extension                                      [jar]
+[INFO] ModelMapper GSON Extension                                         [jar]
+[INFO] ModelMapper jOOQ Extension                                         [jar]
+[INFO] ModelMapper protobuf Extension                                     [jar]
+[INFO] ModelMapper Examples                                               [jar]
+[INFO] 
+[INFO] -----------------< org.modelmapper:modelmapper-parent >-----------------
+[INFO] Building ModelMapper Parent 2.3.9-SNAPSHOT                        [1/11]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ modelmapper-parent ---
+[INFO] 
+[INFO] --------------------< org.modelmapper:modelmapper >---------------------
+[INFO] Building ModelMapper 2.3.9-SNAPSHOT                               [2/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ modelmapper ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ modelmapper ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ modelmapper ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 129 source files to /workdir/modelmapper/core/target/classes
+[WARNING] /workdir/modelmapper/core/src/main/java/org/modelmapper/internal/MappingEngineImpl.java: Some input files use or override a deprecated API.
+[WARNING] /workdir/modelmapper/core/src/main/java/org/modelmapper/internal/MappingEngineImpl.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /workdir/modelmapper/core/src/main/java/org/modelmapper/internal/MappingContextImpl.java: /workdir/modelmapper/core/src/main/java/org/modelmapper/internal/MappingContextImpl.java uses unchecked or unsafe operations.
+[WARNING] /workdir/modelmapper/core/src/main/java/org/modelmapper/internal/MappingContextImpl.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-bundle-plugin:3.5.0:manifest (bundle-manifest) @ modelmapper ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ modelmapper ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ modelmapper ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 205 source files to /workdir/modelmapper/core/target/test-classes
+[WARNING] /workdir/modelmapper/core/src/test/java/org/modelmapper/internal/converter/NumberConverterTest.java: Some input files use or override a deprecated API.
+[WARNING] /workdir/modelmapper/core/src/test/java/org/modelmapper/internal/converter/NumberConverterTest.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /workdir/modelmapper/core/src/test/java/org/modelmapper/internal/converter/ConverterStoreTest.java: /workdir/modelmapper/core/src/test/java/org/modelmapper/internal/converter/ConverterStoreTest.java uses unchecked or unsafe operations.
+[WARNING] /workdir/modelmapper/core/src/test/java/org/modelmapper/internal/converter/ConverterStoreTest.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ modelmapper ---
+[INFO] Surefire report directory: /workdir/modelmapper/core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+...
+... TestNG 6.9.10 by Cédric Beust (cedric@beust.com)
+...
+
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access using Lookup on org.modelmapper.internal.ProxyFactory (file:/workdir/modelmapper/core/target/classes/) to interface java.util.List
+WARNING: Please consider reporting this to the maintainers of org.modelmapper.internal.ProxyFactory
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Feb 14, 2021 4:43:21 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+Feb 14, 2021 4:43:21 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+Feb 14, 2021 4:43:21 PM org.hibernate.ejb.HibernatePersistence logDeprecation
+WARN: HHH015016: Encountered a deprecated javax.persistence.spi.PersistenceProvider [org.hibernate.ejb.HibernatePersistence]; use [org.hibernate.jpa.HibernatePersistenceProvider] instead.
+Feb 14, 2021 4:43:21 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [
+	name: mmtest
+	...]
+Feb 14, 2021 4:43:21 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {4.3.7.Final}
+Feb 14, 2021 4:43:21 PM org.hibernate.cfg.Environment <clinit>
+INFO: HHH000206: hibernate.properties not found
+Feb 14, 2021 4:43:21 PM org.hibernate.cfg.Environment buildBytecodeProvider
+INFO: HHH000021: Bytecode provider name : javassist
+Feb 14, 2021 4:43:21 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+Feb 14, 2021 4:43:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH000402: Using Hibernate built-in connection pool (not for production use!)
+Feb 14, 2021 4:43:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000401: using driver [null] at URL [jdbc:h2:mem:]
+Feb 14, 2021 4:43:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000046: Connection properties: {}
+Feb 14, 2021 4:43:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH000006: Autocommit mode: false
+Feb 14, 2021 4:43:21 PM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Feb 14, 2021 4:43:21 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Feb 14, 2021 4:43:21 PM org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory <init>
+INFO: HHH000397: Using ASTQueryTranslatorFactory
+Feb 14, 2021 4:43:22 PM org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000227: Running hbm2ddl schema export
+Feb 14, 2021 4:43:22 PM org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Company_Employee drop constraint FK_rrs3a0xgb6d24anof3yyil15a if exists
+Feb 14, 2021 4:43:22 PM org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table "COMPANY_EMPLOYEE" not found; SQL statement:
+alter table Company_Employee drop constraint FK_rrs3a0xgb6d24anof3yyil15a if exists [42102-182]
+Feb 14, 2021 4:43:22 PM org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: HHH000389: Unsuccessful: alter table Company_Employee drop constraint FK_3ib5cr1bfd3l5ucqsgakwsx52 if exists
+Feb 14, 2021 4:43:22 PM org.hibernate.tool.hbm2ddl.SchemaExport perform
+ERROR: Table "COMPANY_EMPLOYEE" not found; SQL statement:
+alter table Company_Employee drop constraint FK_3ib5cr1bfd3l5ucqsgakwsx52 if exists [42102-182]
+Feb 14, 2021 4:43:22 PM org.hibernate.tool.hbm2ddl.SchemaExport execute
+INFO: HHH000230: Schema export complete
+Tests run: 585, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.778 sec
+
+Results :
+
+Tests run: 585, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ---------< org.modelmapper.extensions:modelmapper-extensions >----------
+[INFO] Building ModelMapper Extensions 2.3.9-SNAPSHOT                    [3/11]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ modelmapper-extensions ---
+[INFO] 
+[INFO] -----------< org.modelmapper.extensions:modelmapper-spring >------------
+[INFO] Building ModelMapper Spring Extension 2.3.9-SNAPSHOT              [4/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ modelmapper-spring ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ modelmapper-spring ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/spring/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ modelmapper-spring ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ modelmapper-spring ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/spring/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ modelmapper-spring ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ modelmapper-spring ---
+[INFO] Surefire report directory: /workdir/modelmapper/extensions/spring/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.modelmapper.spring.SpringIntegrationTest
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@5383967b
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.315 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------< org.modelmapper.extensions:modelmapper-guice >------------
+[INFO] Building ModelMapper Guice Extension 2.3.9-SNAPSHOT               [5/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ modelmapper-guice ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ modelmapper-guice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/guice/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ modelmapper-guice ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ modelmapper-guice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/guice/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ modelmapper-guice ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ modelmapper-guice ---
+[INFO] Surefire report directory: /workdir/modelmapper/extensions/guice/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.modelmapper.guice.GuiceIntegrationTest
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@21213b92
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.329 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -----------< org.modelmapper.extensions:modelmapper-dagger >------------
+[INFO] Building ModelMapper Dagger Extension 2.3.9-SNAPSHOT              [6/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ modelmapper-dagger ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ modelmapper-dagger ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/dagger/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ modelmapper-dagger ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ modelmapper-dagger ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/dagger/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ modelmapper-dagger ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ modelmapper-dagger ---
+[INFO] Surefire report directory: /workdir/modelmapper/extensions/dagger/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.modelmapper.dagger.DaggerIntegrationTest
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@31610302
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.275 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -----------< org.modelmapper.extensions:modelmapper-jackson >-----------
+[INFO] Building ModelMapper Jackson Extension 2.3.9-SNAPSHOT             [7/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ modelmapper-jackson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ modelmapper-jackson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/jackson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ modelmapper-jackson ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ modelmapper-jackson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/jackson/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ modelmapper-jackson ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ modelmapper-jackson ---
+[INFO] Surefire report directory: /workdir/modelmapper/extensions/jackson/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@887af79
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.567 sec
+
+Results :
+
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------< org.modelmapper.extensions:modelmapper-gson >-------------
+[INFO] Building ModelMapper GSON Extension 2.3.9-SNAPSHOT                [8/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ modelmapper-gson ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ modelmapper-gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/gson/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ modelmapper-gson ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ modelmapper-gson ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/gson/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ modelmapper-gson ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ modelmapper-gson ---
+[INFO] Surefire report directory: /workdir/modelmapper/extensions/gson/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.modelmapper.gson.JsonElementValueReaderTest
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@31610302
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.823 sec
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------< org.modelmapper.extensions:modelmapper-jooq >-------------
+[INFO] Building ModelMapper jOOQ Extension 2.3.9-SNAPSHOT                [9/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ modelmapper-jooq ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ modelmapper-jooq ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/jooq/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ modelmapper-jooq ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ modelmapper-jooq ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ modelmapper-jooq ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ modelmapper-jooq ---
+[INFO] Surefire report directory: /workdir/modelmapper/extensions/jooq/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.modelmapper.jooq.RecordValueReaderTest
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@21213b92
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.827 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------< org.modelmapper.extensions:modelmapper-protobuf >-----------
+[INFO] Building ModelMapper protobuf Extension 2.3.9-SNAPSHOT           [10/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ modelmapper-protobuf ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ modelmapper-protobuf ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/protobuf/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ modelmapper-protobuf ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ modelmapper-protobuf ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/extensions/protobuf/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ modelmapper-protobuf ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ modelmapper-protobuf ---
+[INFO] Surefire report directory: /workdir/modelmapper/extensions/protobuf/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2b9627bc
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/home/maven/.m2/repository/com/google/protobuf/protobuf-java/3.5.1/protobuf-java-3.5.1.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.48 sec
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------------< org.modelmapper:modelmapper-examples >----------------
+[INFO] Building ModelMapper Examples 2.3.9-SNAPSHOT                     [11/11]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ modelmapper-examples ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ modelmapper-examples ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/examples/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ modelmapper-examples ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ modelmapper-examples ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/modelmapper/examples/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ modelmapper-examples ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ modelmapper-examples ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for ModelMapper Parent 2.3.9-SNAPSHOT:
+[INFO] 
+[INFO] ModelMapper Parent ................................. SUCCESS [  0.229 s]
+[INFO] ModelMapper ........................................ SUCCESS [  8.069 s]
+[INFO] ModelMapper Extensions ............................. SUCCESS [  0.006 s]
+[INFO] ModelMapper Spring Extension ....................... SUCCESS [  0.514 s]
+[INFO] ModelMapper Guice Extension ........................ SUCCESS [  0.503 s]
+[INFO] ModelMapper Dagger Extension ....................... SUCCESS [  0.439 s]
+[INFO] ModelMapper Jackson Extension ...................... SUCCESS [  0.819 s]
+[INFO] ModelMapper GSON Extension ......................... SUCCESS [  1.006 s]
+[INFO] ModelMapper jOOQ Extension ......................... SUCCESS [  1.017 s]
+[INFO] ModelMapper protobuf Extension ..................... SUCCESS [  0.700 s]
+[INFO] ModelMapper Examples ............................... SUCCESS [  0.016 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.462 s
+[INFO] Finished at: 2021-02-14T16:43:27Z
+[INFO] ------------------------------------------------------------------------

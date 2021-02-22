@@ -5,20 +5,20 @@ WARN  Invalid character encountered in file fromString at line 5 for encoding UT
 WARN  Invalid character encountered in file fromString at line 11 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
 WARN  Invalid character encountered in file fromString at line 5 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=16ms
+INFO  JavaClasspath initialization (done) | time=17ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  861 source files to be analyzed
-INFO  861/861 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=9047ms
+INFO  Java Main Files AST scan (done) | time=9334ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  861/861 source files have been analyzed
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
-INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=3ms
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 ArrayHashCodeAndToStringProcessor: 0
@@ -35,13 +35,13 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  861 source files to be analyzed
-INFO  Java Main Files AST scan (done) | time=5960ms
 INFO  861/861 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=6467ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
-INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
+INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 57,
             "endColumn": 42,
@@ -14,10 +13,11 @@
             "filePath": "src/test/java/com/github/joelittlejohn/embedmongo/NetworkUtilsTest.java",
             "violationSpecifier": "2095:src/test/java/com/github/joelittlejohn/embedmongo/NetworkUtilsTest.java:57:20:57:42"
         }],
+        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 2993,
-    "repairTimeMs": 168,
-    "startTimeMs": 1612802828026,
+    "totalTimeMs": 3049,
+    "repairTimeMs": 164,
+    "startTimeMs": 1613327469931,
     "crashes": [],
-    "endTimeMs": 1612802831019,
-    "parseTimeMs": 722
+    "endTimeMs": 1613327472980,
+    "parseTimeMs": 696
 }

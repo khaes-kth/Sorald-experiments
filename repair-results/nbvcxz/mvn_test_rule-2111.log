@@ -1,0 +1,114 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for me.gosimple:nbvcxz:jar:1.5.0
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-jar-plugin @ line 129, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Not installing Nexus Staging features:
+[INFO]  * Preexisting staging related goal bindings found in 1 modules.
+[WARNING] The project me.gosimple:nbvcxz:jar:1.5.0 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] 
+[INFO] -------------------------< me.gosimple:nbvcxz >-------------------------
+[INFO] Building nbvcxz 1.5.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ nbvcxz ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 36 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ nbvcxz ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 34 source files to /workdir/nbvcxz/target/classes
+[INFO] /workdir/nbvcxz/src/main/java/me/gosimple/nbvcxz/scoring/TimeEstimate.java: /workdir/nbvcxz/src/main/java/me/gosimple/nbvcxz/scoring/TimeEstimate.java uses or overrides a deprecated API.
+[INFO] /workdir/nbvcxz/src/main/java/me/gosimple/nbvcxz/scoring/TimeEstimate.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/nbvcxz/src/main/java/me/gosimple/nbvcxz/resources/BestMatches.java: Some input files use unchecked or unsafe operations.
+[INFO] /workdir/nbvcxz/src/main/java/me/gosimple/nbvcxz/resources/BestMatches.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ nbvcxz ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/nbvcxz/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ nbvcxz ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 20 source files to /workdir/nbvcxz/target/test-classes
+[INFO] /workdir/nbvcxz/src/test/java/me/gosimple/nbvcxz/matching/match/BaseMatchTest.java: Some input files use or override a deprecated API.
+[INFO] /workdir/nbvcxz/src/test/java/me/gosimple/nbvcxz/matching/match/BaseMatchTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ nbvcxz ---
+[INFO] Surefire report directory: /workdir/nbvcxz/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running me.gosimple.nbvcxz.resources.CharacterCaseUtilTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+Running me.gosimple.nbvcxz.resources.DictionaryUtilTest
+Test of loadFile method, of class DictionaryUtil
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.153 sec
+Running me.gosimple.nbvcxz.resources.AdjacencyGraphUtilTest
+Test of calcAverageDegree method, of class AdjacencyGraphUtil
+Test of neighborsNumber method, of class AdjacencyGraphUtil
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running me.gosimple.nbvcxz.NbvcxzTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.096 sec
+Running me.gosimple.nbvcxz.matching.YearMatcherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running me.gosimple.nbvcxz.matching.RepeatMatcherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running me.gosimple.nbvcxz.matching.match.SpacialMatchTest
+Test of guessEntropy method, of class SpacialMatch
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running me.gosimple.nbvcxz.matching.match.BaseMatchTest
+Test of getToken method, of class BaseMatch
+Test of nCk method, of class BaseMatch.
+Test of log2 method, of class BaseMatch
+Test of the constructor of class BaseMatch
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running me.gosimple.nbvcxz.matching.match.YearMatchTest
+Test of guessEntropy method, of class YearMatch
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running me.gosimple.nbvcxz.matching.match.DictionaryMatchTest
+Test of guessEntropy method, of class DictionaryMatch
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running me.gosimple.nbvcxz.matching.match.DateMatchTest
+Test of guessEntropy method, of class DateMatch
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running me.gosimple.nbvcxz.matching.match.SequenceMatchTest
+Test of guessEntropy method, of class SequenceMatch
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running me.gosimple.nbvcxz.matching.match.RepeatMatchTest
+Test of guessEntropy method, of class RepeatMatch
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running me.gosimple.nbvcxz.matching.SpacialMatcherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running me.gosimple.nbvcxz.matching.DateMatcherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running me.gosimple.nbvcxz.matching.DictionaryMatcherTest
+Test of dictionaryMatch method (without leet value), of class DictionaryMatcher
+Test of dictionaryMatch method (with LD calculation), of class DictionaryMatcher
+Test of dictionaryMatch method (with leet value), of class DictionaryMatcher
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.061 sec
+Running me.gosimple.nbvcxz.matching.SequenceMatcherTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running me.gosimple.nbvcxz.scoring.ScoreTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec
+Running me.gosimple.nbvcxz.scoring.BruteForceUtilTest
+Test of calculateBrutForceCardinality method, of class BruteForceUtil
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running me.gosimple.nbvcxz.scoring.TimeEstimateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 sec
+
+Results :
+
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.324 s
+[INFO] Finished at: 2021-02-15T06:00:47Z
+[INFO] ------------------------------------------------------------------------

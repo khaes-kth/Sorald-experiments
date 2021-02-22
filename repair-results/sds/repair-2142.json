@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 6,
         "performedRepairsLocations": [
             {
                 "endLine": 53,
@@ -55,11 +56,10 @@
                 "violationSpecifier": "2142:sds-example/sds-apache-dubbo-example/src/main/java/com/didiglobal/sds/example/service/HelloServiceImpl.java:33:21:33:43"
             }
         ],
-        "nbViolationsBefore": 6,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -73,10 +73,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5644,
-    "repairTimeMs": 297,
-    "startTimeMs": 1612819731094,
+    "totalTimeMs": 5697,
+    "repairTimeMs": 295,
+    "startTimeMs": 1613384844101,
     "crashes": [],
-    "endTimeMs": 1612819736738,
-    "parseTimeMs": 2410
+    "endTimeMs": 1613384849798,
+    "parseTimeMs": 2428
 }

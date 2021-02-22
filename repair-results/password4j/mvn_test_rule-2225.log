@@ -1,0 +1,72 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.password4j:password4j >----------------------
+[INFO] Building Password4j 1.4.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (default) @ password4j ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/workdir/password4j/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ password4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/password4j/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ password4j ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ password4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ password4j ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ password4j ---
+[INFO] Surefire report directory: /workdir/password4j/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.password4j.SaltGeneratorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.129 sec
+Running com.password4j.StringTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.password4j.PasswordTest
+Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.667 sec
+Running com.password4j.MessageDigestFunctionTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.322 sec
+Running com.password4j.HashBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.99 sec
+Running com.password4j.HashTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.294 sec
+Running com.password4j.PBKDF2FunctionTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.374 sec
+Running com.password4j.BCryptFunctionTest
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.124 sec
+Running com.password4j.SCryptFunctionTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.393 sec
+Running com.password4j.PepperGeneratorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.password4j.SystemCheckTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec
+Running com.password4j.PropertyReaderTest
+/workdir/password4j/src/test/my/custom/path/to/some.properties
+/workdir/password4j/src/test/my/custom/path/to/some.properties
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.example.project.PublicPasswordTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.924 sec
+
+Results :
+
+Tests run: 175, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:report (report) @ password4j ---
+[INFO] Loading execution data file /workdir/password4j/target/jacoco.exec
+[INFO] Analyzed bundle 'Password4j' with 24 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:12 min
+[INFO] Finished at: 2021-02-15T10:59:35Z
+[INFO] ------------------------------------------------------------------------

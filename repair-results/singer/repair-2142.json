@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 19,
         "performedRepairsLocations": [
             {
                 "endLine": 113,
@@ -159,11 +160,10 @@
                 "violationSpecifier": "2142:singer/src/main/java/com/pinterest/singer/writer/pulsar/PulsarWriter.java:209:13:209:80"
             }
         ],
-        "nbViolationsBefore": 19,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -177,10 +177,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 11544,
-    "repairTimeMs": 546,
-    "startTimeMs": 1612819313365,
+    "totalTimeMs": 12150,
+    "repairTimeMs": 852,
+    "startTimeMs": 1613382315602,
     "crashes": [],
-    "endTimeMs": 1612819324909,
-    "parseTimeMs": 4588
+    "endTimeMs": 1613382327752,
+    "parseTimeMs": 4896
 }

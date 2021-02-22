@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 347,
@@ -23,11 +24,10 @@
                 "violationSpecifier": "2272:core/src/main/java/org/modelmapper/internal/util/ArrayIterator.java:42:16:42:20"
             }
         ],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 13372,
-    "repairTimeMs": 4049,
-    "startTimeMs": 1612799648235,
+    "totalTimeMs": 13541,
+    "repairTimeMs": 4133,
+    "startTimeMs": 1613320820876,
     "crashes": [],
-    "endTimeMs": 1612799661607,
-    "parseTimeMs": 4248
+    "endTimeMs": 1613320834417,
+    "parseTimeMs": 4222
 }

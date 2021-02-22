@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
-        "nbViolationsBefore": 14,
         "performedRepairsLocations": [
             {
                 "endLine": 75,
@@ -120,10 +119,11 @@
                 "violationSpecifier": "4973:src/main/java/org/opentripplanner/graph_builder/module/shapefile/ShapefileStreetModule.java:171:42:171:44"
             }
         ],
+        "nbViolationsBefore": 14,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -137,10 +137,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 26647,
-    "repairTimeMs": 1190,
-    "startTimeMs": 1612800142533,
+    "totalTimeMs": 27652,
+    "repairTimeMs": 1072,
+    "startTimeMs": 1613321753083,
     "crashes": [],
-    "endTimeMs": 1612800169180,
-    "parseTimeMs": 12647
+    "endTimeMs": 1613321780735,
+    "parseTimeMs": 13368
 }

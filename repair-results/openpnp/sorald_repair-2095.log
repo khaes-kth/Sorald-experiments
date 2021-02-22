@@ -1,20 +1,20 @@
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=26ms
+INFO  JavaClasspath initialization (done) | time=25ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  491 source files to be analyzed
 INFO  108/491 files analyzed, current file: src/main/java/org/openpnp/machine/reference/ReferenceNozzle.java
-INFO  461/491 files analyzed, current file: src/main/java/org/openpnp/gui/importer/LabcenterProteusImporter.java
+INFO  414/491 files analyzed, current file: src/main/java/org/openpnp/gui/tablemodel/PlacementsTableModel.java
 INFO  491/491 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=22482ms
+INFO  Java Main Files AST scan (done) | time=23143ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
 INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=2ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 5
@@ -26,13 +26,13 @@ INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  491 source files to be analyzed
 INFO  201/491 files analyzed, current file: src/main/java/org/openpnp/vision/pipeline/stages/ReadPartTemplateImage.java
-INFO  Java Main Files AST scan (done) | time=17297ms
+INFO  Java Main Files AST scan (done) | time=17343ms
 INFO  Java Test Files AST scan
 INFO  491/491 source files have been analyzed
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

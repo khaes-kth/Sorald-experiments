@@ -1,0 +1,261 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] MOA: meta-package                                                  [pom]
+[INFO] MOA: Massive Online Analysis                                       [jar]
+[INFO] MOA: WEKA Package                                                  [jar]
+[INFO] MOA: Add-ons for Kafka                                             [jar]
+[INFO] 
+[INFO] -------------------< nz.ac.waikato.cms.moa:moa-pom >--------------------
+[INFO] Building MOA: meta-package 2020.07.2-SNAPSHOT                      [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ moa-pom ---
+[INFO] 
+[INFO] ---------------------< nz.ac.waikato.cms.moa:moa >----------------------
+[INFO] Building MOA: Massive Online Analysis 2020.07.2-SNAPSHOT           [2/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ moa ---
+[INFO] 
+[INFO] --- license-maven-plugin:1.1:add-third-party (add-third-party) @ moa ---
+[WARNING] There is 32 dependencies with no license :
+[WARNING]  - classworlds--classworlds--1.1-alpha-2
+[WARNING]  - colt--colt--1.2.0
+[WARNING]  - com.ibm.icu--icu4j--2.6.1
+[WARNING]  - dom4j--dom4j--1.5
+[WARNING]  - dsol--dsol--1.6.9
+[WARNING]  - dsol--dsol-xml--1.6.9
+[WARNING]  - dsol--event--1.6.9
+[WARNING]  - dsol--interpreter--1.6.9
+[WARNING]  - dsol--jstats--1.6.9
+[WARNING]  - dsol--language--1.6.9
+[WARNING]  - dsol--logger--1.6.9
+[WARNING]  - dsol--naming--1.6.9
+[WARNING]  - gisbeans--gisbeans--1.0.0-beta4
+[WARNING]  - java3d--j3d-core--1.3.1
+[WARNING]  - java3d--j3d-core-utils--1.3.1
+[WARNING]  - java3d--vecmath--1.3.1
+[WARNING]  - jaxen--jaxen--1.1-beta-4
+[WARNING]  - jaxme--jaxme-api--0.3
+[WARNING]  - jcommon--jcommon--0.9.5
+[WARNING]  - jdom--jdom--1.0
+[WARNING]  - jfreechart--jfreechart--0.9.20
+[WARNING]  - math--math--1.0.0
+[WARNING]  - msv--relaxngDatatype--20030807
+[WARNING]  - msv--xsdlib--20030807
+[WARNING]  - org.ccil.cowan.tagsoup--tagsoup--0.9.7
+[WARNING]  - org.codehaus.plexus--plexus-container-default--1.0-alpha-9-stable-1
+[WARNING]  - pull-parser--pull-parser--2
+[WARNING]  - sax--sax--2.0.1
+[WARNING]  - xalan--xalan--2.6.0
+[WARNING]  - xerces--xercesImpl--2.6.1
+[WARNING]  - xerces--xmlParserAPIs--2.6.2
+[WARNING]  - xom--xom--1.0b3
+[INFO] Writing third-party file to /workdir/moa/moa/target/generated-sources/license/THIRD-PARTY.txt
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ moa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 19 resources
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ moa ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- exec-maven-plugin:1.6.0:exec (generate-class-list) @ moa ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ moa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 50 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ moa ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.15:test (default-test) @ moa ---
+[INFO] Surefire report directory: /workdir/moa/moa/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.yahoo.labs.samoa.instances.MultiTargetArffLoaderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 sec - in com.yahoo.labs.samoa.instances.MultiTargetArffLoaderTest
+Running moa.integration.SimpleClusterTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.104 sec - in moa.integration.SimpleClusterTest
+Running moa.classifiers.rules.RuleClassifierTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by sizeof.agent.SizeOfAgent (file:/home/maven/.m2/repository/com/github/fracpete/sizeofag/1.0.4/sizeofag-1.0.4.jar) to field java.util.LinkedList.first
+WARNING: Please consider reporting this to the maintainers of sizeof.agent.SizeOfAgent
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.637 sec - in moa.classifiers.rules.RuleClassifierTest
+Running moa.classifiers.rules.RuleClassifierNBayesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.245 sec - in moa.classifiers.rules.RuleClassifierNBayesTest
+Running moa.classifiers.rules.core.UtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in moa.classifiers.rules.core.UtilsTest
+Running moa.classifiers.rules.multilabel.instancetransformers.InstanceOutputAttributesSelectorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in moa.classifiers.rules.multilabel.instancetransformers.InstanceOutputAttributesSelectorTest
+Running moa.classifiers.rules.multilabel.errormeasurers.RelativeRootMeanSquaredErrorMTTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in moa.classifiers.rules.multilabel.errormeasurers.RelativeRootMeanSquaredErrorMTTest
+Running moa.classifiers.rules.multilabel.errormeasurers.RelativeMeanAbsoluteDeviationMTTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in moa.classifiers.rules.multilabel.errormeasurers.RelativeMeanAbsoluteDeviationMTTest
+Running moa.classifiers.rules.multilabel.core.voting.InverseErrorWeightedVoteMultiLabelTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in moa.classifiers.rules.multilabel.core.voting.InverseErrorWeightedVoteMultiLabelTest
+Running moa.classifiers.rules.multilabel.core.voting.FirstHitVoteMultiLabelTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in moa.classifiers.rules.multilabel.core.voting.FirstHitVoteMultiLabelTest
+Running moa.classifiers.rules.multilabel.core.voting.UniformWeightedVoteMultiLabelTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in moa.classifiers.rules.multilabel.core.voting.UniformWeightedVoteMultiLabelTest
+Running moa.classifiers.rules.multilabel.AMRulesMultiTargetRegressorSemiSuperTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.532 sec - in moa.classifiers.rules.multilabel.AMRulesMultiTargetRegressorSemiSuperTest
+Running moa.classifiers.rules.AMRulesRegressorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.344 sec - in moa.classifiers.rules.AMRulesRegressorTest
+Running moa.classifiers.bayes.NaiveBayesMultinomialTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.336 sec - in moa.classifiers.bayes.NaiveBayesMultinomialTest
+Running moa.classifiers.bayes.NaiveBayesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.424 sec - in moa.classifiers.bayes.NaiveBayesTest
+Running moa.classifiers.drift.DriftDetectionMethodClassifierTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.543 sec - in moa.classifiers.drift.DriftDetectionMethodClassifierTest
+Running moa.classifiers.drift.SingleClassifierDriftTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.538 sec - in moa.classifiers.drift.SingleClassifierDriftTest
+Running moa.classifiers.active.ALUncertaintyTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.882 sec - in moa.classifiers.active.ALUncertaintyTest
+Running moa.classifiers.active.ALRandomTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.476 sec - in moa.classifiers.active.ALRandomTest
+Running moa.classifiers.meta.LimAttClassifierTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.903 sec - in moa.classifiers.meta.LimAttClassifierTest
+Running moa.classifiers.meta.DynamicWeightedMajorityTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.081 sec - in moa.classifiers.meta.DynamicWeightedMajorityTest
+Running moa.classifiers.meta.OCBoostTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.409 sec - in moa.classifiers.meta.OCBoostTest
+Running moa.classifiers.meta.StreamingRandomPatchesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.245 sec - in moa.classifiers.meta.StreamingRandomPatchesTest
+Running moa.classifiers.meta.OzaBagAdwinTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.832 sec - in moa.classifiers.meta.OzaBagAdwinTest
+Running moa.classifiers.meta.OzaBoostAdwinTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.379 sec - in moa.classifiers.meta.OzaBoostAdwinTest
+Running moa.classifiers.meta.AdaptiveRandomForestTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.963 sec - in moa.classifiers.meta.AdaptiveRandomForestTest
+Running moa.classifiers.meta.OzaBagTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.429 sec - in moa.classifiers.meta.OzaBagTest
+Running moa.classifiers.meta.WEKAClassifierTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.033 sec - in moa.classifiers.meta.WEKAClassifierTest
+Running moa.classifiers.meta.TemporallyAugmentedClassifierTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.018 sec - in moa.classifiers.meta.TemporallyAugmentedClassifierTest
+Running moa.classifiers.meta.OzaBagASHTTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.403 sec - in moa.classifiers.meta.OzaBagASHTTest
+Running moa.classifiers.meta.LeveragingBagTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.056 sec - in moa.classifiers.meta.LeveragingBagTest
+Running moa.classifiers.meta.OzaBoostTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.417 sec - in moa.classifiers.meta.OzaBoostTest
+Running moa.classifiers.meta.HeterogeneousEnsembleBlastTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 32.809 sec - in moa.classifiers.meta.HeterogeneousEnsembleBlastTest
+Running moa.classifiers.meta.AccuracyUpdatedEnsembleTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.839 sec - in moa.classifiers.meta.AccuracyUpdatedEnsembleTest
+Running moa.classifiers.meta.WeightedMajorityAlgorithmTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.576 sec - in moa.classifiers.meta.WeightedMajorityAlgorithmTest
+Running moa.classifiers.meta.AccuracyWeightedEnsembleTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.455 sec - in moa.classifiers.meta.AccuracyWeightedEnsembleTest
+Running moa.classifiers.meta.ADOBTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.811 sec - in moa.classifiers.meta.ADOBTest
+Running moa.classifiers.meta.BOLETest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.102 sec - in moa.classifiers.meta.BOLETest
+Running moa.classifiers.meta.OnlineAccuracyUpdatedEnsembleTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.442 sec - in moa.classifiers.meta.OnlineAccuracyUpdatedEnsembleTest
+Running moa.classifiers.functions.SPegasosTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.295 sec - in moa.classifiers.functions.SPegasosTest
+Running moa.classifiers.functions.PerceptronTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.306 sec - in moa.classifiers.functions.PerceptronTest
+Running moa.classifiers.functions.NoChangeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.28 sec - in moa.classifiers.functions.NoChangeTest
+Running moa.classifiers.functions.MajorityClassTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.266 sec - in moa.classifiers.functions.MajorityClassTest
+Running moa.classifiers.functions.SGDTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.311 sec - in moa.classifiers.functions.SGDTest
+Running moa.classifiers.trees.DecisionStumpTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.509 sec - in moa.classifiers.trees.DecisionStumpTest
+Running moa.classifiers.trees.LimAttHoeffdingTreeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.304 sec - in moa.classifiers.trees.LimAttHoeffdingTreeTest
+Running moa.classifiers.trees.HoeffdingAdaptiveTreeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.893 sec - in moa.classifiers.trees.HoeffdingAdaptiveTreeTest
+Running moa.classifiers.trees.ASHoeffdingTreeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.52 sec - in moa.classifiers.trees.ASHoeffdingTreeTest
+Running moa.classifiers.trees.HoeffdingTreeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.276 sec - in moa.classifiers.trees.HoeffdingTreeTest
+Running moa.classifiers.trees.FIMTDDTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.3 sec - in moa.classifiers.trees.FIMTDDTest
+Running moa.classifiers.trees.AdaHoeffdingOptionTreeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.898 sec - in moa.classifiers.trees.AdaHoeffdingOptionTreeTest
+Running moa.classifiers.trees.ORTOTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.267 sec - in moa.classifiers.trees.ORTOTest
+Running moa.classifiers.trees.RandomHoeffdingTreeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.371 sec - in moa.classifiers.trees.RandomHoeffdingTreeTest
+Running moa.classifiers.trees.EFDTTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.657 sec - in moa.classifiers.trees.EFDTTest
+Running moa.classifiers.trees.HoeffdingOptionTreeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.861 sec - in moa.classifiers.trees.HoeffdingOptionTreeTest
+Running moa.streams.filters.SelectAttributesFilterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in moa.streams.filters.SelectAttributesFilterTest
+
+Results :
+
+Tests run: 135, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -----------------< nz.ac.waikato.cms.moa:weka-package >-----------------
+[INFO] Building MOA: WEKA Package 2020.07.2-SNAPSHOT                      [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ weka-package ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ weka-package ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/moa/weka-package/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ weka-package ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ weka-package ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/moa/weka-package/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ weka-package ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.15:test (default-test) @ weka-package ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< nz.ac.waikato.cms.moa:moa-kafka >-------------------
+[INFO] Building MOA: Add-ons for Kafka 2020.07.2-SNAPSHOT                 [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ moa-kafka ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ moa-kafka ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/moa/moa-kafka/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ moa-kafka ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ moa-kafka ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/moa/moa-kafka/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ moa-kafka ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.15:test (default-test) @ moa-kafka ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for MOA: meta-package 2020.07.2-SNAPSHOT:
+[INFO] 
+[INFO] MOA: meta-package .................................. SUCCESS [  0.234 s]
+[INFO] MOA: Massive Online Analysis ....................... SUCCESS [03:12 min]
+[INFO] MOA: WEKA Package .................................. SUCCESS [  0.037 s]
+[INFO] MOA: Add-ons for Kafka ............................. SUCCESS [  0.025 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:12 min
+[INFO] Finished at: 2021-02-14T22:48:18Z
+[INFO] ------------------------------------------------------------------------

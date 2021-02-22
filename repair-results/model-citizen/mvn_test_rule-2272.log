@@ -1,0 +1,348 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] parent                                                             [pom]
+[INFO] core                                                               [jar]
+[INFO] spring                                                             [jar]
+[INFO] 
+[INFO] ----------------< com.tobedevoured.modelcitizen:parent >----------------
+[INFO] Building parent 0.8.2                                              [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -----------------< com.tobedevoured.modelcitizen:core >-----------------
+[INFO] Building core 0.8.2                                                [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/model-citizen/core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ core ---
+[INFO] Surefire report directory: /workdir/model-citizen/core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.tobedevoured.modelcitizen.annotation.NullableTest
+17:46:45,747 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:46:45,748 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-test.xml] at [file:/workdir/model-citizen/core/target/test-classes/logback-test.xml]
+17:46:45,817 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:46:45,822 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:46:45,826 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+17:46:45,899 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+17:46:45,899 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+17:46:45,899 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+17:46:45,900 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.tobedevoured.modelcitizen] to DEBUG
+17:46:45,900 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+17:46:45,900 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+17:46:45,900 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:46:45,901 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@76f2bbc1 - Registering current configuration as safe fallback point
+
+17:46:45.906 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:45.913 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:45.921 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:45.922 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:45.922 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:45.923 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.293 sec
+Running com.tobedevoured.modelcitizen.annotation.ForceTest
+17:46:45.973 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.tobedevoured.modelcitizen.field.MappedListFieldTest
+17:46:45.975 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:45.976 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:45.977 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:45.977 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:45.977 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:45.978 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:45.978 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:45.983 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:45.983 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:45.983 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:45.984 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:45.984 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:45.984 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:45.984 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.tobedevoured.modelcitizen.ErectorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.tobedevoured.modelcitizen.policy.SkipReferenceFieldPolicyTest
+17:46:45.990 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:45.991 INFO  c.t.modelcitizen.ModelFactory#addPolicy - Setting BlueprintPolicy com.tobedevoured.modelcitizen.policy.SkipReferenceFieldPolicy@1349883 for class com.tobedevoured.modelcitizen.model.User
+17:46:45.991 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Blueprint policies
+17:46:45.991 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.SkipReferenceFieldPolicy@1349883
+17:46:45.991 DEBUG c.t.m.p.SkipReferenceFieldPolicy#process -     class com.tobedevoured.modelcitizen.model.User com.tobedevoured.modelcitizen.field.DefaultField@97996e41
+17:46:45.992 DEBUG c.t.m.p.SkipReferenceFieldPolicy#process -     class com.tobedevoured.modelcitizen.model.User com.tobedevoured.modelcitizen.field.DefaultField@f103cc2b
+17:46:45.998 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$2@302c971f[command=skip-reference-injection]]
+17:46:45.998 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Blueprint policies
+17:46:45.998 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.SkipReferenceFieldPolicy@1349883
+17:46:45.998 DEBUG c.t.m.p.SkipReferenceFieldPolicy#process -     class com.tobedevoured.modelcitizen.model.User com.tobedevoured.modelcitizen.field.DefaultField@97996e41
+17:46:45.999 DEBUG c.t.m.p.SkipReferenceFieldPolicy#process -     class com.tobedevoured.modelcitizen.model.User com.tobedevoured.modelcitizen.field.DefaultField@f103cc2b
+17:46:45.999 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$2@302c971f[command=skip-reference-injection]]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.tobedevoured.modelcitizen.policy.MappedSingletonPolicyTest
+17:46:46.000 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.001 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:46.001 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.001 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.001 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.001 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:46.002 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:46.003 INFO  c.t.modelcitizen.ModelFactory#addPolicy - Setting FieldPolicy com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@548a24a for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.006 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.007 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@548a24a for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.007 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@cf8a473e for com.tobedevoured.modelcitizen.model.Car@65987993
+17:46:46.007 DEBUG c.t.m.policy.MappedSingletonPolicy#process -   creating singleton for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.007 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+17:46:46.008 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.008 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@548a24a for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.008 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@ad61dd86 for com.tobedevoured.modelcitizen.model.Car@65987993
+17:46:46.008 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+17:46:46.011 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.011 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@548a24a for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.011 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@cf8a473e for com.tobedevoured.modelcitizen.model.Car@673fdbce
+17:46:46.011 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+17:46:46.012 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.012 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@548a24a for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.012 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@ad61dd86 for com.tobedevoured.modelcitizen.model.Car@673fdbce
+17:46:46.012 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+17:46:46.014 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.015 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@548a24a for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.015 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@cf8a473e for com.tobedevoured.modelcitizen.model.Car@7a5ceedd
+17:46:46.015 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+17:46:46.015 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.015 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@548a24a for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.015 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@ad61dd86 for com.tobedevoured.modelcitizen.model.Car@7a5ceedd
+17:46:46.016 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+17:46:46.017 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.017 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:46.017 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.017 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.018 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.018 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:46.018 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:46.018 INFO  c.t.modelcitizen.ModelFactory#addPolicy - Setting FieldPolicy com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@710636b0 for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.020 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.020 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@710636b0 for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.020 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@cf8a473e for com.tobedevoured.modelcitizen.model.Car@239a307b
+17:46:46.020 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+17:46:46.020 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.021 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@710636b0 for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.021 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@ad61dd86 for com.tobedevoured.modelcitizen.model.Car@239a307b
+17:46:46.021 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+17:46:46.023 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.023 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@710636b0 for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.024 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@cf8a473e for com.tobedevoured.modelcitizen.model.Car@17bffc17
+17:46:46.024 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+17:46:46.024 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.024 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@710636b0 for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.024 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@ad61dd86 for com.tobedevoured.modelcitizen.model.Car@17bffc17
+17:46:46.024 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+17:46:46.027 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.027 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@710636b0 for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.027 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@cf8a473e for com.tobedevoured.modelcitizen.model.Car@15a34df2
+17:46:46.027 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+17:46:46.027 DEBUG c.t.modelcitizen.ModelFactory#createModel -   Running Field policies
+17:46:46.027 INFO  c.t.modelcitizen.ModelFactory#createModel -     processing com.tobedevoured.modelcitizen.policy.MappedSingletonPolicy@710636b0 for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.028 DEBUG c.t.m.policy.MappedSingletonPolicy#process - processing com.tobedevoured.modelcitizen.field.MappedField@ad61dd86 for com.tobedevoured.modelcitizen.model.Car@15a34df2
+17:46:46.028 DEBUG c.t.modelcitizen.ModelFactory#createModel -   ModelField commands: [com.tobedevoured.modelcitizen.erector.Command$1@6b695b06[command=skip-injection]]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Running com.tobedevoured.modelcitizen.modelfactory.LoadBlueprintsTest
+17:46:46.030 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.030 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:46.030 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.031 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.031 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.031 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:46.031 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:46.032 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.032 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:46.032 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.032 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.032 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.033 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:46.033 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:46.033 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.033 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:46.034 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.034 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.034 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.034 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:46.034 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:46.049 INFO  c.t.modelcitizen.ModelFactory#setRegisterBlueprintsByPackage - Scanned com.tobedevoured.modelcitizen and found [class com.tobedevoured.modelcitizen.blueprint.SpareTireBlueprint, class com.tobedevoured.modelcitizen.blueprint.UserBlueprint, class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint, class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint, class com.tobedevoured.modelcitizen.blueprint.CarBlueprint, class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint]
+17:46:46.050 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.SpareTireBlueprint blueprint for class com.tobedevoured.modelcitizen.model.SpareTire
+17:46:46.050 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.SpareTireBlueprint
+17:46:46.050 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:46.051 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:46.051 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.051 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.051 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.051 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:46.052 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.053 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.053 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:46.053 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.054 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.054 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.054 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:46.054 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running com.tobedevoured.modelcitizen.modelfactory.CustomTemplateTest
+17:46:46.055 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.056 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.056 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.tobedevoured.modelcitizen.modelfactory.ByReferenceTest
+17:46:46.057 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.057 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:46.057 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.058 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.058 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.058 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:46.058 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.tobedevoured.modelcitizen.modelfactory.BlueprintInheritanceTest
+17:46:46.065 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.065 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.066 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.SpareTireBlueprint blueprint for class com.tobedevoured.modelcitizen.model.SpareTire
+17:46:46.066 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.SpareTireBlueprint
+17:46:46.066 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.tobedevoured.modelcitizen.modelfactory.ByClassTest
+17:46:46.069 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.069 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:46.069 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.069 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.069 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.069 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:46.070 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:46.072 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.072 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:46.072 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.073 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.073 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.073 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:46.073 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.tobedevoured.modelcitizen.callback.ConstructorCallbackTest
+17:46:46.076 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.076 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.076 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:46.076 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.077 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+17:46:46.147 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.147 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.147 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:46.147 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.147 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec
+Running com.tobedevoured.modelcitizen.callback.FieldCallbackTest
+17:46:46.149 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.tobedevoured.modelcitizen.callback.AfterCreateCallbackTest
+17:46:46.150 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.151 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.151 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.151 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:46.151 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.151 DEBUG c.t.modelcitizen.ModelFactory#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------------< com.tobedevoured.modelcitizen:spring >----------------
+[INFO] Building spring 0.8.2                                              [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/model-citizen/spring/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ spring ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ spring ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spring ---
+[INFO] Surefire report directory: /workdir/model-citizen/spring/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.tobedevoured.modelcitizen.spring.ModelFactoryBeanTest
+Feb 14, 2021 5:46:46 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [testContext.xml]
+Feb 14, 2021 5:46:46 PM org.springframework.context.support.GenericApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.GenericApplicationContext@1f3f4916: startup date [Sun Feb 14 17:46:46 UTC 2021]; root of context hierarchy
+Feb 14, 2021 5:46:46 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@74e28667: defining beans [modelFactory,spareTire,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+17:46:46,773 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+17:46:46,773 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-test.xml] at [file:/workdir/model-citizen/core/target/test-classes/logback-test.xml]
+17:46:46,796 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+17:46:46,801 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+17:46:46,805 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+17:46:46,858 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+17:46:46,858 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+17:46:46,858 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+17:46:46,858 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.tobedevoured.modelcitizen] to DEBUG
+17:46:46,858 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to INFO
+17:46:46,858 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+17:46:46,859 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+17:46:46,859 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@4426bff1 - Registering current configuration as safe fallback point
+
+17:46:46.904 INFO  c.t.m.spring.ModelFactoryBean#setRegisterBlueprintsByPackage - Scanned com.tobedevoured.modelcitizen and found [class com.tobedevoured.modelcitizen.blueprint.SportsCarBlueprint, class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint, class com.tobedevoured.modelcitizen.blueprint.SpareTireBlueprint, class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint, class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint, class com.tobedevoured.modelcitizen.blueprint.UserBlueprint, class com.tobedevoured.modelcitizen.blueprint.CarBlueprint]
+17:46:46.906 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Autowiring blueprint com.tobedevoured.modelcitizen.blueprint.SportsCarBlueprint@68be8808
+17:46:46.912 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.SportsCarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.SportsCar
+17:46:46.913 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.SportsCarBlueprint
+17:46:46.918 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.OptionBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Option
+17:46:46.919 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.SpareTireBlueprint blueprint for class com.tobedevoured.modelcitizen.model.SpareTire
+17:46:46.919 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.SpareTireBlueprint
+17:46:46.919 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Wheel
+17:46:46.920 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Registering ConstructorCallback for class com.tobedevoured.modelcitizen.blueprint.WheelBlueprint
+17:46:46.920 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.DriverBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Driver
+17:46:46.921 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.UserBlueprint blueprint for class com.tobedevoured.modelcitizen.model.User
+17:46:46.921 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Registering class com.tobedevoured.modelcitizen.blueprint.CarBlueprint blueprint for class com.tobedevoured.modelcitizen.model.Car
+17:46:46.921 DEBUG c.t.m.spring.ModelFactoryBean#registerBlueprint - Registering AfterCreateCallback for class com.tobedevoured.modelcitizen.blueprint.CarBlueprint
+17:46:46.934 DEBUG c.t.m.spring.ModelFactoryBean#createNewInstance - Retrieving model from Spring [class com.tobedevoured.modelcitizen.model.SportsCar]
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.577 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for parent 0.8.2:
+[INFO] 
+[INFO] parent ............................................. SUCCESS [  0.099 s]
+[INFO] core ............................................... SUCCESS [  1.157 s]
+[INFO] spring ............................................. SUCCESS [  0.810 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.145 s
+[INFO] Finished at: 2021-02-14T17:46:46Z
+[INFO] ------------------------------------------------------------------------

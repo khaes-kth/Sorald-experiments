@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 445,
             "endColumn": 27,
@@ -13,11 +14,10 @@
             "filePath": "src/main/java/org/apache/joshua/pro/Optimizer.java",
             "violationSpecifier": "4973:src/main/java/org/apache/joshua/pro/Optimizer.java:445:25:445:27"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 15238,
-    "repairTimeMs": 756,
-    "startTimeMs": 1612815315144,
+    "totalTimeMs": 16001,
+    "repairTimeMs": 911,
+    "startTimeMs": 1613367836439,
     "crashes": [],
-    "endTimeMs": 1612815330382,
-    "parseTimeMs": 8089
+    "endTimeMs": 1613367852440,
+    "parseTimeMs": 8418
 }

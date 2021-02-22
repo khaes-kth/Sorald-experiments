@@ -1,0 +1,221 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----< com.google.code.externalsortinginjava:externalsortinginjava >-----
+[INFO] Building externalsortinginjava 0.6.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0-beta-1:enforce (enforce-maven) @ externalsortinginjava ---
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.7.8:prepare-agent (prepare-agent) @ externalsortinginjava ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.7.8/org.jacoco.agent-0.7.8-runtime.jar=destfile=/workdir/externalsortinginjava/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy-dependencies (default) @ externalsortinginjava ---
+[INFO] jamm-0.3.1.jar already exists in destination.
+[INFO] commons-csv-1.4.jar already exists in destination.
+[INFO] hamcrest-core-1.3.jar already exists in destination.
+[INFO] junit-4.12.jar already exists in destination.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ externalsortinginjava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/externalsortinginjava/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ externalsortinginjava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ externalsortinginjava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ externalsortinginjava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ externalsortinginjava ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.google.code.externalsorting.csv.CsvExternalSortTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.code.externalsorting.csv.CsvExternalSortTest (file:/workdir/externalsortinginjava/target/test-classes/) to field java.nio.charset.Charset.defaultCharset
+WARNING: Please consider reporting this to the maintainers of com.google.code.externalsorting.csv.CsvExternalSortTest
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.133 sec - in com.google.code.externalsorting.csv.CsvExternalSortTest
+Running com.google.code.externalsorting.ExternalSortTest
+#ignore = 67412000
+[performance] String size estimator uses 1.095703125 ns per string
+#ignore = 67412000
+[performance] String size estimator uses 1.083984375 ns per string
+#ignore = 67412000
+[performance] String size estimator uses 1.091796875 ns per string
+#ignore = 67412000
+[performance] String size estimator uses 1.099609375 ns per string
+#ignore = 67412000
+[performance] String size estimator uses 1.0908203125 ns per string
+#ignore = 67412000
+[performance] String size estimator uses 1.08984375 ns per string
+#ignore = 67412000
+[performance] String size estimator uses 1.0908203125 ns per string
+#ignore = 67412000
+[performance] String size estimator uses 1.091796875 ns per string
+#ignore = 67412000
+[performance] String size estimator uses 1.09375 ns per string
+#ignore = 67412000
+[performance] String size estimator uses 1.08984375 ns per string
+java com.google.externalsorting.ExternalSort inputfile outputfile
+Flags are:
+-v or --verbose: verbose output
+-d or --distinct: prune duplicate lines
+-t or --maxtmpfiles (followed by an integer): specify an upper bound on the number of temporary files
+-c or --charset (followed by a charset code): specify the character set to use (for sorting)
+-z or --gzip: use compression for the temporary files
+-H or --header (followed by an integer): ignore the first few lines
+-s or --store (following by a path): where to store the temporary files
+-h or --help: display this message
+please provide input and output file names
+java com.google.externalsorting.ExternalSort inputfile outputfile
+Flags are:
+-v or --verbose: verbose output
+-d or --distinct: prune duplicate lines
+-t or --maxtmpfiles (followed by an integer): specify an upper bound on the number of temporary files
+-c or --charset (followed by a charset code): specify the character set to use (for sorting)
+-z or --gzip: use compression for the temporary files
+-H or --header (followed by an integer): ignore the first few lines
+-s or --store (following by a path): where to store the temporary files
+-h or --help: display this message
+please provide input and output file names
+java com.google.externalsorting.ExternalSort inputfile outputfile
+Flags are:
+-v or --verbose: verbose output
+-d or --distinct: prune duplicate lines
+-t or --maxtmpfiles (followed by an integer): specify an upper bound on the number of temporary files
+-c or --charset (followed by a charset code): specify the character set to use (for sorting)
+-z or --gzip: use compression for the temporary files
+-H or --header (followed by an integer): ignore the first few lines
+-s or --store (following by a path): where to store the temporary files
+-h or --help: display this message
+created 1 tmp files
+String of size 0 estimates are us: 60 bytes jamm: 40 bytes
+String of size 1 estimates are us: 62 bytes jamm: 48 bytes
+String of size 2 estimates are us: 64 bytes jamm: 48 bytes
+String of size 3 estimates are us: 66 bytes jamm: 48 bytes
+String of size 4 estimates are us: 68 bytes jamm: 48 bytes
+String of size 5 estimates are us: 70 bytes jamm: 48 bytes
+String of size 6 estimates are us: 72 bytes jamm: 48 bytes
+String of size 7 estimates are us: 74 bytes jamm: 48 bytes
+String of size 8 estimates are us: 76 bytes jamm: 48 bytes
+String of size 9 estimates are us: 78 bytes jamm: 56 bytes
+String of size 10 estimates are us: 80 bytes jamm: 56 bytes
+String of size 11 estimates are us: 82 bytes jamm: 56 bytes
+String of size 12 estimates are us: 84 bytes jamm: 56 bytes
+String of size 13 estimates are us: 86 bytes jamm: 56 bytes
+String of size 14 estimates are us: 88 bytes jamm: 56 bytes
+String of size 15 estimates are us: 90 bytes jamm: 56 bytes
+String of size 16 estimates are us: 92 bytes jamm: 56 bytes
+String of size 17 estimates are us: 94 bytes jamm: 64 bytes
+String of size 18 estimates are us: 96 bytes jamm: 64 bytes
+String of size 19 estimates are us: 98 bytes jamm: 64 bytes
+String of size 20 estimates are us: 100 bytes jamm: 64 bytes
+String of size 21 estimates are us: 102 bytes jamm: 64 bytes
+String of size 22 estimates are us: 104 bytes jamm: 64 bytes
+String of size 23 estimates are us: 106 bytes jamm: 64 bytes
+String of size 24 estimates are us: 108 bytes jamm: 64 bytes
+String of size 25 estimates are us: 110 bytes jamm: 72 bytes
+String of size 26 estimates are us: 112 bytes jamm: 72 bytes
+String of size 27 estimates are us: 114 bytes jamm: 72 bytes
+String of size 28 estimates are us: 116 bytes jamm: 72 bytes
+String of size 29 estimates are us: 118 bytes jamm: 72 bytes
+String of size 30 estimates are us: 120 bytes jamm: 72 bytes
+String of size 31 estimates are us: 122 bytes jamm: 72 bytes
+String of size 32 estimates are us: 124 bytes jamm: 72 bytes
+String of size 33 estimates are us: 126 bytes jamm: 80 bytes
+String of size 34 estimates are us: 128 bytes jamm: 80 bytes
+String of size 35 estimates are us: 130 bytes jamm: 80 bytes
+String of size 36 estimates are us: 132 bytes jamm: 80 bytes
+String of size 37 estimates are us: 134 bytes jamm: 80 bytes
+String of size 38 estimates are us: 136 bytes jamm: 80 bytes
+String of size 39 estimates are us: 138 bytes jamm: 80 bytes
+String of size 40 estimates are us: 140 bytes jamm: 80 bytes
+String of size 41 estimates are us: 142 bytes jamm: 88 bytes
+String of size 42 estimates are us: 144 bytes jamm: 88 bytes
+String of size 43 estimates are us: 146 bytes jamm: 88 bytes
+String of size 44 estimates are us: 148 bytes jamm: 88 bytes
+String of size 45 estimates are us: 150 bytes jamm: 88 bytes
+String of size 46 estimates are us: 152 bytes jamm: 88 bytes
+String of size 47 estimates are us: 154 bytes jamm: 88 bytes
+String of size 48 estimates are us: 156 bytes jamm: 88 bytes
+String of size 49 estimates are us: 158 bytes jamm: 96 bytes
+String of size 50 estimates are us: 160 bytes jamm: 96 bytes
+String of size 51 estimates are us: 162 bytes jamm: 96 bytes
+String of size 52 estimates are us: 164 bytes jamm: 96 bytes
+String of size 53 estimates are us: 166 bytes jamm: 96 bytes
+String of size 54 estimates are us: 168 bytes jamm: 96 bytes
+String of size 55 estimates are us: 170 bytes jamm: 96 bytes
+String of size 56 estimates are us: 172 bytes jamm: 96 bytes
+String of size 57 estimates are us: 174 bytes jamm: 104 bytes
+String of size 58 estimates are us: 176 bytes jamm: 104 bytes
+String of size 59 estimates are us: 178 bytes jamm: 104 bytes
+String of size 60 estimates are us: 180 bytes jamm: 104 bytes
+String of size 61 estimates are us: 182 bytes jamm: 104 bytes
+String of size 62 estimates are us: 184 bytes jamm: 104 bytes
+String of size 63 estimates are us: 186 bytes jamm: 104 bytes
+String of size 64 estimates are us: 188 bytes jamm: 104 bytes
+String of size 65 estimates are us: 190 bytes jamm: 112 bytes
+String of size 66 estimates are us: 192 bytes jamm: 112 bytes
+String of size 67 estimates are us: 194 bytes jamm: 112 bytes
+String of size 68 estimates are us: 196 bytes jamm: 112 bytes
+String of size 69 estimates are us: 198 bytes jamm: 112 bytes
+String of size 70 estimates are us: 200 bytes jamm: 112 bytes
+String of size 71 estimates are us: 202 bytes jamm: 112 bytes
+String of size 72 estimates are us: 204 bytes jamm: 112 bytes
+String of size 73 estimates are us: 206 bytes jamm: 120 bytes
+String of size 74 estimates are us: 208 bytes jamm: 120 bytes
+String of size 75 estimates are us: 210 bytes jamm: 120 bytes
+String of size 76 estimates are us: 212 bytes jamm: 120 bytes
+String of size 77 estimates are us: 214 bytes jamm: 120 bytes
+String of size 78 estimates are us: 216 bytes jamm: 120 bytes
+String of size 79 estimates are us: 218 bytes jamm: 120 bytes
+String of size 80 estimates are us: 220 bytes jamm: 120 bytes
+String of size 81 estimates are us: 222 bytes jamm: 128 bytes
+String of size 82 estimates are us: 224 bytes jamm: 128 bytes
+String of size 83 estimates are us: 226 bytes jamm: 128 bytes
+String of size 84 estimates are us: 228 bytes jamm: 128 bytes
+String of size 85 estimates are us: 230 bytes jamm: 128 bytes
+String of size 86 estimates are us: 232 bytes jamm: 128 bytes
+String of size 87 estimates are us: 234 bytes jamm: 128 bytes
+String of size 88 estimates are us: 236 bytes jamm: 128 bytes
+String of size 89 estimates are us: 238 bytes jamm: 136 bytes
+String of size 90 estimates are us: 240 bytes jamm: 136 bytes
+String of size 91 estimates are us: 242 bytes jamm: 136 bytes
+String of size 92 estimates are us: 244 bytes jamm: 136 bytes
+String of size 93 estimates are us: 246 bytes jamm: 136 bytes
+String of size 94 estimates are us: 248 bytes jamm: 136 bytes
+String of size 95 estimates are us: 250 bytes jamm: 136 bytes
+String of size 96 estimates are us: 252 bytes jamm: 136 bytes
+String of size 97 estimates are us: 254 bytes jamm: 144 bytes
+String of size 98 estimates are us: 256 bytes jamm: 144 bytes
+String of size 99 estimates are us: 258 bytes jamm: 144 bytes
+All our string memory usage estimation are within a factor of two of jamm's and never lower.
+please provide input and output file names
+java com.google.externalsorting.ExternalSort inputfile outputfile
+Flags are:
+-v or --verbose: verbose output
+-d or --distinct: prune duplicate lines
+-t or --maxtmpfiles (followed by an integer): specify an upper bound on the number of temporary files
+-c or --charset (followed by a charset code): specify the character set to use (for sorting)
+-z or --gzip: use compression for the temporary files
+-H or --header (followed by an integer): ignore the first few lines
+-s or --store (following by a path): where to store the temporary files
+-h or --help: display this message
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.234 sec - in com.google.code.externalsorting.ExternalSortTest
+
+Results :
+
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.319 s
+[INFO] Finished at: 2021-02-14T23:57:59Z
+[INFO] ------------------------------------------------------------------------

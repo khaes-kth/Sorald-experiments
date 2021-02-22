@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 7,
         "performedRepairsLocations": [
             {
                 "endLine": 168,
@@ -63,11 +64,10 @@
                 "violationSpecifier": "2142:src/main/java/cn/danielw/fop/ObjectPoolPartition.java:50:17:50:39"
             }
         ],
-        "nbViolationsBefore": 7,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -81,10 +81,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 2305,
-    "repairTimeMs": 193,
-    "startTimeMs": 1612810136957,
+    "totalTimeMs": 2422,
+    "repairTimeMs": 195,
+    "startTimeMs": 1613349993504,
     "crashes": [],
-    "endTimeMs": 1612810139262,
-    "parseTimeMs": 706
+    "endTimeMs": 1613349995926,
+    "parseTimeMs": 774
 }

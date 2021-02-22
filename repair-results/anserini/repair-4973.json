@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
-        "nbViolationsBefore": 5,
         "performedRepairsLocations": [
             {
                 "endLine": 81,
@@ -48,10 +47,11 @@
                 "violationSpecifier": "4973:src/main/java/io/anserini/index/generator/CoreGenerator.java:164:19:164:21"
             }
         ],
+        "nbViolationsBefore": 5,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -65,10 +65,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 9616,
-    "repairTimeMs": 357,
-    "startTimeMs": 1612813232393,
+    "totalTimeMs": 9995,
+    "repairTimeMs": 453,
+    "startTimeMs": 1613359790387,
     "crashes": [],
-    "endTimeMs": 1612813242009,
-    "parseTimeMs": 4424
+    "endTimeMs": 1613359800382,
+    "parseTimeMs": 4560
 }

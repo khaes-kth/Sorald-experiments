@@ -1,0 +1,429 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] parent                                                             [pom]
+[INFO] FrameWorkMinimized                                                 [jar]
+[INFO] msgparser                                                          [jar]
+[INFO] MSGViewer                                                          [jar]
+[INFO] 
+[INFO] ------------------< net.sourceforge.msgviewer:parent >------------------
+[INFO] Building parent 1.9.0-SNAPSHOT                                     [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --------------------< at.redeye:FrameWorkMinimized >--------------------
+[INFO] Building FrameWorkMinimized 1.9.0-SNAPSHOT                         [2/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ FrameWorkMinimized ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 75 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ FrameWorkMinimized ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ FrameWorkMinimized ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ FrameWorkMinimized ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ FrameWorkMinimized ---
+[INFO] Surefire report directory: /workdir/MsgViewer/FrameWorkMinimized/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running at.redeye.FrameWork.base.bindtypes.DBStringTest
+getValue
+loadFromDB
+acceptString
+toString
+getCopy
+getDBType
+loadFromCopy
+getMaxLen
+isEmpty
+loadFromString
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.047 sec
+Running at.redeye.FrameWork.utilities.ParseJNLPTest
+getJars for /at/redeye/FrameWork/utilities/ParseJNLPTestFiles/launch_sftpupload.jnlp
+getJars for /at/redeye/FrameWork/utilities/ParseJNLPTestFiles/launch_msgviewer.jnlp
+getCodeBase for /at/redeye/FrameWork/utilities/ParseJNLPTestFiles/launch_sftpupload.jnlp
+getCodeBase for /at/redeye/FrameWork/utilities/ParseJNLPTestFiles/launch_msgviewer.jnlp
+getProperties for /at/redeye/FrameWork/utilities/ParseJNLPTestFiles/launch_sftpupload.jnlp
+getProperties for /at/redeye/FrameWork/utilities/ParseJNLPTestFiles/launch_msgviewer.jnlp
+getMainJar for /at/redeye/FrameWork/utilities/ParseJNLPTestFiles/launch_sftpupload.jnlp
+getMainJar for /at/redeye/FrameWork/utilities/ParseJNLPTestFiles/launch_msgviewer.jnlp
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.081 sec
+Running at.redeye.FrameWork.utilities.StringUtilsTest
+skip_spaces
+strip_post
+skip_char
+strip
+isYes
+autoLineBreak
+=== RES ===
+Bla ist eine
+Kleinstadt im
+Süden von Mali.
+Sie liegt etwa
+85 Kilometer
+südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt
+im Süden von Mali.
+Sie liegt etwa 85
+Kilometer südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden
+von Mali. Sie liegt etwa 85
+Kilometer südlich von Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou an der
+wichtigsten Fernverkehrsstraße des Landes. In Bla leben 61.
+338 Menschen[1] (Zensus 2009).
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou an der
+wichtigsten Fernverkehrsstraße des Landes. In Bla leben 61.
+338 Menschen[1] (Zensus 2009). Die Stadt ist ein
+wichtiger Warenumschlagplatz für die nordöstlich
+gelegen Städte Mopti und Gao, sowie für das südlich
+gelegene Sikasso und den Export nach Burkina Faso
+und Elfenbeinküste. Bla ist die Hauptstadt der "Djonka",
+einer Untergruppe der Bambara.
+============
+
+formatDouble
+autoLineBreak
+=== RES ===
+Bla ist eine
+Kleinstadt im
+Süden von Mali.
+Sie liegt etwa
+85 Kilometer
+südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt
+im Süden von Mali.
+Sie liegt etwa 85
+Kilometer südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden
+von Mali. Sie liegt etwa 85
+Kilometer südlich von Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou an der
+wichtigsten Fernverkehrsstraße des Landes. In Bla leben 61.
+338 Menschen[1] (Zensus 2009).
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou an der
+wichtigsten Fernverkehrsstraße des Landes. In Bla leben 61.
+338 Menschen[1] (Zensus 2009). Die Stadt ist ein
+wichtiger Warenumschlagplatz für die nordöstlich
+gelegen Städte Mopti und Gao, sowie für das südlich
+gelegene Sikasso und den Export nach Burkina Faso
+und Elfenbeinküste. Bla ist die Hauptstadt der "Djonka",
+einer Untergruppe der Bambara.
+============
+
+strip
+skip_char_reverse
+exceptionToString
+contains
+skipLeadingLines
+get_defaultAutoLineLenght
+is_space
+formatDouble
+split_str
+byteArrayToString
+skip_spaces_reverse
+strip_post
+set_defaultAutoLineLenght
+autoLineBreak
+=== RES ===
+Bla ist eine
+Kleinstadt im
+Süden von Mali.
+Sie liegt etwa
+85 Kilometer
+südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt
+im Süden von Mali.
+Sie liegt etwa 85
+Kilometer südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden
+von Mali. Sie liegt etwa 85
+Kilometer südlich von Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou an der
+wichtigsten Fernverkehrsstraße des Landes. In Bla leben 61.
+338 Menschen[1] (Zensus 2009).
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou an der
+wichtigsten Fernverkehrsstraße des Landes. In Bla leben 61.
+338 Menschen[1] (Zensus 2009). Die Stadt ist ein
+wichtiger Warenumschlagplatz für die nordöstlich
+gelegen Städte Mopti und Gao, sowie für das südlich
+gelegene Sikasso und den Export nach Burkina Faso
+und Elfenbeinküste. Bla ist die Hauptstadt der "Djonka",
+einer Untergruppe der Bambara.
+============
+
+autoLineBreak
+=== RES ===
+Bla ist eine
+Kleinstadt im
+Süden von Mali.
+Sie liegt etwa
+85 Kilometer
+südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt
+im Süden von Mali.
+Sie liegt etwa 85
+Kilometer südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden
+von Mali. Sie liegt etwa 85
+Kilometer südlich von Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von
+Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou an der
+wichtigsten Fernverkehrsstraße des Landes. In Bla leben 61.
+338 Menschen[1] (Zensus 2009).
+============
+
+=== RES ===
+Bla ist eine Kleinstadt im Süden von Mali.
+Sie liegt etwa 85 Kilometer südlich von Ségou an der
+wichtigsten Fernverkehrsstraße des Landes. In Bla leben 61.
+338 Menschen[1] (Zensus 2009). Die Stadt ist ein
+wichtiger Warenumschlagplatz für die nordöstlich
+gelegen Städte Mopti und Gao, sowie für das südlich
+gelegene Sikasso und den Export nach Burkina Faso
+und Elfenbeinküste. Bla ist die Hauptstadt der "Djonka",
+einer Untergruppe der Bambara.
+============
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Running at.redeye.FrameWork.utilities.calendar.BaseHolidaysTest
+getEaster
+getEaster 2008
+getEaster 2009
+getEaster 2010
+getEaster 2011
+getEaster 1970: 1970-03-29
+getEaster 1971: 1971-04-11
+getEaster 1972: 1972-04-02
+getEaster 1973: 1973-04-22
+getEaster 1974: 1974-04-14
+getEaster 1975: 1975-03-30
+getEaster 1976: 1976-04-18
+getEaster 1977: 1977-04-10
+getEaster 1978: 1978-03-26
+getEaster 1979: 1979-04-15
+getEaster 1980: 1980-04-06
+getEaster 1981: 1981-04-19
+getEaster 1982: 1982-04-11
+getEaster 1983: 1983-04-03
+getEaster 1984: 1984-04-22
+getEaster 1985: 1985-04-07
+getEaster 1986: 1986-03-30
+getEaster 1987: 1987-04-19
+getEaster 1988: 1988-04-03
+getEaster 1989: 1989-03-26
+getEaster 1990: 1990-04-15
+getEaster 1991: 1991-03-31
+getEaster 1992: 1992-04-19
+getEaster 1993: 1993-04-11
+getEaster 1994: 1994-04-03
+getEaster 1995: 1995-04-16
+getEaster 1996: 1996-04-07
+getEaster 1997: 1997-03-30
+getEaster 1998: 1998-04-12
+getEaster 1999: 1999-04-04
+getEaster 2000: 2000-04-23
+getEaster 2001: 2001-04-15
+getEaster 2002: 2002-03-31
+getEaster 2003: 2003-04-20
+getEaster 2004: 2004-04-11
+getEaster 2005: 2005-03-27
+getEaster 2006: 2006-04-16
+getEaster 2007: 2007-04-08
+getEaster 2008: 2008-03-23
+getEaster 2009: 2009-04-12
+getEaster 2010: 2010-04-04
+getEaster 2011: 2011-04-24
+getEaster 2012: 2012-04-08
+getEaster 2013: 2013-03-31
+getEaster 2014: 2014-04-20
+getEaster 2015: 2015-04-05
+getEaster 2016: 2016-03-27
+getEaster 2017: 2017-04-16
+getEaster 2018: 2018-04-01
+getEaster 2019: 2019-04-21
+getEaster 2020: 2020-04-12
+getEaster 2021: 2021-04-04
+getEaster 2022: 2022-04-17
+getEaster 2023: 2023-04-09
+getEaster 2024: 2024-03-31
+getEaster 2025: 2025-04-20
+getEaster 2026: 2026-04-05
+getEaster 2027: 2027-03-28
+getEaster 2028: 2028-04-16
+getEaster 2029: 2029-04-01
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.058 sec
+
+Results :
+
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 4
+
+[INFO] 
+[INFO] -----------------------< com.auxilii:msgparser >------------------------
+[INFO] Building msgparser 1.9.0-SNAPSHOT                                  [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ msgparser ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/MsgViewer/msgparser/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ msgparser ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ msgparser ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/MsgViewer/msgparser/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ msgparser ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ msgparser ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------< net.sourceforge.msgviewer:msgviewer >-----------------
+[INFO] Building MSGViewer 1.9.0-SNAPSHOT                                  [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- javacc-maven-plugin:2.6:javacc (default) @ msgviewer ---
+[INFO] Skipping - all parsers are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:resources (default-resources) @ msgviewer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 31 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ msgviewer ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.4.3:testResources (default-testResources) @ msgviewer ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 34 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ msgviewer ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ msgviewer ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for parent 1.9.0-SNAPSHOT:
+[INFO] 
+[INFO] parent ............................................. SUCCESS [  0.003 s]
+[INFO] FrameWorkMinimized ................................. SUCCESS [  0.981 s]
+[INFO] msgparser .......................................... SUCCESS [  0.093 s]
+[INFO] MSGViewer .......................................... SUCCESS [  0.180 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.340 s
+[INFO] Finished at: 2021-02-15T07:57:54Z
+[INFO] ------------------------------------------------------------------------

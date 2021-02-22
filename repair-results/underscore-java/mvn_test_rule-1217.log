@@ -1,0 +1,137 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.github.javadev:underscore >--------------------
+[INFO] Building java port of Underscore.js 1.60-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.13:check (checkstyle) @ underscore ---
+[INFO] 
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (prepare-agent) @ underscore ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/workdir/underscore-java/target/jacoco.exec,excludes=**/U$BaseHttpSslSocketFactory*.class:**/Xml$Document.class
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ underscore ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/underscore-java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ underscore ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ underscore ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/underscore-java/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ underscore ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ underscore ---
+[INFO] Surefire report directory: /workdir/underscore-java/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.underscore.FunctionsTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.018 sec
+Running com.github.underscore.ArraysTest
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec
+Running com.github.underscore.ObjectsTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+Running com.github.underscore.TrieTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.underscore.lodash.StringTest
+Underscore-java is a java port of Underscore.js.
+
+In addition to porting Underscore's functionality, Underscore-java includes matching unit tests.
+
+For docs, license, tests, and downloads, see: http://javadev.github.io/underscore-java
+Tests run: 165, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.335 sec
+Running com.github.underscore.lodash.MathTest
+Underscore-java is a java port of Underscore.js.
+
+In addition to porting Underscore's functionality, Underscore-java includes matching unit tests.
+
+For docs, license, tests, and downloads, see: http://javadev.github.io/underscore-java
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.github.underscore.lodash.LodashTest
+Tests run: 53, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.615 sec <<< FAILURE!
+fetchGetHttps(com.github.underscore.lodash.LodashTest)  Time elapsed: 0.799 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...  "status_code": 401[]
+    }
+}> but was:<...  "status_code": 401[,
+        "code": "unauthorized"]
+    }
+}>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.github.underscore.lodash.LodashTest.fetchGetHttps(LodashTest.java:539)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+Running com.github.underscore.lodash.Base32Test
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.github.underscore.ChainingTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running com.github.underscore.CollectionsTest
+Tests run: 66, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec
+Running com.github.underscore.UtilityTest
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running com.github.underscore.UnderscoreTest
+Underscore-java is a java port of Underscore.js.
+
+In addition to porting Underscore's functionality, Underscore-java includes matching unit tests.
+
+For docs, license, tests, and downloads, see: http://javadev.github.io/underscore-java
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+
+Results :
+
+Failed tests:   fetchGetHttps(com.github.underscore.lodash.LodashTest): expected:<...  "status_code": 401[](..)
+
+Tests run: 484, Failures: 1, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.532 s
+[INFO] Finished at: 2021-02-14T23:27:59Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project underscore: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /workdir/underscore-java/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

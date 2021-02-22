@@ -1,16 +1,16 @@
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=25ms
+INFO  JavaClasspath initialization (done) | time=26ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  315 source files to be analyzed
-INFO  97/315 files analyzed, current file: src/main/java/org/apache/joshua/decoder/ff/lm/buildin_lm/TrieLM.java
+INFO  89/315 files analyzed, current file: src/main/java/org/apache/joshua/decoder/ff/lm/KenLM.java
 INFO  273/315 files analyzed, current file: src/main/java/org/apache/joshua/pro/PROCore.java
 INFO  315/315 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=28848ms
+INFO  Java Main Files AST scan (done) | time=28787ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
@@ -20,16 +20,16 @@ INFO  0/0 source files have been analyzed
 UnclosedResourcesProcessor: 40
 -----End of report------
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=0ms
+INFO  JavaClasspath initialization (done) | time=1ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  315 source files to be analyzed
 ERROR Unable to parse source file : 'src/main/java/org/apache/joshua/decoder/ff/lm/ArpaFile.java'
 ERROR Parse error at line 232 column 52: Syntax error on token ")", Block expected after this token
-INFO  214/315 files analyzed, current file: src/main/java/org/apache/joshua/subsample/Subsampler.java
-INFO  312/315 files analyzed, current file: src/main/java/org/apache/joshua/mira/MIRACore.java
-INFO  Java Main Files AST scan (done) | time=21790ms
+INFO  196/315 files analyzed, current file: src/main/java/org/apache/joshua/decoder/JoshuaConfiguration.java
+INFO  306/315 files analyzed, current file: src/main/java/org/apache/joshua/corpus/syntax/ArraySyntaxTree.java
+INFO  Java Main Files AST scan (done) | time=22926ms
 INFO  Java Test Files AST scan
 INFO  315/315 source files have been analyzed
 INFO  0 source files to be analyzed
@@ -37,5 +37,5 @@ INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed

@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 14,
         "performedRepairsLocations": [
             {
                 "endLine": 1485,
@@ -120,10 +119,11 @@
                 "violationSpecifier": "2142:src/main/java/org/apache/joshua/zmert/MertCore.java:1472:15:1472:50"
             }
         ],
+        "nbViolationsBefore": 14,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -137,10 +137,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 16066,
-    "repairTimeMs": 1035,
-    "startTimeMs": 1612815164336,
+    "totalTimeMs": 16757,
+    "repairTimeMs": 1023,
+    "startTimeMs": 1613367587119,
     "crashes": [],
-    "endTimeMs": 1612815180402,
-    "parseTimeMs": 8184
+    "endTimeMs": 1613367603876,
+    "parseTimeMs": 8496
 }

@@ -6,18 +6,18 @@
         "nbCrashedRepairs": 0,
         "ruleKey": "2111",
         "performedRepairsLocations": [{
-            "endLine": 274,
+            "endLine": 273,
             "endColumn": 85,
             "startColumn": 38,
-            "startLine": 274,
+            "startLine": 273,
             "filePath": "xchart/src/main/java/org/knowm/xchart/internal/chartpart/AxisTickCalculator_.java",
-            "violationSpecifier": "2111:xchart/src/main/java/org/knowm/xchart/internal/chartpart/AxisTickCalculator_.java:274:38:274:85"
+            "violationSpecifier": "2111:xchart/src/main/java/org/knowm/xchart/internal/chartpart/AxisTickCalculator_.java:273:38:273:85"
         }],
         "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 9367,
-    "repairTimeMs": 488,
-    "startTimeMs": 1612800295696,
+    "totalTimeMs": 9718,
+    "repairTimeMs": 450,
+    "startTimeMs": 1613322111544,
     "crashes": [],
-    "endTimeMs": 1612800305063,
-    "parseTimeMs": 3727
+    "endTimeMs": 1613322121262,
+    "parseTimeMs": 3816
 }

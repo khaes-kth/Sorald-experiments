@@ -1,0 +1,1962 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 21 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 21 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] stream-registry                                                    [pom]
+[INFO] stream-registry-model                                              [jar]
+[INFO] stream-registry-handler-spi                                        [jar]
+[INFO] stream-registry-repository-api                                     [jar]
+[INFO] stream-registry-core                                               [jar]
+[INFO] stream-registry-graphql-scalars                                    [jar]
+[INFO] stream-registry-graphql-api                                        [jar]
+[INFO] stream-registry-state-api                                          [jar]
+[INFO] stream-registry-state-core                                         [jar]
+[INFO] stream-registry-state-avro                                         [jar]
+[INFO] stream-registry-state-kafka-receiver                               [jar]
+[INFO] stream-registry-state-kafka-sender                                 [jar]
+[INFO] stream-registry-repository-kafka                                   [jar]
+[INFO] stream-registry-spring-boot-starter                                [jar]
+[INFO] stream-registry-app                                                [jar]
+[INFO] stream-registry-graphql-maven-plugin                      [maven-plugin]
+[INFO] stream-registry-state-graphql-sender                               [jar]
+[INFO] stream-registry-cli                                                [jar]
+[INFO] stream-registry-state-example                                      [jar]
+[INFO] state-it                                                           [jar]
+[INFO] stream-registry-it                                                 [jar]
+[INFO] 
+[INFO] ----------< com.expediagroup.streamplatform:stream-registry >-----------
+[INFO] Building stream-registry 0.15.2-SNAPSHOT                          [1/21]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry ---
+[INFO] 
+[INFO] -------< com.expediagroup.streamplatform:stream-registry-model >--------
+[INFO] Building stream-registry-model 0.15.2-SNAPSHOT                    [2/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-model ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-model ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-model ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-model ---
+[INFO] Updating license headers...
+[INFO] Updating license header in: /workdir/stream-registry/model/src/main/java/com/expediagroup/streamplatform/streamregistry/model/Specified.java
+[INFO] Updating license header in: /workdir/stream-registry/model/src/main/java/com/expediagroup/streamplatform/streamregistry/model/Stated.java
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-model ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/model/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-model ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-model ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/model/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-model ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 26 source files to /workdir/stream-registry/model/target/classes
+[INFO] /workdir/stream-registry/model/src/main/java/com/expediagroup/streamplatform/streamregistry/model/StreamBinding.java: Some input files use or override a deprecated API.
+[INFO] /workdir/stream-registry/model/src/main/java/com/expediagroup/streamplatform/streamregistry/model/StreamBinding.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-model ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/model/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-model ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-model ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----< com.expediagroup.streamplatform:stream-registry-handler-spi >-----
+[INFO] Building stream-registry-handler-spi 0.15.2-SNAPSHOT              [3/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-handler-spi ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-handler-spi ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-handler-spi ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-handler-spi ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-handler-spi ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/handler-spi/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-handler-spi ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-handler-spi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/handler-spi/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-handler-spi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-handler-spi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/handler-spi/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-handler-spi ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-handler-spi ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---< com.expediagroup.streamplatform:stream-registry-repository-api >---
+[INFO] Building stream-registry-repository-api 0.15.2-SNAPSHOT           [4/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-repository-api ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-repository-api ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-repository-api ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-repository-api ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-repository-api ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/repository/api/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-repository-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-repository-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/repository/api/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-repository-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-repository-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/repository/api/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-repository-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-repository-api ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------< com.expediagroup.streamplatform:stream-registry-core >--------
+[INFO] Building stream-registry-core 0.15.2-SNAPSHOT                     [5/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-core ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-core ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-core ---
+[INFO] Updating license headers...
+[INFO] Updating license header in: /workdir/stream-registry/core/src/test/resources/logback-test.xml
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-core ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/core/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-core ---
+[INFO] Surefire report directory: /workdir/stream-registry/core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.expediagroup.streamplatform.streamregistry.core.services.ProducerBindingServiceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.15 sec
+Running com.expediagroup.streamplatform.streamregistry.core.services.ConsumerBindingServiceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 sec
+Running com.expediagroup.streamplatform.streamregistry.core.services.ConsumerServiceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 sec
+Running com.expediagroup.streamplatform.streamregistry.core.services.InfrastructureServiceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+Running com.expediagroup.streamplatform.streamregistry.core.services.DomainServiceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec
+
+Results :
+
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --< com.expediagroup.streamplatform:stream-registry-graphql-scalars >---
+[INFO] Building stream-registry-graphql-scalars 0.15.2-SNAPSHOT          [6/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-graphql-scalars ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-graphql-scalars ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-graphql-scalars ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-graphql-scalars ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-graphql-scalars ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/graphql/scalars/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-graphql-scalars ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-graphql-scalars ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/graphql/scalars/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-graphql-scalars ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-graphql-scalars ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/graphql/scalars/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-graphql-scalars ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-graphql-scalars ---
+[INFO] Surefire report directory: /workdir/stream-registry/graphql/scalars/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.expediagroup.streamplatform.streamregistry.graphql.type.JsonCoercingUtilTest
+09:33:45.444 [main] ERROR com.expediagroup.streamplatform.streamregistry.graphql.type.JsonCoercingUtil - Expected 'Value', got: null
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.234 sec
+Running com.expediagroup.streamplatform.streamregistry.graphql.type.ObjectNodeCoercingTest
+09:33:46.351 [main] ERROR com.expediagroup.streamplatform.streamregistry.graphql.type.ObjectNodeCoercing - Expected 'ObjectValue', got: ArrayValue{values=[]}
+09:33:46.395 [main] ERROR com.expediagroup.streamplatform.streamregistry.graphql.type.ObjectNodeCoercing - Error parsing value: {
+com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input: expected close marker for Object (start marker at [Source: (String)"{"; line: 1, column: 1])
+ at [Source: (String)"{"; line: 1, column: 3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:664)
+	at com.fasterxml.jackson.core.base.ParserBase._handleEOF(ParserBase.java:486)
+	at com.fasterxml.jackson.core.base.ParserBase._eofAsNextChar(ParserBase.java:498)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._skipWSOrEnd(ReaderBasedJsonParser.java:2354)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:905)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer.deserializeObject(JsonNodeDeserializer.java:249)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:68)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:15)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:4254)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:2711)
+	at com.expediagroup.streamplatform.streamregistry.graphql.type.ObjectNodeCoercing.parseValue(ObjectNodeCoercing.java:37)
+	at com.expediagroup.streamplatform.streamregistry.graphql.type.ObjectNodeCoercingTest.parseValueNotValidJson(ObjectNodeCoercingTest.java:82)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.935 sec
+
+Results :
+
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----< com.expediagroup.streamplatform:stream-registry-graphql-api >-----
+[INFO] Building stream-registry-graphql-api 0.15.2-SNAPSHOT              [7/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-graphql-api ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-graphql-api ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-graphql-api ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-graphql-api ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-graphql-api ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/graphql/api/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-graphql-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-graphql-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-graphql-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-graphql-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/graphql/api/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-graphql-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-graphql-api ---
+[INFO] Surefire report directory: /workdir/stream-registry/graphql/api/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.expediagroup.streamplatform.streamregistry.graphql.filters.FilterUtilityTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec
+Running com.expediagroup.streamplatform.streamregistry.graphql.filters.ConsumerBindingFilterTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.424 sec
+Running com.expediagroup.streamplatform.streamregistry.graphql.filters.TagMatchUtilityTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.expediagroup.streamplatform.streamregistry.graphql.filters.ProducerBindingFilterTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.expediagroup.streamplatform.streamregistry.graphql.filters.SchemaFilterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.expediagroup.streamplatform.streamregistry.graphql.filters.StreamFilterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.expediagroup.streamplatform.streamregistry.graphql.GraphQLBeanPostProcessorTest
+09:33:48.838 [main] DEBUG com.expediagroup.streamplatform.streamregistry.graphql.GraphQLBeanPostProcessor - Proxying beanName with GraphQLMetricHandler
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.861 sec
+Running com.expediagroup.streamplatform.streamregistry.graphql.GraphQLMetricHandlerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.155 sec
+Running com.expediagroup.streamplatform.streamregistry.graphql.model.inputs.NameNormaliserTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+
+Results :
+
+Tests run: 46, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -----< com.expediagroup.streamplatform:stream-registry-state-api >------
+[INFO] Building stream-registry-state-api 0.15.2-SNAPSHOT                [8/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-state-api ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-state-api ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-state-api ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-state-api ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-state-api ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/state/api/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-state-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-state-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/state/api/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-state-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-state-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/state/api/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-state-api ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-state-api ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----< com.expediagroup.streamplatform:stream-registry-state-core >-----
+[INFO] Building stream-registry-state-core 0.15.2-SNAPSHOT               [9/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-state-core ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-state-core ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-state-core ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-state-core ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-state-core ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/state/core/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-state-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-state-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-state-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-state-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/state/core/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-state-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-state-core ---
+[INFO] Surefire report directory: /workdir/stream-registry/state/core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.expediagroup.streamplatform.streamregistry.state.DefaultEventCorrelatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.344 sec
+Running com.expediagroup.streamplatform.streamregistry.state.DefaultEntityViewTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.855 sec
+Running com.expediagroup.streamplatform.streamregistry.state.EntityViewUpdaterTest
+09:33:50.866 [main] WARN  c.e.s.s.state.EntityViewUpdater - Received status name non existent entity Entity.DomainKey(name=domain)
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+
+Results :
+
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -----< com.expediagroup.streamplatform:stream-registry-state-avro >-----
+[INFO] Building stream-registry-state-avro 0.15.2-SNAPSHOT              [10/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-state-avro ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-state-avro ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-state-avro ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-state-avro ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-state-avro ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/state/avro/target/jacoco.exec
+[INFO] 
+[INFO] --- avro-maven-plugin:1.9.2:idl-protocol (default) @ stream-registry-state-avro ---
+[WARNING] configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+[WARNING] configuration key 'class.resource.loader.class' has been deprecated in favor of 'resource.loader.class.class'
+[WARNING] configuration key 'file.resource.loader.class' has been deprecated in favor of 'resource.loader.file.class'
+[WARNING] configuration key 'file.resource.loader.path' has been deprecated in favor of 'resource.loader.file.path'
+[WARNING] configuration key 'runtime.references.strict' has been deprecated in favor of 'runtime.strict_mode.enable'
+[WARNING] configuration key 'space.gobbling' has been deprecated in favor of 'parser.space_gobbling'
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-state-avro ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-state-avro ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-state-avro ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 26 source files to /workdir/stream-registry/state/avro/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-state-avro ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-state-avro ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-state-avro ---
+[INFO] Surefire report directory: /workdir/stream-registry/state/avro/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.expediagroup.streamplatform.streamregistry.state.avro.AvroObjectModuleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.8 sec
+Running com.expediagroup.streamplatform.streamregistry.state.avro.AvroConverterTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.171 sec
+
+Results :
+
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --< com.expediagroup.streamplatform:stream-registry-state-kafka-receiver >--
+[INFO] Building stream-registry-state-kafka-receiver 0.15.2-SNAPSHOT    [11/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-state-kafka-receiver ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-state-kafka-receiver ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-state-kafka-receiver ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-state-kafka-receiver ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-state-kafka-receiver ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/state/kafka-receiver/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-state-kafka-receiver ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-state-kafka-receiver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/state/kafka-receiver/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-state-kafka-receiver ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-state-kafka-receiver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-state-kafka-receiver ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-state-kafka-receiver ---
+[INFO] Surefire report directory: /workdir/stream-registry/state/kafka-receiver/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiverTest
+09:33:57.120 [pool-1-thread-1] INFO  c.e.s.s.s.kafka.KafkaEventReceiver - Offsets: beginning[0], end[0]
+09:33:57.127 [pool-1-thread-1] INFO  c.e.s.s.s.kafka.KafkaEventReceiver - Loading complete. Empty topic.
+09:33:57.135 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.148 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.149 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.151 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.152 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.153 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.154 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.156 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.157 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.158 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.159 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.160 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.161 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.162 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.163 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.164 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.165 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.166 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.167 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.167 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.168 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.169 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.170 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.171 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.172 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.172 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.173 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.174 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.175 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.176 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.176 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.177 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.178 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.179 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.180 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.180 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.181 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.182 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.183 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.184 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.184 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.185 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.186 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.187 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.187 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.188 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.189 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.189 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.190 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.191 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.191 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.192 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.193 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.193 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.194 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.195 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.195 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.196 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.197 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.197 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.198 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.199 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.200 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.200 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.201 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.202 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.202 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.203 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.204 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.204 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.205 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.206 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.206 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.207 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.208 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.208 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.209 [pool-1-thread-1] ERROR c.e.s.s.s.kafka.KafkaEventReceiver - Listener failed for event event
+java.lang.RuntimeException: listener error
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.consume(KafkaEventReceiver.java:127)
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventReceiver.lambda$receive$0(KafkaEventReceiver.java:86)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+09:33:57.236 [pool-2-thread-1] INFO  c.e.s.s.s.kafka.KafkaEventReceiver - Offsets: beginning[0], end[0]
+09:33:57.239 [pool-2-thread-1] INFO  c.e.s.s.s.kafka.KafkaEventReceiver - Loading complete. Empty topic.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.657 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --< com.expediagroup.streamplatform:stream-registry-state-kafka-sender >--
+[INFO] Building stream-registry-state-kafka-sender 0.15.2-SNAPSHOT      [12/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-state-kafka-sender ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-state-kafka-sender ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-state-kafka-sender ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-state-kafka-sender ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-state-kafka-sender ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/state/kafka-sender/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-state-kafka-sender ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-state-kafka-sender ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/state/kafka-sender/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-state-kafka-sender ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-state-kafka-sender ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-state-kafka-sender ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-state-kafka-sender ---
+[INFO] Surefire report directory: /workdir/stream-registry/state/kafka-sender/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventSenderTest
+09:34:00.359 [main] DEBUG c.e.s.s.s.kafka.KafkaEventSender - Sending correlationId - ProducerRecord(topic=topic, partition=null, headers=RecordHeaders(headers = [RecordHeader(key = correlationId, value = [99, 111, 114, 114, 101, 108, 97, 116, 105, 111, 110, 73, 100])], isReadOnly = false), key=avroKey, value=avroValue, timestamp=null)
+09:34:00.414 [main] DEBUG c.e.s.s.s.kafka.KafkaEventSender - Sent correlationId - Mock for RecordMetadata, hashCode: 1242240769
+09:34:00.425 [main] DEBUG c.e.s.s.s.kafka.KafkaEventSender - Sending null - ProducerRecord(topic=topic, partition=null, headers=RecordHeaders(headers = [], isReadOnly = false), key=avroKey, value=avroValue, timestamp=null)
+09:34:00.431 [main] ERROR c.e.s.s.s.kafka.KafkaEventSender - Error sending record null
+java.lang.Exception: null
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventSenderTest.nullCorrelatorFailure(KafkaEventSenderTest.java:141)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.mockito.internal.runners.DefaultInternalRunner$1$1.evaluate(DefaultInternalRunner.java:44)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:74)
+	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:80)
+	at org.mockito.internal.runners.StrictRunner.run(StrictRunner.java:39)
+	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+09:34:00.434 [main] DEBUG c.e.s.s.s.kafka.KafkaEventSender - Sending correlationId - ProducerRecord(topic=topic, partition=null, headers=RecordHeaders(headers = [RecordHeader(key = correlationId, value = [99, 111, 114, 114, 101, 108, 97, 116, 105, 111, 110, 73, 100])], isReadOnly = false), key=avroKey, value=avroValue, timestamp=null)
+09:34:00.435 [main] ERROR c.e.s.s.s.kafka.KafkaEventSender - Error sending record correlationId
+java.lang.Exception: null
+	at com.expediagroup.streamplatform.streamregistry.state.kafka.KafkaEventSenderTest.correlatorFailure(KafkaEventSenderTest.java:168)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.mockito.internal.runners.DefaultInternalRunner$1$1.evaluate(DefaultInternalRunner.java:44)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.mockito.internal.runners.DefaultInternalRunner$1.run(DefaultInternalRunner.java:74)
+	at org.mockito.internal.runners.DefaultInternalRunner.run(DefaultInternalRunner.java:80)
+	at org.mockito.internal.runners.StrictRunner.run(StrictRunner.java:39)
+	at org.mockito.junit.MockitoJUnitRunner.run(MockitoJUnitRunner.java:163)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+09:34:00.439 [main] DEBUG c.e.s.s.s.kafka.KafkaEventSender - Sending null - ProducerRecord(topic=topic, partition=null, headers=RecordHeaders(headers = [], isReadOnly = false), key=avroKey, value=avroValue, timestamp=null)
+09:34:00.440 [main] DEBUG c.e.s.s.s.kafka.KafkaEventSender - Sent null - Mock for RecordMetadata, hashCode: 1637214165
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.549 sec
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --< com.expediagroup.streamplatform:stream-registry-repository-kafka >--
+[INFO] Building stream-registry-repository-kafka 0.15.2-SNAPSHOT        [13/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-repository-kafka ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-repository-kafka ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-repository-kafka ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-repository-kafka ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-repository-kafka ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/repository/kafka/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-repository-kafka ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-repository-kafka ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/repository/kafka/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-repository-kafka ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-repository-kafka ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/repository/kafka/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-repository-kafka ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-repository-kafka ---
+[INFO] Surefire report directory: /workdir/stream-registry/repository/kafka/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.expediagroup.streamplatform.streamregistry.repository.kafka.ConverterTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.552 sec
+Running com.expediagroup.streamplatform.streamregistry.repository.kafka.ProducerBindingRepositoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.662 sec
+Running com.expediagroup.streamplatform.streamregistry.repository.kafka.ConsumerBindingRepositoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.066 sec
+Running com.expediagroup.streamplatform.streamregistry.repository.kafka.DefaultRepositoryTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+
+Results :
+
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --< com.expediagroup.streamplatform:stream-registry-spring-boot-starter >--
+[INFO] Building stream-registry-spring-boot-starter 0.15.2-SNAPSHOT     [14/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-spring-boot-starter ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-spring-boot-starter ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-spring-boot-starter ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-spring-boot-starter ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-spring-boot-starter ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/spring-boot-starter/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-spring-boot-starter ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-spring-boot-starter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-spring-boot-starter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-spring-boot-starter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/spring-boot-starter/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-spring-boot-starter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-spring-boot-starter ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------< com.expediagroup.streamplatform:stream-registry-app >---------
+[INFO] Building stream-registry-app 0.15.2-SNAPSHOT                     [15/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-app ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-app ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-app ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-app ---
+[INFO] Updating license headers...
+[INFO] Updating license header in: /workdir/stream-registry/app/src/main/resources/logback.xml
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-app ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/app/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-app ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-app ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-app ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/app/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-app ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-app ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --< com.expediagroup.streamplatform:stream-registry-graphql-maven-plugin >--
+[INFO] Building stream-registry-graphql-maven-plugin 0.15.2-SNAPSHOT    [16/21]
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-graphql-maven-plugin ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-graphql-maven-plugin ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-graphql-maven-plugin ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-graphql-maven-plugin ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-graphql-maven-plugin ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/graphql/maven-plugin/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-graphql-maven-plugin ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-graphql-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-graphql-maven-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.6.0:descriptor (default-descriptor) @ stream-registry-graphql-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[INFO] java-javadoc mojo extractor found 0 mojo descriptor.
+[INFO] java-annotations mojo extractor found 1 mojo descriptor.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-graphql-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-graphql-maven-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-graphql-maven-plugin ---
+[INFO] Surefire report directory: /workdir/stream-registry/graphql/maven-plugin/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.expediagroup.streamplatform.streamregistry.graphql.GraphQLIntrospectionFileGeneratorMojoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.663 sec
+Running com.expediagroup.streamplatform.streamregistry.graphql.GraphQLIntrospectionFileGeneratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.159 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --< com.expediagroup.streamplatform:stream-registry-state-graphql-sender >--
+[INFO] Building stream-registry-state-graphql-sender 0.15.2-SNAPSHOT    [17/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-state-graphql-sender ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-state-graphql-sender ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-state-graphql-sender ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-state-graphql-sender ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-state-graphql-sender ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/state/graphql-sender/target/jacoco.exec
+[INFO] 
+[INFO] --- stream-registry-graphql-maven-plugin:0.15.2-SNAPSHOT:generate (default) @ stream-registry-state-graphql-sender ---
+[INFO] 
+[INFO] --- apollo-client-maven-plugin:3.1.0:generate (graphql-generate-sources) @ stream-registry-state-graphql-sender ---
+[INFO] Apollo GraphQL Client Code Generation task started
+[INFO] Read queries files
+[INFO] Add the compiled sources to project root
+[INFO] Apollo GraphQL Client Code Generation task finished
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-state-graphql-sender ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-state-graphql-sender ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-state-graphql-sender ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 51 source files to /workdir/stream-registry/state/graphql-sender/target/classes
+[INFO] /workdir/stream-registry/state/graphql-sender/src/main/java/com/expediagroup/streamplatform/streamregistry/state/graphql/GraphQLConverter.java: /workdir/stream-registry/state/graphql-sender/src/main/java/com/expediagroup/streamplatform/streamregistry/state/graphql/GraphQLConverter.java uses unchecked or unsafe operations.
+[INFO] /workdir/stream-registry/state/graphql-sender/src/main/java/com/expediagroup/streamplatform/streamregistry/state/graphql/GraphQLConverter.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-state-graphql-sender ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-state-graphql-sender ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-state-graphql-sender ---
+[INFO] Surefire report directory: /workdir/stream-registry/state/graphql-sender/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.expediagroup.streamplatform.streamregistry.state.graphql.ObjectNodeTypeAdapterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.546 sec
+Running com.expediagroup.streamplatform.streamregistry.state.graphql.DefaultApolloClientFactoryTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.573 sec
+Running com.expediagroup.streamplatform.streamregistry.state.graphql.GraphQLEventSenderTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.528 sec
+Running com.expediagroup.streamplatform.streamregistry.state.graphql.GraphQLConverterTest
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.143 sec
+Running com.expediagroup.streamplatform.streamregistry.state.graphql.ApolloExecutorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.261 sec
+
+Results :
+
+Tests run: 46, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --------< com.expediagroup.streamplatform:stream-registry-cli >---------
+[INFO] Building stream-registry-cli 0.15.2-SNAPSHOT                     [18/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-cli ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-cli ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-cli ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-cli ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-cli ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/cli/target/jacoco.exec
+[INFO] 
+[INFO] --- stream-registry-graphql-maven-plugin:0.15.2-SNAPSHOT:generate (default) @ stream-registry-cli ---
+[INFO] 
+[INFO] --- apollo-client-maven-plugin:3.1.0:generate (graphql-generate-sources) @ stream-registry-cli ---
+[INFO] Apollo GraphQL Client Code Generation task started
+[INFO] Read queries files
+[INFO] Add the compiled sources to project root
+[INFO] Apollo GraphQL Client Code Generation task finished
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-cli ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-cli ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-cli ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 25 source files to /workdir/stream-registry/cli/target/classes
+[WARNING] /workdir/stream-registry/cli/src/main/java/com/expediagroup/streamplatform/streamregistry/cli/option/EntityOptions.java:[73,3] Generating equals/hashCode implementation but without a call to superclass, even though this class does not extend java.lang.Object. If this is intentional, add '@EqualsAndHashCode(callSuper=false)' to your type.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-cli ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/cli/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-cli ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-cli ---
+[INFO] Surefire report directory: /workdir/stream-registry/cli/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.expediagroup.streamplatform.streamregistry.cli.command.delete.StreamAndSchemaDiscovererTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.785 sec
+Running com.expediagroup.streamplatform.streamregistry.cli.command.delete.EntityDeleterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 sec
+Running com.expediagroup.streamplatform.streamregistry.cli.command.delete.DeleteTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.808 sec
+Running com.expediagroup.streamplatform.streamregistry.cli.command.ApplyTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 sec
+Running com.expediagroup.streamplatform.streamregistry.cli.action.EventSenderActionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.217 sec
+Running com.expediagroup.streamplatform.streamregistry.cli.CliTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+
+Results :
+
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ---< com.expediagroup.streamplatform:stream-registry-state-example >----
+[INFO] Building stream-registry-state-example 0.15.2-SNAPSHOT           [19/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-state-example ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-state-example ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-state-example ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-state-example ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-state-example ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/state/example/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-state-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-state-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/state/example/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-state-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-state-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/state/example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-state-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-state-example ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------< com.expediagroup.streamplatform:state-it >--------------
+[INFO] Building state-it 0.15.2-SNAPSHOT                                [20/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ state-it ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ state-it ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ state-it ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ state-it ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ state-it ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/state/it/target/jacoco.exec
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ state-it ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ state-it ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/state/it/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ state-it ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ state-it ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ state-it ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ state-it ---
+[INFO] 
+[INFO] ---------< com.expediagroup.streamplatform:stream-registry-it >---------
+[INFO] Building stream-registry-it 0.15.2-SNAPSHOT                      [21/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:3.1.1:unpack (unpack) @ stream-registry-it ---
+[INFO] Configured Artifact: com.expediagroup:eg-oss-plugin-config:1.0.0:jar
+[INFO] eg-oss-plugin-config-1.0.0.jar already unpacked.
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ stream-registry-it ---
+[INFO] 
+[INFO] --- buildnumber-maven-plugin:1.4:create-timestamp (default) @ stream-registry-it ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ stream-registry-it ---
+[INFO] Updating license headers...
+[INFO] Updating license header in: /workdir/stream-registry/it/src/test/resources/logback-test.xml
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (jacoco-initialize) @ stream-registry-it ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/stream-registry/it/target/jacoco.exec
+[INFO] 
+[INFO] --- stream-registry-graphql-maven-plugin:0.15.2-SNAPSHOT:generate (default) @ stream-registry-it ---
+[INFO] 
+[INFO] --- spotless-maven-plugin:1.24.0:apply (default) @ stream-registry-it ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ stream-registry-it ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/stream-registry/it/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ stream-registry-it ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- apollo-client-maven-plugin:3.1.0:generate (graphql-generate-sources) @ stream-registry-it ---
+[INFO] Apollo GraphQL Client Code Generation task started
+[INFO] Read queries files
+[INFO] Add the compiled sources to project root
+[INFO] Apollo GraphQL Client Code Generation task finished
+[INFO] 
+[INFO] --- build-helper-maven-plugin:3.1.0:add-test-source (add-test-sources) @ stream-registry-it ---
+[INFO] Test Source directory: /workdir/stream-registry/it/target/generated-test-sources/graphql-client added.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ stream-registry-it ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ stream-registry-it ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 113 source files to /workdir/stream-registry/it/target/test-classes
+[INFO] /workdir/stream-registry/it/src/test/java/com/expediagroup/streamplatform/streamregistry/it/helpers/StreamRegistryClient.java: Some input files use or override a deprecated API.
+[INFO] /workdir/stream-registry/it/src/test/java/com/expediagroup/streamplatform/streamregistry/it/helpers/StreamRegistryClient.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/stream-registry/it/src/test/java/com/expediagroup/streamplatform/streamregistry/it/helpers/StreamRegistryClient.java: /workdir/stream-registry/it/src/test/java/com/expediagroup/streamplatform/streamregistry/it/helpers/StreamRegistryClient.java uses unchecked or unsafe operations.
+[INFO] /workdir/stream-registry/it/src/test/java/com/expediagroup/streamplatform/streamregistry/it/helpers/StreamRegistryClient.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stream-registry-it ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for stream-registry 0.15.2-SNAPSHOT:
+[INFO] 
+[INFO] stream-registry .................................... SUCCESS [  1.294 s]
+[INFO] stream-registry-model .............................. SUCCESS [  2.377 s]
+[INFO] stream-registry-handler-spi ........................ SUCCESS [  0.051 s]
+[INFO] stream-registry-repository-api ..................... SUCCESS [  0.102 s]
+[INFO] stream-registry-core ............................... SUCCESS [  2.286 s]
+[INFO] stream-registry-graphql-scalars .................... SUCCESS [  1.630 s]
+[INFO] stream-registry-graphql-api ........................ SUCCESS [  2.613 s]
+[INFO] stream-registry-state-api .......................... SUCCESS [  0.134 s]
+[INFO] stream-registry-state-core ......................... SUCCESS [  1.732 s]
+[INFO] stream-registry-state-avro ......................... SUCCESS [  3.384 s]
+[INFO] stream-registry-state-kafka-receiver ............... SUCCESS [  3.164 s]
+[INFO] stream-registry-state-kafka-sender ................. SUCCESS [  3.015 s]
+[INFO] stream-registry-repository-kafka ................... SUCCESS [  1.847 s]
+[INFO] stream-registry-spring-boot-starter ................ SUCCESS [  0.061 s]
+[INFO] stream-registry-app ................................ SUCCESS [  0.069 s]
+[INFO] stream-registry-graphql-maven-plugin ............... SUCCESS [  2.595 s]
+[INFO] stream-registry-state-graphql-sender ............... SUCCESS [  6.733 s]
+[INFO] stream-registry-cli ................................ SUCCESS [  4.532 s]
+[INFO] stream-registry-state-example ...................... SUCCESS [  0.053 s]
+[INFO] state-it ........................................... SUCCESS [  0.044 s]
+[INFO] stream-registry-it ................................. SUCCESS [  4.557 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.869 s
+[INFO] Finished at: 2021-02-15T09:34:20Z
+[INFO] ------------------------------------------------------------------------

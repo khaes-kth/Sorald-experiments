@@ -1,0 +1,51 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] --------------------------< fr.turri:aXMLRPC >--------------------------
+[INFO] Building aXMLRPC 1.13.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ aXMLRPC ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/aXMLRPC/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ aXMLRPC ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ aXMLRPC ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/aXMLRPC/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ aXMLRPC ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ aXMLRPC ---
+[INFO] Surefire report directory: /workdir/aXMLRPC/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running de.timroes.base64.TestBase64
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
+Running de.timroes.axmlrpc.serializer.TestResponseParser
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.138 sec
+Running de.timroes.axmlrpc.serializer.TestDateTimeSerializer
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running de.timroes.axmlrpc.serializer.TestSerializers
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.553 s
+[INFO] Finished at: 2021-02-14T18:06:11Z
+[INFO] ------------------------------------------------------------------------

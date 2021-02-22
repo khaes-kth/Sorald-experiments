@@ -1,0 +1,346 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< cn.danielw:fast-object-pool >---------------------
+[INFO] Building Fast Object Pool 2.1.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fast-object-pool ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/fast-object-pool/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fast-object-pool ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fast-object-pool ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/fast-object-pool/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ fast-object-pool ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ fast-object-pool ---
+[INFO] Surefire report directory: /workdir/fast-object-pool/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestObjectPool
+test borrow
+test borrow
+test borrow
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPoolPartition increaseObjects
+FINE: increase objects: count=3, queue size=1
+test borrow
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPoolPartition increaseObjects
+FINE: increase objects: count=4, queue size=1
+test borrow
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPoolPartition increaseObjects
+FINE: increase objects: count=5, queue size=1
+test borrow
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPoolPartition increaseObjects
+FINE: increase objects: count=6, queue size=1
+test borrow
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPoolPartition increaseObjects
+FINE: increase objects: count=7, queue size=1
+test borrow
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPoolPartition increaseObjects
+FINE: increase objects: count=8, queue size=1
+test borrow
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPoolPartition increaseObjects
+FINE: increase objects: count=9, queue size=1
+test borrow
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPoolPartition increaseObjects
+FINE: increase objects: count=10, queue size=1
+pool size:12
+test return
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:1, partition id:1
+test return
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+test return
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:3, partition id:1
+test return
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:4, partition id:1
+test return
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:5, partition id:1
+test return
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:6, partition id:1
+test return
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:7, partition id:1
+test return
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:8, partition id:1
+test return
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:9, partition id:1
+test return
+Feb 15, 2021 12:49:46 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:10, partition id:1
+pool size:12
+Feb 15, 2021 12:49:51 AM cn.danielw.fop.ObjectPool$Scavenger run
+FINE: scavenge sub pool 1
+Feb 15, 2021 12:49:51 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@6097c288, now-last=5004, max idle=5000
+Feb 15, 2021 12:49:51 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@2f6d3ad1, now-last=5004, max idle=5000
+Feb 15, 2021 12:49:51 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@71302e36, now-last=4976, max idle=5000
+Feb 15, 2021 12:49:51 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@1e88979a, now-last=4975, max idle=5000
+Feb 15, 2021 12:49:51 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@93fddda, now-last=4975, max idle=5000
+Feb 15, 2021 12:49:51 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@4f42c59e, now-last=4974, max idle=5000
+Feb 15, 2021 12:49:51 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@3ff313de, now-last=4973, max idle=5000
+Feb 15, 2021 12:49:51 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@659d77fd, now-last=4973, max idle=5000
+Feb 15, 2021 12:49:51 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: 2 objects were scavenged.
+Feb 15, 2021 12:49:56 AM cn.danielw.fop.ObjectPool$Scavenger run
+FINE: scavenge sub pool 0
+Feb 15, 2021 12:50:01 AM cn.danielw.fop.ObjectPool$Scavenger run
+FINE: scavenge sub pool 1
+Feb 15, 2021 12:50:01 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@123bb799, now-last=14993, max idle=5000
+Feb 15, 2021 12:50:01 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@4b0cfe75, now-last=14993, max idle=5000
+Feb 15, 2021 12:50:01 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@71302e36, now-last=14997, max idle=5000
+Feb 15, 2021 12:50:01 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@1e88979a, now-last=14996, max idle=5000
+Feb 15, 2021 12:50:01 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@93fddda, now-last=14996, max idle=5000
+Feb 15, 2021 12:50:01 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: obj=cn.danielw.fop.Poolable@4f42c59e, now-last=14995, max idle=5000
+Feb 15, 2021 12:50:01 AM cn.danielw.fop.ObjectPoolPartition scavenge
+FINE: 6 objects were scavenged.
+scavenged, pool size=4
+pool size:4
+Feb 15, 2021 12:50:06 AM cn.danielw.fop.ObjectPool$Scavenger run
+FINE: scavenge sub pool 0
+Feb 15, 2021 12:50:11 AM cn.danielw.fop.ObjectPool$Scavenger run
+FINE: scavenge sub pool 1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+pool size:4
+All done
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+Feb 15, 2021 12:50:16 AM cn.danielw.fop.ObjectPool returnObject
+FINE: return object: queue size:2, partition id:1
+pool size:4
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.171 sec
+
+Results :
+
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  31.043 s
+[INFO] Finished at: 2021-02-15T00:50:16Z
+[INFO] ------------------------------------------------------------------------

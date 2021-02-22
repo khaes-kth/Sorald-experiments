@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
+        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 153,
@@ -31,11 +32,10 @@
                 "violationSpecifier": "4973:plugin/tiff/src/main/java/it/geosolutions/imageioimpl/plugins/tiff/TIFFFieldNode.java:169:25:169:27"
             }
         ],
-        "nbViolationsBefore": 3,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 15309,
-    "repairTimeMs": 685,
-    "startTimeMs": 1612802717597,
+    "totalTimeMs": 15506,
+    "repairTimeMs": 751,
+    "startTimeMs": 1613327303851,
     "crashes": [],
-    "endTimeMs": 1612802732906,
-    "parseTimeMs": 7214
+    "endTimeMs": 1613327319357,
+    "parseTimeMs": 7059
 }

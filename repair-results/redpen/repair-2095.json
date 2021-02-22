@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [{
+            "endLine": 603,
+            "endColumn": 128,
+            "startColumn": 29,
+            "startLine": 603,
+            "filePath": "redpen-core/src/test/java/cc/redpen/AsciiDocParserTest.java",
+            "violationSpecifier": "2095:redpen-core/src/test/java/cc/redpen/AsciiDocParserTest.java:603:29:603:128"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 38248282",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 18841,
+    "repairTimeMs": 449,
+    "startTimeMs": 1613341797014,
+    "crashes": [],
+    "endTimeMs": 1613341815855,
+    "parseTimeMs": 4398
+}

@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 358,
             "endColumn": 34,
@@ -13,11 +14,10 @@
             "filePath": "src/main/java/com/vdurmont/semver4j/Semver.java",
             "violationSpecifier": "4973:src/main/java/com/vdurmont/semver4j/Semver.java:358:32:358:34"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 2950,
-    "repairTimeMs": 209,
-    "startTimeMs": 1612811807367,
+    "totalTimeMs": 3127,
+    "repairTimeMs": 239,
+    "startTimeMs": 1613355475236,
     "crashes": [],
-    "endTimeMs": 1612811810317,
-    "parseTimeMs": 1075
+    "endTimeMs": 1613355478363,
+    "parseTimeMs": 1108
 }

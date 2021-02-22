@@ -1,0 +1,782 @@
+[INFO] Scanning for projects...
+[WARNING] The project cc.redpen:redpen-distribution:jar:1.10.4 uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] redpen                                                             [pom]
+[INFO] redpen-core                                                        [jar]
+[INFO] redpen-plugin                                                      [jar]
+[INFO] redpen-cli                                                         [jar]
+[INFO] redpen-server                                                      [war]
+[INFO] redpen-distribution                                                [jar]
+[INFO] 
+[INFO] --------------------------< cc.redpen:redpen >--------------------------
+[INFO] Building redpen 1.10.4                                             [1/6]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -----------------------< cc.redpen:redpen-core >------------------------
+[INFO] Building redpen-core 1.10.4                                        [2/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.2:prepare-agent (prepare-agent) @ redpen-core ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.2/org.jacoco.agent-0.8.2-runtime.jar=destfile=/workdir/redpen/redpen-core/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ redpen-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 22 resources
+[INFO] Copying 1 resource to ..
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ redpen-core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 138 source files to /workdir/redpen/redpen-core/target/classes
+[WARNING] /workdir/redpen/redpen-core/src/main/java/cc/redpen/validator/ValidatorFactory.java: /workdir/redpen/redpen-core/src/main/java/cc/redpen/validator/ValidatorFactory.java uses or overrides a deprecated API.
+[WARNING] /workdir/redpen/redpen-core/src/main/java/cc/redpen/validator/ValidatorFactory.java: Recompile with -Xlint:deprecation for details.
+[WARNING] /workdir/redpen/redpen-core/src/main/java/cc/redpen/parser/common/Model.java: Some input files use unchecked or unsafe operations.
+[WARNING] /workdir/redpen/redpen-core/src/main/java/cc/redpen/parser/common/Model.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.4:run (copy) @ redpen-core ---
+project.artifactId
+[INFO] Executing tasks
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ redpen-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 14 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ redpen-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ redpen-core ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Feb 14, 2021 10:31:06 PM org.junit.jupiter.engine.discovery.JavaElementsResolver resolveClass
+WARNING: Class 'cc.redpen.validator.BaseValidatorTest' could not be resolved.
+Running cc.redpen.validator.HardcodedMessageValidatorTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec - in cc.redpen.validator.HardcodedMessageValidatorTest
+Running cc.redpen.validator.ValidatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec - in cc.redpen.validator.ValidatorTest
+Running cc.redpen.validator.JavaScriptValidatorTest
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.parboiled.transform.AsmUtils (file:/home/maven/.m2/repository/org/parboiled/parboiled-java/1.1.7/parboiled-java-1.1.7.jar) to method java.lang.ClassLoader.findLoadedClass(java.lang.String)
+WARNING: Please consider reporting this to the maintainers of org.parboiled.transform.AsmUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.306 sec - in cc.redpen.validator.JavaScriptValidatorTest
+Running cc.redpen.validator.ExpressionRuleTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in cc.redpen.validator.ExpressionRuleTest
+Running cc.redpen.validator.section.ParagraphStartWithValidatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in cc.redpen.validator.section.ParagraphStartWithValidatorTest
+Running cc.redpen.validator.section.VoidSectionValidatorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in cc.redpen.validator.section.VoidSectionValidatorTest
+Running cc.redpen.validator.section.HeaderLengthValidatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in cc.redpen.validator.section.HeaderLengthValidatorTest
+Running cc.redpen.validator.section.DuplicatedSectionValidatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in cc.redpen.validator.section.DuplicatedSectionValidatorTest
+Running cc.redpen.validator.section.SectionLevelValidatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.validator.section.SectionLevelValidatorTest
+Running cc.redpen.validator.section.EmptySectionValidatorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in cc.redpen.validator.section.EmptySectionValidatorTest
+Running cc.redpen.validator.section.SectionLengthValidatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.validator.section.SectionLengthValidatorTest
+Running cc.redpen.validator.section.ListLevelValidatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in cc.redpen.validator.section.ListLevelValidatorTest
+Running cc.redpen.validator.section.ParagraphNumberValidatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.validator.section.ParagraphNumberValidatorTest
+Running cc.redpen.validator.SeparateValidationErrorMessageResourceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in cc.redpen.validator.SeparateValidationErrorMessageResourceTest
+Running cc.redpen.validator.ValidatorFactoryTest
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.907 sec - in cc.redpen.validator.ValidatorFactoryTest
+Running cc.redpen.validator.document.UnexpandedAcronymValidatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec - in cc.redpen.validator.document.UnexpandedAcronymValidatorTest
+Running cc.redpen.validator.document.WordFrequencyValidatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in cc.redpen.validator.document.WordFrequencyValidatorTest
+Running cc.redpen.validator.document.GappedSectionValidatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.validator.document.GappedSectionValidatorTest
+Running cc.redpen.validator.document.FrequentSentenceStartValidatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in cc.redpen.validator.document.FrequentSentenceStartValidatorTest
+Running cc.redpen.validator.document.JapaneseExpressionVariationValidatorTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.966 sec - in cc.redpen.validator.document.JapaneseExpressionVariationValidatorTest
+Running cc.redpen.validator.sentence.ParenthesizedSentenceValidatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.validator.sentence.ParenthesizedSentenceValidatorTest
+Running cc.redpen.validator.sentence.NumberFormatValidatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in cc.redpen.validator.sentence.NumberFormatValidatorTest
+Running cc.redpen.validator.sentence.SentenceLengthValidatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in cc.redpen.validator.sentence.SentenceLengthValidatorTest
+Running cc.redpen.validator.sentence.SpaceBeginningOfSentenceValidatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in cc.redpen.validator.sentence.SpaceBeginningOfSentenceValidatorTest
+Running cc.redpen.validator.sentence.HyphenationValidatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.validator.sentence.HyphenationValidatorTest
+Running cc.redpen.validator.sentence.SuggestExpressionValidatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in cc.redpen.validator.sentence.SuggestExpressionValidatorTest
+Running cc.redpen.validator.sentence.KatakanaSpellCheckValidatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec - in cc.redpen.validator.sentence.KatakanaSpellCheckValidatorTest
+Running cc.redpen.validator.sentence.LongKanjiChainValidatorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in cc.redpen.validator.sentence.LongKanjiChainValidatorTest
+Running cc.redpen.validator.sentence.SuccessiveWordValidatorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in cc.redpen.validator.sentence.SuccessiveWordValidatorTest
+Running cc.redpen.validator.sentence.JapaneseBrokenExpressionValidatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in cc.redpen.validator.sentence.JapaneseBrokenExpressionValidatorTest
+Running cc.redpen.validator.sentence.JapaneseNumberExpressionValidatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in cc.redpen.validator.sentence.JapaneseNumberExpressionValidatorTest
+Running cc.redpen.validator.sentence.JapaneseStyleValidatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in cc.redpen.validator.sentence.JapaneseStyleValidatorTest
+Running cc.redpen.validator.sentence.InvalidSymbolValidatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in cc.redpen.validator.sentence.InvalidSymbolValidatorTest
+Running cc.redpen.validator.sentence.CommaNumberValidatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in cc.redpen.validator.sentence.CommaNumberValidatorTest
+Running cc.redpen.validator.sentence.OkuriganaValidatorTest
+Tests run: 372, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.425 sec - in cc.redpen.validator.sentence.OkuriganaValidatorTest
+Running cc.redpen.validator.sentence.HankakuKanaValidatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.validator.sentence.HankakuKanaValidatorTest
+Running cc.redpen.validator.sentence.SuccessiveSentenceValidatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.validator.sentence.SuccessiveSentenceValidatorTest
+Running cc.redpen.validator.sentence.InvalidWordValidatorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.validator.sentence.InvalidWordValidatorTest
+Running cc.redpen.validator.sentence.StartWithCapitalLetterValidatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.validator.sentence.StartWithCapitalLetterValidatorTest
+Running cc.redpen.validator.sentence.DoubleNegativeValidatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.validator.sentence.DoubleNegativeValidatorTest
+Running cc.redpen.validator.sentence.InvalidExpressionValidatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.validator.sentence.InvalidExpressionValidatorTest
+Running cc.redpen.validator.sentence.DoubledConjunctiveParticleGaValidatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.validator.sentence.DoubledConjunctiveParticleGaValidatorTest
+Running cc.redpen.validator.sentence.JapaneseAnchorExpressionValidatorTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in cc.redpen.validator.sentence.JapaneseAnchorExpressionValidatorTest
+Running cc.redpen.validator.sentence.QuotationValidatorTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in cc.redpen.validator.sentence.QuotationValidatorTest
+Running cc.redpen.validator.sentence.WordNumberValidatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.validator.sentence.WordNumberValidatorTest
+Running cc.redpen.validator.sentence.JapaneseAmbiguousNounConjunctionValidatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec - in cc.redpen.validator.sentence.JapaneseAmbiguousNounConjunctionValidatorTest
+Running cc.redpen.validator.sentence.JapaneseJoyoKanjiValidatorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec - in cc.redpen.validator.sentence.JapaneseJoyoKanjiValidatorTest
+Running cc.redpen.validator.sentence.DoubledWordValidatorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in cc.redpen.validator.sentence.DoubledWordValidatorTest
+Running cc.redpen.validator.sentence.SpaceBetweenAlphabeticalWordValidatorTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec - in cc.redpen.validator.sentence.SpaceBetweenAlphabeticalWordValidatorTest
+Running cc.redpen.validator.sentence.KatakanaEndHyphenValidatorTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in cc.redpen.validator.sentence.KatakanaEndHyphenValidatorTest
+Running cc.redpen.validator.sentence.SpellingValidatorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in cc.redpen.validator.sentence.SpellingValidatorTest
+Running cc.redpen.validator.sentence.EndOfSentenceValidatorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in cc.redpen.validator.sentence.EndOfSentenceValidatorTest
+Running cc.redpen.validator.sentence.ContractionValidatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.validator.sentence.ContractionValidatorTest
+Running cc.redpen.validator.sentence.WeakExpressionValidatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in cc.redpen.validator.sentence.WeakExpressionValidatorTest
+Running cc.redpen.validator.sentence.SymbolWithSpaceValidatorTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec - in cc.redpen.validator.sentence.SymbolWithSpaceValidatorTest
+Running cc.redpen.validator.sentence.DoubledJoshiValidatorTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.validator.sentence.DoubledJoshiValidatorTest
+Running cc.redpen.validator.EmbeddedJavaScriptValidatorTest
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.516 sec - in cc.redpen.validator.EmbeddedJavaScriptValidatorTest
+Running cc.redpen.WikiParserTest
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in cc.redpen.WikiParserTest
+Running cc.redpen.config.ConfigurationRedPenBuilderTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.config.ConfigurationRedPenBuilderTest
+Running cc.redpen.config.ConfigurationLoaderTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.065 sec - in cc.redpen.config.ConfigurationLoaderTest
+Running cc.redpen.config.ValidatorConfigurationTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in cc.redpen.config.ValidatorConfigurationTest
+Running cc.redpen.config.ConfigurationExporterTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec - in cc.redpen.config.ConfigurationExporterTest
+Running cc.redpen.config.ConfigurationTest
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.48 sec - in cc.redpen.config.ConfigurationTest
+Running cc.redpen.config.SymbolTableTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.config.SymbolTableTest
+Running cc.redpen.SampleDocumentGeneratorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in cc.redpen.SampleDocumentGeneratorTest
+Running cc.redpen.tokenizer.JapaneseTokenizerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.tokenizer.JapaneseTokenizerTest
+Running cc.redpen.tokenizer.WhiteSpaceTokenizerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.tokenizer.WhiteSpaceTokenizerTest
+Running cc.redpen.tokenizer.TokenElementTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.tokenizer.TokenElementTest
+Running cc.redpen.RedPenTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in cc.redpen.RedPenTest
+Running cc.redpen.LaTeXParserTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec - in cc.redpen.LaTeXParserTest
+Running cc.redpen.util.DictionaryLoaderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in cc.redpen.util.DictionaryLoaderTest
+Running cc.redpen.util.RuleExtractorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.util.RuleExtractorTest
+Running cc.redpen.util.LevenshteinDistanceTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.util.LevenshteinDistanceTest
+Running cc.redpen.util.EndOfSentenceDetectorTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in cc.redpen.util.EndOfSentenceDetectorTest
+Running cc.redpen.util.LanguageDetectorTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in cc.redpen.util.LanguageDetectorTest
+Running cc.redpen.util.StringUtilsTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.util.StringUtilsTest
+Running cc.redpen.AsciiDocParserTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 sec - in cc.redpen.AsciiDocParserTest
+Running cc.redpen.formatter.FormatterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec - in cc.redpen.formatter.FormatterTest
+Running cc.redpen.formatter.PlainFormatterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.formatter.PlainFormatterTest
+Running cc.redpen.formatter.XMLFormatterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 sec - in cc.redpen.formatter.XMLFormatterTest
+Running cc.redpen.formatter.JSONFormatterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in cc.redpen.formatter.JSONFormatterTest
+Running cc.redpen.formatter.JSONBySentenceFormatterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in cc.redpen.formatter.JSONBySentenceFormatterTest
+Running cc.redpen.MarkdownParserTest
+Tests run: 45, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec - in cc.redpen.MarkdownParserTest
+Running cc.redpen.PlainTextParserTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in cc.redpen.PlainTextParserTest
+Running cc.redpen.parser.asciidoc.AsciiDocTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in cc.redpen.parser.asciidoc.AsciiDocTest
+Running cc.redpen.parser.markdown.MergedCandidateSentenceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.parser.markdown.MergedCandidateSentenceTest
+Running cc.redpen.parser.review.ReVIEWParserTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec - in cc.redpen.parser.review.ReVIEWParserTest
+Running cc.redpen.parser.review.ReVIEWLineTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.parser.review.ReVIEWLineTest
+Running cc.redpen.parser.PreprocessorTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec - in cc.redpen.parser.PreprocessorTest
+Running cc.redpen.parser.LineOffsetTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.parser.LineOffsetTest
+Running cc.redpen.parser.rest.ReSTParserTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec - in cc.redpen.parser.rest.ReSTParserTest
+Running cc.redpen.parser.rest.MultiLineProcessUtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.parser.rest.MultiLineProcessUtilsTest
+Running cc.redpen.parser.PropertiesParserTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in cc.redpen.parser.PropertiesParserTest
+Running cc.redpen.parser.latex.TokenTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.parser.latex.TokenTest
+Running cc.redpen.parser.latex.LexerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.parser.latex.LexerTest
+Running cc.redpen.parser.latex.ToolsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.parser.latex.ToolsTest
+Running cc.redpen.parser.latex.StreamParserTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in cc.redpen.parser.latex.StreamParserTest
+Running cc.redpen.parser.SentenceExtractorTest
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in cc.redpen.parser.SentenceExtractorTest
+Running cc.redpen.model.DocumentTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in cc.redpen.model.DocumentTest
+Running cc.redpen.model.DocumentCollectionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.model.DocumentCollectionTest
+Running cc.redpen.model.SectionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in cc.redpen.model.SectionTest
+
+Results :
+
+Tests run: 1106, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------------------< cc.redpen:redpen-plugin >-----------------------
+[INFO] Building redpen-plugin 1.10.4                                      [3/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ redpen-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ redpen-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ redpen-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/redpen/redpen-plugin/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ redpen-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ redpen-plugin ---
+[INFO] Surefire report directory: /workdir/redpen/redpen-plugin/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------------------< cc.redpen:redpen-cli >------------------------
+[INFO] Building redpen-cli 1.10.4                                         [4/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ redpen-cli ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/redpen/redpen-cli/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ redpen-cli ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/redpen/redpen-cli/target/classes
+[WARNING] /workdir/redpen/redpen-cli/src/main/java/cc/redpen/Main.java: /workdir/redpen/redpen-cli/src/main/java/cc/redpen/Main.java uses or overrides a deprecated API.
+[WARNING] /workdir/redpen/redpen-cli/src/main/java/cc/redpen/Main.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ redpen-cli ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/redpen/redpen-cli/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ redpen-cli ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ redpen-cli ---
+[INFO] Surefire report directory: /workdir/redpen/redpen-cli/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+
+Results :
+
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------------------< cc.redpen:redpen-server >-----------------------
+[INFO] Building redpen-server 1.10.4                                      [5/6]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ redpen-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ redpen-server ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 7 source files to /workdir/redpen/redpen-server/target/classes
+[WARNING] /workdir/redpen/redpen-server/src/main/java/cc/redpen/server/api/RedPenConfigurationResource.java: Some input files use or override a deprecated API.
+[WARNING] /workdir/redpen/redpen-server/src/main/java/cc/redpen/server/api/RedPenConfigurationResource.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ redpen-server ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ redpen-server ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ redpen-server ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running cc.redpen.server.api.CORSFilterTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 sec - in cc.redpen.server.api.CORSFilterTest
+Running cc.redpen.server.api.RedPenConfigurationResourceTest
+22:31:15.419 [main] INFO  cc.redpen.server.api.RedPenService - Creating RedPen instances
+22:31:15.477 [main] INFO  org.reflections.Reflections - Reflections took 33 ms to scan 1 urls, producing 6 keys and 58 values 
+22:31:15.520 [main] WARN  cc.redpen.validator.ValidatorFactory - cc.redpen.validator.section.VoidSectionValidator is deprecated
+22:31:15.541 [main] WARN  cc.redpen.validator.ValidatorFactory - cc.redpen.validator.sentence.SpaceBeginningOfSentenceValidator is deprecated
+22:31:15.549 [main] INFO  org.reflections.Reflections - Reflections took 2 ms to scan 1 urls, producing 172 keys and 177 values 
+22:31:15.562 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:15.564 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:15.564 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:15.647 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load HyphenationValidator default dictionary.
+22:31:15.648 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load double negative expression rules.
+22:31:15.649 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load double negative words.
+22:31:15.649 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load StartWithCapitalLetterValidator default dictionary.
+22:31:15.649 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server).
+22:31:15.659 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+22:31:15.661 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+22:31:15.662 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load DoubledWordValidator default dictionary.
+22:31:15.662 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load InvalidWordValidator default dictionary.
+22:31:15.663 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load InvalidExpressionValidator default dictionary.
+22:31:15.664 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:15.664 [main] INFO  cc.redpen.config.SymbolTable - "zenkaku" variant is specified
+22:31:16.460 [main] INFO  cc.redpen.parser.SentenceExtractor - "[。, ？, ！]" are added as a end of sentence characters
+22:31:16.460 [main] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+22:31:16.461 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load HyphenationValidator default dictionary:default-resources/spellchecker/spellchecker-ja.dat: Failed to load input default-resources/spellchecker/spellchecker-ja.dat
+22:31:16.466 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load double negative expression rules.
+22:31:16.466 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load double negative words.
+22:31:16.466 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load JapaneseExpressionVariationValidator default dictionary.
+22:31:16.467 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server).
+22:31:16.467 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:16.469 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:16.469 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load DoubledWordValidator default dictionary.
+22:31:16.474 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load katakana word dictionary.
+22:31:16.474 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load InvalidExpressionValidator default dictionary.
+22:31:16.475 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:16.476 [main] INFO  cc.redpen.config.SymbolTable - "hankaku" variant is specified
+22:31:16.476 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:16.476 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:16.476 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server).
+22:31:16.477 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:16.478 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:16.479 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:16.479 [main] INFO  cc.redpen.config.SymbolTable - "zenkaku2" variant is specified
+22:31:16.479 [main] INFO  cc.redpen.parser.SentenceExtractor - "[．, ？, ！]" are added as a end of sentence characters
+22:31:16.479 [main] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+22:31:16.480 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server).
+22:31:16.480 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:16.481 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:16.482 [main] INFO  cc.redpen.config.SymbolTable - "ru" is specified
+22:31:16.483 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:16.483 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', »]" are added as a right quotation characters
+22:31:16.483 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load HyphenationValidator default dictionary:default-resources/spellchecker/spellchecker-ru.dat: Failed to load input default-resources/spellchecker/spellchecker-ru.dat
+22:31:16.483 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server).
+22:31:16.484 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ru.dat: Failed to load input default-resources/word-frequency/word-frequency-ru.dat
+22:31:16.484 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ru.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ru.dat
+22:31:16.484 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load DoubledWordValidator default dictionary:default-resources/doubled-word/doubled-word-skiplist-ru.dat: Failed to load input default-resources/doubled-word/doubled-word-skiplist-ru.dat
+22:31:16.484 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load InvalidExpressionValidator default dictionary:default-resources/invalid-expression/invalid-expression-ru.dat: Failed to load input default-resources/invalid-expression/invalid-expression-ru.dat
+22:31:16.485 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:16.485 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:16.485 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:16.486 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load HyphenationValidator default dictionary:default-resources/spellchecker/spellchecker-ko.dat: Failed to load input default-resources/spellchecker/spellchecker-ko.dat
+22:31:16.486 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server).
+22:31:16.487 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ko.dat: Failed to load input default-resources/word-frequency/word-frequency-ko.dat
+22:31:16.487 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ko.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ko.dat
+22:31:16.487 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load DoubledWordValidator default dictionary:default-resources/doubled-word/doubled-word-skiplist-ko.dat: Failed to load input default-resources/doubled-word/doubled-word-skiplist-ko.dat
+22:31:16.488 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load InvalidExpressionValidator default dictionary:default-resources/invalid-expression/invalid-expression-ko.dat: Failed to load input default-resources/invalid-expression/invalid-expression-ko.dat
+22:31:16.488 [main] INFO  cc.redpen.server.api.RedPenService - No Config Path set, using default configurations
+22:31:16.488 [main] INFO  cc.redpen.server.api.RedPenService - Document Validator Server is running.
+22:31:16.512 [main] INFO  c.r.s.a.RedPenConfigurationResource - Exporting configuration using JSON request
+22:31:16.513 [main] WARN  cc.redpen.server.api.RedPenService - No validators are found in config...
+22:31:16.513 [main] INFO  cc.redpen.config.SymbolTable - "ru" is specified
+22:31:16.513 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:16.513 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', »]" are added as a right quotation characters
+22:31:16.518 [main] INFO  cc.redpen.config.SymbolTable - "ru" is specified
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.471 sec - in cc.redpen.server.api.RedPenConfigurationResourceTest
+Running cc.redpen.server.api.RedPenResourceTest
+22:31:16.613 [main] INFO  o.a.w.s.internal.servlet.RestServlet - The system is using the org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication JAX-RS application class that is named in the javax.ws.rs.Application init-param initialization parameter.
+22:31:16.655 [main] INFO  o.a.w.s.i.a.ApplicationProcessor - The following JAX-RS application has been processed: org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication
+22:31:16.655 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenResource with @Path(/document).
+22:31:16.656 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenConfigurationResource with @Path(/config).
+22:31:16.656 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.WinkAPIDescriber with @Path(/).
+22:31:16.656 [main] INFO  o.a.w.server.internal.log.Providers - There are no custom JAX-RS providers defined in the application.
+22:31:16.677 [main] INFO  o.a.w.c.i.a.ApplicationFileLoader - The runtime is loading the JAX-RS application from jar:file:/home/maven/.m2/repository/org/apache/wink/wink-json-provider/1.4/wink-json-provider-1.4.jar!/META-INF/wink-application
+22:31:16.761 [main] INFO  o.a.w.s.internal.servlet.RestServlet - The system is using the org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication JAX-RS application class that is named in the javax.ws.rs.Application init-param initialization parameter.
+22:31:16.763 [main] INFO  o.a.w.s.i.a.ApplicationProcessor - The following JAX-RS application has been processed: org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication
+22:31:16.763 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenResource with @Path(/document).
+22:31:16.764 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenConfigurationResource with @Path(/config).
+22:31:16.764 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.WinkAPIDescriber with @Path(/).
+22:31:16.764 [main] INFO  o.a.w.server.internal.log.Providers - There are no custom JAX-RS providers defined in the application.
+22:31:16.765 [main] INFO  o.a.w.c.i.a.ApplicationFileLoader - The runtime is loading the JAX-RS application from jar:file:/home/maven/.m2/repository/org/apache/wink/wink-json-provider/1.4/wink-json-provider-1.4.jar!/META-INF/wink-application
+22:31:16.799 [main] INFO  cc.redpen.server.api.RedPenResource - Validating document
+22:31:16.801 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server).
+22:31:16.803 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+22:31:16.804 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+22:31:16.815 [main] INFO  o.a.w.s.internal.servlet.RestServlet - The system is using the org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication JAX-RS application class that is named in the javax.ws.rs.Application init-param initialization parameter.
+22:31:16.817 [main] INFO  o.a.w.s.i.a.ApplicationProcessor - The following JAX-RS application has been processed: org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication
+22:31:16.818 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenResource with @Path(/document).
+22:31:16.818 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenConfigurationResource with @Path(/config).
+22:31:16.818 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.WinkAPIDescriber with @Path(/).
+22:31:16.818 [main] INFO  o.a.w.server.internal.log.Providers - There are no custom JAX-RS providers defined in the application.
+22:31:16.819 [main] INFO  o.a.w.c.i.a.ApplicationFileLoader - The runtime is loading the JAX-RS application from jar:file:/home/maven/.m2/repository/org/apache/wink/wink-json-provider/1.4/wink-json-provider-1.4.jar!/META-INF/wink-application
+22:31:16.828 [main] INFO  o.a.w.s.internal.servlet.RestServlet - The system is using the org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication JAX-RS application class that is named in the javax.ws.rs.Application init-param initialization parameter.
+22:31:16.831 [main] INFO  o.a.w.s.i.a.ApplicationProcessor - The following JAX-RS application has been processed: org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication
+22:31:16.831 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenResource with @Path(/document).
+22:31:16.831 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenConfigurationResource with @Path(/config).
+22:31:16.831 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.WinkAPIDescriber with @Path(/).
+22:31:16.831 [main] INFO  o.a.w.server.internal.log.Providers - There are no custom JAX-RS providers defined in the application.
+22:31:16.832 [main] INFO  o.a.w.c.i.a.ApplicationFileLoader - The runtime is loading the JAX-RS application from jar:file:/home/maven/.m2/repository/org/apache/wink/wink-json-provider/1.4/wink-json-provider-1.4.jar!/META-INF/wink-application
+22:31:16.838 [main] INFO  cc.redpen.server.api.RedPenResource - Validating document using JSON request
+22:31:16.839 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:16.839 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:16.839 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:16.839 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: resources/js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/.).
+22:31:16.842 [main] INFO  o.a.w.s.internal.servlet.RestServlet - The system is using the org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication JAX-RS application class that is named in the javax.ws.rs.Application init-param initialization parameter.
+22:31:16.844 [main] INFO  o.a.w.s.i.a.ApplicationProcessor - The following JAX-RS application has been processed: org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication
+22:31:16.844 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenResource with @Path(/document).
+22:31:16.844 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenConfigurationResource with @Path(/config).
+22:31:16.844 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.WinkAPIDescriber with @Path(/).
+22:31:16.844 [main] INFO  o.a.w.server.internal.log.Providers - There are no custom JAX-RS providers defined in the application.
+22:31:16.845 [main] INFO  o.a.w.c.i.a.ApplicationFileLoader - The runtime is loading the JAX-RS application from jar:file:/home/maven/.m2/repository/org/apache/wink/wink-json-provider/1.4/wink-json-provider-1.4.jar!/META-INF/wink-application
+22:31:16.852 [main] INFO  cc.redpen.server.api.RedPenResource - Validating document
+22:31:16.852 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server).
+22:31:16.854 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+22:31:16.854 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+22:31:16.860 [main] INFO  o.a.w.s.internal.servlet.RestServlet - The system is using the org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication JAX-RS application class that is named in the javax.ws.rs.Application init-param initialization parameter.
+22:31:16.862 [main] INFO  o.a.w.s.i.a.ApplicationProcessor - The following JAX-RS application has been processed: org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication
+22:31:16.862 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenResource with @Path(/document).
+22:31:16.862 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenConfigurationResource with @Path(/config).
+22:31:16.862 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.WinkAPIDescriber with @Path(/).
+22:31:16.862 [main] INFO  o.a.w.server.internal.log.Providers - There are no custom JAX-RS providers defined in the application.
+22:31:16.863 [main] INFO  o.a.w.c.i.a.ApplicationFileLoader - The runtime is loading the JAX-RS application from jar:file:/home/maven/.m2/repository/org/apache/wink/wink-json-provider/1.4/wink-json-provider-1.4.jar!/META-INF/wink-application
+22:31:16.869 [main] INFO  cc.redpen.server.api.RedPenResource - Validating document
+22:31:16.869 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server).
+22:31:16.870 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+22:31:16.871 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+{"errors":[{"sentence":"foobar.foobar","level":"Error","validator":"StartWithCapitalLetter","lineNum":1,"sentenceStartColumnNum":0,"message":"Sentence starts with a lowercase character \"f\"."},{"sentence":"foobar.foobar","level":"Error","endPosition":{"offset":13,"lineNum":1},"validator":"DoubledWord","lineNum":1,"sentenceStartColumnNum":0,"message":"Found repeated word \"foobar\".","startPosition":{"offset":7,"lineNum":1}}]}
+22:31:16.877 [main] INFO  o.a.w.s.internal.servlet.RestServlet - The system is using the org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication JAX-RS application class that is named in the javax.ws.rs.Application init-param initialization parameter.
+22:31:16.880 [main] INFO  o.a.w.s.i.a.ApplicationProcessor - The following JAX-RS application has been processed: org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication
+22:31:16.880 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenResource with @Path(/document).
+22:31:16.880 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenConfigurationResource with @Path(/config).
+22:31:16.880 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.WinkAPIDescriber with @Path(/).
+22:31:16.880 [main] INFO  o.a.w.server.internal.log.Providers - There are no custom JAX-RS providers defined in the application.
+22:31:16.881 [main] INFO  o.a.w.c.i.a.ApplicationFileLoader - The runtime is loading the JAX-RS application from jar:file:/home/maven/.m2/repository/org/apache/wink/wink-json-provider/1.4/wink-json-provider-1.4.jar!/META-INF/wink-application
+22:31:16.886 [main] INFO  cc.redpen.server.api.RedPenResource - Validating document
+22:31:16.887 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server).
+22:31:16.888 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+22:31:16.889 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+22:31:16.892 [main] INFO  o.a.w.s.internal.servlet.RestServlet - The system is using the org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication JAX-RS application class that is named in the javax.ws.rs.Application init-param initialization parameter.
+22:31:16.895 [main] INFO  o.a.w.s.i.a.ApplicationProcessor - The following JAX-RS application has been processed: org.apache.wink.server.internal.servlet.MockServletInvocationTest$MockApplication
+22:31:16.895 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenResource with @Path(/document).
+22:31:16.895 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.RedPenConfigurationResource with @Path(/config).
+22:31:16.895 [main] INFO  o.a.w.server.internal.log.Resources - The server has registered the JAX-RS resource class cc.redpen.server.api.WinkAPIDescriber with @Path(/).
+22:31:16.895 [main] INFO  o.a.w.server.internal.log.Providers - There are no custom JAX-RS providers defined in the application.
+22:31:16.895 [main] INFO  o.a.w.c.i.a.ApplicationFileLoader - The runtime is loading the JAX-RS application from jar:file:/home/maven/.m2/repository/org/apache/wink/wink-json-provider/1.4/wink-json-provider-1.4.jar!/META-INF/wink-application
+22:31:16.902 [main] INFO  cc.redpen.server.api.RedPenResource - Validating document using JSON request
+22:31:16.902 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:16.902 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:16.902 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:16.902 [main] INFO  c.r.validator.JavaScriptValidator - JavaScript validators directory: resources/js
+Warning: Nashorn engine is planned to be removed from a future JDK release
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.843 sec - in cc.redpen.server.api.RedPenResourceTest
+Running cc.redpen.server.api.RedPenServiceTest
+22:31:17.420 [main] INFO  cc.redpen.server.api.RedPenService - Creating RedPen instances
+22:31:17.420 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:17.420 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.421 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.421 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.423 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+22:31:17.424 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+22:31:17.425 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.425 [main] INFO  cc.redpen.config.SymbolTable - "zenkaku" variant is specified
+22:31:17.426 [main] INFO  cc.redpen.parser.SentenceExtractor - "[。, ？, ！]" are added as a end of sentence characters
+22:31:17.426 [main] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+22:31:17.427 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.428 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.429 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.430 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.430 [main] INFO  cc.redpen.config.SymbolTable - "hankaku" variant is specified
+22:31:17.431 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.431 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.433 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.434 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.435 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.436 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.436 [main] INFO  cc.redpen.config.SymbolTable - "zenkaku2" variant is specified
+22:31:17.437 [main] INFO  cc.redpen.parser.SentenceExtractor - "[．, ？, ！]" are added as a end of sentence characters
+22:31:17.437 [main] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+22:31:17.438 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.438 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.439 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.439 [main] INFO  cc.redpen.config.SymbolTable - "ru" is specified
+22:31:17.440 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.440 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', »]" are added as a right quotation characters
+22:31:17.441 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.442 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ru.dat: Failed to load input default-resources/word-frequency/word-frequency-ru.dat
+22:31:17.442 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ru.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ru.dat
+22:31:17.445 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:17.445 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.445 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.446 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.446 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ko.dat: Failed to load input default-resources/word-frequency/word-frequency-ko.dat
+22:31:17.446 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ko.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ko.dat
+22:31:17.446 [main] INFO  cc.redpen.server.api.RedPenService - No Config Path set, using default configurations
+22:31:17.446 [main] INFO  cc.redpen.server.api.RedPenService - Document Validator Server is running.
+22:31:17.446 [main] INFO  cc.redpen.config.SymbolTable - "ru" is specified
+22:31:17.446 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.446 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', »]" are added as a right quotation characters
+22:31:17.450 [main] INFO  cc.redpen.server.api.RedPenService - Creating RedPen instances
+22:31:17.450 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:17.450 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.450 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.451 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.451 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+22:31:17.452 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+22:31:17.453 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.453 [main] INFO  cc.redpen.config.SymbolTable - "zenkaku" variant is specified
+22:31:17.453 [main] INFO  cc.redpen.parser.SentenceExtractor - "[。, ？, ！]" are added as a end of sentence characters
+22:31:17.456 [main] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+22:31:17.457 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.458 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.459 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.464 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.464 [main] INFO  cc.redpen.config.SymbolTable - "hankaku" variant is specified
+22:31:17.464 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.465 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.472 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.472 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.473 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.474 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.474 [main] INFO  cc.redpen.config.SymbolTable - "zenkaku2" variant is specified
+22:31:17.474 [main] INFO  cc.redpen.parser.SentenceExtractor - "[．, ？, ！]" are added as a end of sentence characters
+22:31:17.474 [main] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+22:31:17.474 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.474 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.475 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.475 [main] INFO  cc.redpen.config.SymbolTable - "ru" is specified
+22:31:17.476 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.476 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', »]" are added as a right quotation characters
+22:31:17.476 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.476 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ru.dat: Failed to load input default-resources/word-frequency/word-frequency-ru.dat
+22:31:17.476 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ru.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ru.dat
+22:31:17.477 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:17.477 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.477 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.477 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.477 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ko.dat: Failed to load input default-resources/word-frequency/word-frequency-ko.dat
+22:31:17.477 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ko.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ko.dat
+22:31:17.477 [main] INFO  cc.redpen.server.api.RedPenService - Config Path is set to "/conf/redpen-conf-ru.xml"
+22:31:17.491 [main] INFO  cc.redpen.config.ConfigurationLoader - Succeeded to load configuration file
+22:31:17.491 [main] INFO  cc.redpen.config.ConfigurationLoader - Language is set to "ru"
+22:31:17.491 [main] WARN  cc.redpen.config.ConfigurationLoader - No variant configuration...
+22:31:17.491 [main] INFO  cc.redpen.config.ConfigurationLoader - No "validators" block found in the configuration
+22:31:17.491 [main] WARN  cc.redpen.config.ConfigurationLoader - There is no validators block
+22:31:17.491 [main] INFO  cc.redpen.config.ConfigurationLoader - No "symbols" block found in the configuration
+22:31:17.491 [main] INFO  cc.redpen.config.SymbolTable - "ru" is specified
+22:31:17.491 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.491 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', »]" are added as a right quotation characters
+22:31:17.491 [main] INFO  cc.redpen.server.api.RedPenService - Document Validator Server is running.
+22:31:17.492 [main] INFO  cc.redpen.server.api.RedPenService - Creating RedPen instances
+22:31:17.493 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:17.493 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.493 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.493 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.494 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+22:31:17.495 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+22:31:17.495 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.495 [main] INFO  cc.redpen.config.SymbolTable - "zenkaku" variant is specified
+22:31:17.495 [main] INFO  cc.redpen.parser.SentenceExtractor - "[。, ？, ！]" are added as a end of sentence characters
+22:31:17.495 [main] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+22:31:17.496 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.496 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.496 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.497 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.497 [main] INFO  cc.redpen.config.SymbolTable - "hankaku" variant is specified
+22:31:17.497 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.497 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.497 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.498 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.498 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.498 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.499 [main] INFO  cc.redpen.config.SymbolTable - "zenkaku2" variant is specified
+22:31:17.499 [main] INFO  cc.redpen.parser.SentenceExtractor - "[．, ？, ！]" are added as a end of sentence characters
+22:31:17.499 [main] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+22:31:17.499 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.499 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.500 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.500 [main] INFO  cc.redpen.config.SymbolTable - "ru" is specified
+22:31:17.500 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.500 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', »]" are added as a right quotation characters
+22:31:17.501 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.501 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ru.dat: Failed to load input default-resources/word-frequency/word-frequency-ru.dat
+22:31:17.501 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ru.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ru.dat
+22:31:17.501 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:17.501 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.501 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.501 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.502 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ko.dat: Failed to load input default-resources/word-frequency/word-frequency-ko.dat
+22:31:17.502 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ko.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ko.dat
+22:31:17.502 [main] INFO  cc.redpen.server.api.RedPenService - No Config Path set, using default configurations
+22:31:17.502 [main] INFO  cc.redpen.server.api.RedPenService - Document Validator Server is running.
+22:31:17.503 [main] INFO  cc.redpen.server.api.RedPenService - Creating RedPen instances
+22:31:17.503 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:17.503 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.503 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.508 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.509 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load word frequencies.
+22:31:17.510 [main] INFO  cc.redpen.util.DictionaryLoader - Succeeded to load weak expressions.
+22:31:17.511 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.511 [main] INFO  cc.redpen.config.SymbolTable - "zenkaku" variant is specified
+22:31:17.511 [main] INFO  cc.redpen.parser.SentenceExtractor - "[。, ？, ！]" are added as a end of sentence characters
+22:31:17.511 [main] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+22:31:17.512 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.512 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.513 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.518 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.518 [main] INFO  cc.redpen.config.SymbolTable - "hankaku" variant is specified
+22:31:17.518 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.518 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.519 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.519 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.520 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.520 [main] INFO  cc.redpen.config.SymbolTable - "ja" is specified.
+22:31:17.520 [main] INFO  cc.redpen.config.SymbolTable - "zenkaku2" variant is specified
+22:31:17.520 [main] INFO  cc.redpen.parser.SentenceExtractor - "[．, ？, ！]" are added as a end of sentence characters
+22:31:17.520 [main] INFO  cc.redpen.parser.SentenceExtractor - "[’, ”]" are added as a right quotation characters
+22:31:17.522 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.522 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ja.dat: Failed to load input default-resources/word-frequency/word-frequency-ja.dat
+22:31:17.524 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ja.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ja.dat
+22:31:17.525 [main] INFO  cc.redpen.config.SymbolTable - "ru" is specified
+22:31:17.525 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.525 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', »]" are added as a right quotation characters
+22:31:17.525 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.525 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ru.dat: Failed to load input default-resources/word-frequency/word-frequency-ru.dat
+22:31:17.526 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ru.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ru.dat
+22:31:17.526 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:17.526 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.526 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+22:31:17.526 [main] WARN  c.r.validator.JavaScriptValidator - JavaScript validators directory is missing: cc.redpen.RedPenException: js is not under $REDPEN_HOME (/workdir/redpen/redpen-server/src/test).
+22:31:17.526 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load word frequencies:default-resources/word-frequency/word-frequency-ko.dat: Failed to load input default-resources/word-frequency/word-frequency-ko.dat
+22:31:17.526 [main] ERROR cc.redpen.util.DictionaryLoader - Failed to load weak expressions:default-resources/weak-expressions/weak-expressions-ko.dat: Failed to load input default-resources/weak-expressions/weak-expressions-ko.dat
+22:31:17.527 [main] INFO  cc.redpen.server.api.RedPenService - No Config Path set, using default configurations
+22:31:17.527 [main] INFO  cc.redpen.server.api.RedPenService - Document Validator Server is running.
+22:31:17.527 [main] INFO  cc.redpen.config.SymbolTable - Default symbol settings are loaded
+22:31:17.527 [main] INFO  cc.redpen.parser.SentenceExtractor - "[., ?, !]" are added as a end of sentence characters
+22:31:17.527 [main] INFO  cc.redpen.parser.SentenceExtractor - "[', "]" are added as a right quotation characters
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec - in cc.redpen.server.api.RedPenServiceTest
+
+Results :
+
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -------------------< cc.redpen:redpen-distribution >--------------------
+[INFO] Building redpen-distribution 1.10.4                                [6/6]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ redpen-distribution ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/redpen/redpen-distribution/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ redpen-distribution ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ redpen-distribution ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/redpen/redpen-distribution/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ redpen-distribution ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ redpen-distribution ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for redpen 1.10.4:
+[INFO] 
+[INFO] redpen ............................................. SUCCESS [  0.004 s]
+[INFO] redpen-core ........................................ SUCCESS [ 11.731 s]
+[INFO] redpen-plugin ...................................... SUCCESS [  0.298 s]
+[INFO] redpen-cli ......................................... SUCCESS [  0.291 s]
+[INFO] redpen-server ...................................... SUCCESS [  3.691 s]
+[INFO] redpen-distribution ................................ SUCCESS [  0.029 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  16.150 s
+[INFO] Finished at: 2021-02-14T22:31:17Z
+[INFO] ------------------------------------------------------------------------

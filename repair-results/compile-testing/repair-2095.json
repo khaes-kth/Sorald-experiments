@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 355,
@@ -23,11 +24,10 @@
                 "violationSpecifier": "2095:src/test/java/com/google/testing/compile/JarFileResourcesCompilationTest.java:52:26:52:76"
             }
         ],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5498,
-    "repairTimeMs": 258,
-    "startTimeMs": 1612803774099,
+    "totalTimeMs": 5672,
+    "repairTimeMs": 246,
+    "startTimeMs": 1613330343119,
     "crashes": [],
-    "endTimeMs": 1612803779597,
-    "parseTimeMs": 1979
+    "endTimeMs": 1613330348791,
+    "parseTimeMs": 2011
 }

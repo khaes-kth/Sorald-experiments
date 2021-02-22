@@ -1,22 +1,22 @@
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=27ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization (done) | time=1ms
 INFO  Java Main Files AST scan
 INFO  1513 source files to be analyzed
 INFO  225/1513 files analyzed, current file: src/test/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoItemProdutoTest.java
-INFO  737/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/nfe310/webservices/nota/consulta/NfeConsultaStub.java
-INFO  889/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/nfe400/transformers/NFNotaInfoItemProdutoVeiculoCondicaoTransformer.java
-INFO  1367/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/cte300/webservices/inutilizacao/CteInutilizacaoStub.java
+INFO  714/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/nfe310/classes/evento/NFEnviaEventoRetorno.java
+INFO  771/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/cte/webservices/distribuicao/CTeDistribuicaoDFeSoapStub.java
+INFO  1365/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/cte300/webservices/recepcaoevento/RecepcaoEventoStub.java
 INFO  1513/1513 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=48016ms
+INFO  Java Main Files AST scan (done) | time=49171ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
-INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=4ms
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 0
@@ -28,16 +28,16 @@ INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1513 source files to be analyzed
 INFO  225/1513 files analyzed, current file: src/test/java/com/fincatto/documentofiscal/nfe400/classes/nota/NFNotaInfoItemProdutoTest.java
-INFO  753/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/nfe310/webservices/downloadnf/NfeDownloadNFStub.java
-INFO  1357/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/cte300/webservices/recepcao/CteRecepcaoStub.java
-INFO  1508/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/utils/DFCadeiaCertificados.java
-INFO  Java Main Files AST scan (done) | time=40048ms
+INFO  748/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/nfe310/webservices/gerado/NfeAutorizacaoStub.java
+INFO  1354/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/cte300/webservices/consulta/CteConsultaStub.java
+INFO  1501/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/mdfe3/webservices/statusservico/MDFeStatusServicoStub.java
+INFO  Java Main Files AST scan (done) | time=40860ms
 INFO  Java Test Files AST scan
 INFO  1513/1513 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
-INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed

@@ -1,0 +1,684 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] ASK SDK for Java                                                   [pom]
+[INFO] ASK SDK for Java Runtime                                           [jar]
+[INFO] ASK SDK for Java Core                                              [jar]
+[INFO] ASK SDK for Java Lambda Support Plugin                             [jar]
+[INFO] ASK SDK for Java Servlet Support Plugin                            [jar]
+[INFO] ASK SDK for Java DynamoDB Persistence Adapter                      [jar]
+[INFO] ASK SDK for Java Apache API Client                                 [jar]
+[INFO] ASK SDK for Java FreeMarker Template Renderer                      [jar]
+[INFO] ASK SDK for Java Local Debugging Adapter                           [jar]
+[INFO] ASK SDK for Java                                                   [jar]
+[INFO] 
+[INFO] --------------------< com.amazon.alexa:ask-sdk-pom >--------------------
+[INFO] Building ASK SDK for Java 2.37.1                                  [1/10]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ------------------< com.amazon.alexa:ask-sdk-runtime >------------------
+[INFO] Building ASK SDK for Java Runtime 2.37.1                          [2/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ask-sdk-runtime ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-runtime/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ ask-sdk-runtime ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 49 source files to /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-runtime/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ask-sdk-runtime ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-runtime/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ ask-sdk-runtime ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ask-sdk-runtime ---
+[INFO] Surefire report directory: /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-runtime/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.ask.request.dispatcher.BaseRequestDispatcherTest
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+ERROR BaseRequestDispatcher Unable to find a suitable request handler
+ERROR BaseRequestDispatcher Unable to find a suitable handler adapter
+ERROR BaseRequestDispatcher Unable to find a suitable request handler
+ERROR BaseRequestDispatcher Unable to find a suitable handler adapter
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.158 sec
+Running com.amazon.ask.request.exception.BaseExceptionMapperTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazon.ask.request.handler.chain.BaseGenericRequestHandlerChainTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazon.ask.request.interceptor.GenericResponseInterceptorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.amazon.ask.request.interceptor.GenericRequestInterceptorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.amazon.ask.request.mapper.BaseRequestMapperTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazon.ask.builder.SkillConfigurationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazon.ask.util.ValidationUtilsTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.amazon.ask.util.impl.UnmarshallUtilsTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 sec
+Running com.amazon.ask.util.impl.NamespacedTypeDeserializerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.194 sec
+Running com.amazon.ask.util.impl.JacksonJsonUnmarshallerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.amazon.ask.util.impl.BaseUnmarshallerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec
+Running com.amazon.ask.response.template.BaseTemplateFactoryTest
+ERROR BaseTemplateFactory Unable to load template: responseTemplateName using provided Loader(s).
+ERROR BaseTemplateFactory Fail to load template: responseTemplateName using Mock for TemplateLoader, hashCode: 889074285 with error: null.
+ERROR BaseTemplateFactory Fail to render template: Mock for TemplateContentData, hashCode: 662045021 using Mock for TemplateRenderer, hashCode: 2124978601 with error: null.
+ERROR BaseTemplateFactory Template Loader list is null or empty, or Template Renderer is null.
+ERROR BaseTemplateFactory Template Loader list is null or empty, or Template Renderer is null.
+ERROR BaseTemplateFactory Template Loader list is null or empty, or Template Renderer is null.
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.154 sec
+Running com.amazon.ask.response.template.ConcurrentLRUTemplateCacheTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running com.amazon.ask.response.BaseSkillResponseTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.077 sec
+
+Results :
+
+Tests run: 93, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] 
+[INFO] -------------------< com.amazon.alexa:ask-sdk-core >--------------------
+[INFO] Building ASK SDK for Java Core 2.37.1                             [3/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ask-sdk-core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ ask-sdk-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ask-sdk-core ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ ask-sdk-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ask-sdk-core ---
+[INFO] Surefire report directory: /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.ask.request.RequestHelperTest
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.121 sec
+Running com.amazon.ask.request.PredicatesTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec
+Running com.amazon.ask.request.intent.SlotValueWrapperTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.amazon.ask.request.ViewportUtilsTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.amazon.ask.dispatcher.request.handler.HandlerInputTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running com.amazon.ask.dispatcher.request.mapper.DefaultRequestMapperTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.amazon.ask.dispatcher.exception.DefaultExceptionMapperTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.amazon.ask.dispatcher.DefaultRequestDispatcherTest
+ERROR BaseRequestDispatcher Unable to find a suitable request handler
+ERROR BaseRequestDispatcher Unable to find a suitable handler adapter
+ERROR BaseRequestDispatcher Unable to find a suitable request handler
+ERROR BaseRequestDispatcher Unable to find a suitable handler adapter
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running com.amazon.ask.attributes.AttributesManagerTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.amazon.ask.SkillTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.173 sec
+Running com.amazon.ask.builder.SkillBuilderTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running com.amazon.ask.builder.SkillConfigurationTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.amazon.ask.handler.DefaultHandlerAdapterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.amazon.ask.util.JacksonSerializerTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.071 sec
+Running com.amazon.ask.util.UserAgentUtilsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.amazon.ask.response.template.FileLoaderTest
+ERROR LocaleTemplateEnumerator Invalid locale: en
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running com.amazon.ask.response.template.LocaleEnumeratorTest
+ERROR LocaleTemplateEnumerator Invalid locale: en
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.amazon.ask.response.ResponseBuilderTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running com.amazon.ask.response.TextContentHelperTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+
+Results :
+
+Tests run: 212, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --------------< com.amazon.alexa:ask-sdk-lambda-support >---------------
+[INFO] Building ASK SDK for Java Lambda Support Plugin 2.37.1            [4/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ask-sdk-lambda-support ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-lambda-support/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ ask-sdk-lambda-support ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ask-sdk-lambda-support ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-lambda-support/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ ask-sdk-lambda-support ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ask-sdk-lambda-support ---
+[INFO] Surefire report directory: /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-lambda-support/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.ask.SkillStreamHandlerTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.322 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --------------< com.amazon.alexa:ask-sdk-servlet-support >--------------
+[INFO] Building ASK SDK for Java Servlet Support Plugin 2.37.1           [5/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ask-sdk-servlet-support ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-servlet-support/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ ask-sdk-servlet-support ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ask-sdk-servlet-support ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-servlet-support/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ ask-sdk-servlet-support ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ask-sdk-servlet-support ---
+[INFO] Surefire report directory: /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-servlet-support/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.ask.servlet.util.ServletUtilsTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running com.amazon.ask.servlet.SkillServletTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl (file:/home/maven/.m2/repository/org/powermock/powermock-reflect/2.0.0/powermock-reflect-2.0.0.jar) to method java.lang.Object.clone()
+WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+ERROR SkillServlet Exception occurred in doPost, returning status code 500
+ com.amazon.ask.exception.AskSdkException: foo
+	at com.amazon.ask.servlet.SkillServlet.handleRequest(SkillServlet.java:176)
+	at com.amazon.ask.servlet.SkillServlet.doPost(SkillServlet.java:141)
+	at com.amazon.ask.servlet.SkillServletTest.doPost_sdkException_responseInternalServiceException(SkillServletTest.java:100)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:326)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:89)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:97)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:310)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:131)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.access$100(PowerMockJUnit47RunnerDelegateImpl.java:59)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner$TestExecutorStatement.evaluate(PowerMockJUnit47RunnerDelegateImpl.java:147)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.evaluateStatement(PowerMockJUnit47RunnerDelegateImpl.java:107)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:298)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:218)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:160)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:134)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:136)
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:117)
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:57)
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+ERROR SkillServlet Incoming request failed verification 400
+ java.lang.SecurityException: foo
+	at com.amazon.ask.servlet.SkillServlet.doPost(SkillServlet.java:137)
+	at com.amazon.ask.servlet.SkillServletTest.doPost_failedVerification_responseBadRequest(SkillServletTest.java:88)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:326)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:89)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:97)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:310)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:131)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.access$100(PowerMockJUnit47RunnerDelegateImpl.java:59)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner$TestExecutorStatement.evaluate(PowerMockJUnit47RunnerDelegateImpl.java:147)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.evaluateStatement(PowerMockJUnit47RunnerDelegateImpl.java:107)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:298)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:218)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:160)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:134)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:136)
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:117)
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:57)
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.371 sec
+Running com.amazon.ask.servlet.verifiers.SkillRequestTimestampVerifierTest
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Tests run: 30, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.166 sec
+Running com.amazon.ask.servlet.verifiers.SkillRequestSignatureVerifierTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.047 sec
+
+Results :
+
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -------< com.amazon.alexa:ask-sdk-dynamodb-persistence-adapter >--------
+[INFO] Building ASK SDK for Java DynamoDB Persistence Adapter 2.37.1     [6/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ask-sdk-dynamodb-persistence-adapter ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-dynamodb-persistence-adapter/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ ask-sdk-dynamodb-persistence-adapter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ask-sdk-dynamodb-persistence-adapter ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-dynamodb-persistence-adapter/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ ask-sdk-dynamodb-persistence-adapter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ask-sdk-dynamodb-persistence-adapter ---
+[INFO] Surefire report directory: /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-dynamodb-persistence-adapter/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.ask.attributes.persistence.impl.DynamoDbPersistenceAdapterTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.257 sec
+Running com.amazon.ask.attributes.persistence.impl.PartitionKeyGeneratorsTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+
+Results :
+
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ---------------< com.amazon.alexa:ask-sdk-apache-client >---------------
+[INFO] Building ASK SDK for Java Apache API Client 2.37.1                [7/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ask-sdk-apache-client ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-apache-client/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ ask-sdk-apache-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ask-sdk-apache-client ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-apache-client/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ ask-sdk-apache-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ask-sdk-apache-client ---
+[INFO] Surefire report directory: /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-apache-client/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.ask.services.ApacheHttpApiClientTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.198 sec
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------------< com.amazon.alexa:ask-sdk-freemarker >-----------------
+[INFO] Building ASK SDK for Java FreeMarker Template Renderer 2.37.1     [8/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ask-sdk-freemarker ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-freemarker/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ ask-sdk-freemarker ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ask-sdk-freemarker ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-freemarker/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ ask-sdk-freemarker ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ask-sdk-freemarker ---
+[INFO] Surefire report directory: /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-freemarker/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.ask.response.template.FreeMarkerRendererTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Feb 15, 2021 2:14:22 AM freemarker.log._JULLoggerFactory$JULLogger error
+SEVERE: Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> outputSpeechText  [in nameless template at line 3, column 16]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${outputSpeechText}  [in nameless template at line 3, column 14]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:467)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:389)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:358)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:330)
+	at freemarker.core.Environment.visit(Environment.java:336)
+	at freemarker.core.Environment.process(Environment.java:309)
+	at freemarker.template.Template.process(Template.java:384)
+	at com.amazon.ask.response.template.renderer.impl.FreeMarkerTemplateRenderer.render(FreeMarkerTemplateRenderer.java:113)
+	at com.amazon.ask.response.template.FreeMarkerRendererTest.render_process_exception(FreeMarkerRendererTest.java:77)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.497 sec
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------------< com.amazon.alexa:ask-sdk-local-debug >----------------
+[INFO] Building ASK SDK for Java Local Debugging Adapter 2.37.1          [9/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ask-sdk-local-debug ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-local-debug/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ ask-sdk-local-debug ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ask-sdk-local-debug ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-local-debug/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ ask-sdk-local-debug ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ask-sdk-local-debug ---
+[INFO] Surefire report directory: /workdir/alexa-skills-kit-sdk-for-java/ask-sdk-local-debug/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.ask.localdebug.config.WebSocketClientConfigTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running com.amazon.ask.localdebug.config.RegionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.amazon.ask.localdebug.request.LocalDebugRequestTest
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.238 sec
+Running com.amazon.ask.localdebug.certificate.AllTrustCertificateProviderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.573 sec
+Running com.amazon.ask.localdebug.client.WebSocketClientImplTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.powermock.reflect.internal.WhiteboxImpl (file:/home/maven/.m2/repository/org/powermock/powermock-reflect/2.0.0/powermock-reflect-2.0.0.jar) to method java.lang.Object.clone()
+WARNING: Please consider reporting this to the maintainers of org.powermock.reflect.internal.WhiteboxImpl
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.281 sec
+Running com.amazon.ask.localdebug.guice.ConfigModulePowerMockTest
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+ERROR SkillInvokerConfiguration Extension type cannot be null
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.571 sec
+Running com.amazon.ask.localdebug.guice.ConfigModuleTest
+ERROR ConfigModule Invalid region - foo. Please ensure that the region value is one of NorthAmerica, Europe or FarEast
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.amazon.ask.localdebug.utils.RequestResponseUtilsTest
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+ERROR RequestResponseUtils Encountered exception when invoking skill code
+ com.amazon.ask.localdebug.exception.LocalDebugSdkException: Test Exception
+	at org.powermock.core.MockGateway.doMethodCall(MockGateway.java:186)
+	at org.powermock.core.MockGateway.doMethodCall(MockGateway.java:168)
+	at org.powermock.core.MockGateway.methodCall(MockGateway.java:145)
+	at com.amazon.ask.localdebug.util.ReflectionUtils.callMethodAndGetResult(ReflectionUtils.java)
+	at com.amazon.ask.localdebug.util.RequestResponseUtils.getSkillResponse(RequestResponseUtils.java:104)
+	at com.amazon.ask.localdebug.utils.RequestResponseUtilsTest.getSkillResponse_ServletHandlerType_FailureResponse(RequestResponseUtilsTest.java:109)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:326)
+	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:89)
+	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:97)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:310)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:131)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.access$100(PowerMockJUnit47RunnerDelegateImpl.java:59)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner$TestExecutorStatement.evaluate(PowerMockJUnit47RunnerDelegateImpl.java:147)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.evaluateStatement(PowerMockJUnit47RunnerDelegateImpl.java:107)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:298)
+	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:87)
+	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:50)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:218)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:160)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:134)
+	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:34)
+	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:44)
+	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:136)
+	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:117)
+	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:57)
+	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.726 sec
+Running com.amazon.ask.localdebug.utils.ClientConfigurationBuilderTest
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.48 sec
+Running com.amazon.ask.localdebug.utils.ArgumentParserUtilsTest
+ERROR ArgumentParserUtils Index 5 out of bounds for length 5
+ERROR ArgumentParserUtils Required argument - foobar not provided.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------------------< com.amazon.alexa:ask-sdk >----------------------
+[INFO] Building ASK SDK for Java 2.37.1                                 [10/10]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ask-sdk ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ ask-sdk ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ask-sdk ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/alexa-skills-kit-sdk-for-java/ask-sdk/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ ask-sdk ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ask-sdk ---
+[INFO] Surefire report directory: /workdir/alexa-skills-kit-sdk-for-java/ask-sdk/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.amazon.ask.builder.StandardSkillBuilderTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.10.19/mockito-core-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.668 sec
+
+Results :
+
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for ASK SDK for Java 2.37.1:
+[INFO] 
+[INFO] ASK SDK for Java ................................... SUCCESS [  0.003 s]
+[INFO] ASK SDK for Java Runtime ........................... SUCCESS [  3.508 s]
+[INFO] ASK SDK for Java Core .............................. SUCCESS [  1.017 s]
+[INFO] ASK SDK for Java Lambda Support Plugin ............. SUCCESS [  0.540 s]
+[INFO] ASK SDK for Java Servlet Support Plugin ............ SUCCESS [  4.101 s]
+[INFO] ASK SDK for Java DynamoDB Persistence Adapter ...... SUCCESS [  0.541 s]
+[INFO] ASK SDK for Java Apache API Client ................. SUCCESS [  0.419 s]
+[INFO] ASK SDK for Java FreeMarker Template Renderer ...... SUCCESS [  0.700 s]
+[INFO] ASK SDK for Java Local Debugging Adapter ........... SUCCESS [  6.187 s]
+[INFO] ASK SDK for Java ................................... SUCCESS [  0.878 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.996 s
+[INFO] Finished at: 2021-02-15T02:14:29Z
+[INFO] ------------------------------------------------------------------------

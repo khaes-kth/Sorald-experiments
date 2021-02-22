@@ -1,0 +1,52 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ------------------------< com.lmax:simple-dsl >-------------------------
+[INFO] Building Simple DSL 2.3-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ simple-dsl ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ simple-dsl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/Simple-DSL/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ simple-dsl ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ simple-dsl ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/Simple-DSL/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ simple-dsl ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ simple-dsl ---
+[INFO] Surefire report directory: /workdir/Simple-DSL/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.lmax.simpledsl.OptionalParamTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
+Running com.lmax.simpledsl.NameValuePairTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.lmax.simpledsl.RequiredParamTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.lmax.simpledsl.DslParamsTest
+Tests run: 45, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running com.lmax.simpledsl.SimpleDslParamTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 79, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.166 s
+[INFO] Finished at: 2021-02-14T20:24:50Z
+[INFO] ------------------------------------------------------------------------

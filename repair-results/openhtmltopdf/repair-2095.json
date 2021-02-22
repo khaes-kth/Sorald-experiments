@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 23,
@@ -32,10 +31,11 @@
                 "violationSpecifier": "2095:openhtmltopdf-examples/src/test/java/com/openhtmltopdf/freemarker/FreeMarkerGeneratorTest.java:45:38:45:97"
             }
         ],
+        "nbViolationsBefore": 3,
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 33295,
-    "repairTimeMs": 636,
-    "startTimeMs": 1612812673749,
+    "totalTimeMs": 34878,
+    "repairTimeMs": 789,
+    "startTimeMs": 1613358551254,
     "crashes": [],
-    "endTimeMs": 1612812707044,
-    "parseTimeMs": 6315
+    "endTimeMs": 1613358586132,
+    "parseTimeMs": 6927
 }

@@ -27,7 +27,7 @@
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 14338,
-    "repairTimeMs": 339,
-    "startTimeMs": 1612799187387,
+    "totalTimeMs": 14088,
+    "repairTimeMs": 372,
+    "startTimeMs": 1613318143612,
     "crashes": [],
-    "endTimeMs": 1612799201725,
-    "parseTimeMs": 3333
+    "endTimeMs": 1613318157700,
+    "parseTimeMs": 3293
 }

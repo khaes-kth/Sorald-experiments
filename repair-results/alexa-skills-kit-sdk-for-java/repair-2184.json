@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2184",
-        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 40,
@@ -24,10 +23,11 @@
                 "violationSpecifier": "2184:ask-sdk-runtime/src/com/amazon/ask/response/template/loader/impl/ConcurrentLRUTemplateCache.java:45:78:45:79"
             }
         ],
+        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 6789,
-    "repairTimeMs": 302,
-    "startTimeMs": 1612811705738,
+    "totalTimeMs": 7493,
+    "repairTimeMs": 249,
+    "startTimeMs": 1613355240433,
     "crashes": [],
-    "endTimeMs": 1612811712527,
-    "parseTimeMs": 2954
+    "endTimeMs": 1613355247926,
+    "parseTimeMs": 3558
 }

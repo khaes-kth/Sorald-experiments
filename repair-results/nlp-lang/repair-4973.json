@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
-        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 52,
             "endColumn": 29,
@@ -14,10 +13,11 @@
             "filePath": "src/main/java/org/nlpcn/commons/lang/tire/SmartGetWord.java",
             "violationSpecifier": "4973:src/main/java/org/nlpcn/commons/lang/tire/SmartGetWord.java:52:27:52:29"
         }],
+        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5537,
-    "repairTimeMs": 361,
-    "startTimeMs": 1612806312236,
+    "totalTimeMs": 5858,
+    "repairTimeMs": 329,
+    "startTimeMs": 1613335642306,
     "crashes": [],
-    "endTimeMs": 1612806317773,
-    "parseTimeMs": 2290
+    "endTimeMs": 1613335648164,
+    "parseTimeMs": 2602
 }

@@ -1,0 +1,198 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----< com.github.vincentrussell:sql-to-mongo-db-query-converter >------
+[INFO] Building sql-to-mongo-db-query-converter 1.19-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sql-to-mongo-db-query-converter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/sql-to-mongo-db-query-converter/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:compile (default-compile) @ sql-to-mongo-db-query-converter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.1:check (validate) @ sql-to-mongo-db-query-converter ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] >>> spotbugs-maven-plugin:4.0.0:check (spotbugs) > :spotbugs @ sql-to-mongo-db-query-converter >>>
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.0.0:spotbugs (spotbugs) @ sql-to-mongo-db-query-converter ---
+[INFO] Fork Value is true
+[INFO] Done SpotBugs Analysis....
+[INFO] 
+[INFO] <<< spotbugs-maven-plugin:4.0.0:check (spotbugs) < :spotbugs @ sql-to-mongo-db-query-converter <<<
+[INFO] 
+[INFO] 
+[INFO] --- spotbugs-maven-plugin:4.0.0:check (spotbugs) @ sql-to-mongo-db-query-converter ---
+[INFO] BugInstance size is 0
+[INFO] Error size is 0
+[INFO] No errors/warnings found
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sql-to-mongo-db-query-converter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:testCompile (default-testCompile) @ sql-to-mongo-db-query-converter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sql-to-mongo-db-query-converter ---
+[INFO] Surefire report directory: /workdir/sql-to-mongo-db-query-converter/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.vincentrussell.query.mongodb.sql.converter.QueryConverterSubqueryTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.246 sec
+Running com.github.vincentrussell.query.mongodb.sql.converter.QueryConverterJoinTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 sec
+Running com.github.vincentrussell.query.mongodb.sql.converter.QueryConverterTest
+Tests run: 182, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.577 sec
+Running com.github.vincentrussell.query.mongodb.sql.converter.MainTest
+provided option h, but missing db
+usage: com.github.vincentrussell.query.mongodb.sql.converter.Main [-s
+       <arg> | -sql <arg> | -i]   [-l] [-d <arg>] [-h <arg>] [-db <arg>]
+       [-a <arg>] [-u <arg>] [-p <arg>] [-b <arg>]
+ -s,--sourceFile <arg>        the source file.
+ -sql,--sql <arg>             the sql select statement
+ -i,--interactiveMode         interactive mode
+ -l,--loopMode                interactive loopMode mode
+ -d,--destinationFile <arg>   the destination file.  Defaults to
+                              System.out
+ -h,--host <arg>              hosts and ports in the following format
+                              (host:port) default port is 27017
+ -db,--database <arg>         mongo database
+ -a,--auth database <arg>     auth mongo database
+ -u,--username <arg>          usename
+ -p,--password <arg>          password
+ -b,--batchSize <arg>         batch size for query results
+Enter input sql:
+
+ 
+
+
+******Mongo Query:*********
+
+db.my_table.find({
+  "value": {
+    "$in": [
+      "theValue1",
+      "theValue2",
+      "theValue3"
+    ]
+  }
+} , {
+  "_id": 0,
+  "column1": 1
+})
+
+Enter input sql:
+
+ 
+
+
+******Mongo Query:*********
+
+db.my_table.find({
+  "value": {
+    "$in": [
+      "theValue1",
+      "theValue2",
+      "theValue3"
+    ]
+  }
+} , {
+  "_id": 0,
+  "column1": 1
+})
+
+Would you like to continue? (y/n):
+
+ Enter input sql:
+
+ 
+
+
+******Mongo Query:*********
+
+db.my_table.find({
+  "value": {
+    "$in": [
+      "theValue1",
+      "theValue2",
+      "theValue3"
+    ]
+  }
+} , {
+  "_id": 0,
+  "column1": 1
+})
+
+Would you like to continue? (y/n):
+
+ 
+
+******Mongo Query:*********
+
+db.my_table.find({
+  "value": {
+    "$in": [
+      "theValue1",
+      "theValue2",
+      "theValue3"
+    ]
+  }
+} , {
+  "_id": 0,
+  "column1": 1
+})
+
+provided option u, but missing p or a
+usage: com.github.vincentrussell.query.mongodb.sql.converter.Main [-s
+       <arg> | -sql <arg> | -i]   [-l] [-d <arg>] [-h <arg>] [-db <arg>]
+       [-a <arg>] [-u <arg>] [-p <arg>] [-b <arg>]
+ -s,--sourceFile <arg>        the source file.
+ -sql,--sql <arg>             the sql select statement
+ -i,--interactiveMode         interactive mode
+ -l,--loopMode                interactive loopMode mode
+ -d,--destinationFile <arg>   the destination file.  Defaults to
+                              System.out
+ -h,--host <arg>              hosts and ports in the following format
+                              (host:port) default port is 27017
+ -db,--database <arg>         mongo database
+ -a,--auth database <arg>     auth mongo database
+ -u,--username <arg>          usename
+ -p,--password <arg>          password
+ -b,--batchSize <arg>         batch size for query results
+Missing required option: s or i or sql
+usage: com.github.vincentrussell.query.mongodb.sql.converter.Main [-s
+       <arg> | -sql <arg> | -i]   [-l] [-d <arg>] [-h <arg>] [-db <arg>]
+       [-a <arg>] [-u <arg>] [-p <arg>] [-b <arg>]
+ -s,--sourceFile <arg>        the source file.
+ -sql,--sql <arg>             the sql select statement
+ -i,--interactiveMode         interactive mode
+ -l,--loopMode                interactive loopMode mode
+ -d,--destinationFile <arg>   the destination file.  Defaults to
+                              System.out
+ -h,--host <arg>              hosts and ports in the following format
+                              (host:port) default port is 27017
+ -db,--database <arg>         mongo database
+ -a,--auth database <arg>     auth mongo database
+ -u,--username <arg>          usename
+ -p,--password <arg>          password
+ -b,--batchSize <arg>         batch size for query results
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.135 sec
+Running com.github.vincentrussell.query.mongodb.sql.converter.QueryConverterHasAggregationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 226, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.484 s
+[INFO] Finished at: 2021-02-15T05:35:01Z
+[INFO] ------------------------------------------------------------------------

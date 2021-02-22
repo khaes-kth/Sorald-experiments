@@ -10,64 +10,64 @@
                 "endLine": 407,
                 "endColumn": 48,
                 "startColumn": 25,
-                "filePath": "obsolete-archive/examples/nomaven/misc/src/main/java/Review.java",
                 "startLine": 407,
+                "filePath": "obsolete-archive/examples/nomaven/misc/src/main/java/Review.java",
                 "violationSpecifier": "2142:obsolete-archive/examples/nomaven/misc/src/main/java/Review.java:407:25:407:48"
             },
             {
                 "endLine": 92,
                 "endColumn": 44,
                 "startColumn": 21,
-                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java",
                 "startLine": 92,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java",
                 "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java:92:21:92:44"
             },
             {
                 "endLine": 159,
                 "endColumn": 44,
                 "startColumn": 21,
-                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java",
                 "startLine": 159,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java",
                 "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java:159:21:159:44"
             },
             {
                 "endLine": 230,
                 "endColumn": 44,
                 "startColumn": 21,
-                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java",
                 "startLine": 230,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java",
                 "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_Plain_jmhTest.java:230:21:230:44"
             },
             {
                 "endLine": 92,
                 "endColumn": 44,
                 "startColumn": 21,
-                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java",
                 "startLine": 92,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java",
                 "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java:92:21:92:44"
             },
             {
                 "endLine": 159,
                 "endColumn": 44,
                 "startColumn": 21,
-                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java",
                 "startLine": 159,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java",
                 "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java:159:21:159:44"
             },
             {
                 "endLine": 230,
                 "endColumn": 44,
                 "startColumn": 21,
-                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java",
                 "startLine": 230,
+                "filePath": "openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java",
                 "violationSpecifier": "2142:openhtmltopdf-examples/target/generated-sources/annotations/com/openhtmltopdf/benchmark/jmh_generated/RenderTextBenchmark_renderText_SoftHyphens_jmhTest.java:230:21:230:44"
             },
             {
                 "endLine": 61,
                 "endColumn": 59,
                 "startColumn": 37,
-                "filePath": "obsolete-archive/src/experimental/java/org/xhtmlrenderer/experimental/WorkQueue.java",
                 "startLine": 61,
+                "filePath": "obsolete-archive/src/experimental/java/org/xhtmlrenderer/experimental/WorkQueue.java",
                 "violationSpecifier": "2142:obsolete-archive/src/experimental/java/org/xhtmlrenderer/experimental/WorkQueue.java:61:37:61:59"
             }
         ],
@@ -75,7 +75,7 @@
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -89,10 +89,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 14690,
-    "repairTimeMs": 757,
-    "startTimeMs": 1612812591200,
+    "totalTimeMs": 14833,
+    "repairTimeMs": 770,
+    "startTimeMs": 1613358353815,
     "crashes": [],
-    "endTimeMs": 1612812605890,
-    "parseTimeMs": 6954
+    "endTimeMs": 1613358368648,
+    "parseTimeMs": 7064
 }

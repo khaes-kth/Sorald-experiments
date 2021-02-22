@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 147,
@@ -32,10 +31,11 @@
                 "violationSpecifier": "2095:src/main/java/com/adobe/epubcheck/util/Archive.java:203:12:203:52"
             }
         ],
+        "nbViolationsBefore": 3,
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 22633,
-    "repairTimeMs": 525,
-    "startTimeMs": 1612806772762,
+    "totalTimeMs": 26747,
+    "repairTimeMs": 571,
+    "startTimeMs": 1613340059635,
     "crashes": [],
-    "endTimeMs": 1612806795395,
-    "parseTimeMs": 4420
+    "endTimeMs": 1613340086382,
+    "parseTimeMs": 5285
 }

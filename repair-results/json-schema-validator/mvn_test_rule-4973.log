@@ -1,0 +1,329 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------< com.networknt:json-schema-validator >-----------------
+[INFO] Building JsonSchemaValidator 1.0.44
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:prepare-agent (pre-unit-test) @ json-schema-validator ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar=destfile=/workdir/json-schema-validator/target/coverage-reports/jacoco-ut.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ json-schema-validator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ json-schema-validator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (test-compile) @ json-schema-validator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ json-schema-validator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 247 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ json-schema-validator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19.1:test (default-test) @ json-schema-validator ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.networknt.schema.MaximumValidatorTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.658 sec - in com.networknt.schema.MaximumValidatorTest
+Running com.networknt.schema.TypeValidatorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.networknt.schema.TypeValidatorTest
+Running com.networknt.schema.MinimumValidatorTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec - in com.networknt.schema.MinimumValidatorTest
+Running com.networknt.schema.SelfRefTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.348 sec - in com.networknt.schema.SelfRefTest
+Running com.networknt.schema.V6JsonSchemaTest
+Tests run: 41, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.436 sec - in com.networknt.schema.V6JsonSchemaTest
+Running com.networknt.schema.V4JsonSchemaTest
+05:27:27.340 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 2019-07-24T25/:00:01-04:00
+05:27:27.363 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 06/19/1963 08:30:06 PST
+05:27:27.381 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 2013-350T01:01:01
+05:27:27.392 [main] ERROR c.networknt.schema.DateTimeValidator - The supplied date/time format type does not match the specification, expected: date-time
+05:27:27.392 [main] ERROR c.networknt.schema.DateTimeValidator - The supplied date/time format type does not match the specification, expected: date-time
+05:27:27.393 [main] ERROR c.networknt.schema.DateTimeValidator - The supplied date/time format type does not match the specification, expected: date-time
+05:27:27.393 [main] ERROR c.networknt.schema.DateTimeValidator - The supplied date/time format type does not match the specification, expected: date
+05:27:27.394 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 2013-35
+Tests run: 44, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 sec - in com.networknt.schema.V4JsonSchemaTest
+Running com.networknt.schema.JsonWalkTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec - in com.networknt.schema.JsonWalkTest
+Running com.networknt.schema.CustomMetaSchemaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.networknt.schema.CustomMetaSchemaTest
+Running com.networknt.schema.SpecVersionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.networknt.schema.SpecVersionTest
+Running com.networknt.schema.MaximumValidatorPerfTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in com.networknt.schema.MaximumValidatorPerfTest
+Running com.networknt.schema.TypeFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.networknt.schema.TypeFactoryTest
+Running com.networknt.schema.SpecVersionDetectorTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec - in com.networknt.schema.SpecVersionDetectorTest
+Running com.networknt.schema.UrnTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.28 sec - in com.networknt.schema.UrnTest
+Running com.networknt.schema.CyclicDependencyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec - in com.networknt.schema.CyclicDependencyTest
+Running com.networknt.schema.Issue313Test
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 sec - in com.networknt.schema.Issue313Test
+Running com.networknt.schema.UriMappingTest
+05:27:28.205 [main] ERROR c.networknt.schema.JsonSchemaFactory - Failed to load json schema!
+java.io.FileNotFoundException: http://example.com/invalid/schema/url
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1920)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at com.networknt.schema.uri.URLFetcher.openConnectionCheckRedirects(URLFetcher.java:57)
+	at com.networknt.schema.uri.URLFetcher.fetch(URLFetcher.java:43)
+	at com.networknt.schema.uri.URISchemeFetcher.fetch(URISchemeFetcher.java:50)
+	at com.networknt.schema.JsonSchemaFactory.getSchema(JsonSchemaFactory.java:328)
+	at com.networknt.schema.JsonSchemaFactory.getSchema(JsonSchemaFactory.java:358)
+	at com.networknt.schema.UriMappingTest.testBuilderExampleMappings(UriMappingTest.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+05:27:28.414 [main] ERROR c.networknt.schema.JsonSchemaFactory - Failed to load json schema!
+java.io.FileNotFoundException: http://example.com/invalid/schema/url
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1920)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1520)
+	at com.networknt.schema.uri.URLFetcher.openConnectionCheckRedirects(URLFetcher.java:57)
+	at com.networknt.schema.uri.URLFetcher.fetch(URLFetcher.java:43)
+	at com.networknt.schema.uri.URISchemeFetcher.fetch(URISchemeFetcher.java:50)
+	at com.networknt.schema.JsonSchemaFactory.getSchema(JsonSchemaFactory.java:328)
+	at com.networknt.schema.UriMappingTest.testValidatorConfigExampleMappings(UriMappingTest.java:136)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.453 sec - in com.networknt.schema.UriMappingTest
+Running com.networknt.schema.UnknownMetaSchemaTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.networknt.schema.UnknownMetaSchemaTest
+Running com.networknt.schema.Issue255Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.networknt.schema.Issue255Test
+Running com.networknt.schema.V7JsonSchemaTest
+05:27:28.489 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 06/19/1963
+05:27:28.489 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 2013-350
+05:27:28.540 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 06/19/1963 08:30:06 PST
+05:27:28.541 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 2013-350T01:01:01
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 16, Time elapsed: 0.214 sec - in com.networknt.schema.V7JsonSchemaTest
+Running com.networknt.schema.ValidatorTypeCodeTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.networknt.schema.ValidatorTypeCodeTest
+Running com.networknt.schema.Issue327Test
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in com.networknt.schema.Issue327Test
+Running com.networknt.schema.PatternPropertiesValidatorTest
+05:27:28.658 [main] ERROR com.networknt.schema.JsonMetaSchema - Error:
+java.lang.reflect.InvocationTargetException: null
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.networknt.schema.ValidatorTypeCode.newValidator(ValidatorTypeCode.java:131)
+	at com.networknt.schema.JsonMetaSchema.newValidator(JsonMetaSchema.java:349)
+	at com.networknt.schema.ValidationContext.newValidator(ValidationContext.java:54)
+	at com.networknt.schema.JsonSchema.read(JsonSchema.java:211)
+	at com.networknt.schema.JsonSchema.initialize(JsonSchema.java:84)
+	at com.networknt.schema.JsonSchemaFactory.newJsonSchema(JsonSchemaFactory.java:257)
+	at com.networknt.schema.JsonSchemaFactory.getSchema(JsonSchemaFactory.java:285)
+	at com.networknt.schema.PatternPropertiesValidatorTest.testInvalidPatternPropertiesValidatorECMA262(PatternPropertiesValidatorTest.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.networknt.schema.JsonSchemaException: patternProperties must be an object node
+	at com.networknt.schema.PatternPropertiesValidator.<init>(PatternPropertiesValidator.java:36)
+	... 50 common frames omitted
+05:27:28.660 [main] ERROR com.networknt.schema.JsonMetaSchema - Error:
+java.lang.reflect.InvocationTargetException: null
+	at jdk.internal.reflect.GeneratedConstructorAccessor18.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.networknt.schema.ValidatorTypeCode.newValidator(ValidatorTypeCode.java:131)
+	at com.networknt.schema.JsonMetaSchema.newValidator(JsonMetaSchema.java:349)
+	at com.networknt.schema.ValidationContext.newValidator(ValidationContext.java:54)
+	at com.networknt.schema.JsonSchema.read(JsonSchema.java:211)
+	at com.networknt.schema.JsonSchema.initialize(JsonSchema.java:84)
+	at com.networknt.schema.JsonSchemaFactory.newJsonSchema(JsonSchemaFactory.java:257)
+	at com.networknt.schema.JsonSchemaFactory.getSchema(JsonSchemaFactory.java:285)
+	at com.networknt.schema.JsonSchemaFactory.getSchema(JsonSchemaFactory.java:293)
+	at com.networknt.schema.PatternPropertiesValidatorTest.testInvalidPatternPropertiesValidator(PatternPropertiesValidatorTest.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:19)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junitcore.JUnitCore.run(JUnitCore.java:55)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.createRequestAndRun(JUnitCoreWrapper.java:137)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.executeEager(JUnitCoreWrapper.java:107)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:83)
+	at org.apache.maven.surefire.junitcore.JUnitCoreWrapper.execute(JUnitCoreWrapper.java:75)
+	at org.apache.maven.surefire.junitcore.JUnitCoreProvider.invoke(JUnitCoreProvider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: com.networknt.schema.JsonSchemaException: patternProperties must be an object node
+	at com.networknt.schema.PatternPropertiesValidator.<init>(PatternPropertiesValidator.java:36)
+	... 51 common frames omitted
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.078 sec - in com.networknt.schema.PatternPropertiesValidatorTest
+Running com.networknt.schema.ThresholdMixinPerfTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec - in com.networknt.schema.ThresholdMixinPerfTest
+Running com.networknt.schema.V201909JsonSchemaTest
+05:27:28.737 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 06/19/1963
+05:27:28.738 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 2013-350
+05:27:28.785 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 06/19/1963 08:30:06 PST
+05:27:28.785 [main] ERROR c.networknt.schema.DateTimeValidator - Failed to apply RFC3339 pattern on 2013-350T01:01:01
+Tests run: 59, Failures: 0, Errors: 0, Skipped: 18, Time elapsed: 0.148 sec - in com.networknt.schema.V201909JsonSchemaTest
+Running com.networknt.schema.CollectorContextTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec - in com.networknt.schema.CollectorContextTest
+Running com.networknt.schema.Issue285Test
+
+[$.name.lastName: boolean found, string expected]
+
+[$.type: does not have a value in the enumeration [array, boolean, integer, null, number, object, string], $.type: should be valid to any of the schemas array]
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.287 sec - in com.networknt.schema.Issue285Test
+
+Results :
+
+Tests run: 269, Failures: 0, Errors: 0, Skipped: 44
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.6:report (post-unit-test) @ json-schema-validator ---
+[INFO] Loading execution data file /workdir/json-schema-validator/target/coverage-reports/jacoco-ut.exec
+[INFO] Analyzed bundle 'JsonSchemaValidator' with 106 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.552 s
+[INFO] Finished at: 2021-02-15T05:27:30Z
+[INFO] ------------------------------------------------------------------------

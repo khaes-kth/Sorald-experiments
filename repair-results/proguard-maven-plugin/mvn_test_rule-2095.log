@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.github.wvengen:proguard-maven-plugin >--------------
+[INFO] Building proguard-maven-plugin 2.3.1
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ proguard-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/proguard-maven-plugin/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ proguard-maven-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.6.0:descriptor (default-descriptor) @ proguard-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[WARNING] com.github.wvengen.maven.proguard.ProGuardMojo#injar:
+[WARNING]   The syntax
+[WARNING]     @parameter expression="${property}"
+[WARNING]   is deprecated, please use
+[WARNING]     @parameter property="property"
+[WARNING]   instead.
+[WARNING] com.github.wvengen.maven.proguard.ProGuardMojo#tempLibraryjarsDir:
+[WARNING]   The syntax
+[WARNING]     @parameter expression="${property}"
+[WARNING]   is deprecated, please use
+[WARNING]     @parameter property="property"
+[WARNING]   instead.
+[INFO] java-javadoc mojo extractor found 1 mojo descriptor.
+[INFO] java-annotations mojo extractor found 0 mojo descriptor.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ proguard-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/proguard-maven-plugin/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ proguard-maven-plugin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ proguard-maven-plugin ---
+[INFO] Surefire report directory: /workdir/proguard-maven-plugin/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.wvengen.maven.proguard.ArtifactFilterTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.854 s
+[INFO] Finished at: 2021-02-14T17:24:19Z
+[INFO] ------------------------------------------------------------------------

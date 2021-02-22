@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 39,
             "endColumn": 53,
@@ -13,11 +14,10 @@
             "filePath": "src/main/java/is/tagomor/woothee/DataSetGenerator.java",
             "violationSpecifier": "2095:src/main/java/is/tagomor/woothee/DataSetGenerator.java:39:28:39:53"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 3695,
-    "repairTimeMs": 188,
-    "startTimeMs": 1612810205477,
+    "totalTimeMs": 3929,
+    "repairTimeMs": 203,
+    "startTimeMs": 1613350386408,
     "crashes": [],
-    "endTimeMs": 1612810209172,
-    "parseTimeMs": 784
+    "endTimeMs": 1613350390337,
+    "parseTimeMs": 865
 }

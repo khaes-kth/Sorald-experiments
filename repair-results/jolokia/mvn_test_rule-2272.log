@@ -1,0 +1,2127 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] jolokia-parent                                                     [pom]
+[INFO] jolokia-test-util                                                  [jar]
+[INFO] jolokia-agent-parent                                               [pom]
+[INFO] jolokia-core                                                       [jar]
+[INFO] jolokia-jsr160                                                     [jar]
+[INFO] jolokia-war                                                        [war]
+[INFO] jolokia-war-unsecured                                              [war]
+[INFO] jolokia-osgi                                                    [bundle]
+[INFO] jolokia-osgi-bundle                                             [bundle]
+[INFO] jolokia-jmx                                                     [bundle]
+[INFO] jolokia-jvm                                                        [jar]
+[INFO] jolokia-spring                                                     [jar]
+[INFO] jolokia-mule                                                       [jar]
+[INFO] jolokia-it-parent                                                  [pom]
+[INFO] jolokia-it-core                                                 [bundle]
+[INFO] jolokia-it-war                                                     [war]
+[INFO] jolokia-client-parent                                              [pom]
+[INFO] jolokia-client-java                                             [bundle]
+[INFO] jolokia-client-javascript                                   [javascript]
+[INFO] jolokia-jmx-adapter                                             [bundle]
+[INFO] jolokia-kubernetes                                              [bundle]
+[INFO] 
+[INFO] ------------------------< org.jolokia:jolokia >-------------------------
+[INFO] Building jolokia-parent 1.6.3-SNAPSHOT                            [1/21]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -------------------< org.jolokia:jolokia-test-util >--------------------
+[INFO] Building jolokia-test-util 1.6.3-SNAPSHOT                         [2/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-test-util ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/tools/test-util/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-test-util ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-test-util ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/tools/test-util/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-test-util ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-test-util ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< org.jolokia:jolokia-agent-parent >------------------
+[INFO] Building jolokia-agent-parent 1.6.3-SNAPSHOT                      [3/21]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ----------------------< org.jolokia:jolokia-core >----------------------
+[INFO] Building jolokia-core 1.6.3-SNAPSHOT                              [4/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 23 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-core ---
+[INFO] Surefire report directory: /workdir/jolokia/agent/core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: TestNG652Configurator
+WARNING: An illegal reflective access operation has occurred
+SUREFIRE-859: WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/home/maven/.m2/repository/org/easymock/easymock/4.2/easymock-4.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+INFO> No access restrictor found, access to any MBean is allowed
+INFO> Using restrictor org.jolokia.restrictor.TestRestrictor
+ERROR> Error while accessing access restrictor at file:///some_non_existing_file.xml. Denying all access to MBeans for security reasons. Exception: java.io.FileNotFoundException: /some_non_existing_file.xml (No such file or directory)
+ERROR exception> /some_non_existing_file.xml (No such file or directory)
+INFO> Using policy access restrictor classpath:/access-restrictor-factory-test.xml
+Localhost: 605b8309f1f8 (172.17.0.2) [site-local: true, link-local: false, lb: false] -- nif: eth0 [up: true, mc: true, lb: false, hw: 02:42:ac:11:00:02]
+Network interfaces:
+  - eth0 [up: true, mc: true, lb: false, hw: 02:42:ac:11:00:02]
+    605b8309f1f8 (172.17.0.2) [site-local: true, link-local: false, lb: false] -- nif: eth0 [up: true, mc: true, lb: false, hw: 02:42:ac:11:00:02]
+  - lo [up: true, mc: false, lb: true, hw: [none]]
+    localhost (127.0.0.1) [site-local: false, link-local: false, lb: true] -- nif: lo [up: true, mc: false, lb: true, hw: [none]]
+
+IFs
+name:eth0 (eth0) is loopback: false
+name:lo (lo) is loopback: true
+Address found via NIF: /172.17.0.2
+E> Error while using detector TestDetector: java.lang.RuntimeException
+java.lang.RuntimeException
+	at org.jolokia.backend.TestDetector.detect(TestDetector.java:56)
+	at org.jolokia.backend.MBeanServerHandler.detectServers(MBeanServerHandler.java:291)
+	at org.jolokia.backend.MBeanServerHandler.initServerHandle(MBeanServerHandler.java:138)
+	at org.jolokia.backend.MBeanServerHandler.<init>(MBeanServerHandler.java:76)
+	at org.jolokia.backend.LocalRequestDispatcher.<init>(LocalRequestDispatcher.java:72)
+	at org.jolokia.backend.BackendManager.init(BackendManager.java:331)
+	at org.jolokia.backend.BackendManager.access$100(BackendManager.java:51)
+	at org.jolokia.backend.BackendManager$Initializer.init(BackendManager.java:308)
+	at org.jolokia.backend.BackendManager.lazyInitIfNeeded(BackendManager.java:317)
+	at org.jolokia.backend.BackendManager.handleRequest(BackendManager.java:148)
+	at org.jolokia.request.RawObjectNameTest.assertPropertyNamesOrderedCorrectly(RawObjectNameTest.java:97)
+	at org.jolokia.request.RawObjectNameTest.testListCanonicalNameAccess(RawObjectNameTest.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+[Fatal Error] :3:1: Content is not allowed in prolog.
+D> 605b8309f1f8/172.17.0.2<-- Listening for queries
+D> 605b8309f1f8/172.17.0.2<-- Waiting
+D> /172.17.0.2--> Sending
+D> 605b8309f1f8/172.17.0.2<-- Discovery request from /172.17.0.2:56939
+D> 605b8309f1f8/172.17.0.2<-- Waiting
+D> /172.17.0.2--> Received answer from /172.17.0.2
+D> /172.17.0.2--> Timeout
+D> 605b8309f1f8/172.17.0.2<-- Stop listening
+=================================================
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+D> /172.17.0.2--> Sending
+D> /172.17.0.2<-- Discovery request from /172.17.0.2:60747
+D> /172.17.0.2<-- Waiting
+D> /172.17.0.2--> Received answer from /172.17.0.2
+D> /172.17.0.2--> Timeout
+=================================================
+D> /172.17.0.2<-- Stop listening
+E> Error while initializing plugin test
+javax.management.InstanceAlreadyExistsException: jolokia:type=plugin,name=test
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.jolokia.detector.ServerHandle.registerMBeanAtServer(ServerHandle.java:148)
+	at org.jolokia.backend.MBeanServerHandler.registerMBean(MBeanServerHandler.java:181)
+	at org.jolokia.backend.MBeanServerHandler$1.registerMBean(MBeanServerHandler.java:109)
+	at org.jolokia.backend.TestMBeanPlugin.init(TestMBeanPlugin.java:44)
+	at org.jolokia.backend.MBeanServerHandler.initPlugins(MBeanServerHandler.java:88)
+	at org.jolokia.backend.MBeanServerHandler.<init>(MBeanServerHandler.java:78)
+	at org.jolokia.backend.LocalRequestDispatcher.<init>(LocalRequestDispatcher.java:72)
+	at org.jolokia.backend.BackendManager.init(BackendManager.java:331)
+	at org.jolokia.backend.BackendManager.<init>(BackendManager.java:130)
+	at org.jolokia.backend.BackendManager.<init>(BackendManager.java:105)
+	at org.jolokia.backend.BackendManager.<init>(BackendManager.java:94)
+	at org.jolokia.backend.BackendManagerTest.doubleInit(BackendManagerTest.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=c4c2b0a3-4b7d-40ce-bc19-de35f6ca8b49, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+E> Error while initializing plugin test
+javax.management.InstanceAlreadyExistsException: jolokia:type=plugin,name=test
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.jolokia.detector.ServerHandle.registerMBeanAtServer(ServerHandle.java:148)
+	at org.jolokia.backend.MBeanServerHandler.registerMBean(MBeanServerHandler.java:181)
+	at org.jolokia.backend.MBeanServerHandler$1.registerMBean(MBeanServerHandler.java:109)
+	at org.jolokia.backend.TestMBeanPlugin.init(TestMBeanPlugin.java:44)
+	at org.jolokia.backend.MBeanServerHandler.initPlugins(MBeanServerHandler.java:88)
+	at org.jolokia.backend.MBeanServerHandler.<init>(MBeanServerHandler.java:78)
+	at org.jolokia.backend.LocalRequestDispatcher.<init>(LocalRequestDispatcher.java:72)
+	at org.jolokia.backend.BackendManager.init(BackendManager.java:331)
+	at org.jolokia.backend.BackendManager.<init>(BackendManager.java:130)
+	at org.jolokia.backend.BackendManager.<init>(BackendManager.java:105)
+	at org.jolokia.backend.BackendManager.<init>(BackendManager.java:94)
+	at org.jolokia.backend.BackendManagerTest.requestDispatcherWithWrongDispatcher(BackendManagerTest.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+E> Error while initializing plugin test
+javax.management.InstanceAlreadyExistsException: jolokia:type=plugin,name=test
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522)
+	at org.jolokia.detector.ServerHandle.registerMBeanAtServer(ServerHandle.java:148)
+	at org.jolokia.backend.MBeanServerHandler.registerMBean(MBeanServerHandler.java:181)
+	at org.jolokia.backend.MBeanServerHandler$1.registerMBean(MBeanServerHandler.java:109)
+	at org.jolokia.backend.TestMBeanPlugin.init(TestMBeanPlugin.java:44)
+	at org.jolokia.backend.MBeanServerHandler.initPlugins(MBeanServerHandler.java:88)
+	at org.jolokia.backend.MBeanServerHandler.<init>(MBeanServerHandler.java:78)
+	at org.jolokia.backend.LocalRequestDispatcher.<init>(LocalRequestDispatcher.java:72)
+	at org.jolokia.backend.BackendManager.init(BackendManager.java:331)
+	at org.jolokia.backend.BackendManager.<init>(BackendManager.java:130)
+	at org.jolokia.backend.BackendManager.<init>(BackendManager.java:105)
+	at org.jolokia.backend.BackendManager.<init>(BackendManager.java:94)
+	at org.jolokia.backend.BackendManagerTest.simpleRead(BackendManagerTest.java:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:205)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:108)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+D> Execution time: 1 ms
+D> Response: {"request":{"mbean":"java.lang:type=Memory","attribute":"HeapMemoryUsage","type":"read"},"value":{"init":262144000,"committed":262144000,"max":4188012544,"used":18433816},"timestamp":1613322599,"status":200}
+Tests run: 492, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.059 sec - in TestSuite
+
+Results :
+
+Tests run: 492, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ---------------------< org.jolokia:jolokia-jsr160 >---------------------
+[INFO] Building jolokia-jsr160 1.6.3-SNAPSHOT                            [5/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-jsr160 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/agent/jsr160/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-jsr160 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-jsr160 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-jsr160 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-jsr160 ---
+[INFO] Surefire report directory: /workdir/jolokia/agent/jsr160/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jolokia.jsr160.Jsr160RequestDispatcherTest
+Configuring TestNG with: TestNG652Configurator
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.476 sec - in org.jolokia.jsr160.Jsr160RequestDispatcherTest
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------------------< org.jolokia:jolokia-war >-----------------------
+[INFO] Building jolokia-war 1.6.3-SNAPSHOT                               [6/21]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-war ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/agent/war/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-war ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-war ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/agent/war/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-war ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-war ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------< org.jolokia:jolokia-war-unsecured >------------------
+[INFO] Building jolokia-war-unsecured 1.6.3-SNAPSHOT                     [7/21]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-war-unsecured ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/agent/war-unsecured/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-war-unsecured ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-war-unsecured ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/agent/war-unsecured/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-war-unsecured ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-war-unsecured ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------------< org.jolokia:jolokia-osgi >----------------------
+[INFO] Building jolokia-osgi 1.6.3-SNAPSHOT                              [8/21]
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-osgi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-osgi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-osgi ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-osgi ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-osgi ---
+[INFO] Surefire report directory: /workdir/jolokia/agent/osgi/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: TestNG652Configurator
+Jolokia-Error: Servlet Exception: javax.servlet.ServletException : null
+WARNING: An illegal reflective access operation has occurred
+SUREFIRE-859: WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/home/maven/.m2/repository/org/easymock/easymock/4.2/easymock-4.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.666 sec - in TestSuite
+
+Results :
+
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------------< org.jolokia:jolokia-osgi-bundle >-------------------
+[INFO] Building jolokia-osgi-bundle 1.6.3-SNAPSHOT                       [9/21]
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-osgi-bundle ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/agent/osgi-bundle/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-osgi-bundle ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-osgi-bundle ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/agent/osgi-bundle/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-osgi-bundle ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-osgi-bundle ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------------< org.jolokia:jolokia-jmx >-----------------------
+[INFO] Building jolokia-jmx 1.6.3-SNAPSHOT                              [10/21]
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-jmx ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/agent/jmx/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-jmx ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-jmx ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/agent/jmx/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-jmx ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-jmx ---
+[INFO] Surefire report directory: /workdir/jolokia/agent/jmx/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: TestNG652Configurator
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.jolokia.jmx.JolokiaMBeanServer (file:/workdir/jolokia/agent/jmx/target/classes/) to field javax.management.modelmbean.RequiredModelMBean.managedResource
+WARNING: Please consider reporting this to the maintainers of org.jolokia.jmx.JolokiaMBeanServer
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.478 sec - in TestSuite
+
+Results :
+
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------------------< org.jolokia:jolokia-jvm >-----------------------
+[INFO] Building jolokia-jvm 1.6.3-SNAPSHOT                              [11/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-jvm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-jvm ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-jvm ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 34 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-jvm ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-jvm ---
+[WARNING] The parameter forkMode is deprecated since version 2.14. Use forkCount and reuseForks instead.
+[INFO] Surefire report directory: /workdir/jolokia/agent/jvm/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jolokia.restrictor.TestReverseDnsLookupRestrictor
+Configuring TestNG with: TestNG652Configurator
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 sec - in org.jolokia.restrictor.TestReverseDnsLookupRestrictor
+Running org.jolokia.restrictor.TestRestrictorWithConfig
+Configuring TestNG with: TestNG652Configurator
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.201 sec - in org.jolokia.restrictor.TestRestrictorWithConfig
+Running org.jolokia.jvmagent.TestMain
+Configuring TestNG with: TestNG652Configurator
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.202 sec - in org.jolokia.jvmagent.TestMain
+Running org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest
+Configuring TestNG with: TestNG652Configurator
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+WARNING: An illegal reflective access operation has occurred
+SUREFIRE-859: WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/home/maven/.m2/repository/org/easymock/easymock/4.2/easymock-4.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+I> Using policy access restrictor classpath:/access-restrictor.xml
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=42aff9b6-8ad8-41ef-ac72-8b489c869d60, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+D> URI: http://localhost:8080/jolokia/read/java.lang:type=Memory/HeapMemoryUsage
+D> Path-Info: read/java.lang:type=Memory/HeapMemoryUsage
+D> Request: JmxReadRequest[attribute=HeapMemoryUsage, objectName = java.lang:type=Memory]
+E> Error 403
+java.lang.Exception: HTTP method get is not allowed according to the installed security policy
+	at org.jolokia.http.HttpRequestHandler.executeRequest(HttpRequestHandler.java:214)
+	at org.jolokia.http.HttpRequestHandler.handleGetRequest(HttpRequestHandler.java:86)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandler.executeGetRequest(JolokiaHttpHandler.java:278)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandler.doHandle(JolokiaHttpHandler.java:235)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest.simpleMemoryGetReadRequest(JolokiaHttpHandlerTest.java:382)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest.customRestrictor(JolokiaHttpHandlerTest.java:206)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+D> /172.17.0.2<-- Stop listening
+E> Error while accessing access restrictor at file:///not-existing.xml. Denying all access to MBeans for security reasons. Exception: java.io.FileNotFoundException: /not-existing.xml (No such file or directory)
+java.io.FileNotFoundException: /not-existing.xml (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+	at java.base/java.net.URL.openStream(URL.java:1140)
+	at org.jolokia.restrictor.RestrictorFactory.lookupPolicyRestrictor(RestrictorFactory.java:119)
+	at org.jolokia.restrictor.RestrictorFactory.createRestrictor(RestrictorFactory.java:50)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandler.createRestrictor(JolokiaHttpHandler.java:127)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandler.start(JolokiaHttpHandler.java:106)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest.simpleMemoryGetReadRequest(JolokiaHttpHandlerTest.java:380)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest.customRestrictor(JolokiaHttpHandlerTest.java:206)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=60a01bc4-2bcd-48e6-98d6-da68512d307b, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+I> Using policy access restrictor classpath:/access-restrictor.xml
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=d2551fe5-376e-4071-a07e-a61baa539d50, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+D> URI: http://localhost:8080/jolokia/read/java.lang:type=Memory/HeapMemoryUsage
+D> Path-Info: read/java.lang:type=Memory/HeapMemoryUsage
+D> Request: JmxReadRequest[attribute=HeapMemoryUsage, objectName = java.lang:type=Memory]
+E> Error 403
+java.lang.Exception: HTTP method get is not allowed according to the installed security policy
+	at org.jolokia.http.HttpRequestHandler.executeRequest(HttpRequestHandler.java:214)
+	at org.jolokia.http.HttpRequestHandler.handleGetRequest(HttpRequestHandler.java:86)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandler.executeGetRequest(JolokiaHttpHandler.java:278)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandler.doHandle(JolokiaHttpHandler.java:235)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest.simpleMemoryGetReadRequest(JolokiaHttpHandlerTest.java:382)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest.customRestrictor(JolokiaHttpHandlerTest.java:206)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+D> /172.17.0.2<-- Stop listening
+I> Using policy access restrictor classpath:/access-restrictor.xml
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=a29fde4a-dc75-4c34-b76e-a43d9998931e, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+I> Using restrictor org.jolokia.restrictor.DenyAllRestrictor
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=463e499c-75c2-43f6-a4e7-4eabd261de04, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+D> /172.17.0.2<-- Stop listening
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+I> Using restrictor org.jolokia.restrictor.AllowAllRestrictor
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=1e6356dd-ea2e-4f0b-b95c-b1112ec90b2b, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+D> /172.17.0.2<-- Stop listening
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+I> Using restrictor org.jolokia.restrictor.TestRestrictorWithConfig
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=6c4157fe-79ac-4b5a-a31d-acd0f5e0d201, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+D> /172.17.0.2<-- Stop listening
+I> No access restrictor found, access to any MBean is allowed
+I> /172.17.0.2<-- Socket closed, reopening it
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+I> Using restrictor org.jolokia.restrictor.TestRestrictorWithConfig
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=76552f83-92c3-4f8d-8061-a33e05e0e44a, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+D> /172.17.0.2<-- Stop listening
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+D> /172.17.0.2<-- Stop listening
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Stop listening
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+E> Error 400
+java.lang.IllegalArgumentException: HTTP Method PUT is not supported.
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandler.doHandle(JolokiaHttpHandler.java:242)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest.invalidMethod(JolokiaHttpHandlerTest.java:180)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+D> /172.17.0.2<-- Stop listening
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Listening for queries
+I> Using restrictor org.jolokia.restrictor.TestReverseDnsLookupRestrictor
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=fc74cc95-837e-4d41-8c01-8276d34b537a, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+D> /172.17.0.2<-- Waiting
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Stop listening
+I> /172.17.0.2<-- Socket closed, reopening it
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+I> Using restrictor org.jolokia.restrictor.TestReverseDnsLookupRestrictor
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=25aeb401-ecd8-4b79-a44f-7a00e10453d8, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+D> /172.17.0.2<-- Stop listening
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+D> URI: http://localhost:8080/jolokia
+D> Execution time: 0 ms
+D> Response: {"request":{"mbean":"java.lang:type=Memory","attribute":"HeapMemoryUsage","type":"read"},"value":{"init":262144000,"committed":262144000,"max":4188012544,"used":49484800},"timestamp":1613322604,"status":200}
+D> /172.17.0.2<-- Stop listening
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Listening for queries
+D> URI: http://localhost:8080/jolokia?callback=data
+D> Execution time: 1 ms
+D> Response: {"request":{"mbean":"java.lang:type=Memory","attribute":"HeapMemoryUsage","type":"read"},"value":{"init":262144000,"committed":262144000,"max":4188012544,"used":51581952},"timestamp":1613322604,"status":200}
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=9652481d-7290-4713-9b46-a66d8623a61b, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+I> /172.17.0.2<-- Socket closed, reopening it
+D> /172.17.0.2<-- Waiting
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+E> Error 400
+java.lang.IllegalArgumentException: Invalid callback name given, which must be a valid javascript function name
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandler.validateCallbackIfGiven(JolokiaHttpHandler.java:256)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandler.doHandle(JolokiaHttpHandler.java:230)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest.checkInvalidCallback(JolokiaHttpHandlerTest.java:124)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest.testInvalidCallbackGetNonStreaming(JolokiaHttpHandlerTest.java:109)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+D> /172.17.0.2<-- Stop listening
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=8e2d5a2c-892c-4756-992a-96b064dfde9b, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+D> /172.17.0.2<-- Listening for queries
+D> /172.17.0.2<-- Waiting
+E> Error 400
+java.lang.IllegalArgumentException: Invalid callback name given, which must be a valid javascript function name
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandler.validateCallbackIfGiven(JolokiaHttpHandler.java:256)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandler.doHandle(JolokiaHttpHandler.java:230)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest.checkInvalidCallback(JolokiaHttpHandlerTest.java:124)
+	at org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest.testInvalidCallbackGetStreaming(JolokiaHttpHandlerTest.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:115)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:129)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:113)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Stop listening
+I> No access restrictor found, access to any MBean is allowed
+D> /172.17.0.2<-- Listening for queries
+D> URI: http://localhost:8080/jolokia/read/java.lang:type=Memory/HeapMemoryUsage?mimeType=application/json
+D> Path-Info: read/java.lang:type=Memory/HeapMemoryUsage
+D> Request: JmxReadRequest[attribute=HeapMemoryUsage, objectName = java.lang:type=Memory]
+D> Execution time: 0 ms
+D> Response: {"request":{"mbean":"java.lang:type=Memory","attribute":"HeapMemoryUsage","type":"read"},"value":{"init":262144000,"committed":262144000,"max":4188012544,"used":61019136},"timestamp":1613322604,"status":200}
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> jolokia:type=Config is already registered. Adding it with jolokia:type=Config,uuid=3c84e9b9-5655-45fa-a700-ddb03fd48b8e, but you should revise your setup in order to either use a qualifier or ensure, that only a single agent gets registered (otherwise history functionality might not work)
+I> Cannot register (legacy) MBean handler for config store with name jmx4perl:type=Config since it already exists. This is the case if another agent has been already started within the same JVM. The registration is skipped.
+I> Jolokia Discovery MBean registration is skipped because there is already one registered.
+D> /172.17.0.2<-- Listening for queries
+I> /172.17.0.2<-- Socket closed, reopening it
+D> /172.17.0.2<-- Waiting
+D> URI: http://localhost:8080/jolokia/list?maxDepth=1
+D> Path-Info: list
+D> Request: JmxListRequest[]
+D> Execution time: 2 ms
+D> Response: {"request":{"type":"list"},"value":{"JMImplementation":"1","java.util.logging":"1","jdk.management.jfr":"1","java.lang":"1","com.sun.management":"1","jmx4perl":"1","java.nio":"1","jolokia":"1"},"timestamp":1613322604,"status":200}
+D> /172.17.0.2<-- Waiting
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.917 sec - in org.jolokia.jvmagent.handler.JolokiaHttpHandlerTest
+Running org.jolokia.jvmagent.client.command.EncryptCommandTest
+Configuring TestNG with: TestNG652Configurator
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.275 sec - in org.jolokia.jvmagent.client.command.EncryptCommandTest
+Running org.jolokia.jvmagent.client.command.CommandDispatcherTest
+Configuring TestNG with: TestNG652Configurator
+WARNING: An illegal reflective access operation has occurred
+SUREFIRE-859: WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/home/maven/.m2/repository/org/easymock/easymock/4.2/easymock-4.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.394 sec - in org.jolokia.jvmagent.client.command.CommandDispatcherTest
+Running org.jolokia.jvmagent.client.util.VirtualMachineHandlerTest
+Configuring TestNG with: TestNG652Configurator
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.jolokia.jvmagent.client.util.VirtualMachineHandler (file:/workdir/jolokia/agent/jvm/target/classes/) to method sun.tools.attach.VirtualMachineImpl.detach()
+WARNING: Please consider reporting this to the maintainers of org.jolokia.jvmagent.client.util.VirtualMachineHandler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+ERROR: 22217 /workdir/jolokia/agent/jvm/target/surefire/surefirebooter5771450545985276380.jar /workdir/jolokia/agent/jvm/target/surefire/surefire13285688530026097881tmp /workdir/jolokia/agent/jvm/target/surefire/surefire_87868457288036441197tmp: org.jolokia.jvmagent.client.util.ProcessingException: Cannot attach to process-ID 22217 (InvocationTarget com.sun.tools.attach.VirtualMachine).
+See --help for possible reasons.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.577 sec - in org.jolokia.jvmagent.client.util.VirtualMachineHandlerTest
+Running org.jolokia.jvmagent.client.util.OptionsAndArgsTest
+Configuring TestNG with: TestNG652Configurator
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.281 sec - in org.jolokia.jvmagent.client.util.OptionsAndArgsTest
+Running org.jolokia.jvmagent.client.util.ProcessingExceptionTest
+Configuring TestNG with: TestNG652Configurator
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.24 sec - in org.jolokia.jvmagent.client.util.ProcessingExceptionTest
+Running org.jolokia.jvmagent.client.AgentLauncherTest
+Configuring TestNG with: TestNG652Configurator
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.22 sec - in org.jolokia.jvmagent.client.AgentLauncherTest
+Running org.jolokia.jvmagent.JvmAgentConfigTest
+Configuring TestNG with: TestNG652Configurator
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.356 sec - in org.jolokia.jvmagent.JvmAgentConfigTest
+Running org.jolokia.jvmagent.JolokiaServerTest
+Configuring TestNG with: TestNG652Configurator
+I> No access restrictor found, access to any MBean is allowed
+I> /172.17.0.2<-- Socket closed, reopening it
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+[Ljava.security.cert.X509Certificate;@27d4a09
+Port 22332 already in use, trying next ...
+Jolokia: Discarding unsupported cipher suite: SSL_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_RSA_WITH_AES_128_CBC_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_ECDH_ECDSA_WITH_AES_128_CBC_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_ECDH_RSA_WITH_AES_128_CBC_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_DHE_RSA_WITH_AES_128_CBC_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_DHE_DSS_WITH_AES_128_CBC_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_ECDHE_ECDSA_WITH_AES_128_CBC_SHA
+Jolokia: Discarding unsupported cipher suite: SSL_ECDHE_RSA_WITH_AES_128_CBC_SHA
+Jolokia: Discarding unsupported cipher suite: SSL_RSA_WITH_AES_128_CBC_SHA
+Jolokia: Discarding unsupported cipher suite: SSL_ECDH_ECDSA_WITH_AES_128_CBC_SHA
+Jolokia: Discarding unsupported cipher suite: SSL_ECDH_RSA_WITH_AES_128_CBC_SHA
+Jolokia: Discarding unsupported cipher suite: SSL_DHE_RSA_WITH_AES_128_CBC_SHA
+Jolokia: Discarding unsupported cipher suite: SSL_DHE_DSS_WITH_AES_128_CBC_SHA
+Jolokia: Discarding unsupported cipher suite: SSL_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_RSA_WITH_AES_128_GCM_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_ECDH_ECDSA_WITH_AES_128_GCM_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_ECDH_RSA_WITH_AES_128_GCM_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_DHE_RSA_WITH_AES_128_GCM_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_DHE_DSS_WITH_AES_128_GCM_SHA256
+Jolokia: Discarding unsupported cipher suite: SSL_RSA_WITH_DES_CBC_SHA
+Jolokia: Discarding unsupported cipher suite: SSL_DHE_RSA_WITH_DES_CBC_SHA
+Jolokia: Discarding unsupported cipher suite: SSL_DHE_DSS_WITH_DES_CBC_SHA
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+Port 22333 already in use, trying next ...
+WARNING: An illegal reflective access operation has occurred
+SUREFIRE-859: WARNING: Illegal reflective access by org.jolokia.util.ClassUtil (file:/workdir/jolokia/agent/core/target/classes/) to constructor sun.security.x509.X500Name(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+WARNING: Please consider reporting this to the maintainers of org.jolokia.util.ClassUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+I> No access restrictor found, access to any MBean is allowed
+[Ljava.security.cert.X509Certificate;@2d6764b2
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+[Ljava.security.cert.X509Certificate;@74c79fa2
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+[Ljava.security.cert.X509Certificate;@23aa363a
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+Port 22332 already in use, trying next ...
+Port 22333 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+Port 22333 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+Port 22333 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+Port 22333 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Port 22332 already in use, trying next ...
+Port 22333 already in use, trying next ...
+I> No access restrictor found, access to any MBean is allowed
+Tests run: 27, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.322 sec - in org.jolokia.jvmagent.JolokiaServerTest
+Running org.jolokia.jvmagent.ParseUriTest
+Configuring TestNG with: TestNG652Configurator
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.239 sec - in org.jolokia.jvmagent.ParseUriTest
+Running org.jolokia.jvmagent.security.KeyStoreUtilTest
+Configuring TestNG with: TestNG652Configurator
+WARNING: An illegal reflective access operation has occurred
+SUREFIRE-859: WARNING: Illegal reflective access by org.jolokia.util.ClassUtil (file:/workdir/jolokia/agent/core/target/classes/) to constructor sun.security.x509.X500Name(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+WARNING: Please consider reporting this to the maintainers of org.jolokia.util.ClassUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.515 sec - in org.jolokia.jvmagent.security.KeyStoreUtilTest
+Running org.jolokia.jvmagent.security.UserPasswordAuthenticatorTest
+Configuring TestNG with: TestNG652Configurator
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.229 sec - in org.jolokia.jvmagent.security.UserPasswordAuthenticatorTest
+Running org.jolokia.jvmagent.security.MultiAuthenticatorTest
+Configuring TestNG with: TestNG652Configurator
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.26 sec - in org.jolokia.jvmagent.security.MultiAuthenticatorTest
+Running org.jolokia.jvmagent.security.DelegatingAuthenticatorTest
+Configuring TestNG with: TestNG652Configurator
+2021-02-14 17:10:15.486:INFO::Logging to STDERR via org.mortbay.log.StdErrLog
+2021-02-14 17:10:15.502:INFO::jetty-6.1.26
+2021-02-14 17:10:15.519:INFO::Started SocketConnector@0.0.0.0:22332
+WARNING: An illegal reflective access operation has occurred
+SUREFIRE-859: WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/home/maven/.m2/repository/org/easymock/easymock/4.2/easymock-4.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2021-02-14 17:10:16.559:INFO::Stopped SocketConnector@0.0.0.0:22332
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.448 sec - in org.jolokia.jvmagent.security.DelegatingAuthenticatorTest
+Running org.jolokia.jvmagent.security.PKCS1UtilTest
+Configuring TestNG with: TestNG652Configurator
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.225 sec - in org.jolokia.jvmagent.security.PKCS1UtilTest
+Running org.jolokia.jvmagent.security.JaasAuthenticatorTest
+Configuring TestNG with: TestNG652Configurator
+WARNING: An illegal reflective access operation has occurred
+SUREFIRE-859: WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/home/maven/.m2/repository/org/easymock/easymock/4.2/easymock-4.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.37 sec - in org.jolokia.jvmagent.security.JaasAuthenticatorTest
+Running org.jolokia.jvmagent.security.ClientCertAuthenticatorTest
+Configuring TestNG with: TestNG652Configurator
+WARNING: An illegal reflective access operation has occurred
+SUREFIRE-859: WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/home/maven/.m2/repository/org/easymock/easymock/4.2/easymock-4.2.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.396 sec - in org.jolokia.jvmagent.security.ClientCertAuthenticatorTest
+Running org.jolokia.jvmagent.security.BaseAuthenticatorTest
+Configuring TestNG with: TestNG652Configurator
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.205 sec - in org.jolokia.jvmagent.security.BaseAuthenticatorTest
+Running org.jolokia.jvmagent.JvmAgentTest
+Configuring TestNG with: TestNG652Configurator
+Could not stop Jolokia agent: java.lang.NullPointerException
+Could not stop Jolokia agent: java.lang.NullPointerException
+Could not stop Jolokia agent: java.lang.NullPointerException
+Could not start Jolokia agent: java.net.BindException: Address already in use
+Could not start Jolokia agent: java.net.BindException: Address already in use
+Could not start Jolokia agent: java.net.BindException: Address already in use
+I> No access restrictor found, access to any MBean is allowed
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.323 sec - in org.jolokia.jvmagent.JvmAgentTest
+
+Results :
+
+Tests run: 136, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ---------------------< org.jolokia:jolokia-spring >---------------------
+[INFO] Building jolokia-spring 1.6.3-SNAPSHOT                           [12/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-spring ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-spring ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-spring ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-spring ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-spring ---
+[INFO] Surefire report directory: /workdir/jolokia/agent/jvm-spring/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: TestNG652Configurator
+Port selected: 22332
+Feb 14, 2021 5:10:19 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@34f7cfd9: startup date [Sun Feb 14 17:10:19 UTC 2021]; root of context hierarchy
+Feb 14, 2021 5:10:19 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [spring-jolokia-context.xml]
+Feb 14, 2021 5:10:19 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6f1c29b7: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,mbeanExporter,jolokiaMBeanServer,bla,blub,configuration,jolokia]; root of factory hierarchy
+Feb 14, 2021 5:10:19 PM org.springframework.jmx.export.MBeanExporter afterPropertiesSet
+INFO: Registering beans for JMX exposure on startup
+I> No access restrictor found, access to any MBean is allowed
+>>> URL to check: http://127.0.0.1:22332/j4p/
+Feb 14, 2021 5:10:19 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@12dae582: startup date [Sun Feb 14 17:10:19 UTC 2021]; root of context hierarchy
+Feb 14, 2021 5:10:19 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [spring-jolokia-plain-beans.xml]
+Feb 14, 2021 5:10:19 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4f071df8: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,configuration,jolokia]; root of factory hierarchy
+I> No access restrictor found, access to any MBean is allowed
+>>> URL to check: http://127.0.0.1:22332/jolokia/
+Feb 14, 2021 5:10:19 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [simple-config.xml]
+Feb 14, 2021 5:10:19 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [simple-server.xml]
+I> No access restrictor found, access to any MBean is allowed
+I> /172.17.0.2<-- Socket closed, reopening it
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> /172.17.0.2<-- Socket closed, reopening it
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+I> No access restrictor found, access to any MBean is allowed
+>>> URL to check: http://127.0.0.1:22332/j4p/
+I> No access restrictor found, access to any MBean is allowed
+>>> URL to check: http://127.0.0.1:22332/jolokia/
+I> No access restrictor found, access to any MBean is allowed
+>>> URL to check: http://127.0.0.1:22332/jolokia/
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.603 sec - in TestSuite
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------------------< org.jolokia:jolokia-mule >----------------------
+[INFO] Building jolokia-mule 1.6.3-SNAPSHOT                             [13/21]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-mule ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/agent/mule/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-mule ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-mule ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-mule ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-mule ---
+[INFO] Surefire report directory: /workdir/jolokia/agent/mule/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: TestNG652Configurator
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+Testing Jetty 9
+Port: 22332
+Testing Jetty 9
+Port: 22332
+Testing Jetty 9
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.973 sec - in TestSuite
+
+Results :
+
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -------------------< org.jolokia:jolokia-it-parent >--------------------
+[INFO] Building jolokia-it-parent 1.6.3-SNAPSHOT                        [14/21]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --------------------< org.jolokia:jolokia-it-core >---------------------
+[INFO] Building jolokia-it-core 1.6.3-SNAPSHOT                          [15/21]
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-it-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/it/core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-it-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-it-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/it/core/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-it-core ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-it-core ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------------------< org.jolokia:jolokia-it-war >---------------------
+[INFO] Building jolokia-it-war 1.6.3-SNAPSHOT                           [16/21]
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-it-war ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/it/war/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-it-war ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-it-war ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/it/war/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-it-war ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-it-war ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------< org.jolokia:jolokia-client-parent >------------------
+[INFO] Building jolokia-client-parent 1.6.3-SNAPSHOT                    [17/21]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ------------------< org.jolokia:jolokia-client-java >-------------------
+[INFO] Building jolokia-client-java 1.6.3-SNAPSHOT                      [18/21]
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-client-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/client/java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-client-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ jolokia-client-java ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-client-java ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/client/java/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-client-java ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-client-java ---
+[INFO] Surefire report directory: /workdir/jolokia/client/java/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: TestNG652Configurator
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Registered jolokia.it:type=naming/,name=\/
+Registered jolokia.it:type=naming/,name=simple
+Registered jolokia.it:type=naming/,name=/slash-simple/
+Registered jolokia.it:type=naming/,name=/--/
+Registered jolokia.it:type=naming/,name=with%3acolon
+Registered jolokia.it:type=naming/,name=//server/client
+Registered jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it:type=naming/,name="jdbc/testDB"
+Registered jolokia.it:type=naming/,name=name with space
+Registered jolokia.it:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it:type=escape,name=",,,"
+Registered jolokia.it:type=escape,name=",,/,,"
+Registered jolokia.it:type=escape,name="==="
+Registered jolokia.it:type=escape,name="\*\*\*"
+Registered jolokia.it:type=escape,name="\"\"\""
+Registered jolokia.it:type=escape,name=":::"
+Registered jolokia.it:type=escape,name="\?\?\?"
+Registered jolokia.it:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it:type=mxbean
+Registered jolokia.it:type=tabularData
+Registered jolokia.it.hidden:type=naming/,name=\/
+Registered jolokia.it.hidden:type=naming/,name=simple
+Registered jolokia.it.hidden:type=naming/,name=/slash-simple/
+Registered jolokia.it.hidden:type=naming/,name=/--/
+Registered jolokia.it.hidden:type=naming/,name=with%3acolon
+Registered jolokia.it.hidden:type=naming/,name=//server/client
+Registered jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+Registered jolokia.it.hidden:type=naming/,name=name with space
+Registered jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it.hidden:type=escape,name=",,,"
+Registered jolokia.it.hidden:type=escape,name=",,/,,"
+Registered jolokia.it.hidden:type=escape,name="==="
+Registered jolokia.it.hidden:type=escape,name="\*\*\*"
+Registered jolokia.it.hidden:type=escape,name="\"\"\""
+Registered jolokia.it.hidden:type=escape,name=":::"
+Registered jolokia.it.hidden:type=escape,name="\?\?\?"
+Registered jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it.hidden:type=mxbean
+Registered jolokia.it.hidden:type=tabularData
+Registered jolokia.it.jsonmbean:type=plain
+Registered MXBean jolokia.it.jsonmbean:type=mx
+Registered jolokia.it:type=naming/,name=\/
+Registered jolokia.it:type=naming/,name=simple
+Registered jolokia.it:type=naming/,name=/slash-simple/
+Registered jolokia.it:type=naming/,name=/--/
+Registered jolokia.it:type=naming/,name=with%3acolon
+Registered jolokia.it:type=naming/,name=//server/client
+Registered jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it:type=naming/,name="jdbc/testDB"
+Registered jolokia.it:type=naming/,name=name with space
+Registered jolokia.it:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it:type=escape,name=",,,"
+Registered jolokia.it:type=escape,name=",,/,,"
+Registered jolokia.it:type=escape,name="==="
+Registered jolokia.it:type=escape,name="\*\*\*"
+Registered jolokia.it:type=escape,name="\"\"\""
+Registered jolokia.it:type=escape,name=":::"
+Registered jolokia.it:type=escape,name="\?\?\?"
+Registered jolokia.it:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it:type=mxbean
+Registered jolokia.it:type=tabularData
+Registered jolokia.it.hidden:type=naming/,name=\/
+Registered jolokia.it.hidden:type=naming/,name=simple
+Registered jolokia.it.hidden:type=naming/,name=/slash-simple/
+Registered jolokia.it.hidden:type=naming/,name=/--/
+Registered jolokia.it.hidden:type=naming/,name=with%3acolon
+Registered jolokia.it.hidden:type=naming/,name=//server/client
+Registered jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+Registered jolokia.it.hidden:type=naming/,name=name with space
+Registered jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it.hidden:type=escape,name=",,,"
+Registered jolokia.it.hidden:type=escape,name=",,/,,"
+Registered jolokia.it.hidden:type=escape,name="==="
+Registered jolokia.it.hidden:type=escape,name="\*\*\*"
+Registered jolokia.it.hidden:type=escape,name="\"\"\""
+Registered jolokia.it.hidden:type=escape,name=":::"
+Registered jolokia.it.hidden:type=escape,name="\?\?\?"
+Registered jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it.hidden:type=mxbean
+Registered jolokia.it.hidden:type=tabularData
+Registered jolokia.it.jsonmbean:type=plain
+Registered MXBean jolokia.it.jsonmbean:type=mx
+Registered jolokia.it:type=naming/,name=\/
+Registered jolokia.it:type=naming/,name=simple
+Registered jolokia.it:type=naming/,name=/slash-simple/
+Registered jolokia.it:type=naming/,name=/--/
+Registered jolokia.it:type=naming/,name=with%3acolon
+Registered jolokia.it:type=naming/,name=//server/client
+Registered jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it:type=naming/,name="jdbc/testDB"
+Registered jolokia.it:type=naming/,name=name with space
+Registered jolokia.it:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it:type=escape,name=",,,"
+Registered jolokia.it:type=escape,name=",,/,,"
+Registered jolokia.it:type=escape,name="==="
+Registered jolokia.it:type=escape,name="\*\*\*"
+Registered jolokia.it:type=escape,name="\"\"\""
+Registered jolokia.it:type=escape,name=":::"
+Registered jolokia.it:type=escape,name="\?\?\?"
+Registered jolokia.it:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it:type=mxbean
+Registered jolokia.it:type=tabularData
+Registered jolokia.it.hidden:type=naming/,name=\/
+Registered jolokia.it.hidden:type=naming/,name=simple
+Registered jolokia.it.hidden:type=naming/,name=/slash-simple/
+Registered jolokia.it.hidden:type=naming/,name=/--/
+Registered jolokia.it.hidden:type=naming/,name=with%3acolon
+Registered jolokia.it.hidden:type=naming/,name=//server/client
+Registered jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+Registered jolokia.it.hidden:type=naming/,name=name with space
+Registered jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it.hidden:type=escape,name=",,,"
+Registered jolokia.it.hidden:type=escape,name=",,/,,"
+Registered jolokia.it.hidden:type=escape,name="==="
+Registered jolokia.it.hidden:type=escape,name="\*\*\*"
+Registered jolokia.it.hidden:type=escape,name="\"\"\""
+Registered jolokia.it.hidden:type=escape,name=":::"
+Registered jolokia.it.hidden:type=escape,name="\?\?\?"
+Registered jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it.hidden:type=mxbean
+Registered jolokia.it.hidden:type=tabularData
+Registered jolokia.it.jsonmbean:type=plain
+Registered MXBean jolokia.it.jsonmbean:type=mx
+Registered jolokia.it:type=naming/,name=\/
+Registered jolokia.it:type=naming/,name=simple
+Registered jolokia.it:type=naming/,name=/slash-simple/
+Registered jolokia.it:type=naming/,name=/--/
+Registered jolokia.it:type=naming/,name=with%3acolon
+Registered jolokia.it:type=naming/,name=//server/client
+Registered jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it:type=naming/,name="jdbc/testDB"
+Registered jolokia.it:type=naming/,name=name with space
+Registered jolokia.it:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it:type=escape,name=",,,"
+Registered jolokia.it:type=escape,name=",,/,,"
+Registered jolokia.it:type=escape,name="==="
+Registered jolokia.it:type=escape,name="\*\*\*"
+Registered jolokia.it:type=escape,name="\"\"\""
+Registered jolokia.it:type=escape,name=":::"
+Registered jolokia.it:type=escape,name="\?\?\?"
+Registered jolokia.it:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it:type=mxbean
+Registered jolokia.it:type=tabularData
+Registered jolokia.it.hidden:type=naming/,name=\/
+Registered jolokia.it.hidden:type=naming/,name=simple
+Registered jolokia.it.hidden:type=naming/,name=/slash-simple/
+Registered jolokia.it.hidden:type=naming/,name=/--/
+Registered jolokia.it.hidden:type=naming/,name=with%3acolon
+Registered jolokia.it.hidden:type=naming/,name=//server/client
+Registered jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+Registered jolokia.it.hidden:type=naming/,name=name with space
+Registered jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it.hidden:type=escape,name=",,,"
+Registered jolokia.it.hidden:type=escape,name=",,/,,"
+Registered jolokia.it.hidden:type=escape,name="==="
+Registered jolokia.it.hidden:type=escape,name="\*\*\*"
+Registered jolokia.it.hidden:type=escape,name="\"\"\""
+Registered jolokia.it.hidden:type=escape,name=":::"
+Registered jolokia.it.hidden:type=escape,name="\?\?\?"
+Registered jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it.hidden:type=mxbean
+Registered jolokia.it.hidden:type=tabularData
+Registered jolokia.it.jsonmbean:type=plain
+Registered MXBean jolokia.it.jsonmbean:type=mx
+Registered jolokia.it:type=naming/,name=\/
+Registered jolokia.it:type=naming/,name=simple
+Registered jolokia.it:type=naming/,name=/slash-simple/
+Registered jolokia.it:type=naming/,name=/--/
+Registered jolokia.it:type=naming/,name=with%3acolon
+Registered jolokia.it:type=naming/,name=//server/client
+Registered jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it:type=naming/,name="jdbc/testDB"
+Registered jolokia.it:type=naming/,name=name with space
+Registered jolokia.it:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it:type=escape,name=",,,"
+Registered jolokia.it:type=escape,name=",,/,,"
+Registered jolokia.it:type=escape,name="==="
+Registered jolokia.it:type=escape,name="\*\*\*"
+Registered jolokia.it:type=escape,name="\"\"\""
+Registered jolokia.it:type=escape,name=":::"
+Registered jolokia.it:type=escape,name="\?\?\?"
+Registered jolokia.it:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it:type=mxbean
+Registered jolokia.it:type=tabularData
+Registered jolokia.it.hidden:type=naming/,name=\/
+Registered jolokia.it.hidden:type=naming/,name=simple
+Registered jolokia.it.hidden:type=naming/,name=/slash-simple/
+Registered jolokia.it.hidden:type=naming/,name=/--/
+Registered jolokia.it.hidden:type=naming/,name=with%3acolon
+Registered jolokia.it.hidden:type=naming/,name=//server/client
+Registered jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+Registered jolokia.it.hidden:type=naming/,name=name with space
+Registered jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it.hidden:type=escape,name=",,,"
+Registered jolokia.it.hidden:type=escape,name=",,/,,"
+Registered jolokia.it.hidden:type=escape,name="==="
+Registered jolokia.it.hidden:type=escape,name="\*\*\*"
+Registered jolokia.it.hidden:type=escape,name="\"\"\""
+Registered jolokia.it.hidden:type=escape,name=":::"
+Registered jolokia.it.hidden:type=escape,name="\?\?\?"
+Registered jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it.hidden:type=mxbean
+Registered jolokia.it.hidden:type=tabularData
+Registered jolokia.it.jsonmbean:type=plain
+Registered MXBean jolokia.it.jsonmbean:type=mx
+Registered jolokia.it:type=naming/,name=\/
+Registered jolokia.it:type=naming/,name=simple
+Registered jolokia.it:type=naming/,name=/slash-simple/
+Registered jolokia.it:type=naming/,name=/--/
+Registered jolokia.it:type=naming/,name=with%3acolon
+Registered jolokia.it:type=naming/,name=//server/client
+Registered jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it:type=naming/,name="jdbc/testDB"
+Registered jolokia.it:type=naming/,name=name with space
+Registered jolokia.it:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it:type=escape,name=",,,"
+Registered jolokia.it:type=escape,name=",,/,,"
+Registered jolokia.it:type=escape,name="==="
+Registered jolokia.it:type=escape,name="\*\*\*"
+Registered jolokia.it:type=escape,name="\"\"\""
+Registered jolokia.it:type=escape,name=":::"
+Registered jolokia.it:type=escape,name="\?\?\?"
+Registered jolokia.it:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it:type=mxbean
+Registered jolokia.it:type=tabularData
+Registered jolokia.it.hidden:type=naming/,name=\/
+Registered jolokia.it.hidden:type=naming/,name=simple
+Registered jolokia.it.hidden:type=naming/,name=/slash-simple/
+Registered jolokia.it.hidden:type=naming/,name=/--/
+Registered jolokia.it.hidden:type=naming/,name=with%3acolon
+Registered jolokia.it.hidden:type=naming/,name=//server/client
+Registered jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+Registered jolokia.it.hidden:type=naming/,name=name with space
+Registered jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it.hidden:type=escape,name=",,,"
+Registered jolokia.it.hidden:type=escape,name=",,/,,"
+Registered jolokia.it.hidden:type=escape,name="==="
+Registered jolokia.it.hidden:type=escape,name="\*\*\*"
+Registered jolokia.it.hidden:type=escape,name="\"\"\""
+Registered jolokia.it.hidden:type=escape,name=":::"
+Registered jolokia.it.hidden:type=escape,name="\?\?\?"
+Registered jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it.hidden:type=mxbean
+Registered jolokia.it.hidden:type=tabularData
+Registered jolokia.it.jsonmbean:type=plain
+Registered MXBean jolokia.it.jsonmbean:type=mx
+Registered jolokia.it:type=naming/,name=\/
+Registered jolokia.it:type=naming/,name=simple
+Registered jolokia.it:type=naming/,name=/slash-simple/
+Registered jolokia.it:type=naming/,name=/--/
+Registered jolokia.it:type=naming/,name=with%3acolon
+Registered jolokia.it:type=naming/,name=//server/client
+Registered jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it:type=naming/,name="jdbc/testDB"
+Registered jolokia.it:type=naming/,name=name with space
+Registered jolokia.it:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it:type=escape,name=",,,"
+Registered jolokia.it:type=escape,name=",,/,,"
+Registered jolokia.it:type=escape,name="==="
+Registered jolokia.it:type=escape,name="\*\*\*"
+Registered jolokia.it:type=escape,name="\"\"\""
+Registered jolokia.it:type=escape,name=":::"
+Registered jolokia.it:type=escape,name="\?\?\?"
+Registered jolokia.it:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it:type=mxbean
+Registered jolokia.it:type=tabularData
+Registered jolokia.it.hidden:type=naming/,name=\/
+Registered jolokia.it.hidden:type=naming/,name=simple
+Registered jolokia.it.hidden:type=naming/,name=/slash-simple/
+Registered jolokia.it.hidden:type=naming/,name=/--/
+Registered jolokia.it.hidden:type=naming/,name=with%3acolon
+Registered jolokia.it.hidden:type=naming/,name=//server/client
+Registered jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+Registered jolokia.it.hidden:type=naming/,name=name with space
+Registered jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it.hidden:type=escape,name=",,,"
+Registered jolokia.it.hidden:type=escape,name=",,/,,"
+Registered jolokia.it.hidden:type=escape,name="==="
+Registered jolokia.it.hidden:type=escape,name="\*\*\*"
+Registered jolokia.it.hidden:type=escape,name="\"\"\""
+Registered jolokia.it.hidden:type=escape,name=":::"
+Registered jolokia.it.hidden:type=escape,name="\?\?\?"
+Registered jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it.hidden:type=mxbean
+Registered jolokia.it.hidden:type=tabularData
+Registered jolokia.it.jsonmbean:type=plain
+Registered MXBean jolokia.it.jsonmbean:type=mx
+Registered jolokia.it:type=naming/,name=\/
+Registered jolokia.it:type=naming/,name=simple
+Registered jolokia.it:type=naming/,name=/slash-simple/
+Registered jolokia.it:type=naming/,name=/--/
+Registered jolokia.it:type=naming/,name=with%3acolon
+Registered jolokia.it:type=naming/,name=//server/client
+Registered jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it:type=naming/,name="jdbc/testDB"
+Registered jolokia.it:type=naming/,name=name with space
+Registered jolokia.it:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it:type=escape,name=",,,"
+Registered jolokia.it:type=escape,name=",,/,,"
+Registered jolokia.it:type=escape,name="==="
+Registered jolokia.it:type=escape,name="\*\*\*"
+Registered jolokia.it:type=escape,name="\"\"\""
+Registered jolokia.it:type=escape,name=":::"
+Registered jolokia.it:type=escape,name="\?\?\?"
+Registered jolokia.it:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it:type=mxbean
+Registered jolokia.it:type=tabularData
+Registered jolokia.it.hidden:type=naming/,name=\/
+Registered jolokia.it.hidden:type=naming/,name=simple
+Registered jolokia.it.hidden:type=naming/,name=/slash-simple/
+Registered jolokia.it.hidden:type=naming/,name=/--/
+Registered jolokia.it.hidden:type=naming/,name=with%3acolon
+Registered jolokia.it.hidden:type=naming/,name=//server/client
+Registered jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+Registered jolokia.it.hidden:type=naming/,name=name with space
+Registered jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it.hidden:type=escape,name=",,,"
+Registered jolokia.it.hidden:type=escape,name=",,/,,"
+Registered jolokia.it.hidden:type=escape,name="==="
+Registered jolokia.it.hidden:type=escape,name="\*\*\*"
+Registered jolokia.it.hidden:type=escape,name="\"\"\""
+Registered jolokia.it.hidden:type=escape,name=":::"
+Registered jolokia.it.hidden:type=escape,name="\?\?\?"
+Registered jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it.hidden:type=mxbean
+Registered jolokia.it.hidden:type=tabularData
+Registered jolokia.it.jsonmbean:type=plain
+Registered MXBean jolokia.it.jsonmbean:type=mx
+jolokia.it:type=naming/,name=\/
+jolokia.it:type=naming/,name=simple
+jolokia.it:type=naming/,name=/slash-simple/
+jolokia.it:type=naming/,name=/--/
+jolokia.it:type=naming/,name=with%3acolon
+jolokia.it:type=naming/,name=//server/client
+jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+jolokia.it:type=naming/,name="jdbc/testDB"
+jolokia.it:type=naming/,name=name with space
+jolokia.it:type=naming/,name=n!a!m!e with !/!
+jolokia.it.hidden:type=naming/,name=\/
+jolokia.it.hidden:type=naming/,name=simple
+jolokia.it.hidden:type=naming/,name=/slash-simple/
+jolokia.it.hidden:type=naming/,name=/--/
+jolokia.it.hidden:type=naming/,name=with%3acolon
+jolokia.it.hidden:type=naming/,name=//server/client
+jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+jolokia.it.hidden:type=naming/,name=name with space
+jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+jolokia.it:type=escape,name="name\*withstrange=chars"
+jolokia.it:type=escape,name="name\?withstrange=chars"
+jolokia.it:type=escape,name="namewithstrange=\"chars\""
+jolokia.it:type=escape,name="namewithstrange:\"chars\""
+jolokia.it:type=escape,name=",,,"
+jolokia.it:type=escape,name=",,/,,"
+jolokia.it:type=escape,name="==="
+jolokia.it:type=escape,name="\*\*\*"
+jolokia.it:type=escape,name="\"\"\""
+jolokia.it:type=escape,name=":::"
+jolokia.it:type=escape,name="\?\?\?"
+jolokia.it:type=escape,name="!!!"
+jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+jolokia.it.hidden:type=escape,name=",,,"
+jolokia.it.hidden:type=escape,name=",,/,,"
+jolokia.it.hidden:type=escape,name="==="
+jolokia.it.hidden:type=escape,name="\*\*\*"
+jolokia.it.hidden:type=escape,name="\"\"\""
+jolokia.it.hidden:type=escape,name=":::"
+jolokia.it.hidden:type=escape,name="\?\?\?"
+jolokia.it.hidden:type=escape,name="!!!"
+jolokia.it:type=naming/,name=\/
+jolokia.it:type=naming/,name=simple
+jolokia.it:type=naming/,name=/slash-simple/
+jolokia.it:type=naming/,name=/--/
+jolokia.it:type=naming/,name=with%3acolon
+jolokia.it:type=naming/,name=//server/client
+jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+jolokia.it:type=naming/,name="jdbc/testDB"
+jolokia.it:type=naming/,name=name with space
+jolokia.it:type=naming/,name=n!a!m!e with !/!
+jolokia.it.hidden:type=naming/,name=\/
+jolokia.it.hidden:type=naming/,name=simple
+jolokia.it.hidden:type=naming/,name=/slash-simple/
+jolokia.it.hidden:type=naming/,name=/--/
+jolokia.it.hidden:type=naming/,name=with%3acolon
+jolokia.it.hidden:type=naming/,name=//server/client
+jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+jolokia.it.hidden:type=naming/,name=name with space
+jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+jolokia.it:type=escape,name="name\*withstrange=chars"
+jolokia.it:type=escape,name="name\?withstrange=chars"
+jolokia.it:type=escape,name="namewithstrange=\"chars\""
+jolokia.it:type=escape,name="namewithstrange:\"chars\""
+jolokia.it:type=escape,name=",,,"
+jolokia.it:type=escape,name=",,/,,"
+jolokia.it:type=escape,name="==="
+jolokia.it:type=escape,name="\*\*\*"
+jolokia.it:type=escape,name="\"\"\""
+jolokia.it:type=escape,name=":::"
+jolokia.it:type=escape,name="\?\?\?"
+jolokia.it:type=escape,name="!!!"
+jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+jolokia.it.hidden:type=escape,name=",,,"
+jolokia.it.hidden:type=escape,name=",,/,,"
+jolokia.it.hidden:type=escape,name="==="
+jolokia.it.hidden:type=escape,name="\*\*\*"
+jolokia.it.hidden:type=escape,name="\"\"\""
+jolokia.it.hidden:type=escape,name=":::"
+jolokia.it.hidden:type=escape,name="\?\?\?"
+jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia.it:type=naming/,name=\/
+Registered jolokia.it:type=naming/,name=simple
+Registered jolokia.it:type=naming/,name=/slash-simple/
+Registered jolokia.it:type=naming/,name=/--/
+Registered jolokia.it:type=naming/,name=with%3acolon
+Registered jolokia.it:type=naming/,name=//server/client
+Registered jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it:type=naming/,name="jdbc/testDB"
+Registered jolokia.it:type=naming/,name=name with space
+Registered jolokia.it:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it:type=escape,name=",,,"
+Registered jolokia.it:type=escape,name=",,/,,"
+Registered jolokia.it:type=escape,name="==="
+Registered jolokia.it:type=escape,name="\*\*\*"
+Registered jolokia.it:type=escape,name="\"\"\""
+Registered jolokia.it:type=escape,name=":::"
+Registered jolokia.it:type=escape,name="\?\?\?"
+Registered jolokia.it:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it:type=mxbean
+Registered jolokia.it:type=tabularData
+Registered jolokia.it.hidden:type=naming/,name=\/
+Registered jolokia.it.hidden:type=naming/,name=simple
+Registered jolokia.it.hidden:type=naming/,name=/slash-simple/
+Registered jolokia.it.hidden:type=naming/,name=/--/
+Registered jolokia.it.hidden:type=naming/,name=with%3acolon
+Registered jolokia.it.hidden:type=naming/,name=//server/client
+Registered jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+Registered jolokia.it.hidden:type=naming/,name=name with space
+Registered jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it.hidden:type=escape,name=",,,"
+Registered jolokia.it.hidden:type=escape,name=",,/,,"
+Registered jolokia.it.hidden:type=escape,name="==="
+Registered jolokia.it.hidden:type=escape,name="\*\*\*"
+Registered jolokia.it.hidden:type=escape,name="\"\"\""
+Registered jolokia.it.hidden:type=escape,name=":::"
+Registered jolokia.it.hidden:type=escape,name="\?\?\?"
+Registered jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it.hidden:type=mxbean
+Registered jolokia.it.hidden:type=tabularData
+Registered jolokia.it.jsonmbean:type=plain
+Registered MXBean jolokia.it.jsonmbean:type=mx
+Registered jolokia.it:type=naming/,name=\/
+Registered jolokia.it:type=naming/,name=simple
+Registered jolokia.it:type=naming/,name=/slash-simple/
+Registered jolokia.it:type=naming/,name=/--/
+Registered jolokia.it:type=naming/,name=with%3acolon
+Registered jolokia.it:type=naming/,name=//server/client
+Registered jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it:type=naming/,name="jdbc/testDB"
+Registered jolokia.it:type=naming/,name=name with space
+Registered jolokia.it:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it:type=escape,name=",,,"
+Registered jolokia.it:type=escape,name=",,/,,"
+Registered jolokia.it:type=escape,name="==="
+Registered jolokia.it:type=escape,name="\*\*\*"
+Registered jolokia.it:type=escape,name="\"\"\""
+Registered jolokia.it:type=escape,name=":::"
+Registered jolokia.it:type=escape,name="\?\?\?"
+Registered jolokia.it:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it:type=mxbean
+Registered jolokia.it:type=tabularData
+Registered jolokia.it.hidden:type=naming/,name=\/
+Registered jolokia.it.hidden:type=naming/,name=simple
+Registered jolokia.it.hidden:type=naming/,name=/slash-simple/
+Registered jolokia.it.hidden:type=naming/,name=/--/
+Registered jolokia.it.hidden:type=naming/,name=with%3acolon
+Registered jolokia.it.hidden:type=naming/,name=//server/client
+Registered jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+Registered jolokia.it.hidden:type=naming/,name=name with space
+Registered jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it.hidden:type=escape,name=",,,"
+Registered jolokia.it.hidden:type=escape,name=",,/,,"
+Registered jolokia.it.hidden:type=escape,name="==="
+Registered jolokia.it.hidden:type=escape,name="\*\*\*"
+Registered jolokia.it.hidden:type=escape,name="\"\"\""
+Registered jolokia.it.hidden:type=escape,name=":::"
+Registered jolokia.it.hidden:type=escape,name="\?\?\?"
+Registered jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it.hidden:type=mxbean
+Registered jolokia.it.hidden:type=tabularData
+Registered jolokia.it.jsonmbean:type=plain
+Registered MXBean jolokia.it.jsonmbean:type=mx
+Registered jolokia.it:type=naming/,name=\/
+Registered jolokia.it:type=naming/,name=simple
+Registered jolokia.it:type=naming/,name=/slash-simple/
+Registered jolokia.it:type=naming/,name=/--/
+Registered jolokia.it:type=naming/,name=with%3acolon
+Registered jolokia.it:type=naming/,name=//server/client
+Registered jolokia.it:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it:type=naming/,name="jdbc/testDB"
+Registered jolokia.it:type=naming/,name=name with space
+Registered jolokia.it:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it:type=escape,name=",,,"
+Registered jolokia.it:type=escape,name=",,/,,"
+Registered jolokia.it:type=escape,name="==="
+Registered jolokia.it:type=escape,name="\*\*\*"
+Registered jolokia.it:type=escape,name="\"\"\""
+Registered jolokia.it:type=escape,name=":::"
+Registered jolokia.it:type=escape,name="\?\?\?"
+Registered jolokia.it:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it:type=mxbean
+Registered jolokia.it:type=tabularData
+Registered jolokia.it.hidden:type=naming/,name=\/
+Registered jolokia.it.hidden:type=naming/,name=simple
+Registered jolokia.it.hidden:type=naming/,name=/slash-simple/
+Registered jolokia.it.hidden:type=naming/,name=/--/
+Registered jolokia.it.hidden:type=naming/,name=with%3acolon
+Registered jolokia.it.hidden:type=naming/,name=//server/client
+Registered jolokia.it.hidden:type=naming/,name=service%3ajmx%3armi%3a///jndi/rmi%3a//bhut%3a9999/jmxrmi
+Registered jolokia.it.hidden:type=naming/,name="jdbc/testDB"
+Registered jolokia.it.hidden:type=naming/,name=name with space
+Registered jolokia.it.hidden:type=naming/,name=n!a!m!e with !/!
+Registered jolokia.it.hidden:type=escape,name="name\*withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="name\?withstrange=chars"
+Registered jolokia.it.hidden:type=escape,name="namewithstrange=\"chars\""
+Registered jolokia.it.hidden:type=escape,name="namewithstrange:\"chars\""
+Registered jolokia.it.hidden:type=escape,name=",,,"
+Registered jolokia.it.hidden:type=escape,name=",,/,,"
+Registered jolokia.it.hidden:type=escape,name="==="
+Registered jolokia.it.hidden:type=escape,name="\*\*\*"
+Registered jolokia.it.hidden:type=escape,name="\"\"\""
+Registered jolokia.it.hidden:type=escape,name=":::"
+Registered jolokia.it.hidden:type=escape,name="\?\?\?"
+Registered jolokia.it.hidden:type=escape,name="!!!"
+Registered jolokia/it:id=3786439,pid=[ServiceRegistryProvider#(null)],type=ParticipantMonitor
+Registered jolokia.jboss.as.expr:access=authorization,applies-to="/subsystem=undertow/server=\*/ajp-listener=\*",classification=socket-binding-ref,constraint=sensitivity-classification,core-service=management,type=core
+Registered jolokia.it:type=operation
+Registered jolokia.it:type=attribute
+Registered jolokia.it.hidden:type=mxbean
+Registered jolokia.it.hidden:type=tabularData
+Registered jolokia.it.jsonmbean:type=plain
+Registered MXBean jolokia.it.jsonmbean:type=mx
+Tests run: 88, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.947 sec - in TestSuite
+
+Results :
+
+Tests run: 88, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ---------------< org.jolokia:jolokia-client-javascript >----------------
+[INFO] Building jolokia-client-javascript 1.6.3-SNAPSHOT                [19/21]
+[INFO] -----------------------------[ javascript ]-----------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-client-javascript ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/client/javascript/src/main/resources
+[INFO] 
+[INFO] --- javascript-maven-plugin:0.9.3:compile (default-compile) @ jolokia-client-javascript ---
+[INFO] No default assembler descriptor - just copy scripts
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-client-javascript ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/client/javascript/src/test/resources
+[INFO] 
+[INFO] --- javascript-maven-plugin:0.9.3:prepare-tests (default-prepare-tests) @ jolokia-client-javascript ---
+[WARNING] No source directory exists at: /workdir/jolokia/client/javascript/src/test/javascript... continuing anyway.
+[INFO] 
+[INFO] --- javascript-maven-plugin:0.9.3:qunit-test (default-qunit-test) @ jolokia-client-javascript ---
+[WARNING] No suite directory exists
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< org.jolokia:jolokia-jmx-adapter >-------------------
+[INFO] Building jolokia-jmx-adapter 1.6.3-SNAPSHOT                      [20/21]
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-jmx-adapter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-jmx-adapter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ jolokia-jmx-adapter ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-jmx-adapter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/client/jmx-adapter/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-jmx-adapter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-jmx-adapter ---
+[INFO] Surefire report directory: /workdir/jolokia/client/jmx-adapter/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.jolokia.client.jmxadapter.JmxBridgeTest
+Configuring TestNG with: TestNG652Configurator
+I> No access restrictor found, access to any MBean is allowed
+Jolokia: Agent started with URL http://127.0.0.1:22332/jolokia/
+Failed callingpublic abstract com.sun.management.GcInfo com.sun.management.GarbageCollectorMXBean.getLastGcInfo() on java.lang:type=GarbageCollector,name=G1 Young Generation but succeeds with native proxy 
+Jolokia: Agent stopped
+Tests run: 122, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 42.05 sec - in org.jolokia.client.jmxadapter.JmxBridgeTest
+
+Results :
+
+Tests run: 122, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -------------------< org.jolokia:jolokia-kubernetes >-------------------
+[INFO] Building jolokia-kubernetes 1.6.3-SNAPSHOT                       [21/21]
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ jolokia-kubernetes ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ jolokia-kubernetes ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-bundle-plugin:2.3.7:manifest (bundle-manifest) @ jolokia-kubernetes ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ jolokia-kubernetes ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jolokia/client/kubernetes/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ jolokia-kubernetes ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ jolokia-kubernetes ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for jolokia-parent 1.6.3-SNAPSHOT:
+[INFO] 
+[INFO] jolokia-parent ..................................... SUCCESS [  0.002 s]
+[INFO] jolokia-test-util .................................. SUCCESS [  0.363 s]
+[INFO] jolokia-agent-parent ............................... SUCCESS [  0.001 s]
+[INFO] jolokia-core ....................................... SUCCESS [ 15.422 s]
+[INFO] jolokia-jsr160 ..................................... SUCCESS [  0.624 s]
+[INFO] jolokia-war ........................................ SUCCESS [  0.009 s]
+[INFO] jolokia-war-unsecured .............................. SUCCESS [  0.008 s]
+[INFO] jolokia-osgi ....................................... SUCCESS [  1.037 s]
+[INFO] jolokia-osgi-bundle ................................ SUCCESS [  0.021 s]
+[INFO] jolokia-jmx ........................................ SUCCESS [  0.772 s]
+[INFO] jolokia-jvm ........................................ SUCCESS [ 16.311 s]
+[INFO] jolokia-spring ..................................... SUCCESS [  5.107 s]
+[INFO] jolokia-mule ....................................... SUCCESS [  1.248 s]
+[INFO] jolokia-it-parent .................................. SUCCESS [  0.001 s]
+[INFO] jolokia-it-core .................................... SUCCESS [  0.013 s]
+[INFO] jolokia-it-war ..................................... SUCCESS [  0.011 s]
+[INFO] jolokia-client-parent .............................. SUCCESS [  0.000 s]
+[INFO] jolokia-client-java ................................ SUCCESS [  7.044 s]
+[INFO] jolokia-client-javascript .......................... SUCCESS [  0.123 s]
+[INFO] jolokia-jmx-adapter ................................ SUCCESS [ 42.878 s]
+[INFO] jolokia-kubernetes ................................. SUCCESS [  0.189 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:31 min
+[INFO] Finished at: 2021-02-14T17:11:15Z
+[INFO] ------------------------------------------------------------------------

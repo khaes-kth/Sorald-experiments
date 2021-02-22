@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 14,
         "performedRepairsLocations": [
             {
                 "endLine": 115,
@@ -119,11 +120,10 @@
                 "violationSpecifier": "2142:aesh/src/test/java/org/aesh/tty/TestConnection.java:207:23:207:45"
             }
         ],
-        "nbViolationsBefore": 14,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -137,10 +137,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 8343,
-    "repairTimeMs": 417,
-    "startTimeMs": 1612801240697,
+    "totalTimeMs": 8527,
+    "repairTimeMs": 455,
+    "startTimeMs": 1613324502436,
     "crashes": [],
-    "endTimeMs": 1612801249040,
-    "parseTimeMs": 3437
+    "endTimeMs": 1613324510963,
+    "parseTimeMs": 3502
 }

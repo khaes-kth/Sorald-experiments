@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 8,
         "performedRepairsLocations": [
             {
                 "endLine": 146,
@@ -71,11 +72,10 @@
                 "violationSpecifier": "2142:target/generated-test-sources/test-annotations/com/github/davidmoten/rx/jdbc/generated/Benchmarks_selectUsingRawJdbc_jmhTest.java:228:21:228:44"
             }
         ],
-        "nbViolationsBefore": 8,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -89,10 +89,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5129,
-    "repairTimeMs": 296,
-    "startTimeMs": 1612806952871,
+    "totalTimeMs": 5674,
+    "repairTimeMs": 321,
+    "startTimeMs": 1613340464270,
     "crashes": [],
-    "endTimeMs": 1612806958000,
-    "parseTimeMs": 1921
+    "endTimeMs": 1613340469944,
+    "parseTimeMs": 2132
 }

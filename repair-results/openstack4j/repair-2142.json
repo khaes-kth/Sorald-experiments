@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 447,
@@ -23,11 +24,10 @@
                 "violationSpecifier": "2142:core/src/main/java/org/openstack4j/openstack/murano/v1/internal/MuranoActionServiceImpl.java:196:21:196:43"
             }
         ],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 18055,
-    "repairTimeMs": 656,
-    "startTimeMs": 1612808744430,
+    "totalTimeMs": 18819,
+    "repairTimeMs": 556,
+    "startTimeMs": 1613345792123,
     "crashes": [],
-    "endTimeMs": 1612808762485,
-    "parseTimeMs": 7500
+    "endTimeMs": 1613345810942,
+    "parseTimeMs": 8001
 }

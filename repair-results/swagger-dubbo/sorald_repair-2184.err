@@ -3,8 +3,8 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 java.lang.IndexOutOfBoundsException: Index: -1
 	at java.base/java.util.Collections$EmptyList.get(Collections.java:4483)
-	at sorald.processor.CastArithmeticOperandProcessor.getExpectedType(CastArithmeticOperandProcessor.java:82)
-	at sorald.processor.CastArithmeticOperandProcessor.canRepairInternal(CastArithmeticOperandProcessor.java:25)
+	at sorald.processor.CastArithmeticOperandProcessor.getExpectedType(CastArithmeticOperandProcessor.java:84)
+	at sorald.processor.CastArithmeticOperandProcessor.canRepairInternal(CastArithmeticOperandProcessor.java:27)
 	at sorald.processor.CastArithmeticOperandProcessor.canRepairInternal(CastArithmeticOperandProcessor.java:15)
 	at sorald.processor.SoraldAbstractProcessor.canRepair(SoraldAbstractProcessor.java:68)
 	at sorald.sonar.GreedyBestFitScanner.enter(GreedyBestFitScanner.java:78)

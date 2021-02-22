@@ -1,0 +1,130 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 12,
+        "ruleName": "InterruptedException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2142",
+        "nbViolationsBefore": 12,
+        "performedRepairsLocations": [
+            {
+                "endLine": 356,
+                "endColumn": 45,
+                "startColumn": 17,
+                "startLine": 356,
+                "filePath": "core/src/main/java/site/ycsb/Client.java",
+                "violationSpecifier": "2142:core/src/main/java/site/ycsb/Client.java:356:17:356:45"
+            },
+            {
+                "endLine": 377,
+                "endColumn": 47,
+                "startColumn": 19,
+                "startLine": 377,
+                "filePath": "core/src/main/java/site/ycsb/Client.java",
+                "violationSpecifier": "2142:core/src/main/java/site/ycsb/Client.java:377:19:377:47"
+            },
+            {
+                "endLine": 495,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 495,
+                "filePath": "core/src/main/java/site/ycsb/Client.java",
+                "violationSpecifier": "2142:core/src/main/java/site/ycsb/Client.java:495:17:495:39"
+            },
+            {
+                "endLine": 47,
+                "endColumn": 35,
+                "startColumn": 13,
+                "startLine": 47,
+                "filePath": "core/src/main/java/site/ycsb/TerminatorThread.java",
+                "violationSpecifier": "2142:core/src/main/java/site/ycsb/TerminatorThread.java:47:13:47:35"
+            },
+            {
+                "endLine": 62,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 62,
+                "filePath": "core/src/main/java/site/ycsb/TerminatorThread.java",
+                "violationSpecifier": "2142:core/src/main/java/site/ycsb/TerminatorThread.java:62:17:62:39"
+            },
+            {
+                "endLine": 427,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 427,
+                "filePath": "couchbase2/src/main/java/site/ycsb/db/couchbase2/Couchbase2Client.java",
+                "violationSpecifier": "2142:couchbase2/src/main/java/site/ycsb/db/couchbase2/Couchbase2Client.java:427:17:427:39"
+            },
+            {
+                "endLine": 64,
+                "endColumn": 33,
+                "startColumn": 11,
+                "startLine": 64,
+                "filePath": "ignite/src/test/java/site/ycsb/db/ignite/IgniteClientTestBase.java",
+                "violationSpecifier": "2142:ignite/src/test/java/site/ycsb/db/ignite/IgniteClientTestBase.java:64:11:64:33"
+            },
+            {
+                "endLine": 387,
+                "endColumn": 40,
+                "startColumn": 17,
+                "startLine": 387,
+                "filePath": "riak/src/main/java/site/ycsb/db/riak/RiakKVClient.java",
+                "violationSpecifier": "2142:riak/src/main/java/site/ycsb/db/riak/RiakKVClient.java:387:17:387:40"
+            },
+            {
+                "endLine": 102,
+                "endColumn": 50,
+                "startColumn": 17,
+                "startLine": 102,
+                "filePath": "voltdb/src/main/java/site/ycsb/db/voltdb/ConnectionHelper.java",
+                "violationSpecifier": "2142:voltdb/src/main/java/site/ycsb/db/voltdb/ConnectionHelper.java:102:17:102:50"
+            },
+            {
+                "endLine": 117,
+                "endColumn": 37,
+                "startColumn": 15,
+                "startLine": 117,
+                "filePath": "voltdb/src/main/java/site/ycsb/db/voltdb/VoltClient4.java",
+                "violationSpecifier": "2142:voltdb/src/main/java/site/ycsb/db/voltdb/VoltClient4.java:117:15:117:37"
+            },
+            {
+                "endLine": 330,
+                "endColumn": 37,
+                "startColumn": 15,
+                "startLine": 330,
+                "filePath": "rest/src/main/java/site/ycsb/webservice/rest/RestClient.java",
+                "violationSpecifier": "2142:rest/src/main/java/site/ycsb/webservice/rest/RestClient.java:330:15:330:37"
+            },
+            {
+                "endLine": 614,
+                "endColumn": 39,
+                "startColumn": 17,
+                "startLine": 614,
+                "filePath": "core/src/main/java/site/ycsb/workloads/CoreWorkload.java",
+                "violationSpecifier": "2142:core/src/main/java/site/ycsb/workloads/CoreWorkload.java:614:17:614:39"
+            }
+        ],
+        "nbViolationsAfter": 3
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 38248282",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2142",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 9299,
+    "repairTimeMs": 417,
+    "startTimeMs": 1613318546541,
+    "crashes": [],
+    "endTimeMs": 1613318555840,
+    "parseTimeMs": 4155
+}

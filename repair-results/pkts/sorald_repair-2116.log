@@ -5,14 +5,14 @@ INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  244 source files to be analyzed
 INFO  244/244 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=3476ms
+INFO  Java Main Files AST scan (done) | time=3585ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=3ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 ArrayHashCodeAndToStringProcessor: 0
@@ -20,16 +20,16 @@ ArrayHashCodeAndToStringProcessor: 0
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=0ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization (done) | time=1ms
 INFO  Java Main Files AST scan
 INFO  244 source files to be analyzed
-INFO  Java Main Files AST scan (done) | time=1903ms
+INFO  Java Main Files AST scan (done) | time=1896ms
 INFO  244/244 source files have been analyzed
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
+INFO  0/0 source files have been analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=3ms
-INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

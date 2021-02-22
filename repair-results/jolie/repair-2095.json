@@ -5,19 +5,19 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [{
             "endLine": 66,
             "endColumn": 63,
             "startColumn": 21,
-            "filePath": "playground/jolie-javafx/src/joliex/javafx/impl/SodepRequestRunnable.java",
             "startLine": 66,
+            "filePath": "playground/jolie-javafx/src/joliex/javafx/impl/SodepRequestRunnable.java",
             "violationSpecifier": "2095:playground/jolie-javafx/src/joliex/javafx/impl/SodepRequestRunnable.java:66:21:66:63"
         }],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 47497,
-    "repairTimeMs": 839,
-    "startTimeMs": 1612810493743,
+    "totalTimeMs": 49774,
+    "repairTimeMs": 889,
+    "startTimeMs": 1613350907251,
     "crashes": [],
-    "endTimeMs": 1612810541240,
-    "parseTimeMs": 6405
+    "endTimeMs": 1613350957025,
+    "parseTimeMs": 6913
 }

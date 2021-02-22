@@ -4,32 +4,33 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1855 source files to be analyzed
-INFO  136/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/TimeSeriesIndTestParamsEditor.java
-INFO  264/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/TabularDataTransferHandler.java
-INFO  533/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/model/GeneralizedSemEstimatorWrapper.java
-INFO  759/1855 files analyzed, current file: tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestMbfs.java
-INFO  865/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/pitt/dbmi/algo/bayesian/constraint/search/RfciBsc.java
-INFO  953/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/graph/GraphUtils.java
-INFO  1007/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/util/TetradSerializableUtils.java
-INFO  1204/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/Hsim.java
-INFO  1472/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/data/simulation/LoadContinuousDataAndSingleGraph.java
-INFO  1550/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/ResolveSepsets.java
-INFO  1582/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/PurifyScoreBased.java
-INFO  1618/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/TsFciOrient.java
-INFO  1654/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Lofs.java
-INFO  1695/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Kci.java
-INFO  1730/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/IndTestFisherZFisherPValue.java
-INFO  1778/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Glasso.java
-INFO  1789/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Fasts.java
+INFO  120/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/ParameterPanel.java
+INFO  257/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SemImEditor.java
+INFO  467/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/model/AverageOverClusters.java
+INFO  736/1855 files analyzed, current file: tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestGFci.java
+INFO  864/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/pitt/dbmi/algo/resampling/GeneralResamplingTest.java
+INFO  932/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/bayes/BdeMetric.java
+INFO  980/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/util/Matrix.java
+INFO  1143/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/urchin/LTestReveal.java
+INFO  1443/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/data/DataUtils.java
+INFO  1548/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/ProbFci.java
+INFO  1572/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Fges2.java
+INFO  1608/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/IonJoeModifications.java
+INFO  1646/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Lofs2.java
+INFO  1670/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/DiscreteTetradTest.java
+INFO  1714/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/BpcTetradPurifyWashdown.java
+INFO  1747/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/FasFdr.java
+INFO  1781/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/SearchGraphUtils.java
+INFO  1838/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/performance/ComparisonParameters.java
 INFO  1855/1855 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=177474ms
+INFO  Java Main Files AST scan (done) | time=182900ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
-INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 63
@@ -40,29 +41,29 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1855 source files to be analyzed
-INFO  217/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/SemPmEditor.java
-INFO  421/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/workbench/DistanceFromSelected.java
-INFO  735/1855 files analyzed, current file: tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestCellTable.java
-INFO  865/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/pitt/dbmi/algo/bayesian/constraint/search/RfciBsc.java
-INFO  947/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/graph/IndependenceFact.java
-INFO  1034/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/util/StatUtils.java
-INFO  1322/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/algcomparison/score/MNLRBicScore.java
-INFO  1521/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/sem/GeneralizedSemPm.java
-INFO  1558/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Ling.java
-INFO  1597/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Fges.java
-INFO  1641/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Ion.java
-INFO  1667/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/BuildPureClusters.java
-INFO  1713/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/RBExperiments.java
-INFO  1749/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/IonHittingSet.java
-INFO  1781/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/SearchGraphUtils.java
-INFO  1838/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/performance/ComparisonParameters.java
-INFO  Java Main Files AST scan (done) | time=162788ms
+INFO  214/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/search/AlgorithmCard.java
+INFO  420/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/workbench/LayoutUtils.java
+INFO  727/1855 files analyzed, current file: tetrad-lib/src/test/java/edu/cmu/tetrad/test/ExploreAutisticsNeurotypicals.java
+INFO  864/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/pitt/dbmi/algo/resampling/GeneralResamplingTest.java
+INFO  933/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/bayes/IntAveDataSetProbs.java
+INFO  981/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/util/ProbUtils.java
+INFO  1206/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/simulation/HsimAutoRun.java
+INFO  1491/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/data/Discretizer.java
+INFO  1553/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/IndTestHsic.java
+INFO  1582/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/PurifyScoreBased.java
+INFO  1618/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/TsFciOrient.java
+INFO  1654/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Lofs.java
+INFO  1695/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Kci.java
+INFO  1730/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/IndTestFisherZFisherPValue.java
+INFO  1776/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/ClusterUtils.java
+INFO  1784/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/FindTwoFactorClusters.java
+INFO  Java Main Files AST scan (done) | time=169108ms
 INFO  Java Test Files AST scan
 INFO  1855/1855 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=3ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

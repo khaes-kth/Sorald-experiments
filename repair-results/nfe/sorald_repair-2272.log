@@ -4,9 +4,28 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1513 source files to be analyzed
-INFO  1354/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/cte300/webservices/consulta/CteConsultaStub.java
+INFO  1281/1513 files analyzed, current file: src/main/java/com/fincatto/documentofiscal/cte300/classes/CTTipoDocumento.java
 INFO  1513/1513 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=12306ms
+INFO  Java Main Files AST scan (done) | time=12744ms
+INFO  Java Test Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=3ms
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  0/0 source files have been analyzed
+INFO  0/0 source files have been analyzed
+-----Number of fixes------
+IteratorNextExceptionProcessor: 0
+-----End of report------
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=1ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  1513 source files to be analyzed
+INFO  1513/1513 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=9145ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
@@ -14,23 +33,4 @@ INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
-INFO  0/0 source files have been analyzed
------Number of fixes------
-IteratorNextExceptionProcessor: 0
------End of report------
-INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=0ms
-INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=0ms
-INFO  Java Main Files AST scan
-INFO  1513 source files to be analyzed
-INFO  1513/1513 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=8783ms
-INFO  Java Test Files AST scan
-INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=1ms
-INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan
-INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

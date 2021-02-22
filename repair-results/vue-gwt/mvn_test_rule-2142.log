@@ -1,0 +1,146 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Vue GWT Parent                                                     [pom]
+[INFO] Vue GWT                                                        [gwt-lib]
+[INFO] Vue GWT GWT2                                                   [gwt-lib]
+[INFO] Vue GWT Processors                                                 [jar]
+[INFO] 
+[INFO] -------------------< com.axellience:vue-gwt-parent >--------------------
+[INFO] Building Vue GWT Parent 1.1.0-SNAPSHOT                             [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -----------------------< com.axellience:vue-gwt >-----------------------
+[INFO] Building Vue GWT 1.1.0-SNAPSHOT                                    [2/4]
+[INFO] ------------------------------[ gwt-lib ]-------------------------------
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:enforce-encoding (default-enforce-encoding) @ vue-gwt ---
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:add-super-sources (default-add-super-sources) @ vue-gwt ---
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:add-test-super-sources (default-add-test-super-sources) @ vue-gwt ---
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:generate-module (default-generate-module) @ vue-gwt ---
+[INFO] /workdir/vue-gwt/core/target/classes/com/axellience/vuegwt/VueGWT.gwt.xml up to date - skipping
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:generate-module-metadata (default-generate-module-metadata) @ vue-gwt ---
+[INFO] /workdir/vue-gwt/core/target/classes/META-INF/gwt/mainModule up to date - skipping.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ vue-gwt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 91 resources
+[INFO] skip non existing resourceDirectory /workdir/vue-gwt/core/src/main/super
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ vue-gwt ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ vue-gwt ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /workdir/vue-gwt/core/src/test/resources
+[INFO] skip non existing resourceDirectory /workdir/vue-gwt/core/src/test/super
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ vue-gwt ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:test (default-test) @ vue-gwt ---
+[INFO] No tests to run.
+[INFO] /workdir/vue-gwt/core/src/main/java/ already added as a resource folder; skipping.
+[INFO] 
+[INFO] --------------------< com.axellience:vue-gwt-gwt2 >---------------------
+[INFO] Building Vue GWT GWT2 1.1.0-SNAPSHOT                               [3/4]
+[INFO] ------------------------------[ gwt-lib ]-------------------------------
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:enforce-encoding (default-enforce-encoding) @ vue-gwt-gwt2 ---
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:add-super-sources (default-add-super-sources) @ vue-gwt-gwt2 ---
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:add-test-super-sources (default-add-test-super-sources) @ vue-gwt-gwt2 ---
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:generate-module (default-generate-module) @ vue-gwt-gwt2 ---
+[INFO] /workdir/vue-gwt/gwt2/target/classes/com/axellience/vuegwt/GWT2.gwt.xml up to date - skipping
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:generate-module-metadata (default-generate-module-metadata) @ vue-gwt-gwt2 ---
+[INFO] /workdir/vue-gwt/gwt2/target/classes/META-INF/gwt/mainModule up to date - skipping.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ vue-gwt-gwt2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /workdir/vue-gwt/gwt2/src/main/resources
+[INFO] skip non existing resourceDirectory /workdir/vue-gwt/gwt2/src/main/super
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ vue-gwt-gwt2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ vue-gwt-gwt2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory /workdir/vue-gwt/gwt2/src/test/resources
+[INFO] skip non existing resourceDirectory /workdir/vue-gwt/gwt2/src/test/super
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ vue-gwt-gwt2 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- gwt-maven-plugin:1.0.0:test (default-test) @ vue-gwt-gwt2 ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------< com.axellience:vue-gwt-processors >------------------
+[INFO] Building Vue GWT Processors 1.1.0-SNAPSHOT                         [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ vue-gwt-processors ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/vue-gwt/processors/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ vue-gwt-processors ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ vue-gwt-processors ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 53 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ vue-gwt-processors ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.19:test (default-test) @ vue-gwt-processors ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.axellience.vuegwt.processors.component.validators.CollectionFieldsValidatorTest
+[/workdir/vue-gwt/processors/target/test-classes/validators/models/ModelWithListNoAnnotation.java:8: error: Java Collections must have the @JsProperty annotation to be observed: modelWithTypeParameters -> modelWithListNoAnnotationList -> validators.models.ModelWithListNoAnnotation -> list, please check the Vue GWT doc for Java Collection observation, in Component validators.ModelWithTypeParametersComponent
+  List<SimpleObject> list;
+                     ^]
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.245 sec - in com.axellience.vuegwt.processors.component.validators.CollectionFieldsValidatorTest
+Running com.axellience.vuegwt.processors.component.template.parser.TemplateParserTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.067 sec - in com.axellience.vuegwt.processors.component.template.parser.TemplateParserTest
+Running com.axellience.vuegwt.processors.component.refs.RefsTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.913 sec - in com.axellience.vuegwt.processors.component.refs.RefsTest
+Running com.axellience.vuegwt.processors.component.propertybinding.PropertyBindingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.184 sec - in com.axellience.vuegwt.processors.component.propertybinding.PropertyBindingTest
+Running com.axellience.vuegwt.processors.component.methods.MethodsBindingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec - in com.axellience.vuegwt.processors.component.methods.MethodsBindingTest
+Running com.axellience.vuegwt.processors.component.props.PropsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec - in com.axellience.vuegwt.processors.component.props.PropsTest
+Running com.axellience.vuegwt.processors.component.vmodel.VModelTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.137 sec - in com.axellience.vuegwt.processors.component.vmodel.VModelTest
+
+Results :
+
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Vue GWT Parent 1.1.0-SNAPSHOT:
+[INFO] 
+[INFO] Vue GWT Parent ..................................... SUCCESS [  0.009 s]
+[INFO] Vue GWT ............................................ SUCCESS [  0.359 s]
+[INFO] Vue GWT GWT2 ....................................... SUCCESS [  0.053 s]
+[INFO] Vue GWT Processors ................................. SUCCESS [  8.433 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.421 s
+[INFO] Finished at: 2021-02-15T06:03:21Z
+[INFO] ------------------------------------------------------------------------

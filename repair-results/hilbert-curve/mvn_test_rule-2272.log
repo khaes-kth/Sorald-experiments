@@ -1,0 +1,96 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------< com.github.davidmoten:hilbert-curve >-----------------
+[INFO] Building hilbert-curve 0.2.3-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.4:prepare-agent (default) @ hilbert-curve ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.4/org.jacoco.agent-0.8.4-runtime.jar=destfile=/workdir/hilbert-curve/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hilbert-curve ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/hilbert-curve/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ hilbert-curve ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /workdir/hilbert-curve/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hilbert-curve ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 15 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ hilbert-curve ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 8 source files to /workdir/hilbert-curve/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hilbert-curve ---
+[INFO] Surefire report directory: /workdir/hilbert-curve/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.davidmoten.hilbert.RangesTest
+Range [low=1, high=1]
+Range [low=10, high=12]
+Range [low=18, high=18]
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.089 sec
+Running org.davidmoten.hilbert.BoxTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.davidmoten.hilbert.WikipediaHilbertTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 sec
+Running org.davidmoten.hilbert.HilbertCurveRendererTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.81 sec
+Running org.davidmoten.hilbert.UtilTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.davidmoten.hilbert.HilbertCurveTest
+Range [low=10, high=10]
+Range [low=26, high=28]
+Range [low=31, high=48]
+Range [low=51, high=53]
+Range [low=69, high=69]
+Range [low=122, high=124]
+Range [low=127, high=128]
+Range [low=131, high=132]
+Range [low=210, high=221]
+Range [low=227, high=229]
+Range [low=10, high=53]
+Range [low=69, high=69]
+Range [low=122, high=229]
+Range [low=10, high=10]
+Range [low=26, high=53]
+Range [low=69, high=69]
+Range [low=122, high=132]
+Range [low=210, high=221]
+Range [low=227, high=229]
+0	[0, 0]
+1	[1, 0]
+2	[1, 1]
+3	[0, 1]
+maxOrdinate=1023
+full domain query in 3 dimensions, 10 bits, took 3317ms with 1 ranges
+full domain query in 3 dimensions, 10 bits, took 6415ms with 1 ranges
+full domain query in 3 dimensions, 10 bits, took 9579ms with 1 ranges
+full domain query in 3 dimensions, 10 bits, for first hour took 1147ms with 295051 ranges
+[Range [low=343492371, high=343492372], Range [low=343492395, high=343492396], Range [low=343492451, high=343492452], Range [low=343492458, high=343492459], Range [low=343492756, high=343492757], Range [low=343492763, high=343492764], Range [low=343492819, high=343492820], Range [low=343492843, high=343492844], Range [low=343495828, high=343495829], Range [low=343495835, high=343495836], Range [low=343495891, high=343495892], Range [low=343495915, high=343495916], Range [low=343496339, high=343496340], Range [low=343496363, high=343496364], Range [low=343496531, high=343496532], Range [low=343496555, high=343496556], Range [low=343520404, high=343520405], Range [low=343520411, high=343520412], Range [low=343520467, high=343520468], Range [low=343520491, high=343520492], Range [low=343520915, high=343520916], Range [low=343520939, high=343520939], Range [low=457616234, high=457616234]]
+sydney query in 3 dimensions, 10 bits, for one hour at midday took 0ms restricted to 12 ranges from 23 ranges
+length = 46
+[845160956002304, 772841539928063, 1110767956099071]
+Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.275 sec
+
+Results :
+
+Tests run: 69, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.4:report (report) @ hilbert-curve ---
+[INFO] Loading execution data file /workdir/hilbert-curve/target/jacoco.exec
+[INFO] Analyzed bundle 'hilbert-curve' with 13 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  17.547 s
+[INFO] Finished at: 2021-02-15T07:29:50Z
+[INFO] ------------------------------------------------------------------------

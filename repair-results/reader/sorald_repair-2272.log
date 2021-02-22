@@ -1,11 +1,11 @@
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=26ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=1ms
+INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  252 source files to be analyzed
 INFO  252/252 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=3207ms
+INFO  Java Main Files AST scan (done) | time=3358ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
@@ -18,13 +18,13 @@ INFO  0/0 source files have been analyzed
 IteratorNextExceptionProcessor: 0
 -----End of report------
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=1ms
+INFO  JavaClasspath initialization (done) | time=0ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  252 source files to be analyzed
+INFO  Java Main Files AST scan (done) | time=1871ms
 INFO  252/252 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=1721ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms

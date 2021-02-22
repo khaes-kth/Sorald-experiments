@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2184",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 185,
@@ -23,11 +24,10 @@
                 "violationSpecifier": "2184:src/main/java/co/nstant/in/cbor/decoder/HalfPrecisionFloatDecoder.java:36:58:36:59"
             }
         ],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 4235,
-    "repairTimeMs": 278,
-    "startTimeMs": 1612810035819,
+    "totalTimeMs": 4383,
+    "repairTimeMs": 237,
+    "startTimeMs": 1613349788145,
     "crashes": [],
-    "endTimeMs": 1612810040054,
-    "parseTimeMs": 1415
+    "endTimeMs": 1613349792528,
+    "parseTimeMs": 1440
 }

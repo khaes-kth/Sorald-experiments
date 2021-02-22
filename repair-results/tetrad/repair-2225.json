@@ -1,7 +1,7 @@
 {
     "repairs": [],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -15,9 +15,9 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 48349,
-    "repairTimeMs": 2193,
-    "startTimeMs": 1612814257676,
+    "totalTimeMs": 48222,
+    "repairTimeMs": 2364,
+    "startTimeMs": 1613362102318,
     "crashes": [
         {
             "description": "Crash in sorald.processor.ToStringReturningNullProcessor::canRepairInternal",
@@ -128,6 +128,6 @@
             "stackTrace": "java.lang.NullPointerException\n"
         }
     ],
-    "endTimeMs": 1612814306025,
-    "parseTimeMs": 21390
+    "endTimeMs": 1613362150540,
+    "parseTimeMs": 21695
 }

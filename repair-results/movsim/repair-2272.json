@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 1104,
@@ -23,11 +24,10 @@
                 "violationSpecifier": "2272:core/src/main/java/org/movsim/simulator/roadnetwork/RoadSegment.java:1220:27:1220:31"
             }
         ],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 29513,
-    "repairTimeMs": 20592,
-    "startTimeMs": 1612800698153,
+    "totalTimeMs": 33397,
+    "repairTimeMs": 23917,
+    "startTimeMs": 1613323540046,
     "crashes": [],
-    "endTimeMs": 1612800727666,
-    "parseTimeMs": 4087
+    "endTimeMs": 1613323573443,
+    "parseTimeMs": 4551
 }

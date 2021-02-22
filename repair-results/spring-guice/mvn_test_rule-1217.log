@@ -1,0 +1,494 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.springframework.guice:spring-guice:jar:1.1.5.BUILD-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 80, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-source-plugin is missing. @ line 114, column 12
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-javadoc-plugin is missing. @ line 102, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------< org.springframework.guice:spring-guice >---------------
+[INFO] Building spring-guice 1.1.5.BUILD-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spring-guice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ spring-guice ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spring-guice ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/spring-guice/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ spring-guice ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.9:test (default-test) @ spring-guice ---
+[INFO] Surefire report directory: /workdir/spring-guice/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.springframework.guice.annotation.GuiceModuleAnnotationTests
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.555 sec
+Running org.springframework.guice.annotation.ModuleBeanWiringTests
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/home/maven/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:39 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.341 sec
+Running org.springframework.guice.annotation.EnableGuiceModulesTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'enableGuiceModulesTests.ModuleConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.annotation.EnableGuiceModulesTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'enableGuiceModulesTests.ModuleBeanConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.annotation.EnableGuiceModulesTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: enableGuiceModulesTests.TestConfig
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: enableGuiceModulesTests.TestConfig
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec
+Running org.springframework.guice.annotation.GuiceModuleAnnotationGenericTypeTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.springframework.guice.annotation.ModuleNamedBeanWiringTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleNamedBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleNamedBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleNamedBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleNamedBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleNamedBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleNamedBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleNamedBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleNamedBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleNamedBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleNamedBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleNamedBeanWiringTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.AbstractCompleteWiringTests$Service
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.169 sec
+Running org.springframework.guice.MapWiringTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'mapWiringTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.springframework.guice.DuplicateNamesDifferentTypesTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'duplicateNamesDifferentTypesTestsConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: sameNameDifferentType_org.springframework.guice.DuplicateNamesDifferentTypesTests$SomeNamedDepWithType1
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.springframework.guice.ProvidesSupplierWiringTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'providesSupplierWiringTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.05 sec
+Running org.springframework.guice.ScopingTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'scopingTestsConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.ScopingTests$SomeSingletonDependency
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running org.springframework.guice.SpringAutowiredCollectionTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'springAutowiredCollectionTests.TestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running org.springframework.guice.JustInTimeBindingTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for org.springframework.guice.JustInTimeBindingTests$Service in bean: Foo
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+Running org.springframework.guice.module.SpringModuleMetadataTests
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec
+Running org.springframework.guice.module.SpringModuleGuiceBindingAwareTests
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for org.springframework.guice.module.SpringModuleGuiceBindingAwareTests$IGuiceDependency1 in bean: springDefinedSomething
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for org.springframework.guice.module.SpringModuleGuiceBindingAwareTests$IGuiceDependency2 in bean: springDefinedSomething
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for org.springframework.guice.module.SpringModuleGuiceBindingAwareTests$IGuiceDependency3 in bean: springDefinedSomething
+Feb 15, 2021 12:06:40 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for org.springframework.guice.module.SpringModuleGuiceBindingAwareTests$IGuiceDependency1 in bean: eventListener
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running org.springframework.guice.module.SpringModuleWrappedTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'springModuleWrappedTests.ModuleProviderConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running org.springframework.guice.module.SpringModuleWiringTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running org.springframework.guice.ModuleFilteringTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleFilteringTestsConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'moduleFilteringTestsConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.support.AbstractApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'injectorFactory' defined in org.springframework.guice.ModuleFilteringTestsConfig: Initialization of bean failed; nested exception is com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) Error injecting constructor, java.lang.RuntimeException: Should never be instantiated
+  at org.springframework.guice.ModuleFilteringTests$SomeDependency.<init>(ModuleFilteringTests.java:54)
+  while locating org.springframework.guice.ModuleFilteringTests$SomeDependency
+  at org.springframework.guice.ModuleFilteringTests$FilterThisModule.configure(ModuleFilteringTests.java:62) (via modules: com.google.inject.spi.Elements$ElementsAsModule -> org.springframework.guice.ModuleFilteringTestsConfig$1 -> org.springframework.guice.ModuleFilteringTests$FilterThisModule)
+  while locating org.springframework.guice.ModuleFilteringTests$SomeInterface
+
+1 error
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.springframework.guice.NativeGuiceTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.springframework.guice.BindingAnnotationTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'bindingAnnotationTestsConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running org.springframework.guice.BeanPostProcessorTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'beanPostProcessorTestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.springframework.guice.ElementVisitorTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'elementVisitorTestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.springframework.guice.SuperClassTests
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ComponentScanConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ImportConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ImportConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ComponentScanConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ComponentScanConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ImportConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ImportConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ImportConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ComponentScanConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ComponentScanConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ImportConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ComponentScanConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ComponentScanConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:40 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ImportConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ImportConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ComponentScanConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ComponentScanConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'superClassTests.ImportConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.358 sec
+Running org.springframework.guice.SimpleWiringTests
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running org.springframework.guice.PrototypeScopedBeanTests
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'prototypeScopedBeanTests.ModulesConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: org.springframework.guice.PrototypeScopedBeanTests$GuiceService1
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running org.springframework.guice.InjectorFactoryTests
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.support.AbstractApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'injectorFactoryTests.InjectorFactoryConfig': Initialization of bean failed; nested exception is org.springframework.context.ApplicationContextException: Found multiple beans of type org.springframework.guice.annotation.InjectorFactory  Please ensure that only one InjectorFactory bean is defined. InjectorFactory beans found: [injectorFactory, injectorFactory2]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 sec
+Running org.springframework.guice.LazyInitializationTests
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'lazyInitializationTests.GuiceConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+Running org.springframework.guice.PrivateModuleTests
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'privateModuleTestConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.guice.module.GuiceAutowireCandidateResolver isLazy
+INFO: Use just in time binding for com.google.inject.Injector in bean: exposed_org.springframework.guice.PrivateModuleTests$SomeInterface
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.springframework.guice.BindingDeduplicationTests
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'bindingDeduplicationTestsConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.support.AbstractApplicationContext refresh
+WARNING: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'someBean' defined in org.springframework.guice.BindingDeduplicationTestsConfig: Initialization of bean failed; nested exception is com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) A binding to org.springframework.guice.BindingDeduplicationTests$SomeDependency was already configured at spring-guice.
+  at org.springframework.guice.BindingDeduplicationTestsConfig$1.configure(BindingDeduplicationTests.java:70)
+
+2) A binding to org.springframework.guice.BindingDeduplicationTests$SomeOptionalDependency was already configured at org.springframework.guice.BindingDeduplicationTestsConfig$1.configure(BindingDeduplicationTests.java:73).
+  at spring-guice
+
+2 errors
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'bindingDeduplicationTestsConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Feb 15, 2021 12:06:41 AM org.springframework.context.annotation.ConfigurationClassPostProcessor enhanceConfigurationClasses
+INFO: Cannot enhance @Configuration bean definition 'org.springframework.guice.annotation.ModuleRegistryConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running org.springframework.guice.injector.SpringWiringTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running org.springframework.guice.injector.SpringInjectorTests
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running org.springframework.guice.GuiceWiringTests
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+
+Results :
+
+Tests run: 133, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.125 s
+[INFO] Finished at: 2021-02-15T00:06:41Z
+[INFO] ------------------------------------------------------------------------

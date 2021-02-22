@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 46,
         "performedRepairsLocations": [
             {
                 "endLine": 309,
@@ -359,11 +360,10 @@
                 "violationSpecifier": "2142:javaServices/coreJavaServices/src/main/java/joliex/util/TimeService.java:168:11:168:33"
             }
         ],
-        "nbViolationsBefore": 46,
         "nbViolationsAfter": 2
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -377,10 +377,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 15897,
-    "repairTimeMs": 909,
-    "startTimeMs": 1612810403700,
+    "totalTimeMs": 16549,
+    "repairTimeMs": 922,
+    "startTimeMs": 1613350736614,
     "crashes": [],
-    "endTimeMs": 1612810419597,
-    "parseTimeMs": 6911
+    "endTimeMs": 1613350753163,
+    "parseTimeMs": 7230
 }

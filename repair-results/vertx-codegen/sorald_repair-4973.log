@@ -1,9 +1,9 @@
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=26ms
+INFO  JavaClasspath initialization (done) | time=28ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
-INFO  692 source files to be analyzed
+INFO  710 source files to be analyzed
 ERROR Unable to parse source file : 'target/testgen_testRelocation-19/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-19/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
@@ -16,17 +16,41 @@ ERROR Unable to parse source file : 'target/testgen_testRelocation-5/foo/bar/io/
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-5/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-24/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-24/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-24/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-23/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-23/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-23/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-22/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-22/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-22/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-16/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-16/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-16/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-21/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-21/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-21/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-18/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
@@ -106,6 +130,18 @@ ERROR Unable to parse source file : 'target/testgen_testRelocation-1/foo/bar/io/
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-1/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-25/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-25/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-25/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-20/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-20/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-20/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-6/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-6/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
@@ -124,16 +160,16 @@ ERROR Unable to parse source file : 'target/testgen_testRelocation-11/foo/bar/io
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-11/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
-INFO  692/692 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=5446ms
+INFO  710/710 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=5464ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
-INFO  Java Test Files AST scan (done) | time=2ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
 -----Number of fixes------
 CompareStringsBoxedTypesWithEqualsProcessor: 0
 -----End of report------
@@ -142,7 +178,7 @@ INFO  JavaClasspath initialization (done) | time=0ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
-INFO  692 source files to be analyzed
+INFO  710 source files to be analyzed
 ERROR Unable to parse source file : 'target/testgen_testRelocation-19/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-19/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
@@ -155,17 +191,41 @@ ERROR Unable to parse source file : 'target/testgen_testRelocation-5/foo/bar/io/
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-5/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-24/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-24/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-24/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-23/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-23/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-23/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-22/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-22/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-22/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-16/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-16/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-16/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-21/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-21/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-21/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-18/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
@@ -245,6 +305,18 @@ ERROR Unable to parse source file : 'target/testgen_testRelocation-1/foo/bar/io/
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-1/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-25/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-25/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-25/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-20/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-20/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
+ERROR Unable to parse source file : 'target/testgen_testRelocation-20/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
+ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-6/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass1_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-6/foo/bar/io/vertx/test/codegen/testapi/MethodWithValidVertxGenParams_Other.java'
@@ -263,13 +335,13 @@ ERROR Unable to parse source file : 'target/testgen_testRelocation-11/foo/bar/io
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
 ERROR Unable to parse source file : 'target/testgen_testRelocation-11/foo/bar/io/vertx/test/codegen/testapi/VertxGenClass2_Other.java'
 ERROR Parse error at line 1 column 0: Syntax error on token "should_not_be_compiled", delete this token
-INFO  692/692 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=3030ms
+INFO  Java Main Files AST scan (done) | time=3285ms
 INFO  Java Test Files AST scan
+INFO  710/710 source files have been analyzed
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=4ms
 INFO  0/0 source files have been analyzed

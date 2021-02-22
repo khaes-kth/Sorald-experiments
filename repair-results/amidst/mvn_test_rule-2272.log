@@ -1,0 +1,56 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< amidst:amidst >----------------------------
+[INFO] Building amidst 4.6
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- properties-maven-plugin:1.0.0:read-project-properties (default) @ amidst ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ amidst ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 136 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ amidst ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 342 source files to /workdir/amidst/target/classes
+[INFO] /workdir/amidst/src/main/java/amidst/gui/main/menu/MenuShortcuts.java: /workdir/amidst/src/main/java/amidst/gui/main/menu/MenuShortcuts.java uses or overrides a deprecated API.
+[INFO] /workdir/amidst/src/main/java/amidst/gui/main/menu/MenuShortcuts.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/amidst/src/main/java/amidst/gui/main/menu/Menus.java: /workdir/amidst/src/main/java/amidst/gui/main/menu/Menus.java uses unchecked or unsafe operations.
+[INFO] /workdir/amidst/src/main/java/amidst/gui/main/menu/Menus.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ amidst ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 141 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ amidst ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 47 source files to /workdir/amidst/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ amidst ---
+[INFO] Surefire report directory: /workdir/amidst/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running amidst.logging.MessageFormatterTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running amidst.mojangapi.world.test.CoordinateUtilsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running amidst.mojangapi.world.test.VersionFeaturesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.215 sec
+Running amidst.mojangapi.world.test.TestWorldEntryEquality
+[info] Unable to find spawn biome. Falling back to [0, 0].
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.93 sec
+Running amidst.mojangapi.world.test.RecognisedVersionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+
+Results :
+
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.200 s
+[INFO] Finished at: 2021-02-15T03:02:40Z
+[INFO] ------------------------------------------------------------------------

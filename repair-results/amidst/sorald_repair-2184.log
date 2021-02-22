@@ -5,14 +5,14 @@ INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  389 source files to be analyzed
 INFO  389/389 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=4097ms
+INFO  Java Main Files AST scan (done) | time=4164ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=6ms
 INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 CastArithmeticOperandProcessor: 6
@@ -23,10 +23,10 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  389 source files to be analyzed
-INFO  389/389 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=2259ms
+INFO  Java Main Files AST scan (done) | time=2357ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
+INFO  389/389 source files have been analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0/0 source files have been analyzed

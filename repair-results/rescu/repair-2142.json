@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 544,
             "endColumn": 43,
@@ -13,11 +14,10 @@
             "filePath": "src/test/java/si/mazi/rescu/RestInvocationHandlerTest.java",
             "violationSpecifier": "2142:src/test/java/si/mazi/rescu/RestInvocationHandlerTest.java:544:21:544:43"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 4170,
-    "repairTimeMs": 167,
-    "startTimeMs": 1612805642574,
+    "totalTimeMs": 4246,
+    "repairTimeMs": 187,
+    "startTimeMs": 1613334332519,
     "crashes": [],
-    "endTimeMs": 1612805646744,
-    "parseTimeMs": 1689
+    "endTimeMs": 1613334336765,
+    "parseTimeMs": 1704
 }

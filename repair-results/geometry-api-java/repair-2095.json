@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 13,
         "performedRepairsLocations": [
             {
                 "endLine": 172,
@@ -96,10 +95,11 @@
                 "violationSpecifier": "2095:src/test/java/com/esri/core/geometry/TestCommonMethods.java:252:26:252:57"
             }
         ],
+        "nbViolationsBefore": 13,
         "nbViolationsAfter": 2
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -113,10 +113,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 46021,
-    "repairTimeMs": 932,
-    "startTimeMs": 1612803579431,
+    "totalTimeMs": 46112,
+    "repairTimeMs": 1027,
+    "startTimeMs": 1613330078630,
     "crashes": [],
-    "endTimeMs": 1612803625452,
-    "parseTimeMs": 6160
+    "endTimeMs": 1613330124742,
+    "parseTimeMs": 6448
 }

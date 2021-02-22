@@ -1,0 +1,297 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.spdx:spdx-tools:jar:2.2.5-SNAPSHOT
+[WARNING] 'build.plugins.plugin.(groupId:artifactId)' must be unique but found duplicate declaration of plugin org.apache.maven.plugins:maven-javadoc-plugin @ line 381, column 12
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< org.spdx:spdx-tools >-------------------------
+[INFO] Building SPDX tools 2.2.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spdx-tools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 459 resources to resources
+[INFO] Copying 4 resources to META-INF
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:compile (default-compile) @ spdx-tools ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 214 source files to /workdir/tools/target/classes
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] /workdir/tools/src/org/spdx/rdfparser/model/RdfModelObject.java:[48,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[20,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[21,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/AbstractJsonFile.java:[11,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[21,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[22,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/CommonCode.java:[42,26] org.spdx.rdfparser.DOAPProject in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[30,26] org.spdx.rdfparser.DOAPProject in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[33,26] org.spdx.rdfparser.SPDXDocument in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[34,26] org.spdx.rdfparser.SPDXDocument in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[34,26] org.spdx.rdfparser.SPDXDocument in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[34,39] org.spdx.rdfparser.SPDXDocument.SPDXPackage in org.spdx.rdfparser.SPDXDocument has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[35,26] org.spdx.rdfparser.SPDXFile in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[23,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[24,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseJSONFile.java:[19,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseJSONFile.java:[20,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/rdfparser/model/RdfModelObject.java:[48,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[20,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[21,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/AbstractJsonFile.java:[11,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[21,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[22,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/CommonCode.java:[42,26] org.spdx.rdfparser.DOAPProject in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[30,26] org.spdx.rdfparser.DOAPProject in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[33,26] org.spdx.rdfparser.SPDXDocument in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[34,26] org.spdx.rdfparser.SPDXDocument in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[34,26] org.spdx.rdfparser.SPDXDocument in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[34,39] org.spdx.rdfparser.SPDXDocument.SPDXPackage in org.spdx.rdfparser.SPDXDocument has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[35,26] org.spdx.rdfparser.SPDXFile in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[23,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[24,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseJSONFile.java:[19,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseJSONFile.java:[20,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/rdfparser/model/RdfModelObject.java:[48,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[20,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[21,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/AbstractJsonFile.java:[11,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[21,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[22,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/CommonCode.java:[42,26] org.spdx.rdfparser.DOAPProject in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[30,26] org.spdx.rdfparser.DOAPProject in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[33,26] org.spdx.rdfparser.SPDXDocument in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[34,26] org.spdx.rdfparser.SPDXDocument in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[34,26] org.spdx.rdfparser.SPDXDocument in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[34,39] org.spdx.rdfparser.SPDXDocument.SPDXPackage in org.spdx.rdfparser.SPDXDocument has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tag/BuildLegacyDocument.java:[35,26] org.spdx.rdfparser.SPDXFile in org.spdx.rdfparser has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[23,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[24,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseJSONFile.java:[19,23] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseJSONFile.java:[20,23] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/rdfparser/license/CrossRef.java:[123,40] Boolean(boolean) in java.lang.Boolean has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/rdfparser/license/CrossRef.java:[125,40] Boolean(boolean) in java.lang.Boolean has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/spdxspreadsheet/AbstractSheet.java:[106,67] org.apache.poi.hssf.util.HSSFColor.LIGHT_GREEN in org.apache.poi.hssf.util.HSSFColor has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/spdxspreadsheet/AbstractSheet.java:[111,68] org.apache.poi.hssf.util.HSSFColor.LIGHT_YELLOW in org.apache.poi.hssf.util.HSSFColor has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/spdxspreadsheet/AbstractSheet.java:[115,65] org.apache.poi.hssf.util.HSSFColor.RED in org.apache.poi.hssf.util.HSSFColor has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/spdxspreadsheet/AbstractSheet.java:[180,61] org.apache.poi.hssf.util.HSSFColor.GREY_25_PERCENT in org.apache.poi.hssf.util.HSSFColor has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/AbstractJsonFile.java:[28,28] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/AbstractJsonFile.java:[28,28] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/AbstractJsonFile.java:[28,28] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[70,19] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[70,19] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[70,19] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[71,17] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[71,45] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[76,25] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[76,54] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseExceptionJSONFile.java:[84,72] getExample() in org.spdx.rdfparser.license.LicenseException has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/merge/SpdxFileInfoMerger.java:[107,111] getArtifactOf() in org.spdx.rdfparser.model.SpdxFile has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/merge/SpdxFileInfoMerger.java:[108,119] getArtifactOf() in org.spdx.rdfparser.model.SpdxFile has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/merge/SpdxFileInfoMerger.java:[110,61] setArtifactOf(org.spdx.rdfparser.model.DoapProject[]) in org.spdx.rdfparser.model.SpdxFile has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/merge/SpdxFileInfoMerger.java:[115,121] getArtifactOf() in org.spdx.rdfparser.model.SpdxFile has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/merge/SpdxFileInfoMerger.java:[116,61] setArtifactOf(org.spdx.rdfparser.model.DoapProject[]) in org.spdx.rdfparser.model.SpdxFile has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/merge/SpdxFileInfoMerger.java:[134,28] getArtifactOf() in org.spdx.rdfparser.model.SpdxFile has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/merge/SpdxFileInfoMerger.java:[134,64] getArtifactOf() in org.spdx.rdfparser.model.SpdxFile has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/tools/MatchingStandardLicenses.java:[104,29] toString(java.io.File,java.nio.charset.Charset) in com.google.common.io.Files has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/rdfparser/license/ListedLicenseException.java:[176,39] getExample() in org.spdx.rdfparser.license.LicenseException has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/rdfparser/license/ListedLicenseException.java:[176,23] setExample(java.lang.String) in org.spdx.rdfparser.license.LicenseException has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[140,19] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[140,19] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[140,19] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[141,17] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[141,45] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[144,17] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[144,47] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[146,25] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[146,56] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[153,33] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/ExceptionTOCJSONFile.java:[153,62] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[153,19] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[153,19] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[153,19] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[154,17] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[154,45] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[157,17] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[157,46] org.json.simple.JSONArray in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[175,25] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[175,54] org.json.simple.JSONObject in org.json.simple has been deprecated
+[WARNING] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java:[186,33] org.json.simple.JSONArray in org.json.simple has been deprecated
+[INFO] /workdir/tools/src/org/spdx/html/LicenseTOCJSONFile.java: Some input files additionally use or override a deprecated API.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spdx-tools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 131 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.6.1:testCompile (default-testCompile) @ spdx-tools ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ spdx-tools ---
+[INFO] Surefire report directory: /workdir/tools/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.spdx.merge.SpdxFileInfoMergerTest
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'log4j2.debug' to show Log4j2 internal initialization logging.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.146 sec
+Running org.spdx.merge.SpdxLicenseInfoMergerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.238 sec
+Running org.spdx.merge.SpdxLicenseMapperTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 sec
+Running org.spdx.merge.MergeToolTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.spdx.rdfparser.TestSPDXChecksum
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.spdx.rdfparser.TestSpdxPackageVerificationCode
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.spdx.rdfparser.referencetype.TestReferenceType
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.spdx.rdfparser.referencetype.TestListedReferenceTypes
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running org.spdx.rdfparser.TestSPDXFile
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.449 sec
+Running org.spdx.rdfparser.TestSpdxDocumentContainer
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec
+Running org.spdx.rdfparser.license.TestOrLaterOperator
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.spdx.rdfparser.license.TestLicenseException
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running org.spdx.rdfparser.license.TestLicenseExpressionParser
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.191 sec
+Running org.spdx.rdfparser.license.TestExtractedLicenseInfo
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 sec
+Running org.spdx.rdfparser.license.TestListedLicenses
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.11 sec
+Running org.spdx.rdfparser.license.TestWithExceptionOperator
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.158 sec
+Running org.spdx.rdfparser.license.CrossRefTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running org.spdx.rdfparser.license.TestLicenseInfoFactory
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.598 sec
+Running org.spdx.rdfparser.license.TestListedExceptions
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.217 sec
+Running org.spdx.rdfparser.license.TestSpdxListedLicense
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.spdx.rdfparser.license.TestConjunctiveLicenseSet
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.spdx.rdfparser.TestSPDXDocument
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.526 sec
+Running org.spdx.rdfparser.TestDOAPProject
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.spdx.rdfparser.VerificationCodeGeneratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.spdx.rdfparser.model.TestSpdxFile
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.719 sec
+Running org.spdx.rdfparser.model.TestSpdxDocument
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 sec
+Running org.spdx.rdfparser.model.TestSpdxConstantElement
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.spdx.rdfparser.model.TestExternalReference
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.spdx.rdfparser.model.TestExternalSpdxElement
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.spdx.rdfparser.model.TestSpdxElement
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.spdx.rdfparser.model.TestRelationship
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.spdx.rdfparser.model.TestSpdxPackage
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running org.spdx.rdfparser.model.TestAnnotation
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.spdx.rdfparser.model.TestSpdxItem
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running org.spdx.rdfparser.model.TestExternalDocumentRef
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.spdx.rdfparser.model.TestChecksum
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.spdx.rdfparser.model.TestDoapProject
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.spdx.rdfparser.model.pointer.TestPointerFactory
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.spdx.rdfparser.model.pointer.TestLineCharPointer
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.spdx.rdfparser.model.pointer.TestStartEndPointer
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.spdx.rdfparser.model.pointer.TestByteOffsetPointer
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.spdx.rdfparser.model.TestSpdxSnippet
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.412 sec
+Running org.spdx.rdfparser.model.TestRdfModelObject
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.111 sec
+Running org.spdx.rdfparser.model.TestSpdxElementFactory
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.spdx.rdfparser.TestSPDXReview
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.spdx.tools.TestExamples
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.682 sec
+Running org.spdx.licenseTemplate.TestLicenseTemplateRule
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.spdx.licenseTemplate.TestSpdxLicenseTemplateHelper
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.spdx.licenseTemplate.TestTextTemplateOutputHandler
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.spdx.licenseTemplate.TestHtmlTemplateOutputHandler
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.spdx.compare.SpdxComparerTest
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.789 sec
+Running org.spdx.compare.TestCompareTemplateOutputHandler
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.57 sec
+Running org.spdx.compare.SpdxPackageComparerTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running org.spdx.compare.TestDocumentRelationshipSheet
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.spdx.compare.SpdxSnippetComparerTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.222 sec
+Running org.spdx.compare.TestDocumentSheet
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.694 sec
+Running org.spdx.compare.TestDocumentAnnotationSheet
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running org.spdx.compare.LicenseCompareHelperTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.093 sec
+Running org.spdx.compare.SpdxItemComparerTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.spdx.compare.TestPackageSheet
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.62 sec
+Running org.spdx.compare.TestNormalizedFileNameComparator
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.spdx.compare.TestExternalDocReferencesSheet
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.spdx.compare.SpdxFileComparerTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+Running org.spdx.html.TestLicenseTOCJSONFile
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.317 sec
+Running org.spdx.html.TestMustache
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+Running org.spdx.tag.TestBuildDocument
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 sec
+Running org.spdx.tag.TestNoCommentInputStream
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.spdx.spdxspreadsheet.TestSnippetSheetTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running org.spdx.spdxspreadsheet.TestAnnotationSheet
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.spdx.spdxspreadsheet.TestPerFileSheet
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.spdx.spdxspreadsheet.TestPackageInfoSheet
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.spdx.spdxspreadsheet.TestRelationshipSheet
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.spdx.spdxspreadsheet.TestOriginsSheet
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+
+Results :
+
+Tests run: 656, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.753 s
+[INFO] Finished at: 2021-02-15T11:05:29Z
+[INFO] ------------------------------------------------------------------------

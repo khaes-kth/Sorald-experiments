@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "SynchronizationOnStringOrBoxed",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "1860",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 171,
+            "endColumn": 25,
+            "startColumn": 18,
+            "startLine": 171,
+            "filePath": "mongodb/src/main/java/site/ycsb/db/MongoDbClient.java",
+            "violationSpecifier": "1860:mongodb/src/main/java/site/ycsb/db/MongoDbClient.java:171:18:171:25"
+        }],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 38248282",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "1860",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 8957,
+    "repairTimeMs": 382,
+    "startTimeMs": 1613319312002,
+    "crashes": [],
+    "endTimeMs": 1613319320959,
+    "parseTimeMs": 4081
+}

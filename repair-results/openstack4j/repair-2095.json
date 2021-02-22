@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 182,
             "endColumn": 61,
@@ -13,11 +14,10 @@
             "filePath": "core/src/main/java/org/openstack4j/openstack/image/v2/internal/ImageServiceImpl.java",
             "violationSpecifier": "2095:core/src/main/java/org/openstack4j/openstack/image/v2/internal/ImageServiceImpl.java:182:31:182:61"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 21041,
-    "repairTimeMs": 665,
-    "startTimeMs": 1612808851809,
+    "totalTimeMs": 21533,
+    "repairTimeMs": 594,
+    "startTimeMs": 1613346216295,
     "crashes": [],
-    "endTimeMs": 1612808872850,
-    "parseTimeMs": 7714
+    "endTimeMs": 1613346237828,
+    "parseTimeMs": 7970
 }

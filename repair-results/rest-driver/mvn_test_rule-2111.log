@@ -1,0 +1,307 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] REST Driver                                                        [pom]
+[INFO] REST Driver Shared                                                 [jar]
+[INFO] REST Client Driver                                                 [jar]
+[INFO] REST Server Driver                                                 [jar]
+[INFO] 
+[INFO] -----------------< com.github.rest-driver:rest-driver >-----------------
+[INFO] Building REST Driver 2.0.1-SNAPSHOT                                [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ rest-driver ---
+[INFO] 
+[INFO] --- maven-license-plugin:1.9.0:format (default) @ rest-driver ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] -------------< com.github.rest-driver:rest-driver-shared >--------------
+[INFO] Building REST Driver Shared 2.0.1-SNAPSHOT                         [2/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ rest-driver-shared ---
+[INFO] 
+[INFO] --- maven-license-plugin:1.9.0:format (default) @ rest-driver-shared ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rest-driver-shared ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ rest-driver-shared ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rest-driver-shared ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/rest-driver/rest-driver-shared/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ rest-driver-shared ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ rest-driver-shared ---
+[INFO] Surefire report directory: /workdir/rest-driver/rest-driver-shared/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.restdriver.matchers.IsEquivalentXmlTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec
+Running com.github.restdriver.matchers.WithValueAtTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 sec
+Running com.github.restdriver.matchers.MatchesRegexTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.github.restdriver.matchers.HasJsonWhichTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running com.github.restdriver.matchers.HasXPathTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running com.github.restdriver.matchers.WithSizeTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.restdriver.matchers.HasJsonPathTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.128 sec
+Running com.github.restdriver.matchers.ContainingValueTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.github.restdriver.matchers.HasJsonValueTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running com.github.restdriver.matchers.HasJsonArrayTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+
+Results :
+
+Tests run: 65, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -------------< com.github.rest-driver:rest-client-driver >--------------
+[INFO] Building REST Client Driver 2.0.1-SNAPSHOT                         [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ rest-client-driver ---
+[INFO] 
+[INFO] --- maven-license-plugin:1.9.0:format (default) @ rest-client-driver ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rest-client-driver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/rest-driver/rest-client-driver/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ rest-client-driver ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 32 source files to /workdir/rest-driver/rest-client-driver/target/classes
+[INFO] /workdir/rest-driver/rest-client-driver/src/main/java/com/github/restdriver/clientdriver/SecureClientDriver.java: /workdir/rest-driver/rest-client-driver/src/main/java/com/github/restdriver/clientdriver/SecureClientDriver.java uses or overrides a deprecated API.
+[INFO] /workdir/rest-driver/rest-client-driver/src/main/java/com/github/restdriver/clientdriver/SecureClientDriver.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rest-client-driver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ rest-client-driver ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 28 source files to /workdir/rest-driver/rest-client-driver/target/test-classes
+[INFO] /workdir/rest-driver/rest-client-driver/src/test/java/com/github/restdriver/clientdriver/integration/ClientDriverRuleTest.java: Some input files use or override a deprecated API.
+[INFO] /workdir/rest-driver/rest-client-driver/src/test/java/com/github/restdriver/clientdriver/integration/ClientDriverRuleTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ rest-client-driver ---
+[INFO] Surefire report directory: /workdir/rest-driver/rest-client-driver/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.restdriver.clientdriver.integration.SlowResponsesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.927 sec
+Running com.github.restdriver.clientdriver.integration.VerifyWithinTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.629 sec
+Running com.github.restdriver.clientdriver.integration.WhenCompletedTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.012 sec
+Running com.github.restdriver.clientdriver.integration.BodyMatchersTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running com.github.restdriver.clientdriver.integration.VerifyTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running com.github.restdriver.clientdriver.integration.FailureReportingTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.05 sec
+Running com.github.restdriver.clientdriver.integration.ChooseOwnPortTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+Running com.github.restdriver.clientdriver.integration.ClientDriverRuleChooseOwnPortTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running com.github.restdriver.clientdriver.integration.SecureClientDriverRuleTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.263 sec
+Running com.github.restdriver.clientdriver.integration.ClientDriverFailTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec
+Running com.github.restdriver.clientdriver.integration.ClientDriverSuccessTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.268 sec
+Running com.github.restdriver.clientdriver.integration.BodyCaptureTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec
+Running com.github.restdriver.clientdriver.integration.ClientDriverRuleTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+Running com.github.restdriver.clientdriver.integration.SpecifyExpectationNumberTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+Running com.github.restdriver.clientdriver.integration.BasicAuthTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running com.github.restdriver.clientdriver.integration.SecureClientDriverTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec
+Running com.github.restdriver.clientdriver.exception.ClientDriverFailedExpectationExceptionTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec
+Running com.github.restdriver.clientdriver.unit.SecureClientDriverFactoryTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.055 sec
+Running com.github.restdriver.clientdriver.unit.DefaultRequestMatcherTest
+Tests run: 40, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running com.github.restdriver.clientdriver.unit.ClientDriverRequestTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.restdriver.clientdriver.unit.HttpRealRequestTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.github.restdriver.clientdriver.unit.RestClientDriverTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.004 sec
+Running com.github.restdriver.clientdriver.unit.ClientDriverHandlerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running com.github.restdriver.clientdriver.unit.ClientDriverResponseTest
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.github.restdriver.clientdriver.unit.ClientDriverExpectationTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.github.restdriver.clientdriver.unit.ClientDriverFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running com.github.restdriver.clientdriver.jetty.DefaultClientDriverJettyHandlerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+
+Results :
+
+Tests run: 179, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -------------< com.github.rest-driver:rest-server-driver >--------------
+[INFO] Building REST Server Driver 2.0.1-SNAPSHOT                         [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ rest-server-driver ---
+[INFO] 
+[INFO] --- maven-license-plugin:1.9.0:format (default) @ rest-server-driver ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rest-server-driver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/rest-driver/rest-server-driver/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ rest-server-driver ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 39 source files to /workdir/rest-driver/rest-server-driver/target/classes
+[INFO] /workdir/rest-driver/rest-server-driver/src/main/java/com/github/restdriver/serverdriver/RestServerDriver.java: Some input files use or override a deprecated API.
+[INFO] /workdir/rest-driver/rest-server-driver/src/main/java/com/github/restdriver/serverdriver/RestServerDriver.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rest-server-driver ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ rest-server-driver ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 33 source files to /workdir/rest-driver/rest-server-driver/target/test-classes
+[INFO] /workdir/rest-driver/rest-server-driver/src/test/java/com/github/restdriver/serverdriver/http/DefaultResponseTest.java: Some input files use or override a deprecated API.
+[INFO] /workdir/rest-driver/rest-server-driver/src/test/java/com/github/restdriver/serverdriver/http/DefaultResponseTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ rest-server-driver ---
+[INFO] Surefire report directory: /workdir/rest-driver/rest-server-driver/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.restdriver.serverdriver.matchers.HasResponseBodyTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 sec
+Running com.github.restdriver.serverdriver.matchers.Rfc1123DateMatcherTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running com.github.restdriver.serverdriver.matchers.HasStatusCodeTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.github.restdriver.serverdriver.matchers.HasHeaderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.github.restdriver.serverdriver.matchers.HasHeaderWithValueTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.restdriver.serverdriver.file.FileHelperTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+Running com.github.restdriver.serverdriver.http.RequestSocketTimeoutTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.github.restdriver.serverdriver.http.UrlTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.github.restdriver.serverdriver.http.HeaderTest
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.github.restdriver.serverdriver.http.ImmutableUrlTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.restdriver.serverdriver.http.RequestBodyTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running com.github.restdriver.serverdriver.http.RequestConnectionTimeoutTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.restdriver.serverdriver.http.DefaultResponseTest
+[Fatal Error] :1:1: Content is not allowed in prolog.
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.191 sec
+Running com.github.restdriver.serverdriver.http.ByteArrayRequestBodyTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.restdriver.serverdriver.http.RequestTimeoutTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.restdriver.serverdriver.acceptance.ProxyAcceptanceTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.654 sec
+Running com.github.restdriver.serverdriver.acceptance.Rfc1123DatesInHeadersAcceptanceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running com.github.restdriver.serverdriver.acceptance.ResponseToStringAcceptanceTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running com.github.restdriver.serverdriver.acceptance.PutAcceptanceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+Running com.github.restdriver.serverdriver.acceptance.ResponseAsTextAcceptanceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.github.restdriver.serverdriver.acceptance.GetAcceptanceTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running com.github.restdriver.serverdriver.acceptance.HeadAcceptanceTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.073 sec
+Running com.github.restdriver.serverdriver.acceptance.BasicAuthAcceptanceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.github.restdriver.serverdriver.acceptance.OptionsAcceptanceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.github.restdriver.serverdriver.acceptance.PostAcceptanceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running com.github.restdriver.serverdriver.acceptance.PollingAcceptanceTest
+remainingAttempts=9, caught AssertionError: 
+Expected: is "NOW!"
+     but: was "NOT YET..."
+remainingAttempts=8, caught AssertionError: 
+Expected: is "NOW!"
+     but: was "NOT YET..."
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.18 sec
+Running com.github.restdriver.serverdriver.acceptance.XPathAcceptanceTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+Running com.github.restdriver.serverdriver.acceptance.XmlAcceptanceTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+Running com.github.restdriver.serverdriver.acceptance.AnyMethodAcceptanceTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running com.github.restdriver.serverdriver.acceptance.JsonPathAcceptanceTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.147 sec
+Running com.github.restdriver.serverdriver.acceptance.HeadersAcceptanceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running com.github.restdriver.serverdriver.acceptance.HttpProblemsAcceptanceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+Running com.github.restdriver.serverdriver.acceptance.DeleteAcceptanceTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+
+Results :
+
+Tests run: 175, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for REST Driver 2.0.1-SNAPSHOT:
+[INFO] 
+[INFO] REST Driver ........................................ SUCCESS [  0.956 s]
+[INFO] REST Driver Shared ................................. SUCCESS [  1.613 s]
+[INFO] REST Client Driver ................................. SUCCESS [ 10.970 s]
+[INFO] REST Server Driver ................................. SUCCESS [  6.749 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  20.389 s
+[INFO] Finished at: 2021-02-14T17:29:28Z
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,235 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< fr.dudie:nominatim-api >-----------------------
+[INFO] Building Nominatim Java API client 0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:copy-resources (copy-license) @ nominatim-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- license-maven-plugin:1.20:check-file-header (check-license-headers) @ nominatim-api ---
+[INFO] Will search files to update from root /workdir/nominatim-java-api/src
+[INFO] Will search files to update from root /workdir/nominatim-java-api/target/generated-sources
+[INFO] Scan 40 files header done in 58.977ms.
+[INFO] All files are up-to-date.
+[INFO] 
+[INFO] --- git-commit-id-plugin:2.2.5:revision (git-info) @ nominatim-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ nominatim-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/nominatim-java-api/src/main/resources
+[INFO] 
+[INFO] --- flatten-maven-plugin:1.1.0:flatten (flatten) @ nominatim-api ---
+[INFO] Generating flattened POM of project fr.dudie:nominatim-api:jar:0-SNAPSHOT...
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ nominatim-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ nominatim-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ nominatim-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ nominatim-api ---
+[INFO] Surefire report directory: /workdir/nominatim-java-api/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running fr.dudie.nominatim.client.request.NominatimReverseRequestTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.14 sec
+Running fr.dudie.nominatim.client.request.NominatimSearchRequestTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running fr.dudie.nominatim.client.request.NominatimLookupRequestTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running fr.dudie.nominatim.client.JsonNominatimClientTest
+2021-02-14 17:53:03 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:03 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:04 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:04 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:04 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:04 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:04 [INFO] JsonNominatimClientTest - testSearchWithResults.start
+2021-02-14 17:53:04 [DEBUG] JsonNominatimClient - search url: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr&q=vitré,%20rennes
+2021-02-14 17:53:04 [DEBUG] JsonNominatimClientTest - fr.dudie.nominatim.model.Address@7c209437[
+  placeId=81713189
+  licence=Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright
+  osmType=node
+  osmId=7702774271
+  boundingBox=fr.dudie.nominatim.model.BoundingBox@1698ee84
+  polygonPoints=<null>
+  geojson=<null>
+  longitude=-1.2054612
+  latitude=48.3563872
+  displayName=Rennes, Boulevard Jacques Faucheux, Montaubert - Rillé - Saint-Sulpice, Fougères, Fougères-Vitré, Ille-et-Vilaine, Bretagne, France métropolitaine, 35300, France
+  elementClass=highway
+  elementType=bus_stop
+  addressElements=<null>
+  namedetails=<null>
+  placeRank=30
+  importance=0.201
+  wkt=<null>
+]
+2021-02-14 17:53:04 [INFO] JsonNominatimClientTest - testSearchWithResults.end
+2021-02-14 17:53:04 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:04 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:04 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:04 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:04 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:04 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:04 [INFO] JsonNominatimClientTest - testAddressWithoutDetails
+2021-02-14 17:53:04 [DEBUG] JsonNominatimClient - search url: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr&q=rennes,%20france&addressdetails=0
+2021-02-14 17:53:05 [INFO] JsonNominatimClientTest - testAddressWithoutDetails
+2021-02-14 17:53:05 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:05 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:05 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:05 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:05 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:05 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:05 [INFO] JsonNominatimClientTest - testGetAddress.start
+2021-02-14 17:53:05 [DEBUG] JsonNominatimClient - reverse geocoding url: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr&lat=48.11665616434640&lon=1.64891269513038
+2021-02-14 17:53:06 [DEBUG] JsonNominatimClientTest - fr.dudie.nominatim.model.Address@83298d7[
+  placeId=16898670
+  licence=Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright
+  osmType=node
+  osmId=1740900598
+  boundingBox=fr.dudie.nominatim.model.BoundingBox@42a9e5d1
+  polygonPoints=<null>
+  geojson=<null>
+  longitude=1.6461318
+  latitude=48.1014889
+  displayName=Gaubert, Guillonville, Châteaudun, Eure-et-Loir, Centre-Val de Loire, France métropolitaine, 28140, France
+  elementClass=place
+  elementType=hamlet
+  addressElements={fr.dudie.nominatim.model.Element@773cbf4f,fr.dudie.nominatim.model.Element@6b54655f,fr.dudie.nominatim.model.Element@665e9289,fr.dudie.nominatim.model.Element@7d3430a7,fr.dudie.nominatim.model.Element@6f603e89,fr.dudie.nominatim.model.Element@2756c0a7,fr.dudie.nominatim.model.Element@350ec41e,fr.dudie.nominatim.model.Element@69637b10}
+  namedetails=<null>
+  placeRank=20
+  importance=0.25
+  wkt=<null>
+]
+2021-02-14 17:53:06 [INFO] JsonNominatimClientTest - testGetAddress.end
+2021-02-14 17:53:06 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:06 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:06 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:06 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:06 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:06 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:06 [DEBUG] JsonNominatimClient - search url: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr&q=rue%20de%20chateaudun,%20rennes,%20france&viewbox=-4.41270000000000,48.27310000000000,-4.57580000000000,48.21630000000000&bounded=1
+2021-02-14 17:53:07 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:07 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:07 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:07 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:07 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:07 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:07 [INFO] JsonNominatimClientTest - testSearchWithoutResults.start
+2021-02-14 17:53:07 [DEBUG] JsonNominatimClient - search url: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr&q=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbb
+2021-02-14 17:53:08 [INFO] JsonNominatimClientTest - testSearchWithoutResults.end
+2021-02-14 17:53:08 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:08 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:08 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:08 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:08 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:08 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:08 [INFO] JsonNominatimClientTest - testAddressLookupWithDetails
+2021-02-14 17:53:08 [DEBUG] JsonNominatimClient - lookup url: https://nominatim.openstreetmap.org/lookup?format=json&email=contact%40dudie.fr&osm_ids=R146656,W104393803,N240109189&addressdetails=1
+2021-02-14 17:53:09 [INFO] JsonNominatimClientTest - testAddressLookupWithDetails
+2021-02-14 17:53:09 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:09 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:09 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:09 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:09 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:09 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:09 [INFO] JsonNominatimClientTest - testSearchWithGeoJsonResults.start
+2021-02-14 17:53:09 [DEBUG] JsonNominatimClient - search url: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr&q=vitré,%20rennes&polygon_geojson=1
+2021-02-14 17:53:10 [INFO] JsonNominatimClientTest - testSearchWithGeoJsonResults.end
+2021-02-14 17:53:10 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:10 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:10 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:10 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:10 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:10 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:10 [DEBUG] JsonNominatimClient - search url: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr&q=rue%20de%20chateaudun,%20rennes,%20france&viewbox=-4.41270000000000,48.27310000000000,-4.57580000000000,48.21630000000000&bounded=1
+2021-02-14 17:53:11 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:11 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:11 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:11 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:11 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:11 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:11 [INFO] JsonNominatimClientTest - testAddressWithDetails
+2021-02-14 17:53:11 [DEBUG] JsonNominatimClient - search url: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr&q=pkin&namedetails=1
+2021-02-14 17:53:12 [INFO] JsonNominatimClientTest - testAddressWithDetails
+2021-02-14 17:53:12 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:12 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:12 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:12 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:12 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:12 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:12 [INFO] JsonNominatimClientTest - testSearchWithResults.start
+2021-02-14 17:53:12 [DEBUG] JsonNominatimClient - search url: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr&q=ул.%20Евдокимова,37,%20Ростов-на-дону
+2021-02-14 17:53:13 [DEBUG] JsonNominatimClientTest - fr.dudie.nominatim.model.Address@3abd581e[
+  placeId=257032868
+  licence=Data © OpenStreetMap contributors, ODbL 1.0. https://osm.org/copyright
+  osmType=relation
+  osmId=1385431
+  boundingBox=fr.dudie.nominatim.model.BoundingBox@4d4d8fcf
+  polygonPoints=<null>
+  geojson=<null>
+  longitude=39.7129483306217
+  latitude=47.27380665
+  displayName=Сбербанк (главный офис), 37, улица Евдокимова, Ворошиловский район, Ростов-на-Дону, городской округ Ростов-на-Дону, Ростовская область, Южный федеральный округ, 344068, Россия
+  elementClass=amenity
+  elementType=bank
+  addressElements=<null>
+  namedetails=<null>
+  placeRank=30
+  importance=0.511
+  wkt=<null>
+]
+2021-02-14 17:53:13 [INFO] JsonNominatimClientTest - testSearchWithResults.end
+2021-02-14 17:53:13 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:13 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:13 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:13 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:13 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:13 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:13 [INFO] JsonNominatimClientTest - testAddressLookupWithDetails
+2021-02-14 17:53:13 [DEBUG] JsonNominatimClient - lookup url: https://nominatim.openstreetmap.org/lookup?format=json&email=contact%40dudie.fr&osm_ids=R146656,W104393803,N240109189&addressdetails=0
+2021-02-14 17:53:14 [INFO] JsonNominatimClientTest - testAddressLookupWithoutDetails
+2021-02-14 17:53:14 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:14 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:14 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:14 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:14 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:14 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:14 [DEBUG] JsonNominatimClient - search url: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr&q=rue%20de%20chateaudun,%20rennes,%20france
+2021-02-14 17:53:15 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:15 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:15 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:15 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:15 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:15 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:15 [DEBUG] JsonNominatimClient - search url: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr&q=2%20rue%20de%20chateaudun,%20rennes,%20france
+2021-02-14 17:53:16 [INFO] JsonNominatimClientTest - Loading configuration file /nominatim-client-test.properties
+2021-02-14 17:53:16 [INFO] JsonNominatimClientTest - Preparing http client
+2021-02-14 17:53:16 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:16 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:16 [DEBUG] JsonNominatimClient - API search URL: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:16 [DEBUG] JsonNominatimClient - API reverse URL: https://nominatim.openstreetmap.org/reverse?format=jsonv2&email=contact%40dudie.fr
+2021-02-14 17:53:16 [INFO] JsonNominatimClientTest - testAddressWithDetails
+2021-02-14 17:53:16 [DEBUG] JsonNominatimClient - search url: https://nominatim.openstreetmap.org/search?format=jsonv2&email=contact%40dudie.fr&q=rennes,%20france&addressdetails=1
+2021-02-14 17:53:17 [INFO] JsonNominatimClientTest - testAddressWithDetails
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 13.715 sec
+
+Results :
+
+Tests run: 33, Failures: 0, Errors: 0, Skipped: 2
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15.774 s
+[INFO] Finished at: 2021-02-14T17:53:17Z
+[INFO] ------------------------------------------------------------------------

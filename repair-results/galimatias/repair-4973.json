@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
-        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 535,
@@ -24,10 +23,11 @@
                 "violationSpecifier": "4973:src/main/java/io/mola/galimatias/URL.java:555:26:555:28"
             }
         ],
+        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 3864,
-    "repairTimeMs": 272,
-    "startTimeMs": 1612809236167,
+    "totalTimeMs": 4061,
+    "repairTimeMs": 294,
+    "startTimeMs": 1613347216306,
     "crashes": [],
-    "endTimeMs": 1612809240031,
-    "parseTimeMs": 1404
+    "endTimeMs": 1613347220367,
+    "parseTimeMs": 1498
 }

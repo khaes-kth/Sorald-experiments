@@ -1,0 +1,627 @@
+[INFO] Scanning for projects...
+[WARNING] The project io.pkts:pkts-parent:pom:3.0.8-SNAPSHOT uses prerequisites which is only intended for maven-plugin projects but not for non maven-plugin projects. For such purposes you should use the maven-enforcer-plugin. See https://maven.apache.org/enforcer/enforcer-rules/requireMavenVersion.html
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Pkts IO                                                            [pom]
+[INFO] Pkts Buffer Lib                                                    [jar]
+[INFO] Session Description Protocol Lib                                   [jar]
+[INFO] SIP Framer and Parser Library                                      [jar]
+[INFO] Core Pkts                                                          [jar]
+[INFO] Pkts Streams                                                       [jar]
+[INFO] Pkts Examples                                                      [jar]
+[INFO] Pkts Tools                                                         [jar]
+[INFO] 
+[INFO] ------------------------< io.pkts:pkts-parent >-------------------------
+[INFO] Building Pkts IO 3.0.8-SNAPSHOT                                    [1/8]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ pkts-parent ---
+[INFO] 
+[INFO] ------------------------< io.pkts:pkts-buffers >------------------------
+[INFO] Building Pkts Buffer Lib 3.0.8-SNAPSHOT                            [2/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ pkts-buffers ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ pkts-buffers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/pkts/pkts-buffers/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ pkts-buffers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pkts-buffers ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/pkts/pkts-buffers/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ pkts-buffers ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ pkts-buffers ---
+[INFO] Surefire report directory: /workdir/pkts/pkts-buffers/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running io.pkts.buffer.InputStreamBufferTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.099 sec
+Running io.pkts.buffer.ByteBufferTest
+Tests run: 38, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running io.pkts.buffer.BoundedInputStreamBufferTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running io.pkts.buffer.CompositeBufferTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 57, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --------------------------< io.pkts:pkts-sdp >--------------------------
+[INFO] Building Session Description Protocol Lib 3.0.8-SNAPSHOT           [3/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ pkts-sdp ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ pkts-sdp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/pkts/pkts-sdp/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ pkts-sdp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pkts-sdp ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/pkts/pkts-sdp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ pkts-sdp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ pkts-sdp ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------------< io.pkts:pkts-sip >--------------------------
+[INFO] Building SIP Framer and Parser Library 3.0.8-SNAPSHOT              [4/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ pkts-sip ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ pkts-sip ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/pkts/pkts-sip/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ pkts-sip ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pkts-sip ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 17 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ pkts-sip ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ pkts-sip ---
+[INFO] Surefire report directory: /workdir/pkts/pkts-sip/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running io.pkts.packet.sip.TransportTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+Running io.pkts.packet.sip.SipRequestTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.07 sec
+Running io.pkts.packet.sip.SipMessageImplTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running io.pkts.packet.sip.header.SipHeaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running io.pkts.packet.sip.header.impl.AddressParametersHeaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running io.pkts.packet.sip.header.impl.ToHeaderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running io.pkts.packet.sip.header.impl.ParametersSupportTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running io.pkts.packet.sip.header.impl.MaxForwardsHeaderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running io.pkts.packet.sip.header.impl.ContactHeaderTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running io.pkts.packet.sip.header.impl.ViaHeaderImplTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running io.pkts.packet.sip.header.impl.CSeqHeaderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running io.pkts.packet.sip.header.impl.RouteHeaderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running io.pkts.packet.sip.header.impl.ParametersTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running io.pkts.packet.sip.header.impl.ContentTypeHeaderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running io.pkts.packet.sip.header.impl.ExpiresHeaderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running io.pkts.packet.sip.header.impl.FromHeaderTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running io.pkts.packet.sip.header.impl.RecordRouteHeaderTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running io.pkts.packet.sip.address.impl.SipUriImplTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running io.pkts.packet.sip.address.impl.AddressImplTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+Running io.pkts.packet.sip.address.impl.TelURIImplTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running io.pkts.packet.sip.impl.SipInitialLineTest
+io.pkts.packet.sip.SipParseException: Expected '2' got '51'
+	at io.pkts.packet.sip.impl.SipParser.expect(SipParser.java:1793)
+	at io.pkts.packet.sip.impl.SipParser.expectSIP2_0(SipParser.java:272)
+	at io.pkts.packet.sip.impl.SipInitialLine.parse(SipInitialLine.java:101)
+	at io.pkts.packet.sip.impl.SipInitialLineTest.testBadInitialLineWrongSipVersion(SipInitialLineTest.java:248)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.097 sec
+Running io.pkts.packet.sip.impl.RecordRouteAndRouteSipMessageTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running io.pkts.packet.sip.impl.SipMessageStreamBuilderTest
+This we will receive over the wire ---->
+INVITE sip:service@127.0.0.1:5060 SIP/2.0
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-10091-1-0;rport
+Via: SIP/2.0/WSS 12.13.14.15:443;branch=kjsa0-23-asdf-Aeas-D;rport=443;received=10.11.12.13
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=10091SIPpTag001
+To: sut <sip:service@127.0.0.1:5060>
+Via: SIP/2.0/TLS 192.168.0.100:5061;branch=123-123-123-123
+Call-ID: 1-10091@127.0.1.1
+CSeq: 1 INVITE
+Contact: sip:sipp@127.0.1.1:5061
+Max-Forwards: 70
+Via: SIP/2.0/UDP hello.com;branch=asdf-asdf-123-123-abc;received=68.67.66.65
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.1.1
+s=-
+c=IN IP4 127.0.1.1
+t=0 0
+m=audio 6001 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+<----
+This we will receive over the wire ---->
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 127.0.1.1:5061;branch=z9hG4bK-10091-1-0;rport, SIP/2.0/WSS 12.13.14.15:443;branch=kjsa0-23-asdf-Aeas-D;rport=443;received=10.11.12.13, SIP/2.0/TLS 192.168.0.100:5061;branch=123-123-123-123, SIP/2.0/UDP hello.com;branch=asdf-asdf-123-123-abc;received=68.67.66.65
+From: sipp <sip:sipp@127.0.1.1:5061>;tag=10091SIPpTag001
+To: sut <sip:service@127.0.0.1:5060>;tag=9982SIPpTag011
+Call-ID: 1-10091@127.0.1.1
+CSeq: 1 INVITE
+Contact: <sip:127.0.1.1:5060;transport=UDP>
+Content-Type: application/sdp
+Content-Length:   129
+
+v=0
+o=user1 53655765 2353687637 IN IP4 127.0.1.1
+s=-
+c=IN IP4 127.0.1.1
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+<----
+This we will receive over the wire ---->
+INVITE sip:service@8.8.8.8:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.8.110:5060;branch=z9hG4bK-17354-1-0
+From: sipp <sip:sipp@192.168.8.110:5060>;tag=17354SIPpTag001
+To: sut <sip:service@8.8.8.8:5060>
+Call-ID: 1-17354@192.168.8.110
+Route: <sip:one@aboutsip.com;transport=udp>
+CSeq: 1 INVITE
+Contact: sip:sipp@192.168.8.110:5060
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   137
+
+v=0
+o=user1 53655765 2353687637 IN IP4 192.168.8.110
+s=-
+c=IN IP4 192.168.8.110
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+<----
+This we will receive over the wire ---->
+ 		  INVITE sip:service@8.8.8.8:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.8.110:5060;branch=z9hG4bK-17354-1-0
+From: sipp <sip:sipp@192.168.8.110:5060>;tag=17354SIPpTag001
+To: sut <sip:service@8.8.8.8:5060>
+Call-ID: 1-17354@192.168.8.110
+Route: <sip:one@aboutsip.com;transport=udp>
+CSeq: 1 INVITE
+Contact: sip:sipp@192.168.8.110:5060
+Max-Forwards: 70
+Subject: Performance Test
+Content-Type: application/sdp
+Content-Length:   137
+
+v=0
+o=user1 53655765 2353687637 IN IP4 192.168.8.110
+s=-
+c=IN IP4 192.168.8.110
+t=0 0
+m=audio 6000 RTP/AVP 0
+a=rtpmap:0 PCMU/8000
+<----
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.207 sec
+Running io.pkts.packet.sip.impl.SipMessageImplTest
+REGISTER sip:127.0.0.1 SIP/2.0
+Via: SIP/2.0/UDP 10.0.1.14:5069;rport;branch=z9hG4bK662351435
+From: <sip:jonas@127.0.0.1>;tag=1923738050
+To: <sip:jonas@127.0.0.1>
+Hello: 
+Call-ID: 123641868
+CSeq: 1 REGISTER
+Contact: <sip:jonas@10.0.1.14:5069;line=6227298e2959de7>
+Max-Forwards: 70
+Expires: 3600
+Content-Length: 0
+
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running io.pkts.packet.sip.impl.SipParserTest
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running io.pkts.packet.sip.SipURIBuilderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running io.pkts.packet.sip.SipResponseTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+
+Results :
+
+Tests run: 194, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -------------------------< io.pkts:pkts-core >--------------------------
+[INFO] Building Core Pkts 3.0.8-SNAPSHOT                                  [5/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ pkts-core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ pkts-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/pkts/pkts-core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ pkts-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pkts-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ pkts-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ pkts-core ---
+[INFO] Surefire report directory: /workdir/pkts/pkts-core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running io.pkts.filters.FilterFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+Running io.pkts.PcapTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+Running io.pkts.frame.CommonFrameTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec
+Running io.pkts.frame.IPv4FrameTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running io.pkts.frame.UDPFrameTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running io.pkts.frame.PcapFrameTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running io.pkts.frame.PcapGlobalHeaderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running io.pkts.frame.RTPFrameTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running io.pkts.frame.EthernetFrameTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running io.pkts.frame.PcapRecordHeaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running io.pkts.frame.SipFrameTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running io.pkts.packet.impl.IPv6PacketImplTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running io.pkts.packet.impl.TransportPacketFactoryImplTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running io.pkts.packet.impl.IPv4PacketImplTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running io.pkts.framer.EthernetFramerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running io.pkts.framer.PcapFramerTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running io.pkts.framer.SllFramerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running io.pkts.framer.io.pkts.framer.IPv6FramerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running io.pkts.framer.TCPFramerTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running io.pkts.framer.IPv4FramerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running io.pkts.framer.UDPFramerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running io.pkts.PcapOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+
+Results :
+
+Tests run: 53, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------------------< io.pkts:pkts-streams >------------------------
+[INFO] Building Pkts Streams 3.0.8-SNAPSHOT                               [6/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ pkts-streams ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ pkts-streams ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/pkts/pkts-streams/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ pkts-streams ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pkts-streams ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ pkts-streams ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ pkts-streams ---
+[INFO] Surefire report directory: /workdir/pkts/pkts-streams/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running io.pkts.streams.SipStreamTest
+1
+2
+3
+6
+7
+8
+9
+10
+11
+8
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running io.pkts.streams.impl.SimpleCallStateMachineTest
+0 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] START -> RINGING Event: SIP/2.0 180 Ringing
+1 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+1 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+2 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+2 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+4 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] START -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+4 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+4 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+4 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] START -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+4 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+4 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] START -> COMPLETED Event: SIP/2.0 200 OK
+9 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+10 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] INITIAL -> TRYING Event: SIP/2.0 100 Trying
+10 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] TRYING -> RINGING Event: SIP/2.0 180 Ringing
+10 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+10 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+10 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+10 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+13 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+13 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+13 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+14 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+14 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+14 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+14 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+14 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] INITIAL -> IN_CALL Event: SIP/2.0 200 OK
+14 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+14 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+14 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+38 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6261@127.0.1.1] START -> INITIAL Event: INVITE sip:receiver@127.0.0.1:5090 SIP/2.0
+38 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6261@127.0.1.1] INITIAL -> TRYING Event: SIP/2.0 100 Trying
+38 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6261@127.0.1.1] TRYING -> RINGING Event: SIP/2.0 180 Ringing
+39 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6261@127.0.1.1] RINGING -> CANCELLING Event: CANCEL sip:service@127.0.0.1:5090 SIP/2.0
+39 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6261@127.0.1.1] CANCELLING -> CANCELLING Event: SIP/2.0 200 OK
+39 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6261@127.0.1.1] CANCELLING -> CANCELLED Event: SIP/2.0 487 Request Terminated
+39 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6261@127.0.1.1] CANCELLED -> CANCELLED Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+44 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] START -> TRYING Event: SIP/2.0 100 Trying
+47 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] TRYING -> RINGING Event: SIP/2.0 180 Ringing
+48 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+48 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+48 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+48 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+48 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - Out-of-sequence event detected. Redriving all traffic.
+48 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+48 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] INITIAL -> TRYING Event: SIP/2.0 100 Trying
+48 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] TRYING -> RINGING Event: SIP/2.0 180 Ringing
+48 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+49 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+49 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+49 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-6847@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.122 sec
+Running io.pkts.streams.impl.DefaultStreamHandlerTest
+Start Stream: io.pkts.streams.impl.LongStreamId@febd635f
+96 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+96 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+97 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+97 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+97 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+97 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+98 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+98 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+98 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+98 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+99 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+99 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+99 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+99 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+100 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+100 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+100 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+100 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+101 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+101 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-16732@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+102 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+102 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+102 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+102 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+102 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+102 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+103 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+103 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+103 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+103 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+104 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+104 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [2-16732@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+105 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+105 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+105 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+105 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+105 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+105 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+106 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+106 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+106 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+106 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+107 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+107 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [3-16732@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+107 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+107 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+108 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+108 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5090 SIP/2.0
+108 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+108 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [4-16732@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+109 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+109 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+109 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+109 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+110 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+110 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5090 SIP/2.0
+110 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+110 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5090 SIP/2.0
+110 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+110 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [5-16732@127.0.1.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+112 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5060 SIP/2.0
+112 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] START -> INITIAL Event: INVITE sip:service@127.0.0.1:5060 SIP/2.0
+112 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+112 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] INITIAL -> RINGING Event: SIP/2.0 180 Ringing
+113 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+113 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] RINGING -> IN_CALL Event: SIP/2.0 200 OK
+113 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5060 SIP/2.0
+113 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] IN_CALL -> IN_CALL Event: ACK sip:service@127.0.0.1:5060 SIP/2.0
+115 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5060 SIP/2.0
+115 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] IN_CALL -> COMPLETED Event: BYE sip:service@127.0.0.1:5060 SIP/2.0
+116 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+116 [main] INFO io.pkts.streams.impl.SimpleCallStateMachine  - [1-7879@127.0.0.1] COMPLETED -> COMPLETED Event: SIP/2.0 200 OK
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+
+Results :
+
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -----------------------< io.pkts:pkts-examples >------------------------
+[INFO] Building Pkts Examples 3.0.8-SNAPSHOT                              [7/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ pkts-examples ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ pkts-examples ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ pkts-examples ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pkts-examples ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/pkts/pkts-examples/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ pkts-examples ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ pkts-examples ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------------------< io.pkts:pkts-tools >-------------------------
+[INFO] Building Pkts Tools 3.0.8-SNAPSHOT                                 [8/8]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ pkts-tools ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ pkts-tools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/pkts/pkts-tools/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ pkts-tools ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ pkts-tools ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/pkts/pkts-tools/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ pkts-tools ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ pkts-tools ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Pkts IO 3.0.8-SNAPSHOT:
+[INFO] 
+[INFO] Pkts IO ............................................ SUCCESS [  0.258 s]
+[INFO] Pkts Buffer Lib .................................... SUCCESS [  0.736 s]
+[INFO] Session Description Protocol Lib ................... SUCCESS [  0.017 s]
+[INFO] SIP Framer and Parser Library ...................... SUCCESS [  0.808 s]
+[INFO] Core Pkts .......................................... SUCCESS [  0.545 s]
+[INFO] Pkts Streams ....................................... SUCCESS [  0.458 s]
+[INFO] Pkts Examples ...................................... SUCCESS [  0.013 s]
+[INFO] Pkts Tools ......................................... SUCCESS [  0.013 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.959 s
+[INFO] Finished at: 2021-02-14T18:08:47Z
+[INFO] ------------------------------------------------------------------------

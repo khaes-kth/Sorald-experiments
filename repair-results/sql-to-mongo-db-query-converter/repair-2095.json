@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 383,
             "endColumn": 118,
@@ -14,10 +13,11 @@
             "filePath": "src/main/java/com/github/vincentrussell/query/mongodb/sql/converter/Main.java",
             "violationSpecifier": "2095:src/main/java/com/github/vincentrussell/query/mongodb/sql/converter/Main.java:383:38:383:118"
         }],
+        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 6312,
-    "repairTimeMs": 302,
-    "startTimeMs": 1612815021047,
+    "totalTimeMs": 6551,
+    "repairTimeMs": 240,
+    "startTimeMs": 1613367254171,
     "crashes": [],
-    "endTimeMs": 1612815027359,
-    "parseTimeMs": 2120
+    "endTimeMs": 1613367260722,
+    "parseTimeMs": 2027
 }

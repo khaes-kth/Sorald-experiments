@@ -1,0 +1,285 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.github.lianjiatech:retrofit-spring-boot-starter:jar:2.2.1
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 155, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] --------< com.github.lianjiatech:retrofit-spring-boot-starter >---------
+[INFO] Building retrofit-spring-boot-starter 2.2.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ retrofit-spring-boot-starter ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ retrofit-spring-boot-starter ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 54 source files to /workdir/retrofit-spring-boot-starter/target/classes
+[WARNING] /workdir/retrofit-spring-boot-starter/src/main/java/com/github/lianjiatech/retrofit/spring/boot/config/RetrofitAutoConfiguration.java: Some input files use or override a deprecated API.
+[WARNING] /workdir/retrofit-spring-boot-starter/src/main/java/com/github/lianjiatech/retrofit/spring/boot/config/RetrofitAutoConfiguration.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-source-plugin:3.0.1:jar-no-fork (default) @ retrofit-spring-boot-starter ---
+[INFO] Building jar: /workdir/retrofit-spring-boot-starter/target/retrofit-spring-boot-starter-2.2.1-sources.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ retrofit-spring-boot-starter ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ retrofit-spring-boot-starter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ retrofit-spring-boot-starter ---
+[INFO] Surefire report directory: /workdir/retrofit-spring-boot-starter/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest
+10:21:59.091 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.096 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:21:59.101 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:21:59.113 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+10:21:59.121 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest], using SpringBootContextLoader
+10:21:59.123 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]: class path resource [com/github/lianjiatech/retrofit/spring/boot/test/ErrorDecoderTest-context.xml] does not exist
+10:21:59.123 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]: class path resource [com/github/lianjiatech/retrofit/spring/boot/test/ErrorDecoderTestContext.groovy] does not exist
+10:21:59.123 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:21:59.145 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.219 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]: using defaults.
+10:21:59.219 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+10:21:59.224 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+10:21:59.226 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+10:21:59.226 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+10:21:59.227 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4149c063, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@9cb8225, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@76b07f29, org.springframework.test.context.support.DirtiesContextTestExecutionListener@38af9828, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@376a0d86, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@62656be4, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@17d919b6, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@53f3bdbd, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@34129c78]
+10:21:59.228 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.228 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.230 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.230 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.231 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.231 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.231 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.232 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.235 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2f666ebb testClass = ErrorDecoderTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@19976a65 testClass = ErrorDecoderTest, locations = '{}', classes = '{class com.github.lianjiatech.retrofit.spring.boot.test.RetrofitTestApplication, class com.github.lianjiatech.retrofit.spring.boot.test.RetrofitTestApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@609db43b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@c03cf28, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@306cf3ea, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@61386958], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+10:21:59.236 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.236 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest]
+10:21:59.336 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@2f666ebb testClass = ErrorDecoderTest, testInstance = com.github.lianjiatech.retrofit.spring.boot.test.ErrorDecoderTest@6138e79a, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@19976a65 testClass = ErrorDecoderTest, locations = '{}', classes = '{class com.github.lianjiatech.retrofit.spring.boot.test.RetrofitTestApplication, class com.github.lianjiatech.retrofit.spring.boot.test.RetrofitTestApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@609db43b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@c03cf28, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@306cf3ea, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@61386958], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]]].
+10:21:59.359 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2021-02-15 10:21:59.603  INFO 6399 --- [           main] c.g.l.r.s.boot.test.ErrorDecoderTest     : Starting ErrorDecoderTest on 605b8309f1f8 with PID 6399 (started by maven in /workdir/retrofit-spring-boot-starter)
+2021-02-15 10:21:59.604  INFO 6399 --- [           main] c.g.l.r.s.boot.test.ErrorDecoderTest     : No active profile set, falling back to default profiles: default
+2021-02-15 10:22:00.300  INFO 6399 --- [           main] c.g.l.r.s.boot.test.ErrorDecoderTest     : Started ErrorDecoderTest in 0.938 seconds (JVM running for 1.655)
+INFO: log base dir is: /home/maven/logs/csp/
+INFO: log name use pid is: false
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by retrofit2.Platform (file:/home/maven/.m2/repository/com/squareup/retrofit2/retrofit/2.9.0/retrofit-2.9.0.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+WARNING: Please consider reporting this to the maintainers of retrofit2.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+=========开启MockWebServer===========
+2021-02-15 10:22:00.661  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:00.766  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> POST http://localhost:8080/api/test/error http/1.1
+2021-02-15 10:22:00.766  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Content-Type: application/json; charset=UTF-8
+2021-02-15 10:22:00.766  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Content-Length: 31
+2021-02-15 10:22:00.766  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : source: test
+2021-02-15 10:22:00.766  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Host: localhost:8080
+2021-02-15 10:22:00.766  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Connection: Keep-Alive
+2021-02-15 10:22:00.767  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Accept-Encoding: gzip
+2021-02-15 10:22:00.767  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : User-Agent: okhttp/3.14.9
+2021-02-15 10:22:00.767  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : 
+2021-02-15 10:22:00.767  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : {"id":1,"name":"test","age":10}
+2021-02-15 10:22:00.767  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> END POST (31-byte body)
+2021-02-15 10:22:00.769  INFO 6399 --- [127.0.0.1:58090] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: POST /api/test/error HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+2021-02-15 10:22:00.771  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- 500 Server Error http://localhost:8080/api/test/error (4ms)
+2021-02-15 10:22:00.772  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Content-Type: application/json; charset=utf-8
+2021-02-15 10:22:00.772  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Cache-Control: no-cache
+2021-02-15 10:22:00.772  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Content-Length: 70
+2021-02-15 10:22:00.772  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : 
+2021-02-15 10:22:00.772  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : {"code":0,"msg":"ok","data":"{\"id\":1,\"name\":\"test\",\"age\":10}"}
+2021-02-15 10:22:00.772  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- END HTTP (70-byte body)
+Person{id=null, name='null', age=null}
+=========关闭MockWebServer===========
+2021-02-15 10:22:00.777  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.915 sec
+Running com.github.lianjiatech.retrofit.spring.boot.test.RetrofitConvertFactoriesTest
+2021-02-15 10:22:00.780  INFO 6399 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.github.lianjiatech.retrofit.spring.boot.test.RetrofitConvertFactoriesTest], using SpringBootContextLoader
+2021-02-15 10:22:00.781  INFO 6399 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.github.lianjiatech.retrofit.spring.boot.test.RetrofitConvertFactoriesTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:22:00.782  INFO 6399 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:22:00.783  INFO 6399 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4877919f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@47a7c93e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6f9ab79d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@64ae105d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@10a18e3e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@69364b2d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@53aa2fc9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4792f119, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5bde57ab]
+=========开启MockWebServer===========
+2021-02-15 10:22:00.801  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:00.810  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> GET http://localhost:8080/api/test/person?id=1 http/1.1
+2021-02-15 10:22:00.810  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : source: test
+2021-02-15 10:22:00.810  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Host: localhost:8080
+2021-02-15 10:22:00.810  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Connection: Keep-Alive
+2021-02-15 10:22:00.811  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Accept-Encoding: gzip
+2021-02-15 10:22:00.811  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : User-Agent: okhttp/3.14.9
+2021-02-15 10:22:00.811  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> END GET
+2021-02-15 10:22:00.812  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- HTTP FAILED: java.io.IOException: unexpected end of stream on http://localhost:8080/...
+2021-02-15 10:22:00.813  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> GET http://localhost:8080/api/test/person?id=1 http/1.1
+2021-02-15 10:22:00.813  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : source: test
+2021-02-15 10:22:00.813  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Host: localhost:8080
+2021-02-15 10:22:00.813  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Connection: Keep-Alive
+2021-02-15 10:22:00.813  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Accept-Encoding: gzip
+2021-02-15 10:22:00.813  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : User-Agent: okhttp/3.14.9
+2021-02-15 10:22:00.813  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> END GET
+2021-02-15 10:22:00.820  INFO 6399 --- [127.0.0.1:58092] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: GET /api/test/person?id=1 HTTP/1.1 and responded: HTTP/1.1 200 OK
+2021-02-15 10:22:00.820  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- 200 OK http://localhost:8080/api/test/person?id=1 (6ms)
+2021-02-15 10:22:00.820  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Content-Type: application/json; charset=utf-8
+2021-02-15 10:22:00.820  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Cache-Control: no-cache
+2021-02-15 10:22:00.820  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : Content-Length: 60
+2021-02-15 10:22:00.820  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : 
+2021-02-15 10:22:00.821  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : {"code":0,"msg":"ok","data":{"id":1,"name":"test","age":10}}
+2021-02-15 10:22:00.821  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- END HTTP (60-byte body)
+=========关闭MockWebServer===========
+2021-02-15 10:22:00.824  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running com.github.lianjiatech.retrofit.spring.boot.test.RetrofitExceptionTest
+2021-02-15 10:22:00.826  INFO 6399 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.github.lianjiatech.retrofit.spring.boot.test.RetrofitExceptionTest], using SpringBootContextLoader
+2021-02-15 10:22:00.827  INFO 6399 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.github.lianjiatech.retrofit.spring.boot.test.RetrofitExceptionTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:22:00.829  INFO 6399 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:22:00.830  INFO 6399 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4e140497, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@481b2f10, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2b6c7012, org.springframework.test.context.support.DirtiesContextTestExecutionListener@31acfd4e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5f726750, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4e80a001, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@624b523, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@50b46e24, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1c30cb85]
+=========开启MockWebServer===========
+2021-02-15 10:22:00.840  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:00.847  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> POST http://localhost:8080/api/test/error?timestamp=1613384520843 http/1.1 (31-byte body)
+2021-02-15 10:22:10.850  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- HTTP FAILED: java.net.SocketTimeoutException: timeout
+=========关闭MockWebServer===========
+2021-02-15 10:22:10.855  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+2021-02-15 10:22:10.856  INFO 6399 --- [127.0.0.1:58094] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] connection from /127.0.0.1 failed: java.net.SocketException: Socket closed
+=========开启MockWebServer===========
+2021-02-15 10:22:10.872  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:10.884  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> POST http://localhost:8080/api/test/error?timestamp=1613384530883 http/1.1 (31-byte body)
+2021-02-15 10:22:10.888  INFO 6399 --- [127.0.0.1:58096] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: POST /api/test/error?timestamp=1613384530883 HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+2021-02-15 10:22:10.888  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- 500 Server Error http://localhost:8080/api/test/error?timestamp=1613384530883 (4ms, 99-byte body)
+=========关闭MockWebServer===========
+2021-02-15 10:22:10.897  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.072 sec
+Running com.github.lianjiatech.retrofit.spring.boot.test.RetrofitStarterTest
+2021-02-15 10:22:10.900  INFO 6399 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.github.lianjiatech.retrofit.spring.boot.test.RetrofitStarterTest], using SpringBootContextLoader
+2021-02-15 10:22:10.901  INFO 6399 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.github.lianjiatech.retrofit.spring.boot.test.RetrofitStarterTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:22:10.903  INFO 6399 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:22:10.904  INFO 6399 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@db99785, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@70716259, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7a083b96, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6da4feeb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2c604965, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@57f8951a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6c17c0f8, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@260e3837, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@88b76f2]
+=========开启MockWebServer===========
+2021-02-15 10:22:10.910  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:10.914  INFO 6399 --- [127.0.0.1:58098] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: GET /api/test/person?id=1 HTTP/1.1 and responded: HTTP/1.1 200 OK
+=========关闭MockWebServer===========
+2021-02-15 10:22:10.916  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+=========开启MockWebServer===========
+2021-02-15 10:22:10.920  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:10.922  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> POST http://localhost:8080/api/test/savePerson?timestamp=1613384530921 http/1.1 (31-byte body)
+2021-02-15 10:22:10.922  INFO 6399 --- [127.0.0.1:58100] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: POST /api/test/savePerson?timestamp=1613384530921 HTTP/1.1 and responded: HTTP/1.1 200 OK
+2021-02-15 10:22:10.922  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- 200 OK http://localhost:8080/api/test/savePerson?timestamp=1613384530921 (0ms, 21-byte body)
+=========关闭MockWebServer===========
+2021-02-15 10:22:10.923  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+=========开启MockWebServer===========
+2021-02-15 10:22:10.926  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> GET http://localhost:8080/api/test/person?id=1&timestamp=1613384530926 http/1.1
+2021-02-15 10:22:10.926  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- HTTP FAILED: java.io.IOException: unexpected end of stream on http://localhost:8080/...
+2021-02-15 10:22:10.927  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> GET http://localhost:8080/api/test/person?id=1&timestamp=1613384530926 http/1.1
+2021-02-15 10:22:10.932  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:10.933  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- 200 OK http://localhost:8080/api/test/person?id=1&timestamp=1613384530926 (6ms, 60-byte body)
+2021-02-15 10:22:10.933  INFO 6399 --- [127.0.0.1:58102] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: GET /api/test/person?id=1&timestamp=1613384530926 HTTP/1.1 and responded: HTTP/1.1 200 OK
+=========关闭MockWebServer===========
+2021-02-15 10:22:10.935  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+=========开启MockWebServer===========
+2021-02-15 10:22:10.937  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:10.940  INFO 6399 --- [alhost:8080/...] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> GET http://localhost:8080/api/test/person?id=2&timestamp=1613384530939 http/1.1
+2021-02-15 10:22:10.940  INFO 6399 --- [alhost:8080/...] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- HTTP FAILED: java.io.IOException: unexpected end of stream on http://localhost:8080/...
+2021-02-15 10:22:10.940  INFO 6399 --- [alhost:8080/...] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> GET http://localhost:8080/api/test/person?id=2&timestamp=1613384530939 http/1.1
+2021-02-15 10:22:10.941  INFO 6399 --- [127.0.0.1:58104] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: GET /api/test/person?id=2&timestamp=1613384530939 HTTP/1.1 and responded: HTTP/1.1 500 Server Error
+2021-02-15 10:22:10.941  INFO 6399 --- [alhost:8080/...] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- 500 Server Error http://localhost:8080/api/test/person?id=2&timestamp=1613384530939 (0ms, 60-byte body)
+2021-02-15 10:22:10.944 ERROR 6399 --- [alhost:8080/...] c.g.l.r.s.boot.test.RetrofitStarterTest  : 请求执行失败! request = Request{method=GET, url=http://localhost:8080/api/test/person?id=2, tags={class retrofit2.Invocation=com.github.lianjiatech.retrofit.spring.boot.test.http.HttpApi.getPersonCall() [2]}}
+
+java.io.IOException: canceled due to com.github.lianjiatech.retrofit.spring.boot.test.ex.AppException: 非法响应，request=Request{method=GET, url=http://localhost:8080/api/test/person?id=2, tags={class retrofit2.Invocation=com.github.lianjiatech.retrofit.spring.boot.test.http.HttpApi.getPersonCall() [2]}}  response=Response{protocol=http/1.1, code=500, message=Server Error, url=http://localhost:8080/api/test/person?id=2&timestamp=1613384530939}body={"code":0,"msg":"ok","data":{"id":2,"name":"test","age":10}}
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:185) ~[okhttp-3.14.9.jar:na]
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32) ~[okhttp-3.14.9.jar:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+	Suppressed: com.github.lianjiatech.retrofit.spring.boot.test.ex.AppException: 非法响应，request=Request{method=GET, url=http://localhost:8080/api/test/person?id=2, tags={class retrofit2.Invocation=com.github.lianjiatech.retrofit.spring.boot.test.http.HttpApi.getPersonCall() [2]}}  response=Response{protocol=http/1.1, code=500, message=Server Error, url=http://localhost:8080/api/test/person?id=2&timestamp=1613384530939}body={"code":0,"msg":"ok","data":{"id":2,"name":"test","age":10}}
+		at com.github.lianjiatech.retrofit.spring.boot.test.ex.TestErrorDecoder.invalidRespDecode(TestErrorDecoder.java:28) ~[test-classes/:na]
+		at com.github.lianjiatech.retrofit.spring.boot.interceptor.ErrorDecoderInterceptor.intercept(ErrorDecoderInterceptor.java:35) ~[classes/:na]
+		at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:na]
+		at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:na]
+		at com.github.lianjiatech.retrofit.spring.boot.degrade.SentinelDegradeInterceptor.degradeIntercept(SentinelDegradeInterceptor.java:28) ~[classes/:na]
+		at com.github.lianjiatech.retrofit.spring.boot.degrade.BaseDegradeInterceptor.intercept(BaseDegradeInterceptor.java:36) ~[classes/:na]
+		at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[okhttp-3.14.9.jar:na]
+		at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[okhttp-3.14.9.jar:na]
+		at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[okhttp-3.14.9.jar:na]
+		at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172) ~[okhttp-3.14.9.jar:na]
+		... 4 common frames omitted
+
+=========关闭MockWebServer===========
+2021-02-15 10:22:10.948  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+Exception in thread "OkHttp Dispatcher" com.github.lianjiatech.retrofit.spring.boot.test.ex.AppException: 非法响应，request=Request{method=GET, url=http://localhost:8080/api/test/person?id=2, tags={class retrofit2.Invocation=com.github.lianjiatech.retrofit.spring.boot.test.http.HttpApi.getPersonCall() [2]}}  response=Response{protocol=http/1.1, code=500, message=Server Error, url=http://localhost:8080/api/test/person?id=2&timestamp=1613384530939}body={"code":0,"msg":"ok","data":{"id":2,"name":"test","age":10}}
+	at com.github.lianjiatech.retrofit.spring.boot.test.ex.TestErrorDecoder.invalidRespDecode(TestErrorDecoder.java:28)
+	at com.github.lianjiatech.retrofit.spring.boot.interceptor.ErrorDecoderInterceptor.intercept(ErrorDecoderInterceptor.java:35)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at com.github.lianjiatech.retrofit.spring.boot.degrade.SentinelDegradeInterceptor.degradeIntercept(SentinelDegradeInterceptor.java:28)
+	at com.github.lianjiatech.retrofit.spring.boot.degrade.BaseDegradeInterceptor.intercept(BaseDegradeInterceptor.java:36)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229)
+	at okhttp3.RealCall$AsyncCall.execute(RealCall.java:172)
+	at okhttp3.internal.NamedRunnable.run(NamedRunnable.java:32)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+=========开启MockWebServer===========
+2021-02-15 10:22:10.950  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:10.951  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> GET http://localhost:8080/api/test/person?id=1&timestamp=1613384530950 http/1.1
+2021-02-15 10:22:10.951  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- HTTP FAILED: java.io.IOException: unexpected end of stream on http://localhost:8080/...
+2021-02-15 10:22:10.951  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> GET http://localhost:8080/api/test/person?id=1&timestamp=1613384530950 http/1.1
+2021-02-15 10:22:10.952  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- 200 OK http://localhost:8080/api/test/person?id=1&timestamp=1613384530950 (0ms, 60-byte body)
+2021-02-15 10:22:10.954  INFO 6399 --- [127.0.0.1:58106] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: GET /api/test/person?id=1&timestamp=1613384530950 HTTP/1.1 and responded: HTTP/1.1 200 OK
+2021-02-15 10:22:10.957  INFO 6399 --- [127.0.0.1:58108] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: GET /api/test/person?id=1 HTTP/1.1 and responded: HTTP/1.1 200 OK
+=========关闭MockWebServer===========
+2021-02-15 10:22:10.957  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+=========开启MockWebServer===========
+2021-02-15 10:22:10.960  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:10.962  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> GET http://localhost:8080/api/test/person?id=1 http/1.1
+2021-02-15 10:22:10.962  INFO 6399 --- [127.0.0.1:58110] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: GET /api/test/person?id=1 HTTP/1.1 and responded: HTTP/1.1 200 OK
+2021-02-15 10:22:10.963  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- 200 OK http://localhost:8080/api/test/person?id=1 (0ms, 60-byte body)
+=========关闭MockWebServer===========
+2021-02-15 10:22:10.963  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+=========开启MockWebServer===========
+2021-02-15 10:22:10.965  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:10.968  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> POST http://localhost:8080/api/test/savePerson?timestamp=1613384530968 http/1.1 (31-byte body)
+2021-02-15 10:22:10.969  INFO 6399 --- [127.0.0.1:58112] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: POST /api/test/savePerson?timestamp=1613384530968 HTTP/1.1 and responded: HTTP/1.1 200 OK
+2021-02-15 10:22:10.969  INFO 6399 --- [           main] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- 200 OK http://localhost:8080/api/test/savePerson?timestamp=1613384530968 (0ms, 21-byte body)
+=========关闭MockWebServer===========
+2021-02-15 10:22:10.970  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+=========开启MockWebServer===========
+2021-02-15 10:22:10.978  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] starting to accept connections
+2021-02-15 10:22:10.982  INFO 6399 --- [alhost:8080/...] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> GET http://localhost:8080/api/test/person?id=1&timestamp=1613384530981 http/1.1
+2021-02-15 10:22:10.982  INFO 6399 --- [alhost:8080/...] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- HTTP FAILED: java.io.IOException: unexpected end of stream on http://localhost:8080/...
+2021-02-15 10:22:10.983  INFO 6399 --- [alhost:8080/...] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : --> GET http://localhost:8080/api/test/person?id=1&timestamp=1613384530981 http/1.1
+2021-02-15 10:22:10.983  INFO 6399 --- [127.0.0.1:58114] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] received request: GET /api/test/person?id=1&timestamp=1613384530981 HTTP/1.1 and responded: HTTP/1.1 200 OK
+2021-02-15 10:22:10.983  INFO 6399 --- [alhost:8080/...] c.g.l.r.s.b.i.DefaultLoggingInterceptor  : <-- 200 OK http://localhost:8080/api/test/person?id=1&timestamp=1613384530981 (0ms, 60-byte body)
+=========关闭MockWebServer===========
+2021-02-15 10:22:10.984  INFO 6399 --- [kWebServer 8080] okhttp3.mockwebserver.MockWebServer      : MockWebServer[8080] done accepting connections: Socket closed
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec
+
+Results :
+
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.770 s
+[INFO] Finished at: 2021-02-15T10:22:11Z
+[INFO] ------------------------------------------------------------------------

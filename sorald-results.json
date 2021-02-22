@@ -1,14 +1,15 @@
 {
-  "totalDetectedViolationsBefore": 1652,
-  "totalDetectedViolationsAfter": 396,
-  "totalPerformedRepairs": 1326,
-  "totalRepairedViolations": 1256,
+  "totalDetectedViolationsBefore": 1526,
+  "totalDetectedViolationsAfter": 373,
+  "totalPerformedRepairs": 1222,
+  "totalRepairedViolations": 1153,
   "totalCrashes": 0,
-  "totalErrors": 37,
-  "totalMvnSuccess": 0,
-  "totalMvnFail": 0,
-  "totalTime": 11806804,
-  "reposWithoutErrors": 9,
+  "totalErrors": 0,
+  "totalMvnSuccess": 1598,
+  "totalMvnFail": 12,
+  "totalTime": 11604079,
+  "reposWithoutErrors": 0,
+  "medianTime": 48448.0,
   "ruleStats": {
     "1217": {
       "detectedViolationsBeforeRepair": 1,
@@ -16,20 +17,17 @@
       "detectedViolationsAfterRepair": 0,
       "performedRepairsCnt": 1,
       "crashedCnt": 0,
-      "errorCnt": 3,
-      "mvnFail": 0,
-      "mvnSuccess": 0,
-      "totalTime": 1063587,
+      "errorCnt": 0,
+      "mvnFail": 1,
+      "mvnSuccess": 160,
+      "totalTime": 1048548,
+      "medianTime": 4530.0,
       "ruleName": "1217",
       "resultsWithDetectedViolations": [
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/miso-lims/repair-1217.json"
       ],
       "resultsWithCrashes": [],
-      "analysesWithErrors": [
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Java-OCA-OCPP/sorald_repair-1217.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/sorald_repair-1217.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/sorald_repair-1217.err"
-      ]
+      "analysesWithErrors": []
     },
     "2116": {
       "detectedViolationsBeforeRepair": 1,
@@ -37,20 +35,17 @@
       "detectedViolationsAfterRepair": 0,
       "performedRepairsCnt": 1,
       "crashedCnt": 0,
-      "errorCnt": 3,
-      "mvnFail": 0,
-      "mvnSuccess": 0,
-      "totalTime": 1065786,
+      "errorCnt": 0,
+      "mvnFail": 2,
+      "mvnSuccess": 159,
+      "totalTime": 1047515,
+      "medianTime": 4543.0,
       "ruleName": "2116",
       "resultsWithDetectedViolations": [
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/JWT4B/repair-2116.json"
       ],
       "resultsWithCrashes": [],
-      "analysesWithErrors": [
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Java-OCA-OCPP/sorald_repair-2116.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/sorald_repair-2116.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/sorald_repair-2116.err"
-      ]
+      "analysesWithErrors": []
     },
     "2225": {
       "detectedViolationsBeforeRepair": 3,
@@ -58,10 +53,11 @@
       "detectedViolationsAfterRepair": 0,
       "performedRepairsCnt": 3,
       "crashedCnt": 0,
-      "errorCnt": 3,
-      "mvnFail": 0,
-      "mvnSuccess": 0,
-      "totalTime": 1063358,
+      "errorCnt": 0,
+      "mvnFail": 2,
+      "mvnSuccess": 159,
+      "totalTime": 1042525,
+      "medianTime": 4517.0,
       "ruleName": "2225",
       "resultsWithDetectedViolations": [
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/jolokia/repair-2225.json",
@@ -69,43 +65,38 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/MsgViewer/repair-2225.json"
       ],
       "resultsWithCrashes": [],
-      "analysesWithErrors": [
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Java-OCA-OCPP/sorald_repair-2225.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/sorald_repair-2225.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/sorald_repair-2225.err"
-      ]
+      "analysesWithErrors": []
     },
     "1860": {
-      "detectedViolationsBeforeRepair": 4,
-      "repairedViolations": 4,
+      "detectedViolationsBeforeRepair": 5,
+      "repairedViolations": 5,
       "detectedViolationsAfterRepair": 0,
-      "performedRepairsCnt": 4,
+      "performedRepairsCnt": 5,
       "crashedCnt": 0,
-      "errorCnt": 3,
+      "errorCnt": 0,
       "mvnFail": 0,
-      "mvnSuccess": 0,
-      "totalTime": 1062240,
+      "mvnSuccess": 161,
+      "totalTime": 1040876,
+      "medianTime": 4490.0,
       "ruleName": "1860",
       "resultsWithDetectedViolations": [
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/singer/repair-1860.json"
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/singer/repair-1860.json",
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/repair-1860.json"
       ],
       "resultsWithCrashes": [],
-      "analysesWithErrors": [
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Java-OCA-OCPP/sorald_repair-1860.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/sorald_repair-1860.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/sorald_repair-1860.err"
-      ]
+      "analysesWithErrors": []
     },
     "2111": {
-      "detectedViolationsBeforeRepair": 91,
-      "repairedViolations": 58,
-      "detectedViolationsAfterRepair": 33,
-      "performedRepairsCnt": 58,
+      "detectedViolationsBeforeRepair": 37,
+      "repairedViolations": 35,
+      "detectedViolationsAfterRepair": 2,
+      "performedRepairsCnt": 35,
       "crashedCnt": 0,
-      "errorCnt": 3,
-      "mvnFail": 0,
-      "mvnSuccess": 0,
-      "totalTime": 1133463,
+      "errorCnt": 0,
+      "mvnFail": 2,
+      "mvnSuccess": 159,
+      "totalTime": 1116769,
+      "medianTime": 4934.0,
       "ruleName": "2111",
       "resultsWithDetectedViolations": [
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/bitfinex-v2-wss-api-java/repair-2111.json",
@@ -113,29 +104,23 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/java-faker/repair-2111.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/json-schema-validator/repair-2111.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/jts/repair-2111.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/moa/repair-2111.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/nbvcxz/repair-2111.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/openpnp/repair-2111.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/OpenTripPlanner/repair-2111.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/protostuff/repair-2111.json"
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/OpenTripPlanner/repair-2111.json"
       ],
       "resultsWithCrashes": [],
-      "analysesWithErrors": [
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Java-OCA-OCPP/sorald_repair-2111.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/sorald_repair-2111.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/sorald_repair-2111.err"
-      ]
+      "analysesWithErrors": []
     },
     "4973": {
-      "detectedViolationsBeforeRepair": 75,
-      "repairedViolations": 71,
-      "detectedViolationsAfterRepair": 4,
-      "performedRepairsCnt": 71,
+      "detectedViolationsBeforeRepair": 72,
+      "repairedViolations": 69,
+      "detectedViolationsAfterRepair": 3,
+      "performedRepairsCnt": 69,
       "crashedCnt": 0,
-      "errorCnt": 4,
-      "mvnFail": 0,
-      "mvnSuccess": 0,
-      "totalTime": 1060730,
+      "errorCnt": 0,
+      "mvnFail": 1,
+      "mvnSuccess": 160,
+      "totalTime": 1050409,
+      "medianTime": 4465.0,
       "ruleName": "4973",
       "resultsWithDetectedViolations": [
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/amidst/repair-4973.json",
@@ -144,45 +129,40 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/galimatias/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/geometry-api-java/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/HAP-Java/repair-4973.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/imageio-ext/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/jMetal/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/joshua/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/jts/repair-4973.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/light-rest-4j/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/miso-lims/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/MutabilityDetector/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/nlp-lang/repair-4973.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/openpnp/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/openstack4j/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/OpenTripPlanner/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Paguro/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/pitest/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/protostuff/repair-4973.json",
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/semver4j/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/singer/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/solr-redis/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/tetrad/repair-4973.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Vitro/repair-4973.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/vue-gwt/repair-4973.json"
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/vue-gwt/repair-4973.json",
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/repair-4973.json"
       ],
       "resultsWithCrashes": [],
-      "analysesWithErrors": [
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Java-OCA-OCPP/sorald_repair-4973.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/recast4j/sorald_repair-4973.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/sorald_repair-4973.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/sorald_repair-4973.err"
-      ]
+      "analysesWithErrors": []
     },
     "2142": {
-      "detectedViolationsBeforeRepair": 462,
-      "repairedViolations": 451,
-      "detectedViolationsAfterRepair": 11,
-      "performedRepairsCnt": 459,
+      "detectedViolationsBeforeRepair": 461,
+      "repairedViolations": 447,
+      "detectedViolationsAfterRepair": 14,
+      "performedRepairsCnt": 458,
       "crashedCnt": 0,
-      "errorCnt": 5,
+      "errorCnt": 0,
       "mvnFail": 0,
-      "mvnSuccess": 0,
-      "totalTime": 1054930,
+      "mvnSuccess": 161,
+      "totalTime": 1060636,
+      "medianTime": 4617.0,
       "ruleName": "2142",
       "resultsWithDetectedViolations": [
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/aesh/repair-2142.json",
@@ -201,7 +181,6 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/HAP-Java/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/hilbert-curve/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/HTTP-Proxy-Servlet/repair-2142.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/imageio-ext/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/jMetal/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/jolokia/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/joshua/repair-2142.json",
@@ -221,13 +200,11 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Nukkit/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/obfuscator/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/openhtmltopdf/repair-2142.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/openpnp/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/openstack4j/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/OpenTripPlanner/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/owasp-security-logging/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/pitest/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/reader/repair-2142.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/recast4j/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/rescu/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/rest-driver/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/RestFixture/repair-2142.json",
@@ -248,18 +225,13 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Vitro/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/weblogic-monitoring-exporter/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Wikidata-Toolkit/repair-2142.json",
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/zendesk-java-client/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/zip4j/repair-2142.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/zt-process-killer/repair-2142.json"
       ],
       "resultsWithCrashes": [],
-      "analysesWithErrors": [
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Java-OCA-OCPP/sorald_repair-2142.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/light-rest-4j/sorald_repair-2142.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/moa/sorald_repair-2142.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/sorald_repair-2142.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/sorald_repair-2142.err"
-      ]
+      "analysesWithErrors": []
     },
     "2272": {
       "detectedViolationsBeforeRepair": 41,
@@ -267,10 +239,11 @@
       "detectedViolationsAfterRepair": 0,
       "performedRepairsCnt": 41,
       "crashedCnt": 0,
-      "errorCnt": 3,
+      "errorCnt": 0,
       "mvnFail": 0,
-      "mvnSuccess": 0,
-      "totalTime": 1199879,
+      "mvnSuccess": 161,
+      "totalTime": 1178957,
+      "medianTime": 4515.0,
       "ruleName": "2272",
       "resultsWithDetectedViolations": [
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/amidst/repair-2272.json",
@@ -282,7 +255,6 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/jts/repair-2272.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/kcp-netty/repair-2272.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/lambda/repair-2272.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/moa/repair-2272.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/modelmapper/repair-2272.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/movsim/repair-2272.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/nlp-lang/repair-2272.json",
@@ -292,25 +264,23 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/rxjava2-extras/repair-2272.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/simple-excel/repair-2272.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/tetrad/repair-2272.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Vitro/repair-2272.json"
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Vitro/repair-2272.json",
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/repair-2272.json"
       ],
       "resultsWithCrashes": [],
-      "analysesWithErrors": [
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Java-OCA-OCPP/sorald_repair-2272.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/sorald_repair-2272.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/sorald_repair-2272.err"
-      ]
+      "analysesWithErrors": []
     },
     "2184": {
-      "detectedViolationsBeforeRepair": 293,
-      "repairedViolations": 264,
-      "detectedViolationsAfterRepair": 29,
-      "performedRepairsCnt": 263,
+      "detectedViolationsBeforeRepair": 292,
+      "repairedViolations": 262,
+      "detectedViolationsAfterRepair": 30,
+      "performedRepairsCnt": 261,
       "crashedCnt": 0,
-      "errorCnt": 7,
-      "mvnFail": 0,
-      "mvnSuccess": 0,
-      "totalTime": 1040360,
+      "errorCnt": 0,
+      "mvnFail": 3,
+      "mvnSuccess": 158,
+      "totalTime": 1073139,
+      "medianTime": 4503.0,
       "ruleName": "2184",
       "resultsWithDetectedViolations": [
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/amidst/repair-2184.json",
@@ -341,7 +311,6 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/pitest/repair-2184.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/pkts/repair-2184.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Prism-Bukkit/repair-2184.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/recast4j/repair-2184.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/robot/repair-2184.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/sds/repair-2184.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/simplenlg/repair-2184.json",
@@ -353,31 +322,25 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/TinyRadius/repair-2184.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/vertx-jdbc-client/repair-2184.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Vitro/repair-2184.json",
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/repair-2184.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/zendesk-java-client/repair-2184.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/zip4j/repair-2184.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/zt-process-killer/repair-2184.json"
       ],
       "resultsWithCrashes": [],
-      "analysesWithErrors": [
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/imageio-ext/sorald_repair-2184.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Java-OCA-OCPP/sorald_repair-2184.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/moa/sorald_repair-2184.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/openpnp/sorald_repair-2184.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/sorald_repair-2184.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/vertx-service-proxy/sorald_repair-2184.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/sorald_repair-2184.err"
-      ]
+      "analysesWithErrors": []
     },
     "2095": {
-      "detectedViolationsBeforeRepair": 681,
-      "repairedViolations": 362,
-      "detectedViolationsAfterRepair": 319,
-      "performedRepairsCnt": 425,
+      "detectedViolationsBeforeRepair": 613,
+      "repairedViolations": 289,
+      "detectedViolationsAfterRepair": 324,
+      "performedRepairsCnt": 348,
       "crashedCnt": 0,
-      "errorCnt": 3,
-      "mvnFail": 0,
-      "mvnSuccess": 0,
-      "totalTime": 2062471,
+      "errorCnt": 0,
+      "mvnFail": 1,
+      "mvnSuccess": 160,
+      "totalTime": 1944705,
+      "medianTime": 6361.0,
       "ruleName": "2095",
       "resultsWithDetectedViolations": [
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/aesh/repair-2095.json",
@@ -395,7 +358,6 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/goodsKill/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/GoogleAuth/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/HTTP-Proxy-Servlet/repair-2095.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/imageio-ext/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/jMetal/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/jolokia/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/joshua/repair-2095.json",
@@ -405,10 +367,8 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/junit4/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/kafka-topology-builder/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/license-maven-plugin/repair-2095.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/light-rest-4j/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/lorsource/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/miso-lims/repair-2095.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/moa/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/MobArena/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/modelmapper/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/movsim/repair-2095.json",
@@ -418,14 +378,13 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Nukkit/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/obfuscator/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/openhtmltopdf/repair-2095.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/openpnp/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/openstack4j/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/OpenTripPlanner/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Paguro/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/pitest/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Prism-Bukkit/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/protostuff/repair-2095.json",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/recast4j/repair-2095.json",
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/RestFixture/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/robot/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/rxjava2-extras/repair-2095.json",
@@ -440,15 +399,12 @@
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/webapp-runner/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/weblogic-monitoring-exporter/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Wikidata-Toolkit/repair-2095.json",
+        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/zip4j/repair-2095.json",
         "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/zt-process-killer/repair-2095.json"
       ],
       "resultsWithCrashes": [],
-      "analysesWithErrors": [
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/Java-OCA-OCPP/sorald_repair-2095.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/redpen/sorald_repair-2095.err",
-        "https://github.com/khaes-kth/Sorald-experiments/blob/master/repair-results/YCSB/sorald_repair-2095.err"
-      ]
+      "analysesWithErrors": []
     }
   }
 }

@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 111,
@@ -24,10 +23,11 @@
                 "violationSpecifier": "2142:ask-sdk-servlet-support/src/com/amazon/ask/servlet/verifiers/SkillRequestSignatureVerifier.java:252:21:252:44"
             }
         ],
+        "nbViolationsBefore": 2,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 7433,
-    "repairTimeMs": 347,
-    "startTimeMs": 1612811672991,
+    "totalTimeMs": 7419,
+    "repairTimeMs": 298,
+    "startTimeMs": 1613355150244,
     "crashes": [],
-    "endTimeMs": 1612811680424,
-    "parseTimeMs": 3471
+    "endTimeMs": 1613355157663,
+    "parseTimeMs": 3420
 }

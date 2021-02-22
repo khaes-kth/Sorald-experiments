@@ -1,0 +1,140 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Build Tools                                                        [jar]
+[INFO] jd-cli-root                                                        [pom]
+[INFO] jd-lib                                                             [jar]
+[INFO] jd-cli                                                             [jar]
+[INFO] 
+[INFO] ------------------< com.github.kwart.jd:build-tools >-------------------
+[INFO] Building Build Tools 1.0                                           [1/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ build-tools ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ build-tools ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ build-tools ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/jd-cli/build-tools/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ build-tools ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ build-tools ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< com.github.kwart.jd:jd-cli-root >-------------------
+[INFO] Building jd-cli-root 1.2.0-SNAPSHOT                                [2/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:checkstyle (check-style) @ jd-cli-root ---
+[INFO] 
+[INFO] ---------------------< com.github.kwart.jd:jd-lib >---------------------
+[INFO] Building jd-lib 1.2.0-SNAPSHOT                                     [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jd-lib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jd-cli/jd-lib/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jd-lib ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:checkstyle (check-style) @ jd-lib ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jd-lib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jd-lib ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jd-lib ---
+[INFO] Surefire report directory: /workdir/jd-cli/jd-lib/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.kwart.jd.JavaDecompilerTest
+19:31:25.675 DEBUG com.github.kwart.jd.input.DirInput - Initializing decompilation of directory target/test-classes
+19:31:25.678 INFO  com.github.kwart.jd.output.DirOutput - Directory output will be initialized for path /tmp/junit16898998686946822738/flat
+19:31:25.679 INFO  com.github.kwart.jd.output.DirOutput - Directory output will be initialized for path /tmp/junit16898998686946822738/struct
+19:31:25.679 DEBUG com.github.kwart.jd.input.DirInput - Decompiling target/test-classes/com/github/kwart/jd/JavaDecompilerTest.class
+19:31:25.680 DEBUG com.github.kwart.jd.JavaDecompiler - Decompiling class com/github/kwart/jd/JavaDecompilerTest
+19:31:25.822 DEBUG com.github.kwart.jd.input.DirInput - Decompiling target/test-classes/com/github/kwart/jd/HelloWorld.class
+19:31:25.822 DEBUG com.github.kwart.jd.JavaDecompiler - Decompiling class com/github/kwart/jd/HelloWorld
+19:31:25.834 DEBUG com.github.kwart.jd.input.DirInput - Processing resource file target/test-classes/logback.xml
+19:31:25.834 INFO  com.github.kwart.jd.output.DirOutput - Finished with 2 class file(s) and 1 resource file(s) written.
+19:31:25.834 INFO  com.github.kwart.jd.output.DirOutput - Finished with 2 class file(s) and 1 resource file(s) written.
+19:31:25.839 DEBUG com.github.kwart.jd.input.DirInput - Initializing decompilation of directory target/test-classes
+19:31:25.839 INFO  com.github.kwart.jd.output.DirOutput - Directory output will be initialized for path /tmp/junit5660397468778388984
+19:31:25.839 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path com/github/kwart/jd/JavaDecompilerTest.class as it doesn't match the pattern .*Not.*Matching.*
+19:31:25.839 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path com/github/kwart/jd/HelloWorld.class as it doesn't match the pattern .*Not.*Matching.*
+19:31:25.839 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path com/github/kwart/jd/HelloWorld$StaticClass.class as it doesn't match the pattern .*Not.*Matching.*
+19:31:25.840 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path com/github/kwart/jd/HelloWorld$1.class as it doesn't match the pattern .*Not.*Matching.*
+19:31:25.840 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path com/github/kwart/jd/HelloWorld$PrivateClass.class as it doesn't match the pattern .*Not.*Matching.*
+19:31:25.840 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path com/github/kwart/jd/JavaDecompilerTest$1.class as it doesn't match the pattern .*Not.*Matching.*
+19:31:25.840 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path logback.xml as it doesn't match the pattern .*Not.*Matching.*
+19:31:25.840 INFO  com.github.kwart.jd.output.DirOutput - Finished with 0 class file(s) and 0 resource file(s) written.
+19:31:25.840 DEBUG com.github.kwart.jd.input.DirInput - Initializing decompilation of directory target/test-classes
+19:31:25.841 INFO  com.github.kwart.jd.output.DirOutput - Directory output will be initialized for path /tmp/junit6835351549383443574
+19:31:25.841 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path com/github/kwart/jd/JavaDecompilerTest.class as it doesn't match the pattern .*jd.Hello.*World\..*
+19:31:25.841 DEBUG com.github.kwart.jd.input.DirInput - Decompiling target/test-classes/com/github/kwart/jd/HelloWorld.class
+19:31:25.841 DEBUG com.github.kwart.jd.JavaDecompiler - Decompiling class com/github/kwart/jd/HelloWorld
+19:31:25.851 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path com/github/kwart/jd/HelloWorld$StaticClass.class as it doesn't match the pattern .*jd.Hello.*World\..*
+19:31:25.852 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path com/github/kwart/jd/HelloWorld$1.class as it doesn't match the pattern .*jd.Hello.*World\..*
+19:31:25.852 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path com/github/kwart/jd/HelloWorld$PrivateClass.class as it doesn't match the pattern .*jd.Hello.*World\..*
+19:31:25.852 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path com/github/kwart/jd/JavaDecompilerTest$1.class as it doesn't match the pattern .*jd.Hello.*World\..*
+19:31:25.852 DEBUG c.g.k.jd.input.AbstractFileJDInput - Skipping the path logback.xml as it doesn't match the pattern .*jd.Hello.*World\..*
+19:31:25.852 INFO  com.github.kwart.jd.output.DirOutput - Finished with 1 class file(s) and 0 resource file(s) written.
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.404 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ---------------------< com.github.kwart.jd:jd-cli >---------------------
+[INFO] Building jd-cli 1.2.0-SNAPSHOT                                     [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jd-cli ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ jd-cli ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:checkstyle (check-style) @ jd-cli ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jd-cli ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/jd-cli/jd-cli/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ jd-cli ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jd-cli ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Build Tools 1.0 .................................... SUCCESS [  0.449 s]
+[INFO] jd-cli-root 1.2.0-SNAPSHOT ......................... SUCCESS [  0.412 s]
+[INFO] jd-lib 1.2.0-SNAPSHOT .............................. SUCCESS [  1.391 s]
+[INFO] jd-cli 1.2.0-SNAPSHOT .............................. SUCCESS [  0.204 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.539 s
+[INFO] Finished at: 2021-02-14T19:31:26Z
+[INFO] ------------------------------------------------------------------------

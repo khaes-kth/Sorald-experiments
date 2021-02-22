@@ -9,15 +9,15 @@
             "endLine": 489,
             "endColumn": 39,
             "startColumn": 18,
-            "startLine": 489,
             "filePath": "src/main/java/org/openpnp/machine/reference/feeder/wizards/ReferenceRotatedTrayFeederConfigurationWizard.java",
+            "startLine": 489,
             "violationSpecifier": "2111:src/main/java/org/openpnp/machine/reference/feeder/wizards/ReferenceRotatedTrayFeederConfigurationWizard.java:489:18:489:39"
         }],
         "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 17588,
-    "repairTimeMs": 844,
-    "startTimeMs": 1612803220879,
+    "totalTimeMs": 17471,
+    "repairTimeMs": 750,
+    "startTimeMs": 1613329296918,
     "crashes": [],
-    "endTimeMs": 1612803238467,
-    "parseTimeMs": 7692
+    "endTimeMs": 1613329314389,
+    "parseTimeMs": 7543
 }

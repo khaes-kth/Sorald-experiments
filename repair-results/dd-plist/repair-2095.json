@@ -5,45 +5,45 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 4,
         "performedRepairsLocations": [
             {
                 "endLine": 72,
                 "endColumn": 62,
                 "startColumn": 31,
-                "startLine": 72,
                 "filePath": "src/main/java/com/dd/plist/NSData.java",
+                "startLine": 72,
                 "violationSpecifier": "2095:src/main/java/com/dd/plist/NSData.java:72:31:72:62"
             },
             {
                 "endLine": 134,
                 "endColumn": 52,
                 "startColumn": 20,
-                "startLine": 134,
                 "filePath": "src/main/java/com/dd/plist/NSString.java",
+                "startLine": 134,
                 "violationSpecifier": "2095:src/main/java/com/dd/plist/NSString.java:134:20:134:52"
             },
             {
                 "endLine": 166,
                 "endColumn": 52,
                 "startColumn": 20,
-                "startLine": 166,
                 "filePath": "src/main/java/com/dd/plist/NSString.java",
+                "startLine": 166,
                 "violationSpecifier": "2095:src/main/java/com/dd/plist/NSString.java:166:20:166:52"
             },
             {
                 "endLine": 22,
                 "endColumn": 68,
                 "startColumn": 38,
-                "startLine": 22,
                 "filePath": "src/test/java/com/dd/plist/test/IssueTest.java",
+                "startLine": 22,
                 "violationSpecifier": "2095:src/test/java/com/dd/plist/test/IssueTest.java:22:38:22:68"
             }
         ],
-        "nbViolationsBefore": 4,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -57,10 +57,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 9442,
-    "repairTimeMs": 243,
-    "startTimeMs": 1612810337510,
+    "totalTimeMs": 10063,
+    "repairTimeMs": 280,
+    "startTimeMs": 1613350619813,
     "crashes": [],
-    "endTimeMs": 1612810346952,
-    "parseTimeMs": 1261
+    "endTimeMs": 1613350629876,
+    "parseTimeMs": 1559
 }

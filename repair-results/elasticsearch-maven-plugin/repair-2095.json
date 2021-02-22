@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 2,
         "performedRepairsLocations": [
             {
                 "endLine": 37,
@@ -23,11 +24,10 @@
                 "violationSpecifier": "2095:src/test/java/com/github/alexcojocaru/mojo/elasticsearch/v2/ItSetup.java:68:24:68:50"
             }
         ],
-        "nbViolationsBefore": 2,
         "nbViolationsAfter": 2
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -41,10 +41,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5897,
-    "repairTimeMs": 150,
-    "startTimeMs": 1612809900028,
+    "totalTimeMs": 6361,
+    "repairTimeMs": 176,
+    "startTimeMs": 1613349563820,
     "crashes": [],
-    "endTimeMs": 1612809905925,
-    "parseTimeMs": 1626
+    "endTimeMs": 1613349570181,
+    "parseTimeMs": 1818
 }

@@ -10,56 +10,56 @@
                 "endLine": 111,
                 "endColumn": 25,
                 "startColumn": 21,
-                "filePath": "src/main/java/org/apache/joshua/decoder/TranslationResponseStream.java",
                 "startLine": 111,
+                "filePath": "src/main/java/org/apache/joshua/decoder/TranslationResponseStream.java",
                 "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/TranslationResponseStream.java:111:21:111:25"
             },
             {
                 "endLine": 45,
                 "endColumn": 32,
                 "startColumn": 28,
-                "filePath": "src/main/java/org/apache/joshua/decoder/ff/fragmentlm/PennTreebankReader.java",
                 "startLine": 45,
+                "filePath": "src/main/java/org/apache/joshua/decoder/ff/fragmentlm/PennTreebankReader.java",
                 "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/ff/fragmentlm/PennTreebankReader.java:45:28:45:32"
             },
             {
                 "endLine": 420,
                 "endColumn": 20,
                 "startColumn": 16,
-                "filePath": "src/main/java/org/apache/joshua/decoder/ff/fragmentlm/Tree.java",
                 "startLine": 420,
+                "filePath": "src/main/java/org/apache/joshua/decoder/ff/fragmentlm/Tree.java",
                 "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/ff/fragmentlm/Tree.java:420:16:420:20"
             },
             {
                 "endLine": 122,
                 "endColumn": 15,
                 "startColumn": 11,
-                "filePath": "src/main/java/org/apache/joshua/decoder/ff/tm/GrammarReader.java",
                 "startLine": 122,
+                "filePath": "src/main/java/org/apache/joshua/decoder/ff/tm/GrammarReader.java",
                 "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/ff/tm/GrammarReader.java:122:11:122:15"
             },
             {
                 "endLine": 61,
                 "endColumn": 21,
                 "startColumn": 17,
-                "filePath": "src/main/java/org/apache/joshua/decoder/ff/tm/hash_based/ExtensionIterator.java",
                 "startLine": 61,
+                "filePath": "src/main/java/org/apache/joshua/decoder/ff/tm/hash_based/ExtensionIterator.java",
                 "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/ff/tm/hash_based/ExtensionIterator.java:61:17:61:21"
             },
             {
                 "endLine": 768,
                 "endColumn": 27,
                 "startColumn": 23,
-                "filePath": "src/main/java/org/apache/joshua/decoder/ff/tm/packed/PackedGrammar.java",
                 "startLine": 768,
+                "filePath": "src/main/java/org/apache/joshua/decoder/ff/tm/packed/PackedGrammar.java",
                 "violationSpecifier": "2272:src/main/java/org/apache/joshua/decoder/ff/tm/packed/PackedGrammar.java:768:23:768:27"
             },
             {
                 "endLine": 117,
                 "endColumn": 29,
                 "startColumn": 25,
-                "filePath": "src/main/java/org/apache/joshua/lattice/Node.java",
                 "startLine": 117,
+                "filePath": "src/main/java/org/apache/joshua/lattice/Node.java",
                 "violationSpecifier": "2272:src/main/java/org/apache/joshua/lattice/Node.java:117:25:117:29"
             }
         ],
@@ -67,7 +67,7 @@
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -81,10 +81,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 17442,
-    "repairTimeMs": 1391,
-    "startTimeMs": 1612815186077,
+    "totalTimeMs": 17868,
+    "repairTimeMs": 1320,
+    "startTimeMs": 1613367628822,
     "crashes": [],
-    "endTimeMs": 1612815203519,
-    "parseTimeMs": 8134
+    "endTimeMs": 1613367646690,
+    "parseTimeMs": 8429
 }

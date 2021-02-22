@@ -1,0 +1,1698 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] YCSB Root                                                          [pom]
+[INFO] Core YCSB                                                          [jar]
+[INFO] Per Datastore Binding descriptor                                   [jar]
+[INFO] YCSB Datastore Binding Parent                                      [pom]
+[INFO] Accumulo 1.9 DB Binding                                            [jar]
+[INFO] Aerospike DB Binding                                               [jar]
+[INFO] ArangoDB Binding                                                   [jar]
+[INFO] AsyncHBase Client Binding for Apache HBase                         [jar]
+[INFO] Cassandra 2.1+ DB Binding                                          [jar]
+[INFO] Cloud Spanner DB Binding                                           [jar]
+[INFO] Couchbase Binding                                                  [jar]
+[INFO] Couchbase Java SDK 2.x Binding                                     [jar]
+[INFO] Crail DB Binding                                                   [jar]
+[INFO] Azure Cosmos Binding                                               [jar]
+[INFO] Azure table storage Binding                                        [jar]
+[INFO] DynamoDB DB Binding                                                [jar]
+[INFO] Elasticsearch Binding                                              [jar]
+[INFO] Elasticsearch 5.x Binding                                          [jar]
+[INFO] FoundationDB Binding                                               [jar]
+[INFO] Geode DB Binding                                                   [jar]
+[INFO] Google Cloud Datastore Binding                                     [jar]
+[INFO] Google Cloud Bigtable Binding                                      [jar]
+[INFO] GridDB Binding                                                     [jar]
+[INFO] HBase 1.y DB Binding                                               [jar]
+[INFO] HBase 2.y DB Binding                                               [jar]
+[INFO] Hypertable DB Binding                                              [jar]
+[INFO] Apache Ignite                                                      [jar]
+[INFO] Infinispan DB Binding                                              [jar]
+[INFO] JDBC DB Binding                                                    [jar]
+[INFO] Kudu DB Binding                                                    [jar]
+[INFO] memcached binding                                                  [jar]
+[INFO] MapRDB Binding                                                     [jar]
+[INFO] MapR JSON DB Binding                                               [jar]
+[INFO] MongoDB Binding                                                    [jar]
+[INFO] Oracle NoSQL Database Binding                                      [jar]
+[INFO] OrientDB Binding                                                   [jar]
+[INFO] PostgreNoSQL Binding                                               [jar]
+[INFO] rados of Ceph FS binding                                           [jar]
+[INFO] Redis DB Binding                                                   [jar]
+[INFO] Rest Client Binding                                                [jar]
+[INFO] Riak KV Binding                                                    [jar]
+[INFO] RocksDB Java Binding                                               [jar]
+[INFO] S3 Storage Binding                                                 [jar]
+[INFO] Solr Binding                                                       [jar]
+[INFO] Solr 6 Binding                                                     [jar]
+[INFO] Solr 7 Binding                                                     [jar]
+[INFO] Tarantool DB Binding                                               [jar]
+[INFO] TableStore DB Binding                                              [jar]
+[INFO] VoltDB Binding                                                     [jar]
+[INFO] YCSB Release Distribution Builder                                  [pom]
+[INFO] 
+[INFO] ---------------------------< site.ycsb:root >---------------------------
+[INFO] Building YCSB Root 0.18.0-SNAPSHOT                                [1/50]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ root ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ root ---
+[INFO] 
+[INFO] ---------------------------< site.ycsb:core >---------------------------
+[INFO] Building Core YCSB 0.18.0-SNAPSHOT                                [2/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ core ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ core ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ core ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 63 source files to /workdir/YCSB/core/target/classes
+[INFO] /workdir/YCSB/core/src/main/java/site/ycsb/CommandLine.java: Some input files use or override a deprecated API.
+[INFO] /workdir/YCSB/core/src/main/java/site/ycsb/CommandLine.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/core/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ core ---
+[INFO] Surefire report directory: /workdir/YCSB/core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNGMapConfigurator@26653222
+Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.008 sec
+
+Results :
+
+Tests run: 41, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --------------< site.ycsb:datastore-specific-descriptor >---------------
+[INFO] Building Per Datastore Binding descriptor 0.18.0-SNAPSHOT         [3/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ datastore-specific-descriptor ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ datastore-specific-descriptor ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ datastore-specific-descriptor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ datastore-specific-descriptor ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ datastore-specific-descriptor ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/binding-parent/datastore-specific-descriptor/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ datastore-specific-descriptor ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ datastore-specific-descriptor ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------------< site.ycsb:binding-parent >----------------------
+[INFO] Building YCSB Datastore Binding Parent 0.18.0-SNAPSHOT            [4/50]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ binding-parent ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ binding-parent ---
+[INFO] 
+[INFO] -------------------< site.ycsb:accumulo1.9-binding >--------------------
+[INFO] Building Accumulo 1.9 DB Binding 0.18.0-SNAPSHOT                  [5/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ accumulo1.9-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ accumulo1.9-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ accumulo1.9-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/accumulo1.9/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ accumulo1.9-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/accumulo1.9/target/classes
+[INFO] /workdir/YCSB/accumulo1.9/src/main/java/site/ycsb/db/accumulo/AccumuloClient.java: /workdir/YCSB/accumulo1.9/src/main/java/site/ycsb/db/accumulo/AccumuloClient.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/accumulo1.9/src/main/java/site/ycsb/db/accumulo/AccumuloClient.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ accumulo1.9-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 9 resources to workloads
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ accumulo1.9-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ accumulo1.9-binding ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --------------------< site.ycsb:aerospike-binding >---------------------
+[INFO] Building Aerospike DB Binding 0.18.0-SNAPSHOT                     [6/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ aerospike-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ aerospike-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ aerospike-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/aerospike/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ aerospike-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/aerospike/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ aerospike-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/aerospike/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ aerospike-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ aerospike-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------------------< site.ycsb:arangodb-binding >---------------------
+[INFO] Building ArangoDB Binding 0.18.0-SNAPSHOT                         [7/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ arangodb-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ arangodb-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ arangodb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/arangodb/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ arangodb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/arangodb/target/classes
+[INFO] /workdir/YCSB/arangodb/src/main/java/site/ycsb/db/arangodb/ArangoDBClient.java: /workdir/YCSB/arangodb/src/main/java/site/ycsb/db/arangodb/ArangoDBClient.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/arangodb/src/main/java/site/ycsb/db/arangodb/ArangoDBClient.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ arangodb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/arangodb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ arangodb-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ arangodb-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------< site.ycsb:asynchbase-binding >--------------------
+[INFO] Building AsyncHBase Client Binding for Apache HBase 0.18.0-SNAPSHOT [8/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ asynchbase-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ asynchbase-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asynchbase-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/asynchbase/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ asynchbase-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/asynchbase/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asynchbase-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ asynchbase-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.20:test (default-test) @ asynchbase-binding ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --------------------< site.ycsb:cassandra-binding >---------------------
+[INFO] Building Cassandra 2.1+ DB Binding 0.18.0-SNAPSHOT                [9/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ cassandra-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ cassandra-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ cassandra-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/cassandra/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ cassandra-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/cassandra/target/classes
+[INFO] /workdir/YCSB/cassandra/src/main/java/site/ycsb/db/CassandraCQLClient.java: /workdir/YCSB/cassandra/src/main/java/site/ycsb/db/CassandraCQLClient.java uses unchecked or unsafe operations.
+[INFO] /workdir/YCSB/cassandra/src/main/java/site/ycsb/db/CassandraCQLClient.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ cassandra-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.10:unpack-dependencies (unpack-sigar) @ cassandra-binding ---
+[INFO] sigar-dist-1.6.4.129.zip already exists in destination.
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ cassandra-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.8:test (default-test) @ cassandra-binding ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] -------------------< site.ycsb:cloudspanner-binding >-------------------
+[INFO] Building Cloud Spanner DB Binding 0.18.0-SNAPSHOT                [10/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ cloudspanner-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ cloudspanner-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ cloudspanner-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/cloudspanner/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ cloudspanner-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/cloudspanner/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ cloudspanner-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/cloudspanner/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ cloudspanner-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ cloudspanner-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------< site.ycsb:couchbase-binding >---------------------
+[INFO] Building Couchbase Binding 0.18.0-SNAPSHOT                       [11/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ couchbase-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ couchbase-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ couchbase-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/couchbase/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ couchbase-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/couchbase/target/classes
+[INFO] /workdir/YCSB/couchbase/src/main/java/site/ycsb/db/CouchbaseClient.java: /workdir/YCSB/couchbase/src/main/java/site/ycsb/db/CouchbaseClient.java uses unchecked or unsafe operations.
+[INFO] /workdir/YCSB/couchbase/src/main/java/site/ycsb/db/CouchbaseClient.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ couchbase-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/couchbase/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ couchbase-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ couchbase-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------< site.ycsb:couchbase2-binding >--------------------
+[INFO] Building Couchbase Java SDK 2.x Binding 0.18.0-SNAPSHOT          [12/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ couchbase2-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ couchbase2-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ couchbase2-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/couchbase2/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ couchbase2-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/couchbase2/target/classes
+[INFO] /workdir/YCSB/couchbase2/src/main/java/site/ycsb/db/couchbase2/Couchbase2Client.java: /workdir/YCSB/couchbase2/src/main/java/site/ycsb/db/couchbase2/Couchbase2Client.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/couchbase2/src/main/java/site/ycsb/db/couchbase2/Couchbase2Client.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/YCSB/couchbase2/src/main/java/site/ycsb/db/couchbase2/Couchbase2Client.java: /workdir/YCSB/couchbase2/src/main/java/site/ycsb/db/couchbase2/Couchbase2Client.java uses unchecked or unsafe operations.
+[INFO] /workdir/YCSB/couchbase2/src/main/java/site/ycsb/db/couchbase2/Couchbase2Client.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ couchbase2-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/couchbase2/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ couchbase2-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ couchbase2-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------------< site.ycsb:crail-binding >-----------------------
+[INFO] Building Crail DB Binding 0.18.0-SNAPSHOT                        [13/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ crail-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ crail-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ crail-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/crail/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ crail-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/crail/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ crail-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/crail/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ crail-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ crail-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------------< site.ycsb:azurecosmos-binding >--------------------
+[INFO] Building Azure Cosmos Binding 0.18.0-SNAPSHOT                    [14/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ azurecosmos-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.15:checkstyle (validate) @ azurecosmos-binding ---
+[INFO] Starting audit...
+Audit done.
+[WARNING] Unable to locate Source XRef to link to - DISABLED
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.15:check (validate) @ azurecosmos-binding ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ azurecosmos-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ azurecosmos-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/azurecosmos/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ azurecosmos-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/azurecosmos/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ azurecosmos-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ azurecosmos-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------< site.ycsb:azuretablestorage-binding >-----------------
+[INFO] Building Azure table storage Binding 0.18.0-SNAPSHOT             [15/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ azuretablestorage-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ azuretablestorage-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ azuretablestorage-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/azuretablestorage/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ azuretablestorage-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/azuretablestorage/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ azuretablestorage-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/azuretablestorage/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ azuretablestorage-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ azuretablestorage-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------------------< site.ycsb:dynamodb-binding >---------------------
+[INFO] Building DynamoDB DB Binding 0.18.0-SNAPSHOT                     [16/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ dynamodb-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ dynamodb-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ dynamodb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ dynamodb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/dynamodb/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ dynamodb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/dynamodb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ dynamodb-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ dynamodb-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< site.ycsb:elasticsearch-binding >-------------------
+[INFO] Building Elasticsearch Binding 0.18.0-SNAPSHOT                   [17/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ elasticsearch-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ elasticsearch-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ elasticsearch-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/elasticsearch/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ elasticsearch-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/elasticsearch/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ elasticsearch-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/elasticsearch/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ elasticsearch-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ elasticsearch-binding ---
+[INFO] Surefire report directory: /workdir/YCSB/elasticsearch/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running site.ycsb.db.ElasticsearchClientTest
+Elasticsearch starting node = es.ycsb.cluster
+Elasticsearch node path.home = /tmp/junit15702337163114122267
+Elasticsearch Remote Mode = false
+Feb 14, 2021 4:17:39 PM org.elasticsearch.node.Node <init>
+INFO: [Marlene Alraune] version[2.4.0], pid[30952], build[ce9f0c7/2016-08-29T09:14:17Z]
+Feb 14, 2021 4:17:39 PM org.elasticsearch.node.Node <init>
+INFO: [Marlene Alraune] initializing ...
+Feb 14, 2021 4:17:39 PM org.elasticsearch.plugins.PluginsService <init>
+INFO: [Marlene Alraune] modules [], plugins [], sites []
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.lucene.store.MMapDirectory$1 (file:/home/maven/.m2/repository/org/apache/lucene/lucene-core/5.5.2/lucene-core-5.5.2.jar) to method java.nio.DirectByteBuffer.cleaner()
+WARNING: Please consider reporting this to the maintainers of org.apache.lucene.store.MMapDirectory$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Feb 14, 2021 4:17:39 PM org.elasticsearch.env.NodeEnvironment maybeLogPathDetails
+INFO: [Marlene Alraune] using [1] data paths, mounts [[/ (overlay)]], net usable_space [528.3gb], net total_space [914gb], spins? [possibly], types [overlay]
+Feb 14, 2021 4:17:39 PM org.elasticsearch.env.NodeEnvironment maybeLogHeapDetails
+INFO: [Marlene Alraune] heap size [3.9gb], compressed ordinary object pointers [true]
+Feb 14, 2021 4:17:39 PM org.elasticsearch.node.Node <init>
+INFO: [Marlene Alraune] initialized
+Feb 14, 2021 4:17:39 PM org.elasticsearch.node.Node start
+INFO: [Marlene Alraune] starting ...
+Feb 14, 2021 4:17:39 PM org.elasticsearch.transport.TransportService doStart
+INFO: [Marlene Alraune] publish_address {local[1]}, bound_addresses {local[1]}
+Feb 14, 2021 4:17:39 PM org.elasticsearch.discovery.DiscoveryService doStart
+INFO: [Marlene Alraune] es.ycsb.cluster/iO723_CKRyySxKjqf2aD7w
+Feb 14, 2021 4:17:39 PM org.elasticsearch.cluster.service.InternalClusterService runTasksForExecutor
+INFO: [Marlene Alraune] new_master {Marlene Alraune}{iO723_CKRyySxKjqf2aD7w}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+Feb 14, 2021 4:17:40 PM org.elasticsearch.http.HttpServer doStart
+INFO: [Marlene Alraune] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+Feb 14, 2021 4:17:40 PM org.elasticsearch.node.Node start
+INFO: [Marlene Alraune] started
+Feb 14, 2021 4:17:40 PM org.elasticsearch.gateway.GatewayService$GatewayRecoveryListener$1 clusterStateProcessed
+INFO: [Marlene Alraune] recovered [0] indices into cluster_state
+Feb 14, 2021 4:17:40 PM org.elasticsearch.cluster.metadata.MetaDataCreateIndexService$1 execute
+INFO: [Marlene Alraune] [es.ycsb] creating index, cause [api], templates [], shards [1]/[0], mappings []
+Feb 14, 2021 4:17:40 PM org.elasticsearch.cluster.routing.allocation.AllocationService logClusterHealthStateChange
+INFO: [Marlene Alraune] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[es.ycsb][0]] ...]).
+Feb 14, 2021 4:17:40 PM org.elasticsearch.cluster.metadata.MetaDataMappingService$PutMappingExecutor applyRequest
+INFO: [Marlene Alraune] [es.ycsb] create_mapping [MOCK_TABLE]
+Feb 14, 2021 4:17:41 PM org.elasticsearch.node.Node stop
+INFO: [Marlene Alraune] stopping ...
+Feb 14, 2021 4:17:41 PM org.elasticsearch.node.Node stop
+INFO: [Marlene Alraune] stopped
+Feb 14, 2021 4:17:41 PM org.elasticsearch.node.Node close
+INFO: [Marlene Alraune] closing ...
+Feb 14, 2021 4:17:41 PM org.elasticsearch.node.Node close
+INFO: [Marlene Alraune] closed
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.148 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------------< site.ycsb:elasticsearch5-binding >------------------
+[INFO] Building Elasticsearch 5.x Binding 0.18.0-SNAPSHOT               [18/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ elasticsearch5-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ elasticsearch5-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ elasticsearch5-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ elasticsearch5-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /workdir/YCSB/elasticsearch5/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ elasticsearch5-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/elasticsearch5/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ elasticsearch5-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- junit4-maven-plugin:2.3.3:junit4 (unit-tests) @ elasticsearch5-binding ---
+[INFO] 
+[INFO] -------------------< site.ycsb:foundationdb-binding >-------------------
+[INFO] Building FoundationDB Binding 0.18.0-SNAPSHOT                    [19/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ foundationdb-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ foundationdb-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ foundationdb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/foundationdb/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ foundationdb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/foundationdb/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ foundationdb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/foundationdb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ foundationdb-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ foundationdb-binding ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] ----------------------< site.ycsb:geode-binding >-----------------------
+[INFO] Building Geode DB Binding 0.18.0-SNAPSHOT                        [20/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ geode-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ geode-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ geode-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/geode/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ geode-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/geode/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ geode-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/geode/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ geode-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ geode-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------< site.ycsb:googledatastore-binding >------------------
+[INFO] Building Google Cloud Datastore Binding 0.18.0-SNAPSHOT          [21/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ googledatastore-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ googledatastore-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ googledatastore-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ googledatastore-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/googledatastore/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ googledatastore-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/googledatastore/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ googledatastore-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ googledatastore-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< site.ycsb:googlebigtable-binding >------------------
+[INFO] Building Google Cloud Bigtable Binding 0.18.0-SNAPSHOT           [22/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ googlebigtable-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ googlebigtable-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ googlebigtable-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/googlebigtable/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ googlebigtable-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/googlebigtable/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ googlebigtable-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/googlebigtable/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ googlebigtable-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ googlebigtable-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------------< site.ycsb:griddb-binding >----------------------
+[INFO] Building GridDB Binding 0.18.0-SNAPSHOT                          [23/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ griddb-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ griddb-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ griddb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/griddb/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ griddb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/griddb/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ griddb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/griddb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ griddb-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ griddb-binding ---
+[INFO] Surefire report directory: /workdir/YCSB/griddb/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running site.ycsb.db.griddb.GridDBClientTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.064 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] 
+[INFO] ----------------------< site.ycsb:hbase1-binding >----------------------
+[INFO] Building HBase 1.y DB Binding 0.18.0-SNAPSHOT                    [24/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ hbase1-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ hbase1-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hbase1-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/hbase1/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ hbase1-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/hbase1/target/classes
+[INFO] /workdir/YCSB/hbase1/src/main/java/site/ycsb/db/hbase1/HBaseClient1.java: /workdir/YCSB/hbase1/src/main/java/site/ycsb/db/hbase1/HBaseClient1.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/hbase1/src/main/java/site/ycsb/db/hbase1/HBaseClient1.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hbase1-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ hbase1-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hbase1-binding ---
+[INFO] Surefire report directory: /workdir/YCSB/hbase1/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running site.ycsb.db.hbase1.HBaseClient1Test
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hadoop.hbase.util.UnsafeAvailChecker (file:/home/maven/.m2/repository/org/apache/hbase/hbase-shaded-client/1.4.12/hbase-shaded-client-1.4.12.jar) to method java.nio.Bits.unaligned()
+WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.hbase.util.UnsafeAvailChecker
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2021/02/14 16:17:44 WARN  org.apache.hadoop.util.NativeCodeLoader  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Formatting using clusterid: testClusterID
+2021/02/14 16:17:45 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-namenode.properties,hadoop-metrics2.properties
+2021/02/14 16:17:48 WARN  org.apache.hadoop.hbase.shaded.io.netty.util.internal.MacAddressUtil  - Failed to find a usable hardware address from the network interfaces; using random bytes: 7d:b8:ab:70:de:be:c6:d5
+2021/02/14 16:17:49 ERROR org.apache.hadoop.hdfs.server.datanode.DirectoryScanner  - dfs.datanode.directoryscan.throttle.limit.ms.per.sec set to value below 1 ms/sec. Assuming default value of 1000
+2021/02/14 16:17:49 ERROR org.apache.hadoop.hbase.shaded.org.apache.zookeeper.server.ZooKeeperServer  - ZKShutdownHandler is not registered, so ZooKeeper server won't take any action on ERROR or SHUTDOWN server state changes
+2021/02/14 16:17:50 WARN  org.apache.hadoop.hbase.ZNodeClearer  - Environment variable HBASE_ZNODE_FILE not set; znodes will not be cleared on crash by start scripts (Longer MTTR!)
+2021/02/14 16:17:51 WARN  org.apache.hadoop.hbase.master.snapshot.SnapshotManager  - Couldn't delete working snapshot directory: hdfs://localhost:39027/user/maven/test-data/81e32e47-03c1-4caf-93b5-543d7e318d32/.hbase-snapshot/.tmp
+2021/02/14 16:17:51 WARN  org.apache.hadoop.hbase.procedure2.store.wal.WALProcedureStore  - Log directory not found: File hdfs://localhost:39027/user/maven/test-data/81e32e47-03c1-4caf-93b5-543d7e318d32/MasterProcWALs does not exist.
+2021/02/14 16:17:51 WARN  org.apache.hadoop.hbase.regionserver.HRegionServer  - reportForDuty failed; sleeping and then retrying.
+2021/02/14 16:17:54 WARN  org.apache.hadoop.hbase.ZNodeClearer  - Environment variable HBASE_ZNODE_FILE not set; znodes will not be cleared on crash by start scripts (Longer MTTR!)
+2021/02/14 16:18:01 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2021/02/14 16:18:06 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2021/02/14 16:18:12 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2021/02/14 16:18:18 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2021/02/14 16:18:25 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2021/02/14 16:18:25 ERROR org.apache.hadoop.hbase.shaded.org.apache.zookeeper.server.ZooKeeperServer  - ZKShutdownHandler is not registered, so ZooKeeper server won't take any action on ERROR or SHUTDOWN server state changes
+2021/02/14 16:18:25 WARN  org.apache.hadoop.hdfs.server.datanode.DirectoryScanner  - DirectoryScanner: shutdown has been called
+2021/02/14 16:18:25 WARN  org.apache.hadoop.hdfs.server.datanode.IncrementalBlockReportManager  - IncrementalBlockReportManager interrupted
+2021/02/14 16:18:25 WARN  org.apache.hadoop.hdfs.server.datanode.DataNode  - Ending block pool service for: Block pool BP-1369362508-172.17.0.2-1613319464792 (Datanode Uuid aa7f9e4d-29e5-4197-943b-b0096505ccbd) service to localhost/127.0.0.1:39027
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 42.222 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] 
+[INFO] ----------------------< site.ycsb:hbase2-binding >----------------------
+[INFO] Building HBase 2.y DB Binding 0.18.0-SNAPSHOT                    [25/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ hbase2-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ hbase2-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hbase2-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/hbase2/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ hbase2-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/hbase2/target/classes
+[INFO] /workdir/YCSB/hbase2/src/main/java/site/ycsb/db/hbase2/HBaseClient2.java: /workdir/YCSB/hbase2/src/main/java/site/ycsb/db/hbase2/HBaseClient2.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/hbase2/src/main/java/site/ycsb/db/hbase2/HBaseClient2.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hbase2-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ hbase2-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hbase2-binding ---
+[INFO] Surefire report directory: /workdir/YCSB/hbase2/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running site.ycsb.db.hbase2.HBaseClient2Test
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hadoop.hbase.util.UnsafeAvailChecker (file:/home/maven/.m2/repository/org/apache/hbase/hbase-shaded-client/2.2.3/hbase-shaded-client-2.2.3.jar) to method java.nio.Bits.unaligned()
+WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.hbase.util.UnsafeAvailChecker
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2021/02/14 16:18:27 WARN  org.apache.hadoop.util.NativeCodeLoader  - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Formatting using clusterid: testClusterID
+2021/02/14 16:18:28 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-namenode.properties,hadoop-metrics2.properties
+2021/02/14 16:18:33 ERROR org.apache.hadoop.hbase.shaded.org.apache.zookeeper.server.ZooKeeperServer  - ZKShutdownHandler is not registered, so ZooKeeper server won't take any action on ERROR or SHUTDOWN server state changes
+2021/02/14 16:18:34 WARN  org.apache.hadoop.hbase.ZNodeClearer  - Environment variable HBASE_ZNODE_FILE not set; znodes will not be cleared on crash by start scripts (Longer MTTR!)
+2021/02/14 16:18:35 WARN  org.apache.hadoop.hbase.util.CommonFSUtils  - Your Hadoop installation does not include the StreamCapabilities class from HDFS-11644, so we will skip checking if any FSDataOutputStreams actually support hflush/hsync. If you are running on top of HDFS this probably just means you have an older version and this can be ignored. If you are running on top of an alternate FileSystem implementation you should manually verify that hflush and hsync are implemented; otherwise you risk data loss and hard to diagnose errors when our assumptions are violated.
+2021/02/14 16:18:35 WARN  org.apache.hadoop.hbase.master.snapshot.SnapshotManager  - Couldn't delete working snapshot directory: hdfs://localhost:42699/user/maven/test-data/5f660e4b-d998-516f-2adc-34dda70774f4/.hbase-snapshot/.tmp
+2021/02/14 16:18:35 WARN  org.apache.hadoop.hbase.regionserver.HRegionServer  - reportForDuty failed; sleeping 3000 ms and then retrying.
+2021/02/14 16:18:35 WARN  org.apache.hadoop.hbase.master.assignment.AssignmentManager  - No servers available; cannot place 1 unassigned regions.
+2021/02/14 16:18:36 WARN  org.apache.hadoop.hbase.master.assignment.AssignmentManager  - No servers available; cannot place 1 unassigned regions.
+2021/02/14 16:18:37 WARN  org.apache.hadoop.hbase.master.assignment.AssignmentManager  - No servers available; cannot place 1 unassigned regions.
+2021/02/14 16:18:38 WARN  org.apache.hadoop.hbase.ZNodeClearer  - Environment variable HBASE_ZNODE_FILE not set; znodes will not be cleared on crash by start scripts (Longer MTTR!)
+2021/02/14 16:18:44 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2021/02/14 16:18:49 WARN  org.apache.hadoop.hbase.master.procedure.DeleteTableProcedure  - Deleting some vestigial 1 rows of usertable from hbase:meta
+2021/02/14 16:18:50 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2021/02/14 16:18:55 WARN  org.apache.hadoop.hbase.master.procedure.DeleteTableProcedure  - Deleting some vestigial 1 rows of usertable from hbase:meta
+2021/02/14 16:18:57 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2021/02/14 16:19:03 WARN  org.apache.hadoop.hbase.master.procedure.DeleteTableProcedure  - Deleting some vestigial 1 rows of usertable from hbase:meta
+2021/02/14 16:19:03 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2021/02/14 16:19:08 WARN  org.apache.hadoop.hbase.master.procedure.DeleteTableProcedure  - Deleting some vestigial 1 rows of usertable from hbase:meta
+2021/02/14 16:19:09 WARN  org.apache.hadoop.hbase.shaded.org.apache.zookeeper.server.NIOServerCnxn  - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x177a156245f0002, likely client has closed socket
+	at org.apache.hadoop.hbase.shaded.org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.hadoop.hbase.shaded.org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021/02/14 16:19:09 WARN  org.apache.hadoop.hbase.shaded.org.apache.zookeeper.server.NIOServerCnxn  - caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x177a156245f0003, likely client has closed socket
+	at org.apache.hadoop.hbase.shaded.org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:239)
+	at org.apache.hadoop.hbase.shaded.org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:203)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2021/02/14 16:19:10 WARN  org.apache.hadoop.metrics2.impl.MetricsConfig  - Cannot locate configuration: tried hadoop-metrics2-hbase.properties,hadoop-metrics2.properties
+2021/02/14 16:19:10 WARN  org.apache.hadoop.hbase.io.asyncfs.FanOutOneBlockAsyncDFSOutputHelper  - complete file /user/maven/test-data/5f660e4b-d998-516f-2adc-34dda70774f4/WALs/605b8309f1f8,37171,1613319514526/605b8309f1f8%2C37171%2C1613319514526.1613319521762 not finished, retry = 0
+2021/02/14 16:19:11 ERROR org.apache.hadoop.hbase.procedure2.ProcedureExecutor  - ThreadGroup java.lang.ThreadGroup[name=PEWorkerGroup,maxpri=10] contains running threads; null: See STDOUT
+java.lang.ThreadGroup[name=PEWorkerGroup,maxpri=10]
+    Thread[HFileArchiver-1,5,PEWorkerGroup]
+    Thread[HFileArchiver-2,5,PEWorkerGroup]
+    Thread[HFileArchiver-3,5,PEWorkerGroup]
+    Thread[HFileArchiver-4,5,PEWorkerGroup]
+    Thread[HFileArchiver-5,5,PEWorkerGroup]
+    Thread[HFileArchiver-6,5,PEWorkerGroup]
+    Thread[HFileArchiver-7,5,PEWorkerGroup]
+    Thread[HFileArchiver-8,5,PEWorkerGroup]
+2021/02/14 16:19:11 WARN  org.apache.hadoop.hdfs.server.datanode.DirectoryScanner  - DirectoryScanner: shutdown has been called
+2021/02/14 16:19:12 WARN  org.apache.hadoop.hdfs.server.datanode.DataNode  - Ending block pool service for: Block pool BP-436686833-172.17.0.2-1613319507771 (Datanode Uuid 6ee90caf-4f69-4ff7-a249-4cd51072a87e) service to localhost/127.0.0.1:42699
+2021/02/14 16:19:12 WARN  org.apache.hadoop.fs.CachingGetSpaceUsed  - Thread Interrupted waiting to refresh disk information: sleep interrupted
+2021/02/14 16:19:12 WARN  org.apache.hadoop.fs.CachingGetSpaceUsed  - Thread Interrupted waiting to refresh disk information: sleep interrupted
+2021/02/14 16:19:12 ERROR org.apache.hadoop.hbase.shaded.org.apache.zookeeper.server.ZooKeeperServer  - ZKShutdownHandler is not registered, so ZooKeeper server won't take any action on ERROR or SHUTDOWN server state changes
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 45.512 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] 
+[INFO] --------------------< site.ycsb:hypertable-binding >--------------------
+[INFO] Building Hypertable DB Binding 0.18.0-SNAPSHOT                   [26/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ hypertable-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ hypertable-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ hypertable-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/hypertable/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ hypertable-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/hypertable/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ hypertable-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/hypertable/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ hypertable-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ hypertable-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------------< site.ycsb:ignite-binding >----------------------
+[INFO] Building Apache Ignite 0.18.0-SNAPSHOT                           [27/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ ignite-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ ignite-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ ignite-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ ignite-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /workdir/YCSB/ignite/target/classes
+[INFO] /workdir/YCSB/ignite/src/main/java/site/ycsb/db/ignite/IgniteAbstractClient.java: /workdir/YCSB/ignite/src/main/java/site/ycsb/db/ignite/IgniteAbstractClient.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/ignite/src/main/java/site/ycsb/db/ignite/IgniteAbstractClient.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ ignite-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/ignite/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ ignite-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ ignite-binding ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --------------------< site.ycsb:infinispan-binding >--------------------
+[INFO] Building Infinispan DB Binding 0.18.0-SNAPSHOT                   [28/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ infinispan-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ infinispan-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ infinispan-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/infinispan/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ infinispan-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /workdir/YCSB/infinispan/target/classes
+[INFO] /workdir/YCSB/infinispan/src/main/java/site/ycsb/db/RemoteCacheManagerHolder.java: /workdir/YCSB/infinispan/src/main/java/site/ycsb/db/RemoteCacheManagerHolder.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/infinispan/src/main/java/site/ycsb/db/RemoteCacheManagerHolder.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ infinispan-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/infinispan/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ infinispan-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ infinispan-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------------< site.ycsb:jdbc-binding >-----------------------
+[INFO] Building JDBC DB Binding 0.18.0-SNAPSHOT                         [29/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ jdbc-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ jdbc-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ jdbc-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ jdbc-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /workdir/YCSB/jdbc/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ jdbc-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/jdbc/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ jdbc-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ jdbc-binding ---
+[INFO] Surefire report directory: /workdir/YCSB/jdbc/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running site.ycsb.db.JdbcDBClientTest
+Adding shard node URL: jdbc:hsqldb:mem:ycsb
+Using shards: 1, batchSize:1, fetchSize: -1
+Adding shard node URL: jdbc:hsqldb:mem:ycsb
+Using shards: 1, batchSize:10, fetchSize: -1
+Adding shard node URL: jdbc:hsqldb:mem:ycsb
+Using shards: 1, batchSize:1, fetchSize: -1
+Adding shard node URL: jdbc:hsqldb:mem:ycsb
+Using shards: 1, batchSize:10, fetchSize: -1
+Adding shard node URL: jdbc:hsqldb:mem:ycsb
+Using shards: 1, batchSize:1, fetchSize: -1
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.341 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -----------------------< site.ycsb:kudu-binding >-----------------------
+[INFO] Building Kudu DB Binding 0.18.0-SNAPSHOT                         [30/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ kudu-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ kudu-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ kudu-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ kudu-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/kudu/target/classes
+[INFO] /workdir/YCSB/kudu/src/main/java/site/ycsb/db/KuduYCSBClient.java: /workdir/YCSB/kudu/src/main/java/site/ycsb/db/KuduYCSBClient.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/kudu/src/main/java/site/ycsb/db/KuduYCSBClient.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ kudu-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/kudu/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ kudu-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ kudu-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------< site.ycsb:memcached-binding >---------------------
+[INFO] Building memcached binding 0.18.0-SNAPSHOT                       [31/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ memcached-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ memcached-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ memcached-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/memcached/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ memcached-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/memcached/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ memcached-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/memcached/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ memcached-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ memcached-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------------< site.ycsb:maprdb-binding >----------------------
+[INFO] Building MapRDB Binding 0.18.0-SNAPSHOT                          [32/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ maprdb-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ maprdb-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ maprdb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/maprdb/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ maprdb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/maprdb/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ maprdb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/maprdb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ maprdb-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ maprdb-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------< site.ycsb:maprjsondb-binding >--------------------
+[INFO] Building MapR JSON DB Binding 0.18.0-SNAPSHOT                    [33/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ maprjsondb-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ maprjsondb-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ maprjsondb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/maprjsondb/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ maprjsondb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /workdir/YCSB/maprjsondb/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ maprjsondb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/maprjsondb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ maprjsondb-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ maprjsondb-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------------------< site.ycsb:mongodb-binding >----------------------
+[INFO] Building MongoDB Binding 0.18.0-SNAPSHOT                         [34/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ mongodb-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ mongodb-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ mongodb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ mongodb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 4 source files to /workdir/YCSB/mongodb/target/classes
+[INFO] /workdir/YCSB/mongodb/src/main/java/site/ycsb/db/MongoDbClient.java: /workdir/YCSB/mongodb/src/main/java/site/ycsb/db/MongoDbClient.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/mongodb/src/main/java/site/ycsb/db/MongoDbClient.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ mongodb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/mongodb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ mongodb-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ mongodb-binding ---
+[INFO] Surefire report directory: /workdir/YCSB/mongodb/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running site.ycsb.db.OptionsSupportTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
+Running site.ycsb.db.AsyncMongoDbClientTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.012 sec
+Running site.ycsb.db.MongoDbClientTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 2
+
+[INFO] 
+[INFO] ---------------------< site.ycsb:nosqldb-binding >----------------------
+[INFO] Building Oracle NoSQL Database Binding 0.18.0-SNAPSHOT           [35/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ nosqldb-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ nosqldb-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ nosqldb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/nosqldb/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ nosqldb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/nosqldb/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ nosqldb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/nosqldb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ nosqldb-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ nosqldb-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ---------------------< site.ycsb:orientdb-binding >---------------------
+[INFO] Building OrientDB Binding 0.18.0-SNAPSHOT                        [36/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ orientdb-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ orientdb-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ orientdb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ orientdb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/orientdb/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ orientdb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/orientdb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ orientdb-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ orientdb-binding ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] -------------------< site.ycsb:postgrenosql-binding >-------------------
+[INFO] Building PostgreNoSQL Binding 0.18.0-SNAPSHOT                    [37/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ postgrenosql-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ postgrenosql-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ postgrenosql-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/postgrenosql/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ postgrenosql-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /workdir/YCSB/postgrenosql/target/classes
+[INFO] /workdir/YCSB/postgrenosql/src/main/java/site/ycsb/postgrenosql/PostgreNoSQLDBClient.java: /workdir/YCSB/postgrenosql/src/main/java/site/ycsb/postgrenosql/PostgreNoSQLDBClient.java uses unchecked or unsafe operations.
+[INFO] /workdir/YCSB/postgrenosql/src/main/java/site/ycsb/postgrenosql/PostgreNoSQLDBClient.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ postgrenosql-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/postgrenosql/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ postgrenosql-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ postgrenosql-binding ---
+[INFO] Surefire report directory: /workdir/YCSB/postgrenosql/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running site.ycsb.postgrenosql.PostgreNoSQLDBClientTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.077 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] 
+[INFO] ----------------------< site.ycsb:rados-binding >-----------------------
+[INFO] Building rados of Ceph FS binding 0.18.0-SNAPSHOT                [38/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ rados-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ rados-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rados-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/rados/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ rados-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/rados/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rados-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/rados/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ rados-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ rados-binding ---
+[INFO] Surefire report directory: /workdir/YCSB/rados/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running site.ycsb.db.RadosClientTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.098 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] 
+[INFO] ----------------------< site.ycsb:redis-binding >-----------------------
+[INFO] Building Redis DB Binding 0.18.0-SNAPSHOT                        [39/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ redis-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ redis-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ redis-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/redis/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ redis-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/redis/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ redis-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/redis/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ redis-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ redis-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------------< site.ycsb:rest-binding >-----------------------
+[INFO] Building Rest Client Binding 0.18.0-SNAPSHOT                     [40/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ rest-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ rest-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rest-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/rest/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ rest-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/rest/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rest-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ rest-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ rest-binding ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] -----------------------< site.ycsb:riak-binding >-----------------------
+[INFO] Building Riak KV Binding 0.18.0-SNAPSHOT                         [41/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ riak-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ riak-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ riak-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ riak-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /workdir/YCSB/riak/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ riak-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/riak/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ riak-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ riak-binding ---
+[INFO] Surefire report directory: /workdir/YCSB/riak/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running site.ycsb.db.riak.RiakKVClientTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.PlatformDependent0 (file:/home/maven/.m2/repository/io/netty/netty-all/4.0.33.Final/netty-all-4.0.33.Final.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.PlatformDependent0
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Feb 14, 2021 4:19:16 PM io.netty.util.internal.PlatformDependent <clinit>
+INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.265 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] 
+[INFO] ---------------------< site.ycsb:rocksdb-binding >----------------------
+[INFO] Building RocksDB Java Binding 0.18.0-SNAPSHOT                    [42/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ rocksdb-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ rocksdb-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ rocksdb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/rocksdb/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ rocksdb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/rocksdb/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ rocksdb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ rocksdb-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ rocksdb-binding ---
+[INFO] Surefire report directory: /workdir/YCSB/rocksdb/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running site.ycsb.db.rocksdb.RocksDBClientTest
+[main] INFO site.ycsb.db.rocksdb.RocksDBClient - RocksDB data dir: /tmp/junit4255682907200068651
+[main] INFO site.ycsb.db.rocksdb.RocksDBClient - RocksDB data dir: /tmp/junit4347682536696122103
+[main] INFO site.ycsb.db.rocksdb.RocksDBClient - RocksDB data dir: /tmp/junit2145491428498066779
+[main] INFO site.ycsb.db.rocksdb.RocksDBClient - RocksDB data dir: /tmp/junit15181903700981000489
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.233 sec
+Running site.ycsb.db.rocksdb.RocksDBOptionsFileTest
+[main] INFO site.ycsb.db.rocksdb.RocksDBClient - RocksDB data dir: /tmp/junit618941640802021537
+[main] INFO site.ycsb.db.rocksdb.RocksDBClient - RocksDB options file: /workdir/YCSB/rocksdb/target/test-classes/testcase.ini
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.274 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------------------< site.ycsb:s3-binding >------------------------
+[INFO] Building S3 Storage Binding 0.18.0-SNAPSHOT                      [43/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ s3-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ s3-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ s3-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/s3/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ s3-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/s3/target/classes
+[INFO] /workdir/YCSB/s3/src/main/java/site/ycsb/db/S3Client.java: /workdir/YCSB/s3/src/main/java/site/ycsb/db/S3Client.java uses unchecked or unsafe operations.
+[INFO] /workdir/YCSB/s3/src/main/java/site/ycsb/db/S3Client.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ s3-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/s3/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ s3-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ s3-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------------< site.ycsb:solr-binding >-----------------------
+[INFO] Building Solr Binding 0.18.0-SNAPSHOT                            [44/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ solr-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ solr-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ solr-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ solr-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/solr/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ solr-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ solr-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ solr-binding ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] ----------------------< site.ycsb:solr6-binding >-----------------------
+[INFO] Building Solr 6 Binding 0.18.0-SNAPSHOT                          [45/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ solr6-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ solr6-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ solr6-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ solr6-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/solr6/target/classes
+[INFO] /workdir/YCSB/solr6/src/main/java/site/ycsb/db/solr6/SolrClient.java: /workdir/YCSB/solr6/src/main/java/site/ycsb/db/solr6/SolrClient.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/solr6/src/main/java/site/ycsb/db/solr6/SolrClient.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ solr6-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ solr6-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ solr6-binding ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] ----------------------< site.ycsb:solr7-binding >-----------------------
+[INFO] Building Solr 7 Binding 0.18.0-SNAPSHOT                          [46/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ solr7-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ solr7-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ solr7-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ solr7-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/solr7/target/classes
+[INFO] /workdir/YCSB/solr7/src/main/java/site/ycsb/db/solr7/SolrClient.java: /workdir/YCSB/solr7/src/main/java/site/ycsb/db/solr7/SolrClient.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/solr7/src/main/java/site/ycsb/db/solr7/SolrClient.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ solr7-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ solr7-binding ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ solr7-binding ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --------------------< site.ycsb:tarantool-binding >---------------------
+[INFO] Building Tarantool DB Binding 0.18.0-SNAPSHOT                    [47/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ tarantool-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ tarantool-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tarantool-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/tarantool/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ tarantool-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/tarantool/target/classes
+[INFO] /workdir/YCSB/tarantool/src/main/java/site/ycsb/db/TarantoolClient.java: /workdir/YCSB/tarantool/src/main/java/site/ycsb/db/TarantoolClient.java uses unchecked or unsafe operations.
+[INFO] /workdir/YCSB/tarantool/src/main/java/site/ycsb/db/TarantoolClient.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tarantool-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/tarantool/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ tarantool-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tarantool-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------< site.ycsb:tablestore-binding >--------------------
+[INFO] Building TableStore DB Binding 0.18.0-SNAPSHOT                   [48/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ tablestore-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ tablestore-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tablestore-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ tablestore-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/tablestore/target/classes
+[INFO] /workdir/YCSB/tablestore/src/main/java/site/ycsb/db/tablestore/TableStoreClient.java: /workdir/YCSB/tablestore/src/main/java/site/ycsb/db/tablestore/TableStoreClient.java uses or overrides a deprecated API.
+[INFO] /workdir/YCSB/tablestore/src/main/java/site/ycsb/db/tablestore/TableStoreClient.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tablestore-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/tablestore/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ tablestore-binding ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tablestore-binding ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------------< site.ycsb:voltdb-binding >----------------------
+[INFO] Building VoltDB Binding 0.18.0-SNAPSHOT                          [49/50]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ voltdb-binding ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ voltdb-binding ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ voltdb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/voltdb/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ voltdb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 14 source files to /workdir/YCSB/voltdb/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ voltdb-binding ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/YCSB/voltdb/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ voltdb-binding ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/YCSB/voltdb/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ voltdb-binding ---
+[INFO] Surefire report directory: /workdir/YCSB/voltdb/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running site.ycsb.db.voltdb.test.VoltDBClientTest
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console.
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 0.344 sec
+
+Results :
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 5
+
+[INFO] 
+[INFO] ---------------------------< site.ycsb:ycsb >---------------------------
+[INFO] Building YCSB Release Distribution Builder 0.18.0-SNAPSHOT       [50/50]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M1:enforce (enforce-maven) @ ycsb ---
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:2.16:check (validate) @ ycsb ---
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for YCSB Root 0.18.0-SNAPSHOT:
+[INFO] 
+[INFO] YCSB Root .......................................... SUCCESS [  0.953 s]
+[INFO] Core YCSB .......................................... SUCCESS [  3.054 s]
+[INFO] Per Datastore Binding descriptor ................... SUCCESS [  0.124 s]
+[INFO] YCSB Datastore Binding Parent ...................... SUCCESS [  0.103 s]
+[INFO] Accumulo 1.9 DB Binding ............................ SUCCESS [  0.616 s]
+[INFO] Aerospike DB Binding ............................... SUCCESS [  0.150 s]
+[INFO] ArangoDB Binding ................................... SUCCESS [  0.215 s]
+[INFO] AsyncHBase Client Binding for Apache HBase ......... SUCCESS [  0.234 s]
+[INFO] Cassandra 2.1+ DB Binding .......................... SUCCESS [  0.432 s]
+[INFO] Cloud Spanner DB Binding ........................... SUCCESS [  0.283 s]
+[INFO] Couchbase Binding .................................. SUCCESS [  0.175 s]
+[INFO] Couchbase Java SDK 2.x Binding ..................... SUCCESS [  0.206 s]
+[INFO] Crail DB Binding ................................... SUCCESS [  0.143 s]
+[INFO] Azure Cosmos Binding ............................... SUCCESS [  0.828 s]
+[INFO] Azure table storage Binding ........................ SUCCESS [  0.142 s]
+[INFO] DynamoDB DB Binding ................................ SUCCESS [  0.238 s]
+[INFO] Elasticsearch Binding .............................. SUCCESS [  3.688 s]
+[INFO] Elasticsearch 5.x Binding .......................... SUCCESS [  0.355 s]
+[INFO] FoundationDB Binding ............................... SUCCESS [  0.159 s]
+[INFO] Geode DB Binding ................................... SUCCESS [  0.205 s]
+[INFO] Google Cloud Datastore Binding ..................... SUCCESS [  0.168 s]
+[INFO] Google Cloud Bigtable Binding ...................... SUCCESS [  0.242 s]
+[INFO] GridDB Binding ..................................... SUCCESS [  0.378 s]
+[INFO] HBase 1.y DB Binding ............................... SUCCESS [ 42.992 s]
+[INFO] HBase 2.y DB Binding ............................... SUCCESS [ 46.289 s]
+[INFO] Hypertable DB Binding .............................. SUCCESS [  0.149 s]
+[INFO] Apache Ignite ...................................... SUCCESS [  0.263 s]
+[INFO] Infinispan DB Binding .............................. SUCCESS [  0.172 s]
+[INFO] JDBC DB Binding .................................... SUCCESS [  0.722 s]
+[INFO] Kudu DB Binding .................................... SUCCESS [  0.144 s]
+[INFO] memcached binding .................................. SUCCESS [  0.147 s]
+[INFO] MapRDB Binding ..................................... SUCCESS [  0.202 s]
+[INFO] MapR JSON DB Binding ............................... SUCCESS [  0.134 s]
+[INFO] MongoDB Binding .................................... SUCCESS [  0.426 s]
+[INFO] Oracle NoSQL Database Binding ...................... SUCCESS [  0.145 s]
+[INFO] OrientDB Binding ................................... SUCCESS [  0.154 s]
+[INFO] PostgreNoSQL Binding ............................... SUCCESS [  0.416 s]
+[INFO] rados of Ceph FS binding ........................... SUCCESS [  0.399 s]
+[INFO] Redis DB Binding ................................... SUCCESS [  0.124 s]
+[INFO] Rest Client Binding ................................ SUCCESS [  0.177 s]
+[INFO] Riak KV Binding .................................... SUCCESS [  0.957 s]
+[INFO] RocksDB Java Binding ............................... SUCCESS [  1.870 s]
+[INFO] S3 Storage Binding ................................. SUCCESS [  0.170 s]
+[INFO] Solr Binding ....................................... SUCCESS [  0.208 s]
+[INFO] Solr 6 Binding ..................................... SUCCESS [  0.248 s]
+[INFO] Solr 7 Binding ..................................... SUCCESS [  0.236 s]
+[INFO] Tarantool DB Binding ............................... SUCCESS [  0.120 s]
+[INFO] TableStore DB Binding .............................. SUCCESS [  0.158 s]
+[INFO] VoltDB Binding ..................................... SUCCESS [  0.828 s]
+[INFO] YCSB Release Distribution Builder .................. SUCCESS [  0.192 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:51 min
+[INFO] Finished at: 2021-02-14T16:19:21Z
+[INFO] ------------------------------------------------------------------------

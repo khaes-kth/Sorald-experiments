@@ -1,0 +1,87 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] --------------------< com.spotify.sparkey:sparkey >---------------------
+[INFO] Building sparkey 3.2.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-maven) @ sparkey ---
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M2:enforce (enforce-bytecode-version) @ sparkey ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sparkey ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/sparkey-java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sparkey ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sparkey ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/sparkey-java/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sparkey ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sparkey ---
+[INFO] Surefire report directory: /workdir/sparkey-java/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.spotify.sparkey.CommonHeaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec
+Running com.spotify.sparkey.CompressedReaderTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.285 sec
+Running com.spotify.sparkey.AddressSizeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.spotify.sparkey.ReadOnlyMemMapTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.811 sec
+Running com.spotify.sparkey.SparkeyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.spotify.sparkey.system.BaseSystemTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.spotify.sparkey.system.LargeFilesTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.806 sec
+Running com.spotify.sparkey.system.CorrectnessTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.597 sec
+Running com.spotify.sparkey.CompressedOutputStreamTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.9 sec
+Running com.spotify.sparkey.IndexHashTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.spotify.sparkey.extra.ReloadableSparkeyReaderTest
+00:11:00.326 [pool-2-thread-1] INFO com.spotify.sparkey.extra.ReloadableSparkeyReader - loaded sparkey index /tmp/sparkey973737646479966215.spl, 1 keys
+00:11:00.551 [pool-4-thread-1] INFO com.spotify.sparkey.extra.ReloadableSparkeyReader - loaded sparkey index /tmp/sparkey15887924154638417133.spl, 1 keys
+00:11:00.554 [pool-4-thread-1] INFO com.spotify.sparkey.extra.ReloadableSparkeyReader - loaded sparkey index /tmp/sparkey9614451471336480094.spl, 1 keys
+00:11:00.556 [pool-4-thread-1] INFO com.spotify.sparkey.extra.ReloadableSparkeyReader - loaded sparkey index /tmp/sparkey15887924154638417133.spl, 1 keys
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.672 sec
+Running com.spotify.sparkey.extra.ThreadLocalSparkeyReaderTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.629 sec
+Running com.spotify.sparkey.extra.DelegatingSparkeyReaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.spotify.sparkey.SortHelperTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.spotify.sparkey.BytesWrittenTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.199 sec
+Running com.spotify.sparkey.UtilTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.spotify.sparkey.MurmurHash3Test
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+
+Results :
+
+Tests run: 54, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  54.486 s
+[INFO] Finished at: 2021-02-15T00:11:01Z
+[INFO] ------------------------------------------------------------------------

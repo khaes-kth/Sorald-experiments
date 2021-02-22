@@ -1,0 +1,42 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.eatthepath:fast-uuid >----------------------
+[INFO] Building fast-uuid 0.2-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ fast-uuid ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fast-uuid ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/fast-uuid/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fast-uuid ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/fast-uuid/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fast-uuid ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/fast-uuid/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ fast-uuid ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ fast-uuid ---
+[INFO] Surefire report directory: /workdir/fast-uuid/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.eatthepath.uuid.FastUUIDTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 sec
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.328 s
+[INFO] Finished at: 2021-02-15T08:23:18Z
+[INFO] ------------------------------------------------------------------------

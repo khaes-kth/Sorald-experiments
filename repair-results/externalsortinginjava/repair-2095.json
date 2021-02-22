@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 6,
         "performedRepairsLocations": [
             {
                 "endLine": 399,
@@ -55,11 +56,10 @@
                 "violationSpecifier": "2095:src/test/java/com/google/code/externalsorting/csv/CsvExternalSortTest.java:65:26:65:72"
             }
         ],
-        "nbViolationsBefore": 6,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -73,10 +73,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 4243,
-    "repairTimeMs": 202,
-    "startTimeMs": 1612809160231,
+    "totalTimeMs": 4407,
+    "repairTimeMs": 223,
+    "startTimeMs": 1613347091476,
     "crashes": [],
-    "endTimeMs": 1612809164474,
-    "parseTimeMs": 887
+    "endTimeMs": 1613347095883,
+    "parseTimeMs": 856
 }

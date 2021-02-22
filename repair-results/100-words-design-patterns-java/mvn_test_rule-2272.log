@@ -1,0 +1,88 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< com.hundredwordsgof:100-words-design-patterns >------------
+[INFO] Building 100 words GoF DP 1.0.0.M7
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ 100-words-design-patterns ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 73 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ 100-words-design-patterns ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ 100-words-design-patterns ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/100-words-design-patterns-java/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ 100-words-design-patterns ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ 100-words-design-patterns ---
+[INFO] Surefire report directory: /workdir/100-words-design-patterns-java/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.hundredwordsgof.iterator.IteratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec - in com.hundredwordsgof.iterator.IteratorTest
+Running com.hundredwordsgof.singleton.SingletonTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.singleton.SingletonTest
+Running com.hundredwordsgof.prototype.PrototypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.prototype.PrototypeTest
+Running com.hundredwordsgof.flyweight.FlyweightTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.hundredwordsgof.flyweight.FlyweightTest
+Running com.hundredwordsgof.templatemethod.TemplateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.templatemethod.TemplateTest
+Running com.hundredwordsgof.facade.FacadeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.facade.FacadeTest
+Running com.hundredwordsgof.factorymethod.FactoryMethodTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.factorymethod.FactoryMethodTest
+Running com.hundredwordsgof.composite.CompositeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.composite.CompositeTest
+Running com.hundredwordsgof.builder.BuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.builder.BuilderTest
+Running com.hundredwordsgof.proxy.ProxyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.proxy.ProxyTest
+Running com.hundredwordsgof.command.CommandTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.hundredwordsgof.command.CommandTest
+Running com.hundredwordsgof.decorator.DecoratorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.hundredwordsgof.decorator.DecoratorTest
+Running com.hundredwordsgof.strategy.StrategyTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.strategy.StrategyTest
+Running com.hundredwordsgof.mediator.MediatorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.mediator.MediatorTest
+Running com.hundredwordsgof.bridge.BridgeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.hundredwordsgof.bridge.BridgeTest
+Running com.hundredwordsgof.adapter.ClazzAdapterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.adapter.ClazzAdapterTest
+Running com.hundredwordsgof.adapter.ObjectAdapterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec - in com.hundredwordsgof.adapter.ObjectAdapterTest
+Running com.hundredwordsgof.chainofresponsibility.ChainOfResponsabilityTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.chainofresponsibility.ChainOfResponsabilityTest
+Running com.hundredwordsgof.visitor.VisitorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.visitor.VisitorTest
+Running com.hundredwordsgof.interpreter.InterpreterTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.interpreter.InterpreterTest
+Running com.hundredwordsgof.state.StateTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.state.StateTest
+Running com.hundredwordsgof.memento.MementoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.memento.MementoTest
+Running com.hundredwordsgof.observer.ObserverTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.observer.ObserverTest
+Running com.hundredwordsgof.abstractfactory.AbstractFactoryTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec - in com.hundredwordsgof.abstractfactory.AbstractFactoryTest
+
+Results :
+
+Tests run: 31, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (run-unit-tests) @ 100-words-design-patterns ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.030 s
+[INFO] Finished at: 2021-02-15T02:30:38Z
+[INFO] ------------------------------------------------------------------------

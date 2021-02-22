@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
-        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 65,
             "endColumn": 31,
@@ -14,10 +13,11 @@
             "filePath": "pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/output/ThreadedStreamConsumer.java",
             "violationSpecifier": "4973:pitest-maven/target/maven-plugin-plugin-sources/org.apache.maven.surefire/maven-surefire-common/2.17/sources/org/apache/maven/plugin/surefire/booterclient/output/ThreadedStreamConsumer.java:65:29:65:31"
         }],
+        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 16819,
-    "repairTimeMs": 693,
-    "startTimeMs": 1612806503740,
+    "totalTimeMs": 17446,
+    "repairTimeMs": 858,
+    "startTimeMs": 1613336141157,
     "crashes": [],
-    "endTimeMs": 1612806520559,
-    "parseTimeMs": 7499
+    "endTimeMs": 1613336158603,
+    "parseTimeMs": 7728
 }

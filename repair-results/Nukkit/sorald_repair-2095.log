@@ -1,17 +1,17 @@
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=26ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization (done) | time=1ms
 INFO  Java Main Files AST scan
 INFO  1533 source files to be analyzed
-INFO  503/1533 files analyzed, current file: src/main/java/cn/nukkit/command/defaults/HelpCommand.java
-INFO  862/1533 files analyzed, current file: src/main/java/cn/nukkit/level/generator/object/tree/ObjectDarkOakTree.java
-INFO  1408/1533 files analyzed, current file: src/main/java/cn/nukkit/block/BlockFarmland.java
+INFO  509/1533 files analyzed, current file: src/main/java/cn/nukkit/command/defaults/TeleportCommand.java
+INFO  861/1533 files analyzed, current file: src/main/java/cn/nukkit/level/generator/object/tree/ObjectSpruceTree.java
+INFO  1393/1533 files analyzed, current file: src/main/java/cn/nukkit/block/Block.java
 INFO  1533/1533 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=32193ms
+INFO  Java Main Files AST scan (done) | time=32749ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=0ms
@@ -26,15 +26,15 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1533 source files to be analyzed
-INFO  704/1533 files analyzed, current file: src/main/java/cn/nukkit/entity/mob/EntityCaveSpider.java
-INFO  1101/1533 files analyzed, current file: src/main/java/cn/nukkit/network/protocol/MovePlayerPacket.java
-INFO  Java Main Files AST scan (done) | time=25399ms
+INFO  692/1533 files analyzed, current file: src/main/java/cn/nukkit/entity/item/EntityMinecartAbstract.java
+INFO  1046/1533 files analyzed, current file: src/main/java/cn/nukkit/network/protocol/CommandBlockUpdatePacket.java
+INFO  Java Main Files AST scan (done) | time=25868ms
 INFO  Java Test Files AST scan
 INFO  1533/1533 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=1ms
+INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
-INFO  0 source files to be analyzed
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed

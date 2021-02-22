@@ -4,17 +4,17 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  261 source files to be analyzed
-INFO  35/261 files analyzed, current file: singer-commons/target/generated-sources/thrift/scrooge/com/pinterest/singer/loggingaudit/thrift/configuration/LoggingAuditClientConfig.java
+INFO  32/261 files analyzed, current file: singer-commons/target/generated-sources/thrift/scrooge/com/pinterest/singer/thrift/LogMessage.java
 INFO  197/261 files analyzed, current file: singer/src/main/java/com/pinterest/singer/utils/LogConfigUtils.java
 INFO  261/261 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=28677ms
+INFO  Java Main Files AST scan (done) | time=28750ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
-INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0/0 source files have been analyzed
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 7
@@ -22,20 +22,20 @@ UnclosedResourcesProcessor: 7
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=0ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization (done) | time=1ms
 INFO  Java Main Files AST scan
 INFO  261 source files to be analyzed
-INFO  79/261 files analyzed, current file: singer/src/test/java/com/pinterest/singer/processor/DefaultLogStreamProcessorTest.java
+INFO  78/261 files analyzed, current file: singer/src/test/java/com/pinterest/singer/processor/TestMemoryEfficientLogStreamProcessor.java
 ERROR Unable to parse source file : 'singer/src/main/java/com/pinterest/singer/tools/ThriftLogDumper.java'
 ERROR Parse error at line 181 column 68: Syntax error on token ")", { expected after this token
-INFO  224/261 files analyzed, current file: thrift-logger/target/generated-sources/thrift/scrooge/com/pinterest/singer/thrift/configuration/LogStreamWriterConfig.java
-INFO  Java Main Files AST scan (done) | time=23056ms
-INFO  Java Test Files AST scan
+INFO  221/261 files analyzed, current file: thrift-logger/target/generated-sources/thrift/scrooge/com/pinterest/singer/thrift/configuration/SingerRestartConfig.java
+INFO  Java Main Files AST scan (done) | time=23278ms
 INFO  261/261 source files have been analyzed
+INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

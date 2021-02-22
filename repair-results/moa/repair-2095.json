@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 59,
         "performedRepairsLocations": [
             {
                 "endLine": 70,
@@ -480,10 +479,11 @@
                 "violationSpecifier": "2095:moa/src/test/java/moa/test/SerializedObject.java:225:15:225:88"
             }
         ],
+        "nbViolationsBefore": 59,
         "nbViolationsAfter": 4
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -497,10 +497,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 67249,
-    "repairTimeMs": 1908,
-    "startTimeMs": 1612807779854,
+    "totalTimeMs": 70430,
+    "repairTimeMs": 1774,
+    "startTimeMs": 1613343122337,
     "crashes": [],
-    "endTimeMs": 1612807847103,
-    "parseTimeMs": 8163
+    "endTimeMs": 1613343192767,
+    "parseTimeMs": 8592
 }

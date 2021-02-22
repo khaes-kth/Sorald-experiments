@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 145,
             "endColumn": 39,
@@ -13,11 +14,10 @@
             "filePath": "src/test/fitnesse/smartrics/rest/test/fitnesse/fixture/HttpServer.java",
             "violationSpecifier": "2142:src/test/fitnesse/smartrics/rest/test/fitnesse/fixture/HttpServer.java:145:17:145:39"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 4615,
-    "repairTimeMs": 272,
-    "startTimeMs": 1612801102115,
+    "totalTimeMs": 4796,
+    "repairTimeMs": 254,
+    "startTimeMs": 1613324283869,
     "crashes": [],
-    "endTimeMs": 1612801106730,
-    "parseTimeMs": 1877
+    "endTimeMs": 1613324288665,
+    "parseTimeMs": 1946
 }

@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 274,
             "endColumn": 27,
@@ -13,11 +14,10 @@
             "filePath": "src/main/java/io/anserini/index/IndexReaderUtils.java",
             "violationSpecifier": "2272:src/main/java/io/anserini/index/IndexReaderUtils.java:274:23:274:27"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 10271,
-    "repairTimeMs": 787,
-    "startTimeMs": 1612813156445,
+    "totalTimeMs": 10272,
+    "repairTimeMs": 869,
+    "startTimeMs": 1613359448666,
     "crashes": [],
-    "endTimeMs": 1612813166716,
-    "parseTimeMs": 4601
+    "endTimeMs": 1613359458938,
+    "parseTimeMs": 4529
 }

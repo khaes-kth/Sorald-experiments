@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
-        "nbViolationsBefore": 4,
         "performedRepairsLocations": [
             {
                 "endLine": 2185,
@@ -40,10 +39,11 @@
                 "violationSpecifier": "2272:tetrad-lib/src/main/java/edu/cmu/tetrad/util/CombinationIterator.java:66:17:66:21"
             }
         ],
+        "nbViolationsBefore": 4,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -57,10 +57,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 53278,
-    "repairTimeMs": 7301,
-    "startTimeMs": 1612813472404,
+    "totalTimeMs": 55696,
+    "repairTimeMs": 7205,
+    "startTimeMs": 1613360587453,
     "crashes": [],
-    "endTimeMs": 1612813525682,
-    "parseTimeMs": 21617
+    "endTimeMs": 1613360643149,
+    "parseTimeMs": 21981
 }

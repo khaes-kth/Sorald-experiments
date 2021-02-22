@@ -1,0 +1,49 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------< com.urswolfer.gerrit.client.rest:gerrit-rest-java-client >------
+[INFO] Building gerrit-rest-java-client 0.9.4-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ gerrit-rest-java-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ gerrit-rest-java-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ gerrit-rest-java-client ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 45 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ gerrit-rest-java-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ gerrit-rest-java-client ---
+[INFO] Surefire report directory: /workdir/gerrit-rest-java-client/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@50b494a6
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.easymock.cglib.core.ReflectUtils$1 (file:/home/maven/.m2/repository/org/easymock/easymock/3.6/easymock-3.6.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.easymock.cglib.core.ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2021-02-15 00:03:02.862:INFO:oejs.Server:jetty-8.1.22.v20160922
+2021-02-15 00:03:02.891:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:32995
+2021-02-15 00:03:02.893:INFO:oejs.Server:jetty-8.1.22.v20160922
+2021-02-15 00:03:02.902:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:33011
+Tests run: 235, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 1.967 sec
+
+Results :
+
+Tests run: 235, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.643 s
+[INFO] Finished at: 2021-02-15T00:03:04Z
+[INFO] ------------------------------------------------------------------------

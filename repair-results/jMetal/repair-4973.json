@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
+        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 889,
@@ -31,11 +32,10 @@
                 "violationSpecifier": "4973:jmetal-problem/src/main/java/org/uma/jmetal/problem/multiobjective/ebes/Ebes.java:5564:26:5564:28"
             }
         ],
-        "nbViolationsBefore": 3,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 19514,
-    "repairTimeMs": 974,
-    "startTimeMs": 1612808219043,
+    "totalTimeMs": 21086,
+    "repairTimeMs": 1267,
+    "startTimeMs": 1613344661271,
     "crashes": [],
-    "endTimeMs": 1612808238557,
-    "parseTimeMs": 8651
+    "endTimeMs": 1613344682357,
+    "parseTimeMs": 9236
 }

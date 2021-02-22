@@ -1,15 +1,15 @@
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=27ms
+INFO  JavaClasspath initialization (done) | time=26ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1558 source files to be analyzed
-INFO  1106/1558 files analyzed, current file: src/main/java/org/opentripplanner/api/mapping/LegMapper.java
+INFO  1090/1558 files analyzed, current file: src/main/java/org/opentripplanner/api/parameter/BoundingBox.java
 INFO  1558/1558 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=12259ms
+INFO  Java Main Files AST scan (done) | time=12341ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=4ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=1ms
@@ -24,13 +24,13 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1558 source files to be analyzed
-INFO  Java Main Files AST scan (done) | time=8089ms
-INFO  Java Test Files AST scan
+INFO  Java Main Files AST scan (done) | time=8851ms
 INFO  1558/1558 source files have been analyzed
+INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed

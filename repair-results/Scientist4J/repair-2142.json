@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 4,
         "performedRepairsLocations": [
             {
                 "endLine": 142,
@@ -39,11 +40,10 @@
                 "violationSpecifier": "2142:Scientist4JCore/src/test/java/com/github/rawls238/scientist4j/ExperimentTest.java:30:17:30:39"
             }
         ],
-        "nbViolationsBefore": 4,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -57,10 +57,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 2251,
-    "repairTimeMs": 188,
-    "startTimeMs": 1612813293472,
+    "totalTimeMs": 2365,
+    "repairTimeMs": 194,
+    "startTimeMs": 1613360130012,
     "crashes": [],
-    "endTimeMs": 1612813295723,
-    "parseTimeMs": 668
+    "endTimeMs": 1613360132377,
+    "parseTimeMs": 757
 }

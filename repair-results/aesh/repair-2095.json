@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 13,
         "performedRepairsLocations": [
             {
                 "endLine": 201,
@@ -112,10 +111,11 @@
                 "violationSpecifier": "2095:aesh/src/test/java/org/aesh/util/graal/GraalReflectionFileGeneratorTest.java:81:28:81:68"
             }
         ],
+        "nbViolationsBefore": 13,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -129,10 +129,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 15206,
-    "repairTimeMs": 485,
-    "startTimeMs": 1612801291255,
+    "totalTimeMs": 15307,
+    "repairTimeMs": 462,
+    "startTimeMs": 1613324621119,
     "crashes": [],
-    "endTimeMs": 1612801306461,
-    "parseTimeMs": 3248
+    "endTimeMs": 1613324636426,
+    "parseTimeMs": 3244
 }

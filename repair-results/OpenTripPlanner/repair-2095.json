@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 10,
         "performedRepairsLocations": [
             {
                 "endLine": 40,
@@ -88,10 +87,11 @@
                 "violationSpecifier": "2095:src/main/java/org/opentripplanner/util/xml/XmlDataListDownloader.java:83:48:83:79"
             }
         ],
+        "nbViolationsBefore": 10,
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -105,10 +105,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 56926,
-    "repairTimeMs": 1258,
-    "startTimeMs": 1612800047752,
+    "totalTimeMs": 57451,
+    "repairTimeMs": 1135,
+    "startTimeMs": 1613321607690,
     "crashes": [],
-    "endTimeMs": 1612800104678,
-    "parseTimeMs": 13252
+    "endTimeMs": 1613321665141,
+    "parseTimeMs": 12295
 }

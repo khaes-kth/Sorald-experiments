@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 2,
         "performedRepairsLocations": [{
             "endLine": 104,
             "endColumn": 64,
@@ -14,10 +13,11 @@
             "filePath": ".mvn/wrapper/MavenWrapperDownloader.java",
             "violationSpecifier": "2095:.mvn/wrapper/MavenWrapperDownloader.java:104:31:104:64"
         }],
+        "nbViolationsBefore": 2,
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 3000,
+    "totalTimeMs": 3151,
     "repairTimeMs": 177,
-    "startTimeMs": 1612812069129,
+    "startTimeMs": 1613356652127,
     "crashes": [],
-    "endTimeMs": 1612812072129,
-    "parseTimeMs": 799
+    "endTimeMs": 1613356655278,
+    "parseTimeMs": 850
 }

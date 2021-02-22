@@ -1,0 +1,357 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.github.javafaker:javafaker >-------------------
+[INFO] Building Java Faker 1.0.3-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ javafaker ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ javafaker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 221 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ javafaker ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 99 source files to /workdir/java-faker/target/classes
+[INFO] /workdir/java-faker/src/main/java/com/github/javafaker/Number.java: /workdir/java-faker/src/main/java/com/github/javafaker/Number.java uses or overrides a deprecated API.
+[INFO] /workdir/java-faker/src/main/java/com/github/javafaker/Number.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/java-faker/src/main/java/com/github/javafaker/service/FakeValuesService.java: /workdir/java-faker/src/main/java/com/github/javafaker/service/FakeValuesService.java uses unchecked or unsafe operations.
+[INFO] /workdir/java-faker/src/main/java/com/github/javafaker/service/FakeValuesService.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ javafaker ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ javafaker ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ javafaker ---
+[INFO] Surefire report directory: /workdir/java-faker/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.javafaker.FinanceTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.932 sec
+Running com.github.javafaker.GenderTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.javafaker.GameOfThronesTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 sec
+Running com.github.javafaker.BuffyTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running com.github.javafaker.AnimalTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running com.github.javafaker.InternetTest
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.424 sec
+Running com.github.javafaker.OptionsTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.github.javafaker.HarryPotterTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec
+Running com.github.javafaker.DateAndTimeTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.398 sec
+Running com.github.javafaker.SpaceTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Running com.github.javafaker.ElderScrollsTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Running com.github.javafaker.integration.UkLocalDirectivesTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
+Running com.github.javafaker.SipTest
+Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec
+Running com.github.javafaker.StarCraftTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.github.javafaker.AppTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running com.github.javafaker.FakerTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.057 sec
+Running com.github.javafaker.SlackEmojiTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.042 sec
+Running com.github.javafaker.RandomFakerTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running com.github.javafaker.WeatherTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.github.javafaker.PhoneNumberTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.552 sec
+Running com.github.javafaker.BackToTheFutureTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.github.javafaker.LeagueOfLegendsTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running com.github.javafaker.AvatarTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.github.javafaker.BojackHorsemanTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec
+Running com.github.javafaker.StarTrekTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.javafaker.BasketballTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.063 sec
+Running com.github.javafaker.MatzTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.github.javafaker.matchers.IsStringWithContentsTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.github.javafaker.matchers.IsANumberTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.github.javafaker.LoremTest
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running com.github.javafaker.CatTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.javafaker.EsportsTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.javafaker.BarcodeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.javafaker.DragonBallTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.github.javafaker.ZeldaTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.github.javafaker.YodaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.javafaker.RickAndMortyTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running com.github.javafaker.FunnyNameTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.javafaker.CodeTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.465 sec
+Running com.github.javafaker.AddressTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.98 sec
+Running com.github.javafaker.RobinTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.javafaker.NumberTest
+[main] INFO com.github.javafaker.NumberTest - Range -25 to 25 is 0.8333333333333334 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -50 to 50 is 0.96 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -75 to 75 is 0.918918918918919 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -100 to 100 is 0.9 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -125 to 125 is 0.8709677419354839 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -150 to 150 is 0.92 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -175 to 175 is 0.8620689655172413 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -200 to 200 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -225 to 225 is 0.9107142857142857 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -250 to 250 is 0.872 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -275 to 275 is 0.8613138686131386 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -300 to 300 is 0.8866666666666667 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -325 to 325 is 0.8703703703703703 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -350 to 350 is 0.8914285714285715 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -375 to 375 is 0.8502673796791443 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -400 to 400 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -425 to 425 is 0.8632075471698113 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -450 to 450 is 0.8711111111111111 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -475 to 475 is 0.869198312236287 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -500 to 500 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -525 to 525 is 0.8816793893129771 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -550 to 550 is 0.9054545454545454 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -575 to 575 is 0.9198606271777003 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -600 to 600 is 0.9 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -625 to 625 is 0.8589743589743589 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -650 to 650 is 0.8953846153846153 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -675 to 675 is 0.8931750741839762 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -700 to 700 is 0.8971428571428571 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -725 to 725 is 0.8867403314917127 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -750 to 750 is 0.888 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -775 to 775 is 0.8811369509043928 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -800 to 800 is 0.865 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -825 to 825 is 0.8956310679611651 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -850 to 850 is 0.8847058823529412 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -875 to 875 is 0.8741418764302059 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -900 to 900 is 0.8866666666666667 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -925 to 925 is 0.9047619047619048 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -950 to 950 is 0.8694736842105263 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -975 to 975 is 0.9055441478439425 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -25 to 25 is 0.9166666666666666 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -50 to 50 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -75 to 75 is 0.8108108108108109 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -100 to 100 is 0.9 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -125 to 125 is 0.8548387096774194 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -150 to 150 is 0.92 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -175 to 175 is 0.8620689655172413 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -200 to 200 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -225 to 225 is 0.8482142857142857 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -250 to 250 is 0.944 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -275 to 275 is 0.8540145985401459 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -300 to 300 is 0.9133333333333333 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -325 to 325 is 0.8580246913580247 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -350 to 350 is 0.8914285714285715 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -375 to 375 is 0.893048128342246 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -400 to 400 is 0.875 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -425 to 425 is 0.8773584905660378 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -450 to 450 is 0.9066666666666666 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -475 to 475 is 0.919831223628692 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -500 to 500 is 0.872 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -525 to 525 is 0.8931297709923665 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -550 to 550 is 0.8836363636363637 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -575 to 575 is 0.9198606271777003 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -600 to 600 is 0.9 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -625 to 625 is 0.8878205128205128 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -650 to 650 is 0.8646153846153846 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -675 to 675 is 0.8991097922848664 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -700 to 700 is 0.8714285714285714 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -725 to 725 is 0.8812154696132597 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -750 to 750 is 0.872 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -775 to 775 is 0.8682170542635659 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -800 to 800 is 0.885 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -825 to 825 is 0.8932038834951457 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -850 to 850 is 0.908235294117647 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -875 to 875 is 0.8832951945080092 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -900 to 900 is 0.8733333333333333 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -925 to 925 is 0.8766233766233766 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -950 to 950 is 0.848421052631579 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -975 to 975 is 0.8952772073921971 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -25 to 25 is 1.0 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -50 to 50 is 0.92 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -75 to 75 is 0.8918918918918919 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -100 to 100 is 0.84 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -125 to 125 is 0.8870967741935484 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -150 to 150 is 0.8933333333333333 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -175 to 175 is 0.9195402298850575 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -200 to 200 is 0.88 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -225 to 225 is 0.8571428571428571 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -250 to 250 is 0.896 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -275 to 275 is 0.8613138686131386 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -300 to 300 is 0.8866666666666667 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -325 to 325 is 0.8888888888888888 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -350 to 350 is 0.9085714285714286 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -375 to 375 is 0.8877005347593583 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -400 to 400 is 0.9 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -425 to 425 is 0.8537735849056604 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -450 to 450 is 0.8355555555555556 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -475 to 475 is 0.9071729957805907 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -500 to 500 is 0.852 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -525 to 525 is 0.9007633587786259 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -550 to 550 is 0.8581818181818182 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -575 to 575 is 0.8780487804878049 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -600 to 600 is 0.91 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -625 to 625 is 0.907051282051282 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -650 to 650 is 0.9015384615384615 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -675 to 675 is 0.8516320474777448 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -700 to 700 is 0.8742857142857143 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -725 to 725 is 0.8922651933701657 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -750 to 750 is 0.8853333333333333 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -775 to 775 is 0.9043927648578811 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -800 to 800 is 0.9 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -825 to 825 is 0.8956310679611651 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -850 to 850 is 0.8941176470588236 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -875 to 875 is 0.8810068649885584 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -900 to 900 is 0.9155555555555556 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -925 to 925 is 0.8766233766233766 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -950 to 950 is 0.8968421052631579 percent unique.
+[main] INFO com.github.javafaker.NumberTest - Range -975 to 975 is 0.8993839835728953 percent unique.
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.535 sec
+Running com.github.javafaker.CountryTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.github.javafaker.AquaTeenHungerForceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.javafaker.HackerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.javafaker.ChuckNorrisTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.javafaker.FileTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.github.javafaker.IdNumberTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.243 sec
+Running com.github.javafaker.CryptoTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.github.javafaker.DogTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running com.github.javafaker.HowIMetYourMotherTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.033 sec
+Running com.github.javafaker.HipsterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.github.javafaker.TeamTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running com.github.javafaker.ColorTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.javafaker.SuperheroTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.github.javafaker.KaamelottTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.javafaker.ProgrammingLanguageTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.javafaker.MusicTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.github.javafaker.CoinTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.javafaker.DuneTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.548 sec
+Running com.github.javafaker.OverwatchTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.github.javafaker.CurrencyTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.javafaker.RelationshipTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running com.github.javafaker.LebowskiTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.javafaker.StockTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running com.github.javafaker.DiseaseTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.2 sec
+Running com.github.javafaker.DemographicTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.github.javafaker.EducatorTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.github.javafaker.TwinPeaksTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.javafaker.CommerceTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.github.javafaker.PokemonTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.github.javafaker.CompanyTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running com.github.javafaker.NameTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.1 sec
+Running com.github.javafaker.BusinessTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.github.javafaker.FriendsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.github.javafaker.PrincessBrideTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.github.javafaker.ArtistTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.javafaker.FoodTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running com.github.javafaker.ShakespeareTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.javafaker.BookTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running com.github.javafaker.AviationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.github.javafaker.HitchhikersGuideToTheGalaxyTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.github.javafaker.NationTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Running com.github.javafaker.WitcherTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running com.github.javafaker.JobTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.github.javafaker.MedicalTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running com.github.javafaker.BeerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.github.javafaker.RockBandTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.javafaker.AncientTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running com.github.javafaker.HobbitTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.github.javafaker.BoolTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.javafaker.LordOfTheRingsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.github.javafaker.idnumbers.SwedishIdNumberTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.github.javafaker.service.FakeValuesServiceTest
+Tests run: 26, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.124 sec
+Running com.github.javafaker.service.FakeValuesGroupingTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.github.javafaker.service.FakeValuesTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running com.github.javafaker.service.RandomServiceTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running com.github.javafaker.UniversityTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+
+Results :
+
+Tests run: 566, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42.270 s
+[INFO] Finished at: 2021-02-14T16:22:21Z
+[INFO] ------------------------------------------------------------------------

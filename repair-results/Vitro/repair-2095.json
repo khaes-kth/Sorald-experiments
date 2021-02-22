@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 17,
         "performedRepairsLocations": [
             {
                 "endLine": 52,
@@ -127,11 +128,10 @@
                 "violationSpecifier": "2095:api/src/main/java/edu/ucsf/vitro/opensocial/OpenSocialManager.java:321:13:322:38"
             }
         ],
-        "nbViolationsBefore": 17,
         "nbViolationsAfter": 4
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -145,10 +145,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 74621,
-    "repairTimeMs": 1428,
-    "startTimeMs": 1612805191038,
+    "totalTimeMs": 75279,
+    "repairTimeMs": 1421,
+    "startTimeMs": 1613333541221,
     "crashes": [],
-    "endTimeMs": 1612805265659,
-    "parseTimeMs": 12022
+    "endTimeMs": 1613333616500,
+    "parseTimeMs": 12161
 }

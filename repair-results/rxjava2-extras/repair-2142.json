@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
+        "nbViolationsBefore": 36,
         "performedRepairsLocations": [
             {
                 "endLine": 56,
@@ -295,11 +296,10 @@
                 "violationSpecifier": "2142:src/main/java/com/github/davidmoten/rx2/internal/flowable/FlowableStringInputStream.java:121:33:121:56"
             }
         ],
-        "nbViolationsBefore": 36,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -313,10 +313,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 6993,
-    "repairTimeMs": 458,
-    "startTimeMs": 1612815812189,
+    "totalTimeMs": 7483,
+    "repairTimeMs": 526,
+    "startTimeMs": 1613369250586,
     "crashes": [],
-    "endTimeMs": 1612815819182,
-    "parseTimeMs": 2943
+    "endTimeMs": 1613369258069,
+    "parseTimeMs": 3107
 }

@@ -1,0 +1,68 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for net.lingala.zip4j:zip4j:jar:2.6.5-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.felix:maven-bundle-plugin is missing. @ line 155, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ----------------------< net.lingala.zip4j:zip4j >-----------------------
+[INFO] Building Zip4j 2.6.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ zip4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/zip4j/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ zip4j ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ zip4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 26 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ zip4j ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ zip4j ---
+[INFO] Surefire report directory: /workdir/zip4j/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running net.lingala.zip4j.crypto.PBKDF2.BinToolsTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.085 sec
+Running net.lingala.zip4j.exception.ZipExceptionTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running net.lingala.zip4j.util.ZipVersionUtilsTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running net.lingala.zip4j.util.FileUtilsTest
+Tests run: 48, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.583 sec
+Running net.lingala.zip4j.util.BitUtilsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running net.lingala.zip4j.util.Zip4jUtilTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running net.lingala.zip4j.headers.HeaderUtilTest
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running net.lingala.zip4j.headers.FileHeaderFactoryTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running net.lingala.zip4j.ZipFileTest
+Tests run: 64, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
+Running net.lingala.zip4j.model.enums.CompressionMethodTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 208, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.311 s
+[INFO] Finished at: 2021-02-15T09:41:05Z
+[INFO] ------------------------------------------------------------------------

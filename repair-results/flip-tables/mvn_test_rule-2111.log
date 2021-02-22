@@ -1,0 +1,43 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.jakewharton.fliptables:fliptables >----------------
+[INFO] Building Flip Tables 1.1.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ fliptables ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ fliptables ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/flip-tables/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ fliptables ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ fliptables ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/flip-tables/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ fliptables ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ fliptables ---
+[INFO] Surefire report directory: /workdir/flip-tables/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.jakewharton.fliptables.FlipTableConvertersTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 sec
+Running com.jakewharton.fliptables.FlipTableTest
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.202 s
+[INFO] Finished at: 2021-02-14T22:25:47Z
+[INFO] ------------------------------------------------------------------------

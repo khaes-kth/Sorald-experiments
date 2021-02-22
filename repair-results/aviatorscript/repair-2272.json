@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
+        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 43,
@@ -31,11 +32,10 @@
                 "violationSpecifier": "2272:src/main/java/com/googlecode/aviator/runtime/type/seq/CharSeqSequence.java:46:20:46:24"
             }
         ],
-        "nbViolationsBefore": 3,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 10583,
-    "repairTimeMs": 862,
-    "startTimeMs": 1612799473704,
+    "totalTimeMs": 10955,
+    "repairTimeMs": 871,
+    "startTimeMs": 1613320299621,
     "crashes": [],
-    "endTimeMs": 1612799484287,
-    "parseTimeMs": 4387
+    "endTimeMs": 1613320310576,
+    "parseTimeMs": 4469
 }

@@ -1,0 +1,541 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< io.vertx:vertx-service-proxy >--------------------
+[INFO] Building vertx-service-proxy 4.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.0:enforce (enforce-maven) @ vertx-service-proxy ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ vertx-service-proxy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 9 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ vertx-service-proxy ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-processor-plugin:3.1.0:process (generate-sources) @ vertx-service-proxy ---
+[INFO] diagnostic: Note: Loaded service_proxy_handler code generator
+[INFO] diagnostic: Note: Loaded service_proxy code generator
+[INFO] diagnostic: Note: Loaded cheatsheet code generator
+[INFO] diagnostic: Note: Loaded cheatsheet code generator
+[INFO] diagnostic: Note: Loaded data_object_converters code generator
+[WARNING] diagnostic: warning: Supported source version 'RELEASE_8' from annotation processor 'io.vertx.codegen.CodeGenProcessor' less than -source '11'
+[INFO] diagnostic: Note: Non future method examples.SomeDatabaseService: void save(java.lang.String collection, io.vertx.core.json.JsonObject document, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Void>> result)
+[INFO] diagnostic: Note: Non future method examples.SomeDatabaseService: examples.SomeDatabaseService foo(java.lang.String collection, io.vertx.core.json.JsonObject document, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Void>> result)
+[INFO] diagnostic: Note: Generated model examples.SomeDatabaseService: examples.SomeDatabaseServiceVertxProxyHandler
+[INFO] diagnostic: Note: Generated model examples.SomeDatabaseService: examples.SomeDatabaseServiceVertxEBProxy
+[WARNING] diagnostic: warning: Supported source version 'RELEASE_8' from annotation processor 'io.vertx.docgen.JavaDocGenProcessor' less than -source '11'
+[WARNING] diagnostic: warning: Supported source version 'RELEASE_8' from annotation processor 'io.vertx.docgen.DocGenProcessor' less than -source '11'
+[WARNING] diagnostic: warning: Unclosed files for the types 'PathForCodeGenProcessor'; these types will not undergo annotation processing
+[WARNING] diagnostic: warning: The following options were not recognized by any processor: '[maven.artifactId, maven.version, maven.groupId]'
+[INFO] 
+[INFO] --- maven-processor-plugin:3.1.0:process-test (generate-test-sources) @ vertx-service-proxy ---
+WARNING: io.vertx.codegen.CodeGen - Processed element io.vertx.serviceproxy.testmodel.impl.TestConnectionImpl is in an implementation package 
+WARNING: io.vertx.codegen.CodeGen - Processed element io.vertx.serviceproxy.testmodel.impl.TestServiceImpl is in an implementation package 
+[INFO] diagnostic: Note: Loaded service_proxy_handler code generator
+[INFO] diagnostic: Note: Loaded service_proxy code generator
+[INFO] diagnostic: Note: Loaded cheatsheet code generator
+[INFO] diagnostic: Note: Loaded cheatsheet code generator
+[INFO] diagnostic: Note: Loaded data_object_converters code generator
+[INFO] diagnostic: Note: Loaded json-mappers.properties file:/workdir/vertx-service-proxy/src/test/resources/META-INF/vertx/json-mappers.properties
+[INFO] diagnostic: Note: Loaded json-mappers.properties file:/workdir/vertx-service-proxy/target/test-classes/META-INF/vertx/json-mappers.properties
+[WARNING] diagnostic: warning: Supported source version 'RELEASE_8' from annotation processor 'io.vertx.codegen.CodeGenProcessor' less than -source '11'
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void longDeliverySuccess(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void longDeliveryFailed(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void createConnection(java.lang.String str, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.TestConnection>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void enumTypeAsResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.SomeEnum>> someEnum)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void enumTypeAsResultNull(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.SomeEnum>> someEnum)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void stringHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void stringNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void byteHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Byte>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void byteNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Byte>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void shortHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Short>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void shortNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Short>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void intHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Integer>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void intNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Integer>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void longHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Long>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void longNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Long>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void floatHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Float>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void floatNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Float>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void doubleHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Double>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void doubleNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Double>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void charHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Character>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void charNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Character>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void booleanHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Boolean>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void booleanNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Boolean>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void jsonObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void jsonObjectNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void jsonArrayHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonArray>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void jsonArrayNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonArray>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void dataObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.TestDataObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void dataObjectNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.TestDataObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void voidHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Void>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: io.vertx.serviceproxy.testmodel.TestService fluentMethod(java.lang.String str, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void failingMethod(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void invokeWithMessage(io.vertx.core.json.JsonObject object, java.lang.String str, int i, char chr, io.vertx.serviceproxy.testmodel.SomeEnum senum, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listStringHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.String>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listByteHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Byte>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listShortHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Short>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listIntHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Integer>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listLongHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Long>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listFloatHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Float>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listDoubleHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Double>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listCharHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Character>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listBoolHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Boolean>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listJsonObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listJsonArrayHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonArray>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listDataObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.serviceproxy.testmodel.TestDataObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setStringHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.String>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setByteHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Byte>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setShortHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Short>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setIntHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Integer>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setLongHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Long>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setFloatHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Float>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setDoubleHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Double>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setCharHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Character>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setBoolHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Boolean>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapStringHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.String>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapByteHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Byte>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapShortHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Short>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapIntHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Integer>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapLongHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Long>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapFloatHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Float>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapDoubleHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Double>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapCharHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Character>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapBoolHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Boolean>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setJsonObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapJsonObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.core.json.JsonObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setJsonArrayHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonArray>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapJsonArrayHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.core.json.JsonArray>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setDataObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.serviceproxy.testmodel.TestDataObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapDataObject(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.serviceproxy.testmodel.TestDataObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void failingCall(java.lang.String value, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listDataObjectContainingNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.serviceproxy.testmodel.TestDataObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setDataObjectContainingNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.serviceproxy.testmodel.TestDataObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void zonedDateTimeHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.time.ZonedDateTime>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listZonedDateTimeHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.time.ZonedDateTime>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setZonedDateTimeHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.time.ZonedDateTime>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapZonedDateTimeHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.time.ZonedDateTime>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service hello(java.lang.String name, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodUsingEnum(io.vertx.serviceproxy.testmodel.SomeEnum e, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Boolean>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodReturningEnum(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.SomeEnum>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodReturningVertxEnum(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.SomeVertxEnum>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithJsonObject(io.vertx.core.json.JsonObject json, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithJsonArray(io.vertx.core.json.JsonArray json, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonArray>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithList(java.util.List<java.lang.String> list, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.String>>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithDataObject(io.vertx.serviceproxy.testmodel.TestDataObject data, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.TestDataObject>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithListOfDataObject(java.util.List<io.vertx.serviceproxy.testmodel.TestDataObject> list, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.serviceproxy.testmodel.TestDataObject>>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithStringDataObject(io.vertx.serviceproxy.testmodel.StringDataObject data, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.StringDataObject>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithListOfStringDataObject(java.util.List<io.vertx.serviceproxy.testmodel.StringDataObject> list, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.serviceproxy.testmodel.StringDataObject>>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithListOfJsonObject(java.util.List<io.vertx.core.json.JsonObject> list, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonObject>>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWthFailingResult(java.lang.String input, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestConnection: io.vertx.serviceproxy.testmodel.TestConnection startTransaction(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestConnection: io.vertx.serviceproxy.testmodel.TestConnection insert(java.lang.String name, io.vertx.core.json.JsonObject data, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestConnection: io.vertx.serviceproxy.testmodel.TestConnection commit(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestConnection: io.vertx.serviceproxy.testmodel.TestConnection rollback(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void longDeliverySuccess(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void longDeliveryFailed(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void createConnection(java.lang.String str, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.TestConnection>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void enumTypeAsResult(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.SomeEnum>> someEnum)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void enumTypeAsResultNull(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.SomeEnum>> someEnum)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void stringHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void stringNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void byteHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Byte>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void byteNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Byte>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void shortHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Short>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void shortNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Short>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void intHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Integer>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void intNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Integer>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void longHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Long>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void longNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Long>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void floatHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Float>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void floatNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Float>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void doubleHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Double>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void doubleNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Double>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void charHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Character>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void charNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Character>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void booleanHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Boolean>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void booleanNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Boolean>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void jsonObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void jsonObjectNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void jsonArrayHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonArray>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void jsonArrayNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonArray>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void dataObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.TestDataObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void dataObjectNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.TestDataObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void voidHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Void>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: io.vertx.serviceproxy.testmodel.TestService fluentMethod(java.lang.String str, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void failingMethod(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void invokeWithMessage(io.vertx.core.json.JsonObject object, java.lang.String str, int i, char chr, io.vertx.serviceproxy.testmodel.SomeEnum senum, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listStringHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.String>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listByteHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Byte>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listShortHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Short>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listIntHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Integer>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listLongHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Long>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listFloatHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Float>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listDoubleHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Double>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listCharHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Character>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listBoolHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.Boolean>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listJsonObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listJsonArrayHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonArray>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listDataObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.serviceproxy.testmodel.TestDataObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setStringHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.String>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setByteHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Byte>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setShortHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Short>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setIntHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Integer>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setLongHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Long>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setFloatHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Float>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setDoubleHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Double>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setCharHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Character>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setBoolHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.lang.Boolean>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapStringHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.String>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapByteHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Byte>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapShortHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Short>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapIntHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Integer>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapLongHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Long>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapFloatHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Float>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapDoubleHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Double>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapCharHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Character>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapBoolHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.lang.Boolean>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setJsonObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapJsonObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.core.json.JsonObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setJsonArrayHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.core.json.JsonArray>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapJsonArrayHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.core.json.JsonArray>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setDataObjectHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.serviceproxy.testmodel.TestDataObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapDataObject(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,io.vertx.serviceproxy.testmodel.TestDataObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void failingCall(java.lang.String value, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listDataObjectContainingNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.serviceproxy.testmodel.TestDataObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setDataObjectContainingNullHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<io.vertx.serviceproxy.testmodel.TestDataObject>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void zonedDateTimeHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.time.ZonedDateTime>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void listZonedDateTimeHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.time.ZonedDateTime>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void setZonedDateTimeHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Set<java.time.ZonedDateTime>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestService: void mapZonedDateTimeHandler(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.Map<java.lang.String,java.time.ZonedDateTime>>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service hello(java.lang.String name, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodUsingEnum(io.vertx.serviceproxy.testmodel.SomeEnum e, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.Boolean>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodReturningEnum(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.SomeEnum>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodReturningVertxEnum(io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.SomeVertxEnum>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithJsonObject(io.vertx.core.json.JsonObject json, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithJsonArray(io.vertx.core.json.JsonArray json, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonArray>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithList(java.util.List<java.lang.String> list, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<java.lang.String>>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithDataObject(io.vertx.serviceproxy.testmodel.TestDataObject data, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.TestDataObject>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithListOfDataObject(java.util.List<io.vertx.serviceproxy.testmodel.TestDataObject> list, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.serviceproxy.testmodel.TestDataObject>>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithStringDataObject(io.vertx.serviceproxy.testmodel.StringDataObject data, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.serviceproxy.testmodel.StringDataObject>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithListOfStringDataObject(java.util.List<io.vertx.serviceproxy.testmodel.StringDataObject> list, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.serviceproxy.testmodel.StringDataObject>>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWithListOfJsonObject(java.util.List<io.vertx.core.json.JsonObject> list, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.util.List<io.vertx.core.json.JsonObject>>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.clustered.Service: io.vertx.serviceproxy.clustered.Service methodWthFailingResult(java.lang.String input, io.vertx.core.Handler<io.vertx.core.AsyncResult<io.vertx.core.json.JsonObject>> result)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestConnection: io.vertx.serviceproxy.testmodel.TestConnection startTransaction(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestConnection: io.vertx.serviceproxy.testmodel.TestConnection insert(java.lang.String name, io.vertx.core.json.JsonObject data, io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestConnection: io.vertx.serviceproxy.testmodel.TestConnection commit(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] diagnostic: Note: Non future method io.vertx.serviceproxy.testmodel.TestConnection: io.vertx.serviceproxy.testmodel.TestConnection rollback(io.vertx.core.Handler<io.vertx.core.AsyncResult<java.lang.String>> resultHandler)
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ vertx-service-proxy ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ vertx-service-proxy ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ vertx-service-proxy ---
+[INFO] Surefire report directory: /workdir/vertx-service-proxy/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running io.vertx.serviceproxy.clustered.ClusteredTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.481 sec - in io.vertx.serviceproxy.clustered.ClusteredTest
+Running io.vertx.serviceproxy.codegen.ProxyTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.922 sec - in io.vertx.serviceproxy.codegen.ProxyTest
+Running io.vertx.serviceproxy.test.SecureServiceBinderTest
+Feb 15, 2021 1:55:21 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: SecureServiceBinderTest#testLocalWithToken
+Feb 15, 2021 1:55:21 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: SecureServiceBinderTest#testWithoutToken
+Feb 15, 2021 1:55:21 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: SecureServiceBinderTest#testLocalWithoutToken
+Feb 15, 2021 1:55:21 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: SecureServiceBinderTest#testWithToken
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.062 sec - in io.vertx.serviceproxy.test.SecureServiceBinderTest
+Running io.vertx.serviceproxy.test.ServiceProxyTest
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListDataObjectHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetdataObjectTypeHavingNullValues
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testBasicTypes
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapBoolHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testDoubleHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testDataObjectNullHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testlistdataObjectTypeHavingNullValues
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testStringHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testLongHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetdataObjectType
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetDataObjectHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListDataObjectTypeNull
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testJsonArrayNullHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testConnection
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testDataObjectTypeNull
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testCharHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testEnumType
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetDateTimeType
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapShortHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListByteHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListDateTimeHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetBoolHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testCauseErrorHandling
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListIntHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testJsonObjectHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testShortHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetDataObjectTypeNull
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testJsonTypesNull
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testEnumTypeAsResultWithNull
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testFailingMethod
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapFloatHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapLongHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapJsonArrayHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testJsonArrayHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testErrorHandlingServiceExceptionSubclass
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapCharHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testCallWithMessageParamWrongType
+Feb 15, 2021 1:55:22 AM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at io.vertx.serviceproxy.testmodel.TestServiceVertxProxyHandler.handle(TestServiceVertxProxyHandler.java:429)
+	at io.vertx.serviceproxy.testmodel.TestServiceVertxProxyHandler.handle(TestServiceVertxProxyHandler.java:60)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:52)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:194)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:177)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.next(HandlerRegistration.java:163)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.dispatch(HandlerRegistration.java:128)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:107)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:104)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:183)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:168)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapdataObjectType
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testUnregisteringTheService
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapDateTimeHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testFloatHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListShortHandler
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListTypes
+Feb 15, 2021 1:55:22 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testLocalServiceConnectionTimeout
+Feb 15, 2021 1:55:24 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testFluentNoParams
+Feb 15, 2021 1:55:24 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testConnectionTimeout
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListdataObjectType
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testEnumTypeNull
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testJsonTypes
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testDoubleNullHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testDataObjectType
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapDataObjectHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetLongHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testCallWithMessage
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListFloatHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetCharHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#setSetJsonArrayHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapDoubleHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListJsonObjectHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testByteHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapStringHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapIntHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testLocalServiceFromLocalSender
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetShortHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListDoubleHandler
+Feb 15, 2021 1:55:26 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testLongDelivery1
+Feb 15, 2021 1:55:36 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testLongDelivery2
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetIntHandler
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testStringNullHandler
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListStringHandler
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListBoolHandler
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetJsonObjectHandler
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testEnumTypeAsResult
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetFloatHandler
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testShortNullHandler
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testJsonObjectNullHandler
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testByteNullHandler
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapByteHandler
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testCharNullHandler
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapTypes
+Feb 15, 2021 1:55:56 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetDateTimeHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetDoubleHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testErrorHandling
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetStringHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testIntNullHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testProxyIgnore
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testBooleanNullHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testFloatNullHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testDataObjectHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testCallWithMessageInvalidAction
+Feb 15, 2021 1:55:57 AM io.vertx.core.impl.ContextImpl
+SEVERE: Unhandled exception
+java.lang.IllegalStateException: Invalid action: yourmum
+	at io.vertx.serviceproxy.testmodel.TestServiceVertxProxyHandler.handle(TestServiceVertxProxyHandler.java:675)
+	at io.vertx.serviceproxy.testmodel.TestServiceVertxProxyHandler.handle(TestServiceVertxProxyHandler.java:60)
+	at io.vertx.core.impl.EventLoopContext.emit(EventLoopContext.java:52)
+	at io.vertx.core.impl.DuplicatedContext.emit(DuplicatedContext.java:194)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.dispatch(MessageConsumerImpl.java:177)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.next(HandlerRegistration.java:163)
+	at io.vertx.core.eventbus.impl.HandlerRegistration$InboundDeliveryContext.dispatch(HandlerRegistration.java:128)
+	at io.vertx.core.impl.AbstractContext.dispatch(AbstractContext.java:107)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.dispatch(HandlerRegistration.java:104)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.deliver(MessageConsumerImpl.java:183)
+	at io.vertx.core.eventbus.impl.MessageConsumerImpl.doReceive(MessageConsumerImpl.java:168)
+	at io.vertx.core.eventbus.impl.HandlerRegistration.lambda$receive$0(HandlerRegistration.java:54)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testNoParams
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListLongHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testLongNullHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetByteHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapDateTimeType
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testBasicBoxedTypesNull
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListCharHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testBasicBoxedTypes
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testVoidHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testIntHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testDateTimeType
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testMapJsonObjectHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testFluentMethod
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testAListContainingNullValues
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListJsonArrayHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testASetContainingNullValues
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testDateTimeHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testBooleanHandler
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testSetTypes
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceProxyTest#testListDateTimeType
+Tests run: 110, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.707 sec - in io.vertx.serviceproxy.test.ServiceProxyTest
+Running io.vertx.serviceproxy.test.ServiceBinderTest
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceBinderTest#testLocalFactory
+Feb 15, 2021 1:55:57 AM io.vertx.test.core.AsyncTestBase
+INFO: Starting test: ServiceBinderTest#testFactory
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec - in io.vertx.serviceproxy.test.ServiceBinderTest
+
+Results :
+
+Tests run: 144, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  48.146 s
+[INFO] Finished at: 2021-02-15T01:55:58Z
+[INFO] ------------------------------------------------------------------------

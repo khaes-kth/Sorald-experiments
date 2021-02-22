@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 7,
         "performedRepairsLocations": [
             {
                 "endLine": 68,
@@ -64,10 +63,11 @@
                 "violationSpecifier": "2142:miso-web/src/it/java/uk/ac/bbsrc/tgac/miso/webapp/integrationtest/page/element/AbstractElement.java:30:13:30:35"
             }
         ],
+        "nbViolationsBefore": 7,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -81,10 +81,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 27075,
-    "repairTimeMs": 957,
-    "startTimeMs": 1612802113801,
+    "totalTimeMs": 28078,
+    "repairTimeMs": 914,
+    "startTimeMs": 1613326335453,
     "crashes": [],
-    "endTimeMs": 1612802140876,
-    "parseTimeMs": 13775
+    "endTimeMs": 1613326363531,
+    "parseTimeMs": 14126
 }

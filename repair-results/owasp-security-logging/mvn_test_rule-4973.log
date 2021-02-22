@@ -1,0 +1,385 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] OWASP Security Logging                                             [pom]
+[INFO] OWASP Security Logging Common                                      [jar]
+[INFO] OWASP Security Logging Log4j                                       [jar]
+[INFO] OWASP Security Logging Logback                                     [jar]
+[INFO] 
+[INFO] ---------------------< org.owasp:security-logging >---------------------
+[INFO] Building OWASP Security Logging 1.1.6                              [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ security-logging ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/owasp-security-logging/target/jacoco.exec
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ security-logging ---
+[INFO] Skipping JaCoCo execution due to missing execution data file.
+[INFO] 
+[INFO] -----------------< org.owasp:security-logging-common >------------------
+[INFO] Building OWASP Security Logging Common 1.1.6                       [2/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ security-logging-common ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/owasp-security-logging/owasp-security-logging-common/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ security-logging-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/owasp-security-logging/owasp-security-logging-common/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ security-logging-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ security-logging-common ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/owasp-security-logging/owasp-security-logging-common/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ security-logging-common ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ security-logging-common ---
+[INFO] Surefire report directory: /workdir/owasp-security-logging/owasp-security-logging-common/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.owasp.security.logging.UtilsTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.101 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ security-logging-common ---
+[INFO] Loading execution data file /workdir/owasp-security-logging/owasp-security-logging-common/target/jacoco.exec
+[INFO] Analyzed bundle 'OWASP Security Logging Common' with 25 classes
+[INFO] 
+[INFO] ------------------< org.owasp:security-logging-log4j >------------------
+[INFO] Building OWASP Security Logging Log4j 1.1.6                        [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ security-logging-log4j ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/owasp-security-logging/owasp-security-logging-log4j/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ security-logging-log4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/owasp-security-logging/owasp-security-logging-log4j/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ security-logging-log4j ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ security-logging-log4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ security-logging-log4j ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ security-logging-log4j ---
+[INFO] Surefire report directory: /workdir/owasp-security-logging/owasp-security-logging-log4j/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.owasp.security.logging.log4j.PureLog4jTest
+2021-02-15 00:33:26,210 main WARN Log4j does not support detached Markers. Returned Marker [RESTRICTED] will be unchanged.
+2021-02-15 00:33:26,216 main WARN Log4j does not support detached Markers. Returned Marker [CONFIDENTIAL] will be unchanged.
+2021-02-15 00:33:26,235 main WARN Log4j does not support detached Markers. Returned Marker [SECRET] will be unchanged.
+2021-02-15 00:33:26,236 main WARN Log4j does not support detached Markers. Returned Marker [TOPSECRET] will be unchanged.
+2021-02-15 00:33:26,236 main WARN Log4j does not support detached Markers. Returned Marker [SECURITY SUCCESS] will be unchanged.
+2021-02-15 00:33:26,237 main WARN Log4j does not support detached Markers. Returned Marker [SECURITY FAILURE] will be unchanged.
+2021-02-15 00:33:26,237 main WARN Log4j does not support detached Markers. Returned Marker [SECURITY AUDIT] will be unchanged.
+2021-02-15 00:33:26,237 main WARN Log4j does not support detached Markers. Returned Marker [EVENT SUCCESS] will be unchanged.
+2021-02-15 00:33:26,237 main WARN Log4j does not support detached Markers. Returned Marker [EVENT FAILURE] will be unchanged.
+CONTEXT: LoggerContextRule [configLocation=log4j2.xml, contextSelectorClass=null]
+00:33:26.366  [main] DEBUG org.owasp.security.logging.log4j.PureLog4jTest - There is a monster at the end of this block
+00:33:26.376  [main] INFO  org.owasp.security.logging.log4j.PureLog4jTest - Monster activity detected
+00:33:26.377  [main] WARN  org.owasp.security.logging.log4j.PureLog4jTest - This is your last warning
+00:33:26.377  [main] ERROR org.owasp.security.logging.log4j.PureLog4jTest - Monster!
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.84 sec
+Running org.owasp.security.logging.log4j.SecurityMarkerFilterTest
+CONTEXT: LoggerContextRule [configLocation=log4j2.xml, contextSelectorClass=null]
+00:33:26.432  [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This statement has no markers
+appender: ListAppender [events=[Logger=org.owasp.security.logging.log4j.SecurityMarkerFilterTest Level=INFO Message=This statement has no markers], messages=[], data=[], newLine=false, raw=false, countDownLatch=null, getHandler()=org.apache.logging.log4j.core.appender.DefaultErrorHandler@1c00d406, getLayout()=null, getName()=List, ignoreExceptions()=true, getFilter()=null, getState()=STARTED]
+    size: 1
+SECURITY 00:33:26.433 SECURITY SUCCESS [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This statement is a security success
+00:33:26.433 SECURITY SUCCESS [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This statement is a security success
+SECURITY 00:33:26.433 SECURITY FAILURE [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This statement is a security failure
+00:33:26.433 SECURITY FAILURE [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This statement is a security failure
+SECURITY 00:33:26.434 SECURITY AUDIT [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This statement is a security audit
+00:33:26.434 SECURITY AUDIT [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This statement is a security audit
+00:33:26.435 CONFIDENTIAL [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This statement is confidential
+00:33:26.437 CONFIDENTIALRESTRICTED[ CONFIDENTIAL, RESTRICTED ] [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This statement is confidential and restricted
+SECURITY 00:33:26.437 SECURITY FAILURERESTRICTED[ SECURITY FAILURE, RESTRICTED ] [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This statement is a security failure and restricted
+00:33:26.437 SECURITY FAILURERESTRICTED[ SECURITY FAILURE, RESTRICTED ] [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This statement is a security failure and restricted
+CONTEXT: LoggerContextRule [configLocation=log4j2.xml, contextSelectorClass=null]
+getMarkers(): test1: SECURITY AUDIT
+getMarkers(): test2: SECURITY AUDITSECURITY FAILURE
+getMarkers(): test3: SECURITY AUDITCONFIDENTIAL
+CONTEXT: LoggerContextRule [configLocation=log4j2.xml, contextSelectorClass=null]
+00:33:26.439  [main] DEBUG org.owasp.security.logging.log4j.SecurityMarkerFilterTest - There is a monster at the end of this block
+00:33:26.440  [main] INFO  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - Monster activity detected
+00:33:26.440  [main] WARN  org.owasp.security.logging.log4j.SecurityMarkerFilterTest - This is your last warning
+00:33:26.440  [main] ERROR org.owasp.security.logging.log4j.SecurityMarkerFilterTest - Monster!
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec
+Running org.owasp.security.logging.log4j.mask.CRLFConverterTest
+CONTEXT: LoggerContextRule [configLocation=log4j2.xml, contextSelectorClass=null]
+00:33:26.532  [main] INFO  org.owasp.security.logging.log4j.mask.CRLFConverterTest - This message contains \r\n line feeds
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.108 sec
+Running org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest
+running testRewriteConfidentialWithParams()
+00:33:26.569 CONFIDENTIAL [main] INFO  org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest - ssn=********
+Formatted message: ssn=********
+2021-02-15 00:33:26,572 main WARN The Logger org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest was created with the message factory org.apache.logging.log4j.message.ParameterizedMessageFactory@63c99f7 and is now requested with the message factory org.apache.logging.log4j.message.ParameterizedMessageFactory@7f012923, which may create log events with unexpected formatting.
+running testRewriteNoMarker()
+00:33:26.572  [main] INFO  org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest - ssn=123-45-6789
+Formatted message: ssn=123-45-6789
+2021-02-15 00:33:26,573 main WARN The Logger org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest was created with the message factory org.apache.logging.log4j.message.ParameterizedMessageFactory@63c99f7 and is now requested with the message factory org.apache.logging.log4j.message.ParameterizedMessageFactory@601f264d, which may create log events with unexpected formatting.
+running testRewriteMultiMarker()
+SECURITY 00:33:26.574 CONFIDENTIALSECURITY FAILURE[ CONFIDENTIAL, SECURITY FAILURE ] [main] INFO  org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest - ssn=********
+00:33:26.574 CONFIDENTIALSECURITY FAILURE[ CONFIDENTIAL, SECURITY FAILURE ] [main] INFO  org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest - ssn=********
+Formatted message: ssn=********
+2021-02-15 00:33:26,575 main WARN The Logger org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest was created with the message factory org.apache.logging.log4j.message.ParameterizedMessageFactory@63c99f7 and is now requested with the message factory org.apache.logging.log4j.message.ParameterizedMessageFactory@4403bff8, which may create log events with unexpected formatting.
+running testRewriteConfidentialNoParams()
+00:33:26.575 CONFIDENTIAL [main] INFO  org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest - ssn=123-45-6789
+Formatted message: ssn=123-45-6789
+2021-02-15 00:33:26,576 main WARN The Logger org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest was created with the message factory org.apache.logging.log4j.message.ParameterizedMessageFactory@63c99f7 and is now requested with the message factory org.apache.logging.log4j.message.ParameterizedMessageFactory@261275ae, which may create log events with unexpected formatting.
+running testRewriteConfidentialNoMessage()
+00:33:26.576  [main] INFO  org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest - null
+Formatted message: null
+2021-02-15 00:33:26,577 main WARN The Logger org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest was created with the message factory org.apache.logging.log4j.message.ParameterizedMessageFactory@63c99f7 and is now requested with the message factory org.apache.logging.log4j.message.ParameterizedMessageFactory@502c087e, which may create log events with unexpected formatting.
+running testRewriteSingleMarker()
+SECURITY 00:33:26.577 SECURITY SUCCESS [main] INFO  org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest - ssn=123-45-6789
+00:33:26.577 SECURITY SUCCESS [main] INFO  org.owasp.security.logging.log4j.mask.MaskingRewritePolicyTest - ssn=123-45-6789
+Formatted message: ssn=123-45-6789
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest
+CONTEXT: LoggerContextRule [configLocation=log4j2.xml, contextSelectorClass=null]
+00:33:26.607  [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement has no markers
+SECURITY 00:33:26.608 SECURITY SUCCESS [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is a security success
+00:33:26.608 SECURITY SUCCESS [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is a security success
+SECURITY 00:33:26.608 SECURITY FAILURE [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is a security failure
+00:33:26.608 SECURITY FAILURE [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is a security failure
+SECURITY 00:33:26.609 SECURITY AUDIT [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is a security audit
+00:33:26.609 SECURITY AUDIT [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is a security audit
+00:33:26.609 CONFIDENTIAL [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is confidential
+00:33:26.609 RESTRICTED [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is confidential
+00:33:26.610 SECRET [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is confidential
+00:33:26.610 TOPSECRET [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is confidential
+SECURITY 00:33:26.610 SECURITY SUCCESSEVENT SUCCESS[ SECURITY SUCCESS, EVENT SUCCESS ] [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is a security success and an event success
+00:33:26.610 SECURITY SUCCESSEVENT SUCCESS[ SECURITY SUCCESS, EVENT SUCCESS ] [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is a security success and an event success
+SECURITY 00:33:26.611 SECURITY FAILURERESTRICTED[ SECURITY FAILURE, RESTRICTED ] [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is a security failure and restricted
+00:33:26.611 SECURITY FAILURERESTRICTED[ SECURITY FAILURE, RESTRICTED ] [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This statement is a security failure and restricted
+CONTEXT: LoggerContextRule [configLocation=log4j2.xml, contextSelectorClass=null]
+00:33:26.612  [main] DEBUG org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - There is a monster at the end of this block
+00:33:26.613  [main] INFO  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - Monster activity detected
+00:33:26.613  [main] WARN  org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - This is your last warning
+00:33:26.613  [main] ERROR org.owasp.security.logging.log4j.ExcludeClassifiedMarkerFilterTest - Monster!
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+
+Results :
+
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ security-logging-log4j ---
+[INFO] Loading execution data file /workdir/owasp-security-logging/owasp-security-logging-log4j/target/jacoco.exec
+[INFO] Analyzed bundle 'OWASP Security Logging Log4j' with 4 classes
+[INFO] 
+[INFO] -----------------< org.owasp:security-logging-logback >-----------------
+[INFO] Building OWASP Security Logging Logback 1.1.6                      [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (default) @ security-logging-logback ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/owasp-security-logging/owasp-security-logging-logback/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ security-logging-logback ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/owasp-security-logging/owasp-security-logging-logback/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ security-logging-logback ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ security-logging-logback ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ security-logging-logback ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ security-logging-logback ---
+[INFO] Surefire report directory: /workdir/owasp-security-logging/owasp-security-logging-logback/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.owasp.security.logging.SecurityTest
+MESSAGE: This message contains 
+ line feeds
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.525 sec
+Running org.owasp.security.logging.layout.rich.RichContextTest
+[pid=12856, applicationName=UNKNOWN, clientTime=999, clientIp=/172.17.0.2]904333c36ff3c2fc65ac98e34095605c51d54f02b020951dae2f773860970e32
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+Running org.owasp.security.logging.layout.cef.CEFLoggingLayoutTest
+CEF:0|vendor|product|version|signatureId|Someother|0|extension=value 
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.owasp.security.logging.util.ExtendedIntervalLoggingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.036 sec
+Running org.owasp.security.logging.util.SecurityUtilLoggingTest
+Print some sample command line arguments.
+Print shell environment variables.
+Print Java system properties.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.owasp.security.logging.util.StreamRedirectionWithCustomLoggersTest
+***** doSysErrTest *****
+message 1
+message 2
+message 5
+message 6
+layoutMessage: message 3
+***** doSysOutTest *****
+message 1
+message 2
+message 5
+message 6
+layoutMessage: message 3
+***** doTest *****
+message 1
+message 2
+message 5
+message 6
+layoutMessage: message 3
+layoutMessage: message 4
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.owasp.security.logging.util.SimpleIntervalLoggingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.032 sec
+Running org.owasp.security.logging.util.StreamRedirectionTest
+Messages not going to SLF4j.  So sad.
+Stream restored.  Messages not going to SLF4J.  Sad yet again.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running org.owasp.security.logging.mask.LUHNMaskingConverterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.188 sec
+Running org.owasp.security.logging.mask.SSNMaskingConverterTest
+APP 2021-02-15 00:34:28,162 [main] [] INFO  U: - This message contains SSN 123-45-6789  
+NOT CLASSIFIED 2021-02-15 00:34:28,162 [main] [] INFO  - This message contains SSN 123-45-6789  
+layoutMessage: [main] INFO  -masked- This message contains SSN ***-**-6789
+
+testMask() layoutMessage: [main] INFO  -masked- This message contains SSN ***-**-6789
+
+APP 2021-02-15 00:34:28,177 [main] [] INFO  U: - This message contains SSN 123-45-6789  
+NOT CLASSIFIED 2021-02-15 00:34:28,177 [main] [] INFO  - This message contains SSN 123-45-6789  
+layoutMessage: [main] INFO  -masked- This message contains SSN ***-**-6789
+
+testMaskWithParameter() layoutMessage: [main] INFO  -masked- This message contains SSN ***-**-6789
+
+APP 2021-02-15 00:34:28,183 [main] [] INFO  U: - This message contains non-SSN 078-05-1120  
+NOT CLASSIFIED 2021-02-15 00:34:28,183 [main] [] INFO  - This message contains non-SSN 078-05-1120  
+layoutMessage: [main] INFO  -masked- This message contains non-SSN 078-05-1120
+
+testNonMaskWithParameter() layoutMessage: [main] INFO  -masked- This message contains non-SSN 078-05-1120
+
+APP 2021-02-15 00:34:28,187 [main] [] INFO  U: - This message contains non-SSN 078-05-1120  
+NOT CLASSIFIED 2021-02-15 00:34:28,187 [main] [] INFO  - This message contains non-SSN 078-05-1120  
+layoutMessage: [main] INFO  -masked- This message contains non-SSN 078-05-1120
+
+testNonMask() layoutMessage: [main] INFO  -masked- This message contains non-SSN 078-05-1120
+
+APP 2021-02-15 00:34:28,192 [main] [] INFO  U: - For user Joe Roberts SSN is 123-45-6789  
+NOT CLASSIFIED 2021-02-15 00:34:28,192 [main] [] INFO  - For user Joe Roberts SSN is 123-45-6789  
+layoutMessage: [main] INFO  -masked- For user Joe Roberts SSN is ***-**-6789
+
+testMaskWithMultiParameter() layoutMessage: [main] INFO  -masked- For user Joe Roberts SSN is ***-**-6789
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 sec
+Running org.owasp.security.logging.mask.CRLFThrowableConverterTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.owasp.security.logging.mask.CRLFConverterTest
+APP 2021-02-15 00:34:28,209 [main] [] INFO  U: - This message contains __ line feeds  
+NOT CLASSIFIED 2021-02-15 00:34:28,209 [main] [] INFO  - This message contains 
+ line feeds  
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running org.owasp.security.logging.mask.DefinedRegexMaskingConverterTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running org.owasp.security.logging.mask.MaskingConverterTest
+APP 2021-02-15 00:34:28,228 [main] [CONFIDENTIAL] INFO  U: - userid=********, password='********'  
+CONFIDENTIAL 2021-02-15 00:34:28,228 [main] [CONFIDENTIAL] INFO  U: - userid=myId, password='secret'  
+APP 2021-02-15 00:34:28,232 [main] [CONFIDENTIALSECURITY FAILURE] INFO  U: - ssn=********  
+Security: 60873 INFO CONFIDENTIALSECURITY FAILURE CONSOLE - null@null ssn=123-45-6789
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running org.owasp.security.logging.filter.SecurityMarkerFilterTest
+APP 2021-02-15 00:34:28,256 [main] [] INFO  U: - This statement is NOT a security event  
+NOT CLASSIFIED 2021-02-15 00:34:28,256 [main] [] INFO  - This statement is NOT a security event  
+testAppender(): loggingEvent: [INFO] This statement is NOT a security event
+Security: 60920 INFO SECURITY AUDITCONFIDENTIAL CONSOLE - null@null This statement contains multiple markers: security audit and confidential
+Security: 60920 INFO SECURITY AUDITCONFIDENTIAL CONSOLE - null@null This statement contains multiple markers: security audit and confidential
+testAppender(): loggingEvent: [INFO] This statement contains multiple markers: security audit and confidential
+APP 2021-02-15 00:34:28,281 [main] [SECURITY SUCCESS] INFO  U: - This statement is a security success  
+Security: 60922 INFO SECURITY SUCCESS CONSOLE - null@null This statement is a security success
+NOT CLASSIFIED 2021-02-15 00:34:28,281 [main] [SECURITY SUCCESS] INFO  - This statement is a security success  
+Security: 60922 INFO SECURITY SUCCESS CONSOLE - null@null This statement is a security success
+testAppender(): loggingEvent: [INFO] This statement is a security success
+MARKER: EVENT SUCCESSCONFIDENTIAL
+testAppender(): loggingEvent: [INFO] This statement contains multiple markers: event success and confidential
+APP 2021-02-15 00:34:28,283 [main] [SECURITY FAILURE] INFO  U: - This statement is a security failure  
+Security: 60924 INFO SECURITY FAILURE CONSOLE - null@null This statement is a security failure
+NOT CLASSIFIED 2021-02-15 00:34:28,283 [main] [SECURITY FAILURE] INFO  - This statement is a security failure  
+Security: 60924 INFO SECURITY FAILURE CONSOLE - null@null This statement is a security failure
+testAppender(): loggingEvent: [INFO] This statement is a security failure
+APP 2021-02-15 00:34:28,284 [main] [SECURITY AUDIT] INFO  U: - This statement is a security audit  
+Security: 60925 INFO SECURITY AUDIT CONSOLE - null@null This statement is a security audit
+NOT CLASSIFIED 2021-02-15 00:34:28,284 [main] [SECURITY AUDIT] INFO  - This statement is a security audit  
+Security: 60925 INFO SECURITY AUDIT CONSOLE - null@null This statement is a security audit
+testAppender(): loggingEvent: [INFO] This statement is a security audit
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 sec
+Running org.owasp.security.logging.filter.MarkerFilterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running org.owasp.security.logging.filter.ExcludeClassifiedMarkerFilterTest
+APP 2021-02-15 00:34:28,287 [main] [] INFO  U: - This statement is NOT confidential  
+NOT CLASSIFIED 2021-02-15 00:34:28,287 [main] [] INFO  - This statement is NOT confidential  
+NOT CLASSIFIED 2021-02-15 00:34:28,287 [main] [] INFO  - This statement is NOT confidential  
+testAppender(): loggingEvent: [INFO] This statement is NOT confidential
+Security: 60930 INFO SECURITY AUDITCONFIDENTIAL CONSOLE - null@null This statement contains multiple markers: audit and confidential
+testAppender(): loggingEvent: [INFO] This statement contains multiple markers: audit and confidential
+APP 2021-02-15 00:34:28,290 [main] [TOPSECRET] INFO  U: - This statement is top secret  
+testAppender(): loggingEvent: [INFO] This statement is top secret
+CONFIDENTIAL 2021-02-15 00:34:28,290 [main] [CONFIDENTIAL] INFO  U: - This statement is confidential  
+testAppender(): loggingEvent: [INFO] This statement is confidential
+APP 2021-02-15 00:34:28,291 [main] [SECRET] INFO  U: - This statement is secret  
+testAppender(): loggingEvent: [INFO] This statement is secret
+APP 2021-02-15 00:34:28,292 [main] [RESTRICTED] INFO  U: - This statement is restricted  
+testAppender(): loggingEvent: [INFO] This statement is restricted
+APP 2021-02-15 00:34:28,293 [main] [SECURITY SUCCESS] INFO  U: - This statement is a security event  
+Security: 60934 INFO SECURITY SUCCESS CONSOLE - null@null This statement is a security event
+NOT CLASSIFIED 2021-02-15 00:34:28,293 [main] [SECURITY SUCCESS] INFO  - This statement is a security event  
+NOT CLASSIFIED 2021-02-15 00:34:28,293 [main] [SECURITY SUCCESS] INFO  - This statement is a security event  
+testAppender(): loggingEvent: [INFO] This statement is a security event
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running org.owasp.security.logging.SecurityMarkersTest
+getMarkersTest(): test1: SECURITY AUDIT
+getMarkersTest(): test2: SECURITY AUDITSECURITY FAILURE
+getMarkersTest(): test3: SECURITY AUDITCONFIDENTIAL
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+
+Results :
+
+Tests run: 46, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:report (report) @ security-logging-logback ---
+[INFO] Loading execution data file /workdir/owasp-security-logging/owasp-security-logging-logback/target/jacoco.exec
+[INFO] Analyzed bundle 'OWASP Security Logging Logback' with 19 classes
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for OWASP Security Logging 1.1.6:
+[INFO] 
+[INFO] OWASP Security Logging ............................. SUCCESS [  0.474 s]
+[INFO] OWASP Security Logging Common ...................... SUCCESS [  1.051 s]
+[INFO] OWASP Security Logging Log4j ....................... SUCCESS [  1.675 s]
+[INFO] OWASP Security Logging Logback ..................... SUCCESS [01:01 min]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:04 min
+[INFO] Finished at: 2021-02-15T00:34:28Z
+[INFO] ------------------------------------------------------------------------

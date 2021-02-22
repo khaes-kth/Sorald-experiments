@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 5,
         "performedRepairsLocations": [
             {
                 "endLine": 94,
@@ -48,10 +47,11 @@
                 "violationSpecifier": "2095:src/main/java/org/openpnp/vision/pipeline/stages/SimpleBlobDetector.java:236:48:236:78"
             }
         ],
+        "nbViolationsBefore": 5,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -65,10 +65,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 31088,
-    "repairTimeMs": 812,
-    "startTimeMs": 1612803337512,
+    "totalTimeMs": 32287,
+    "repairTimeMs": 1004,
+    "startTimeMs": 1613329616407,
     "crashes": [],
-    "endTimeMs": 1612803368600,
-    "parseTimeMs": 6844
+    "endTimeMs": 1613329648694,
+    "parseTimeMs": 7190
 }

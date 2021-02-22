@@ -1,0 +1,828 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.googlecode.aviator:aviator >-------------------
+[INFO] Building aviator 5.1.5-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- formatter-maven-plugin:2.9.0:format (default) @ aviator ---
+[INFO] Using 'utf-8' encoding to format source files.
+[INFO] Number of files to be formatted: 336
+[INFO] Successfully formatted:          0 file(s)
+[INFO] Fail to format:                  0 file(s)
+[INFO] Skipped:                         336 file(s)
+[INFO] Read only skipped:               0 file(s)
+[INFO] Approximate time taken:          2s
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ aviator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ aviator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ aviator ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 68 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ aviator ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ aviator ---
+[INFO] Surefire report directory: /workdir/aviatorscript/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.googlecode.aviator.SimpleELPerformanceTest
+Perf (a+b+100)*c*100
+[Aviator INFO] Loading custom aviator function class: 'com.googlecode.aviator.runtime.function.custom.AddFunction'.
+[Aviator INFO] Total 1 custom functions loaded.
+time : 867
+Perf a.b.c
+time : 881
+Perf string interpolation
+time : 745
+Perf (a+b+100)*c*100
+time : 864
+Perf a.b.c
+time : 881
+Perf string interpolation
+time : 696
+Perf (a+b+100)*c*100
+time : 863
+Perf a.b.c
+time : 880
+Perf string interpolation
+time : 687
+Perf (a+b+100)*c*100
+time : 871
+Perf a.b.c
+time : 892
+Perf string interpolation
+time : 680
+Perf (a+b+100)*c*100
+time : 868
+Perf a.b.c
+time : 890
+Perf string interpolation
+time : 681
+Perf (a+b+100)*c*100
+time : 864
+Perf a.b.c
+time : 901
+Perf string interpolation
+time : 681
+Perf (a+b+100)*c*100
+time : 865
+Perf a.b.c
+time : 888
+Perf string interpolation
+time : 679
+Perf (a+b+100)*c*100
+time : 878
+Perf a.b.c
+time : 905
+Perf string interpolation
+time : 691
+Perf (a+b+100)*c*100
+time : 929
+Perf a.b.c
+time : 898
+Perf string interpolation
+time : 682
+Perf (a+b+100)*c*100
+time : 862
+Perf a.b.c
+time : 897
+Perf string interpolation
+time : 680
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.623 sec
+Running com.googlecode.aviator.spring.SringContextFunctionLoaderTest
+Feb 14, 2021 4:39:08 PM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4c371370: startup date [Sun Feb 14 16:39:08 UTC 2021]; root of context hierarchy
+Feb 14, 2021 4:39:08 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [context.xml]
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.228 sec
+Running com.googlecode.aviator.scripts.TestScripts
+Testing script string.av with args: []
+Testing script new.av with args: []
+Testing script string_interpolation.av with args: []
+Testing script string_interpolation.av with args: []
+Testing script qsort.av with args: [a, [I@6692b6c6]
+Testing script qsort.av with args: [a, [I@2a3888c1]
+Testing script qsort.av with args: [a, [I@4167d97b]
+Testing script qsort.av with args: [a, [I@14fa86ae]
+Testing script qsort.av with args: [a, [I@6e15fe2]
+Testing script qsort.av with args: [a, [I@68f1b17f]
+Testing script qsort.av with args: [a, [I@57ad2aa7]
+Testing script qsort.av with args: [a, [I@4fbe37eb]
+Testing script qsort.av with args: [a, [I@2049a9c1]
+Testing script qsort.av with args: [a, [I@1ef6d34c]
+Testing script qsort.av with args: [a, [I@61eaec38]
+Testing script qsort.av with args: [a, [I@125290e5]
+Testing script qsort.av with args: [a, [I@6fa34d52]
+Testing script qsort.av with args: [a, [I@57576994]
+Testing script qsort.av with args: [a, [I@616ac46a]
+Testing script qsort.av with args: [a, [I@67b9b51a]
+Testing script qsort.av with args: [a, [I@1205bd62]
+Testing script qsort.av with args: [a, [I@7ef27d7f]
+Testing script qsort.av with args: [a, [I@490caf5f]
+Testing script qsort.av with args: [a, [I@6337c201]
+Testing script qsort.av with args: [a, [I@5c669da8]
+Testing script qsort.av with args: [a, [I@31920ade]
+Testing script qsort.av with args: [a, [I@1d483de4]
+Testing script qsort.av with args: [a, [I@4032d386]
+Testing script qsort.av with args: [a, [I@28d18df5]
+Testing script qsort.av with args: [a, [I@934b6cb]
+Testing script qsort.av with args: [a, [I@55cf0d14]
+Testing script qsort.av with args: [a, [I@3b74ac8]
+Testing script qsort.av with args: [a, [I@27adc16e]
+Testing script qsort.av with args: [a, [I@b83a9be]
+Testing script qsort.av with args: [a, [I@2609b277]
+Testing script qsort.av with args: [a, [I@1fd14d74]
+Testing script qsort.av with args: [a, [I@563e4951]
+Testing script qsort.av with args: [a, [I@4066c471]
+Testing script qsort.av with args: [a, [I@2b175c00]
+Testing script qsort.av with args: [a, [I@3eb81efb]
+Testing script qsort.av with args: [a, [I@1ae8bcbc]
+Testing script qsort.av with args: [a, [I@6cdba6dc]
+Testing script qsort.av with args: [a, [I@7d3d101b]
+Testing script qsort.av with args: [a, [I@30c8681]
+Testing script qsort.av with args: [a, [I@5cdec700]
+Testing script qsort.av with args: [a, [I@6d026701]
+Testing script qsort.av with args: [a, [I@78aa1f72]
+Testing script qsort.av with args: [a, [I@1f75a668]
+Testing script qsort.av with args: [a, [I@35399441]
+Testing script qsort.av with args: [a, [I@4b7dc788]
+Testing script qsort.av with args: [a, [I@6304101a]
+Testing script qsort.av with args: [a, [I@5170bcf4]
+Testing script qsort.av with args: [a, [I@2812b107]
+Testing script qsort.av with args: [a, [I@df6620a]
+Testing script qsort.av with args: [a, [I@4e31276e]
+Testing script qsort.av with args: [a, [I@1a72a540]
+Testing script qsort.av with args: [a, [I@27d5a580]
+Testing script qsort.av with args: [a, [I@198d6542]
+Testing script qsort.av with args: [a, [I@5e403b4a]
+Testing script qsort.av with args: [a, [I@5117dd67]
+Testing script qsort.av with args: [a, [I@5be49b60]
+Testing script qsort.av with args: [a, [I@2931522b]
+Testing script qsort.av with args: [a, [I@7674b62c]
+Testing script qsort.av with args: [a, [I@19e7a160]
+Testing script qsort.av with args: [a, [I@662706a7]
+Testing script qsort.av with args: [a, [I@45a4b042]
+Testing script qsort.av with args: [a, [I@16b2bb0c]
+Testing script qsort.av with args: [a, [I@327af41b]
+Testing script qsort.av with args: [a, [I@6cb6decd]
+Testing script qsort.av with args: [a, [I@c7045b9]
+Testing script qsort.av with args: [a, [I@f99f5e0]
+Testing script qsort.av with args: [a, [I@6aa61224]
+Testing script qsort.av with args: [a, [I@30bce90b]
+Testing script qsort.av with args: [a, [I@3e6f3f28]
+Testing script qsort.av with args: [a, [I@7e19ebf0]
+Testing script qsort.av with args: [a, [I@2474f125]
+Testing script qsort.av with args: [a, [I@7357a011]
+Testing script qsort.av with args: [a, [I@3406472c]
+Testing script qsort.av with args: [a, [I@5717c37]
+Testing script qsort.av with args: [a, [I@68f4865]
+Testing script qsort.av with args: [a, [I@4816278d]
+Testing script qsort.av with args: [a, [I@4eaf3684]
+Testing script qsort.av with args: [a, [I@40317ba2]
+Testing script qsort.av with args: [a, [I@3c01cfa1]
+Testing script qsort.av with args: [a, [I@45d2ade3]
+Testing script qsort.av with args: [a, [I@727eb8cb]
+Testing script qsort.av with args: [a, [I@39d9314d]
+Testing script qsort.av with args: [a, [I@b978d10]
+Testing script qsort.av with args: [a, [I@5b7a8434]
+Testing script qsort.av with args: [a, [I@5c45d770]
+Testing script qsort.av with args: [a, [I@2ce6c6ec]
+Testing script qsort.av with args: [a, [I@1bae316d]
+Testing script qsort.av with args: [a, [I@147a5d08]
+Testing script qsort.av with args: [a, [I@6676f6a0]
+Testing script selection_sort.av with args: [a, [I@7cbd9d24]
+Testing script selection_sort.av with args: [a, [I@258d79be]
+Testing script selection_sort.av with args: [a, [I@14f9390f]
+Testing script selection_sort.av with args: [a, [I@176b75f7]
+Testing script selection_sort.av with args: [a, [I@5965be2d]
+Testing script selection_sort.av with args: [a, [I@409c54f]
+Testing script selection_sort.av with args: [a, [I@3b8f0a79]
+Testing script selection_sort.av with args: [a, [I@48793bef]
+Testing script selection_sort.av with args: [a, [I@7d286fb6]
+Testing script selection_sort.av with args: [a, [I@3eb77ea8]
+Testing script selection_sort.av with args: [a, [I@44c73c26]
+Testing script selection_sort.av with args: [a, [I@41005828]
+Testing script selection_sort.av with args: [a, [I@60b4beb4]
+Testing script selection_sort.av with args: [a, [I@7fcf2fc1]
+Testing script selection_sort.av with args: [a, [I@2141a12]
+Testing script selection_sort.av with args: [a, [I@4196c360]
+Testing script selection_sort.av with args: [a, [I@41294f8]
+Testing script selection_sort.av with args: [a, [I@225129c]
+Testing script selection_sort.av with args: [a, [I@20435c40]
+Testing script selection_sort.av with args: [a, [I@573906eb]
+Testing script selection_sort.av with args: [a, [I@479ceda0]
+Testing script selection_sort.av with args: [a, [I@6d07a63d]
+Testing script selection_sort.av with args: [a, [I@571c5681]
+Testing script selection_sort.av with args: [a, [I@488d1cd7]
+Testing script selection_sort.av with args: [a, [I@68dc098b]
+Testing script selection_sort.av with args: [a, [I@38ba6ce3]
+Testing script selection_sort.av with args: [a, [I@d278d2b]
+Testing script selection_sort.av with args: [a, [I@2d6c53fc]
+Testing script selection_sort.av with args: [a, [I@25f4878b]
+Testing script selection_sort.av with args: [a, [I@4e423aa2]
+Testing script selection_sort.av with args: [a, [I@7fbdb894]
+Testing script selection_sort.av with args: [a, [I@3081f72c]
+Testing script selection_sort.av with args: [a, [I@3148f668]
+Testing script selection_sort.av with args: [a, [I@6e005dc9]
+Testing script selection_sort.av with args: [a, [I@7ceb3185]
+Testing script selection_sort.av with args: [a, [I@436c81a3]
+Testing script selection_sort.av with args: [a, [I@3561c410]
+Testing script selection_sort.av with args: [a, [I@59e32960]
+Testing script selection_sort.av with args: [a, [I@7c214cc0]
+Testing script selection_sort.av with args: [a, [I@5b67bb7e]
+Testing script selection_sort.av with args: [a, [I@609db546]
+Testing script selection_sort.av with args: [a, [I@20f5281c]
+Testing script selection_sort.av with args: [a, [I@56c4278e]
+Testing script selection_sort.av with args: [a, [I@301eda63]
+Testing script selection_sort.av with args: [a, [I@3d246ea3]
+Testing script selection_sort.av with args: [a, [I@341814d3]
+Testing script selection_sort.av with args: [a, [I@4397ad89]
+Testing script selection_sort.av with args: [a, [I@59cba5a]
+Testing script selection_sort.av with args: [a, [I@1bd39d3c]
+Testing script selection_sort.av with args: [a, [I@6f19ac19]
+Testing script selection_sort.av with args: [a, [I@119cbf96]
+Testing script selection_sort.av with args: [a, [I@71329995]
+Testing script selection_sort.av with args: [a, [I@768fc0f2]
+Testing script selection_sort.av with args: [a, [I@5454d35e]
+Testing script selection_sort.av with args: [a, [I@20c0a64d]
+Testing script selection_sort.av with args: [a, [I@455b6df1]
+Testing script selection_sort.av with args: [a, [I@4ddbbdf8]
+Testing script selection_sort.av with args: [a, [I@3f67593e]
+Testing script selection_sort.av with args: [a, [I@1ab06251]
+Testing script selection_sort.av with args: [a, [I@41ab013]
+Testing script selection_sort.av with args: [a, [I@14bee915]
+Testing script selection_sort.av with args: [a, [I@1115ec15]
+Testing script selection_sort.av with args: [a, [I@82ea68c]
+Testing script selection_sort.av with args: [a, [I@59e505b2]
+Testing script selection_sort.av with args: [a, [I@3af0a9da]
+Testing script selection_sort.av with args: [a, [I@43b9fd5]
+Testing script selection_sort.av with args: [a, [I@79dc5318]
+Testing script selection_sort.av with args: [a, [I@8e50104]
+Testing script selection_sort.av with args: [a, [I@37e4d7bb]
+Testing script selection_sort.av with args: [a, [I@6f7923a5]
+Testing script selection_sort.av with args: [a, [I@74a6f9c1]
+Testing script selection_sort.av with args: [a, [I@54eb2b70]
+Testing script selection_sort.av with args: [a, [I@45a37759]
+Testing script selection_sort.av with args: [a, [I@63611043]
+Testing script selection_sort.av with args: [a, [I@20ca951f]
+Testing script selection_sort.av with args: [a, [I@2d778add]
+Testing script selection_sort.av with args: [a, [I@73302995]
+Testing script selection_sort.av with args: [a, [I@1838ccb8]
+Testing script selection_sort.av with args: [a, [I@6c2ed0cd]
+Testing script selection_sort.av with args: [a, [I@7d9e8ef7]
+Testing script selection_sort.av with args: [a, [I@f107c50]
+Testing script selection_sort.av with args: [a, [I@51133c06]
+Testing script selection_sort.av with args: [a, [I@4b213651]
+Testing script selection_sort.av with args: [a, [I@4241e0f4]
+Testing script selection_sort.av with args: [a, [I@4ebff610]
+Testing script selection_sort.av with args: [a, [I@60410cd]
+Testing script selection_sort.av with args: [a, [I@44d52de2]
+Testing script selection_sort.av with args: [a, [I@95e33cc]
+Testing script selection_sort.av with args: [a, [I@38604b81]
+Testing script selection_sort.av with args: [a, [I@1e44b638]
+Testing script fibonacci.av with args: [n, 0]
+Testing script fibonacci.av with args: [n, 1]
+Testing script fibonacci.av with args: [n, 2]
+Testing script fibonacci.av with args: [n, 10]
+Testing script fibonacci.av with args: [n, 15]
+Testing script fibonacci.av with args: [n, 20]
+Testing script try_catch1.av with args: []
+Testing script try_catch2.av with args: []
+java.lang.ClassCastException: <Long, 3> is not a function
+	at com.googlecode.aviator.runtime.function.FunctionUtils.getFunction(FunctionUtils.java:130)
+	at com.googlecode.aviator.runtime.function.seq.SeqMapFunction.call(SeqMapFunction.java:50)
+	at Script_1613320748871_148.execute0(try_catch2.av:2)
+	at com.googlecode.aviator.ClassExpression.executeDirectly(ClassExpression.java:65)
+	at Lambda_1613320748871_35.call(Unknown Source)
+	at com.googlecode.aviator.runtime.function.internal.TryCatchFunction.call(TryCatchFunction.java:41)
+	at Script_1613320748871_147.execute0(try_catch2.av:10)
+	at com.googlecode.aviator.ClassExpression.executeDirectly(ClassExpression.java:65)
+	at com.googlecode.aviator.BaseExpression.execute(BaseExpression.java:136)
+	at com.googlecode.aviator.scripts.TestScripts.testScript(TestScripts.java:38)
+	at com.googlecode.aviator.scripts.TestScripts.testTryCatch(TestScripts.java:288)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.internal.runners.TestMethodRunner.executeMethodBody(TestMethodRunner.java:99)
+	at org.junit.internal.runners.TestMethodRunner.runUnprotected(TestMethodRunner.java:81)
+	at org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	at org.junit.internal.runners.TestMethodRunner.runMethod(TestMethodRunner.java:75)
+	at org.junit.internal.runners.TestMethodRunner.run(TestMethodRunner.java:45)
+	at org.junit.internal.runners.TestClassMethodsRunner.invokeTestMethod(TestClassMethodsRunner.java:66)
+	at org.junit.internal.runners.TestClassMethodsRunner.run(TestClassMethodsRunner.java:35)
+	at org.junit.internal.runners.TestClassRunner$1.runUnprotected(TestClassRunner.java:42)
+	at org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	at org.junit.internal.runners.TestClassRunner.run(TestClassRunner.java:52)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Testing script try_catch3.av with args: []
+Testing script try_catch4.av with args: []
+Testing script try_catch5.av with args: []
+Testing script try_catch6.av with args: []
+java.lang.ClassCastException: <Long, 3> is not a function
+	at com.googlecode.aviator.runtime.function.FunctionUtils.getFunction(FunctionUtils.java:130)
+	at com.googlecode.aviator.runtime.function.seq.SeqMapFunction.call(SeqMapFunction.java:50)
+	at Script_1613320748892_172.execute0(try_catch6.av:2)
+	at com.googlecode.aviator.ClassExpression.executeDirectly(ClassExpression.java:65)
+	at Lambda_1613320748892_55.call(Unknown Source)
+	at com.googlecode.aviator.runtime.function.internal.TryCatchFunction.call(TryCatchFunction.java:41)
+	at Script_1613320748892_171.execute0(try_catch6.av:10)
+	at com.googlecode.aviator.ClassExpression.executeDirectly(ClassExpression.java:65)
+	at com.googlecode.aviator.BaseExpression.execute(BaseExpression.java:136)
+	at com.googlecode.aviator.scripts.TestScripts.testScript(TestScripts.java:38)
+	at com.googlecode.aviator.scripts.TestScripts.testTryCatch(TestScripts.java:295)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.internal.runners.TestMethodRunner.executeMethodBody(TestMethodRunner.java:99)
+	at org.junit.internal.runners.TestMethodRunner.runUnprotected(TestMethodRunner.java:81)
+	at org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	at org.junit.internal.runners.TestMethodRunner.runMethod(TestMethodRunner.java:75)
+	at org.junit.internal.runners.TestMethodRunner.run(TestMethodRunner.java:45)
+	at org.junit.internal.runners.TestClassMethodsRunner.invokeTestMethod(TestClassMethodsRunner.java:66)
+	at org.junit.internal.runners.TestClassMethodsRunner.run(TestClassMethodsRunner.java:35)
+	at org.junit.internal.runners.TestClassRunner$1.runUnprotected(TestClassRunner.java:42)
+	at org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	at org.junit.internal.runners.TestClassRunner.run(TestClassRunner.java:52)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Testing script try_catch7.av with args: []
+java.io.IOException: test
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.googlecode.aviator.runtime.function.internal.NewInstanceFunction.variadicCall(NewInstanceFunction.java:68)
+	at com.googlecode.aviator.runtime.function.AbstractVariadicFunction.call(AbstractVariadicFunction.java:71)
+	at Script_1613320748898_178.execute0(try_catch7.av:2)
+	at com.googlecode.aviator.ClassExpression.executeDirectly(ClassExpression.java:65)
+	at Lambda_1613320748898_60.call(Unknown Source)
+	at com.googlecode.aviator.runtime.function.internal.TryCatchFunction.call(TryCatchFunction.java:41)
+	at Script_1613320748898_177.execute0(try_catch7.av:10)
+	at com.googlecode.aviator.ClassExpression.executeDirectly(ClassExpression.java:65)
+	at com.googlecode.aviator.BaseExpression.execute(BaseExpression.java:136)
+	at com.googlecode.aviator.scripts.TestScripts.testScript(TestScripts.java:38)
+	at com.googlecode.aviator.scripts.TestScripts.testTryCatch(TestScripts.java:296)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.internal.runners.TestMethodRunner.executeMethodBody(TestMethodRunner.java:99)
+	at org.junit.internal.runners.TestMethodRunner.runUnprotected(TestMethodRunner.java:81)
+	at org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	at org.junit.internal.runners.TestMethodRunner.runMethod(TestMethodRunner.java:75)
+	at org.junit.internal.runners.TestMethodRunner.run(TestMethodRunner.java:45)
+	at org.junit.internal.runners.TestClassMethodsRunner.invokeTestMethod(TestClassMethodsRunner.java:66)
+	at org.junit.internal.runners.TestClassMethodsRunner.run(TestClassMethodsRunner.java:35)
+	at org.junit.internal.runners.TestClassRunner$1.runUnprotected(TestClassRunner.java:42)
+	at org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	at org.junit.internal.runners.TestClassRunner.run(TestClassRunner.java:52)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Testing script seq_entry.av with args: []
+Testing script range.av with args: []
+Testing script string_seq.av with args: []
+Testing script scope1.av with args: []
+Testing script scope2.av with args: []
+Testing script comments.av with args: []
+Testing script if_else1.av with args: []
+Testing script if_else2.av with args: []
+Testing script if_else3.av with args: []
+Testing script if_else4.av with args: []
+Testing script if_else5.av with args: []
+Testing script if_else6.av with args: []
+Testing script if_elsif1.av with args: [a, 2]
+Testing script if_elsif1.av with args: [a, 11]
+Testing script if_elsif1.av with args: [a, 101]
+Testing script if_elsif2.av with args: [a, 2]
+Testing script if_elsif2.av with args: [a, 11]
+Testing script if_elsif2.av with args: [a, 101]
+Testing script if_elsif3.av with args: [a, 8]
+Testing script if_elsif3.av with args: [a, 12]
+Testing script if_elsif3.av with args: [a, 112]
+Testing script if_else7.av with args: []
+Testing script if_else8.av with args: []
+Testing script if_else9.av with args: []
+Testing script if_else10.av with args: []
+Testing script if_else_scope.av with args: [b, 101]
+Testing script if_else_scope.av with args: [b, 11]
+Testing script if_else_scope.av with args: [b, 1]
+Testing script for1.av with args: []
+Testing script for2.av with args: [a, 1]
+Testing script for2.av with args: [a, 3]
+Testing script for2.av with args: [a, 100]
+Testing script for2.av with args: [a, -1]
+Testing script for2.av with args: [a, 0]
+Testing script for3.av with args: [a, 10]
+Testing script for3.av with args: [a, 101]
+Testing script for4.av with args: [a, 10]
+Testing script for4.av with args: [a, 50]
+Testing script for_break1.av with args: [a, 5]
+Testing script for_break1.av with args: [a, 101]
+Testing script for_break2.av with args: [a, 5]
+Testing script for_break2.av with args: [a, 101]
+Testing script for_break3.av with args: [a, 5]
+Testing script for_break3.av with args: [a, 101]
+Testing script for_break4.av with args: [a, 5]
+Testing script for_break4.av with args: [a, 101]
+Testing script for_break5.av with args: [a, 5]
+Testing script for_break5.av with args: [a, 101]
+Testing script for_continue1.av with args: [a, 101]
+Testing script for_continue1.av with args: [a, 11]
+Testing script for_continue1.av with args: [a, 12]
+Testing script for_continue2.av with args: [a, 5]
+Testing script for_continue2.av with args: [a, 101]
+Testing script for_continue3.av with args: [a, 5]
+Testing script for_continue3.av with args: [a, 101]
+Testing script for_continue4.av with args: [a, 101]
+Testing script for_continue4.av with args: [a, 51]
+Testing script for_continue4.av with args: [a, 11]
+Testing script for_continue4.av with args: [a, 12]
+Testing script for_return1.av with args: []
+Testing script for_return2.av with args: []
+Testing script for_return3.av with args: []
+Testing script for_return4.av with args: []
+Testing script for5.av with args: []
+Testing script for_null.av with args: []
+Testing script for_null.av with args: [a, [I@3fffff43]
+Testing script while1.av with args: []
+Testing script while2.av with args: []
+Testing script while3.av with args: []
+Testing script while4.av with args: []
+Testing script while5.av with args: [a, 1, b, 10]
+Testing script while6.av with args: []
+rand_int(10)=8
+Testing script while6.av with args: []
+rand_int(10)=5
+Testing script while6.av with args: []
+rand_int(10)=5
+Testing script while6.av with args: []
+rand_int(10)=8
+Testing script while6.av with args: []
+rand_int(10)=9
+Testing script while6.av with args: []
+rand_int(10)=8
+Testing script while6.av with args: []
+rand_int(10)=9
+Testing script while6.av with args: []
+rand_int(10)=9
+Testing script while6.av with args: []
+rand_int(10)=5
+Testing script while6.av with args: []
+rand_int(10)=6
+Testing script while7.av with args: []
+Testing script while8.av with args: []
+Testing script let1.av with args: []
+Testing script let2.av with args: []
+Testing script let3.av with args: []
+Testing script let4.av with args: []
+Testing script let5.av with args: []
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.135 sec
+Running com.googlecode.aviator.ScriptEngineTest
+3
+hello world
+run
+run
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running com.googlecode.aviator.code.asm.ASMCodeGeneratorUnitTest
+Tests run: 39, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running com.googlecode.aviator.AviatorEvaluatorInstanceUnitTest
+com.googlecode.aviator.utils.Env@22c86919{__instance__=com.googlecode.aviator.AviatorEvaluatorInstance@70fab835, __exp__=Script_1613320749410_563@1b0a7baf, __env__=<this>}
+[test.getClass, test.wait, test.hashCode, test.equals, test.notifyAll, test.toString, test.is_empty, test.notify]
+com.googlecode.aviator.utils.Env@69adf72c{__instance__=com.googlecode.aviator.AviatorEvaluatorInstance@797501a, __exp__=Script_1613320749444_616@1a15b789, __env__=<this>, x=3, y=4}
+com.googlecode.aviator.utils.Env@241a53ef{__instance__=com.googlecode.aviator.AviatorEvaluatorInstance@797501a, __exp__=Script_1613320749444_616@1a15b789, __env__=<this>, x=8, y=9}
+com.googlecode.aviator.utils.Env@615f972{__instance__=com.googlecode.aviator.AviatorEvaluatorInstance@797501a, __exp__=Script_1613320749444_616@1a15b789, __env__=<this>, x=8, y=9}
+[Aviator WARN] compile lexeme `hecco` without caching, it may hurt performance and cause metaspace full gc, the stack:
+	com.googlecode.aviator.runtime.type.AviatorString.warnOnCompile(AviatorString.java:162)
+	com.googlecode.aviator.runtime.type.AviatorString.getLexeme(AviatorString.java:152)
+	com.googlecode.aviator.runtime.type.AviatorString.getValue(AviatorString.java:50)
+	com.googlecode.aviator.runtime.type.AviatorObject.desc(AviatorObject.java:114)
+	com.googlecode.aviator.runtime.type.AviatorObject.toString(AviatorObject.java:75)
+	java.base/java.lang.String.valueOf(String.java:2951)
+	java.base/java.lang.StringBuilder.append(StringBuilder.java:168)
+	com.googlecode.aviator.runtime.function.TraceFunction.traceResult(TraceFunction.java:39)
+	com.googlecode.aviator.runtime.function.TraceFunction.call(TraceFunction.java:98)
+	Script_1613320749458_640.execute0(Script_1613320749458_640:1)
+	com.googlecode.aviator.ClassExpression.executeDirectly(ClassExpression.java:65)
+	com.googlecode.aviator.BaseExpression.execute(BaseExpression.java:136)
+	com.googlecode.aviator.AviatorEvaluatorInstance.execute(AviatorEvaluatorInstance.java:1482)
+	com.googlecode.aviator.AviatorEvaluatorInstance.execute(AviatorEvaluatorInstance.java:1497)
+	com.googlecode.aviator.AviatorEvaluatorInstance.execute(AviatorEvaluatorInstance.java:1533)
+	com.googlecode.aviator.AviatorEvaluatorInstanceUnitTest.testTraceEval(AviatorEvaluatorInstanceUnitTest.java:523)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	org.junit.internal.runners.TestMethodRunner.executeMethodBody(TestMethodRunner.java:99)
+	org.junit.internal.runners.TestMethodRunner.runUnprotected(TestMethodRunner.java:81)
+	org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	org.junit.internal.runners.TestMethodRunner.runMethod(TestMethodRunner.java:75)
+	org.junit.internal.runners.TestMethodRunner.run(TestMethodRunner.java:45)
+	org.junit.internal.runners.TestClassMethodsRunner.invokeTestMethod(TestClassMethodsRunner.java:66)
+	org.junit.internal.runners.TestClassMethodsRunner.run(TestClassMethodsRunner.java:35)
+	org.junit.internal.runners.TestClassRunner$1.runUnprotected(TestClassRunner.java:42)
+	org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	org.junit.internal.runners.TestClassRunner.run(TestClassRunner.java:52)
+	org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+
+Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.079 sec
+Running com.googlecode.aviator.JavaMethodReflectionFunctionMissingTest
+custom function:5388890, cost: 62 ms.
+function missing:5388890, cost: 150 ms.
+imported function:5388890, cost: 99 ms.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.805 sec
+Running com.googlecode.aviator.runtime.type.AviatorPatternUnitTest
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.type.AviatorStringUnitTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec
+Running com.googlecode.aviator.runtime.type.AviatorJavaTypeUnitTest
+4.4
+Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.googlecode.aviator.runtime.type.AviatorNilUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.type.AviatorNumberUnitTest
+Tests run: 28, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running com.googlecode.aviator.runtime.type.AviatorBooleanUnitTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.googlecode.aviator.runtime.function.custom.CustomFunctionUnitTest
+getFirstNonNull(i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,i16,i17,i18,i19,i20,i21,i22,i23,i24,i25,i26,i27,i28,i29, getFirstNonNull(i0,i1,i2,i3,i4,i5,i6,i7,i8,i9,i10,i11,i12,i13,i14,i15,i16,i17,i18,i19,i20,i21,i22,i23,i24,i25,i26,i27,i28,i29,last))
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.googlecode.aviator.runtime.function.math.MathCosFunctionUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.math.MathTanFunctionUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.math.MathRoundFunctionUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running com.googlecode.aviator.runtime.function.math.MathPowFunctionUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.math.MathLogFunctionUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+Running com.googlecode.aviator.runtime.function.math.MathAbsFunctionUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.googlecode.aviator.runtime.function.math.MathSqrtFunctionUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.math.MathLog10FunctionUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.math.MathSinFunctionUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.seq.SeqReduceFunctionUnitTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running com.googlecode.aviator.runtime.function.seq.SeqMapFunctionUnitTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.googlecode.aviator.runtime.function.seq.SeqIncludeFunctionUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.seq.SeqPredicateFunctionUnitTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.googlecode.aviator.runtime.function.seq.SeqCountFunctionUnitTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.seq.SeqSortFunctionUnitTest
+[9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.googlecode.aviator.runtime.function.seq.SeqMakePredicateFunctionUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.seq.SeqFilterFunctionUnitTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.system.BinaryFunctionUnitTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.system.RandomFunctionUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.system.PrintFunctionUnitTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.system.Date2StringFunctionUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.system.NowFunctionUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.system.SysDateFunctionUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.system.PrintlnFunctionUnitTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.googlecode.aviator.runtime.function.system.String2DateFunctionUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.FunctionUtilsUnitTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.string.StringContainsFunctionUnitTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.string.StringSubstringWithFunctionUnitTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.googlecode.aviator.runtime.function.string.StringReplaceFunctionUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.string.StringStartsWithFunctionUnitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.string.StringLengthFunctionUnitTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.string.StringEndsWithFunctionUnitTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.string.StringSplitJointFunctionUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.runtime.function.string.StringIndexOfFunctionUnitTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.AviatorEvaluatorUnitTest
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.parser.AviatorClassLoaderUnitTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.007 sec
+Running com.googlecode.aviator.parser.ExpressionParserUnitTest
+true
+Tests run: 75, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running com.googlecode.aviator.LambdaUnitTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+Running com.googlecode.aviator.AviatorEvaluatorInstanceCompatibleUnitTest
+com.googlecode.aviator.utils.Env@5927fc8e{__instance__=com.googlecode.aviator.AviatorEvaluatorInstance@4eeda18f, __exp__=Script_1613320753500_10767@268c4507, __env__=<this>}
+[test.getClass, test.wait, test.hashCode, test.equals, test.notifyAll, test.toString, test.is_empty, test.notify]
+com.googlecode.aviator.utils.Env@6bcc277a{__instance__=com.googlecode.aviator.AviatorEvaluatorInstance@321f97d9, __exp__=Script_1613320753553_10820@3a4e3343, __env__=<this>, x=3, y=4}
+com.googlecode.aviator.utils.Env@3d49b00e{__instance__=com.googlecode.aviator.AviatorEvaluatorInstance@321f97d9, __exp__=Script_1613320753553_10820@3a4e3343, __env__=<this>, x=8, y=9}
+com.googlecode.aviator.utils.Env@479f5c35{__instance__=com.googlecode.aviator.AviatorEvaluatorInstance@321f97d9, __exp__=Script_1613320753553_10820@3a4e3343, __env__=<this>, x=8, y=9}
+Tests run: 42, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.075 sec
+Running com.googlecode.aviator.lexer.ExpressionLexerUnitTest
+Tests run: 41, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.googlecode.aviator.test.function.FunctionTest
+[FunctionArgument [index=0, expression=1], FunctionArgument [index=1, expression=2], FunctionArgument [index=2, expression=100+2]]
+[FunctionArgument [index=0, expression=sum], FunctionArgument [index=1, expression=a], FunctionArgument [index=2, expression='hello'], FunctionArgument [index=3, expression=4+100]]
+[FunctionArgument [index=0, expression=sum], FunctionArgument [index=1, expression=a], FunctionArgument [index=2, expression='hello'], FunctionArgument [index=3, expression=4+100]]
+class java.lang.Double
+[Aviator TRACE] Func   : sysdate()
+[Aviator TRACE] Result : <JavaType, A_1024066, Sun Feb 14 16:39:13 UTC 2021, java.util.Date>
+[Aviator TRACE] Result : Sun Feb 14 16:39:13 UTC 2021
+[Aviator TRACE] Func   : now()
+[Aviator TRACE] Result : <Long, 1613320753617>
+[Aviator TRACE] Result : 1613320753617
+[Aviator TRACE] Func   : rand()
+[Aviator TRACE] Result : <Double, 0.9009942087597969>
+[Aviator TRACE] Result : 0.9009942087597969
+[Aviator TRACE] Func   : rand(<Long, 100>)
+[Aviator TRACE] Result : <Long, 82>
+[Aviator TRACE] Result : 82
+[Aviator TRACE] Func   : rand()
+[Aviator TRACE] Result : <Double, 0.5597002451361851>
+[Aviator TRACE] Result : 0.5597002451361851
+3.333333333333333E19
+5
+6
+Tests run: 49, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.161 sec
+Running com.googlecode.aviator.test.function.GrammarUnitTest
+com.googlecode.aviator.exception.ExpressionSyntaxErrorException: Syntax error: expect '}' to complete string interpolation at 3, lineNumber: 1, token : null,
+while parsing expression: `
+1+2^^^
+`
+	at com.googlecode.aviator.AviatorEvaluatorInstance.compileStringSegments(AviatorEvaluatorInstance.java:1613)
+	at com.googlecode.aviator.BaseExpression$1.call(BaseExpression.java:65)
+	at com.googlecode.aviator.BaseExpression$1.call(BaseExpression.java:61)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.googlecode.aviator.BaseExpression.getStringSegements(BaseExpression.java:74)
+	at com.googlecode.aviator.runtime.type.AviatorString.getLexeme(AviatorString.java:149)
+	at com.googlecode.aviator.runtime.type.AviatorString.getValue(AviatorString.java:50)
+	at Script_1613320753778_11486.execute0(Script_1613320753778_11486:1)
+	at com.googlecode.aviator.ClassExpression.executeDirectly(ClassExpression.java:65)
+	at com.googlecode.aviator.BaseExpression.execute(BaseExpression.java:136)
+	at com.googlecode.aviator.AviatorEvaluatorInstance.execute(AviatorEvaluatorInstance.java:1482)
+	at com.googlecode.aviator.AviatorEvaluator.execute(AviatorEvaluator.java:517)
+	at com.googlecode.aviator.AviatorEvaluator.execute(AviatorEvaluator.java:529)
+	at com.googlecode.aviator.AviatorEvaluator.execute(AviatorEvaluator.java:550)
+	at com.googlecode.aviator.test.function.GrammarUnitTest.testStringInterpolation(GrammarUnitTest.java:222)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.internal.runners.TestMethodRunner.executeMethodBody(TestMethodRunner.java:99)
+	at org.junit.internal.runners.TestMethodRunner.runUnprotected(TestMethodRunner.java:81)
+	at org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	at org.junit.internal.runners.TestMethodRunner.runMethod(TestMethodRunner.java:75)
+	at org.junit.internal.runners.TestMethodRunner.run(TestMethodRunner.java:45)
+	at org.junit.internal.runners.TestClassMethodsRunner.invokeTestMethod(TestClassMethodsRunner.java:66)
+	at org.junit.internal.runners.TestClassMethodsRunner.run(TestClassMethodsRunner.java:35)
+	at org.junit.internal.runners.TestClassRunner$1.runUnprotected(TestClassRunner.java:42)
+	at org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	at org.junit.internal.runners.TestClassRunner.run(TestClassRunner.java:52)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+com.googlecode.aviator.exception.ExpressionSyntaxErrorException: Syntax error: invalid token at 2, lineNumber: 1, token : [type='Char',lexeme='*',index=2],
+while parsing expression: `
+1+*2^^^
+`
+	at com.googlecode.aviator.AviatorEvaluatorInstance.compileStringSegments(AviatorEvaluatorInstance.java:1609)
+	at com.googlecode.aviator.BaseExpression$1.call(BaseExpression.java:65)
+	at com.googlecode.aviator.BaseExpression$1.call(BaseExpression.java:61)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.googlecode.aviator.BaseExpression.getStringSegements(BaseExpression.java:74)
+	at com.googlecode.aviator.runtime.type.AviatorString.getLexeme(AviatorString.java:149)
+	at com.googlecode.aviator.runtime.type.AviatorString.getValue(AviatorString.java:50)
+	at Script_1613320753780_11488.execute0(Script_1613320753780_11488:1)
+	at com.googlecode.aviator.ClassExpression.executeDirectly(ClassExpression.java:65)
+	at com.googlecode.aviator.BaseExpression.execute(BaseExpression.java:136)
+	at com.googlecode.aviator.AviatorEvaluatorInstance.execute(AviatorEvaluatorInstance.java:1482)
+	at com.googlecode.aviator.AviatorEvaluator.execute(AviatorEvaluator.java:517)
+	at com.googlecode.aviator.AviatorEvaluator.execute(AviatorEvaluator.java:529)
+	at com.googlecode.aviator.AviatorEvaluator.execute(AviatorEvaluator.java:550)
+	at com.googlecode.aviator.test.function.GrammarUnitTest.testStringInterpolation(GrammarUnitTest.java:228)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.internal.runners.TestMethodRunner.executeMethodBody(TestMethodRunner.java:99)
+	at org.junit.internal.runners.TestMethodRunner.runUnprotected(TestMethodRunner.java:81)
+	at org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	at org.junit.internal.runners.TestMethodRunner.runMethod(TestMethodRunner.java:75)
+	at org.junit.internal.runners.TestMethodRunner.run(TestMethodRunner.java:45)
+	at org.junit.internal.runners.TestClassMethodsRunner.invokeTestMethod(TestClassMethodsRunner.java:66)
+	at org.junit.internal.runners.TestClassMethodsRunner.run(TestClassMethodsRunner.java:35)
+	at org.junit.internal.runners.TestClassRunner$1.runUnprotected(TestClassRunner.java:42)
+	at org.junit.internal.runners.BeforeAndAfterRunner.runProtected(BeforeAndAfterRunner.java:34)
+	at org.junit.internal.runners.TestClassRunner.run(TestClassRunner.java:52)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+[Aviator WARN] The function 'string.getFromJsonMap' is already exists, but is replaced with new one.
+5
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.141 sec
+Running com.googlecode.aviator.test.function.QuoteVarTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running com.googlecode.aviator.test.function.OperatorFunctionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.googlecode.aviator.utils.SyncLRUMapUnitTest
+{9990=9990, 9991=9991, 9992=9992, 9993=9993, 9994=9994, 9995=9995, 9996=9996, 9997=9997, 9998=9998, 9999=9999}
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.41 sec
+Running com.googlecode.aviator.utils.VarNameGeneratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.googlecode.aviator.utils.LRUMapUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 685, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  34.741 s
+[INFO] Finished at: 2021-02-14T16:39:14Z
+[INFO] ------------------------------------------------------------------------

@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
-        "nbViolationsBefore": 3,
         "performedRepairsLocations": [
             {
                 "endLine": 80,
@@ -32,10 +31,11 @@
                 "violationSpecifier": "4973:tetrad-gui/src/main/java/edu/cmu/tetradapp/util/IntSpinner.java:131:21:131:23"
             }
         ],
+        "nbViolationsBefore": 3,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -49,10 +49,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 49207,
-    "repairTimeMs": 2629,
-    "startTimeMs": 1612814057071,
+    "totalTimeMs": 49711,
+    "repairTimeMs": 2688,
+    "startTimeMs": 1613361593578,
     "crashes": [],
-    "endTimeMs": 1612814106278,
-    "parseTimeMs": 21462
+    "endTimeMs": 1613361643289,
+    "parseTimeMs": 22481
 }

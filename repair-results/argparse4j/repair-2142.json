@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 94,
             "endColumn": 39,
@@ -14,10 +13,11 @@
             "filePath": "main/src/main/java/net/sourceforge/argparse4j/internal/TerminalWidth.java",
             "violationSpecifier": "2142:main/src/main/java/net/sourceforge/argparse4j/internal/TerminalWidth.java:94:17:94:39"
         }],
+        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 4327,
-    "repairTimeMs": 249,
-    "startTimeMs": 1612801770396,
+    "totalTimeMs": 4783,
+    "repairTimeMs": 275,
+    "startTimeMs": 1613325773800,
     "crashes": [],
-    "endTimeMs": 1612801774723,
-    "parseTimeMs": 1603
+    "endTimeMs": 1613325778583,
+    "parseTimeMs": 1880
 }

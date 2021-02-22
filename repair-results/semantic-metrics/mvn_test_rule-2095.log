@@ -1,0 +1,374 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Semantic Metrics: Parent POM                                       [pom]
+[INFO] Semantic Metrics: API Package                                      [jar]
+[INFO] Semantic Metrics: Core                                             [jar]
+[INFO] Semantic Metrics: FFWD Reporter                                    [jar]
+[INFO] Semantic Metrics: FFWD HTTP Reporter                               [jar]
+[INFO] Semantic Metrics: Examples                                         [jar]
+[INFO] Semantic Metrics: Guava Extensions                                 [jar]
+[INFO] Semantic Metrics: Remote                                           [jar]
+[INFO] Semantic Metrics: Bill Of Materials                                [jar]
+[INFO] 
+[INFO] ------------< com.spotify.metrics:semantic-metrics-parent >-------------
+[INFO] Building Semantic Metrics: Parent POM 1.1.3-SNAPSHOT               [1/9]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:check (validate) @ semantic-metrics-parent ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --------------< com.spotify.metrics:semantic-metrics-api >--------------
+[INFO] Building Semantic Metrics: API Package 1.1.3-SNAPSHOT              [2/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:check (validate) @ semantic-metrics-api ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ semantic-metrics-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/api/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ semantic-metrics-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ semantic-metrics-api ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/api/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ semantic-metrics-api ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ semantic-metrics-api ---
+[INFO] Surefire report directory: /workdir/semantic-metrics/api/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.spotify.metrics.core.MetricIdTest
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.088 sec
+
+Results :
+
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -------------< com.spotify.metrics:semantic-metrics-core >--------------
+[INFO] Building Semantic Metrics: Core 1.1.3-SNAPSHOT                     [3/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:check (validate) @ semantic-metrics-core ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ semantic-metrics-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ semantic-metrics-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ semantic-metrics-core ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/core/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ semantic-metrics-core ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ semantic-metrics-core ---
+[INFO] Surefire report directory: /workdir/semantic-metrics/core/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.spotify.metrics.core.ReservoirWithTtlTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.193 sec
+Running com.spotify.metrics.core.SemanticMetricBuilderFactoryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.spotify.metrics.core.InstrumentedScheduledExecutorServiceTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.954 sec
+Running com.spotify.metrics.core.MetricIdCacheTest
+load
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.072 sec
+Running com.spotify.metrics.core.SemanticMetricRegistryTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 sec
+Running com.spotify.metrics.core.DelegatingDerivingMeterTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running com.spotify.metrics.core.InstrumentedExecutorServiceTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running com.spotify.metrics.core.SemanticMetricDistributionTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running com.spotify.metrics.core.SemanticMetricBuilderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.spotify.metrics.core.SemanticMetricRegistryAdapterTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+Running com.spotify.metrics.tags.EnvironmentTagExtractorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.spotify.metrics.tags.NoopTagExtractorTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.spotify.metrics.DerivedLongGaugeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 57, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ---------< com.spotify.metrics:semantic-metrics-ffwd-reporter >---------
+[INFO] Building Semantic Metrics: FFWD Reporter 1.1.3-SNAPSHOT            [4/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:check (validate) @ semantic-metrics-ffwd-reporter ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ semantic-metrics-ffwd-reporter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/ffwd-reporter/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ semantic-metrics-ffwd-reporter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ semantic-metrics-ffwd-reporter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/ffwd-reporter/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ semantic-metrics-ffwd-reporter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ semantic-metrics-ffwd-reporter ---
+[INFO] Surefire report directory: /workdir/semantic-metrics/ffwd-reporter/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.spotify.metrics.ffwd.PercentileTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+Running com.spotify.metrics.ffwd.FastForwardReporterTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.218 sec
+
+Results :
+
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------< com.spotify.metrics:semantic-metrics-ffwd-http-reporter >-------
+[INFO] Building Semantic Metrics: FFWD HTTP Reporter 1.1.3-SNAPSHOT       [5/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:check (validate) @ semantic-metrics-ffwd-http-reporter ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ semantic-metrics-ffwd-http-reporter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/ffwd-http-reporter/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ semantic-metrics-ffwd-http-reporter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ semantic-metrics-ffwd-http-reporter ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/ffwd-http-reporter/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ semantic-metrics-ffwd-http-reporter ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ semantic-metrics-ffwd-http-reporter ---
+[INFO] Surefire report directory: /workdir/semantic-metrics/ffwd-http-reporter/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.spotify.metrics.ffwd.FastForwardHttpReporterTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.301 sec
+Running com.spotify.metrics.ffwd.PercentileTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -----------< com.spotify.metrics:semantic-metrics-examples >------------
+[INFO] Building Semantic Metrics: Examples 1.1.3-SNAPSHOT                 [6/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:check (validate) @ semantic-metrics-examples ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ semantic-metrics-examples ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/examples/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ semantic-metrics-examples ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ semantic-metrics-examples ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/examples/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ semantic-metrics-examples ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ semantic-metrics-examples ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------< com.spotify.metrics:semantic-metrics-guava >-------------
+[INFO] Building Semantic Metrics: Guava Extensions 1.1.3-SNAPSHOT         [7/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:check (validate) @ semantic-metrics-guava ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ semantic-metrics-guava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/guava/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ semantic-metrics-guava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ semantic-metrics-guava ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/guava/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ semantic-metrics-guava ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ semantic-metrics-guava ---
+[INFO] Surefire report directory: /workdir/semantic-metrics/guava/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.spotify.metrics.guava.GuavaCacheTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------< com.spotify.metrics:semantic-metrics-remote >-------------
+[INFO] Building Semantic Metrics: Remote 1.1.3-SNAPSHOT                   [8/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:check (validate) @ semantic-metrics-remote ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ semantic-metrics-remote ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/remote/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ semantic-metrics-remote ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ semantic-metrics-remote ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/remote/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ semantic-metrics-remote ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ semantic-metrics-remote ---
+[INFO] Surefire report directory: /workdir/semantic-metrics/remote/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.spotify.metrics.remote.LimitedRemoteTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.mockito.cglib.core.ReflectUtils$2 (file:/home/maven/.m2/repository/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of org.mockito.cglib.core.ReflectUtils$2
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.207 sec
+Running com.spotify.metrics.remote.OkRemoteTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Feb 15, 2021 5:12:44 AM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[60631] starting to accept connections
+Feb 15, 2021 5:12:45 AM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[60631] received request: POST /foo HTTP/1.1 and responded: HTTP/1.1 200 OK
+Feb 15, 2021 5:12:45 AM okhttp3.mockwebserver.MockWebServer$3 execute
+INFO: MockWebServer[40699] starting to accept connections
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.426 sec
+Running com.spotify.metrics.remote.SemanticAggregatorMetricRegistryTest
+Feb 15, 2021 5:12:45 AM okhttp3.mockwebserver.MockWebServer$4 processOneRequest
+INFO: MockWebServer[40699] received request: POST /foo HTTP/1.1 and responded: HTTP/1.1 200 OK
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.046 sec
+Running com.spotify.metrics.remote.SharderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 23, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --------------< com.spotify.metrics:semantic-metrics-bom >--------------
+[INFO] Building Semantic Metrics: Bill Of Materials 1.1.3-SNAPSHOT        [9/9]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.0:check (validate) @ semantic-metrics-bom ---
+[INFO] Starting audit...
+Audit done.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ semantic-metrics-bom ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/semantic-metrics-bom/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ semantic-metrics-bom ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ semantic-metrics-bom ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/semantic-metrics/semantic-metrics-bom/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ semantic-metrics-bom ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ semantic-metrics-bom ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Semantic Metrics: Parent POM 1.1.3-SNAPSHOT:
+[INFO] 
+[INFO] Semantic Metrics: Parent POM ....................... SUCCESS [  0.976 s]
+[INFO] Semantic Metrics: API Package ...................... SUCCESS [  0.714 s]
+[INFO] Semantic Metrics: Core ............................. SUCCESS [  1.653 s]
+[INFO] Semantic Metrics: FFWD Reporter .................... SUCCESS [  0.549 s]
+[INFO] Semantic Metrics: FFWD HTTP Reporter ............... SUCCESS [  0.649 s]
+[INFO] Semantic Metrics: Examples ......................... SUCCESS [  0.075 s]
+[INFO] Semantic Metrics: Guava Extensions ................. SUCCESS [  0.384 s]
+[INFO] Semantic Metrics: Remote ........................... SUCCESS [  1.240 s]
+[INFO] Semantic Metrics: Bill Of Materials ................ SUCCESS [  0.088 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.435 s
+[INFO] Finished at: 2021-02-15T05:12:45Z
+[INFO] ------------------------------------------------------------------------

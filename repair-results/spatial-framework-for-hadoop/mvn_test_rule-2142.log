@@ -1,0 +1,131 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Spatial Framework for Hadoop                                       [pom]
+[INFO] Spatial JSON Utilities                                             [jar]
+[INFO] Hive Spatial Framework                                             [jar]
+[INFO] 
+[INFO] -----------------< com.esri.hadoop:spatial-sdk-hadoop >-----------------
+[INFO] Building Spatial Framework for Hadoop 2.1.1-SNAPSHOT               [1/3]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ------------------< com.esri.hadoop:spatial-sdk-json >------------------
+[INFO] Building Spatial JSON Utilities 2.1.1-SNAPSHOT                     [2/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spatial-sdk-json ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/spatial-framework-for-hadoop/json/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ spatial-sdk-json ---
+[INFO] Compiling 4 source files to /workdir/spatial-framework-for-hadoop/json/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spatial-sdk-json ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 18 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ spatial-sdk-json ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ spatial-sdk-json ---
+[INFO] Surefire report directory: /workdir/spatial-framework-for-hadoop/json/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.esri.json.hadoop.TestEnclosedEsriJsonRecordReader
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'log4j2.debug' to show Log4j2 internal initialization logging.
+log4j:WARN No appenders could be found for logger (org.apache.htrace.core.Tracer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.847 sec
+Running com.esri.json.hadoop.TestUnenclosedEsriJsonRecordMrv1
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.645 sec
+Running com.esri.json.hadoop.TestUnenclosedGeoJsonRecordReader
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.242 sec
+Running com.esri.json.hadoop.TestUnenclosedEsriJsonRecordReader
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.584 sec
+Running com.esri.json.hadoop.TestEnclosedGeoJsonRecordReader
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+
+Results :
+
+Tests run: 31, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------------< com.esri.hadoop:spatial-sdk-hive >------------------
+[INFO] Building Hive Spatial Framework 2.1.1-SNAPSHOT                     [3/3]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ spatial-sdk-hive ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/spatial-framework-for-hadoop/hive/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ spatial-sdk-hive ---
+[INFO] Compiling 1 source file to /workdir/spatial-framework-for-hadoop/hive/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ spatial-sdk-hive ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/spatial-framework-for-hadoop/hive/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ spatial-sdk-hive ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12:test (default-test) @ spatial-sdk-hive ---
+[INFO] Surefire report directory: /workdir/spatial-framework-for-hadoop/hive/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.esri.hadoop.hive.TestStLineString
+ERROR StatusLogger No log4j2 configuration file found. Using default configuration: logging only errors to the console. Set system property 'log4j2.debug' to show Log4j2 internal initialization logging.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.488 sec
+Running com.esri.hadoop.hive.TestStX
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.esri.hadoop.hive.TestStGeometryType
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.esri.hadoop.hive.TestStY
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.esri.hadoop.hive.TestStGeomFromShape
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running com.esri.hadoop.hive.serde.TestGeoJsonSerDe
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.hadoop.hive.common.StringInternUtils (file:/home/maven/.m2/repository/org/apache/hive/hive-exec/3.1.2/hive-exec-3.1.2.jar) to field java.net.URI.string
+WARNING: Please consider reporting this to the maintainers of org.apache.hadoop.hive.common.StringInternUtils
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.253 sec
+Running com.esri.hadoop.hive.serde.TestEsriJsonSerDe
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+Running com.esri.hadoop.hive.TestStPoint
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.esri.hadoop.hive.TestStCentroid
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running com.esri.hadoop.hive.TestStMinY
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running com.esri.hadoop.hive.TestStMultiPoint
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.esri.hadoop.hive.TestStMultiPolygon
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running com.esri.hadoop.hive.TestStMinX
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running com.esri.hadoop.hive.TestStAsShape
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 49, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Spatial Framework for Hadoop 2.1.1-SNAPSHOT:
+[INFO] 
+[INFO] Spatial Framework for Hadoop ....................... SUCCESS [  0.003 s]
+[INFO] Spatial JSON Utilities ............................. SUCCESS [  4.317 s]
+[INFO] Hive Spatial Framework ............................. SUCCESS [  1.427 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.834 s
+[INFO] Finished at: 2021-02-14T19:33:11Z
+[INFO] ------------------------------------------------------------------------

@@ -3,23 +3,51 @@ WARN  Invalid character encountered in file fromString at line 49 for encoding U
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=16ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=1ms
+INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  391 source files to be analyzed
 ERROR Unable to parse source file : 'target/test-classes/spdx-parser-source/org/spdx/rdfparser/PrettyPrinter.java'
 ERROR Parse error at line 191 column 0: Syntax error, insert "}" to complete ClassBody
-INFO  111/391 files analyzed, current file: Test/org/spdx/compare/TestExternalDocReferencesSheet.java
-INFO  244/391 files analyzed, current file: src/org/spdx/compare/LicenseCompareHelper.java
-INFO  331/391 files analyzed, current file: src/org/spdx/spdxspreadsheet/PerFileSheetV1d1.java
+INFO  106/391 files analyzed, current file: Test/org/spdx/compare/SpdxComparerTest.java
+INFO  232/391 files analyzed, current file: src/org/spdx/licenseTemplate/HtmlTemplateOutputHandler.java
+INFO  320/391 files analyzed, current file: src/org/spdx/spdxspreadsheet/PackageInfoSheetV2d1.java
 ERROR Unable to parse source file : 'TestFiles/spdx-parser-source/org/spdx/rdfparser/PrettyPrinter.java'
 ERROR Parse error at line 191 column 0: Syntax error, insert "}" to complete ClassBody
 INFO  391/391 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=35003ms
+INFO  Java Main Files AST scan (done) | time=36898ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
 INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
+INFO  0/0 source files have been analyzed
+-----Number of fixes------
+UnclosedResourcesProcessor: 0
+-----End of report------
+WARN  Invalid character encountered in file fromString at line 49 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+WARN  Invalid character encountered in file fromString at line 49 for encoding UTF-16. Please fix file content or configure the encoding to be used using property 'sonar.sourceEncoding'.
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  391 source files to be analyzed
+ERROR Unable to parse source file : 'target/test-classes/spdx-parser-source/org/spdx/rdfparser/PrettyPrinter.java'
+ERROR Parse error at line 191 column 0: Syntax error, insert "}" to complete ClassBody
+INFO  185/391 files analyzed, current file: src/org/spdx/rdfparser/model/ExternalRef.java
+INFO  296/391 files analyzed, current file: src/org/spdx/html/LicenseJSONFile.java
+ERROR Unable to parse source file : 'TestFiles/spdx-parser-source/org/spdx/rdfparser/PrettyPrinter.java'
+ERROR Parse error at line 191 column 0: Syntax error, insert "}" to complete ClassBody
+INFO  390/391 files analyzed, current file: TestFiles/spdx-parser-source/org/spdx/spdxspreadsheet/SpreadsheetToRDF.java
+INFO  Java Main Files AST scan (done) | time=30021ms
+INFO  Java Test Files AST scan
+INFO  391/391 source files have been analyzed
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=0ms
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed

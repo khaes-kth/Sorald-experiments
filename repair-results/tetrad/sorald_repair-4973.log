@@ -1,20 +1,20 @@
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=26ms
+INFO  JavaClasspath initialization (done) | time=28ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=1ms
+INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1855 source files to be analyzed
-INFO  521/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/model/VanderbiltMmmbMbSearchRunner.java
-INFO  1654/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Lofs.java
+INFO  457/1855 files analyzed, current file: tetrad-gui/src/main/java/edu/cmu/tetradapp/model/CfciRunner.java
+INFO  1641/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/search/Ion.java
 INFO  1855/1855 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=22806ms
+INFO  Java Main Files AST scan (done) | time=23137ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 CompareStringsBoxedTypesWithEqualsProcessor: 3
@@ -25,14 +25,14 @@ INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  1855 source files to be analyzed
-INFO  1168/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/history/PolynomialTerm.java
+INFO  1153/1855 files analyzed, current file: tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/algorithm/biolingua/LTester.java
+INFO  Java Main Files AST scan (done) | time=16250ms
 INFO  1855/1855 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=16247ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
-INFO  0/0 source files have been analyzed
 INFO  Java Generated Files AST scan
+INFO  0/0 source files have been analyzed
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed

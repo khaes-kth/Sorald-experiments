@@ -1,0 +1,90 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 7,
+        "ruleName": "UnclosedResources",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2095",
+        "performedRepairsLocations": [
+            {
+                "endLine": 606,
+                "endColumn": 56,
+                "startColumn": 27,
+                "startLine": 606,
+                "filePath": "core/src/main/java/site/ycsb/Client.java",
+                "violationSpecifier": "2095:core/src/main/java/site/ycsb/Client.java:606:27:606:56"
+            },
+            {
+                "endLine": 190,
+                "endColumn": 56,
+                "startColumn": 27,
+                "startLine": 190,
+                "filePath": "core/src/main/java/site/ycsb/CommandLine.java",
+                "violationSpecifier": "2095:core/src/main/java/site/ycsb/CommandLine.java:190:27:190:56"
+            },
+            {
+                "endLine": 98,
+                "endColumn": 56,
+                "startColumn": 27,
+                "startLine": 98,
+                "filePath": "jdbc/src/main/java/site/ycsb/db/JdbcDBCli.java",
+                "violationSpecifier": "2095:jdbc/src/main/java/site/ycsb/db/JdbcDBCli.java:98:27:98:56"
+            },
+            {
+                "endLine": 122,
+                "endColumn": 56,
+                "startColumn": 27,
+                "startLine": 122,
+                "filePath": "jdbc/src/main/java/site/ycsb/db/JdbcDBCreateTable.java",
+                "violationSpecifier": "2095:jdbc/src/main/java/site/ycsb/db/JdbcDBCreateTable.java:122:27:122:56"
+            },
+            {
+                "endLine": 177,
+                "endColumn": 51,
+                "startColumn": 26,
+                "startLine": 177,
+                "filePath": "voltdb/src/main/java/site/ycsb/db/voltdb/YCSBSchemaBuilder.java",
+                "violationSpecifier": "2095:voltdb/src/main/java/site/ycsb/db/voltdb/YCSBSchemaBuilder.java:177:26:177:51"
+            },
+            {
+                "endLine": 82,
+                "endColumn": 107,
+                "startColumn": 15,
+                "startLine": 82,
+                "filePath": "rest/src/test/java/site/ycsb/webservice/rest/RestClientTest.java",
+                "violationSpecifier": "2095:rest/src/test/java/site/ycsb/webservice/rest/RestClientTest.java:82:15:82:107"
+            },
+            {
+                "endLine": 68,
+                "endColumn": 72,
+                "startColumn": 28,
+                "startLine": 68,
+                "filePath": "rest/src/test/java/site/ycsb/webservice/rest/Utils.java",
+                "violationSpecifier": "2095:rest/src/test/java/site/ycsb/webservice/rest/Utils.java:68:28:68:72"
+            }
+        ],
+        "nbViolationsBefore": 18,
+        "nbViolationsAfter": 16
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 38248282",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2095",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 20273,
+    "repairTimeMs": 429,
+    "startTimeMs": 1613319039542,
+    "crashes": [],
+    "endTimeMs": 1613319059815,
+    "parseTimeMs": 3702
+}

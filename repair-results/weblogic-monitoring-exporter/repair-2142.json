@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 64,
             "endColumn": 37,
@@ -14,10 +13,11 @@
             "filePath": "wls-exporter-core/src/main/java11/com/oracle/wls/exporter/WebClient11Impl.java",
             "violationSpecifier": "2142:wls-exporter-core/src/main/java11/com/oracle/wls/exporter/WebClient11Impl.java:64:15:64:37"
         }],
+        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 4811,
-    "repairTimeMs": 268,
-    "startTimeMs": 1612818003555,
+    "totalTimeMs": 4838,
+    "repairTimeMs": 260,
+    "startTimeMs": 1613378833665,
     "crashes": [],
-    "endTimeMs": 1612818008366,
-    "parseTimeMs": 1919
+    "endTimeMs": 1613378838503,
+    "parseTimeMs": 1952
 }

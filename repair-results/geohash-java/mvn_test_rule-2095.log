@@ -1,0 +1,72 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] ---------------------------< ch.hsr:geohash >---------------------------
+[INFO] Building geohash-java 1.4.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ geohash ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/geohash-java/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ geohash ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ geohash ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/geohash-java/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ geohash ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ geohash ---
+[INFO] Surefire report directory: /workdir/geohash-java/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ch.hsr.geohash.GeoHashBoundingBoxSearchTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+Running ch.hsr.geohash.WGS84PointTest
+(-0.002333105407575004,-88.83150825950158)
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running ch.hsr.geohash.util.BoundingBoxGeoHashIteratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running ch.hsr.geohash.util.LongUtilTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running ch.hsr.geohash.util.BoundingBoxSamplerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.113 sec
+Running ch.hsr.geohash.util.GeoHashSizeTableTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running ch.hsr.geohash.GeoHashCircleQueryTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running ch.hsr.geohash.GeoHashTest
+1111001000100010001000000000000000000000000000000000000000000000 -> (45.17578125,119.8828125) -> (45.0,120.234375) -> y8j2
+y8j2
+1111001000100010001000100010001000100010001000100010001000000000 -> (45.00000134110451,119.99999955296516) -> (45.0,120.00000089406967) -> y8j248j248j
+y8j248j248j
+wx
+Bounding Box: 
+center =(42.1875,118.125)
+corners=(45.0,112.5) -> (39.375,123.75)
+ezs42
+hash: 9q8y7zp
+next: 9q8y7zr
+prev1: 9q8y7zq
+prev2: 9q8y7zp
+Tests run: 37, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.138 sec
+Running ch.hsr.geohash.BoundingBoxTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+
+Results :
+
+Tests run: 58, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.456 s
+[INFO] Finished at: 2021-02-14T15:51:17Z
+[INFO] ------------------------------------------------------------------------

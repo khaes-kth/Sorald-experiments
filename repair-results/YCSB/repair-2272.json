@@ -1,0 +1,40 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "IteratorNextException",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2272",
+        "performedRepairsLocations": [{
+            "endLine": 53,
+            "endColumn": 18,
+            "startColumn": 14,
+            "startLine": 53,
+            "filePath": "core/src/main/java/site/ycsb/ByteIterator.java",
+            "violationSpecifier": "2272:core/src/main/java/site/ycsb/ByteIterator.java:53:14:53:18"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 38248282",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2272",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 9064,
+    "repairTimeMs": 612,
+    "startTimeMs": 1613318665771,
+    "crashes": [],
+    "endTimeMs": 1613318674835,
+    "parseTimeMs": 4047
+}

@@ -1,0 +1,47 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< de.ahus1.prometheus.hystrix:prometheus-hystrix >-----------
+[INFO] Building prometheus-hystrix-metrics-publisher 4.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ prometheus-hystrix ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/prometheus-hystrix/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ prometheus-hystrix ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ prometheus-hystrix ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ prometheus-hystrix ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ prometheus-hystrix ---
+[INFO] Surefire report directory: /workdir/prometheus-hystrix/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.soundcloud.prometheus.hystrix.MetricsPublisherRegistrationTest
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.276 sec
+Running com.soundcloud.prometheus.hystrix.HystrixCommandTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec
+Running com.soundcloud.prometheus.hystrix.MetricsListTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+
+Results :
+
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- animal-sniffer-maven-plugin:1.16:check (default) @ prometheus-hystrix ---
+[INFO] Checking unresolved references to org.codehaus.mojo.signature:java16:1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.744 s
+[INFO] Finished at: 2021-02-15T00:17:56Z
+[INFO] ------------------------------------------------------------------------

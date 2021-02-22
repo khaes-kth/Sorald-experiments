@@ -1,0 +1,72 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----< com.github.joelittlejohn.embedmongo:embedmongo-maven-plugin >-----
+[INFO] Building embedmongo-maven-plugin 0.4.3-SNAPSHOT
+[INFO] ----------------------------[ maven-plugin ]----------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-maven) @ embedmongo-maven-plugin ---
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:format (default) @ embedmongo-maven-plugin ---
+[INFO] Updating license headers...
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ embedmongo-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/embedmongo-maven-plugin/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ embedmongo-maven-plugin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 10 source files to /workdir/embedmongo-maven-plugin/target/classes
+[WARNING] /workdir/embedmongo-maven-plugin/src/main/java/com/github/joelittlejohn/embedmongo/MongoScriptsMojo.java:[138,27] getDB(java.lang.String) in com.mongodb.Mongo has been deprecated
+[INFO] 
+[INFO] --- maven-plugin-plugin:3.5.1:descriptor (default-descriptor) @ embedmongo-maven-plugin ---
+[WARNING] 
+
+Goal prefix is specified as: 'mongo'. Maven currently expects it to be 'embedmongo'.
+
+[INFO] Using 'UTF-8' encoding to read mojo source files.
+[INFO] java-javadoc mojo extractor found 0 mojo descriptor.
+[INFO] java-annotations mojo extractor found 4 mojo descriptors.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ embedmongo-maven-plugin ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 15 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ embedmongo-maven-plugin ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 6 source files to /workdir/embedmongo-maven-plugin/target/test-classes
+[WARNING] /workdir/embedmongo-maven-plugin/src/test/java/com/github/joelittlejohn/embedmongo/MongoScriptsMojoTest.java:[48,56] none() in org.junit.rules.ExpectedException has been deprecated
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ embedmongo-maven-plugin ---
+[INFO] Surefire report directory: /workdir/embedmongo-maven-plugin/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.github.joelittlejohn.embedmongo.MongoScriptsMojoTest
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[info] Folder /tmp/junit11089931057709167421 contains 1 file(s):
+[info] - file junit15356808228791238726.tmp parsed successfully
+[info] Data initialized with success
+[info] Folder /tmp/junit3417482531354323211 contains 1 file(s):
+[info] Folder /tmp/junit6773242836503342241 contains 1 file(s):
+[error] - file junit13065840543774181020.tmp parsed with error: Error while executing instructions from file 'junit13065840543774181020.tmp
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.768 sec
+Running com.github.joelittlejohn.embedmongo.SkipMojoTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.782 sec
+Running com.github.joelittlejohn.embedmongo.FeaturesTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.144 sec
+Running com.github.joelittlejohn.embedmongo.NetworkUtilsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.793 s
+[INFO] Finished at: 2021-02-14T18:30:26Z
+[INFO] ------------------------------------------------------------------------

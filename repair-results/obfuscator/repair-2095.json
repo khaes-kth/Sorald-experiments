@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
-        "nbViolationsBefore": 11,
         "performedRepairsLocations": [
             {
                 "endLine": 43,
@@ -56,10 +55,11 @@
                 "violationSpecifier": "2095:watermark/src/main/java/me/superblaubeere27/obfuscator/watermark/Main.java:90:52:90:101"
             }
         ],
+        "nbViolationsBefore": 11,
         "nbViolationsAfter": 8
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -73,10 +73,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 15038,
-    "repairTimeMs": 326,
-    "startTimeMs": 1612818516409,
+    "totalTimeMs": 15509,
+    "repairTimeMs": 305,
+    "startTimeMs": 1613380204622,
     "crashes": [],
-    "endTimeMs": 1612818531447,
-    "parseTimeMs": 1860
+    "endTimeMs": 1613380220131,
+    "parseTimeMs": 1969
 }

@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
+        "nbViolationsBefore": 12,
         "performedRepairsLocations": [
             {
                 "endLine": 46,
@@ -103,11 +104,10 @@
                 "violationSpecifier": "4973:src/main/java/io/github/hapjava/server/impl/HomekitUtils.java:57:15:57:17"
             }
         ],
-        "nbViolationsBefore": 12,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -121,10 +121,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5958,
-    "repairTimeMs": 268,
-    "startTimeMs": 1612810857415,
+    "totalTimeMs": 6240,
+    "repairTimeMs": 281,
+    "startTimeMs": 1613352885781,
     "crashes": [],
-    "endTimeMs": 1612810863373,
-    "parseTimeMs": 2179
+    "endTimeMs": 1613352892021,
+    "parseTimeMs": 2287
 }

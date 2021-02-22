@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "4973",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 128,
             "endColumn": 35,
@@ -13,11 +14,10 @@
             "filePath": "singer-commons/src/main/java/com/pinterest/singer/loggingaudit/client/utils/ConfigUtils.java",
             "violationSpecifier": "4973:singer-commons/src/main/java/com/pinterest/singer/loggingaudit/client/utils/ConfigUtils.java:128:33:128:35"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 11808,
-    "repairTimeMs": 615,
-    "startTimeMs": 1612819443337,
+    "totalTimeMs": 12162,
+    "repairTimeMs": 634,
+    "startTimeMs": 1613383371366,
     "crashes": [],
-    "endTimeMs": 1612819455145,
-    "parseTimeMs": 5014
+    "endTimeMs": 1613383383528,
+    "parseTimeMs": 5391
 }

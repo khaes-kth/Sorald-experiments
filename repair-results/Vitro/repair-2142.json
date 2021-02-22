@@ -5,7 +5,6 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2142",
-        "nbViolationsBefore": 10,
         "performedRepairsLocations": [
             {
                 "endLine": 138,
@@ -88,10 +87,11 @@
                 "violationSpecifier": "2142:api/src/main/java/edu/ucsf/vitro/opensocial/OpenSocialSmokeTests.java:558:12:558:34"
             }
         ],
+        "nbViolationsBefore": 10,
         "nbViolationsAfter": 1
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -105,10 +105,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 27623,
-    "repairTimeMs": 1240,
-    "startTimeMs": 1612805038372,
+    "totalTimeMs": 27656,
+    "repairTimeMs": 1289,
+    "startTimeMs": 1613333241973,
     "crashes": [],
-    "endTimeMs": 1612805065995,
-    "parseTimeMs": 12778
+    "endTimeMs": 1613333269629,
+    "parseTimeMs": 12852
 }

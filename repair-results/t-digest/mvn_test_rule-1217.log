@@ -1,0 +1,934 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] T-digest Parent                                                    [pom]
+[INFO] T-Digest                                                           [jar]
+[INFO] t-digest-quality                                                   [jar]
+[INFO] t-digest-benchmark                                                 [jar]
+[INFO] 
+[INFO] --------------------< com.tdunning:t-digest-parent >--------------------
+[INFO] Building T-digest Parent 3.3-SNAPSHOT                              [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -----------------------< com.tdunning:t-digest >------------------------
+[INFO] Building T-Digest 3.3-SNAPSHOT                                     [2/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ t-digest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/t-digest/core/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ t-digest ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ t-digest ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/t-digest/core/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ t-digest ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.18.1:test (default-test) @ t-digest ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- junit4-maven-plugin:2.1.11:junit4 (tests) @ t-digest ---
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.dom4j.io.SAXContentHandler (file:/home/maven/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar) to method com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser$LocatorProxy.getEncoding()
+WARNING: Please consider reporting this to the maintainers of org.dom4j.io.SAXContentHandler
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] <JUnit4> says jolly good day! Master seed: 72BC216C82D25EC3
+Executing 16 suites with 1 JVM.
+
+Started J0 PID(20005@605b8309f1f8).
+Suite: com.tdunning.math.stats.MegaMergeTest
+IGNOR/A 0.03s | MegaMergeTest.megaMerge
+   > Assumption #1: got: <false>, expected: is <true>
+IGNOR/A 0.00s | MegaMergeTest.testLargeMerge
+   > Assumption #1: got: <false>, expected: is <true>
+Completed in 0.05s, 2 tests, 2 skipped
+
+Suite: com.tdunning.math.stats.AVLTreeDigestTest
+  1> # big 860 bytes
+  1> # small 409 bytes
+  1> delta, q, x1, x2, q1, q2, error_x, error_q
+  1> 20,0.500000,50.500285,50.500386,0.500001,0.499899,0.000201,0.000202
+  1> 20,0.900000,50.900636,50.900583,0.900001,0.900053,0.000531,0.000528
+  1> 20,0.990000,50.990063,50.990076,0.990001,0.989987,0.001262,0.001322
+  1> 20,0.999000,50.999024,50.999008,0.999001,0.999016,0.015481,0.015098
+  1> 20,0.999900,50.999903,50.999902,0.999901,0.999901,0.014387,0.009495
+  1> 20,0.999990,50.999992,50.999991,0.999991,0.999991,0.055651,0.006071
+  1> 20,0.999999,51.000000,51.000000,1.000000,1.000000,0.000000,0.000000
+  1> 50,0.500000,50.500209,50.500233,0.500001,0.499976,0.000048,0.000050
+  1> 50,0.900000,50.900129,50.900090,0.900001,0.900039,0.000388,0.000385
+  1> 50,0.990000,50.990015,50.989993,0.990001,0.990021,0.002150,0.002088
+  1> 50,0.999000,50.998970,50.999002,0.999001,0.998968,0.032342,0.032888
+  1> 50,0.999900,50.999906,50.999901,0.999901,0.999905,0.047230,0.042297
+  1> 50,0.999990,50.999988,50.999991,0.999991,0.999987,0.296219,0.346635
+  1> 50,0.999999,51.000000,51.000000,1.000000,1.000000,0.000000,0.000000
+  1> 100,0.500000,50.499543,50.499562,0.500001,0.499980,0.000039,0.000041
+  1> 100,0.900000,50.899728,50.899729,0.900001,0.899999,0.000013,0.000018
+  1> 100,0.990000,50.989903,50.989947,0.990001,0.989956,0.004361,0.004405
+  1> 100,0.999000,50.999009,50.998991,0.999001,0.999018,0.018267,0.017597
+  1> 100,0.999900,50.999897,50.999899,0.999901,0.999898,0.023005,0.027791
+  1> 100,0.999990,50.999985,50.999990,0.999991,0.999985,0.504205,0.549508
+  1> 100,0.999999,50.999999,50.999999,1.000000,1.000000,0.000000,0.000000
+  1> 200,0.500000,50.499047,50.499018,0.500001,0.500028,0.000057,0.000056
+  1> 200,0.900000,50.899885,50.899839,0.900001,0.900045,0.000458,0.000450
+  1> 200,0.990000,50.990077,50.990062,0.990001,0.990015,0.001493,0.001467
+  1> 200,0.999000,50.998977,50.998989,0.999001,0.998988,0.012240,0.012622
+  1> 200,0.999900,50.999896,50.999898,0.999901,0.999898,0.017524,0.022355
+  1> 200,0.999990,50.999987,50.999989,0.999991,0.999989,0.131665,0.180389
+  1> 200,0.999999,50.999998,50.999998,1.000000,1.000000,0.000000,0.000000
+  1> # 0.481914us per point
+  1> # 380 centroids
+  1> i, q, mean, count, dk
+  1> 0,0.0000005,-4.4169197,1,1.0000000
+  1> 1,0.0000015,-4.3774168,1,1.0000000
+  1> 2,0.0000025,-4.3600923,1,1.0000000
+  1> 3,0.0000035,-4.2800269,1,1.0000000
+  1> 4,0.0000045,-4.2248748,1,1.0000000
+  1> 5,0.0000055,-4.2049431,1,1.0000000
+  1> 6,0.0000065,-4.1942882,1,1.0000000
+  1> 7,0.0000075,-4.1827925,1,1.0000000
+  1> 8,0.0000085,-4.1702986,1,1.0000000
+  1> 9,0.0000095,-4.1693918,1,1.0000000
+  1> 10,0.0000105,-4.1582273,1,1.0000000
+  1> 11,0.0000120,-4.1366745,2,0.8878577
+  1> 12,0.0000140,-4.1049060,2,0.7605527
+  1> 13,0.0000160,-4.0926078,2,0.6652187
+  1> 14,0.0000185,-4.0814629,3,0.8637599
+  1> 15,0.0000215,-4.0641980,3,0.7428127
+  1> 16,0.0000250,-4.0395256,4,0.8521989
+  1> 17,0.0000295,-4.0129206,5,0.9029938
+  1> 18,0.0000350,-3.9335921,6,0.9133693
+  1> 19,0.0000400,-3.8915678,4,0.5319376
+  1> 20,0.0000445,-3.8657347,5,0.5978165
+  1> 21,0.0000505,-3.8323093,7,0.7379152
+  1> 22,0.0000590,-3.8144677,10,0.9030204
+  1> 23,0.0000680,-3.7937369,8,0.6260273
+  1> 24,0.0000765,-3.7663791,9,0.6260327
+  1> 25,0.0000885,-3.7415200,15,0.9030469
+  1> 26,0.0001045,-3.7043392,17,0.8666017
+  1> 27,0.0001225,-3.6641328,19,0.8260847
+  1> 28,0.0001440,-3.6252836,24,0.8879746
+  1> 29,0.0001685,-3.5886483,25,0.7901195
+  1> 30,0.0001910,-3.5541549,20,0.5571317
+  1> 31,0.0002175,-3.5143579,33,0.8081003
+  1> 32,0.0002525,-3.4743960,37,0.7803866
+  1> 33,0.0002890,-3.4393746,36,0.6630917
+  1> 34,0.0003320,-3.4040429,50,0.8021947
+  1> 35,0.0003795,-3.3692540,45,0.6311842
+  1> 36,0.0004320,-3.3334592,60,0.7396658
+  1> 37,0.0004895,-3.3003057,55,0.5980824
+  1> 38,0.0005510,-3.2686344,68,0.6570971
+  1> 39,0.0006295,-3.2299226,89,0.7531359
+  1> 40,0.0007310,-3.1871088,114,0.8311282
+  1> 41,0.0008595,-3.1366239,143,0.8870511
+  1> 42,0.0010125,-3.0891772,163,0.8583279
+  1> 43,0.0011955,-3.0407989,203,0.9057171
+  1> 44,0.0014115,-2.9883357,229,0.8653725
+  1> 45,0.0016185,-2.9503424,185,0.6091389
+  1> 46,0.0018275,-2.9159593,233,0.6797704
+  1> 47,0.0020505,-2.8809540,213,0.5537102
+  1> 48,0.0023505,-2.8343195,387,0.8790943
+  1> 49,0.0027305,-2.7838094,373,0.7291386
+  1> 50,0.0031350,-2.7377648,436,0.7426650
+  1> 51,0.0035915,-2.6928623,477,0.7094527
+  1> 52,0.0040680,-2.6518021,476,0.6251318
+  1> 53,0.0045775,-2.6136305,543,0.6340928
+  1> 54,0.0051770,-2.5701239,656,0.6778600
+  1> 55,0.0059940,-2.5156074,978,0.8743286
+  1> 56,0.0069550,-2.4631314,944,0.7275292
+  1> 57,0.0079790,-2.4140414,1104,0.7424540
+  1> 58,0.0092555,-2.3605335,1449,0.8415290
+  1> 59,0.0108150,-2.3018194,1670,0.8312838
+  1> 60,0.0127310,-2.2382933,2162,0.9163733
+  1> 61,0.0148785,-2.1777510,2133,0.7747425
+  1> 62,0.0171935,-2.1180383,2497,0.7867183
+  1> 63,0.0200515,-2.0549241,3219,0.8725062
+  1> 64,0.0233375,-1.9911286,3353,0.7831538
+  1> 65,0.0272550,-1.9238817,4482,0.9004562
+  1> 66,0.0320565,-1.8525603,5121,0.8789542
+  1> 67,0.0377420,-1.7785066,6250,0.9166480
+  1> 68,0.0440755,-1.7060446,6417,0.8108255
+  1> 69,0.0513085,-1.6327877,8049,0.8805541
+  1> 70,0.0602505,-1.5528967,9835,0.9251067
+  1> 71,0.0706430,-1.4703290,10950,0.8880841
+  1> 72,0.0821440,-1.3897073,12052,0.8509560
+  1> 73,0.0944525,-1.3136346,12565,0.7818090
+  1> 74,0.1073365,-1.2404456,13203,0.7331772
+  1> 75,0.1216510,-1.1660892,15426,0.7681836
+  1> 76,0.1375045,-1.0908652,16281,0.7303457
+  1> 77,0.1543660,-1.0172548,17442,0.7107828
+  1> 78,0.1729810,-0.9417795,19788,0.7358087
+  1> 79,0.1938510,-0.8631501,21952,0.7472255
+  1> 80,0.2170355,-0.7816961,24417,0.7643061
+  1> 81,0.2427480,-0.6961252,27008,0.7814988
+  1> 82,0.2716970,-0.6066385,30890,0.8303495
+  1> 83,0.3037100,-0.5141397,33136,0.8334071
+  1> 84,0.3364485,-0.4228834,32341,0.7703575
+  1> 85,0.3700820,-0.3324515,34926,0.7966955
+  1> 86,0.4064695,-0.2382600,37849,0.8342779
+  1> 87,0.4438970,-0.1426569,37006,0.7971259
+  1> 88,0.4802870,-0.0505837,35774,0.7620281
+  1> 89,0.5159345,0.0390478,35521,0.7562254
+  1> 90,0.5525855,0.1320958,37781,0.8125749
+  1> 91,0.5915540,0.2317436,40156,0.8838484
+  1> 92,0.6304320,0.3336386,37600,0.8582629
+  1> 93,0.6667290,0.4317380,34994,0.8375821
+  1> 94,0.7004390,0.5262448,32426,0.8219389
+  1> 95,0.7319975,0.6194964,30691,0.8321635
+  1> 96,0.7613525,0.7113318,28019,0.8203197
+  1> 97,0.7881500,0.8007018,25576,0.8148935
+  1> 98,0.8130645,0.8904604,24253,0.8490476
+  1> 99,0.8356320,0.9773101,20882,0.8089349
+  1> 100,0.8543870,1.0567413,16628,0.7110041
+  1> 101,0.8707690,1.1314285,16136,0.7629588
+  1> 102,0.8857780,1.2066703,13882,0.7300183
+  1> 103,0.8988540,1.2778822,12270,0.7180719
+  1> 104,0.9109590,1.3487714,11940,0.7834136
+  1> 105,0.9226005,1.4249924,11343,0.8456223
+  1> 106,0.9325480,1.4965674,8552,0.7234798
+  1> 107,0.9406660,1.5611868,7684,0.7326584
+  1> 108,0.9479960,1.6260901,6976,0.7531179
+  1> 109,0.9547310,1.6928875,6494,0.7998788
+  1> 110,0.9608485,1.7608812,5741,0.8124840
+  1> 111,0.9662565,1.8286691,5075,0.8287577
+  1> 112,0.9711380,1.8977479,4688,0.8908227
+  1> 113,0.9754885,1.9682701,4013,0.8939377
+  1> 114,0.9791905,2.0381032,3391,0.8863878
+  1> 115,0.9822790,2.1051071,2786,0.8523543
+  1> 116,0.9847780,2.1653661,2212,0.7856163
+  1> 117,0.9868415,2.2218696,1915,0.7851529
+  1> 118,0.9887160,2.2791786,1834,0.8755758
+  1> 119,0.9904145,2.3395507,1563,0.8769283
+  1> 120,0.9917730,2.3970771,1154,0.7529061
+  1> 121,0.9928810,2.4521657,1062,0.8000019
+  1> 122,0.9939030,2.5099519,982,0.8631139
+  1> 123,0.9947425,2.5616934,697,0.7093455
+  1> 124,0.9954360,2.6088391,690,0.8087171
+  1> 125,0.9960335,2.6562310,505,0.6802623
+  1> 126,0.9965075,2.6985274,443,0.6774061
+  1> 127,0.9969130,2.7383340,368,0.6362803
+  1> 128,0.9973130,2.7856419,432,0.8586205
+  1> 129,0.9976640,2.8308705,270,0.6164115
+  1> 130,0.9979670,2.8714399,336,0.8821781
+  1> 131,0.9982485,2.9166267,227,0.6909809
+  1> 132,0.9984550,2.9524667,186,0.6415959
+  1> 133,0.9986260,2.9871105,156,0.6048986
+  1> 134,0.9987925,3.0284494,177,0.7813946
+  1> 135,0.9989595,3.0700578,157,0.8042960
+  1> 136,0.9991140,3.1163595,152,0.9148366
+  1> 137,0.9992510,3.1630504,122,0.8682539
+  1> 138,0.9993635,3.2135606,103,0.8624744
+  1> 139,0.9994585,3.2613542,87,0.8561964
+  1> 140,0.9995285,3.2998824,53,0.5983258
+  1> 141,0.9995820,3.3321156,54,0.6878361
+  1> 142,0.9996350,3.3616500,52,0.7587278
+  1> 143,0.9996810,3.3939662,40,0.6675115
+  1> 144,0.9997170,3.4235047,32,0.6017703
+  1> 145,0.9997520,3.4519040,38,0.8161545
+  1> 146,0.9997855,3.4831535,29,0.7197930
+  1> 147,0.9998140,3.5273602,28,0.8017315
+  1> 148,0.9998405,3.5780572,25,0.8348742
+  1> 149,0.9998640,3.6324415,22,0.8617346
+  1> 150,0.9998825,3.6736607,15,0.6794794
+  1> 151,0.9998975,3.7100769,15,0.7792374
+  1> 152,0.9999110,3.7535414,12,0.7177449
+  1> 153,0.9999230,3.7901940,12,0.8300156
+  1> 154,0.9999340,3.8176277,10,0.8068609
+  1> 155,0.9999435,3.8477537,9,0.8484387
+  1> 156,0.9999505,3.8640918,5,0.5373250
+  1> 157,0.9999560,3.9113291,6,0.7258937
+  1> 158,0.9999620,3.9576176,6,0.8409495
+  1> 159,0.9999670,4.0030787,4,0.6450212
+  1> 160,0.9999710,4.0512591,4,0.7342528
+  1> 161,0.9999750,4.1236383,4,0.8521989
+  1> 162,0.9999785,4.1473873,3,0.7428127
+  1> 163,0.9999815,4.1751702,3,0.8637599
+  1> 164,0.9999840,4.2559611,2,0.6652187
+  1> 165,0.9999860,4.3051329,2,0.7605527
+  1> 166,0.9999880,4.3259343,2,0.8878577
+  1> 167,0.9999895,4.3363217,1,1.0000000
+  1> 168,0.9999905,4.3390991,1,1.0000000
+  1> 169,0.9999915,4.4466994,1,1.0000000
+  1> 170,0.9999925,4.4647806,1,1.0000000
+  1> 171,0.9999935,4.4762679,1,1.0000000
+  1> 172,0.9999945,4.5477528,1,1.0000000
+  1> 173,0.9999955,4.5662837,1,1.0000000
+  1> 174,0.9999965,4.5779693,1,1.0000000
+  1> 175,0.9999975,4.6008956,1,1.0000000
+  1> 176,0.9999985,4.8999807,1,1.0000000
+  1> 177,0.9999995,5.0838487,1,1.0000000
+  1> # 0.259079us per point
+  1> # 609 centroids
+  1> # 0.244631us per point
+  1> # 319 centroids
+  1> Starting 0,10
+  1> Starting 0,10000
+  1> Starting 1,10
+  1> Starting 0,1000
+  1> Starting 0,100
+  1> Starting 1,100
+  1>                    0,10 (5 live threads, 19 pending tasks)
+  1> Starting 1,1000
+  1>                    1,10 (5 live threads, 18 pending tasks)
+  1> Starting 1,10000
+  1>                    1,100 (5 live threads, 17 pending tasks)
+  1> Starting 2,10
+  1>                    2,10 (5 live threads, 16 pending tasks)
+  1> Starting 2,100
+  1>                    0,100 (5 live threads, 15 pending tasks)
+  1> Starting 2,1000
+  1>                    2,100 (5 live threads, 14 pending tasks)
+  1> Starting 2,10000
+  1>                    1,1000 (5 live threads, 13 pending tasks)
+  1> Starting 3,10
+  1>                    3,10 (5 live threads, 12 pending tasks)
+  1> Starting 3,100
+  1>                    3,100 (5 live threads, 11 pending tasks)
+  1> Starting 3,1000
+  1>                    0,1000 (5 live threads, 10 pending tasks)
+  1> Starting 3,10000
+  1>                    2,1000 (5 live threads, 9 pending tasks)
+  1> Starting 4,10
+  1>                    4,10 (5 live threads, 8 pending tasks)
+  1> Starting 4,100
+  1>                    4,100 (5 live threads, 7 pending tasks)
+  1> Starting 4,1000
+  1>                    3,1000 (5 live threads, 6 pending tasks)
+  1> Starting 4,10000
+  1>                    4,1000 (5 live threads, 5 pending tasks)
+  1>                    2,10000 (4 live threads, 4 pending tasks)
+  1>                    1,10000 (3 live threads, 3 pending tasks)
+  1>                    0,10000 (2 live threads, 2 pending tasks)
+  1>                    3,10000 (1 live threads, 1 pending tasks)
+  1>                    4,10000 (0 live threads, 0 pending tasks)
+  1> # 0.206435us per point
+  1> # 180 centroids
+Completed in 21.59s, 30 tests
+
+Suite: com.tdunning.math.stats.IntAVLTreeTest
+Completed in 0.48s, 2 tests
+
+Suite: com.tdunning.math.stats.AlternativeMergeTest
+Completed in 0.42s, 1 test
+
+Suite: com.tdunning.math.stats.MergingDigestTest
+  1> # big 944 bytes
+  1> # small 486 bytes
+  1> # 0.109734us per point
+  1> # 140 centroids
+  1> delta, q, x1, x2, q1, q2, error_x, error_q
+  1> 20,0.500000,50.499630,50.499881,0.500001,0.499746,0.000503,0.000508
+  1> 20,0.900000,50.899543,50.898559,0.900001,0.901002,0.009835,0.010010
+  1> 20,0.990000,50.989929,50.988297,0.990001,0.991395,0.163239,0.139433
+  1> 20,0.999000,50.998967,50.998829,0.999001,0.999118,0.137618,0.117090
+  1> 20,0.999900,50.999889,50.999883,0.999901,0.999905,0.060716,0.046880
+  1> 20,0.999990,50.999991,50.999988,0.999991,0.999992,0.265353,0.176737
+  1> 20,0.999999,50.999998,50.999998,1.000000,1.000000,0.000000,0.000000
+  1> 50,0.500000,50.499671,50.499783,0.500001,0.499888,0.000224,0.000225
+  1> 50,0.900000,50.900169,50.900103,0.900001,0.900066,0.000659,0.000653
+  1> 50,0.990000,50.990108,50.988958,0.990001,0.991256,0.115082,0.125597
+  1> 50,0.999000,50.999000,50.998833,0.999001,0.999143,0.167350,0.142769
+  1> 50,0.999900,50.999889,50.999884,0.999901,0.999905,0.052999,0.040373
+  1> 50,0.999990,50.999990,50.999989,0.999991,0.999991,0.084457,0.022303
+  1> 50,0.999999,51.000000,51.000000,1.000000,1.000000,0.000000,0.000000
+  1> 100,0.500000,50.500763,50.500792,0.500001,0.499971,0.000059,0.000060
+  1> 100,0.900000,50.900594,50.900578,0.900001,0.900017,0.000168,0.000166
+  1> 100,0.990000,50.990036,50.989797,0.990001,0.990264,0.023882,0.026335
+  1> 100,0.999000,50.999026,50.998831,0.999001,0.999167,0.195508,0.166957
+  1> 100,0.999900,50.999898,50.999881,0.999901,0.999914,0.164402,0.135814
+  1> 100,0.999990,50.999988,50.999987,0.999991,0.999991,0.150866,0.079220
+  1> 100,0.999999,50.999997,50.999997,1.000000,1.000000,0.000000,0.000000
+  1> 200,0.500000,50.499758,50.499740,0.500001,0.500018,0.000035,0.000034
+  1> 200,0.900000,50.900083,50.900118,0.900001,0.899964,0.000351,0.000362
+  1> 200,0.990000,50.990056,50.990047,0.990001,0.990010,0.000978,0.000969
+  1> 200,0.999000,50.999021,50.998819,0.999001,0.999171,0.202045,0.170403
+  1> 200,0.999900,50.999911,50.999883,0.999901,0.999924,0.280770,0.232493
+  1> 200,0.999990,50.999989,50.999989,0.999991,0.999990,0.054329,0.095955
+  1> 200,0.999999,51.000000,51.000000,1.000000,1.000000,0.000000,0.000000
+  1> # 0.723763us per point
+  1> # 64 centroids
+  1> i, q, mean, count, dk
+  1> 0,0.0000005,-5.1197352,1,1.0000000
+  1> 1,0.0000015,-4.8077915,1,1.0000000
+  1> 2,0.0000025,-4.7574429,1,1.0000000
+  1> 3,0.0000035,-4.5195773,1,1.0000000
+  1> 4,0.0000045,-4.3428944,1,1.0000000
+  1> 5,0.0000055,-4.2975746,1,1.0000000
+  1> 6,0.0000065,-4.2683118,1,1.0000000
+  1> 7,0.0000075,-4.2468957,1,1.0000000
+  1> 8,0.0000085,-4.2381196,1,1.0000000
+  1> 9,0.0000095,-4.2236223,1,1.0000000
+  1> 10,0.0000105,-4.1699479,1,1.0000000
+  1> 11,0.0000120,-4.1481030,2,0.8878577
+  1> 12,0.0000140,-4.1038985,2,0.7605527
+  1> 13,0.0000160,-4.0633601,2,0.6652187
+  1> 14,0.0000185,-4.0490190,3,0.8637599
+  1> 15,0.0000215,-4.0244445,3,0.7428127
+  1> 16,0.0000250,-3.9910542,4,0.8521989
+  1> 17,0.0000285,-3.9757488,3,0.5599785
+  1> 18,0.0000325,-3.9517470,5,0.8192955
+  1> 19,0.0000380,-3.9201224,6,0.8409495
+  1> 20,0.0000445,-3.8780587,7,0.8377922
+  1> 21,0.0000520,-3.8542552,8,0.8193115
+  1> 22,0.0000605,-3.8264766,9,0.7921314
+  1> 23,0.0000700,-3.7808316,10,0.7605952
+  1> 24,0.0000810,-3.7487514,12,0.7888758
+  1> 25,0.0000935,-3.7071806,13,0.7402091
+  1> 26,0.0001080,-3.6732538,16,0.7888970
+  1> 27,0.0001260,-3.6276450,20,0.8454919
+  1> 28,0.0001440,-3.5914748,16,0.5912191
+  1> 29,0.0001630,-3.5621796,22,0.7185342
+  1> 30,0.0001855,-3.5207899,23,0.6599374
+  1> 31,0.0002140,-3.4825094,34,0.8463598
+  1> 32,0.0002490,-3.4453140,36,0.7699285
+  1> 33,0.0002895,-3.4121059,45,0.8280322
+  1> 34,0.0003375,-3.3755969,51,0.8049191
+  1> 35,0.0003920,-3.3402856,58,0.7881105
+  1> 36,0.0004470,-3.3053190,52,0.6192433
+  1> 37,0.0005130,-3.2653363,80,0.8309187
+  1> 38,0.0006015,-3.2244563,97,0.8594523
+  1> 39,0.0006910,-3.1859695,82,0.6318691
+  1> 40,0.0007960,-3.1482399,128,0.8571593
+  1> 41,0.0009160,-3.1083576,112,0.6512430
+  1> 42,0.0010330,-3.0739725,122,0.6290635
+  1> 43,0.0011615,-3.0411608,135,0.6191408
+  1> 44,0.0013130,-3.0034344,168,0.6818502
+  1> 45,0.0015055,-2.9613274,217,0.7685406
+  1> 46,0.0017550,-2.9152919,282,0.8573365
+  1> 47,0.0020445,-2.8660564,297,0.7750026
+  1> 48,0.0023685,-2.8197498,351,0.7909326
+  1> 49,0.0027465,-2.7718375,405,0.7872951
+  1> 50,0.0031265,-2.7277959,355,0.6060057
+  1> 51,0.0035860,-2.6816547,564,0.8406292
+  1> 52,0.0042260,-2.6282745,716,0.9064452
+  1> 53,0.0049865,-2.5720731,805,0.8641583
+  1> 54,0.0057295,-2.5236659,681,0.6360863
+  1> 55,0.0065680,-2.4752487,996,0.8128267
+  1> 56,0.0076415,-2.4216828,1151,0.8082133
+  1> 57,0.0088290,-2.3717497,1224,0.7445489
+  1> 58,0.0102135,-2.3165043,1545,0.8137953
+  1> 59,0.0117025,-2.2651997,1433,0.6593228
+  1> 60,0.0135180,-2.2090862,2198,0.8779176
+  1> 61,0.0157715,-2.1483779,2309,0.7919565
+  1> 62,0.0182510,-2.0892170,2650,0.7873913
+  1> 63,0.0211695,-2.0277705,3187,0.8189359
+  1> 64,0.0244555,-1.9667076,3385,0.7552556
+  1> 65,0.0282230,-1.9042255,4150,0.8056040
+  1> 66,0.0328050,-1.8371603,5014,0.8414555
+  1> 67,0.0383050,-1.7670398,5986,0.8653210
+  1> 68,0.0450225,-1.6911432,7449,0.9227952
+  1> 69,0.0524330,-1.6169372,7372,0.7898257
+  1> 70,0.0598595,-1.5507907,7481,0.7073712
+  1> 71,0.0683200,-1.4845167,9440,0.7893758
+  1> 72,0.0784330,-1.4127665,10786,0.7942335
+  1> 73,0.0905280,-1.3353116,13404,0.8666970
+  1> 74,0.1040555,-1.2568276,13651,0.7792188
+  1> 75,0.1195205,-1.1764323,17279,0.8739916
+  1> 76,0.1369740,-1.0931712,17628,0.7934918
+  1> 77,0.1558085,-1.0107003,20041,0.8107332
+  1> 78,0.1771445,-0.9251572,22631,0.8260862
+  1> 79,0.2008805,-0.8376506,24841,0.8232859
+  1> 80,0.2278555,-0.7453072,29109,0.8802761
+  1> 81,0.2587195,-0.6469630,32619,0.9048682
+  1> 82,0.2911025,-0.5500433,32147,0.8285660
+  1> 83,0.3233595,-0.4585175,32367,0.7867057
+  1> 84,0.3598665,-0.3591896,40647,0.9385256
+  1> 85,0.3987030,-0.2561693,37026,0.8212813
+  1> 86,0.4363745,-0.1595034,38317,0.8284246
+  1> 87,0.4744430,-0.0633050,37820,0.8065079
+  1> 88,0.5118150,0.0301445,36924,0.7857609
+  1> 89,0.5490625,0.1233234,37571,0.8068823
+  1> 90,0.5856545,0.2158971,35613,0.7803648
+  1> 91,0.6200000,0.3054181,33078,0.7465422
+  1> 92,0.6570255,0.4045618,40973,0.9672149
+  1> 93,0.6924085,0.5028709,29793,0.7439000
+  1> 94,0.7225230,0.5908378,30436,0.8074634
+  1> 95,0.7533325,0.6844224,31183,0.8927958
+  1> 96,0.7823535,0.7795462,26859,0.8391845
+  1> 97,0.8076235,0.8683125,23681,0.8109047
+  1> 98,0.8307030,0.9563769,22478,0.8505096
+  1> 99,0.8518595,1.0444234,19835,0.8364274
+  1> 100,0.8706605,1.1296772,17767,0.8396784
+  1> 101,0.8872695,1.2120196,15451,0.8221412
+  1> 102,0.9014440,1.2887283,12898,0.7725777
+  1> 103,0.9135025,1.3617287,11219,0.7555785
+  1> 104,0.9244125,1.4350076,10601,0.8075547
+  1> 105,0.9344540,1.5097718,9482,0.8241125
+  1> 106,0.9434110,1.5834626,8432,0.8408892
+  1> 107,0.9513345,1.6560511,7415,0.8527844
+  1> 108,0.9578045,1.7236908,5525,0.7275550
+  1> 109,0.9630205,1.7846733,4907,0.7333570
+  1> 110,0.9681230,1.8518604,5298,0.9144413
+  1> 111,0.9726390,1.9191604,3734,0.7468419
+  1> 112,0.9763085,1.9815159,3605,0.8299022
+  1> 113,0.9798085,2.0477027,3395,0.9141483
+  1> 114,0.9828360,2.1129431,2660,0.8396914
+  1> 115,0.9852385,2.1731563,2145,0.7852196
+  1> 116,0.9873090,2.2326145,1996,0.8483575
+  1> 117,0.9891665,2.2928000,1719,0.8543239
+  1> 118,0.9907575,2.3526895,1463,0.8508822
+  1> 119,0.9921425,2.4121550,1307,0.8930889
+  1> 120,0.9931940,2.4628117,796,0.6265569
+  1> 121,0.9940895,2.5125491,995,0.9021467
+  1> 122,0.9949760,2.5693085,778,0.8288276
+  1> 123,0.9956445,2.6194869,559,0.6860332
+  1> 124,0.9962090,2.6678832,570,0.8036533
+  1> 125,0.9967125,2.7144350,437,0.7098481
+  1> 126,0.9971295,2.7591019,397,0.7383362
+  1> 127,0.9975315,2.8089624,407,0.8804406
+  1> 128,0.9979110,2.8627041,352,0.8995433
+  1> 129,0.9982275,2.9210214,281,0.8458280
+  1> 130,0.9984950,2.9731285,254,0.9004609
+  1> 131,0.9987160,3.0217888,188,0.7805641
+  1> 132,0.9988965,3.0695332,173,0.8358440
+  1> 133,0.9990470,3.1106184,128,0.7155925
+  1> 134,0.9991655,3.1533034,109,0.6957639
+  1> 135,0.9992775,3.1953856,115,0.8483474
+  1> 136,0.9993740,3.2387119,78,0.6634921
+  1> 137,0.9994505,3.2767935,75,0.7269232
+  1> 138,0.9995245,3.3160620,73,0.8179274
+  1> 139,0.9995870,3.3553800,52,0.6703294
+  1> 140,0.9996370,3.3927759,48,0.7040559
+  1> 141,0.9996870,3.4288113,52,0.8852738
+  1> 142,0.9997300,3.4677723,34,0.6703293
+  1> 143,0.9997640,3.4980493,34,0.7671904
+  1> 144,0.9997925,3.5232611,23,0.5898289
+  1> 145,0.9998175,3.5478485,27,0.7878710
+  1> 146,0.9998430,3.5799329,24,0.8141578
+  1> 147,0.9998645,3.6179300,19,0.7465643
+  1> 148,0.9998830,3.6614512,18,0.8193647
+  1> 149,0.9999005,3.6972141,17,0.9103530
+  1> 150,0.9999150,3.7367377,12,0.7516283
+  1> 151,0.9999270,3.7615781,12,0.8756931
+  1> 152,0.9999375,3.7921971,9,0.7666953
+  1> 153,0.9999450,3.8119537,6,0.5803965
+  1> 154,0.9999515,3.8299352,7,0.7684471
+  1> 155,0.9999580,3.8582274,6,0.7605740
+  1> 156,0.9999630,3.8781289,4,0.5751471
+  1> 157,0.9999675,3.9201041,5,0.8192955
+  1> 158,0.9999720,3.9531918,4,0.7605634
+  1> 159,0.9999755,4.0007323,3,0.6516140
+  1> 160,0.9999785,4.0542684,3,0.7428127
+  1> 161,0.9999815,4.0762798,3,0.8637599
+  1> 162,0.9999840,4.1072985,2,0.6652187
+  1> 163,0.9999860,4.1330612,2,0.7605527
+  1> 164,0.9999880,4.1506825,2,0.8878577
+  1> 165,0.9999895,4.1710220,1,1.0000000
+  1> 166,0.9999905,4.2021156,1,1.0000000
+  1> 167,0.9999915,4.2021700,1,1.0000000
+  1> 168,0.9999925,4.2400426,1,1.0000000
+  1> 169,0.9999935,4.2559674,1,1.0000000
+  1> 170,0.9999945,4.2722425,1,1.0000000
+  1> 171,0.9999955,4.3221237,1,1.0000000
+  1> 172,0.9999965,4.3256368,1,1.0000000
+  1> 173,0.9999975,4.3761564,1,1.0000000
+  1> 174,0.9999985,4.5144263,1,1.0000000
+  1> 175,0.9999995,5.2672218,1,1.0000000
+  1>    q	 estimated	    actual	 error_cdf	   error_q
+  1> ====	==========	==========	==========	==========
+  1> 0.01	      0.00	      0.00	      0.00	      0.04
+  1> 0.05	      0.00	      0.00	      0.00	      0.00
+  1> 0.10	      2.77	      0.00	      2.77	      0.05
+  1> 0.25	     17.46	     20.00	      2.54	      0.03
+  1> 0.50	     39.95	     40.00	      0.05	      0.00
+  1> 0.75	     62.63	     60.00	      2.63	      0.03
+  1> 0.90	     76.75	     80.00	      3.25	      0.06
+  1> 0.95	     80.00	     80.00	      0.00	      0.01
+  1> 0.99	     80.00	     80.00	      0.00	      0.03
+  1> # 0.177410us per point
+  1> # 226 centroids
+  1> # 0.205921us per point
+  1> # 118 centroids
+  1> Starting 0,10
+  1> Starting 0,100
+  1> Starting 0,1000
+  1> Starting 0,10000
+  1>                    0,10 (3 live threads, 19 pending tasks)
+  1> Starting 1,10
+  1> Starting 1,100
+  1> Starting 1,1000
+  1>                    1,10 (5 live threads, 18 pending tasks)
+  1> Starting 1,10000
+  1>                    1,100 (5 live threads, 17 pending tasks)
+  1> Starting 2,10
+  1>                    2,10 (5 live threads, 16 pending tasks)
+  1> Starting 2,100
+  1>                    0,100 (5 live threads, 15 pending tasks)
+  1> Starting 2,1000
+  1>                    2,100 (5 live threads, 14 pending tasks)
+  1> Starting 2,10000
+  1>                    2,1000 (5 live threads, 13 pending tasks)
+  1> Starting 3,10
+  1>                    3,10 (5 live threads, 12 pending tasks)
+  1> Starting 3,100
+  1>                    3,100 (5 live threads, 11 pending tasks)
+  1> Starting 3,1000
+  1>                    0,1000 (5 live threads, 10 pending tasks)
+  1> Starting 3,10000
+  1>                    1,1000 (5 live threads, 9 pending tasks)
+  1> Starting 4,10
+  1>                    4,10 (5 live threads, 8 pending tasks)
+  1> Starting 4,100
+  1>                    4,100 (5 live threads, 7 pending tasks)
+  1> Starting 4,1000
+  1>                    3,1000 (5 live threads, 6 pending tasks)
+  1> Starting 4,10000
+  1>                    4,1000 (5 live threads, 5 pending tasks)
+  1>                    0,10000 (4 live threads, 4 pending tasks)
+  1>                    2,10000 (3 live threads, 3 pending tasks)
+  1>                    1,10000 (2 live threads, 2 pending tasks)
+  1>                    3,10000 (1 live threads, 1 pending tasks)
+  1>                    4,10000 (0 live threads, 0 pending tasks)
+  1> # 0.187262us per point
+  1> # 65 centroids
+Completed in 11.75s, 30 tests
+
+Suite: com.tdunning.math.stats.AVLGroupTreeTest
+Completed in 0.02s, 5 tests
+
+Suite: com.tdunning.math.stats.FloatHistogramTest
+  1> Checking χ^2 = 166.4808 ± 18.1 against expected 165.4000 ± 18.0
+Completed in 1.70s, 6 tests
+
+Suite: com.tdunning.math.stats.TDigestTest
+Suite: com.tdunning.math.stats.SortTest
+Completed in 0.04s, 11 tests
+
+Suite: com.tdunning.math.stats.TDigestSerializationTest
+Completed in 0.05s, 2 tests
+
+Suite: com.tdunning.math.stats.ComparisonTest
+  1> Failed 0 times (up to 5 acceptable)269.51914 0.67913
+Completed in 17.17s, 5 tests
+
+Suite: com.tdunning.math.stats.LogHistogramTest
+  1> Checking χ^2 = 146.2172 ± 16.8 against expected 146.0000 ± 17.0
+Completed in 1.78s, 8 tests
+
+Suite: com.tdunning.math.stats.AbstractTest
+Suite: com.tdunning.math.stats.SerializationTest
+Completed in 0.00s, 1 test
+
+Suite: com.tdunning.math.stats.TDigestUtilTest
+Completed in 0.02s, 1 test
+
+Suite: com.tdunning.scale.ScaleTest
+IGNOR/A 0.01s | ScaleTest.testGrowth
+   > Assumption #1: got: <false>, expected: is <true>
+Completed in 0.02s, 1 test, 1 skipped
+
+[INFO] JVM J0:     0.37 ..    56.55 =    56.18s
+[INFO] Execution time total: 56 seconds
+[INFO] Tests summary: 16 suites, 105 tests, 3 ignored (3 assumptions)
+[INFO] 
+[INFO] -------------------< com.tdunning:t-digest-quality >--------------------
+[INFO] Building t-digest-quality 3.3-SNAPSHOT                             [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ t-digest-quality ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/t-digest/quality/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ t-digest-quality ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ t-digest-quality ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/t-digest/quality/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ t-digest-quality ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ t-digest-quality ---
+[INFO] Surefire report directory: /workdir/t-digest/quality/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.tdunning.tdigest.quality.SinglePassTest
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 120.487 sec
+Running com.tdunning.tdigest.quality.ComparisonTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 66.948 sec
+Running com.tdunning.tdigest.quality.AccuracyTest
+Starting 0
+Starting 2
+Starting 1
+Starting 3
+Starting 4
+Starting 5
+    Finishing 3
+Starting 6
+    Finishing 4
+Starting 7
+    Finishing 2
+Starting 8
+    Finishing 6
+Starting 9
+    Finishing 1
+Starting 10
+    Finishing 5
+Starting 11
+    Finishing 11
+Starting 12
+    Finishing 8
+Starting 13
+    Finishing 9
+Starting 14
+    Finishing 7
+Starting 15
+    Finishing 12
+Starting 16
+    Finishing 10
+Starting 17
+    Finishing 14
+Starting 18
+    Finishing 15
+Starting 19
+    Finishing 13
+    Finishing 16
+    Finishing 18
+    Finishing 17
+    Finishing 19
+    Finishing 20
+java.lang.ArrayIndexOutOfBoundsException: Index 1010 out of bounds for length 1010
+	at com.tdunning.math.stats.MergingDigest.merge(MergingDigest.java:453)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:363)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:353)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:259)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:251)
+	at com.tdunning.math.stats.AbstractTDigest.add(AbstractTDigest.java:131)
+	at com.tdunning.tdigest.quality.AccuracyTest.lambda$testAccuracyVersusCompression$1(AccuracyTest.java:290)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.ArrayIndexOutOfBoundsException: Index 1010 out of bounds for length 1010
+	at com.tdunning.math.stats.MergingDigest.merge(MergingDigest.java:453)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:363)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:353)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:259)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:251)
+	at com.tdunning.math.stats.AbstractTDigest.add(AbstractTDigest.java:131)
+	at com.tdunning.tdigest.quality.AccuracyTest.lambda$testAccuracyVersusCompression$1(AccuracyTest.java:290)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.ArrayIndexOutOfBoundsException: Index 1010 out of bounds for length 1010
+	at com.tdunning.math.stats.MergingDigest.merge(MergingDigest.java:453)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:363)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:353)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:259)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:251)
+	at com.tdunning.math.stats.AbstractTDigest.add(AbstractTDigest.java:131)
+	at com.tdunning.tdigest.quality.AccuracyTest.lambda$testAccuracyVersusCompression$1(AccuracyTest.java:290)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.ArrayIndexOutOfBoundsException: Index 2010 out of bounds for length 2010
+	at com.tdunning.math.stats.MergingDigest.merge(MergingDigest.java:453)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:363)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:353)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:259)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:251)
+	at com.tdunning.math.stats.AbstractTDigest.add(AbstractTDigest.java:131)
+	at com.tdunning.tdigest.quality.AccuracyTest.lambda$testAccuracyVersusCompression$1(AccuracyTest.java:290)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.ArrayIndexOutOfBoundsException: Index 2010 out of bounds for length 2010
+	at com.tdunning.math.stats.MergingDigest.merge(MergingDigest.java:453)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:363)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:353)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:259)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:251)
+	at com.tdunning.math.stats.AbstractTDigest.add(AbstractTDigest.java:131)
+	at com.tdunning.tdigest.quality.AccuracyTest.lambda$testAccuracyVersusCompression$1(AccuracyTest.java:290)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.ArrayIndexOutOfBoundsException: Index 2010 out of bounds for length 2010
+	at com.tdunning.math.stats.MergingDigest.merge(MergingDigest.java:453)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:363)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:353)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:259)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:251)
+	at com.tdunning.math.stats.AbstractTDigest.add(AbstractTDigest.java:131)
+	at com.tdunning.tdigest.quality.AccuracyTest.lambda$testAccuracyVersusCompression$1(AccuracyTest.java:290)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.ArrayIndexOutOfBoundsException: Index 2010 out of bounds for length 2010
+	at com.tdunning.math.stats.MergingDigest.merge(MergingDigest.java:453)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:363)
+	at com.tdunning.math.stats.MergingDigest.mergeNewValues(MergingDigest.java:353)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:259)
+	at com.tdunning.math.stats.MergingDigest.add(MergingDigest.java:251)
+	at com.tdunning.math.stats.AbstractTDigest.add(AbstractTDigest.java:131)
+	at com.tdunning.tdigest.quality.AccuracyTest.lambda$testAccuracyVersusCompression$1(AccuracyTest.java:290)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+45, 1, 41.60, 0.024
+7, 1, 6.10, 0.164
+0, 2, 6.13, 0.326
+5, 3, 6.59, 0.455
+3, 4, 6.91, 0.579
+2, 5, 7.39, 0.676
+6, 6, 7.48, 0.802
+1, 7, 7.59, 0.923
+4, 8, 7.98, 1.003
+8, 9, 11.08, 0.812
+9, 10, 11.34, 0.882
+10, 11, 11.56, 0.952
+11, 12, 11.68, 1.027
+13, 13, 12.00, 1.083
+12, 14, 12.12, 1.155
+14, 15, 12.34, 1.216
+15, 16, 12.37, 1.294
+16, 17, 14.12, 1.204
+17, 18, 14.23, 1.265
+18, 19, 14.26, 1.332
+19, 20, 14.46, 1.383
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 85.266 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------------< com.tdunning:t-digest-benchmark >-------------------
+[INFO] Building t-digest-benchmark 3.3-SNAPSHOT                           [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ t-digest-benchmark ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/t-digest/benchmark/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ t-digest-benchmark ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ t-digest-benchmark ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/t-digest/benchmark/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ t-digest-benchmark ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ t-digest-benchmark ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for T-digest Parent 3.3-SNAPSHOT:
+[INFO] 
+[INFO] T-digest Parent .................................... SUCCESS [  0.049 s]
+[INFO] T-Digest ........................................... SUCCESS [ 57.623 s]
+[INFO] t-digest-quality ................................... SUCCESS [04:33 min]
+[INFO] t-digest-benchmark ................................. SUCCESS [  0.067 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  05:30 min
+[INFO] Finished at: 2021-02-14T21:51:45Z
+[INFO] ------------------------------------------------------------------------

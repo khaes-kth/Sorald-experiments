@@ -1,0 +1,50 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 2,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "nbViolationsBefore": 2,
+        "performedRepairsLocations": [
+            {
+                "endLine": 75,
+                "endColumn": 19,
+                "startColumn": 17,
+                "startLine": 75,
+                "filePath": "azuretablestorage/src/main/java/site/ycsb/db/azuretablestorage/AzureClient.java",
+                "violationSpecifier": "4973:azuretablestorage/src/main/java/site/ycsb/db/azuretablestorage/AzureClient.java:75:17:75:19"
+            },
+            {
+                "endLine": 75,
+                "endColumn": 42,
+                "startColumn": 40,
+                "startLine": 75,
+                "filePath": "azuretablestorage/src/main/java/site/ycsb/db/azuretablestorage/AzureClient.java",
+                "violationSpecifier": "4973:azuretablestorage/src/main/java/site/ycsb/db/azuretablestorage/AzureClient.java:75:40:75:42"
+            }
+        ],
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: 38248282",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair.json"
+        ]
+    },
+    "totalTimeMs": 8998,
+    "repairTimeMs": 431,
+    "startTimeMs": 1613319181340,
+    "crashes": [],
+    "endTimeMs": 1613319190338,
+    "parseTimeMs": 4059
+}

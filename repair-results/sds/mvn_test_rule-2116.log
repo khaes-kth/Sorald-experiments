@@ -1,0 +1,1157 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.didiglobal.sds:sds-admin:jar:1.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ com.didiglobal.sds:sds-admin:${revision}, /workdir/sds/sds-admin/pom.xml, line 98, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.didiglobal.sds:sds-apache-dubbo-example:jar:1.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ com.didiglobal.sds:sds-example:${revision}, /workdir/sds/sds-example/pom.xml, line 54, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.didiglobal.sds:sds-client-example:jar:1.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ com.didiglobal.sds:sds-example:${revision}, /workdir/sds/sds-example/pom.xml, line 54, column 21
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.didiglobal.sds:sds-example:pom:1.0.1-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-deploy-plugin is missing. @ com.didiglobal.sds:sds-example:${revision}, /workdir/sds/sds-example/pom.xml, line 54, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] Inspecting build with total of 16 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 16 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] SDS                                                                [pom]
+[INFO] sds-client                                                         [jar]
+[INFO] sds-admin                                                          [jar]
+[INFO] sds-bootstrap                                                      [jar]
+[INFO] sds-extension                                                      [pom]
+[INFO] sds-dubbo                                                          [jar]
+[INFO] sds-apache-dubbo                                                   [jar]
+[INFO] sds-okhttp                                                         [jar]
+[INFO] sds-spring-boot                                                    [pom]
+[INFO] sds-spring-boot-autoconfigure                                      [jar]
+[INFO] sds-spring-boot-starter                                            [jar]
+[INFO] sds-aspectj                                                        [jar]
+[INFO] sds-easy                                                           [jar]
+[INFO] sds-example                                                        [pom]
+[INFO] sds-apache-dubbo-example                                           [jar]
+[INFO] sds-client-example                                                 [jar]
+[INFO] 
+[INFO] --------------------< com.didiglobal.sds:sds-base >---------------------
+[INFO] Building SDS 1.0.1-SNAPSHOT                                       [1/16]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] -------------------< com.didiglobal.sds:sds-client >--------------------
+[INFO] Building sds-client 1.0.1-SNAPSHOT                                [2/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-client ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-client/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-client ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-client ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-client ---
+[INFO] Surefire report directory: /workdir/sds/sds-client/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.didiglobal.sds.client.test.ConcurrentDowngradeTest
+[INFO][15/02/21 10:31:59:059] SdsClientFactory#static 系统参数sds.app.group.name, sds.app.name, sds.server.addr.list没配置全，不通过系统参数初始化SdsClient。
+[INFO][15/02/21 10:31:59:059] CommonSdsClient use custom strategy executor chain: com.didiglobal.sds.client.test.CustomStrategyExecutorBuilder2
+[INFO][15/02/21 10:31:59:059] SdsHeartBeatService 新增Upload服务端地址列表：["http://127.0.0.1:8887/sds/heartbeat/add"]
+[INFO][15/02/21 10:31:59:059] SdsHeartBeatService 新增Pull服务端地址列表：["http://127.0.0.1:8887/sds/heartbeat/pullstrategy"]
+[WARN][15/02/21 10:31:59:059] SdsHeartBeatService#updatePointStrategyFromWebServer 请求服务端（http://127.0.0.1:8887/sds/heartbeat/pullstrategy）异常：null, 切换服务端地址为：http://127.0.0.1:8887/sds/heartbeat/pullstrategy
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1367)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1342)
+	at com.didiglobal.sds.client.util.HttpUtils.post(HttpUtils.java:45)
+	at com.didiglobal.sds.client.service.SdsHeartBeatService.updatePointStrategyFromWebServer(SdsHeartBeatService.java:166)
+	at com.didiglobal.sds.client.service.SdsHeartBeatService.createOnlyOne(SdsHeartBeatService.java:74)
+	at com.didiglobal.sds.client.CommonSdsClient.initHeartBeat(CommonSdsClient.java:314)
+	at com.didiglobal.sds.client.CommonSdsClient.<init>(CommonSdsClient.java:46)
+	at com.didiglobal.sds.client.SdsClientFactory.buildSdsClient(SdsClientFactory.java:88)
+	at com.didiglobal.sds.client.SdsClientFactory.getOrCreateSdsClient(SdsClientFactory.java:67)
+	at com.didiglobal.sds.client.test.AbstractDowngradeTest.<clinit>(AbstractDowngradeTest.java:19)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+[WARN][15/02/21 10:31:59:059] SdsHeartBeatService#updatePointStrategyFromWebServer 服务端应答转JSON为null，请求参数：{"client":"{\"appGroupName\":\"BikeBusinessDepartment\",\"appName\":\"order\",\"hostname\":\"605b8309f1f8\",\"ip\":\"172.17.0.2\",\"pointInfoMap\":{},\"pointList\":[],\"version\":0}"}
+[INFO][15/02/21 10:31:59:059] SdsClientFactory#buildSdsClient 创建SdsClient成功，sdsClient：AbstractSdsClient{appGroupName='BikeBusinessDepartment', appName='order', serverAddrList='http://127.0.0.1:8887'}
+[INFO][15/02/21 10:31:59:059] SdsStrategyService 策略更新，旧：{}, 新：{"concurrentPoint":{"concurrentThreshold":2,"delayTime":-1,"downgradeRate":100,"exceptionRateStart":0,"exceptionRateThreshold":-1,"exceptionThreshold":-1,"point":"concurrentPoint","pressureTestDowngrade":0,"retryInterval":-1,"timeoutCountThreshold":-1,"timeoutThreshold":-1,"tokenBucketGeneratedTokensInSecond":-1,"tokenBucketSize":-1,"visitThreshold":-1}}
+[INFO][15/02/21 10:31:59:059] SdsPowerfulCounterService 新增降级点:concurrentPoint
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.938 sec
+Running com.didiglobal.sds.client.test.ExceptionDowngradeTest
+[INFO][15/02/21 10:32:12:012] SdsStrategyService 策略更新，旧：{"concurrentPoint":{"concurrentThreshold":2,"delayTime":-1,"downgradeRate":100,"exceptionRateStart":0,"exceptionRateThreshold":-1,"exceptionThreshold":-1,"point":"concurrentPoint","pressureTestDowngrade":0,"retryInterval":-1,"timeoutCountThreshold":-1,"timeoutThreshold":-1,"tokenBucketGeneratedTokensInSecond":-1,"tokenBucketSize":-1,"visitThreshold":-1}}, 新：{"exceptionPoint":{"concurrentThreshold":-1,"delayTime":-1,"downgradeRate":100,"exceptionRateStart":0,"exceptionRateThreshold":-1,"exceptionThreshold":5,"point":"exceptionPoint","pressureTestDowngrade":0,"retryInterval":-1,"timeoutCountThreshold":-1,"timeoutThreshold":-1,"tokenBucketGeneratedTokensInSecond":-1,"tokenBucketSize":-1,"visitThreshold":-1}}
+[INFO][15/02/21 10:32:12:012] SdsPowerfulCounterService 新增降级点:exceptionPoint
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.978 sec
+Running com.didiglobal.sds.client.test.TimeoutDowngradeTest
+[INFO][15/02/21 10:32:32:032] SdsStrategyService 策略更新，旧：{"exceptionPoint":{"concurrentThreshold":-1,"delayTime":-1,"downgradeRate":100,"exceptionRateStart":0,"exceptionRateThreshold":-1,"exceptionThreshold":5,"point":"exceptionPoint","pressureTestDowngrade":0,"retryInterval":-1,"timeoutCountThreshold":-1,"timeoutThreshold":-1,"tokenBucketGeneratedTokensInSecond":-1,"tokenBucketSize":-1,"visitThreshold":-1}}, 新：{"timeoutPoint":{"concurrentThreshold":-1,"delayTime":-1,"downgradeRate":100,"exceptionRateStart":0,"exceptionRateThreshold":-1,"exceptionThreshold":-1,"point":"timeoutPoint","pressureTestDowngrade":0,"retryInterval":-1,"timeoutCountThreshold":5,"timeoutThreshold":940,"tokenBucketGeneratedTokensInSecond":-1,"tokenBucketSize":-1,"visitThreshold":-1}}
+[INFO][15/02/21 10:32:32:032] SdsPowerfulCounterService 新增降级点:timeoutPoint
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.988 sec
+Running com.didiglobal.sds.client.test.VisitDowngradeTest
+[INFO][15/02/21 10:32:52:052] SdsStrategyService 策略更新，旧：{"timeoutPoint":{"concurrentThreshold":-1,"delayTime":-1,"downgradeRate":100,"exceptionRateStart":0,"exceptionRateThreshold":-1,"exceptionThreshold":-1,"point":"timeoutPoint","pressureTestDowngrade":0,"retryInterval":-1,"timeoutCountThreshold":5,"timeoutThreshold":940,"tokenBucketGeneratedTokensInSecond":-1,"tokenBucketSize":-1,"visitThreshold":-1}}, 新：{"visitPoint":{"concurrentThreshold":-1,"delayTime":-1,"downgradeRate":100,"exceptionRateStart":0,"exceptionRateThreshold":-1,"exceptionThreshold":-1,"point":"visitPoint","pressureTestDowngrade":0,"retryInterval":-1,"timeoutCountThreshold":-1,"timeoutThreshold":-1,"tokenBucketGeneratedTokensInSecond":-1,"tokenBucketSize":-1,"visitThreshold":5}}
+[INFO][15/02/21 10:32:52:052] SdsPowerfulCounterService 新增降级点:visitPoint
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.998 sec
+Running com.didiglobal.sds.client.test.CustomStrategyExecutorBuilderTest
+[WARN][15/02/21 10:33:12:012] SdsClientFactory#getOrCreateSdsClient 创建SdsClient实例失败，因为单例SdsClient已经存在，appGroupName：BikeBusinessDepartment, appName:order,  serverAddrList:http://127.0.0.1:8887
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running com.didiglobal.sds.client.test.TokenBucketDowngradeTest
+[INFO][15/02/21 10:33:12:012] SdsStrategyService 单个策略更新，旧：null, 新：SdsStrategy{point='tokenBucketPoint', visitThreshold=-1, concurrentThreshold=-1, exceptionThreshold=-1, timeoutThreshold=-1, timeoutCountThreshold=-1, exceptionRateThreshold=-1, exceptionRateStart=0, tokenBucketGeneratedTokensInSecond=15, tokenBucketSize=20, delayTime=-1, retryInterval=-1, downgradeRate=100, returnValueStr='null', pressureTestDowngrade=0}
+[INFO][15/02/21 10:33:12:012] SdsPowerfulCounterService 新增降级点:tokenBucketPoint
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.994 sec
+Running com.didiglobal.sds.client.test.ExceptionRateDowngradeTest
+[INFO][15/02/21 10:33:32:032] SdsStrategyService 策略更新，旧：{"visitPoint":{"concurrentThreshold":-1,"delayTime":-1,"downgradeRate":100,"exceptionRateStart":0,"exceptionRateThreshold":-1,"exceptionThreshold":-1,"point":"visitPoint","pressureTestDowngrade":0,"retryInterval":-1,"timeoutCountThreshold":-1,"timeoutThreshold":-1,"tokenBucketGeneratedTokensInSecond":-1,"tokenBucketSize":-1,"visitThreshold":5},"tokenBucketPoint":{"concurrentThreshold":-1,"delayTime":-1,"downgradeRate":100,"exceptionRateStart":0,"exceptionRateThreshold":-1,"exceptionThreshold":-1,"point":"tokenBucketPoint","pressureTestDowngrade":0,"retryInterval":-1,"timeoutCountThreshold":-1,"timeoutThreshold":-1,"tokenBucketGeneratedTokensInSecond":15,"tokenBucketSize":20,"visitThreshold":-1}}, 新：{"exceptionRatePoint":{"concurrentThreshold":-1,"delayTime":-1,"downgradeRate":100,"exceptionRateStart":5,"exceptionRateThreshold":50,"exceptionThreshold":-1,"point":"exceptionRatePoint","pressureTestDowngrade":0,"retryInterval":-1,"timeoutCountThreshold":-1,"timeoutThreshold":-1,"tokenBucketGeneratedTokensInSecond":-1,"tokenBucketSize":-1,"visitThreshold":-1}}
+[INFO][15/02/21 10:33:32:032] SdsPowerfulCounterService 新增降级点:exceptionRatePoint
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.997 sec
+
+Results :
+
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --------------------< com.didiglobal.sds:sds-admin >--------------------
+[INFO] Building sds-admin 1.0.1-SNAPSHOT                                 [3/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.1.RELEASE:build-info (default) @ sds-admin ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-admin ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-front/target/static
+[INFO] Copying 8 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-admin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-admin ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-admin ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-admin ---
+[INFO] Surefire report directory: /workdir/sds/sds-admin/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.didiglobal.sds.admin.test.SdsAdminApplicationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.74 sec
+Running com.didiglobal.sds.admin.test.controller.AppGroupControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.1.RELEASE)
+
+2021-02-15 10:33:53.963  INFO 9834 --- [           main] c.d.s.a.t.c.AppGroupControllerTest       : Starting AppGroupControllerTest on 605b8309f1f8 with PID 9834 (started by maven in /workdir/sds/sds-admin)
+2021-02-15 10:33:53.976  INFO 9834 --- [           main] c.d.s.a.t.c.AppGroupControllerTest       : The following profiles are active: dev
+2021-02-15 10:33:54.940  INFO 9834 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-02-15 10:33:55.101  INFO 9834 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.ibatis.reflection.Reflector (file:/home/maven/.m2/repository/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.apache.ibatis.reflection.Reflector
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2021-02-15 10:33:55.872  INFO 9834 --- [           main] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-15 10:33:56.144  INFO 9834 --- [           main] c.d.s.a.t.c.AppGroupControllerTest       : Started AppGroupControllerTest in 2.474 seconds (JVM running for 3.536)
+2021-02-15 10:33:56.174  INFO 9834 --- [           main] o.s.m.w.MockServletContext               : Initializing Spring TestDispatcherServlet ''
+2021-02-15 10:33:56.174  INFO 9834 --- [           main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2021-02-15 10:33:56.174  INFO 9834 --- [           main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 0 ms
+2021-02-15 10:33:56.354 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppGroupByPage          : ==>  Preparing: select * from app_group where app_group_name like concat('%', ?, '%') order by modify_time desc limit ?, ? 
+2021-02-15 10:33:56.375 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppGroupByPage          : ==> Parameters: BikeBusinessDepartment(String), 0(Integer), 10(Integer)
+2021-02-15 10:33:56.425 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppGroupByPage          : <==      Total: 0
+2021-02-15 10:33:56.432  INFO 9834 --- [           main] sdsLogger                                : AppGroupController#queryAppGroupByPage, request:[{"operatorEmail":"manzhizhen@didiglobal.com","appGroupName":"BikeBusinessDepartment","creatorEmail":"manzhizhen@didiglobal.com","creatorName":"路飞","pageSize":10,"page":1,"operatorName":"路飞"}], response:{"code":200,"data":[]}, costTime:131.238075
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /sds/appgroup/listpage
+       Parameters = {}
+          Headers = {Content-Type=[application/json]}
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = com.didiglobal.sds.admin.controller.AppGroupController
+           Method = public com.didiglobal.sds.admin.controller.response.SdsResponse<java.util.List<com.didiglobal.sds.admin.dao.bean.AppGroupDO>> com.didiglobal.sds.admin.controller.AppGroupController.queryAppGroupByPage(com.didiglobal.sds.admin.controller.request.AppGroupRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {"code":200,"msg":null,"data":[]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.918 sec
+Running com.didiglobal.sds.admin.test.controller.PointDictControllerTest
+2021-02-15 10:33:56.467  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.controller.PointDictControllerTest], using SpringBootContextLoader
+2021-02-15 10:33:56.468  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.controller.PointDictControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.468  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.controller.PointDictControllerTest]: PointDictControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.469  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.controller.PointDictControllerTest
+2021-02-15 10:33:56.470  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.470  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@279e1422, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@af3295f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@27dc81be, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3595086b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@627d35ff, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7157413e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3245efdb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2f0e7fa8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@24d7657b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6f428e6e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@72e49f6a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2e4b5da1]
+2021-02-15 10:33:56.477 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.479 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: htw(String), htw-user(String)
+2021-02-15 10:33:56.479 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.483  INFO 9834 --- [           main] sdsLogger                                : PointDictController#queryPointDictList, request:[{"appGroupName":"htw","appName":"htw-user"}], response:{"code":200,"data":[]}, costTime:8.885673
+SdsResponse{code=200, msg='null', data=[]}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running com.didiglobal.sds.admin.test.controller.AppInfoControllerTest
+2021-02-15 10:33:56.486  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.controller.AppInfoControllerTest], using SpringBootContextLoader
+2021-02-15 10:33:56.486  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.controller.AppInfoControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.486  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.controller.AppInfoControllerTest]: AppInfoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.487  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.controller.AppInfoControllerTest
+2021-02-15 10:33:56.488  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.488  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@44106e25, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@57a5b03, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5649f55, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@558127d2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@12270a01, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4552f905, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@646d58cd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@388e4c25, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@12532e37, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@401b67a9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4e3ee457, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@41b66d1]
+2021-02-15 10:33:56.499  INFO 9834 --- [           main] o.s.m.w.MockServletContext               : Initializing Spring TestDispatcherServlet ''
+2021-02-15 10:33:56.499  INFO 9834 --- [           main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2021-02-15 10:33:56.499  INFO 9834 --- [           main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 0 ms
+2021-02-15 10:33:56.509 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppInfoByPage           : ==>  Preparing: select * from app_info WHERE app_group_name = ? and app_name like concat('%', ?, '%') order by modify_time desc limit ?, ? 
+2021-02-15 10:33:56.510 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppInfoByPage           : ==> Parameters: BikeBusinessDepartment(String), order(String), 0(Integer), 10(Integer)
+2021-02-15 10:33:56.510 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppInfoByPage           : <==      Total: 0
+2021-02-15 10:33:56.510  INFO 9834 --- [           main] sdsLogger                                : AppInfoController#queryAppInfoByPage, request:[{"operatorEmail":"manzhizhen@didiglobal.com","appGroupName":"BikeBusinessDepartment","sdsSchemeName":"默认降级预案","appName":"order","creatorEmail":"manzhizhen@didiglobal.com","creatorName":"路飞","pageSize":10,"page":1,"operatorName":"路飞"}], response:{"code":200,"data":[]}, costTime:6.422979
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /sds/appinfo/listpage
+       Parameters = {}
+          Headers = {Content-Type=[application/json]}
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = com.didiglobal.sds.admin.controller.AppInfoController
+           Method = public com.didiglobal.sds.admin.controller.response.SdsResponse<java.util.List<com.didiglobal.sds.admin.dao.bean.AppInfoDO>> com.didiglobal.sds.admin.controller.AppInfoController.queryAppInfoByPage(com.didiglobal.sds.admin.controller.request.AppInfoRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {"code":200,"msg":null,"data":[]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 sec
+Running com.didiglobal.sds.admin.test.controller.StrategyPointControllerTest
+2021-02-15 10:33:56.515  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.controller.StrategyPointControllerTest], using SpringBootContextLoader
+2021-02-15 10:33:56.516  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.controller.StrategyPointControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.516  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.controller.StrategyPointControllerTest]: StrategyPointControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.517  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.controller.StrategyPointControllerTest
+2021-02-15 10:33:56.518  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.518  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2270f58d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@50e1f3fc, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@54737322, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@56da8847, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7323c38c, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2c02a007, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@63a72cc6, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@61bd0845, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@cef885d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@35d4035f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6f4fc83f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@66b90ab3]
+2021-02-15 10:33:56.529  INFO 9834 --- [           main] o.s.m.w.MockServletContext               : Initializing Spring TestDispatcherServlet ''
+2021-02-15 10:33:56.529  INFO 9834 --- [           main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2021-02-15 10:33:56.529  INFO 9834 --- [           main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 0 ms
+2021-02-15 10:33:56.546  INFO 9834 --- [           main] sdsLogger                                : PointStrategyController#addPointStrategy, request:[{"appGroupName":"应用组A","creatorEmail":"","exceptionRateStart":0,"creatorName":"","pageSize":10,"downgradeRate":0,"operatorName":"","pressureTestDowngrade":0,"visitThreshold":-1,"operatorEmail":"","tokenBucketGeneratedTokensInSecond":-1,"concurrentThreshold":-1,"exceptionRateThreshold":-1,"timeoutThreshold":-1,"exceptionThreshold":-1,"appName":"应用a","timeoutCountThreshold":-1,"tokenBucketSize":-1,"delayTime":-1,"retryInterval":-1,"page":1}], response:{"code":1001,"msg":"降级预案名称不能为空"}, costTime:4.340406
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /sds/pointstrategy/add
+       Parameters = {}
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+             Body = {"appGroupName":"应用组A","appName":"应用a","concurrentThreshold":-1,"creatorEmail":"","creatorName":"","delayTime":-1,"downgradeRate":0,"exceptionRateStart":0,"exceptionRateThreshold":-1,"exceptionThreshold":-1,"operatorEmail":"","operatorName":"","page":1,"pageSize":10,"pressureTestDowngrade":0,"retryInterval":-1,"timeoutCountThreshold":-1,"timeoutThreshold":-1,"tokenBucketGeneratedTokensInSecond":-1,"tokenBucketSize":-1,"visitThreshold":-1}
+    Session Attrs = {}
+
+Handler:
+             Type = com.didiglobal.sds.admin.controller.PointStrategyController
+           Method = public com.didiglobal.sds.admin.controller.response.SdsResponse com.didiglobal.sds.admin.controller.PointStrategyController.addPointStrategy(com.didiglobal.sds.admin.controller.request.PointStrategyRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {"code":1001,"msg":"降级预案名称不能为空","data":null}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running com.didiglobal.sds.admin.test.controller.SdsSchemeControllerTest
+2021-02-15 10:33:56.551  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.controller.SdsSchemeControllerTest], using SpringBootContextLoader
+2021-02-15 10:33:56.551  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.controller.SdsSchemeControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.551  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.controller.SdsSchemeControllerTest]: SdsSchemeControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.552  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.controller.SdsSchemeControllerTest
+2021-02-15 10:33:56.553  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.553  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c7c75fb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@729d6ee2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4adcc981, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@73aae7a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3856d0cb, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2125535d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@d190639, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5f82209e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@515c732d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5ae87de0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1f85904a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@514dc5f4]
+2021-02-15 10:33:56.564  INFO 9834 --- [           main] o.s.m.w.MockServletContext               : Initializing Spring TestDispatcherServlet ''
+2021-02-15 10:33:56.564  INFO 9834 --- [           main] o.s.t.w.s.TestDispatcherServlet          : Initializing Servlet ''
+2021-02-15 10:33:56.564  INFO 9834 --- [           main] o.s.t.w.s.TestDispatcherServlet          : Completed initialization in 0 ms
+2021-02-15 10:33:56.579 DEBUG 9834 --- [           main] c.d.s.a.d.S.querySdsSchemeByPage         : ==>  Preparing: select * from sds_scheme WHERE app_group_name = ? and app_name = ? and sds_scheme_name like concat('%', ?, '%') order by modify_time desc limit ?, ? 
+2021-02-15 10:33:56.580 DEBUG 9834 --- [           main] c.d.s.a.d.S.querySdsSchemeByPage         : ==> Parameters: BikeBusinessDepartment(String), order(String), 默认降级策略(String), 0(Integer), 10(Integer)
+2021-02-15 10:33:56.581 DEBUG 9834 --- [           main] c.d.s.a.d.S.querySdsSchemeByPage         : <==      Total: 0
+2021-02-15 10:33:56.581  INFO 9834 --- [           main] sdsLogger                                : SdsSchemeController#querySdsSchemeByPage, request:[{"operatorEmail":"manzhizhen@didiglobal.com","appGroupName":"BikeBusinessDepartment","sdsSchemeName":"默认降级策略","appName":"order","creatorEmail":"manzhizhen@didiglobal.com","creatorName":"路飞","pageSize":10,"page":1,"operatorName":"路飞"}], response:{"code":200,"data":[]}, costTime:9.515389
+
+MockHttpServletRequest:
+      HTTP Method = POST
+      Request URI = /sds/sdsscheme/listpage
+       Parameters = {}
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+             Body = {"appGroupName":"BikeBusinessDepartment","appName":"order","creatorEmail":"manzhizhen@didiglobal.com","creatorName":"路飞","operatorEmail":"manzhizhen@didiglobal.com","operatorName":"路飞","page":1,"pageSize":10,"sdsSchemeName":"默认降级策略"}
+    Session Attrs = {}
+
+Handler:
+             Type = com.didiglobal.sds.admin.controller.SdsSchemeController
+           Method = public com.didiglobal.sds.admin.controller.response.SdsResponse<java.util.List<com.didiglobal.sds.admin.dao.bean.SdsSchemeDO>> com.didiglobal.sds.admin.controller.SdsSchemeController.querySdsSchemeByPage(com.didiglobal.sds.admin.controller.request.SdsSchemeRequest)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {"code":200,"msg":null,"data":[]}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 sec
+Running com.didiglobal.sds.admin.test.dao.SdsSchemeDaoTest
+2021-02-15 10:33:56.586  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.dao.SdsSchemeDaoTest], using SpringBootContextLoader
+2021-02-15 10:33:56.586  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.dao.SdsSchemeDaoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.586  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.dao.SdsSchemeDaoTest]: SdsSchemeDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.591  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.dao.SdsSchemeDaoTest
+2021-02-15 10:33:56.592  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.592  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@2d2af12e, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@611587f7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4d0abb23, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6ab1f85b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@10e8c7a2, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5d8fd077, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4544ab46, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2052f095, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@76d1f6ea, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@55fe9c2f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3580134d, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2e19b30]
+2021-02-15 10:33:56.595 DEBUG 9834 --- [           main] c.d.s.a.d.S.queryAllSdsScheme            : ==>  Preparing: select * from sds_scheme where app_group_name = ? and app_name = ? order by modify_time desc 
+2021-02-15 10:33:56.596 DEBUG 9834 --- [           main] c.d.s.a.d.S.queryAllSdsScheme            : ==> Parameters: BikeBusinessDepartment(String), order(String)
+2021-02-15 10:33:56.596 DEBUG 9834 --- [           main] c.d.s.a.d.S.queryAllSdsScheme            : <==      Total: 0
+[]
+2021-02-15 10:33:56.598 DEBUG 9834 --- [           main] c.d.s.a.d.S.deleteSdsScheme              : ==>  Preparing: delete from sds_scheme where app_group_name = ? and app_name = ? and sds_scheme_name = ? 
+2021-02-15 10:33:56.599 DEBUG 9834 --- [           main] c.d.s.a.d.S.deleteSdsScheme              : ==> Parameters: BikeBusinessDepartment(String), bh-order(String), FIRST_GROUP(String)
+2021-02-15 10:33:56.600 DEBUG 9834 --- [           main] c.d.s.a.d.S.deleteSdsScheme              : <==    Updates: 0
+0
+2021-02-15 10:33:56.602 DEBUG 9834 --- [           main] c.d.s.a.d.S.queryByGroupName             : ==>  Preparing: select * from sds_scheme where app_group_name = ? and app_name = ? and sds_scheme_name = ? order by modify_time desc 
+2021-02-15 10:33:56.603 DEBUG 9834 --- [           main] c.d.s.a.d.S.queryByGroupName             : ==> Parameters: BikeBusinessDepartment(String), bh-order(String), FIRST_GROUP(String)
+2021-02-15 10:33:56.603 DEBUG 9834 --- [           main] c.d.s.a.d.S.queryByGroupName             : <==      Total: 0
+null
+2021-02-15 10:33:56.606 DEBUG 9834 --- [           main] c.d.s.a.d.S.addSdsScheme                 : ==>  Preparing: insert into sds_scheme(app_group_name, app_name, sds_scheme_name, operator_name, operator_email, creator_name, creator_email) values(?, ?, ?, ?, ?, ?, ?) 
+2021-02-15 10:33:56.607 DEBUG 9834 --- [           main] c.d.s.a.d.S.addSdsScheme                 : ==> Parameters: BikeBusinessDepartment(String), bh-order(String), FIRST_GROUP(String), 路飞(String), manzhizhen@didichuxing.com(String), 路飞(String), manzhizhen@didichuxing.com(String)
+2021-02-15 10:33:56.608 DEBUG 9834 --- [           main] c.d.s.a.d.S.addSdsScheme                 : <==    Updates: 1
+2021-02-15 10:33:56.608 DEBUG 9834 --- [           main] c.d.s.a.d.S.addSdsScheme                 : ==>  Preparing: insert into sds_scheme(app_group_name, app_name, sds_scheme_name, operator_name, operator_email, creator_name, creator_email) values(?, ?, ?, ?, ?, ?, ?) 
+2021-02-15 10:33:56.608 DEBUG 9834 --- [           main] c.d.s.a.d.S.addSdsScheme                 : ==> Parameters: BikeBusinessDepartment(String), bh-order(String), SECOND_GROUP(String), 路飞(String), manzhizhen@didichuxing.com(String), 路飞(String), manzhizhen@didichuxing.com(String)
+2021-02-15 10:33:56.608 DEBUG 9834 --- [           main] c.d.s.a.d.S.addSdsScheme                 : <==    Updates: 1
+2021-02-15 10:33:56.610 DEBUG 9834 --- [           main] c.d.s.a.d.S.updateSdsScheme              : ==>  Preparing: update sds_scheme set sds_scheme_name = ?, operator_name = ?, operator_email = ? where app_group_name = ? and app_name = ? and sds_scheme_name = ? 
+2021-02-15 10:33:56.611 DEBUG 9834 --- [           main] c.d.s.a.d.S.updateSdsScheme              : ==> Parameters: FIRST_GROUP1(String), 路飞(String), manzhizhen@didichuxing.com(String), BikeBusinessDepartment(String), bh-order(String), FIRST_GROUP(String)
+2021-02-15 10:33:56.612 DEBUG 9834 --- [           main] c.d.s.a.d.S.updateSdsScheme              : <==    Updates: 1
+1
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running com.didiglobal.sds.admin.test.dao.HeartbeatDaoTest
+2021-02-15 10:33:56.613  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.dao.HeartbeatDaoTest], using SpringBootContextLoader
+2021-02-15 10:33:56.614  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.dao.HeartbeatDaoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.614  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.dao.HeartbeatDaoTest]: HeartbeatDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.614  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.dao.HeartbeatDaoTest
+2021-02-15 10:33:56.615  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.615  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4d0b7fd5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1ce2029b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@43090195, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7921a37d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6fc28e5b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6338afe2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@68360fb9, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1c787389, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@67b3960b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@415262a0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@19c1f6f4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@46fa2a7e]
+2021-02-15 10:33:56.623 DEBUG 9834 --- [           main] c.d.s.a.d.H.addHeartbeat                 : ==>  Preparing: insert into heartbeat(app_group_name, app_name, point, downgrade_num, visit_num, exception_num, timeout_num, max_concurrent_num, app_ip, statistics_cycle_time) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-02-15 10:33:56.625 DEBUG 9834 --- [           main] c.d.s.a.d.H.addHeartbeat                 : ==> Parameters: BikeBusinessDepartment(String), bh-order(String), testPoint(String), 123(Long), 1000000(Long), 234(Long), 1233(Long), 12(Integer), 127.0.0.1(String), 2021-02-15 10:33:56.619(Timestamp), BikeBusinessDepartment(String), bh-order(String), testPoint1(String), 123(Long), 1000000(Long), 234(Long), 1233(Long), 12(Integer), 127.0.0.1(String), 2021-02-15 10:33:56.619(Timestamp)
+2021-02-15 10:33:56.628 DEBUG 9834 --- [           main] c.d.s.a.d.H.addHeartbeat                 : <==    Updates: 2
+2021-02-15 10:33:56.630 DEBUG 9834 --- [           main] c.d.s.a.d.H.queryHeartbeatList           : ==>  Preparing: select * from heartbeat where app_group_name = ? and app_name = ? and point = ? and statistics_cycle_time >= ? and statistics_cycle_time <= ? 
+2021-02-15 10:33:56.631 DEBUG 9834 --- [           main] c.d.s.a.d.H.queryHeartbeatList           : ==> Parameters: BikeBusinessDepartment(String), bh-order(String), testPoint(String), 2021-02-15 07:47:16.63(Timestamp), 2021-02-15 10:33:56.63(Timestamp)
+2021-02-15 10:33:56.633 DEBUG 9834 --- [           main] c.d.s.a.d.H.queryHeartbeatList           : <==      Total: 1
+[HeartbeatDO{id=1, appGroupName='BikeBusinessDepartment', appName='bh-order', point='testPoint', downgradeNum=123, visitNum=1000000, exceptionNum=234, timeoutNum=1233, maxConcurrentNum=12, appIp='127.0.0.1', statisticsCycleTime=Mon Feb 15 10:33:56 UTC 2021, gmtCreate=null, gmtModify=null}]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running com.didiglobal.sds.admin.test.dao.PointReturnValueDaoTest
+2021-02-15 10:33:56.642  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.dao.PointReturnValueDaoTest], using SpringBootContextLoader
+2021-02-15 10:33:56.643  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.dao.PointReturnValueDaoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.643  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.dao.PointReturnValueDaoTest]: PointReturnValueDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.645  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.dao.PointReturnValueDaoTest
+2021-02-15 10:33:56.645  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.646  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6d7bb5cc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@756200d1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@390a07a0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@674e4c82, org.springframework.test.context.support.DirtiesContextTestExecutionListener@572b4072, org.springframework.test.context.transaction.TransactionalTestExecutionListener@322ab6ce, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5b74902c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4e4bfd9c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@43ee1cf7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@24954e82, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b1f5fcc, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4a29fe2e]
+2021-02-15 10:33:56.648 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointReturnValue          : ==>  Preparing: insert into point_return_value(app_group_name, app_name, point, return_value_str, status, creator_name, creator_email, operator_name, operator_email) values(?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2021-02-15 10:33:56.649 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointReturnValue          : ==> Parameters: htw(String), 测试(String), testPoint(String), abc-json(String), 1(Integer), manzhizhen(String), manzhizhen@didichuxing.com(String), manzhizhen(String), manzhizhen@didichuxing.com(String)
+2021-02-15 10:33:56.651 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointReturnValue          : <==    Updates: 1
+2021-02-15 10:33:56.653 DEBUG 9834 --- [           main] c.d.s.a.d.P.updatePointReturnValue       : ==>  Preparing: update point_return_value set return_value_str = ?, status = ?, operator_name = ?, operator_email = ? where app_group_name = ? and app_name = ? and point = ? 
+2021-02-15 10:33:56.654 DEBUG 9834 --- [           main] c.d.s.a.d.P.updatePointReturnValue       : ==> Parameters: new-abc-json(String), 0(Integer), manzhizhen(String), manzhizhen@didichuxing.com(String), htw(String), 测试(String), testPoint(String)
+2021-02-15 10:33:56.654 DEBUG 9834 --- [           main] c.d.s.a.d.P.updatePointReturnValue       : <==    Updates: 1
+2021-02-15 10:33:56.658 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointReturnValueByPage  : ==>  Preparing: select * from point_return_value WHERE app_group_name = ? and app_name = ? and point like concat('%', ?, '%') and return_value_str like concat('%', ?, '%') order by modify_time desc limit ?, ? 
+2021-02-15 10:33:56.658 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointReturnValueByPage  : ==> Parameters: hm(String), yzq-dubbo1(String), sdfsdf(String), sdfsdf(String), 0(Integer), 10(Integer)
+2021-02-15 10:33:56.659 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointReturnValueByPage  : <==      Total: 0
+[]
+2021-02-15 10:33:56.661 DEBUG 9834 --- [           main] c.d.s.a.d.P.deletePointReturnValue       : ==>  Preparing: delete from point_return_value where point = ? 
+2021-02-15 10:33:56.662 DEBUG 9834 --- [           main] c.d.s.a.d.P.deletePointReturnValue       : ==> Parameters: testPoint(String)
+2021-02-15 10:33:56.663 DEBUG 9834 --- [           main] c.d.s.a.d.P.deletePointReturnValue       : <==    Updates: 1
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running com.didiglobal.sds.admin.test.dao.PointStrategyDaoTest
+2021-02-15 10:33:56.665  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.dao.PointStrategyDaoTest], using SpringBootContextLoader
+2021-02-15 10:33:56.665  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.dao.PointStrategyDaoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.665  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.dao.PointStrategyDaoTest]: PointStrategyDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.666  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.dao.PointStrategyDaoTest
+2021-02-15 10:33:56.667  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.667  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@97b84a4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@35555145, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@70bc3a9c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@771cbd13, org.springframework.test.context.support.DirtiesContextTestExecutionListener@229749f0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3d57fb9e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@2c2e5e72, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e489ac1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@26888c31, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@24010875, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7a021f49, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@e60c5a]
+2021-02-15 10:33:56.671 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointStrategyByPage     : ==>  Preparing: select * from point_strategy WHERE app_group_name = ? and app_name = ? and point like concat('%', ?, '%') order by modify_time desc limit ?, ? 
+2021-02-15 10:33:56.671 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointStrategyByPage     : ==> Parameters: BikeBusinessDepartment(String), order(String), testPoint(String), 0(Integer), 10(Integer)
+2021-02-15 10:33:56.672 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointStrategyByPage     : <==      Total: 0
+[]
+2021-02-15 10:33:56.675 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointStrategyBatch      : ==>  Preparing: select * from point_strategy where app_group_name = ? and app_name = ? and sds_scheme_name = ? and point in ( ? ) and status = 1 
+2021-02-15 10:33:56.676 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointStrategyBatch      : ==> Parameters: BikeBusinessDepartment(String), order(String), FIRST_GROUP(String), testPoint(String)
+2021-02-15 10:33:56.677 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointStrategyBatch      : <==      Total: 0
+[]
+2021-02-15 10:33:56.677 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointStrategyBatch      : ==>  Preparing: select * from point_strategy where app_group_name = ? and app_name = ? and sds_scheme_name = ? and point in ( ? ) and status = 1 
+2021-02-15 10:33:56.677 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointStrategyBatch      : ==> Parameters: BikeBusinessDepartment(String), order(String), FIRST_GROUP(String), abcdefPoint(String)
+2021-02-15 10:33:56.678 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointStrategyBatch      : <==      Total: 0
+[]
+2021-02-15 10:33:56.682 DEBUG 9834 --- [           main] c.d.s.a.d.P.updatePointStrategy          : ==>  Preparing: update point_strategy SET sds_scheme_name = ?, status = ?, operator_name = ?, operator_email = ? , visit_threshold = ? , concurrent_threshold = ? , exception_threshold = ? , exception_rate_threshold = ? , exception_rate_start = ? , timeout_threshold = ? , timeout_count_threshold = ? , token_bucket_generated_tokens_in_second = ? , token_bucket_size = ? , delay_time = ? , retry_interval = ? , downgrade_rate = ? , pressure_test_downgrade = ? where app_group_name = ? and app_name = ? and point = ? and sds_scheme_name = ? 
+2021-02-15 10:33:56.683 DEBUG 9834 --- [           main] c.d.s.a.d.P.updatePointStrategy          : ==> Parameters: QPS自动降级(String), 1(Integer), 路飞(String), manzhizhen@didichuxing.com(String), -1(Long), -1(Integer), -1(Long), -1(Integer), 0(Long), -1(Long), -1(Long), -1(Integer), -1(Integer), -1(Long), -1(Long), 100(Integer), 0(Integer), hm(String), bh-marketing-activity(String), groupBuyQueryCardConfig(String), QPS自动降级(String)
+2021-02-15 10:33:56.683 DEBUG 9834 --- [           main] c.d.s.a.d.P.updatePointStrategy          : <==    Updates: 0
+0
+2021-02-15 10:33:56.690 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointStrategy             : ==>  Preparing: insert into point_strategy (app_group_name, app_name, point, sds_scheme_name, downgrade_rate, status, operator_name, operator_email, creator_name, creator_email , visit_threshold , concurrent_threshold , exception_threshold , exception_rate_threshold , exception_rate_start , timeout_threshold , timeout_count_threshold , token_bucket_generated_tokens_in_second , token_bucket_size , delay_time , pressure_test_downgrade , retry_interval ) values(?, ?, ?, ?, ?, ?, ?, ?, ?, ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2021-02-15 10:33:56.691 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointStrategy             : ==> Parameters: BikeBusinessDepartment(String), bh-order(String), testPoint22(String), FIRST_GROUP(String), 100(Integer), 1(Integer), 路飞(String), manzhizhen@didichuxing.com(String), 路飞(String), manzhizhen@didichuxing.com(String), 50000(Long), 20(Integer), 100(Long), 50(Integer), 10000(Long), 30(Long), 10000(Long), -1(Integer), -1(Integer), 60(Long), 0(Integer), 10(Long)
+2021-02-15 10:33:56.694 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointStrategy             : <==    Updates: 1
+1
+2021-02-15 10:33:56.695 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointStrategy             : ==>  Preparing: insert into point_strategy (app_group_name, app_name, point, sds_scheme_name, downgrade_rate, status, operator_name, operator_email, creator_name, creator_email , visit_threshold , concurrent_threshold , exception_threshold , exception_rate_threshold , exception_rate_start , timeout_threshold , timeout_count_threshold , token_bucket_generated_tokens_in_second , token_bucket_size , delay_time , pressure_test_downgrade , retry_interval ) values(?, ?, ?, ?, ?, ?, ?, ?, ?, ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? , ? ) 
+2021-02-15 10:33:56.695 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointStrategy             : ==> Parameters: BikeBusinessDepartment(String), bh-order(String), testPoint23(String), FIRST_GROUP(String), 100(Integer), 1(Integer), 路飞(String), manzhizhen@didiglobal.com(String), 路飞(String), manzhizhen@didiglobal.com(String), -1(Long), -1(Integer), -1(Long), -1(Integer), 0(Long), -1(Long), -1(Long), -1(Integer), -1(Integer), -1(Long), 0(Integer), -1(Long)
+2021-02-15 10:33:56.698 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointStrategy             : <==    Updates: 1
+1
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running com.didiglobal.sds.admin.test.dao.PointDictDaoTest
+2021-02-15 10:33:56.699  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.dao.PointDictDaoTest], using SpringBootContextLoader
+2021-02-15 10:33:56.700  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.dao.PointDictDaoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.700  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.dao.PointDictDaoTest]: PointDictDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.701  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.dao.PointDictDaoTest
+2021-02-15 10:33:56.701  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.702  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7028b5cc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7c0ff7a0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@24c84e65, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7337bd2e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4604e051, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4535bdc6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@23e86863, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6df87ffd, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@c1f0c7b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@642c5bb3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4e79c25, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2ace1cd3]
+2021-02-15 10:33:56.707 DEBUG 9834 --- [           main] c.d.s.a.d.P.deletePointDictList          : ==>  Preparing: delete from point_dict where id in ( ? ) 
+2021-02-15 10:33:56.707 DEBUG 9834 --- [           main] c.d.s.a.d.P.deletePointDictList          : ==> Parameters: 442(Long)
+2021-02-15 10:33:56.708 DEBUG 9834 --- [           main] c.d.s.a.d.P.deletePointDictList          : <==    Updates: 0
+2021-02-15 10:33:56.719 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointDict                 : ==>  Preparing: insert into point_dict (app_group_name, app_name, point) values(?, ?, ?) 
+2021-02-15 10:33:56.720 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointDict                 : ==> Parameters: tg1(String), t1(String), testPointDict2(String)
+2021-02-15 10:33:56.721 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointDict                 : <==    Updates: 1
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running com.didiglobal.sds.admin.test.dao.AppInfoDaoTest
+2021-02-15 10:33:56.724  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.dao.AppInfoDaoTest], using SpringBootContextLoader
+2021-02-15 10:33:56.726  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.dao.AppInfoDaoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.726  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.dao.AppInfoDaoTest]: AppInfoDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.728  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.dao.AppInfoDaoTest
+2021-02-15 10:33:56.729  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.729  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@515940af, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5f8df69, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1ce6a9bd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4a47bc9c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5100c143, org.springframework.test.context.transaction.TransactionalTestExecutionListener@12404f9d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3b42b729, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4c164f81, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1bcb8599, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b671dda, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@25b20860, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5ba63110]
+2021-02-15 10:33:56.732 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppInfo                 : ==>  Preparing: select * from app_info where app_group_name = ? and app_name = ? order by modify_time desc 
+2021-02-15 10:33:56.732 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppInfo                 : ==> Parameters: BikeBusinessDepartment(String), bh-order(String)
+2021-02-15 10:33:56.733 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppInfo                 : <==      Total: 0
+null
+2021-02-15 10:33:56.735 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppInfoByPage           : ==>  Preparing: select * from app_info order by modify_time desc limit ?, ? 
+2021-02-15 10:33:56.735 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppInfoByPage           : ==> Parameters: 1(Integer), 10(Integer)
+2021-02-15 10:33:56.736 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppInfoByPage           : <==      Total: 0
+[]
+2021-02-15 10:33:56.738 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppInfo                   : ==>  Preparing: insert into app_info(app_group_name, app_name, operator_name, operator_email, creator_name, creator_email ) values(?, ?, ?, ?, ?, ? ) 
+2021-02-15 10:33:56.738 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppInfo                   : ==> Parameters: 黑马1(String), bh-order(String), manzhizhen(String), manzhizhen@163.com(String), manzhizhen(String), manzhizhen@163.com(String)
+2021-02-15 10:33:56.739 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppInfo                   : <==    Updates: 1
+2021-02-15 10:33:56.739 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppInfo                   : ==>  Preparing: insert into app_info(app_group_name, app_name, operator_name, operator_email, creator_name, creator_email ) values(?, ?, ?, ?, ?, ? ) 
+2021-02-15 10:33:56.739 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppInfo                   : ==> Parameters: 黑马1(String), bh-order1(String), manzhizhen(String), manzhizhen@163.com(String), manzhizhen(String), manzhizhen@163.com(String)
+2021-02-15 10:33:56.739 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppInfo                   : <==    Updates: 1
+2021-02-15 10:33:56.740 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppInfo                   : ==>  Preparing: insert into app_info(app_group_name, app_name, operator_name, operator_email, creator_name, creator_email ) values(?, ?, ?, ?, ?, ? ) 
+2021-02-15 10:33:56.740 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppInfo                   : ==> Parameters: 黑马1(String), bh-order1(String), manzhizhen(String), manzhizhen@163.com(String), manzhizhen(String), manzhizhen@163.com(String)
+2021-02-15 10:33:56.778 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppInfo                   : ==>  Preparing: insert into app_info(app_group_name, app_name, operator_name, operator_email, creator_name, creator_email , sds_scheme_name ) values(?, ?, ?, ?, ?, ? , ? ) 
+2021-02-15 10:33:56.779 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppInfo                   : ==> Parameters: 黑马2(String), bh-order(String), manzhizhen(String), manzhizhen@163.com(String), manzhizhen(String), manzhizhen@163.com(String), FIRST_GREP(String)
+2021-02-15 10:33:56.779 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppInfo                   : <==    Updates: 1
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+Running com.didiglobal.sds.admin.test.dao.InfluxHeartbeatDaoImplTest
+2021-02-15 10:33:56.781  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.dao.InfluxHeartbeatDaoImplTest], using SpringBootContextLoader
+2021-02-15 10:33:56.782  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.dao.InfluxHeartbeatDaoImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.782  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.dao.InfluxHeartbeatDaoImplTest]: InfluxHeartbeatDaoImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.783  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.dao.InfluxHeartbeatDaoImplTest
+2021-02-15 10:33:56.783  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.784  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@414e8b31, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@b90c5a5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1786150f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@bd28c86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3ef089ce, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3340ce58, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@14499b52, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@be083e1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3164d5aa, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4e3ffd0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5ca86715, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@53d808ea]
+2021-02-15 10:33:56.786 DEBUG 9834 --- [           main] c.d.s.a.d.H.addHeartbeat                 : ==>  Preparing: insert into heartbeat(app_group_name, app_name, point, downgrade_num, visit_num, exception_num, timeout_num, max_concurrent_num, app_ip, statistics_cycle_time) values ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) , ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ? ) 
+2021-02-15 10:33:56.787 DEBUG 9834 --- [           main] c.d.s.a.d.H.addHeartbeat                 : ==> Parameters: htw(String), htw-order(String), visitPoint(String), 10(Long), 100000(Long), 99(Long), 23(Long), 15(Integer), 10.2.2.9(String), 2021-02-15 10:33:56.785(Timestamp), htw(String), htw-order(String), visitPoint(String), 10(Long), 100000(Long), 99(Long), 23(Long), 15(Integer), 10.2.2.9(String), 2021-02-15 10:33:56.785(Timestamp), htw(String), htw-order(String), visitPoint(String), 10(Long), 100000(Long), 99(Long), 23(Long), 15(Integer), 10.2.2.9(String), 2021-02-15 10:33:56.785(Timestamp)
+2021-02-15 10:33:56.787 DEBUG 9834 --- [           main] c.d.s.a.d.H.addHeartbeat                 : <==    Updates: 3
+2021-02-15 10:33:56.792 DEBUG 9834 --- [           main] c.d.s.a.d.H.queryHeartbeatList           : ==>  Preparing: select * from heartbeat where app_group_name = ? and app_name = ? and point = ? and statistics_cycle_time >= ? and statistics_cycle_time <= ? 
+2021-02-15 10:33:56.792 DEBUG 9834 --- [           main] c.d.s.a.d.H.queryHeartbeatList           : ==> Parameters: htw(String), htw-order(String), visitPoint(String), 2020-02-15 02:33:56.792(Timestamp), 2021-02-15 10:33:56.792(Timestamp)
+2021-02-15 10:33:56.794 DEBUG 9834 --- [           main] c.d.s.a.d.H.queryHeartbeatList           : <==      Total: 3
+[{"appGroupName":"htw","appIp":"10.2.2.9","appName":"htw-order","downgradeNum":10,"exceptionNum":99,"id":3,"maxConcurrentNum":15,"point":"visitPoint","statisticsCycleTime":1613385236785,"timeoutNum":23,"visitNum":100000},{"appGroupName":"htw","appIp":"10.2.2.9","appName":"htw-order","downgradeNum":10,"exceptionNum":99,"id":4,"maxConcurrentNum":15,"point":"visitPoint","statisticsCycleTime":1613385236785,"timeoutNum":23,"visitNum":100000},{"appGroupName":"htw","appIp":"10.2.2.9","appName":"htw-order","downgradeNum":10,"exceptionNum":99,"id":5,"maxConcurrentNum":15,"point":"visitPoint","statisticsCycleTime":1613385236785,"timeoutNum":23,"visitNum":100000}]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running com.didiglobal.sds.admin.test.dao.AppGroupDaoTest
+2021-02-15 10:33:56.800  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.dao.AppGroupDaoTest], using SpringBootContextLoader
+2021-02-15 10:33:56.801  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.dao.AppGroupDaoTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.801  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.dao.AppGroupDaoTest]: AppGroupDaoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.802  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.dao.AppGroupDaoTest
+2021-02-15 10:33:56.802  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.802  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@720ffab4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2e62e227, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ebe903a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7c88d04f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@71df5f30, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4895e8f6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62808e9e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@58b03029, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@539dd2d0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3428420d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@523ade68, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@b529d7e]
+2021-02-15 10:33:56.805 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppGroup                  : ==>  Preparing: insert into app_group(app_group_name, creator_name, creator_email, operator_name, operator_email) values(?, ?, ?, ?, ?) 
+2021-02-15 10:33:56.805 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppGroup                  : ==> Parameters: 黑马4(String), 路飞(String), manzhizhen@didichuxing.com(String), 路飞(String), manzhizhen@didichuxing.com(String)
+2021-02-15 10:33:56.806 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppGroup                  : <==    Updates: 1
+2021-02-15 10:33:56.806 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppGroup                  : ==>  Preparing: insert into app_group(app_group_name, creator_name, creator_email, operator_name, operator_email) values(?, ?, ?, ?, ?) 
+2021-02-15 10:33:56.806 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppGroup                  : ==> Parameters: 黑马5(String), 路飞(String), manzhizhen@didichuxing.com(String), 路飞(String), manzhizhen@didichuxing.com(String)
+2021-02-15 10:33:56.806 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppGroup                  : <==    Updates: 1
+2021-02-15 10:33:56.807 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppGroup                  : ==>  Preparing: insert into app_group(app_group_name, creator_name, creator_email, operator_name, operator_email) values(?, ?, ?, ?, ?) 
+2021-02-15 10:33:56.807 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppGroup                  : ==> Parameters: 黑马6(String), 路飞(String), manzhizhen@didichuxing.com(String), 路飞(String), manzhizhen@didichuxing.com(String)
+2021-02-15 10:33:56.807 DEBUG 9834 --- [           main] c.d.s.a.d.A.addAppGroup                  : <==    Updates: 1
+2021-02-15 10:33:56.809 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAllAppGroup             : ==>  Preparing: select * from app_group order by modify_time desc 
+2021-02-15 10:33:56.817 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAllAppGroup             : ==> Parameters: 
+2021-02-15 10:33:56.818 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAllAppGroup             : <==      Total: 3
+[{"appGroupName":"黑马4","id":1,"operatorName":"路飞"},{"appGroupName":"黑马5","id":2,"operatorName":"路飞"},{"appGroupName":"黑马6","id":3,"operatorName":"路飞"}]
+2021-02-15 10:33:56.823 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppGroupByPage          : ==>  Preparing: select * from app_group where app_group_name like concat('%', ?, '%') order by modify_time desc limit ?, ? 
+2021-02-15 10:33:56.823 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppGroupByPage          : ==> Parameters:     (String), 1(Integer), 10(Integer)
+2021-02-15 10:33:56.825 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryAppGroupByPage          : <==      Total: 0
+[]
+2021-02-15 10:33:56.827 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryByGroupName             : ==>  Preparing: select * from app_group where app_group_name = ? order by modify_time desc 
+2021-02-15 10:33:56.828 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryByGroupName             : ==> Parameters: 黑马1(String)
+2021-02-15 10:33:56.828 DEBUG 9834 --- [           main] c.d.s.a.d.A.queryByGroupName             : <==      Total: 0
+null
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+Running com.didiglobal.sds.admin.test.service.PointDictServiceTest
+2021-02-15 10:33:56.830  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.didiglobal.sds.admin.test.service.PointDictServiceTest], using SpringBootContextLoader
+2021-02-15 10:33:56.831  INFO 9834 --- [           main] o.s.t.c.s.AbstractContextLoader          : Could not detect default resource locations for test class [com.didiglobal.sds.admin.test.service.PointDictServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-02-15 10:33:56.832  INFO 9834 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.didiglobal.sds.admin.test.service.PointDictServiceTest]: PointDictServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-02-15 10:33:56.834  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.didiglobal.sds.admin.SdsAdminApplication for test class com.didiglobal.sds.admin.test.service.PointDictServiceTest
+2021-02-15 10:33:56.835  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2021-02-15 10:33:56.836  INFO 9834 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6a116354, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66716959, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@34e07e65, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7ca0166c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1dcad16f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@701c482e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4738131e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3b576ee3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@705d914f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6212ea52, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@65b5b5ed, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6595ffce]
+2021-02-15 10:33:56.838 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.839 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.839 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.842 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.842 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.842 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.842 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.842 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.842 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.843 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.843 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.843 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.843 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.843 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.843 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.843 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.844 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.844 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.845 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.845 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.845 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.845 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.845 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.845 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.845 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.845 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.846 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.846 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.846 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.846 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.846 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.846 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.846 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.846 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.847 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.847 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.847 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.847 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.847 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.847 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.847 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.848 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.848 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.848 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.848 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.848 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.848 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.848 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.849 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.849 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.849 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.849 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.849 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.849 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.849 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.850 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.850 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.850 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.850 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.850 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.850 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.850 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.850 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.851 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? 
+2021-02-15 10:33:56.851 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : ==> Parameters: 1(String), 1(String)
+2021-02-15 10:33:56.851 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryAllPointDicts           : <==      Total: 0
+2021-02-15 10:33:56.853 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? and point = ? 
+2021-02-15 10:33:56.853 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : ==> Parameters: 1(String), 1(String), 1(String)
+2021-02-15 10:33:56.853 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : <==      Total: 0
+2021-02-15 10:33:56.854 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? and point = ? 
+2021-02-15 10:33:56.854 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : ==> Parameters: 2(String), 2(String), 2(String)
+2021-02-15 10:33:56.854 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : <==      Total: 0
+2021-02-15 10:33:56.854 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? and point = ? 
+2021-02-15 10:33:56.855 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : ==> Parameters: 3(String), 3(String), 3(String)
+2021-02-15 10:33:56.855 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : <==      Total: 0
+2021-02-15 10:33:56.855 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : ==>  Preparing: select * from point_dict where app_group_name = ? and app_name = ? and point = ? 
+2021-02-15 10:33:56.855 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : ==> Parameters: 4(String), 4(String), 4(String)
+2021-02-15 10:33:56.855 DEBUG 9834 --- [           main] c.d.s.a.d.P.queryPointDict               : <==      Total: 0
+2021-02-15 10:33:56.856 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointDictList             : ==>  Preparing: insert into point_dict(app_group_name, app_name, point) values ( ?, ?, ?) , ( ?, ?, ?) , ( ?, ?, ?) , ( ?, ?, ?) 
+2021-02-15 10:33:56.857 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointDictList             : ==> Parameters: 1(String), 1(String), 1(String), 2(String), 2(String), 2(String), 3(String), 3(String), 3(String), 4(String), 4(String), 4(String)
+2021-02-15 10:33:56.857 DEBUG 9834 --- [           main] c.d.s.a.d.P.addPointDictList             : <==    Updates: 4
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.027 sec
+2021-02-15 10:33:56.887  INFO 9834 --- [       Thread-3] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-15 10:33:56.889  INFO 9834 --- [       Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-02-15 10:33:56.893  INFO 9834 --- [       Thread-3] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+
+Results :
+
+Tests run: 34, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ------------------< com.didiglobal.sds:sds-bootstrap >------------------
+[INFO] Building sds-bootstrap 1.0.1-SNAPSHOT                             [4/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-bootstrap ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-bootstrap/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-bootstrap ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-bootstrap ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-bootstrap/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-bootstrap ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-bootstrap ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ------------------< com.didiglobal.sds:sds-extension >------------------
+[INFO] Building sds-extension 1.0.1-SNAPSHOT                             [5/16]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --------------------< com.didiglobal.sds:sds-dubbo >--------------------
+[INFO] Building sds-dubbo 1.0.1-SNAPSHOT                                 [6/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-dubbo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-dubbo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-dubbo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-extension/sds-dubbo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-dubbo ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-dubbo ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] ----------------< com.didiglobal.sds:sds-apache-dubbo >-----------------
+[INFO] Building sds-apache-dubbo 1.0.1-SNAPSHOT                          [7/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-apache-dubbo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-apache-dubbo ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-apache-dubbo ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-extension/sds-apache-dubbo/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-apache-dubbo ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-apache-dubbo ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------------< com.didiglobal.sds:sds-okhttp >--------------------
+[INFO] Building sds-okhttp 1.0.1-SNAPSHOT                                [8/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-okhttp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-extension/sds-okhttp/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-okhttp ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-okhttp ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-extension/sds-okhttp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-okhttp ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-okhttp ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -----------------< com.didiglobal.sds:sds-spring-boot >-----------------
+[INFO] Building sds-spring-boot 1.0.1-SNAPSHOT                           [9/16]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ----------< com.didiglobal.sds:sds-spring-boot-autoconfigure >----------
+[INFO] Building sds-spring-boot-autoconfigure 1.0.1-SNAPSHOT            [10/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-spring-boot-autoconfigure ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-spring-boot-autoconfigure ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-spring-boot-autoconfigure ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-extension/sds-spring-boot/sds-spring-boot-autoconfigure/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-spring-boot-autoconfigure ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-spring-boot-autoconfigure ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------< com.didiglobal.sds:sds-spring-boot-starter >-------------
+[INFO] Building sds-spring-boot-starter 1.0.1-SNAPSHOT                  [11/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-spring-boot-starter ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-extension/sds-spring-boot/sds-spring-boot-starter/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-spring-boot-starter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-spring-boot-starter ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-extension/sds-spring-boot/sds-spring-boot-starter/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-spring-boot-starter ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-spring-boot-starter ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] -------------------< com.didiglobal.sds:sds-aspectj >-------------------
+[INFO] Building sds-aspectj 1.0.1-SNAPSHOT                              [12/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-aspectj ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-extension/sds-aspectj/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-aspectj ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-aspectj ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-extension/sds-aspectj/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-aspectj ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-aspectj ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --------------------< com.didiglobal.sds:sds-easy >---------------------
+[INFO] Building sds-easy 1.0.1-SNAPSHOT                                 [13/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-easy ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-easy/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-easy ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-easy ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-easy ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-easy ---
+[INFO] Surefire report directory: /workdir/sds/sds-easy/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.didiglobal.sds.easy.test.SdsEasyUtilTest
+[INFO][15/02/21 10:33:57:057] SdsClientFactory#static 系统参数sds.app.group.name, sds.app.name, sds.server.addr.list没配置全，不通过系统参数初始化SdsClient。
+[INFO][15/02/21 10:33:57:057] CommonSdsClient use default strategy executor chain
+[INFO][15/02/21 10:33:57:057] SdsHeartBeatService 新增Upload服务端地址列表：["http://localhost:8887/sds/heartbeat/add"]
+[INFO][15/02/21 10:33:57:057] SdsHeartBeatService 新增Pull服务端地址列表：["http://localhost:8887/sds/heartbeat/pullstrategy"]
+[WARN][15/02/21 10:33:57:057] SdsHeartBeatService#updatePointStrategyFromWebServer 请求服务端（http://localhost:8887/sds/heartbeat/pullstrategy）异常：null, 切换服务端地址为：http://localhost:8887/sds/heartbeat/pullstrategy
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1367)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1342)
+	at com.didiglobal.sds.client.util.HttpUtils.post(HttpUtils.java:45)
+	at com.didiglobal.sds.client.service.SdsHeartBeatService.updatePointStrategyFromWebServer(SdsHeartBeatService.java:166)
+	at com.didiglobal.sds.client.service.SdsHeartBeatService.createOnlyOne(SdsHeartBeatService.java:74)
+	at com.didiglobal.sds.client.CommonSdsClient.initHeartBeat(CommonSdsClient.java:314)
+	at com.didiglobal.sds.client.CommonSdsClient.<init>(CommonSdsClient.java:46)
+	at com.didiglobal.sds.client.SdsClientFactory.buildSdsClient(SdsClientFactory.java:88)
+	at com.didiglobal.sds.client.SdsClientFactory.getOrCreateSdsClient(SdsClientFactory.java:67)
+	at com.didiglobal.sds.easy.test.SdsEasyUtilTest.<clinit>(SdsEasyUtilTest.java:17)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.junit.runners.BlockJUnit4ClassRunner.createTest(BlockJUnit4ClassRunner.java:217)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.runReflectiveCall(BlockJUnit4ClassRunner.java:266)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.BlockJUnit4ClassRunner.methodBlock(BlockJUnit4ClassRunner.java:263)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+[WARN][15/02/21 10:33:57:057] SdsHeartBeatService#updatePointStrategyFromWebServer 服务端应答转JSON为null，请求参数：{"client":"{\"appGroupName\":\"hm\",\"appName\":\"bh-order\",\"hostname\":\"605b8309f1f8\",\"ip\":\"172.17.0.2\",\"pointInfoMap\":{},\"pointList\":[],\"version\":0}"}
+[INFO][15/02/21 10:33:57:057] SdsClientFactory#buildSdsClient 创建SdsClient成功，sdsClient：AbstractSdsClient{appGroupName='hm', appName='bh-order', serverAddrList='http://localhost:8887'}
+[WARN][15/02/21 10:33:57:057] SdsHeartBeatService#updatePointStrategyFromWebServer 请求服务端（http://localhost:8887/sds/heartbeat/pullstrategy）异常：null, 切换服务端地址为：http://localhost:8887/sds/heartbeat/pullstrategy
+java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(HttpURLConnection.java:1367)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(HttpURLConnection.java:1342)
+	at com.didiglobal.sds.client.util.HttpUtils.post(HttpUtils.java:45)
+	at com.didiglobal.sds.client.service.SdsHeartBeatService.updatePointStrategyFromWebServer(SdsHeartBeatService.java:166)
+	at com.didiglobal.sds.client.service.CycleDataService$CyclePullPointStrategyTask.run(CycleDataService.java:181)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+[INFO][15/02/21 10:33:57:057] SdsPowerfulCounterService 新增降级点:somePoint
+[WARN][15/02/21 10:33:57:057] SdsHeartBeatService#updatePointStrategyFromWebServer 服务端应答转JSON为null，请求参数：{"client":"{\"appGroupName\":\"hm\",\"appName\":\"bh-order\",\"hostname\":\"605b8309f1f8\",\"ip\":\"172.17.0.2\",\"pointInfoMap\":{},\"pointList\":[],\"version\":0}"}
+Mon Feb 15 10:33:57 UTC 2021
+Mon Feb 15 10:33:57 UTC 2021
+[INFO][15/02/21 10:33:57:057] SdsPowerfulCounterService 新增降级点:testPoint
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+哈哈
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.412 sec
+
+Results :
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -------------------< com.didiglobal.sds:sds-example >-------------------
+[INFO] Building sds-example 1.0.1-SNAPSHOT                              [14/16]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ------------< com.didiglobal.sds:sds-apache-dubbo-example >-------------
+[INFO] Building sds-apache-dubbo-example 1.0.1-SNAPSHOT                 [15/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.1.RELEASE:build-info (default) @ sds-apache-dubbo-example ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-apache-dubbo-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-apache-dubbo-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-apache-dubbo-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-example/sds-apache-dubbo-example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-apache-dubbo-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-apache-dubbo-example ---
+[INFO] 
+[INFO] ---------------< com.didiglobal.sds:sds-client-example >----------------
+[INFO] Building sds-client-example 1.0.1-SNAPSHOT                       [16/16]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sds-client-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ sds-client-example ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sds-client-example ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/sds/sds-example/sds-client-example/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ sds-client-example ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sds-client-example ---
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for SDS 1.0.1-SNAPSHOT:
+[INFO] 
+[INFO] SDS ................................................ SUCCESS [  0.002 s]
+[INFO] sds-client ......................................... SUCCESS [01:53 min]
+[INFO] sds-admin .......................................... SUCCESS [  4.836 s]
+[INFO] sds-bootstrap ...................................... SUCCESS [  0.013 s]
+[INFO] sds-extension ...................................... SUCCESS [  0.001 s]
+[INFO] sds-dubbo .......................................... SUCCESS [  0.018 s]
+[INFO] sds-apache-dubbo ................................... SUCCESS [  0.020 s]
+[INFO] sds-okhttp ......................................... SUCCESS [  0.016 s]
+[INFO] sds-spring-boot .................................... SUCCESS [  0.001 s]
+[INFO] sds-spring-boot-autoconfigure ...................... SUCCESS [  0.018 s]
+[INFO] sds-spring-boot-starter ............................ SUCCESS [  0.012 s]
+[INFO] sds-aspectj ........................................ SUCCESS [  0.011 s]
+[INFO] sds-easy ........................................... SUCCESS [  0.620 s]
+[INFO] sds-example ........................................ SUCCESS [  0.003 s]
+[INFO] sds-apache-dubbo-example ........................... SUCCESS [  0.088 s]
+[INFO] sds-client-example ................................. SUCCESS [  0.027 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:59 min
+[INFO] Finished at: 2021-02-15T10:33:57Z
+[INFO] ------------------------------------------------------------------------

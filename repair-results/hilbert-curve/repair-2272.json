@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2272",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 121,
             "endColumn": 29,
@@ -13,11 +14,10 @@
             "filePath": "src/main/java/org/davidmoten/hilbert/Ranges.java",
             "violationSpecifier": "2272:src/main/java/org/davidmoten/hilbert/Ranges.java:121:25:121:29"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 3856,
-    "repairTimeMs": 309,
-    "startTimeMs": 1612816432872,
+    "totalTimeMs": 3966,
+    "repairTimeMs": 290,
+    "startTimeMs": 1613374167061,
     "crashes": [],
-    "endTimeMs": 1612816436728,
-    "parseTimeMs": 1416
+    "endTimeMs": 1613374171027,
+    "parseTimeMs": 1549
 }

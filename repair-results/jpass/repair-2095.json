@@ -5,6 +5,7 @@
         "crashedRepairsLocations": [],
         "nbCrashedRepairs": 0,
         "ruleKey": "2095",
+        "nbViolationsBefore": 1,
         "performedRepairsLocations": [{
             "endLine": 53,
             "endColumn": 62,
@@ -13,11 +14,10 @@
             "filePath": "src/main/java/jpass/util/Configuration.java",
             "violationSpecifier": "2095:src/main/java/jpass/util/Configuration.java:53:33:53:62"
         }],
-        "nbViolationsBefore": 1,
         "nbViolationsAfter": 0
     }],
     "executionInfo": {
-        "soraldVersion": "commit: ad3fdd7c",
+        "soraldVersion": "commit: 38248282",
         "javaVersion": "11.0.8",
         "originalArgs": [
             "repair",
@@ -31,10 +31,10 @@
             "repair.json"
         ]
     },
-    "totalTimeMs": 5730,
-    "repairTimeMs": 209,
-    "startTimeMs": 1612809970947,
+    "totalTimeMs": 5922,
+    "repairTimeMs": 230,
+    "startTimeMs": 1613349689345,
     "crashes": [],
-    "endTimeMs": 1612809976677,
-    "parseTimeMs": 1431
+    "endTimeMs": 1613349695267,
+    "parseTimeMs": 1477
 }

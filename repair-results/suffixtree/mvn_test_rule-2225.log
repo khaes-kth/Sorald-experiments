@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.abahgat:suffixtree:jar:1.0.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-surefire-plugin is missing. @ line 34, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] -----------------------< com.abahgat:suffixtree >-----------------------
+[INFO] Building Suffix Tree 1.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ suffixtree ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/suffixtree/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ suffixtree ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ suffixtree ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/suffixtree/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ suffixtree ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ suffixtree ---
+[INFO] Surefire report directory: /workdir/suffixtree/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.abahgat.suffixtree.SuffixTreeTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.087 sec
+Running com.abahgat.suffixtree.EdgeBagTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running com.abahgat.suffixtree.UtilsTest
+getsubstrings
+normalize
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.869 s
+[INFO] Finished at: 2021-02-14T18:24:37Z
+[INFO] ------------------------------------------------------------------------

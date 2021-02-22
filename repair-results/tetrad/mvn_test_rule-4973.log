@@ -1,0 +1,4242 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Tetrad Project                                                     [pom]
+[INFO] data-reader                                                        [jar]
+[INFO] tetrad-lib                                                         [jar]
+[INFO] tetrad-gui                                                         [jar]
+[INFO] 
+[INFO] ---------------------------< edu.cmu:tetrad >---------------------------
+[INFO] Building Tetrad Project 6.9.0-SNAPSHOT                             [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] ---------------------< edu.pitt.dbmi:data-reader >----------------------
+[INFO] Building data-reader 6.9.0-SNAPSHOT                                [2/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ data-reader ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/tetrad/data-reader/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ data-reader ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ data-reader ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 32 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ data-reader ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ data-reader ---
+[INFO] Surefire report directory: /workdir/tetrad/data-reader/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.pitt.dbmi.data.reader.tabular.TabularColumnFileReaderTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 sec
+Running edu.pitt.dbmi.data.reader.tabular.VerticalDiscreteTabularDatasetFileReaderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.029 sec
+Running edu.pitt.dbmi.data.reader.tabular.ContinuousTabularDatasetFileReaderTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+Running edu.pitt.dbmi.data.reader.tabular.TabularDataFileReaderTest
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.256 sec
+Running edu.pitt.dbmi.data.reader.tabular.MixedTabularDatasetFileReaderTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.054 sec
+Running edu.pitt.dbmi.data.reader.preview.BasicDataPreviewerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running edu.pitt.dbmi.data.reader.DataColumnsTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running edu.pitt.dbmi.data.reader.covariance.LowerCovarianceDataFileReaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running edu.pitt.dbmi.data.reader.metadata.MetadataFileWriterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running edu.pitt.dbmi.data.reader.metadata.MetadataFileReaderTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running edu.pitt.dbmi.data.reader.validation.tabular.TabularDataFileValidationTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec
+Running edu.pitt.dbmi.data.reader.validation.tabular.TabularColumnFileValidationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running edu.pitt.dbmi.data.reader.validation.covariance.LowerCovarianceDataFileValidationTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+
+Results :
+
+Tests run: 51, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] -------------------------< edu.cmu:tetrad-lib >-------------------------
+[INFO] Building tetrad-lib 6.9.0-SNAPSHOT                                 [3/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tetrad-lib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tetrad-lib ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1014 source files to /workdir/tetrad/tetrad-lib/target/classes
+[INFO] /workdir/tetrad/tetrad-lib/src/main/java/edu/cmu/tetrad/data/simulation/LoadContinuousDataAndGraphs.java: Some input files use or override a deprecated API.
+[INFO] /workdir/tetrad/tetrad-lib/src/main/java/edu/cmu/tetrad/data/simulation/LoadContinuousDataAndGraphs.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/tetrad/tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/history/PolynomialFunction.java: Some input files use unchecked or unsafe operations.
+[INFO] /workdir/tetrad/tetrad-lib/src/main/java/edu/cmu/tetrad/gene/tetrad/gene/history/PolynomialFunction.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-antrun-plugin:1.8:run (default) @ tetrad-lib ---
+[INFO] Executing tasks
+
+main:
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tetrad-lib ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 38 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ tetrad-lib ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 128 source files to /workdir/tetrad/tetrad-lib/target/test-classes
+[INFO] /workdir/tetrad/tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestIndTestGSquare.java: Some input files use or override a deprecated API.
+[INFO] /workdir/tetrad/tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestIndTestGSquare.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/tetrad/tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestSession.java: Some input files use unchecked or unsafe operations.
+[INFO] /workdir/tetrad/tetrad-lib/src/test/java/edu/cmu/tetrad/test/TestSession.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tetrad-lib ---
+[INFO] Surefire report directory: /workdir/tetrad/tetrad-lib/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.pitt.dbmi.algo.bayesian.constraint.inference.BCCausalInferenceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+Running edu.cmu.tetrad.annotation.TestOfIndependenceAnnotationsTest
+log4j:WARN No appenders could be found for logger (org.reflections.Reflections).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.117 sec
+Running edu.cmu.tetrad.annotation.AlgorithmAnnotationsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+Running edu.cmu.tetrad.annotation.ScoreAnnotationsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running edu.cmu.tetrad.bayes.JunctionTreeAlgorithmTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 3, Time elapsed: 0.002 sec
+Running edu.cmu.tetrad.algcomparison.TimeoutComparisonTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.002 sec
+Running edu.cmu.tetrad.test.TestFges
+Feb 15, 2021 4:01:14 AM java.util.prefs.FileSystemPreferences$6 run
+WARNING: Prefs file removed in background /home/maven/.java/.userPrefs/prefs.xml
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+Elapsed initializeForwardEdgesFromEmptyGraph = 10 ms
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+Graph Nodes:
+ABILITY;GPQ;PREPROD;QFJ;SEX;CITES;PUBS
+
+Graph Edges:
+1. ABILITY --> GPQ
+2. ABILITY --> PREPROD
+3. ABILITY --> PUBS
+4. GPQ --> QFJ
+5. PREPROD --> CITES
+6. PUBS --> CITES
+7. QFJ --> CITES
+8. QFJ --> PUBS
+9. SEX --> PUBS
+
+Graph Attributes:
+BIC: 171.925647
+
+Graph Node Attributes:
+BIC: [ABILITY: -5.099866;GPQ: 69.366159;PREPROD: 0.384585;QFJ: 3.189881;SEX: -5.099866;CITES: 59.543512;PUBS: 49.641243]
+
+Iteration 1
+Iteration 2
+Iteration 3
+Iteration 4
+Iteration 5
+Iteration 6
+Iteration 7
+Iteration 8
+Iteration 9
+Iteration 10
+Iteration 11
+Iteration 12
+Iteration 13
+Iteration 14
+Iteration 15
+Iteration 16
+Iteration 17
+Iteration 18
+Iteration 19
+Iteration 20
+degree = 0
+Simulating dataset #1
+saveLatentVars = false
+numMeasures = 100
+numLatents = 0
+avgDegree = 2
+maxDegree = -1
+maxIndegree = 100
+maxOutdegree = 100
+connected = false
+numRuns = 1
+differentGraphs = false
+coefLow = 0.2
+coefHigh = 0.8
+varLow = 1.0
+varHigh = 3.0
+includePositiveCoefs = true
+includeNegativeCoefs = true
+selfLoopCoef = 0.0
+meanLow = 0.5
+meanHigh = 1.5
+errorsNormal = true
+verbose = false
+intervalBetweenShocks = 10
+intervalBetweenRecordings = 10
+sampleSize = 1000
+fisherEpsilon = 0.001
+measurementVariance = 0.0
+standardize = false
+randomizeColumns = true
+numberResampling = 0
+penaltyDiscount = 1.0
+structurePrior = 1.0
+faithfulnessAssumed = false
+symmetricFirstStep = false
+printStream = 
+alpha = 0.05
+
+Number of random pairs of variables selected = 1000
+Experiment 1: Comparing ancestral connection in true DAG versus estimated pattern
+Precision = NaN recall = NaN
+Experiment 1: Comparing ancestral connection in true DAG to judgement of independence by Fisher Z
+Precision = NaN recall = 0.0
+saveLatentVars = false
+numMeasures = 100
+numLatents = 0
+avgDegree = 2
+maxDegree = -1
+maxIndegree = 100
+maxOutdegree = 100
+connected = false
+numRuns = 1
+differentGraphs = false
+coefLow = 0.2
+coefHigh = 0.8
+varLow = 1.0
+varHigh = 3.0
+includePositiveCoefs = true
+includeNegativeCoefs = true
+selfLoopCoef = 0.0
+meanLow = 0.5
+meanHigh = 1.5
+errorsNormal = true
+verbose = false
+intervalBetweenShocks = 10
+intervalBetweenRecordings = 10
+sampleSize = 1000
+fisherEpsilon = 0.001
+measurementVariance = 0.0
+standardize = false
+randomizeColumns = true
+numberResampling = 0
+penaltyDiscount = 1.0
+structurePrior = 1.0
+faithfulnessAssumed = false
+symmetricFirstStep = false
+printStream = 
+alpha = 0.01
+
+Number of random pairs of variables selected = 1000
+Experiment 1: Comparing ancestral connection in true DAG versus estimated pattern
+Precision = NaN recall = NaN
+Experiment 1: Comparing ancestral connection in true DAG to judgement of independence by Fisher Z
+Precision = NaN recall = 0.0
+<X4, X9, X6> score = 0.9929095130606853
+<X8, X10, X3> score = 0.965358661810944
+<X1, X10, X3> score = 0.8397352489559302
+<X1, X10, X4> score = 0.8110141197592762
+<X3, X10, X4> score = 0.7235952208206737
+<X8, X10, X4> score = 0.6174212380480564
+<X5, X6, X2> score = 0.2177453117250161
+<X4, X9, X6> score = 0.9929095130606853
+<X8, X10, X3> score = 0.965358661810944
+<X1, X10, X3> score = 0.8397352489559302
+<X1, X10, X4> score = 0.8110141197592762
+<X3, X10, X4> score = 0.7235952208206737
+<X8, X10, X4> score = 0.6174212380480564
+<X5, X6, X2> score = 0.2177453117250161
+1	dconn	indep	diff = -4.55274016180703
+2	dconn	indep	diff = -5.791277283321191
+3	dconn	indep	diff = -2.4945102707803635
+4	dconn	indep	diff = -1.1305230732464375
+5	dconn	indep	diff = -6.246138944098869
+6	dconn	indep	diff = -2.7893466651156533
+7	dconn	indep	diff = -5.966511921983617
+8	dconn	indep	diff = -3.863911601887588
+9	dconn	indep	diff = -0.5202658595495988
+10	dconn	indep	diff = -4.8499360701603145
+11	dconn	indep	diff = -6.9056754730499135
+12	dconn	indep	diff = -2.8257689065181024
+13	dconn	indep	diff = -0.9267261960638518
+14	dconn	indep	diff = -4.648495292421723
+15	dconn	indep	diff = -4.79137006483949
+16	dconn	indep	diff = -5.9057808356530295
+17	dconn	indep	diff = -4.609478196759577
+18	dconn	indep	diff = -6.294746333156281
+19	dconn	indep	diff = -3.2697657126605164
+20	dconn	indep	diff = -6.157766079512866
+21	dconn	indep	diff = -4.609478196759577
+22	dconn	indep	diff = -2.5379910601449733
+23	dconn	indep	diff = -0.8038579212997545
+24	dconn	indep	diff = -6.892289267165535
+25	dconn	indep	diff = -0.07158369556840771
+26	dconn	indep	diff = -6.819772852637352
+27	dconn	indep	diff = -0.5251037939895591
+28	dconn	indep	diff = -5.679719334686014
+29	dconn	indep	diff = -4.637287774291523
+30	dconn	indep	diff = -1.239908950908581
+31	dconn	indep	diff = -0.939255764122569
+32	dconn	indep	diff = -3.4995989213920153
+33	dconn	indep	diff = -6.9056754730499135
+34	dconn	indep	diff = -6.050124294266452
+35	dconn	indep	diff = -6.537698462655294
+36	dconn	indep	diff = -3.0962852052372822
+37	dconn	indep	diff = -0.52674556027271
+38	dconn	indep	diff = -2.86706628389764
+39	dconn	indep	diff = -0.8825201773845217
+40	dconn	indep	diff = -2.1686794838355414
+41	dconn	indep	diff = -6.907460268459798
+42	dconn	indep	diff = -2.2725275428217406
+43	dconn	indep	diff = -6.388268170440427
+44	dconn	indep	diff = -4.55274016180703
+45	dconn	indep	diff = -2.208154566199621
+46	dconn	indep	diff = -6.242668015573156
+47	dconn	indep	diff = -0.5202658595495988
+48	dconn	indep	diff = -2.3067191525570445
+49	dconn	indep	diff = -1.1305230732464375
+50	dconn	indep	diff = -6.898784649776293
+51	dconn	indep	diff = -6.388268170440427
+52	dconn	indep	diff = -6.819772852637352
+53	dconn	indep	diff = -3.1223934758413248
+54	dconn	indep	diff = -2.028829698569636
+55	dconn	indep	diff = -6.39579701486402
+56	dconn	indep	diff = -2.4329587770583947
+57	dconn	indep	diff = -4.127287144705363
+58	dconn	indep	diff = -0.07158369556840771
+59	dconn	indep	diff = -6.904093999767273
+60	dconn	indep	diff = -0.18893482034989173
+61	dconn	indep	diff = -4.090947037622094
+62	dconn	indep	diff = -3.845674857983304
+63	dconn	indep	diff = -2.8257689065179905
+64	dconn	indep	diff = -5.912838132137921
+65	dconn	indep	diff = -3.663421774644344
+66	dconn	indep	diff = -3.0174213246698605
+67	dconn	indep	diff = -1.7821849423901819
+68	dconn	indep	diff = -6.136551834403467
+69	dconn	indep	diff = -1.158552373584965
+70	dconn	indep	diff = -6.898784649776293
+71	dconn	indep	diff = -6.401993304264365
+72	dconn	indep	diff = -6.388268170440427
+73	dconn	indep	diff = -6.537698462655294
+74	dconn	indep	diff = -5.297898627140859
+75	dconn	indep	diff = -6.9052425550706715
+76	dconn	indep	diff = -6.907460268459798
+77	dconn	indep	diff = -6.392437181363983
+78	dconn	indep	diff = -6.646719898105042
+79	dconn	indep	diff = -3.8420981072438614
+80	dconn	indep	diff = -2.86706628389764
+81	dconn	indep	diff = -6.90491424476718
+82	dconn	indep	diff = -0.52674556027271
+83	dconn	indep	diff = -1.2210901940202934
+84	dconn	indep	diff = -0.07158369556840771
+85	dconn	indep	diff = -4.79137006483949
+86	dconn	indep	diff = -5.912838132137921
+87	dconn	indep	diff = -0.52674556027271
+88	dconn	indep	diff = -6.0357219935141595
+89	dconn	indep	diff = -6.031571771867992
+90	dconn	indep	diff = -2.2725275428217406
+91	dconn	indep	diff = -4.772838167850242
+92	dconn	indep	diff = -6.369712323388404
+93	dconn	indep	diff = -6.66440883936416
+94	dconn	indep	diff = -6.289343883054377
+95	dconn	indep	diff = -6.177662008656188
+96	dconn	indep	diff = -6.819772852637352
+97	dconn	indep	diff = -4.920003922889299
+98	dconn	indep	diff = -2.6918628972568026
+99	dconn	indep	diff = -5.948773649900741
+100	dconn	indep	diff = -2.259984155300754
+101	dconn	indep	diff = -6.460363566780837
+102	dconn	indep	diff = -6.5470190471711724
+103	dconn	indep	diff = -1.510960366356925
+104	dconn	indep	diff = -0.52674556027271
+105	dconn	indep	diff = -0.5251037939895591
+106	dconn	indep	diff = -0.044475234184742085
+107	dconn	indep	diff = -6.646719898105042
+108	dconn	indep	diff = -6.907460268459798
+109	dconn	indep	diff = -2.0041557980315963
+110	dconn	indep	diff = -6.640441659933141
+111	dconn	indep	diff = -0.8224386645071382
+112	dconn	indep	diff = -0.52674556027271
+113	dconn	indep	diff = -6.8796700084498115
+114	dconn	indep	diff = -6.9053408845452235
+115	dconn	indep	diff = -0.20219058149629454
+116	dconn	indep	diff = -1.6967711767946136
+117	dconn	indep	diff = -3.663421774644344
+118	dconn	indep	diff = -6.270083024364835
+119	dconn	indep	diff = -2.5109241914425953
+120	dconn	indep	diff = -6.90491424476718
+121	dconn	indep	diff = -6.460363566780837
+122	dconn	indep	diff = -5.8720295078205
+123	dconn	indep	diff = -6.871995544483244
+124	dconn	indep	diff = -2.078394563268038
+125	dconn	indep	diff = -6.54009688054911
+126	dconn	indep	diff = -6.300424119960801
+127	dconn	indep	diff = -5.311322655025396
+128	dconn	indep	diff = -3.638199928118587
+129	dconn	indep	diff = -5.948773649900741
+130	dconn	indep	diff = -2.028829698569636
+131	dconn	indep	diff = -2.1686794838356533
+132	dconn	indep	diff = -3.0174213246698605
+133	dconn	indep	diff = -5.034403136193146
+134	dconn	indep	diff = -3.820404593932635
+135	dconn	indep	diff = -2.2725275428217406
+136	dconn	indep	diff = -6.9052425550706715
+137	dconn	indep	diff = -2.4945102707803635
+138	dconn	indep	diff = -4.637287774291523
+139	dconn	indep	diff = -5.948773649900741
+140	dconn	indep	diff = -6.871995544483244
+141	dconn	indep	diff = -6.256167663335797
+142	dconn	indep	diff = -2.2725275428217406
+143	dconn	indep	diff = -1.4646462040396626
+144	dconn	indep	diff = -6.646719898105042
+145	dconn	indep	diff = -6.374130062879971
+146	dconn	indep	diff = -2.159529211322557
+147	dconn	indep	diff = -6.578145662375065
+148	dconn	indep	diff = -1.4646462040395507
+149	dconn	indep	diff = -5.9900976579210745
+150	dconn	indep	diff = -4.376611000520764
+151	dconn	indep	diff = -3.863911601887588
+152	dconn	indep	diff = -5.311322655025508
+153	dconn	indep	diff = -4.557975115012166
+154	dconn	indep	diff = -6.464685958327743
+155	dconn	indep	diff = -6.537698462655294
+156	dconn	indep	diff = -4.667068063085585
+157	dconn	indep	diff = -6.374130062879971
+158	dconn	indep	diff = -6.898514444926207
+159	dconn	indep	diff = -6.66440883936416
+160	dconn	indep	diff = -2.208154566199621
+161	dconn	indep	diff = -3.695188279349044
+162	dconn	indep	diff = -2.3118980956209434
+163	dconn	indep	diff = -2.078394563268038
+164	dconn	indep	diff = -2.0712672701858095
+165	dconn	indep	diff = -2.955253122661571
+166	dconn	indep	diff = -6.904486791002206
+167	dconn	indep	diff = -5.912838132137921
+168	dconn	indep	diff = -6.640441659933141
+169	dconn	indep	diff = -6.289343883054377
+170	dconn	indep	diff = -6.234151567243146
+171	dconn	indep	diff = -4.55274016180703
+172	dconn	indep	diff = -6.8943181769416455
+173	dconn	indep	diff = -6.246138944098869
+174	dconn	indep	diff = -2.6038582756118194
+175	dconn	indep	diff = -4.3678372260135045
+176	dconn	indep	diff = -4.376611000520764
+177	dconn	indep	diff = -6.194925484779954
+178	dconn	indep	diff = -2.3067191525570445
+179	dconn	indep	diff = -6.392437181363983
+180	dconn	indep	diff = -5.872029507820611
+181	dconn	indep	diff = -2.3067191525570445
+182	dconn	indep	diff = -4.55274016180703
+183	dconn	indep	diff = -0.20219058149629454
+184	dconn	indep	diff = -2.5379910601449733
+185	dconn	indep	diff = -0.11974713451463614
+186	dconn	indep	diff = -6.889598302218603
+187	dconn	indep	diff = -6.392437181363983
+188	dconn	indep	diff = -6.9056754730499135
+189	dconn	indep	diff = -2.23708564652809
+190	dconn	indep	diff = -5.807959176189919
+191	dconn	indep	diff = -6.294746333156281
+192	dconn	indep	diff = -6.760967807973287
+193	dconn	indep	diff = -6.8672444629960765
+194	dconn	indep	diff = -2.1686794838356533
+195	dconn	indep	diff = -3.1223934758413248
+196	dconn	indep	diff = -5.771882788672981
+197	dconn	indep	diff = -6.8672444629960765
+198	dconn	indep	diff = -4.376611000520764
+199	dconn	indep	diff = -4.8499360701603145
+200	dconn	indep	diff = -3.8108609163792346
+201	dconn	indep	diff = -6.294746333156281
+202	dconn	indep	diff = -6.578145662375065
+203	dconn	indep	diff = -5.791277283321191
+204	dconn	indep	diff = -6.646719898105042
+205	dconn	indep	diff = -4.609478196759577
+206	dconn	indep	diff = -3.4995989213920153
+207	dconn	indep	diff = -1.6967711767946136
+208	dconn	indep	diff = -2.2725275428217406
+209	dconn	indep	diff = -4.376611000520764
+210	dconn	indep	diff = -5.8735184483620655
+211	dconn	indep	diff = -6.464685958327743
+212	dconn	indep	diff = -6.572813590584998
+213	dconn	indep	diff = -2.5109241914425953
+214	dconn	indep	diff = -6.194925484779954
+215	dconn	indep	diff = -6.899203059711442
+216	dconn	indep	diff = -6.242668015573156
+217	dconn	indep	diff = -6.891573946743567
+218	dconn	indep	diff = -5.914111838471914
+219	dconn	indep	diff = -6.464685958327743
+220	dconn	indep	diff = -6.136551834403467
+221	dconn	indep	diff = -6.9052425550706715
+222	dconn	indep	diff = -6.889598302218603
+223	dconn	indep	diff = -6.760967807973287
+224	dconn	indep	diff = -5.5166473430452685
+225	dconn	indep	diff = -6.031571771867992
+226	dconn	indep	diff = -6.907460268459798
+227	dconn	indep	diff = -6.136551834403467
+228	dconn	indep	diff = -0.07158369556840771
+229	dconn	indep	diff = -3.8108609163792346
+230	dconn	indep	diff = -1.510960366356925
+231	dconn	indep	diff = -6.813005552026781
+232	dconn	indep	diff = -6.567250752101818
+233	dconn	indep	diff = -0.939255764122569
+234	dconn	indep	diff = -6.215190191223519
+235	dconn	indep	diff = -2.6038582756118194
+236	dconn	indep	diff = -6.891573946743567
+237	dconn	indep	diff = -5.8720295078205
+238	dconn	indep	diff = -6.537698462655294
+239	dconn	indep	diff = -1.2210901940202934
+240	dconn	indep	diff = -5.311322655025508
+241	dconn	indep	diff = -3.2697657126605164
+242	dconn	indep	diff = -6.474107877629525
+243	dconn	indep	diff = -4.609478196759577
+244	dconn	indep	diff = -3.3353352820518887
+245	dconn	indep	diff = -2.443222446762822
+246	dconn	indep	diff = -4.090947037622094
+247	dconn	indep	diff = -0.6776810589511522
+248	dconn	indep	diff = -3.357124710756946
+249	dconn	indep	diff = -4.666796161970284
+250	dconn	indep	diff = -6.871995544483244
+251	dconn	indep	diff = -3.030878718291425
+252	dconn	indep	diff = -2.3067191525570445
+253	dconn	indep	diff = -6.66440883936416
+254	dconn	indep	diff = -1.1305230732464375
+255	dconn	indep	diff = -0.014697354189035394
+256	dconn	indep	diff = -3.4995989213920153
+257	dconn	indep	diff = -5.660560575165331
+258	dconn	indep	diff = -1.239908950908581
+259	dconn	indep	diff = -2.259984155300754
+260	dconn	indep	diff = -6.460363566780837
+261	dconn	indep	diff = -4.667068063085585
+262	dconn	indep	diff = -6.256167663335797
+263	dconn	indep	diff = -6.136551834403467
+264	dconn	indep	diff = -6.289343883054377
+265	dconn	indep	diff = -6.453392710016938
+266	dconn	indep	diff = -2.540628323760897
+267	dconn	indep	diff = -6.871995544483244
+268	dconn	indep	diff = -5.872029507820611
+269	dconn	indep	diff = -2.028829698569636
+270	dconn	indep	diff = -4.55274016180703
+271	dconn	indep	diff = -6.215190191223519
+272	dconn	indep	diff = -6.54009688054911
+273	dconn	indep	diff = -4.920003922889299
+274	dconn	indep	diff = -4.637287774291523
+275	dconn	indep	diff = -6.460363566780837
+276	dconn	indep	diff = -5.771882788672981
+277	dconn	indep	diff = -1.239908950908581
+278	dconn	indep	diff = -5.494400084778977
+279	dconn	indep	diff = -3.8420981072438614
+280	dconn	indep	diff = -6.8182538398642585
+281	dconn	indep	diff = -3.7807318005862056
+282	dconn	indep	diff = -0.3315553083151297
+283	dconn	indep	diff = -1.286489410908004
+284	dconn	indep	diff = -2.0041557980315963
+285	dconn	indep	diff = -6.392437181363983
+286	dconn	indep	diff = -2.3067191525570445
+287	dconn	indep	diff = -6.898514444926207
+288	dconn	indep	diff = -6.9052425550706715
+289	dconn	indep	diff = -4.367837226013616
+290	dconn	indep	diff = -0.8825201773845217
+291	dconn	indep	diff = -6.905792693316299
+292	dconn	indep	diff = -6.314518206789221
+293	dconn	indep	diff = -4.637287774291523
+294	dconn	indep	diff = -1.2210901940201815
+295	dconn	indep	diff = -0.5251037939895591
+296	dconn	indep	diff = -6.270083024364835
+297	dconn	indep	diff = -6.864320076889356
+298	dconn	indep	diff = -6.460363566780837
+299	dconn	indep	diff = -5.5166473430452685
+300	dconn	indep	diff = -3.1223934758413248
+301	dconn	indep	diff = -6.234151567243146
+302	dconn	indep	diff = -5.966511921983617
+303	dconn	indep	diff = -4.3678372260135045
+304	dconn	indep	diff = -6.453392710016938
+305	dconn	indep	diff = -6.578145662375065
+306	dconn	indep	diff = -2.0041557980315963
+307	dconn	indep	diff = -6.905792693316299
+308	dconn	indep	diff = -2.0712672701858095
+309	dconn	indep	diff = -4.920003922889299
+310	dconn	indep	diff = -6.907751756306979
+311	dconn	indep	diff = -5.948773649900741
+312	dconn	indep	diff = -6.756102083715321
+313	dconn	indep	diff = -5.8720295078205
+314	dconn	indep	diff = -6.791404422310762
+315	dconn	indep	diff = -6.54009688054911
+316	dconn	indep	diff = -1.1305230732464375
+317	dconn	indep	diff = -1.0913578198325764
+318	dconn	indep	diff = -4.835643903695261
+319	dconn	indep	diff = -6.474107877629525
+320	dconn	indep	diff = -2.5109241914425953
+321	dconn	indep	diff = -5.41345442200233
+322	dconn	indep	diff = -6.314518206789221
+323	dconn	indep	diff = -6.90491424476718
+324	dconn	indep	diff = -6.157766079512866
+325	dconn	indep	diff = -3.2697657126605164
+326	dconn	indep	diff = -2.259984155300754
+327	dconn	indep	diff = -6.589389333222552
+328	dconn	indep	diff = -6.270083024364835
+329	dconn	indep	diff = -4.637287774291523
+330	dconn	indep	diff = -4.666796161970284
+331	dconn	indep	diff = -2.6918628972568026
+332	dconn	indep	diff = -6.42972257298406
+333	dconn	indep	diff = -6.567250752101818
+334	dconn	indep	diff = -6.294746333156281
+335	dconn	indep	diff = -0.044475234184742085
+336	dconn	indep	diff = -2.443222446762822
+337	dconn	indep	diff = -6.270083024364835
+338	dconn	indep	diff = -5.923766020342921
+339	dconn	indep	diff = -5.914111838471914
+340	dconn	indep	diff = -6.907460268459798
+341	dconn	indep	diff = -5.912838132137921
+342	dconn	indep	diff = -6.864320076889356
+343	dconn	indep	diff = -6.369712323388404
+344	dconn	indep	diff = -6.9052425550706715
+345	dconn	indep	diff = -5.912838132137921
+346	dconn	indep	diff = -1.158552373585077
+347	dconn	indep	diff = -4.609478196759577
+348	dconn	indep	diff = -4.667068063085585
+349	dconn	indep	diff = -2.004155798031708
+350	dconn	indep	diff = -6.246138944098869
+351	dconn	indep	diff = -5.9057808356530295
+352	dconn	indep	diff = -6.760967807973287
+353	dconn	indep	diff = -6.314518206789221
+354	dconn	indep	diff = -2.0041557980315963
+355	dconn	indep	diff = -3.845674857983304
+356	dconn	indep	diff = -6.031571771867992
+357	dconn	indep	diff = -6.9056754730499135
+358	dconn	indep	diff = -6.050124294266452
+359	dconn	indep	diff = -6.899203059711442
+360	dconn	indep	diff = -4.667068063085585
+361	dconn	indep	diff = -6.431583845639797
+362	dconn	indep	diff = -6.177662008656188
+363	dconn	indep	diff = -6.864320076889356
+364	dconn	indep	diff = -1.813717641321924
+365	dconn	indep	diff = -4.666796161970284
+366	dconn	indep	diff = -1.4646462040395507
+367	dconn	indep	diff = -2.8257689065179905
+368	dconn	indep	diff = -6.431583845639797
+369	dconn	indep	diff = -5.494400084778977
+370	dconn	indep	diff = -1.813717641321924
+371	dconn	indep	diff = -5.494400084778977
+372	dconn	indep	diff = -1.1684325424989357
+373	dconn	indep	diff = -6.234151567243146
+374	dconn	indep	diff = -5.172496176328292
+375	dconn	indep	diff = -5.771882788672981
+376	dconn	indep	diff = -5.791277283321191
+377	dconn	indep	diff = -4.127287144705363
+378	dconn	indep	diff = -2.86706628389764
+379	dconn	indep	diff = -6.907460268459798
+380	dconn	indep	diff = -6.889598302218603
+381	dconn	indep	diff = -1.510960366356925
+382	dconn	indep	diff = -6.246138944098869
+383	dconn	indep	diff = -3.7747585741253724
+384	dconn	indep	diff = -6.907460268459798
+385	dconn	indep	diff = -6.889598302218603
+386	dconn	indep	diff = -6.464685958327743
+387	dconn	indep	diff = -6.871995544483244
+388	dconn	indep	diff = -0.014697354189035394
+389	dconn	indep	diff = -6.871995544483244
+390	dconn	indep	diff = -6.869166225758109
+391	dconn	indep	diff = -2.4329587770583947
+392	dconn	indep	diff = -6.791404422310762
+393	dconn	indep	diff = -6.898784649776293
+394	dconn	indep	diff = -2.8186297803753284
+395	dconn	indep	diff = -6.810389541309411
+396	dconn	indep	diff = -1.286489410908004
+397	dconn	indep	diff = -5.872029507820611
+398	dconn	indep	diff = -4.609478196759577
+399	dconn	indep	diff = -3.8157907210611484
+400	dconn	indep	diff = -6.246138944098869
+401	dconn	indep	diff = -2.540628323760897
+402	dconn	indep	diff = -4.666796161970284
+403	dconn	indep	diff = -6.905792693316299
+404	dconn	indep	diff = -6.431583845639797
+405	dconn	indep	diff = -0.8825201773845217
+406	dconn	indep	diff = -4.609478196759577
+407	dconn	indep	diff = -5.679719334686014
+408	dconn	indep	diff = -5.948773649900741
+409	dconn	indep	diff = -5.912838132137921
+410	dconn	indep	diff = -6.891695888082555
+411	dconn	indep	diff = -2.159529211322557
+412	dconn	indep	diff = -3.845674857983304
+413	dconn	indep	diff = -6.589389333222552
+414	dconn	indep	diff = -6.157766079512866
+415	dconn	indep	diff = -6.791404422310762
+416	dconn	indep	diff = -1.158552373585077
+417	dconn	indep	diff = -6.90491424476718
+418	dconn	indep	diff = -6.537698462655294
+419	dconn	indep	diff = -3.845674857983304
+420	dconn	indep	diff = -0.18893482035000364
+421	dconn	indep	diff = -5.811670463135243
+422	dconn	indep	diff = -6.460363566780837
+423	dconn	indep	diff = -6.537698462655294
+424	dconn	indep	diff = -4.79137006483949
+425	dconn	indep	diff = -5.297898627140859
+426	dconn	indep	diff = -6.589389333222552
+427	dconn	indep	diff = -0.5202658595495988
+428	dconn	indep	diff = -0.8038579212997545
+429	dconn	indep	diff = -4.55274016180703
+430	dconn	indep	diff = -4.8499360701603145
+431	dconn	indep	diff = -1.510960366356925
+432	dconn	indep	diff = -5.9900976579210745
+433	dconn	indep	diff = -6.692378009511863
+434	dconn	indep	diff = -0.11974713451463614
+435	dconn	indep	diff = -5.948773649900741
+436	dconn	indep	diff = -6.907460268459798
+437	dconn	indep	diff = -6.453392710016938
+438	dconn	indep	diff = -4.666796161970284
+439	dconn	indep	diff = -6.234151567243146
+440	dconn	indep	diff = -3.021154169050716
+441	dconn	indep	diff = -3.3353352820518887
+442	dconn	indep	diff = -3.1223934758413248
+443	dconn	indep	diff = -4.3678372260135045
+444	dconn	indep	diff = -3.7807318005862056
+445	dconn	indep	diff = -1.2482851537140478
+446	dconn	indep	diff = -5.660560575165331
+447	dconn	indep	diff = -4.367837226013616
+448	dconn	indep	diff = -0.18893482034989173
+449	dconn	indep	diff = -6.374130062879971
+450	dconn	indep	diff = -6.572813590584998
+451	dconn	indep	diff = -3.845674857983304
+452	dconn	indep	diff = -0.5202658595495988
+453	dconn	indep	diff = -6.9056754730499135
+454	dconn	indep	diff = -0.014697354189035394
+455	dconn	indep	diff = -3.845674857983304
+456	dconn	indep	diff = -6.756102083715321
+457	dconn	indep	diff = -3.0962852052372822
+458	dconn	indep	diff = -6.904486791002206
+459	dconn	indep	diff = -6.9052425550706715
+460	dconn	indep	diff = -2.5379910601449733
+461	dconn	indep	diff = -6.871995544483244
+462	dconn	indep	diff = -6.907460268459798
+463	dconn	indep	diff = -5.923766020342921
+464	dconn	indep	diff = -6.537698462655294
+465	dconn	indep	diff = -6.756102083715321
+466	dconn	indep	diff = -4.666796161970284
+467	dconn	indep	diff = -6.791404422310762
+468	dconn	indep	diff = -3.0174213246698605
+469	dconn	indep	diff = -5.966511921983617
+470	dconn	indep	diff = -3.8420981072438614
+471	dconn	indep	diff = -1.6967711767947256
+472	dconn	indep	diff = -5.5166473430452685
+473	dconn	indep	diff = -6.705973839485827
+474	dconn	indep	diff = -3.7807318005860946
+475	dconn	indep	diff = -6.891573946743567
+476	dconn	indep	diff = -6.314518206789221
+477	dconn	indep	diff = -2.955253122661571
+478	dconn	indep	diff = -6.589389333222552
+479	dconn	indep	diff = -5.313940193325786
+480	dconn	indep	diff = -6.54009688054911
+481	dconn	indep	diff = -4.667068063085585
+482	dconn	indep	diff = -6.567250752101818
+483	dconn	indep	diff = -6.905792693316299
+484	dconn	indep	diff = -4.127287144705363
+485	dconn	indep	diff = -1.0913578198325764
+486	dconn	indep	diff = -6.369712323388404
+487	dconn	indep	diff = -6.860436554811152
+488	dconn	indep	diff = -6.589389333222552
+489	dconn	indep	diff = -1.4646462040396626
+490	dconn	indep	diff = -0.014697354189035394
+491	dconn	indep	diff = -2.443222446762711
+492	dconn	indep	diff = -1.2210901940202934
+493	dconn	indep	diff = -6.578145662375065
+494	dconn	indep	diff = -6.42972257298406
+495	dconn	indep	diff = -6.80141014391826
+496	dconn	indep	diff = -5.807959176189919
+497	dconn	indep	diff = -6.460363566780837
+498	dconn	indep	diff = -2.7893466651156533
+499	dconn	indep	diff = -2.4329587770583947
+500	dconn	indep	diff = -6.9052425550706715
+501	dconn	indep	diff = -2.5109241914425953
+502	dconn	indep	diff = -3.638199928118587
+503	dconn	indep	diff = -5.034403136193146
+504	dconn	indep	diff = -6.903176647351665
+505	dconn	indep	diff = -4.3678372260135045
+506	dconn	indep	diff = -1.813717641321924
+507	dconn	indep	diff = -0.18893482034989173
+508	dconn	indep	diff = -0.6776810589511522
+509	dconn	indep	diff = -0.8825201773845217
+510	dconn	indep	diff = -3.638199928118587
+511	dconn	indep	diff = -6.42972257298406
+512	dconn	indep	diff = -6.453392710016938
+513	dconn	indep	diff = -3.8420981072438614
+514	dconn	indep	diff = -3.3353352820518887
+515	dconn	indep	diff = -6.898784649776293
+516	dconn	indep	diff = -4.666796161970284
+517	dconn	indep	diff = -5.311322655025508
+518	dconn	indep	diff = -6.42972257298406
+519	dconn	indep	diff = -3.695188279349044
+520	dconn	indep	diff = -6.8182538398642585
+521	dconn	indep	diff = -5.771882788672981
+522	dconn	indep	diff = -0.014697354189035394
+523	dconn	indep	diff = -2.4329587770583947
+524	dconn	indep	diff = -6.136551834403467
+525	dconn	indep	diff = -6.294746333156281
+526	dconn	indep	diff = -2.23708564652809
+527	dconn	indep	diff = -2.8257689065181024
+528	dconn	indep	diff = -0.8825201773845217
+529	dconn	indep	diff = -6.791404422310762
+530	dconn	indep	diff = -2.8186297803753284
+531	dconn	indep	diff = -4.557975115012166
+532	dconn	indep	diff = -3.820404593932635
+533	dconn	indep	diff = -1.7821849423901819
+534	dconn	indep	diff = -4.779853438983122
+535	dconn	indep	diff = -2.078394563268038
+536	dconn	indep	diff = -2.8186297803753284
+537	dconn	indep	diff = -4.376611000520764
+538	dconn	indep	diff = -0.5304010194049384
+539	dconn	indep	diff = -4.637287774291523
+540	dconn	indep	diff = -6.5470190471711724
+541	dconn	indep	diff = -2.0041557980315963
+542	dconn	indep	diff = -3.021154169050716
+543	dconn	indep	diff = -2.4329587770583947
+544	dconn	indep	diff = -3.7747585741253724
+545	dconn	indep	diff = -4.376611000520764
+546	dconn	indep	diff = -5.41345442200233
+547	dconn	indep	diff = -3.7747585741253724
+548	dconn	indep	diff = -3.845674857983304
+549	dconn	indep	diff = -5.80795917619003
+550	dconn	indep	diff = -5.9900976579210745
+551	dconn	indep	diff = -4.772838167850242
+552	dconn	indep	diff = -6.886527639020671
+553	dconn	indep	diff = -6.871995544483244
+554	dconn	indep	diff = -3.845674857983304
+555	dconn	indep	diff = -6.756102083715321
+556	dconn	indep	diff = -3.8157907210611484
+557	dconn	indep	diff = -1.7821849423901819
+558	dconn	indep	diff = -4.772838167850242
+559	dconn	indep	diff = -3.0962852052372822
+560	dconn	indep	diff = -3.3353352820518887
+561	dconn	indep	diff = -4.920003922889299
+562	dconn	indep	diff = -2.0712672701858095
+563	dconn	indep	diff = -5.297898627140859
+564	dconn	indep	diff = -6.891573946743567
+565	dconn	indep	diff = -6.864320076889356
+566	dconn	indep	diff = -6.242668015573156
+567	dconn	indep	diff = -6.813005552026781
+568	dconn	indep	diff = -6.474107877629414
+569	dconn	indep	diff = -6.294746333156281
+570	dconn	indep	diff = -6.289343883054377
+571	dconn	indep	diff = -6.903176647351665
+572	dconn	indep	diff = -6.463392556219311
+573	dconn	indep	diff = -2.5379910601449733
+574	dconn	indep	diff = -2.259984155300754
+575	dconn	indep	diff = -0.5202658595495988
+576	dconn	indep	diff = -3.1223934758413248
+577	dconn	indep	diff = -1.6967711767946136
+578	dconn	indep	diff = -5.302177363765893
+579	dconn	indep	diff = -3.845674857983304
+580	dconn	indep	diff = -6.760967807973287
+581	dconn	indep	diff = -0.11974713451463614
+582	dconn	indep	diff = -5.41345442200233
+583	dconn	indep	diff = -6.388268170440427
+584	dconn	indep	diff = -2.4329587770583947
+585	dconn	indep	diff = -0.044475234184742085
+586	dconn	indep	diff = -3.0962852052372822
+587	dconn	indep	diff = -0.3315553083151297
+588	dconn	indep	diff = -3.021154169050716
+589	dconn	indep	diff = -2.7120012998969996
+590	dconn	indep	diff = -5.034403136193146
+591	dconn	indep	diff = -1.4646462040395507
+592	dconn	indep	diff = -3.845674857983304
+593	dconn	indep	diff = -6.904093999767273
+594	dconn	indep	diff = -6.234151567243146
+595	dconn	indep	diff = -6.463392556219311
+596	dconn	indep	diff = -5.872029507820611
+597	dconn	indep	diff = -4.376611000520764
+598	dconn	indep	diff = -6.234151567243146
+599	dconn	indep	diff = -6.864320076889356
+600	dconn	indep	diff = -5.034403136193146
+601	dconn	indep	diff = -2.6918628972568026
+602	dconn	indep	diff = -2.4329587770583947
+603	dconn	indep	diff = -2.4945102707803635
+604	dconn	indep	diff = -5.912838132137921
+605	dconn	indep	diff = -4.376611000520764
+606	dconn	indep	diff = -6.90491424476718
+607	dconn	indep	diff = -4.127287144705363
+608	dconn	indep	diff = -0.07158369556840771
+609	dconn	indep	diff = -4.666796161970284
+610	dconn	indep	diff = -0.18893482034989173
+611	dconn	indep	diff = -6.9052425550706715
+612	dconn	indep	diff = -5.660560575165331
+613	dconn	indep	diff = -1.7821849423901819
+614	dconn	indep	diff = -2.6038582756118194
+615	dconn	indep	diff = -6.369712323388404
+616	dconn	indep	diff = -6.80141014391826
+617	dconn	indep	diff = -2.4329587770583947
+618	dconn	indep	diff = -4.557975115012166
+619	dconn	indep	diff = -6.463392556219311
+620	dconn	indep	diff = -6.8672444629960765
+621	dconn	indep	diff = -2.4329587770583947
+622	dconn	indep	diff = -4.648495292421723
+623	dconn	indep	diff = -0.5251037939895591
+624	dconn	indep	diff = -2.0712672701858095
+625	dconn	indep	diff = -4.637287774291523
+626	dconn	indep	diff = -6.431583845639797
+627	dconn	indep	diff = -5.302177363765893
+628	dconn	indep	diff = -5.302177363765893
+629	dconn	indep	diff = -5.496941306130181
+630	dconn	indep	diff = -5.5166473430452685
+631	dconn	indep	diff = -2.4329587770583947
+632	dconn	indep	diff = -6.401993304264365
+633	dconn	indep	diff = -3.357124710756946
+634	dconn	indep	diff = -3.8420981072438614
+635	dconn	indep	diff = -6.90491424476718
+636	dconn	indep	diff = -6.567250752101818
+637	dconn	indep	diff = -6.242668015573156
+638	dconn	indep	diff = -1.286489410908004
+639	dconn	indep	diff = -2.0041557980315963
+640	dconn	indep	diff = -6.256167663335797
+641	dconn	indep	diff = -6.907751756306979
+642	dconn	indep	diff = -6.89373225120043
+643	dconn	indep	diff = -5.496941306130181
+644	dconn	indep	diff = -2.004155798031708
+645	dconn	indep	diff = -6.374130062879971
+646	dconn	indep	diff = -0.5202658595495988
+647	dconn	indep	diff = -2.159529211322557
+648	dconn	indep	diff = -6.904486791002206
+649	dconn	indep	diff = -6.294746333156281
+650	dconn	indep	diff = -6.39579701486402
+651	dconn	indep	diff = -6.8672444629960765
+652	dconn	indep	diff = -0.20219058149629454
+653	dconn	indep	diff = -6.791404422310762
+654	dconn	indep	diff = -4.920003922889299
+655	dconn	indep	diff = -0.8224386645071382
+656	dconn	indep	diff = -2.5379910601449733
+657	dconn	indep	diff = -6.889598302218603
+658	dconn	indep	diff = -0.014697354189035394
+659	dconn	indep	diff = -6.246138944098869
+660	dconn	indep	diff = -6.891573946743567
+661	dconn	indep	diff = -5.660560575165331
+662	dconn	indep	diff = -6.864320076889356
+663	dconn	indep	diff = -6.756102083715321
+664	dconn	indep	diff = -4.474012186842277
+665	dconn	indep	diff = -2.2725275428217406
+666	dconn	indep	diff = -3.030878718291425
+667	dconn	indep	diff = -0.5304010194049384
+668	dconn	indep	diff = -2.4945102707803635
+669	dconn	indep	diff = -1.1684325424989357
+670	dconn	indep	diff = -6.589389333222552
+671	dconn	indep	diff = -3.8157907210611484
+672	dconn	indep	diff = -5.313940193325786
+673	dconn	indep	diff = -6.5470190471711724
+674	dconn	indep	diff = -2.1686794838356533
+675	dconn	indep	diff = -4.609478196759577
+676	dconn	indep	diff = -1.6967711767946136
+677	dconn	indep	diff = -6.640441659933141
+678	dconn	indep	diff = -0.20219058149629454
+679	dconn	indep	diff = -6.640441659933141
+680	dconn	indep	diff = -4.55274016180703
+681	dconn	indep	diff = -6.903176647351665
+682	dconn	indep	diff = -6.80141014391826
+683	dconn	indep	diff = -2.6038582756118194
+684	dconn	indep	diff = -6.905792693316299
+685	dconn	indep	diff = -2.028829698569636
+686	dconn	indep	diff = -6.374130062879971
+687	dconn	indep	diff = -2.4945102707802524
+688	dconn	indep	diff = -5.923766020342921
+689	dconn	indep	diff = -2.0712672701858095
+690	dconn	indep	diff = -6.050124294266452
+691	dconn	indep	diff = -5.311322655025508
+692	dconn	indep	diff = -4.779853438983122
+693	dconn	indep	diff = -6.453392710016938
+694	dconn	indep	diff = -3.8157907210611484
+695	dconn	indep	diff = -0.014697354189035394
+696	dconn	indep	diff = -5.807959176189919
+697	dconn	indep	diff = -6.300424119960801
+698	dconn	indep	diff = -2.6918628972568026
+699	dconn	indep	diff = -6.705973839485827
+700	dconn	indep	diff = -2.6918628972568026
+701	dconn	indep	diff = -6.904486791002206
+702	dconn	indep	diff = -6.904486791002206
+703	dconn	indep	diff = -6.256167663335797
+704	dconn	indep	diff = -2.23708564652809
+705	dconn	indep	diff = -3.0962852052372822
+706	dconn	indep	diff = -2.078394563268038
+707	dconn	indep	diff = -2.4945102707803635
+708	dconn	indep	diff = -6.898514444926207
+709	dconn	indep	diff = -1.286489410908115
+710	dconn	indep	diff = -6.242668015573156
+711	dconn	indep	diff = -1.510960366356925
+712	dconn	indep	diff = -6.646719898105042
+713	dconn	indep	diff = -0.3315553083151297
+714	dconn	indep	diff = -3.5419049339719897
+715	dconn	indep	diff = -1.2210901940202934
+716	dconn	indep	diff = -2.6918628972568026
+717	dconn	indep	diff = -0.07158369556840771
+718	dconn	indep	diff = -6.760967807973287
+719	dconn	indep	diff = -5.660560575165331
+720	dconn	indep	diff = -4.3678372260135045
+721	dconn	indep	diff = -6.889598302218603
+722	dconn	indep	diff = -5.679719334686014
+723	dconn	indep	diff = -6.464685958327743
+724	dconn	indep	diff = -5.302177363765893
+725	dconn	indep	diff = -6.246138944098869
+726	dconn	indep	diff = -4.609478196759577
+727	dconn	indep	diff = -5.660560575165331
+728	dconn	indep	diff = -6.578145662375065
+729	dconn	indep	diff = -2.5109241914425953
+730	dconn	indep	diff = -6.39579701486402
+731	dconn	indep	diff = -6.314518206789221
+732	dconn	indep	diff = -2.208154566199621
+733	dconn	indep	diff = -6.392437181363983
+734	dconn	indep	diff = -5.5166473430452685
+735	dconn	indep	diff = -6.905792693316299
+736	dconn	indep	diff = -3.638199928118587
+737	dconn	indep	diff = -2.159529211322557
+738	dconn	indep	diff = -3.8108609163792346
+739	dconn	indep	diff = -6.431583845639797
+740	dconn	indep	diff = -6.80141014391826
+741	dconn	indep	diff = -5.311322655025396
+742	dconn	indep	diff = -6.9053408845452235
+743	dconn	indep	diff = -6.8672444629960765
+744	dconn	indep	diff = -6.907751756306979
+745	dconn	indep	diff = -6.9053408845452235
+746	dconn	indep	diff = -6.903176647351665
+747	dconn	indep	diff = -6.537698462655294
+748	dconn	indep	diff = -6.8672444629960765
+749	dconn	indep	diff = -2.078394563268038
+750	dconn	indep	diff = -6.242668015573156
+751	dconn	indep	diff = -2.3067191525570445
+752	dconn	indep	diff = -6.464685958327743
+753	dconn	indep	diff = -6.8943181769416455
+754	dconn	indep	diff = -3.2697657126605164
+755	dconn	indep	diff = -6.892289267165535
+756	dconn	indep	diff = -0.8038579212997545
+757	dconn	indep	diff = -6.392437181363983
+758	dconn	indep	diff = -1.286489410908115
+759	dconn	indep	diff = -5.80795917619003
+760	dconn	indep	diff = -4.79137006483949
+761	dconn	indep	diff = -3.1223934758413248
+762	dconn	indep	diff = -2.3118980956208324
+763	dconn	indep	diff = -6.0357219935141595
+764	dconn	indep	diff = -6.42972257298406
+765	dconn	indep	diff = -5.034403136193146
+766	dconn	indep	diff = -5.966511921983617
+767	dconn	indep	diff = -3.3353352820518887
+768	dconn	indep	diff = -2.86706628389764
+769	dconn	indep	diff = -6.692378009511863
+770	dconn	indep	diff = -6.474107877629414
+771	dconn	indep	diff = -5.41345442200233
+772	dconn	indep	diff = -6.242668015573156
+773	dconn	indep	diff = -3.0174213246698605
+774	dconn	indep	diff = -0.8825201773845217
+775	dconn	indep	diff = -2.0041557980315963
+776	dconn	indep	diff = -6.369712323388404
+777	dconn	indep	diff = -2.8257689065181024
+778	dconn	indep	diff = -5.5166473430452685
+779	dconn	indep	diff = -5.948773649900741
+780	dconn	indep	diff = -6.8182538398642585
+781	dconn	indep	diff = -0.5304010194048274
+782	dconn	indep	diff = -3.1223934758413248
+783	dconn	indep	diff = -0.11974713451452423
+784	dconn	indep	diff = -6.871995544483244
+785	dconn	indep	diff = -6.242668015573156
+786	dconn	indep	diff = -3.1223934758413248
+787	dconn	indep	diff = -6.374130062879971
+788	dconn	indep	diff = -3.7807318005862056
+789	dconn	indep	diff = -1.1305230732464375
+790	dconn	indep	diff = -4.648495292421723
+791	dconn	indep	diff = -6.640441659933141
+792	dconn	indep	diff = -2.2725275428217406
+793	dconn	indep	diff = -6.474107877629525
+794	dconn	indep	diff = -6.892289267165535
+795	dconn	indep	diff = -5.923766020342921
+796	dconn	indep	diff = -6.791404422310762
+797	dconn	indep	diff = -6.892289267165535
+798	dconn	indep	diff = -6.889598302218603
+799	dconn	indep	diff = -6.892289267165535
+800	dconn	indep	diff = -2.443222446762822
+801	dconn	indep	diff = -5.660560575165331
+802	dconn	indep	diff = -4.648495292421723
+803	dconn	indep	diff = -2.078394563268038
+Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 38.01 sec
+Running edu.cmu.tetrad.test.TestSemVarMeans
+
+Variable nodes:
+
+[X1, X2, X3, X4, X5]
+
+Measured nodes:
+
+[X1, X2, X3, X4, X5]
+
+Edge coefficient matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.0000   1.0280   0.0000   0.9948   0.0000
+  X2   0.0000   0.0000   0.9858   0.0000   0.0000
+  X3   0.0000   0.0000   0.0000   0.9908   0.0000
+  X4   0.0000   0.0000   0.0000   0.0000   1.0144
+  X5   0.0000   0.0000   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.9981   0.0000   0.0000   0.0000   0.0000
+  X2   0.0000   1.0102   0.0000   0.0000   0.0000
+  X3   0.0000   0.0000   0.9979   0.0000   0.0000
+  X4   0.0000   0.0000   0.0000   0.9704   0.0000
+  X5   0.0000   0.0000   0.0000   0.0000   1.0325
+
+
+Variable means:
+
+Mean(X1) = 5.04729705271813
+Mean(X2) = 4.036164400094679
+Mean(X3) = 3.0942940706980115
+Mean(X4) = 2.184366368531386
+Mean(X5) = 1.186658290011488
+
+Sample size = 1000
+
+sample cov:
+
+       V1       V2       V3       V4       V5
+   0.9981   1.0260   1.0235   2.0070   2.0344
+   1.0260   2.0649   2.0355   3.0445   3.0636
+   1.0235   2.0355   3.0045   3.9952   4.0477
+   2.0070   3.0445   3.9952   6.9256   7.0253
+   2.0344   3.0636   4.0477   7.0253   8.1590
+
+
+implCovar:
+
+       V1       V2       V3       V4       V5
+   0.9981   1.0260   1.0114   1.9950   2.0237
+   1.0260   2.0649   2.0355   3.0376   3.0813
+   1.0114   2.0355   3.0045   3.9831   4.0405
+   1.9950   3.0376   3.9831   6.9017   7.0011
+   2.0237   3.0813   4.0405   7.0011   8.1344
+
+
+implCovarMeas:
+
+       V1       V2       V3       V4       V5
+   0.9981   1.0260   1.0114   1.9950   2.0237
+   1.0260   2.0649   2.0355   3.0376   3.0813
+   1.0114   2.0355   3.0045   3.9831   4.0405
+   1.9950   3.0376   3.9831   6.9017   7.0011
+   2.0237   3.0813   4.0405   7.0011   8.1344
+
+
+model chi square = 1.3026293421715236
+model dof = 5
+model p-value = 0.9346608891953483
+
+free mappings:
+
+0. <B1 Linear Coefficient[0][1]>
+1. <B2 Linear Coefficient[1][2]>
+2. <B3 Linear Coefficient[0][3]>
+3. <B4 Linear Coefficient[2][3]>
+4. <B5 Linear Coefficient[3][4]>
+5. <T1 Error Variance[0][0]>
+6. <T2 Error Variance[1][1]>
+7. <T3 Error Variance[2][2]>
+8. <T4 Error Variance[3][3]>
+9. <T5 Error Variance[4][4]>
+
+fixed mappings:
+
+
+Variable nodes:
+
+[X1, X2, X3, X4, X5]
+
+Measured nodes:
+
+[X1, X2, X3, X4, X5]
+
+Edge coefficient matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.0000   1.0280   0.0000   0.9948   0.0000
+  X2   0.0000   0.0000   0.9858   0.0000   0.0000
+  X3   0.0000   0.0000   0.0000   0.9908   0.0000
+  X4   0.0000   0.0000   0.0000   0.0000   1.0144
+  X5   0.0000   0.0000   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.9981   0.0000   0.0000   0.0000   0.0000
+  X2   0.0000   1.0102   0.0000   0.0000   0.0000
+  X3   0.0000   0.0000   0.9979   0.0000   0.0000
+  X4   0.0000   0.0000   0.0000   0.9704   0.0000
+  X5   0.0000   0.0000   0.0000   0.0000   1.0325
+
+
+Variable means:
+
+Mean(X1) = 5.04729705271813
+Mean(X2) = 4.036164400094679
+Mean(X3) = 3.0942940706980115
+Mean(X4) = 2.184366368531386
+Mean(X5) = 1.1866582900114877
+
+Sample size = 1000
+
+sample cov:
+
+       V1       V2       V3       V4       V5
+   0.9981   1.0260   1.0235   2.0070   2.0344
+   1.0260   2.0649   2.0355   3.0445   3.0636
+   1.0235   2.0355   3.0045   3.9952   4.0477
+   2.0070   3.0445   3.9952   6.9256   7.0253
+   2.0344   3.0636   4.0477   7.0253   8.1590
+
+
+implCovar:
+
+       V1       V2       V3       V4       V5
+   0.9981   1.0260   1.0114   1.9950   2.0237
+   1.0260   2.0649   2.0355   3.0376   3.0813
+   1.0114   2.0355   3.0045   3.9831   4.0405
+   1.9950   3.0376   3.9831   6.9017   7.0011
+   2.0237   3.0813   4.0405   7.0011   8.1344
+
+
+implCovarMeas:
+
+       V1       V2       V3       V4       V5
+   0.9981   1.0260   1.0114   1.9950   2.0237
+   1.0260   2.0649   2.0355   3.0376   3.0813
+   1.0114   2.0355   3.0045   3.9831   4.0405
+   1.9950   3.0376   3.9831   6.9017   7.0011
+   2.0237   3.0813   4.0405   7.0011   8.1344
+
+
+model chi square = 1.3026293421714703
+model dof = 5
+model p-value = 0.9346608891953537
+
+free mappings:
+
+0. <B1 Linear Coefficient[0][1]>
+1. <B2 Linear Coefficient[1][2]>
+2. <B3 Linear Coefficient[0][3]>
+3. <B4 Linear Coefficient[2][3]>
+4. <B5 Linear Coefficient[3][4]>
+5. <T1 Error Variance[0][0]>
+6. <T2 Error Variance[1][1]>
+7. <T3 Error Variance[2][2]>
+8. <T4 Error Variance[3][3]>
+9. <T5 Error Variance[4][4]>
+
+fixed mappings:
+
+
+Variable nodes:
+
+[X1, X2, X3, X4, X5]
+
+Measured nodes:
+
+[X1, X2, X3, X4, X5]
+
+Edge coefficient matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.0000   1.0280   0.0000   0.9948   0.0000
+  X2   0.0000   0.0000   0.9858   0.0000   0.0000
+  X3   0.0000   0.0000   0.0000   0.9908   0.0000
+  X4   0.0000   0.0000   0.0000   0.0000   1.0144
+  X5   0.0000   0.0000   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.9981   0.0000   0.0000   0.0000   0.0000
+  X2   0.0000   1.0102   0.0000   0.0000   0.0000
+  X3   0.0000   0.0000   0.9979   0.0000   0.0000
+  X4   0.0000   0.0000   0.0000   0.9704   0.0000
+  X5   0.0000   0.0000   0.0000   0.0000   1.0325
+
+
+Variable means:
+
+Mean(X1) = 5.04729705271813
+Mean(X2) = 4.036164400094679
+Mean(X3) = 3.0942940706980115
+Mean(X4) = 2.184366368531386
+Mean(X5) = 1.1866582900114877
+
+Sample size = 1000
+
+sample cov:
+
+       V1       V2       V3       V4       V5
+   0.9981   1.0260   1.0235   2.0070   2.0344
+   1.0260   2.0649   2.0355   3.0445   3.0636
+   1.0235   2.0355   3.0045   3.9952   4.0477
+   2.0070   3.0445   3.9952   6.9256   7.0253
+   2.0344   3.0636   4.0477   7.0253   8.1590
+
+
+implCovar:
+
+       V1       V2       V3       V4       V5
+   0.9981   1.0260   1.0114   1.9950   2.0237
+   1.0260   2.0649   2.0355   3.0376   3.0813
+   1.0114   2.0355   3.0045   3.9831   4.0405
+   1.9950   3.0376   3.9831   6.9017   7.0011
+   2.0237   3.0813   4.0405   7.0011   8.1344
+
+
+implCovarMeas:
+
+       V1       V2       V3       V4       V5
+   0.9981   1.0260   1.0114   1.9950   2.0237
+   1.0260   2.0649   2.0355   3.0376   3.0813
+   1.0114   2.0355   3.0045   3.9831   4.0405
+   1.9950   3.0376   3.9831   6.9017   7.0011
+   2.0237   3.0813   4.0405   7.0011   8.1344
+
+
+model chi square = 1.3026293421714703
+model dof = 5
+model p-value = 0.9346608891953537
+
+free mappings:
+
+0. <B1 Linear Coefficient[0][1]>
+1. <B2 Linear Coefficient[1][2]>
+2. <B3 Linear Coefficient[0][3]>
+3. <B4 Linear Coefficient[2][3]>
+4. <B5 Linear Coefficient[3][4]>
+5. <T1 Error Variance[0][0]>
+6. <T2 Error Variance[1][1]>
+7. <T3 Error Variance[2][2]>
+8. <T4 Error Variance[3][3]>
+9. <T5 Error Variance[4][4]>
+
+fixed mappings:
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+Running edu.cmu.tetrad.test.TestSem
+
+Variable nodes:
+
+[X1, X2, X3, X4, X5]
+
+Measured nodes:
+
+[X1, X2, X3, X4, X5]
+
+Edge coefficient matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.0000   0.7750   0.0000   1.3190   0.0000
+  X2   0.0000   0.0000   1.0756   0.0000   0.0000
+  X3   0.0000   0.0000   0.0000   0.9639   0.0000
+  X4   0.0000   0.0000   0.0000   0.0000   0.5198
+  X5   0.0000   0.0000   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           X1       X2       X3       X4       X5
+  X1   1.0441   0.0000   0.0000   0.0000   0.0000
+  X2   0.0000   0.9290   0.0000   0.0000   0.0000
+  X3   0.0000   0.0000   1.0755   0.0000   0.0000
+  X4   0.0000   0.0000   0.0000   1.0232   0.0000
+  X5   0.0000   0.0000   0.0000   0.0000   1.0465
+
+
+Variable means:
+
+Mean(X1) = 0.0
+Mean(X2) = 0.0
+Mean(X3) = 0.0
+Mean(X4) = 0.0
+Mean(X5) = 0.0
+
+Sample size = 1000
+
+sample cov:
+
+       V1       V2       V3       V4       V5
+   1.0441   0.8092   0.8930   2.2379   1.1752
+   0.8092   1.5561   1.6738   2.6854   1.3634
+   0.8930   1.6738   2.8758   3.9500   1.9904
+   2.2379   2.6854   3.9500   7.7826   4.0453
+   1.1752   1.3634   1.9904   4.0453   3.1492
+
+
+implCovar:
+
+       V1       V2       V3       V4       V5
+   1.0441   0.8091   0.8703   2.2161   1.1519
+   0.8091   1.5561   1.6737   2.6807   1.3934
+   0.8703   1.6737   2.8758   3.9201   2.0377
+   2.2161   2.6807   3.9201   7.7251   4.0154
+   1.1519   1.3934   2.0377   4.0154   3.1337
+
+
+implCovarMeas:
+
+       V1       V2       V3       V4       V5
+   1.0441   0.8091   0.8703   2.2161   1.1519
+   0.8091   1.5561   1.6737   2.6807   1.3934
+   0.8703   1.6737   2.8758   3.9201   2.0377
+   2.2161   2.6807   3.9201   7.7251   4.0154
+   1.1519   1.3934   2.0377   4.0154   3.1337
+
+
+model chi square = 5.531278707222447
+model dof = 5
+model p-value = 0.35452824663893046
+
+free mappings:
+
+0. <B1 Linear Coefficient[0][1]>
+1. <B2 Linear Coefficient[1][2]>
+2. <B3 Linear Coefficient[0][3]>
+3. <B4 Linear Coefficient[2][3]>
+4. <B5 Linear Coefficient[3][4]>
+5. <T1 Error Variance[0][0]>
+6. <T2 Error Variance[1][1]>
+7. <T3 Error Variance[2][2]>
+8. <T4 Error Variance[3][3]>
+9. <T5 Error Variance[4][4]>
+
+fixed mappings:
+
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running edu.cmu.tetrad.test.TestCpc
+B --- D because it was forbidden by background knowledge.
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 sec
+Running edu.cmu.tetrad.test.TestCptInvariantUpdater
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.011 sec
+Running edu.cmu.tetrad.test.TestDiscreteProbs
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running edu.cmu.tetrad.test.TestMbfs
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Running edu.cmu.tetrad.test.TestRfciBsc
+xy:8 cases[casei]:8
+xy:8 cases[casei]:8
+xy:9 cases[casei]:8
+xy:9 cases[casei]:8
+xy:10 cases[casei]:8
+xy:10 cases[casei]:8
+xy:11 cases[casei]:8
+xy:11 cases[casei]:8
+xy:12 cases[casei]:8
+xy:12 cases[casei]:8
+xy:13 cases[casei]:8
+xy:14 cases[casei]:8
+estDepBN:
+Graph Nodes:
+X4 _||_ X5;X2 _||_ X6 | X1;X3 _||_ X2 | X5;X3 _||_ X6
+
+Graph Edges:
+
+
+maxLnDep: -2035.8612871203864 maxLnInd: -2034.1021578161622
+bscD: 1.0 bscI: 1.0
+graphRBD:
+Graph Nodes:
+X1;X2;X3;X4;X5;X6
+
+Graph Edges:
+1. X1 <-> X3
+2. X1 <-> X6
+3. X2 o-o X1
+4. X2 <-> X3
+5. X2 <-> X6
+6. X3 <-> X4
+7. X4 <-> X6
+
+Graph Attributes:
+bscI: 1.000000
+bscD: 1.000000
+
+
+graphRBI:
+Graph Nodes:
+X1;X2;X3;X4;X5;X6
+
+Graph Edges:
+1. X1 <-> X3
+2. X1 <-> X6
+3. X2 o-o X1
+4. X2 <-> X3
+5. X2 <-> X6
+6. X3 <-> X4
+7. X4 <-> X6
+
+Graph Attributes:
+bscI: 1.000000
+bscD: 1.000000
+
+
+Elapsed 866 ms
+Elapsed 867 ms
+
+BSC-I: 1.0
+
+BSC-D: 1.0
+------------------------------------------
+PAG_True: 
+Graph Nodes:
+X1;X2;X3;X4;X5;X6
+
+Graph Edges:
+1. X2 o-o X1
+2. X2 o-> X6
+3. X3 o-o X1
+4. X3 o-o X2
+5. X4 o-o X1
+6. X4 o-o X2
+7. X4 o-o X3
+8. X5 o-o X1
+9. X5 o-o X4
+10. X5 o-> X6
+
+
+------------------------------------------
+RB-I: 
+Graph Nodes:
+X1;X2;X3;X4;X5;X6
+
+Graph Edges:
+1. X2 o-o X1 [X1 o-o X2]:0.5000;[X1 o-> X2]:0.3000;[X1 <-- X2]:0.1000;[no edge]:0.1000;
+2. X1 <-> X6 [X1 o-> X6]:0.4000;[X1 <-> X6]:0.3000;[X1 --> X6]:0.2000;[no edge]:0.1000;
+3. X4 <-> X6 [X4 <-> X6]:0.4000;[X4 o-> X6]:0.4000;[no edge]:0.2000;
+4. X1 <-> X3 [X1 <-> X3]:0.2000;[X1 o-> X3]:0.3000;[X1 o-o X3]:0.2000;[no edge]:0.3000;
+5. X2 <-> X6 [X2 <-- X6]:0.1000;[X2 <-> X6]:0.1000;[X2 o-> X6]:0.3000;[no edge]:0.5000;
+6. X3 <-> X4 [X3 <-o X4]:0.3000;[X3 <-> X4]:0.3000;[X3 --> X4]:0.1000;[X3 <-- X4]:0.1000;[no edge]:0.2000;
+7. X2 <-> X3 [X2 <-> X3]:0.1000;[X2 o-> X3]:0.1000;[no edge]:0.8000;
+
+Graph Attributes:
+bscI: 1.000000
+bscD: 1.000000
+
+
+------------------------------------------
+RB-D: 
+Graph Nodes:
+X1;X2;X3;X4;X5;X6
+
+Graph Edges:
+1. X2 o-o X1 [X1 o-o X2]:0.5000;[X1 o-> X2]:0.3000;[X1 <-- X2]:0.1000;[no edge]:0.1000;
+2. X1 <-> X6 [X1 o-> X6]:0.4000;[X1 <-> X6]:0.3000;[X1 --> X6]:0.2000;[no edge]:0.1000;
+3. X4 <-> X6 [X4 <-> X6]:0.4000;[X4 o-> X6]:0.4000;[no edge]:0.2000;
+4. X1 <-> X3 [X1 <-> X3]:0.2000;[X1 o-> X3]:0.3000;[X1 o-o X3]:0.2000;[no edge]:0.3000;
+5. X2 <-> X6 [X2 <-- X6]:0.1000;[X2 <-> X6]:0.1000;[X2 o-> X6]:0.3000;[no edge]:0.5000;
+6. X3 <-> X4 [X3 <-o X4]:0.3000;[X3 <-> X4]:0.3000;[X3 --> X4]:0.1000;[X3 <-- X4]:0.1000;[no edge]:0.2000;
+7. X2 <-> X3 [X2 <-> X3]:0.1000;[X2 o-> X3]:0.1000;[no edge]:0.8000;
+
+Graph Attributes:
+bscI: 1.000000
+bscD: 1.000000
+
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.884 sec
+Running edu.cmu.tetrad.test.TestUpdaterJointMarginal
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestDataReader
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running edu.cmu.tetrad.test.TestCovarianceMatrix
+X0	X1	X2	X3	X4
+1.0000
+-0.6096	1.0000
+0.4974	-0.4420	1.0000
+0.3477	-0.1101	-0.2200	1.0000
+0.4824	-0.4885	-0.0703	0.0474	1.0000
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec
+Running edu.cmu.tetrad.test.TestChoiceGenerator
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+Running edu.cmu.tetrad.test.TestParser
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+Running edu.cmu.tetrad.test.TestSemProposition
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running edu.cmu.tetrad.test.TestBayesPm
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running edu.cmu.tetrad.test.TestDataSetCellProbs
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running edu.cmu.tetrad.test.TestPurify
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestMimbuild2
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestCombinationGenerator
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestLingamPattern
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.083 sec
+Running edu.cmu.tetrad.test.TestCombinationIterator
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestIntegrator
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running edu.cmu.tetrad.test.TestIndTestWaldLR
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.003 sec
+Running edu.cmu.tetrad.test.TestSerialization
+Serializing exemplars of instantiable TetradSerializable in target/classes/edu/cmu.
+Writing serialized examplars to build/tetrad/serializable/model
+0
+..................................................50
+..................................................100
+..................................................150
+..................................................200
+..................................................250
+..................................................300
+..................................................350
+..................................................400
+.....................................
+Finished serializing exemplars.
+Deserializing files in build/tetrad/serializable/model
+Finished deserializing classes in build/tetrad/serializable/model.
+Deserializing archived instances in archives.
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.492 sec
+Running edu.cmu.tetrad.test.TestDeltaTetradTest
+i = 0
+i = 1
+i = 2
+i = 3
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.287 sec
+Running edu.cmu.tetrad.test.TestSemEstimator
+
+Variable nodes:
+
+[X1, X2, X3, X4, X5]
+
+Measured nodes:
+
+[X1, X2, X3, X4, X5]
+
+Edge coefficient matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.0000   0.7750   0.0000   1.3190   0.0000
+  X2   0.0000   0.0000   1.0756   0.0000   0.0000
+  X3   0.0000   0.0000   0.0000   0.9639   0.0000
+  X4   0.0000   0.0000   0.0000   0.0000   0.5198
+  X5   0.0000   0.0000   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           X1       X2       X3       X4       X5
+  X1   1.0441   0.0000   0.0000   0.0000   0.0000
+  X2   0.0000   0.9290   0.0000   0.0000   0.0000
+  X3   0.0000   0.0000   1.0755   0.0000   0.0000
+  X4   0.0000   0.0000   0.0000   1.0232   0.0000
+  X5   0.0000   0.0000   0.0000   0.0000   1.0465
+
+
+Variable means:
+
+Mean(X1) = 0.0
+Mean(X2) = 0.0
+Mean(X3) = 0.0
+Mean(X4) = 0.0
+Mean(X5) = 0.0
+
+Sample size = 1000
+
+sample cov:
+
+       V1       V2       V3       V4       V5
+   1.0441   0.8092   0.8930   2.2379   1.1752
+   0.8092   1.5561   1.6738   2.6854   1.3634
+   0.8930   1.6738   2.8758   3.9500   1.9904
+   2.2379   2.6854   3.9500   7.7826   4.0453
+   1.1752   1.3634   1.9904   4.0453   3.1492
+
+
+implCovar:
+
+       V1       V2       V3       V4       V5
+   1.0441   0.8091   0.8703   2.2161   1.1519
+   0.8091   1.5561   1.6737   2.6807   1.3934
+   0.8703   1.6737   2.8758   3.9201   2.0377
+   2.2161   2.6807   3.9201   7.7251   4.0154
+   1.1519   1.3934   2.0377   4.0154   3.1337
+
+
+implCovarMeas:
+
+       V1       V2       V3       V4       V5
+   1.0441   0.8091   0.8703   2.2161   1.1519
+   0.8091   1.5561   1.6737   2.6807   1.3934
+   0.8703   1.6737   2.8758   3.9201   2.0377
+   2.2161   2.6807   3.9201   7.7251   4.0154
+   1.1519   1.3934   2.0377   4.0154   3.1337
+
+
+model chi square = 5.531278707222447
+model dof = 5
+model p-value = 0.35452824663893046
+
+free mappings:
+
+0. <B1 Linear Coefficient[0][1]>
+1. <B2 Linear Coefficient[1][2]>
+2. <B3 Linear Coefficient[0][3]>
+3. <B4 Linear Coefficient[2][3]>
+4. <B5 Linear Coefficient[3][4]>
+5. <T1 Error Variance[0][0]>
+6. <T2 Error Variance[1][1]>
+7. <T3 Error Variance[2][2]>
+8. <T4 Error Variance[3][3]>
+9. <T5 Error Variance[4][4]>
+
+fixed mappings:
+
+
+Variable nodes:
+
+[X1, X2, X3, X4]
+
+Measured nodes:
+
+[X1, X2, X3, X4]
+
+Edge coefficient matrix:
+
+           X1       X2       X3       X4
+  X1   0.0000   0.6876   0.0000   0.0000
+  X2   0.0000   0.0000  -1.2956   0.0000
+  X3   0.0000   0.0000   0.0000  -1.2404
+  X4  -0.8775   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           X1       X2       X3       X4
+  X1   1.1882   0.0000   0.0000   0.0000
+  X2   0.0000   2.6250   0.0000   0.0000
+  X3   0.0000   0.0000   1.2731   0.0000
+  X4   0.0000   0.0000   0.0000   2.3823
+
+
+Variable means:
+
+Mean(X1) = 0.03337812121183593
+Mean(X2) = 0.0010216702941740338
+Mean(X3) = 0.0022156194348177767
+Mean(X4) = 0.04449997130625479
+
+Sample size = 1000
+
+sample cov:
+
+       V1       V2       V3       V4
+   2.5571  -0.1199   0.8871  -2.2229
+  -0.1199   1.2534  -1.1385   0.6491
+   0.8871  -1.1385   2.1206  -1.6788
+  -2.2229   0.6491  -1.6788   3.2935
+
+
+implCovar:
+
+       V1       V2       V3       V4
+   2.5134  -0.1511   0.8993  -2.1768
+  -0.1511   1.2287  -1.1082   0.6449
+   0.8993  -1.1082   2.0822  -1.6372
+  -2.1768   0.6449  -1.6372   3.2402
+
+
+implCovarMeas:
+
+       V1       V2       V3       V4
+   2.5134  -0.1511   0.8993  -2.1768
+  -0.1511   1.2287  -1.1082   0.6449
+   0.8993  -1.1082   2.0822  -1.6372
+  -2.1768   0.6449  -1.6372   3.2402
+
+
+model chi square = 2.1732228749599187
+model dof = 2
+model p-value = 0.3373577167767948
+
+free mappings:
+
+0. <B1 Linear Coefficient[0][1]>
+1. <B2 Linear Coefficient[1][2]>
+2. <B3 Linear Coefficient[3][0]>
+3. <B4 Linear Coefficient[2][3]>
+4. <T1 Error Variance[0][0]>
+5. <T2 Error Variance[1][1]>
+6. <T3 Error Variance[2][2]>
+7. <T4 Error Variance[3][3]>
+
+fixed mappings:
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.109 sec
+Running edu.cmu.tetrad.test.TestUniformGraphGenerator
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.034 sec
+Running edu.cmu.tetrad.test.TestPoint
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestTransform
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running edu.cmu.tetrad.test.TestSearchGraph
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running edu.cmu.tetrad.test.TestBayesXml
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 sec
+Running edu.cmu.tetrad.test.TestFisherZCalibration
+
+Depth = 0
+
+Same = 1964 out of 2000
+
+                               FP  FN
+                     Fisher Z   6  63
+  Local Consistency Criterion   0  93
+
+
+alpha = 0.05
+alpha^ = 0.01639344262295082
+
+Depth = 1
+
+Same = 1956 out of 2000
+
+                               FP   FN
+                     Fisher Z   5  164
+  Local Consistency Criterion   0  203
+
+
+alpha = 0.05
+alpha^ = 0.024509803921568627
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.473 sec
+Running edu.cmu.tetrad.test.TestDataLoadersRoundtrip
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+Running edu.cmu.tetrad.test.TestGFci
+Elapsed 9 ms
+Elapsed initializeForwardEdgesFromEmptyGraph = 6 ms
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+Epoch
+Elapsed 9 ms
+Elapsed 18 ms
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.394 sec
+Running edu.cmu.tetrad.test.TestLargeSemSimulator
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running edu.cmu.tetrad.test.TestMarkovBlanketSearches
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running edu.cmu.tetrad.test.TestKernelGaussian
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestStatUtils
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.03 sec
+Running edu.cmu.tetrad.test.TestUpdatedBayesIm
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.012 sec
+Running edu.cmu.tetrad.test.TestDiscretizer
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running edu.cmu.tetrad.test.TestFas
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running edu.cmu.tetrad.test.TestEndpointMatrixGraph
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running edu.cmu.tetrad.test.TestPartialCorrelationPdf
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running edu.cmu.tetrad.test.TestGraphUtils
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running edu.cmu.tetrad.test.TestStandardizedSem
+
+Variable nodes:
+
+[X1, X2, X3, X4, X5]
+
+Measured nodes:
+
+[X1, X2, X3, X4, X5]
+
+Edge coefficient matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.0000   0.0000   0.0000  -0.4377   0.5550
+  X2   0.0000   0.0000  -0.8375   0.5824   0.0000
+  X3   0.0000   0.0000   0.0000   1.1699   0.0000
+  X4   0.0000   0.0000   0.0000   0.0000   0.0000
+  X5   0.0000   0.0000   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           X1       X2       X3       X4       X5
+  X1   1.0000   0.0000   0.0000   0.0000   0.0000
+  X2   0.0000   1.0000   0.0000   0.0000   0.0000
+  X3   0.0000   0.0000   0.2986   0.0000   0.0000
+  X4   0.0000   0.0000   0.0000   0.2522   0.0000
+  X5   0.0000   0.0000   0.0000   0.0000   0.6920
+
+
+Variable means:
+
+Mean(X1) = 4.8627768478581857E-17
+Mean(X2) = -5.040412531798211E-17
+Mean(X3) = 1.3100631690576846E-17
+Mean(X4) = 2.5979218776228665E-17
+Mean(X5) = 2.6423307986078724E-17
+
+Sample size = 1000
+
+sample cov:
+
+       V1       V2       V3       V4       V5
+   1.0000   0.0255  -0.0026  -0.4258   0.5550
+   0.0255   1.0000  -0.8375  -0.4086   0.0101
+  -0.0026  -0.8375   1.0000   0.6833  -0.0325
+  -0.4258  -0.4086   0.6833   1.0000  -0.2955
+   0.5550   0.0101  -0.0325  -0.2955   1.0000
+
+
+implCovar:
+
+       V1       V2       V3       V4       V5
+   1.0000                    -0.4377   0.5550
+            1.0000  -0.8375  -0.3975         
+           -0.8375   1.0000   0.6822         
+  -0.4377  -0.3975   0.6822   1.0104  -0.2429
+   0.5550                    -0.2429   1.0000
+
+
+implCovarMeas:
+
+       V1       V2       V3       V4       V5
+   1.0000                    -0.4377   0.5550
+            1.0000  -0.8375  -0.3975         
+           -0.8375   1.0000   0.6822         
+  -0.4377  -0.3975   0.6822   1.0104  -0.2429
+   0.5550                    -0.2429   1.0000
+
+
+model chi square = 10.265912469136818
+model dof = 5
+model p-value = 0.06804194784684137
+
+free mappings:
+
+0. <B1 Linear Coefficient[0][3]>
+1. <B2 Linear Coefficient[1][2]>
+2. <B3 Linear Coefficient[0][4]>
+3. <B4 Linear Coefficient[1][3]>
+4. <B5 Linear Coefficient[2][3]>
+5. <T1 Error Variance[0][0]>
+6. <T2 Error Variance[1][1]>
+7. <T3 Error Variance[2][2]>
+8. <T4 Error Variance[3][3]>
+9. <T5 Error Variance[4][4]>
+
+fixed mappings:
+
+cov
+       V1       V2       V3       V4       V5
+   1.0000                    -0.4315   0.5875
+            1.0000  -0.8358  -0.3934         
+           -0.8358   1.0000   0.6733         
+  -0.4315  -0.3934   0.6733   1.0000  -0.2535
+   0.5875                    -0.2535   1.0000
+
+cov
+       V1       V2       V3       V4       V5
+   1.0000   0.5760   0.3381   0.1730         
+   0.5760   1.0000   0.8678   0.7552         
+   0.3381   0.8678   1.0000   0.9206   0.2335
+   0.1730   0.7552   0.9206   1.0000   0.3784
+                     0.2335   0.3784   1.0000
+
+cov
+       V1       V2       V3
+   1.0000   0.5000  -0.3348
+   0.5000   1.0000  -0.5196
+  -0.3348  -0.5196   1.0000
+
+cov
+       V1       V2       V3
+   1.0000            0.4512
+            1.0000  -0.7586
+   0.4512  -0.7586   1.0000
+
+cov
+       V1       V2       V3
+   1.0000   0.7685  -0.8830
+   0.7685   1.0000  -0.9137
+  -0.8830  -0.9137   1.0000
+
+cov
+       V1       V2       V3       V4       V5
+   1.0000   0.7583                     0.3219
+   0.7583   1.0000   0.1500            0.6648
+            0.1500   1.0000            0.6852
+                              1.0000   0.4125
+   0.3219   0.6648   0.6852   0.4125   1.0000
+
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.27 sec
+Running edu.cmu.tetrad.test.TestCollisions
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestProposition
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestSemGraph
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running edu.cmu.tetrad.test.TestKnowledge
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running edu.cmu.tetrad.test.TestSemEvidence
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestSemIm
+
+Variable nodes:
+
+[X1, X2, X3, X4, X5]
+
+Measured nodes:
+
+[X3, X4, X5]
+
+Edge coefficient matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.0000   0.7522   0.0000  -0.0648   0.0000
+  X2   0.0000   0.0000   0.7919   0.0000   0.0000
+  X3   0.0000   0.0000   0.0000  -0.7988   0.0000
+  X4   0.0000   0.0000   0.0000   0.0000  -1.1096
+  X5   0.0000   0.0000   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           X1       X2       X3       X4       X5
+  X1   3.0700   0.0000   0.0000   0.0000   0.0000
+  X2   0.0000   0.4780   0.0000   0.0000   0.0000
+  X3   0.0000   0.0000   1.9887   0.0000   0.0000
+  X4   0.0000   0.0000   0.0000   2.0331   0.0000
+  X5   0.0000   0.0000   0.0000   0.0000   2.4166
+
+
+Variable means:
+
+Mean(X1) = 0.0
+Mean(X2) = 0.0
+Mean(X3) = 0.0
+Mean(X4) = 0.0
+Mean(X5) = 0.0
+
+Sample size = 500
+
+sample cov:
+
+       V1       V2       V3
+   3.3777  -2.8168   3.2326
+  -2.8168   4.3909  -4.8722
+   3.2326  -4.8722   7.8230
+
+
+implCovar:
+
+       V1       V2       V3       V4       V5
+   3.0700   2.3092   1.8287  -1.6598   1.8418
+   2.3092   2.2149   1.7540  -1.5509   1.7209
+   1.8287   1.7540   3.3777  -2.8168   3.1256
+  -1.6598  -1.5509  -2.8168   4.3909  -4.8722
+   1.8418   1.7209   3.1256  -4.8722   7.8230
+
+
+implCovarMeas:
+
+       V1       V2       V3
+   3.3777  -2.8168   3.1256
+  -2.8168   4.3909  -4.8722
+   3.1256  -4.8722   7.8230
+
+
+model chi square = 1.518759123961846
+model dof = -4
+model p-value = NaN
+
+free mappings:
+
+0. <B1 Linear Coefficient[0][1]>
+1. <B2 Linear Coefficient[1][2]>
+2. <B3 Linear Coefficient[0][3]>
+3. <B4 Linear Coefficient[2][3]>
+4. <B5 Linear Coefficient[3][4]>
+5. <T1 Error Variance[0][0]>
+6. <T2 Error Variance[1][1]>
+7. <T3 Error Variance[2][2]>
+8. <T4 Error Variance[3][3]>
+9. <T5 Error Variance[4][4]>
+
+fixed mappings:
+
+
+Variable nodes:
+
+[X1, X2, X3, X4, X5]
+
+Measured nodes:
+
+[X3, X4, X5]
+
+Edge coefficient matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.0000  -1.2066   0.0000  -1.3324   0.0000
+  X2   0.0000   0.0000  -1.7120   0.0000   0.0000
+  X3   0.0000   0.0000   0.0000  -0.3488   0.0000
+  X4   0.0000   0.0000   0.0000   0.0000  -1.1096
+  X5   0.0000   0.0000   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.5954   0.0000   0.0000   0.0000   0.0000
+  X2   0.0000   0.2170   0.0000   0.0000   0.0000
+  X3   0.0000   0.0000   0.2012   0.0000   0.0000
+  X4   0.0000   0.0000   0.0000   1.7799   0.0000
+  X5   0.0000   0.0000   0.0000   0.0000   2.4166
+
+
+Variable means:
+
+Mean(X1) = 0.0
+Mean(X2) = 0.0
+Mean(X3) = 0.0
+Mean(X4) = 0.0
+Mean(X5) = 0.0
+
+Sample size = 500
+
+sample cov:
+
+       V1       V2       V3
+   3.3777  -2.8168   3.2326
+  -2.8168   4.3909  -4.8722
+   3.2326  -4.8722   7.8230
+
+
+implCovar:
+
+       V1       V2       V3       V4       V5
+   0.5954  -0.7184   1.2298  -1.2222   1.3562
+  -0.7184   1.0838  -1.8554   1.6043  -1.7802
+   1.2298  -1.8554   3.3777  -2.8168   3.1256
+  -1.2222   1.6043  -2.8168   4.3909  -4.8722
+   1.3562  -1.7802   3.1256  -4.8722   7.8230
+
+
+implCovarMeas:
+
+       V1       V2       V3
+   3.3777  -2.8168   3.1256
+  -2.8168   4.3909  -4.8722
+   3.1256  -4.8722   7.8230
+
+
+model chi square = 1.518759606237099
+model dof = -4
+model p-value = NaN
+
+free mappings:
+
+0. <B1 Linear Coefficient[0][1]>
+1. <B2 Linear Coefficient[1][2]>
+2. <B3 Linear Coefficient[0][3]>
+3. <B4 Linear Coefficient[2][3]>
+4. <B5 Linear Coefficient[3][4]>
+5. <T1 Error Variance[0][0]>
+6. <T2 Error Variance[1][1]>
+7. <T3 Error Variance[2][2]>
+8. <T4 Error Variance[3][3]>
+9. <T5 Error Variance[4][4]>
+
+fixed mappings:
+
+
+Variable nodes:
+
+[X1, X2, X3, X4, X5]
+
+Measured nodes:
+
+[X3, X4, X5]
+
+Edge coefficient matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.0000   1.5792   0.0000  -1.0421   0.0000
+  X2   0.0000   0.0000  -0.3082   0.0000   0.0000
+  X3   0.0000   0.0000   0.0000  -0.8894   0.0000
+  X4   0.0000   0.0000   0.0000   0.0000  -1.1096
+  X5   0.0000   0.0000   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.3692   0.0000   0.0000   0.0000   0.0000
+  X2   0.0000   2.7126   0.0000   0.0000   0.0000
+  X3   0.0000   0.0000   3.0326   0.0000   0.0000
+  X4   0.0000   0.0000   0.0000   1.6514   0.0000
+  X5   0.0000   0.0000   0.0000   0.0000   2.4166
+
+
+Variable means:
+
+Mean(X1) = 0.0
+Mean(X2) = 0.0
+Mean(X3) = 0.0
+Mean(X4) = 0.0
+Mean(X5) = 0.0
+
+Sample size = 500
+
+sample cov:
+
+       V1       V2       V3
+   3.3777  -2.8168   3.2326
+  -2.8168   4.3909  -4.8722
+   3.2326  -4.8722   7.8230
+
+
+implCovar:
+
+       V1       V2       V3       V4       V5
+   0.3692   0.5830  -0.1797  -0.2249   0.2496
+   0.5830   3.6332  -1.1198   0.3884  -0.4310
+  -0.1797  -1.1198   3.3777  -2.8168   3.1255
+  -0.2249   0.3884  -2.8168   4.3909  -4.8722
+   0.2496  -0.4310   3.1255  -4.8722   7.8229
+
+
+implCovarMeas:
+
+       V1       V2       V3
+   3.3777  -2.8168   3.1255
+  -2.8168   4.3909  -4.8722
+   3.1255  -4.8722   7.8229
+
+
+model chi square = 1.5187695777517696
+model dof = -4
+model p-value = NaN
+
+free mappings:
+
+0. <B1 Linear Coefficient[0][1]>
+1. <B2 Linear Coefficient[1][2]>
+2. <B3 Linear Coefficient[0][3]>
+3. <B4 Linear Coefficient[2][3]>
+4. <B5 Linear Coefficient[3][4]>
+5. <T1 Error Variance[0][0]>
+6. <T2 Error Variance[1][1]>
+7. <T3 Error Variance[2][2]>
+8. <T4 Error Variance[3][3]>
+9. <T5 Error Variance[4][4]>
+
+fixed mappings:
+
+
+Variable nodes:
+
+[X1, X2, X3, X4, X5]
+
+Measured nodes:
+
+[X3, X4, X5]
+
+Edge coefficient matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.0000   0.4156   0.0000  -0.5401   0.0000
+  X2   0.0000   0.0000  -0.9881   0.0000   0.0000
+  X3   0.0000   0.0000   0.0000  -0.8889   0.0000
+  X4   0.0000   0.0000   0.0000   0.0000  -1.1096
+  X5   0.0000   0.0000   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           X1       X2       X3       X4       X5
+  X1   0.8322   0.0000   0.0000   0.0000   0.0000
+  X2   0.0000   0.4788   0.0000   0.0000   0.0000
+  X3   0.0000   0.0000   2.7698   0.0000   0.0000
+  X4   0.0000   0.0000   0.0000   1.8093   0.0000
+  X5   0.0000   0.0000   0.0000   0.0000   2.4166
+
+
+Variable means:
+
+Mean(X1) = 0.0
+Mean(X2) = 0.0
+Mean(X3) = 0.0
+Mean(X4) = 0.0
+Mean(X5) = 0.0
+
+Sample size = 500
+
+sample cov:
+
+       V1       V2       V3
+   3.3777  -2.8168   3.2326
+  -2.8168   4.3909  -4.8722
+   3.2326  -4.8722   7.8230
+
+
+implCovar:
+
+       V1       V2       V3       V4       V5
+   0.8322   0.3458  -0.3417  -0.1457   0.1617
+   0.3458   0.6226  -0.6152   0.3600  -0.3995
+  -0.3417  -0.6152   3.3777  -2.8178   3.1267
+  -0.1457   0.3600  -2.8178   4.3927  -4.8742
+   0.1617  -0.3995   3.1267  -4.8742   7.8252
+
+
+implCovarMeas:
+
+       V1       V2       V3
+   3.3777  -2.8178   3.1267
+  -2.8178   4.3927  -4.8742
+   3.1267  -4.8742   7.8252
+
+
+model chi square = 1.5177475469154376
+model dof = -4
+model p-value = NaN
+
+free mappings:
+
+0. <B1 Linear Coefficient[0][1]>
+1. <B2 Linear Coefficient[1][2]>
+2. <B3 Linear Coefficient[0][3]>
+3. <B4 Linear Coefficient[2][3]>
+4. <B5 Linear Coefficient[3][4]>
+5. <T1 Error Variance[0][0]>
+6. <T2 Error Variance[1][1]>
+7. <T3 Error Variance[2][2]>
+8. <T4 Error Variance[3][3]>
+9. <T5 Error Variance[4][4]>
+
+fixed mappings:
+
+
+Variable nodes:
+
+[z, P, Y, X]
+
+Measured nodes:
+
+[z, P, Y, X]
+
+Edge coefficient matrix:
+
+           z        P        Y        X
+  z   0.0000   0.5462   0.0000   0.0000
+  P   0.0000   0.0000   0.4844   0.0000
+  Y   0.0000   0.0000   0.0000   0.4975
+  X   0.0000   0.5036   0.0000   0.0000
+
+
+Error covariance matrix:
+
+           z        P        Y        X
+  z   2.7498   0.0000   0.0000   0.0000
+  P   0.0000   1.8666   0.0000   0.0000
+  Y   0.0000   0.0000   2.2127   0.0000
+  X   0.0000   0.0000   0.0000   1.0385
+
+
+Variable means:
+
+Mean(z) = 0.053221104737863165
+Mean(P) = 0.0023460263265173897
+Mean(Y) = 0.018094470939136825
+Mean(X) = 0.026312836036114572
+
+Sample size = 1000
+
+sample cov:
+
+       V1       V2       V3       V4
+   2.7530   1.7266   0.8117   0.4417
+   1.7266   4.0205   2.5796   1.8908
+   0.8117   2.5796   3.7697   2.1625
+   0.4417   1.8908   2.1625   2.2579
+
+
+implCovar:
+
+       V1       V2       V3       V4
+   2.7498   1.7094   0.8280   0.4119
+   1.7094   4.0017   2.5694   1.8735
+   0.8280   2.5694   3.7629   2.1604
+   0.4119   1.8735   2.1604   2.2567
+
+
+implCovarMeas:
+
+       V1       V2       V3       V4
+   2.7498   1.7094   0.8280   0.4119
+   1.7094   4.0017   2.5694   1.8735
+   0.8280   2.5694   3.7629   2.1604
+   0.4119   1.8735   2.1604   2.2567
+
+
+model chi square = 0.7272328113445979
+model dof = 2
+model p-value = 0.6951578021948674
+
+free mappings:
+
+0. <B1 Linear Coefficient[2][3]>
+1. <B2 Linear Coefficient[3][1]>
+2. <B3 Linear Coefficient[1][2]>
+3. <B4 Linear Coefficient[0][1]>
+4. <T1 Error Variance[0][0]>
+5. <T2 Error Variance[1][1]>
+6. <T3 Error Variance[2][2]>
+7. <T4 Error Variance[3][3]>
+
+fixed mappings:
+
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.123 sec
+Running edu.cmu.tetrad.test.TestModelGenerator
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestDagScorer
+
+Variable nodes:
+
+[X1, X2, X3, X4, X5, X6, X7, X8, X9, X10]
+
+Measured nodes:
+
+[X1, X2, X3, X4, X5, X6, X7, X8, X9, X10]
+
+Edge coefficient matrix:
+
+            X1       X2       X3       X4       X5       X6       X7       X8       X9      X10
+   X1   0.0000   0.0000   0.0000  -0.9329   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+   X2   0.0000   0.0000   0.0000   0.0000  -0.7912   0.0000   0.0000   0.0000   0.0000   0.0000
+   X3   0.0000   0.0000   0.0000  -0.7958   0.0000   0.0000  -0.5926   0.0000   0.0000   0.9296
+   X4   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+   X5   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000  -0.4995   0.0000   1.4058
+   X6   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   1.0511
+   X7   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   1.0447  -1.4283
+   X8   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+   X9   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+  X10   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+
+
+Error covariance matrix:
+
+            X1       X2       X3       X4       X5       X6       X7       X8       X9      X10
+   X1   2.5205   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+   X2   0.0000   2.2311   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+   X3   0.0000   0.0000   1.9960   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+   X4   0.0000   0.0000   0.0000   2.0359   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000
+   X5   0.0000   0.0000   0.0000   0.0000   2.1449   0.0000   0.0000   0.0000   0.0000   0.0000
+   X6   0.0000   0.0000   0.0000   0.0000   0.0000   2.9857   0.0000   0.0000   0.0000   0.0000
+   X7   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   2.5936   0.0000   0.0000   0.0000
+   X8   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   1.1212   0.0000   0.0000
+   X9   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   1.3397   0.0000
+  X10   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   0.0000   2.5747
+
+
+Variable means:
+
+Mean(X1) = -0.076564334805191
+Mean(X2) = 0.026965103950923858
+Mean(X3) = -0.018515179832054
+Mean(X4) = 0.08313832852144724
+Mean(X5) = 0.02025772745646374
+Mean(X6) = -0.07131571819017028
+Mean(X7) = 0.03523130759432858
+Mean(X8) = 0.006493203186764988
+Mean(X9) = 0.03275345074830093
+Mean(X10) = -3.14756460205702E-4
+
+Sample size = 1000
+
+sample cov:
+
+       V1       V2       V3       V4       V5       V6       V7       V8       V9       V10
+   2.5205   0.0046  -0.1186  -2.2570   0.0001  -0.2163   0.1145  -0.0357   0.1823   -0.4704
+   0.0046   2.2311   0.0305  -0.0549  -1.7652  -0.0209  -0.0588   0.8999  -0.1548   -2.3264
+  -0.1186   0.0305   1.9960  -1.4777  -0.0199  -0.0326  -1.1828   0.1072  -1.2811    3.4827
+  -2.2570  -0.0549  -1.4777   5.3175   0.1674   0.2884   0.7592  -0.1595   0.7754   -2.0119
+   0.0001  -1.7652  -0.0199   0.1674   3.5415   0.0385   0.0391  -1.7692   0.1321    4.9448
+  -0.2163  -0.0209  -0.0326   0.2884   0.0385   2.9857   0.1088  -0.0486   0.0920    3.0067
+   0.1145  -0.0588  -1.1828   0.7592   0.0391   0.1088   3.2945  -0.0900   3.4417   -5.6360
+  -0.0357   0.8999   0.1072  -0.1595  -1.7692  -0.0486  -0.0900   2.0050  -0.1409   -2.4152
+   0.1823  -0.1548  -1.2811   0.7754   0.1321   0.0920   3.4417  -0.1409   4.9352   -5.9035
+  -0.4704  -2.3264   3.4827  -2.0119   4.9448   3.0067  -5.6360  -2.4152  -5.9035   23.9737
+
+
+implCovar:
+
+       V1       V2       V3       V4       V5       V6       V7       V8       V9       V10
+   2.5205                    -2.3514                                                       
+            2.2311                    -1.7652                     0.8818            -2.4815
+                     1.9960  -1.5884                    -1.1828  -0.0000  -1.2357    3.5450
+  -2.3514           -1.5884   5.4936                     0.9413   0.0000   0.9833   -2.8210
+           -1.7652                     3.5415                    -1.7692             4.9786
+                                                2.9857                               3.1382
+                    -1.1828   0.9413                     3.2945   0.0000   3.4417   -5.8053
+            0.8818  -0.0000   0.0000  -1.7692            0.0000   2.0050   0.0000   -2.4871
+                    -1.2357   0.9833                     3.4417   0.0000   4.9352   -6.0646
+           -2.4815   3.5450  -2.8210   4.9786   3.1382  -5.8053  -2.4871  -6.0646   24.4593
+
+
+implCovarMeas:
+
+       V1       V2       V3       V4       V5       V6       V7       V8       V9       V10
+   2.5205                    -2.3514                                                       
+            2.2311                    -1.7652                     0.8818            -2.4815
+                     1.9960  -1.5884                    -1.1828  -0.0000  -1.2357    3.5450
+  -2.3514           -1.5884   5.4936                     0.9413   0.0000   0.9833   -2.8210
+           -1.7652                     3.5415                    -1.7692             4.9786
+                                                2.9857                               3.1382
+                    -1.1828   0.9413                     3.2945   0.0000   3.4417   -5.8053
+            0.8818  -0.0000   0.0000  -1.7692            0.0000   2.0050   0.0000   -2.4871
+                    -1.2357   0.9833                     3.4417   0.0000   4.9352   -6.0646
+           -2.4815   3.5450  -2.8210   4.9786   3.1382  -5.8053  -2.4871  -6.0646   24.4593
+
+
+model chi square = 36.87618309048218
+model dof = 35
+model p-value = 0.38216438915933293
+
+free mappings:
+
+0. <B1 Linear Coefficient[6][8]>
+1. <B2 Linear Coefficient[2][9]>
+2. <B3 Linear Coefficient[5][9]>
+3. <B4 Linear Coefficient[0][3]>
+4. <B5 Linear Coefficient[4][9]>
+5. <B6 Linear Coefficient[6][9]>
+6. <B7 Linear Coefficient[1][4]>
+7. <B8 Linear Coefficient[2][3]>
+8. <B9 Linear Coefficient[2][6]>
+9. <B10 Linear Coefficient[4][7]>
+10. <T1 Error Variance[0][0]>
+11. <T2 Error Variance[1][1]>
+12. <T3 Error Variance[2][2]>
+13. <T4 Error Variance[3][3]>
+14. <T5 Error Variance[4][4]>
+15. <T6 Error Variance[5][5]>
+16. <T7 Error Variance[6][6]>
+17. <T8 Error Variance[7][7]>
+18. <T9 Error Variance[8][8]>
+19. <T10 Error Variance[9][9]>
+
+fixed mappings:
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running edu.cmu.tetrad.test.TestSession
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestSessionNode
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running edu.cmu.tetrad.test.TestDM
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.125 sec
+Running edu.cmu.tetrad.test.TestSessionSupport
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestMathUtils
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestFci
+Indep: X41 _||_ X62 | []
+Indep: X41 _||_ X62 | [X4]
+Indep: X41 _||_ X62 | [X4, X71]
+Indep: X44 _||_ X36 | [X13]
+Indep: X44 _||_ X36 | [X67, X13]
+Indep: X44 _||_ X64 | [X13]
+Indep: X50 _||_ X28 | []
+Indep: X50 _||_ X28 | [X52]
+Indep: X50 _||_ X28 | [X56]
+Indep: X50 _||_ X28 | [X24]
+Indep: X50 _||_ X28 | [X52, X56]
+Indep: X50 _||_ X28 | [X52, X24]
+Indep: X50 _||_ X28 | [X56, X24]
+Indep: X50 _||_ X28 | [X52, X56, X24]
+Indep: X70 _||_ X80 | []
+Indep: X70 _||_ X80 | [X25]
+Indep: X66 _||_ X58 | []
+Indep: X66 _||_ X58 | [X71]
+Indep: X66 _||_ X58 | [X52]
+Indep: X66 _||_ X58 | [X32]
+Indep: X66 _||_ X58 | [X75]
+Indep: X66 _||_ X58 | [X28]
+Indep: X66 _||_ X58 | [X71, X52]
+Indep: X66 _||_ X58 | [X71, X32]
+Indep: X66 _||_ X58 | [X71, X75]
+Indep: X66 _||_ X58 | [X71, X28]
+Indep: X66 _||_ X58 | [X52, X32]
+Indep: X66 _||_ X58 | [X52, X75]
+Indep: X66 _||_ X58 | [X52, X28]
+Indep: X66 _||_ X58 | [X32, X75]
+Indep: X66 _||_ X58 | [X32, X28]
+Indep: X66 _||_ X58 | [X75, X28]
+Indep: X66 _||_ X58 | [X71, X52, X32]
+Indep: X66 _||_ X58 | [X71, X52, X75]
+Indep: X66 _||_ X58 | [X71, X52, X28]
+Indep: X66 _||_ X58 | [X71, X32, X75]
+Indep: X66 _||_ X58 | [X71, X32, X28]
+Indep: X66 _||_ X58 | [X71, X75, X28]
+Indep: X66 _||_ X58 | [X52, X32, X75]
+Indep: X66 _||_ X58 | [X52, X32, X28]
+Indep: X66 _||_ X58 | [X52, X75, X28]
+Indep: X66 _||_ X58 | [X32, X75, X28]
+Indep: X66 _||_ X58 | [X71, X52, X32, X75]
+Indep: X66 _||_ X58 | [X71, X52, X32, X28]
+Indep: X66 _||_ X58 | [X71, X52, X75, X28]
+Indep: X66 _||_ X58 | [X71, X32, X75, X28]
+Indep: X66 _||_ X58 | [X52, X32, X75, X28]
+Indep: X66 _||_ X58 | [X71, X52, X32, X75, X28]
+Indep: X66 _||_ X60 | []
+Indep: X66 _||_ X60 | [X71]
+Indep: X66 _||_ X60 | [X52]
+Indep: X66 _||_ X60 | [X32]
+Indep: X66 _||_ X60 | [X75]
+Indep: X66 _||_ X60 | [X28]
+Indep: X66 _||_ X60 | [X71, X52]
+Indep: X66 _||_ X60 | [X71, X32]
+Indep: X66 _||_ X60 | [X71, X75]
+Indep: X66 _||_ X60 | [X71, X28]
+Indep: X66 _||_ X60 | [X52, X32]
+Indep: X66 _||_ X60 | [X52, X75]
+Indep: X66 _||_ X60 | [X52, X28]
+Indep: X66 _||_ X60 | [X32, X75]
+Indep: X66 _||_ X60 | [X32, X28]
+Indep: X66 _||_ X60 | [X75, X28]
+Indep: X66 _||_ X60 | [X71, X52, X32]
+Indep: X66 _||_ X60 | [X71, X52, X75]
+Indep: X66 _||_ X60 | [X71, X52, X28]
+Indep: X66 _||_ X60 | [X71, X32, X75]
+Indep: X66 _||_ X60 | [X71, X32, X28]
+Indep: X66 _||_ X60 | [X71, X75, X28]
+Indep: X66 _||_ X60 | [X52, X32, X75]
+Indep: X66 _||_ X60 | [X52, X32, X28]
+Indep: X66 _||_ X60 | [X52, X75, X28]
+Indep: X66 _||_ X60 | [X32, X75, X28]
+Indep: X66 _||_ X60 | [X71, X52, X32, X75]
+Indep: X66 _||_ X60 | [X71, X52, X32, X28]
+Indep: X66 _||_ X60 | [X71, X52, X75, X28]
+Indep: X66 _||_ X60 | [X71, X32, X75, X28]
+Indep: X66 _||_ X60 | [X52, X32, X75, X28]
+Indep: X66 _||_ X60 | [X71, X52, X32, X75, X28]
+Indep: X66 _||_ X24 | []
+Indep: X66 _||_ X24 | [X71]
+Indep: X66 _||_ X24 | [X52]
+Indep: X66 _||_ X24 | [X32]
+Indep: X66 _||_ X24 | [X75]
+Indep: X66 _||_ X24 | [X28]
+Indep: X66 _||_ X24 | [X71, X52]
+Indep: X66 _||_ X24 | [X71, X32]
+Indep: X66 _||_ X24 | [X71, X75]
+Indep: X66 _||_ X24 | [X71, X28]
+Indep: X66 _||_ X24 | [X52, X32]
+Indep: X66 _||_ X24 | [X52, X75]
+Indep: X66 _||_ X24 | [X52, X28]
+Indep: X66 _||_ X24 | [X32, X75]
+Indep: X66 _||_ X24 | [X32, X28]
+Indep: X66 _||_ X24 | [X75, X28]
+Indep: X66 _||_ X24 | [X71, X52, X32]
+Indep: X66 _||_ X24 | [X71, X52, X75]
+Indep: X66 _||_ X24 | [X71, X52, X28]
+Indep: X66 _||_ X24 | [X71, X32, X75]
+Indep: X66 _||_ X24 | [X71, X32, X28]
+Indep: X66 _||_ X24 | [X71, X75, X28]
+Indep: X66 _||_ X24 | [X52, X32, X75]
+Indep: X66 _||_ X24 | [X52, X32, X28]
+Indep: X66 _||_ X24 | [X52, X75, X28]
+Indep: X66 _||_ X24 | [X32, X75, X28]
+Indep: X66 _||_ X24 | [X71, X52, X32, X75]
+Indep: X66 _||_ X24 | [X71, X52, X32, X28]
+Indep: X66 _||_ X24 | [X71, X52, X75, X28]
+Indep: X66 _||_ X24 | [X71, X32, X75, X28]
+Indep: X66 _||_ X24 | [X52, X32, X75, X28]
+Indep: X66 _||_ X24 | [X71, X52, X32, X75, X28]
+Indep: X58 _||_ X60 | [X76]
+Indep: X58 _||_ X60 | [X28]
+Indep: X58 _||_ X60 | [X45, X76]
+Indep: X58 _||_ X60 | [X45, X28]
+Indep: X58 _||_ X60 | [X76, X64]
+Indep: X58 _||_ X60 | [X64, X28]
+Indep: X58 _||_ X60 | [X45, X76, X64]
+Indep: X58 _||_ X60 | [X45, X76, X28]
+Indep: X58 _||_ X60 | [X45, X64, X28]
+Indep: X58 _||_ X60 | [X45, X76, X64, X28]
+Indep: X58 _||_ X24 | []
+Indep: X58 _||_ X24 | [X45]
+Indep: X58 _||_ X24 | [X76]
+Indep: X58 _||_ X24 | [X64]
+Indep: X58 _||_ X24 | [X45, X76]
+Indep: X58 _||_ X24 | [X45, X64]
+Indep: X58 _||_ X24 | [X76, X64]
+Indep: X58 _||_ X24 | [X45, X76, X64]
+Indep: X60 _||_ X24 | []
+Indep: X60 _||_ X24 | [X57]
+Indep: X60 _||_ X24 | [X35]
+Indep: X60 _||_ X24 | [X76]
+Indep: X60 _||_ X24 | [X28]
+Indep: X60 _||_ X24 | [X57, X35]
+Indep: X60 _||_ X24 | [X57, X76]
+Indep: X60 _||_ X24 | [X57, X28]
+Indep: X60 _||_ X24 | [X35, X76]
+Indep: X60 _||_ X24 | [X35, X28]
+Indep: X60 _||_ X24 | [X76, X28]
+Indep: X60 _||_ X24 | [X57, X35, X76]
+Indep: X60 _||_ X24 | [X57, X35, X28]
+Indep: X60 _||_ X24 | [X57, X76, X28]
+Indep: X60 _||_ X24 | [X35, X76, X28]
+Indep: X60 _||_ X24 | [X57, X35, X76, X28]
+Indep: X66 _||_ X40 | [X32]
+Indep: X66 _||_ X40 | [X71, X32]
+Indep: X66 _||_ X40 | [X52, X32]
+Indep: X66 _||_ X40 | [X32, X75]
+Indep: X66 _||_ X40 | [X32, X28]
+Indep: X66 _||_ X40 | [X71, X52, X32]
+Indep: X66 _||_ X40 | [X71, X32, X75]
+Indep: X66 _||_ X40 | [X71, X32, X28]
+Indep: X66 _||_ X40 | [X52, X32, X75]
+Indep: X66 _||_ X40 | [X52, X32, X28]
+Indep: X66 _||_ X40 | [X32, X75, X28]
+Indep: X66 _||_ X40 | [X71, X52, X32, X75]
+Indep: X66 _||_ X40 | [X71, X52, X32, X28]
+Indep: X66 _||_ X40 | [X71, X32, X75, X28]
+Indep: X66 _||_ X40 | [X52, X32, X75, X28]
+Indep: X66 _||_ X40 | [X71, X52, X32, X75, X28]
+Indep: X66 _||_ X39 | []
+Indep: X66 _||_ X39 | [X71]
+Indep: X66 _||_ X39 | [X52]
+Indep: X66 _||_ X39 | [X32]
+Indep: X66 _||_ X39 | [X75]
+Indep: X66 _||_ X39 | [X28]
+Indep: X66 _||_ X39 | [X71, X52]
+Indep: X66 _||_ X39 | [X71, X32]
+Indep: X66 _||_ X39 | [X71, X75]
+Indep: X66 _||_ X39 | [X71, X28]
+Indep: X66 _||_ X39 | [X52, X32]
+Indep: X66 _||_ X39 | [X52, X75]
+Indep: X66 _||_ X39 | [X52, X28]
+Indep: X66 _||_ X39 | [X32, X75]
+Indep: X66 _||_ X39 | [X32, X28]
+Indep: X66 _||_ X39 | [X75, X28]
+Indep: X66 _||_ X39 | [X71, X52, X32]
+Indep: X66 _||_ X39 | [X71, X52, X75]
+Indep: X66 _||_ X39 | [X71, X52, X28]
+Indep: X66 _||_ X39 | [X71, X32, X75]
+Indep: X66 _||_ X39 | [X71, X32, X28]
+Indep: X66 _||_ X39 | [X71, X75, X28]
+Indep: X66 _||_ X39 | [X52, X32, X75]
+Indep: X66 _||_ X39 | [X52, X32, X28]
+Indep: X66 _||_ X39 | [X52, X75, X28]
+Indep: X66 _||_ X39 | [X32, X75, X28]
+Indep: X66 _||_ X39 | [X71, X52, X32, X75]
+Indep: X66 _||_ X39 | [X71, X52, X32, X28]
+Indep: X66 _||_ X39 | [X71, X52, X75, X28]
+Indep: X66 _||_ X39 | [X71, X32, X75, X28]
+Indep: X66 _||_ X39 | [X52, X32, X75, X28]
+Indep: X66 _||_ X39 | [X71, X52, X32, X75, X28]
+Indep: X40 _||_ X75 | [X32]
+Indep: X40 _||_ X39 | []
+Indep: X40 _||_ X39 | [X32]
+Indep: X75 _||_ X39 | []
+Indep: X75 _||_ X39 | [X66]
+Indep: X75 _||_ X39 | [X32]
+Indep: X75 _||_ X39 | [X66, X32]
+Indep: X62 _||_ X64 | [X36]
+Indep: X62 _||_ X64 | [X4, X36]
+Indep: X62 _||_ X13 | [X36]
+Indep: X62 _||_ X13 | [X4, X36]
+Indep: X45 _||_ X56 | []
+Indep: X45 _||_ X56 | [X76]
+Indep: X45 _||_ X56 | [X58]
+Indep: X45 _||_ X56 | [X76, X58]
+Indep: X45 _||_ X80 | []
+Indep: X45 _||_ X80 | [X76]
+Indep: X45 _||_ X80 | [X58]
+Indep: X45 _||_ X80 | [X76, X58]
+Indep: X45 _||_ X32 | [X39]
+Indep: X45 _||_ X32 | [X76, X39]
+Indep: X45 _||_ X32 | [X58, X39]
+Indep: X45 _||_ X32 | [X76, X58, X39]
+Indep: X56 _||_ X32 | []
+Indep: X56 _||_ X32 | [X80]
+Indep: X56 _||_ X32 | [X50]
+Indep: X56 _||_ X32 | [X39]
+Indep: X56 _||_ X32 | [X80, X50]
+Indep: X56 _||_ X32 | [X80, X39]
+Indep: X56 _||_ X32 | [X50, X39]
+Indep: X56 _||_ X32 | [X80, X50, X39]
+Indep: X80 _||_ X32 | []
+Indep: X80 _||_ X32 | [X56]
+Indep: X80 _||_ X32 | [X25]
+Indep: X80 _||_ X32 | [X57]
+Indep: X80 _||_ X32 | [X76]
+Indep: X80 _||_ X32 | [X39]
+Indep: X80 _||_ X32 | [X17]
+Indep: X80 _||_ X32 | [X56, X25]
+Indep: X80 _||_ X32 | [X56, X57]
+Indep: X80 _||_ X32 | [X56, X76]
+Indep: X80 _||_ X32 | [X56, X39]
+Indep: X80 _||_ X32 | [X56, X17]
+Indep: X80 _||_ X32 | [X25, X57]
+Indep: X80 _||_ X32 | [X25, X76]
+Indep: X80 _||_ X32 | [X25, X39]
+Indep: X80 _||_ X32 | [X25, X17]
+Indep: X80 _||_ X32 | [X57, X76]
+Indep: X80 _||_ X32 | [X57, X39]
+Indep: X80 _||_ X32 | [X57, X17]
+Indep: X80 _||_ X32 | [X76, X39]
+Indep: X80 _||_ X32 | [X76, X17]
+Indep: X80 _||_ X32 | [X39, X17]
+Indep: X80 _||_ X32 | [X56, X25, X57]
+Indep: X80 _||_ X32 | [X56, X25, X76]
+Indep: X80 _||_ X32 | [X56, X25, X39]
+Indep: X80 _||_ X32 | [X56, X25, X17]
+Indep: X80 _||_ X32 | [X56, X57, X76]
+Indep: X80 _||_ X32 | [X56, X57, X39]
+Indep: X80 _||_ X32 | [X56, X57, X17]
+Indep: X80 _||_ X32 | [X56, X76, X39]
+Indep: X80 _||_ X32 | [X56, X76, X17]
+Indep: X80 _||_ X32 | [X56, X39, X17]
+Indep: X80 _||_ X32 | [X25, X57, X76]
+Indep: X80 _||_ X32 | [X25, X57, X39]
+Indep: X80 _||_ X32 | [X25, X57, X17]
+Indep: X80 _||_ X32 | [X25, X76, X39]
+Indep: X80 _||_ X32 | [X25, X76, X17]
+Indep: X80 _||_ X32 | [X25, X39, X17]
+Indep: X80 _||_ X32 | [X57, X76, X39]
+Indep: X80 _||_ X32 | [X57, X76, X17]
+Indep: X80 _||_ X32 | [X57, X39, X17]
+Indep: X80 _||_ X32 | [X76, X39, X17]
+Indep: X80 _||_ X32 | [X56, X25, X57, X76]
+Indep: X80 _||_ X32 | [X56, X25, X57, X39]
+Indep: X80 _||_ X32 | [X56, X25, X57, X17]
+Indep: X80 _||_ X32 | [X56, X25, X76, X39]
+Indep: X80 _||_ X32 | [X56, X25, X76, X17]
+Indep: X80 _||_ X32 | [X56, X25, X39, X17]
+Indep: X80 _||_ X32 | [X56, X57, X76, X39]
+Indep: X80 _||_ X32 | [X56, X57, X76, X17]
+Indep: X80 _||_ X32 | [X56, X57, X39, X17]
+Indep: X80 _||_ X32 | [X56, X76, X39, X17]
+Indep: X80 _||_ X32 | [X25, X57, X76, X39]
+Indep: X80 _||_ X32 | [X25, X57, X76, X17]
+Indep: X80 _||_ X32 | [X25, X57, X39, X17]
+Indep: X80 _||_ X32 | [X25, X76, X39, X17]
+Indep: X80 _||_ X32 | [X57, X76, X39, X17]
+Indep: X80 _||_ X32 | [X56, X25, X57, X76, X39]
+Indep: X80 _||_ X32 | [X56, X25, X57, X76, X17]
+Indep: X80 _||_ X32 | [X56, X25, X57, X39, X17]
+Indep: X80 _||_ X32 | [X56, X25, X76, X39, X17]
+Indep: X80 _||_ X32 | [X56, X57, X76, X39, X17]
+Indep: X80 _||_ X32 | [X25, X57, X76, X39, X17]
+Indep: X80 _||_ X32 | [X56, X25, X57, X76, X39, X17]
+Indep: X4 _||_ X71 | []
+Indep: X4 _||_ X71 | [X41]
+Indep: X4 _||_ X71 | [X41, X62]
+Indep: X67 _||_ X13 | [X44]
+Indep: X67 _||_ X13 | [X55, X44]
+Indep: X76 _||_ X39 | [X45]
+Indep: X76 _||_ X39 | [X45, X80]
+Indep: X76 _||_ X39 | [X45, X58]
+Indep: X76 _||_ X39 | [X45, X60]
+Indep: X76 _||_ X39 | [X45, X57]
+Indep: X76 _||_ X39 | [X45, X80, X58]
+Indep: X76 _||_ X39 | [X45, X80, X60]
+Indep: X76 _||_ X39 | [X45, X80, X57]
+Indep: X76 _||_ X39 | [X45, X58, X60]
+Indep: X76 _||_ X39 | [X45, X58, X57]
+Indep: X76 _||_ X39 | [X45, X60, X57]
+Indep: X76 _||_ X39 | [X45, X80, X58, X60]
+Indep: X76 _||_ X39 | [X45, X80, X58, X57]
+Indep: X76 _||_ X39 | [X45, X80, X60, X57]
+Indep: X76 _||_ X39 | [X45, X58, X60, X57]
+Indep: X76 _||_ X39 | [X45, X80, X58, X60, X57]
+Indep: X58 _||_ X39 | [X45]
+Indep: X58 _||_ X39 | [X45, X64]
+Indep: X52 _||_ X56 | []
+Indep: X52 _||_ X56 | [X66]
+Indep: X52 _||_ X56 | [X50]
+Indep: X52 _||_ X56 | [X66, X50]
+Indep: X52 _||_ X24 | []
+Indep: X52 _||_ X24 | [X66]
+Indep: X56 _||_ X24 | []
+Indep: X56 _||_ X24 | [X80]
+Indep: X56 _||_ X24 | [X50]
+Indep: X56 _||_ X24 | [X39]
+Indep: X56 _||_ X24 | [X80, X50]
+Indep: X56 _||_ X24 | [X80, X39]
+Indep: X56 _||_ X24 | [X50, X39]
+Indep: X56 _||_ X24 | [X80, X50, X39]
+Indep: X66 _||_ X50 | []
+Indep: X66 _||_ X50 | [X71]
+Indep: X66 _||_ X50 | [X52]
+Indep: X66 _||_ X50 | [X32]
+Indep: X66 _||_ X50 | [X75]
+Indep: X66 _||_ X50 | [X28]
+Indep: X66 _||_ X50 | [X71, X52]
+Indep: X66 _||_ X50 | [X71, X32]
+Indep: X66 _||_ X50 | [X71, X75]
+Indep: X66 _||_ X50 | [X71, X28]
+Indep: X66 _||_ X50 | [X52, X32]
+Indep: X66 _||_ X50 | [X52, X75]
+Indep: X66 _||_ X50 | [X52, X28]
+Indep: X66 _||_ X50 | [X32, X75]
+Indep: X66 _||_ X50 | [X32, X28]
+Indep: X66 _||_ X50 | [X75, X28]
+Indep: X66 _||_ X50 | [X71, X52, X32]
+Indep: X66 _||_ X50 | [X71, X52, X75]
+Indep: X66 _||_ X50 | [X71, X52, X28]
+Indep: X66 _||_ X50 | [X71, X32, X75]
+Indep: X66 _||_ X50 | [X71, X32, X28]
+Indep: X66 _||_ X50 | [X71, X75, X28]
+Indep: X66 _||_ X50 | [X52, X32, X75]
+Indep: X66 _||_ X50 | [X52, X32, X28]
+Indep: X66 _||_ X50 | [X52, X75, X28]
+Indep: X66 _||_ X50 | [X32, X75, X28]
+Indep: X66 _||_ X50 | [X71, X52, X32, X75]
+Indep: X66 _||_ X50 | [X71, X52, X32, X28]
+Indep: X66 _||_ X50 | [X71, X52, X75, X28]
+Indep: X66 _||_ X50 | [X71, X32, X75, X28]
+Indep: X66 _||_ X50 | [X52, X32, X75, X28]
+Indep: X66 _||_ X50 | [X71, X52, X32, X75, X28]
+Indep: X80 _||_ X50 | []
+Indep: X80 _||_ X50 | [X25]
+Indep: X80 _||_ X50 | [X57]
+Indep: X80 _||_ X50 | [X76]
+Indep: X80 _||_ X50 | [X39]
+Indep: X80 _||_ X50 | [X17]
+Indep: X80 _||_ X50 | [X56, X76]
+Indep: X80 _||_ X50 | [X56, X39]
+Indep: X80 _||_ X50 | [X56, X17]
+Indep: X80 _||_ X50 | [X25, X57]
+Indep: X80 _||_ X50 | [X25, X76]
+Indep: X80 _||_ X50 | [X25, X39]
+Indep: X80 _||_ X50 | [X25, X17]
+Indep: X80 _||_ X50 | [X57, X76]
+Indep: X80 _||_ X50 | [X57, X39]
+Indep: X80 _||_ X50 | [X57, X17]
+Indep: X80 _||_ X50 | [X76, X39]
+Indep: X80 _||_ X50 | [X76, X17]
+Indep: X80 _||_ X50 | [X39, X17]
+Indep: X80 _||_ X50 | [X56, X25, X76]
+Indep: X80 _||_ X50 | [X56, X25, X39]
+Indep: X80 _||_ X50 | [X56, X57, X39]
+Indep: X80 _||_ X50 | [X56, X76, X39]
+Indep: X80 _||_ X50 | [X56, X76, X17]
+Indep: X80 _||_ X50 | [X56, X39, X17]
+Indep: X80 _||_ X50 | [X25, X57, X76]
+Indep: X80 _||_ X50 | [X25, X57, X39]
+Indep: X80 _||_ X50 | [X25, X57, X17]
+Indep: X80 _||_ X50 | [X25, X76, X39]
+Indep: X80 _||_ X50 | [X25, X76, X17]
+Indep: X80 _||_ X50 | [X25, X39, X17]
+Indep: X80 _||_ X50 | [X57, X76, X39]
+Indep: X80 _||_ X50 | [X57, X76, X17]
+Indep: X80 _||_ X50 | [X57, X39, X17]
+Indep: X80 _||_ X50 | [X76, X39, X17]
+Indep: X80 _||_ X50 | [X56, X25, X57, X39]
+Indep: X80 _||_ X50 | [X56, X25, X76, X39]
+Indep: X80 _||_ X50 | [X56, X25, X76, X17]
+Indep: X80 _||_ X50 | [X56, X25, X39, X17]
+Indep: X80 _||_ X50 | [X56, X57, X76, X39]
+Indep: X80 _||_ X50 | [X56, X57, X76, X17]
+Indep: X80 _||_ X50 | [X56, X57, X39, X17]
+Indep: X80 _||_ X50 | [X56, X76, X39, X17]
+Indep: X80 _||_ X50 | [X25, X57, X76, X39]
+Indep: X80 _||_ X50 | [X25, X57, X76, X17]
+Indep: X80 _||_ X50 | [X25, X57, X39, X17]
+Indep: X80 _||_ X50 | [X25, X76, X39, X17]
+Indep: X80 _||_ X50 | [X57, X76, X39, X17]
+Indep: X80 _||_ X50 | [X56, X25, X57, X76, X39]
+Indep: X80 _||_ X50 | [X56, X25, X57, X39, X17]
+Indep: X80 _||_ X50 | [X56, X25, X76, X39, X17]
+Indep: X80 _||_ X50 | [X56, X57, X76, X39, X17]
+Indep: X80 _||_ X50 | [X25, X57, X76, X39, X17]
+Indep: X80 _||_ X50 | [X56, X25, X57, X76, X39, X17]
+Indep: X50 _||_ X39 | []
+Indep: X50 _||_ X39 | [X52]
+Indep: X50 _||_ X39 | [X24]
+Indep: X50 _||_ X39 | [X52, X24]
+Indep: X80 _||_ X60 | [X57]
+Indep: X80 _||_ X60 | [X76]
+Indep: X80 _||_ X60 | [X56, X57]
+Indep: X80 _||_ X60 | [X56, X76]
+Indep: X80 _||_ X60 | [X25, X57]
+Indep: X80 _||_ X60 | [X25, X76]
+Indep: X80 _||_ X60 | [X57, X76]
+Indep: X80 _||_ X60 | [X57, X39]
+Indep: X80 _||_ X60 | [X57, X17]
+Indep: X80 _||_ X60 | [X76, X39]
+Indep: X80 _||_ X60 | [X76, X17]
+Indep: X80 _||_ X60 | [X56, X25, X57]
+Indep: X80 _||_ X60 | [X56, X25, X76]
+Indep: X80 _||_ X60 | [X56, X57, X76]
+Indep: X80 _||_ X60 | [X56, X57, X39]
+Indep: X80 _||_ X60 | [X56, X57, X17]
+Indep: X80 _||_ X60 | [X56, X76, X39]
+Indep: X80 _||_ X60 | [X56, X76, X17]
+Indep: X80 _||_ X60 | [X25, X57, X76]
+Indep: X80 _||_ X60 | [X25, X57, X39]
+Indep: X80 _||_ X60 | [X25, X57, X17]
+Indep: X80 _||_ X60 | [X25, X76, X39]
+Indep: X80 _||_ X60 | [X25, X76, X17]
+Indep: X80 _||_ X60 | [X57, X76, X39]
+Indep: X80 _||_ X60 | [X57, X76, X17]
+Indep: X80 _||_ X60 | [X57, X39, X17]
+Indep: X80 _||_ X60 | [X76, X39, X17]
+Indep: X80 _||_ X60 | [X56, X25, X57, X76]
+Indep: X80 _||_ X60 | [X56, X25, X57, X39]
+Indep: X80 _||_ X60 | [X56, X25, X57, X17]
+Indep: X80 _||_ X60 | [X56, X25, X76, X39]
+Indep: X80 _||_ X60 | [X56, X25, X76, X17]
+Indep: X80 _||_ X60 | [X56, X57, X76, X39]
+Indep: X80 _||_ X60 | [X56, X57, X76, X17]
+Indep: X80 _||_ X60 | [X56, X57, X39, X17]
+Indep: X80 _||_ X60 | [X56, X76, X39, X17]
+Indep: X80 _||_ X60 | [X25, X57, X76, X39]
+Indep: X80 _||_ X60 | [X25, X57, X76, X17]
+Indep: X80 _||_ X60 | [X25, X57, X39, X17]
+Indep: X80 _||_ X60 | [X25, X76, X39, X17]
+Indep: X80 _||_ X60 | [X57, X76, X39, X17]
+Indep: X80 _||_ X60 | [X56, X25, X57, X76, X39]
+Indep: X80 _||_ X60 | [X56, X25, X57, X76, X17]
+Indep: X80 _||_ X60 | [X56, X25, X57, X39, X17]
+Indep: X80 _||_ X60 | [X56, X25, X76, X39, X17]
+Indep: X80 _||_ X60 | [X56, X57, X76, X39, X17]
+Indep: X80 _||_ X60 | [X25, X57, X76, X39, X17]
+Indep: X80 _||_ X60 | [X56, X25, X57, X76, X39, X17]
+Indep: X45 _||_ X64 | []
+Indep: X45 _||_ X64 | [X76]
+Indep: X45 _||_ X64 | [X39]
+Indep: X45 _||_ X64 | [X76, X39]
+Indep: X45 _||_ X28 | []
+Indep: X45 _||_ X28 | [X76]
+Indep: X45 _||_ X28 | [X39]
+Indep: X45 _||_ X28 | [X76, X39]
+Indep: X76 _||_ X64 | []
+Indep: X76 _||_ X64 | [X45]
+Indep: X76 _||_ X64 | [X80]
+Indep: X76 _||_ X64 | [X58]
+Indep: X76 _||_ X64 | [X60]
+Indep: X76 _||_ X64 | [X57]
+Indep: X76 _||_ X64 | [X45, X80]
+Indep: X76 _||_ X64 | [X45, X58]
+Indep: X76 _||_ X64 | [X45, X60]
+Indep: X76 _||_ X64 | [X45, X57]
+Indep: X76 _||_ X64 | [X80, X58]
+Indep: X76 _||_ X64 | [X80, X60]
+Indep: X76 _||_ X64 | [X80, X57]
+Indep: X76 _||_ X64 | [X58, X60]
+Indep: X76 _||_ X64 | [X58, X57]
+Indep: X76 _||_ X64 | [X60, X57]
+Indep: X76 _||_ X64 | [X45, X80, X58]
+Indep: X76 _||_ X64 | [X45, X80, X60]
+Indep: X76 _||_ X64 | [X45, X80, X57]
+Indep: X76 _||_ X64 | [X45, X58, X60]
+Indep: X76 _||_ X64 | [X45, X58, X57]
+Indep: X76 _||_ X64 | [X45, X60, X57]
+Indep: X76 _||_ X64 | [X80, X58, X60]
+Indep: X76 _||_ X64 | [X80, X58, X57]
+Indep: X76 _||_ X64 | [X80, X60, X57]
+Indep: X76 _||_ X64 | [X58, X60, X57]
+Indep: X76 _||_ X64 | [X45, X80, X58, X60]
+Indep: X76 _||_ X64 | [X45, X80, X58, X57]
+Indep: X76 _||_ X64 | [X45, X80, X60, X57]
+Indep: X76 _||_ X64 | [X45, X58, X60, X57]
+Indep: X76 _||_ X64 | [X80, X58, X60, X57]
+Indep: X76 _||_ X64 | [X45, X80, X58, X60, X57]
+Indep: X76 _||_ X28 | [X58]
+Indep: X76 _||_ X28 | [X45, X58]
+Indep: X76 _||_ X28 | [X80, X58]
+Indep: X76 _||_ X28 | [X58, X60]
+Indep: X76 _||_ X28 | [X58, X57]
+Indep: X76 _||_ X28 | [X45, X80, X58]
+Indep: X76 _||_ X28 | [X45, X58, X60]
+Indep: X76 _||_ X28 | [X45, X58, X57]
+Indep: X76 _||_ X28 | [X80, X58, X60]
+Indep: X76 _||_ X28 | [X80, X58, X57]
+Indep: X76 _||_ X28 | [X58, X60, X57]
+Indep: X76 _||_ X28 | [X45, X80, X58, X60]
+Indep: X76 _||_ X28 | [X45, X80, X58, X57]
+Indep: X76 _||_ X28 | [X45, X58, X60, X57]
+Indep: X76 _||_ X28 | [X80, X58, X60, X57]
+Indep: X76 _||_ X28 | [X45, X80, X58, X60, X57]
+Indep: X64 _||_ X28 | []
+Indep: X64 _||_ X28 | [X36]
+Indep: X64 _||_ X28 | [X13]
+Indep: X64 _||_ X28 | [X36, X13]
+Indep: X57 _||_ X35 | []
+Indep: X57 _||_ X35 | [X80]
+Indep: X57 _||_ X35 | [X76]
+Indep: X57 _||_ X35 | [X80, X76]
+Indep: X57 _||_ X35 | [X76, X60]
+Indep: X57 _||_ X35 | [X80, X76, X60]
+Indep: X57 _||_ X28 | []
+Indep: X57 _||_ X28 | [X80]
+Indep: X57 _||_ X28 | [X60]
+Indep: X57 _||_ X28 | [X80, X60]
+Indep: X35 _||_ X76 | []
+Indep: X35 _||_ X28 | [X60]
+Indep: X76 _||_ X28 | [X58]
+Indep: X76 _||_ X28 | [X45, X58]
+Indep: X76 _||_ X28 | [X80, X58]
+Indep: X76 _||_ X28 | [X58, X57]
+Indep: X76 _||_ X28 | [X58, X60]
+Indep: X76 _||_ X28 | [X45, X80, X58]
+Indep: X76 _||_ X28 | [X45, X58, X57]
+Indep: X76 _||_ X28 | [X45, X58, X60]
+Indep: X76 _||_ X28 | [X80, X58, X57]
+Indep: X76 _||_ X28 | [X80, X58, X60]
+Indep: X76 _||_ X28 | [X58, X57, X60]
+Indep: X76 _||_ X28 | [X45, X80, X58, X57]
+Indep: X76 _||_ X28 | [X45, X80, X58, X60]
+Indep: X76 _||_ X28 | [X45, X58, X57, X60]
+Indep: X76 _||_ X28 | [X80, X58, X57, X60]
+Indep: X76 _||_ X28 | [X45, X80, X58, X57, X60]
+Indep: X4 _||_ X36 | []
+Indep: X4 _||_ X36 | [X41]
+Indep: X36 _||_ X58 | []
+Indep: X36 _||_ X58 | [X62]
+Indep: X36 _||_ X58 | [X64]
+Indep: X36 _||_ X58 | [X13]
+Indep: X36 _||_ X58 | [X62, X13]
+Indep: X36 _||_ X58 | [X64, X13]
+Indep: X36 _||_ X58 | [X62, X64, X13]
+Indep: X58 _||_ X13 | [X64]
+Indep: X58 _||_ X13 | [X28]
+Indep: X58 _||_ X13 | [X45, X64]
+Indep: X58 _||_ X13 | [X76, X64]
+Indep: X58 _||_ X13 | [X76, X28]
+Indep: X58 _||_ X13 | [X45, X76, X64]
+Indep: X71 _||_ X52 | []
+Indep: X71 _||_ X52 | [X41]
+Indep: X71 _||_ X52 | [X74]
+Indep: X71 _||_ X52 | [X41, X74]
+Indep: X71 _||_ X32 | []
+Indep: X71 _||_ X32 | [X41]
+Indep: X71 _||_ X32 | [X74]
+Indep: X71 _||_ X32 | [X41, X74]
+Indep: X71 _||_ X75 | []
+Indep: X71 _||_ X75 | [X41]
+Indep: X71 _||_ X75 | [X74]
+Indep: X71 _||_ X75 | [X41, X74]
+Indep: X71 _||_ X28 | []
+Indep: X71 _||_ X28 | [X41]
+Indep: X71 _||_ X28 | [X74]
+Indep: X71 _||_ X28 | [X66]
+Indep: X71 _||_ X28 | [X41, X74]
+Indep: X71 _||_ X28 | [X41, X66]
+Indep: X71 _||_ X28 | [X74, X66]
+Indep: X71 _||_ X28 | [X41, X74, X66]
+Indep: X52 _||_ X28 | []
+Indep: X52 _||_ X28 | [X66]
+Indep: X52 _||_ X28 | [X50]
+Indep: X52 _||_ X28 | [X66, X50]
+Indep: X32 _||_ X28 | []
+Indep: X32 _||_ X28 | [X66]
+Indep: X32 _||_ X28 | [X40]
+Indep: X32 _||_ X28 | [X75]
+Indep: X32 _||_ X28 | [X39]
+Indep: X32 _||_ X28 | [X66, X40]
+Indep: X32 _||_ X28 | [X66, X75]
+Indep: X32 _||_ X28 | [X66, X39]
+Indep: X32 _||_ X28 | [X40, X75]
+Indep: X32 _||_ X28 | [X40, X39]
+Indep: X32 _||_ X28 | [X75, X39]
+Indep: X32 _||_ X28 | [X66, X40, X75]
+Indep: X32 _||_ X28 | [X66, X40, X39]
+Indep: X32 _||_ X28 | [X66, X75, X39]
+Indep: X32 _||_ X28 | [X40, X75, X39]
+Indep: X32 _||_ X28 | [X66, X40, X75, X39]
+Indep: X75 _||_ X28 | []
+Indep: X75 _||_ X28 | [X66]
+Indep: X75 _||_ X28 | [X32]
+Indep: X75 _||_ X28 | [X66, X32]
+Indep: X55 _||_ X44 | []
+Indep: X41 _||_ X74 | []
+Indep: X41 _||_ X74 | [X4]
+Indep: X41 _||_ X66 | [X71]
+Indep: X41 _||_ X66 | [X4, X71]
+Indep: X74 _||_ X66 | [X71]
+Indep: X45 _||_ X80 | []
+Indep: X45 _||_ X80 | [X76]
+Indep: X45 _||_ X80 | [X58]
+Indep: X45 _||_ X80 | [X76, X58]
+Indep: X45 _||_ X57 | []
+Indep: X45 _||_ X57 | [X58]
+Indep: X45 _||_ X57 | [X39]
+Indep: X45 _||_ X57 | [X58, X39]
+Indep: X45 _||_ X60 | []
+Indep: X45 _||_ X60 | [X58]
+Indep: X45 _||_ X60 | [X39]
+Indep: X45 _||_ X60 | [X58, X39]
+Indep: X80 _||_ X58 | []
+Indep: X80 _||_ X58 | [X56]
+Indep: X80 _||_ X58 | [X25]
+Indep: X80 _||_ X58 | [X57]
+Indep: X80 _||_ X58 | [X39]
+Indep: X80 _||_ X58 | [X17]
+Indep: X80 _||_ X58 | [X56, X25]
+Indep: X80 _||_ X58 | [X56, X57]
+Indep: X80 _||_ X58 | [X56, X39]
+Indep: X80 _||_ X58 | [X56, X17]
+Indep: X80 _||_ X58 | [X25, X57]
+Indep: X80 _||_ X58 | [X25, X39]
+Indep: X80 _||_ X58 | [X25, X17]
+Indep: X80 _||_ X58 | [X57, X76]
+Indep: X80 _||_ X58 | [X57, X39]
+Indep: X80 _||_ X58 | [X57, X17]
+Indep: X80 _||_ X58 | [X76, X39]
+Indep: X80 _||_ X58 | [X39, X17]
+Indep: X80 _||_ X58 | [X56, X25, X57]
+Indep: X80 _||_ X58 | [X56, X25, X39]
+Indep: X80 _||_ X58 | [X56, X25, X17]
+Indep: X80 _||_ X58 | [X56, X57, X76]
+Indep: X80 _||_ X58 | [X56, X57, X39]
+Indep: X80 _||_ X58 | [X56, X57, X17]
+Indep: X80 _||_ X58 | [X56, X76, X39]
+Indep: X80 _||_ X58 | [X56, X39, X17]
+Indep: X80 _||_ X58 | [X25, X57, X76]
+Indep: X80 _||_ X58 | [X25, X57, X39]
+Indep: X80 _||_ X58 | [X25, X57, X17]
+Indep: X80 _||_ X58 | [X25, X76, X39]
+Indep: X80 _||_ X58 | [X25, X39, X17]
+Indep: X80 _||_ X58 | [X57, X76, X39]
+Indep: X80 _||_ X58 | [X57, X76, X17]
+Indep: X80 _||_ X58 | [X57, X39, X17]
+Indep: X80 _||_ X58 | [X76, X39, X17]
+Indep: X80 _||_ X58 | [X56, X25, X57, X76]
+Indep: X80 _||_ X58 | [X56, X25, X57, X39]
+Indep: X80 _||_ X58 | [X56, X25, X57, X17]
+Indep: X80 _||_ X58 | [X56, X25, X76, X39]
+Indep: X80 _||_ X58 | [X56, X25, X39, X17]
+Indep: X80 _||_ X58 | [X56, X57, X76, X39]
+Indep: X80 _||_ X58 | [X56, X57, X76, X17]
+Indep: X80 _||_ X58 | [X56, X57, X39, X17]
+Indep: X80 _||_ X58 | [X56, X76, X39, X17]
+Indep: X80 _||_ X58 | [X25, X57, X76, X39]
+Indep: X80 _||_ X58 | [X25, X57, X76, X17]
+Indep: X80 _||_ X58 | [X25, X57, X39, X17]
+Indep: X80 _||_ X58 | [X25, X76, X39, X17]
+Indep: X80 _||_ X58 | [X57, X76, X39, X17]
+Indep: X80 _||_ X58 | [X56, X25, X57, X76, X39]
+Indep: X80 _||_ X58 | [X56, X25, X57, X76, X17]
+Indep: X80 _||_ X58 | [X56, X25, X57, X39, X17]
+Indep: X80 _||_ X58 | [X56, X25, X76, X39, X17]
+Indep: X80 _||_ X58 | [X56, X57, X76, X39, X17]
+Indep: X80 _||_ X58 | [X25, X57, X76, X39, X17]
+Indep: X80 _||_ X58 | [X56, X25, X57, X76, X39, X17]
+Indep: X80 _||_ X60 | [X57]
+Indep: X80 _||_ X60 | [X76]
+Indep: X80 _||_ X60 | [X56, X57]
+Indep: X80 _||_ X60 | [X56, X76]
+Indep: X80 _||_ X60 | [X25, X57]
+Indep: X80 _||_ X60 | [X25, X76]
+Indep: X80 _||_ X60 | [X57, X76]
+Indep: X80 _||_ X60 | [X57, X39]
+Indep: X80 _||_ X60 | [X57, X17]
+Indep: X80 _||_ X60 | [X76, X39]
+Indep: X80 _||_ X60 | [X76, X17]
+Indep: X80 _||_ X60 | [X56, X25, X57]
+Indep: X80 _||_ X60 | [X56, X25, X76]
+Indep: X80 _||_ X60 | [X56, X57, X76]
+Indep: X80 _||_ X60 | [X56, X57, X39]
+Indep: X80 _||_ X60 | [X56, X57, X17]
+Indep: X80 _||_ X60 | [X56, X76, X39]
+Indep: X80 _||_ X60 | [X56, X76, X17]
+Indep: X80 _||_ X60 | [X25, X57, X76]
+Indep: X80 _||_ X60 | [X25, X57, X39]
+Indep: X80 _||_ X60 | [X25, X57, X17]
+Indep: X80 _||_ X60 | [X25, X76, X39]
+Indep: X80 _||_ X60 | [X25, X76, X17]
+Indep: X80 _||_ X60 | [X57, X76, X39]
+Indep: X80 _||_ X60 | [X57, X76, X17]
+Indep: X80 _||_ X60 | [X57, X39, X17]
+Indep: X80 _||_ X60 | [X76, X39, X17]
+Indep: X80 _||_ X60 | [X56, X25, X57, X76]
+Indep: X80 _||_ X60 | [X56, X25, X57, X39]
+Indep: X80 _||_ X60 | [X56, X25, X57, X17]
+Indep: X80 _||_ X60 | [X56, X25, X76, X39]
+Indep: X80 _||_ X60 | [X56, X25, X76, X17]
+Indep: X80 _||_ X60 | [X56, X57, X76, X39]
+Indep: X80 _||_ X60 | [X56, X57, X76, X17]
+Indep: X80 _||_ X60 | [X56, X57, X39, X17]
+Indep: X80 _||_ X60 | [X56, X76, X39, X17]
+Indep: X80 _||_ X60 | [X25, X57, X76, X39]
+Indep: X80 _||_ X60 | [X25, X57, X76, X17]
+Indep: X80 _||_ X60 | [X25, X57, X39, X17]
+Indep: X80 _||_ X60 | [X25, X76, X39, X17]
+Indep: X80 _||_ X60 | [X57, X76, X39, X17]
+Indep: X80 _||_ X60 | [X56, X25, X57, X76, X39]
+Indep: X80 _||_ X60 | [X56, X25, X57, X76, X17]
+Indep: X80 _||_ X60 | [X56, X25, X57, X39, X17]
+Indep: X80 _||_ X60 | [X56, X25, X76, X39, X17]
+Indep: X80 _||_ X60 | [X56, X57, X76, X39, X17]
+Indep: X80 _||_ X60 | [X25, X57, X76, X39, X17]
+Indep: X80 _||_ X60 | [X56, X25, X57, X76, X39, X17]
+Indep: X58 _||_ X57 | []
+Indep: X58 _||_ X57 | [X45]
+Indep: X58 _||_ X57 | [X64]
+Indep: X58 _||_ X57 | [X28]
+Indep: X58 _||_ X57 | [X45, X64]
+Indep: X58 _||_ X57 | [X45, X28]
+Indep: X58 _||_ X57 | [X64, X28]
+Indep: X58 _||_ X57 | [X45, X64, X28]
+Indep: X56 _||_ X25 | []
+Indep: X56 _||_ X25 | [X80]
+Indep: X56 _||_ X25 | [X50]
+Indep: X56 _||_ X25 | [X39]
+Indep: X56 _||_ X25 | [X80, X50]
+Indep: X56 _||_ X25 | [X80, X39]
+Indep: X56 _||_ X25 | [X50, X39]
+Indep: X56 _||_ X25 | [X80, X50, X39]
+Indep: X56 _||_ X57 | []
+Indep: X56 _||_ X57 | [X80]
+Indep: X56 _||_ X57 | [X50]
+Indep: X56 _||_ X57 | [X39]
+Indep: X56 _||_ X57 | [X80, X50]
+Indep: X56 _||_ X57 | [X80, X39]
+Indep: X56 _||_ X57 | [X50, X39]
+Indep: X56 _||_ X57 | [X80, X50, X39]
+Indep: X56 _||_ X76 | []
+Indep: X56 _||_ X76 | [X80]
+Indep: X56 _||_ X76 | [X50]
+Indep: X56 _||_ X76 | [X39]
+Indep: X56 _||_ X76 | [X80, X50]
+Indep: X56 _||_ X76 | [X80, X39]
+Indep: X56 _||_ X76 | [X80, X50, X39]
+Indep: X56 _||_ X17 | []
+Indep: X56 _||_ X17 | [X50]
+Indep: X56 _||_ X17 | [X39]
+Indep: X56 _||_ X17 | [X50, X39]
+Indep: X25 _||_ X57 | []
+Indep: X25 _||_ X57 | [X70]
+Indep: X25 _||_ X57 | [X80]
+Indep: X25 _||_ X57 | [X70, X80]
+Indep: X25 _||_ X76 | []
+Indep: X25 _||_ X76 | [X70]
+Indep: X25 _||_ X76 | [X80]
+Indep: X25 _||_ X76 | [X70, X80]
+Indep: X25 _||_ X39 | [X80]
+Indep: X25 _||_ X39 | [X70, X80]
+Indep: X25 _||_ X17 | []
+Indep: X25 _||_ X17 | [X70]
+Indep: X57 _||_ X39 | []
+Indep: X57 _||_ X39 | [X80]
+Indep: X57 _||_ X39 | [X60]
+Indep: X57 _||_ X39 | [X80, X60]
+Indep: X57 _||_ X39 | [X80, X76, X60]
+Indep: X57 _||_ X17 | []
+Indep: X57 _||_ X17 | [X80]
+Indep: X57 _||_ X17 | [X76]
+Indep: X57 _||_ X17 | [X60]
+Indep: X57 _||_ X17 | [X80, X76]
+Indep: X57 _||_ X17 | [X80, X60]
+Indep: X57 _||_ X17 | [X76, X60]
+Indep: X57 _||_ X17 | [X80, X76, X60]
+Indep: X76 _||_ X39 | [X45]
+Indep: X76 _||_ X39 | [X45, X80]
+Indep: X76 _||_ X39 | [X45, X58]
+Indep: X76 _||_ X39 | [X45, X60]
+Indep: X76 _||_ X39 | [X45, X57]
+Indep: X76 _||_ X39 | [X45, X80, X58]
+Indep: X76 _||_ X39 | [X45, X80, X60]
+Indep: X76 _||_ X39 | [X45, X80, X57]
+Indep: X76 _||_ X39 | [X45, X58, X60]
+Indep: X76 _||_ X39 | [X45, X58, X57]
+Indep: X76 _||_ X39 | [X45, X60, X57]
+Indep: X76 _||_ X39 | [X45, X80, X58, X60]
+Indep: X76 _||_ X39 | [X45, X80, X58, X57]
+Indep: X76 _||_ X39 | [X45, X80, X60, X57]
+Indep: X76 _||_ X39 | [X45, X58, X60, X57]
+Indep: X76 _||_ X39 | [X45, X80, X58, X60, X57]
+Indep: X76 _||_ X17 | []
+Indep: X76 _||_ X17 | [X45]
+Indep: X76 _||_ X17 | [X80]
+Indep: X76 _||_ X17 | [X58]
+Indep: X76 _||_ X17 | [X60]
+Indep: X76 _||_ X17 | [X57]
+Indep: X76 _||_ X17 | [X45, X80]
+Indep: X76 _||_ X17 | [X45, X58]
+Indep: X76 _||_ X17 | [X45, X60]
+Indep: X76 _||_ X17 | [X45, X57]
+Indep: X76 _||_ X17 | [X80, X58]
+Indep: X76 _||_ X17 | [X80, X60]
+Indep: X76 _||_ X17 | [X80, X57]
+Indep: X76 _||_ X17 | [X58, X60]
+Indep: X76 _||_ X17 | [X58, X57]
+Indep: X76 _||_ X17 | [X60, X57]
+Indep: X76 _||_ X17 | [X45, X80, X58]
+Indep: X76 _||_ X17 | [X45, X80, X60]
+Indep: X76 _||_ X17 | [X45, X80, X57]
+Indep: X76 _||_ X17 | [X45, X58, X60]
+Indep: X76 _||_ X17 | [X45, X58, X57]
+Indep: X76 _||_ X17 | [X45, X60, X57]
+Indep: X76 _||_ X17 | [X80, X58, X60]
+Indep: X76 _||_ X17 | [X80, X58, X57]
+Indep: X76 _||_ X17 | [X80, X60, X57]
+Indep: X76 _||_ X17 | [X58, X60, X57]
+Indep: X76 _||_ X17 | [X45, X80, X58, X60]
+Indep: X76 _||_ X17 | [X45, X80, X58, X57]
+Indep: X76 _||_ X17 | [X45, X80, X60, X57]
+Indep: X76 _||_ X17 | [X45, X58, X60, X57]
+Indep: X76 _||_ X17 | [X80, X58, X60, X57]
+Indep: X76 _||_ X17 | [X45, X80, X58, X60, X57]
+Indep: X39 _||_ X17 | []
+Indep: X39 _||_ X17 | [X45]
+Indep: X39 _||_ X17 | [X56]
+Indep: X39 _||_ X17 | [X80]
+Indep: X39 _||_ X17 | [X32]
+Indep: X39 _||_ X17 | [X45, X56]
+Indep: X39 _||_ X17 | [X45, X32]
+Indep: X39 _||_ X17 | [X56, X80]
+Indep: X39 _||_ X17 | [X56, X32]
+Indep: X39 _||_ X17 | [X80, X32]
+Indep: X39 _||_ X17 | [X45, X56, X80]
+Indep: X39 _||_ X17 | [X45, X56, X32]
+Indep: X39 _||_ X17 | [X56, X80, X32]
+Indep: X39 _||_ X17 | [X45, X56, X80, X32]
+Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.255 sec
+Running edu.cmu.tetrad.test.TestRicf
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 sec
+Running edu.cmu.tetrad.test.TestSemXml
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestParamDescriptions
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestHistogram
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running edu.cmu.tetrad.test.TestGeneralResamplingTest
+Truth Graph:
+Graph Nodes:
+0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19
+
+Graph Edges:
+1. 0 --> 12
+2. 0 --> 15
+3. 1 --> 10
+4. 1 --> 17
+5. 1 --> 5
+6. 1 --> 6
+7. 10 --> 18
+8. 11 --> 17
+9. 13 --> 16
+10. 13 --> 17
+11. 15 --> 19
+12. 16 --> 19
+13. 2 --> 10
+14. 2 --> 18
+15. 2 --> 19
+16. 2 --> 4
+17. 2 --> 5
+18. 2 --> 6
+19. 2 --> 7
+20. 2 --> 8
+21. 3 --> 12
+22. 3 --> 14
+23. 3 --> 15
+24. 3 --> 19
+25. 3 --> 8
+26. 4 --> 10
+27. 4 --> 14
+28. 4 --> 18
+29. 4 --> 19
+30. 5 --> 17
+31. 6 --> 10
+32. 6 --> 11
+33. 6 --> 12
+34. 6 --> 14
+35. 6 --> 15
+36. 7 --> 13
+37. 7 --> 15
+38. 8 --> 16
+39. 9 --> 18
+40. 9 --> 19
+
+
+Resampling on the FGES (Fast Greedy Equivalence Search) using BDeu Score
+Running Resamplings in Parallel Mode, numberResampling = 5
+thread started ... 
+knowledge being set ... 
+thread started ... 
+knowledge being set ... 
+thread started ... 
+knowledge being set ... 
+thread started ... 
+knowledge being set ... 
+Elapsed initializeForwardEdgesFromEmptyGraph = 15 ms
+** FORWARD EQUIVALENCE SEARCH
+Elapsed initializeForwardEdgesFromEmptyGraph = 47 ms
+** FORWARD EQUIVALENCE SEARCH
+Elapsed initializeForwardEdgesFromEmptyGraph = 60 ms
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** FORWARD EQUIVALENCE SEARCH
+Elapsed initializeForwardEdgesFromEmptyGraph = 143 ms
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+processing time of resampling for a thread was: 0.216 sec
+processing time of resampling for a thread was: 0.214 sec
+** FORWARD EQUIVALENCE SEARCH
+processing time of resampling for a thread was: 0.221 sec
+thread started ... 
+knowledge being set ... 
+Elapsed initializeForwardEdgesFromEmptyGraph = 4 ms
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+processing time of resampling for a thread was: 0.237 sec
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+processing time of resampling for a thread was: 0.034 sec
+Resampling number is : 5
+Processing time of total resamplings : 1.013 sec
+PAGs: 5
+Ensemble: Highest
+
+Resampling Search Result (0):
+Graph Nodes:
+0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19
+
+Graph Edges:
+1. 1 --> 17
+2. 10 --- 2
+3. 10 --> 6
+4. 11 --> 17
+5. 12 --> 0
+6. 13 --> 17
+7. 13 --- 7
+8. 14 --> 6
+9. 16 --- 8
+10. 18 --- 9
+11. 2 --- 4
+12. 2 --> 6
+13. 3 --- 14
+14. 4 --- 10
+15. 5 --- 1
+16. 5 --> 17
+17. 6 --> 11
+18. 6 --> 12
+19. 7 --- 2
+
+Graph Attributes:
+BIC: 0.000000
+
+
+
+Resampling Search Result (1):
+Graph Nodes:
+0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19
+
+Graph Edges:
+1. 1 --> 10
+2. 1 --> 17
+3. 1 --- 5
+4. 10 --> 4
+5. 10 --> 6
+6. 11 --> 17
+7. 12 --> 0
+8. 13 --> 17
+9. 13 --- 7
+10. 16 --- 8
+11. 18 --- 9
+12. 2 --> 10
+13. 2 --> 4
+14. 2 --> 6
+15. 3 --> 14
+16. 4 --> 14
+17. 5 --> 17
+18. 6 --> 11
+19. 6 --> 12
+20. 6 --> 14
+21. 7 --- 2
+22. 8 --- 3
+
+Graph Attributes:
+BIC: 0.000000
+
+
+
+Resampling Search Result (2):
+Graph Nodes:
+0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19
+
+Graph Edges:
+1. 0 --> 12
+2. 1 --> 17
+3. 10 --- 4
+4. 10 --- 6
+5. 11 --> 17
+6. 11 --- 6
+7. 13 --> 17
+8. 13 --- 7
+9. 16 --- 8
+10. 18 --- 9
+11. 2 --- 10
+12. 3 --> 14
+13. 4 --> 14
+14. 4 --- 2
+15. 5 --- 1
+16. 5 --> 17
+17. 6 --> 12
+18. 6 --> 14
+19. 6 --- 2
+20. 7 --- 2
+
+Graph Attributes:
+BIC: 0.000000
+
+
+
+Resampling Search Result (3):
+Graph Nodes:
+0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19
+
+Graph Edges:
+1. 1 --> 17
+2. 10 --- 4
+3. 10 --- 6
+4. 11 --> 17
+5. 11 --- 6
+6. 12 --- 0
+7. 13 --> 17
+8. 13 --- 7
+9. 14 --> 3
+10. 16 --- 8
+11. 18 --- 9
+12. 2 --- 10
+13. 4 --> 14
+14. 4 --- 2
+15. 5 --- 1
+16. 5 --> 17
+17. 6 --- 12
+18. 6 --> 14
+19. 6 --- 2
+20. 7 --- 2
+
+Graph Attributes:
+BIC: 0.000000
+
+
+
+Resampling Search Result (4):
+Graph Nodes:
+0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19
+
+Graph Edges:
+1. 1 --> 17
+2. 10 --- 4
+3. 10 --- 6
+4. 11 --> 17
+5. 11 --- 6
+6. 12 --- 0
+7. 12 --- 3
+8. 13 --> 17
+9. 13 --- 7
+10. 16 --- 8
+11. 18 --- 9
+12. 2 --- 10
+13. 3 --> 14
+14. 4 --> 14
+15. 4 --- 2
+16. 5 --- 1
+17. 5 --> 17
+18. 6 --- 12
+19. 6 --> 14
+20. 6 --- 2
+21. 7 --- 2
+
+Graph Attributes:
+BIC: 0.000000
+
+
+
+Final result: 4 --> 14 : 0.8
+Final result: 10 --- 6 : 0.6
+Final result: 11 --- 6 : 0.6
+Final result: 2 --- 6 : 0.6
+Final result: 18 --- 9 : 1.0
+Final result: 13 --> 17 : 1.0
+Final result: 16 --- 8 : 1.0
+Final result: 12 --> 0 : 0.4
+Final result: 1 --- 5 : 1.0
+Final result: 11 --> 17 : 1.0
+Final result: 6 --> 12 : 0.6
+Final result: 2 --- 4 : 0.8
+Final result: 10 --- 4 : 0.8
+Final result: 6 --> 14 : 0.8
+Final result: 5 --> 17 : 1.0
+Final result: 10 --- 2 : 0.8
+Final result: 13 --- 7 : 1.0
+Final result: 2 --- 7 : 1.0
+Final result: 3 --> 14 : 0.6
+Final result: 1 --> 17 : 1.0
+Final Resampling Search Result:
+Graph Nodes:
+0;1;10;11;12;13;14;15;16;17;18;19;2;3;4;5;6;7;8;9
+
+Graph Edges:
+1. 1 --> 17 [1 --> 17]:1.0000;
+2. 1 --- 5 [1 --- 5]:1.0000;
+3. 11 --> 17 [11 --> 17]:1.0000;
+4. 13 --> 17 [13 --> 17]:1.0000;
+5. 13 --- 7 [13 --- 7]:1.0000;
+6. 16 --- 8 [16 --- 8]:1.0000;
+7. 18 --- 9 [18 --- 9]:1.0000;
+8. 2 --- 7 [2 --- 7]:1.0000;
+9. 5 --> 17 [17 <-- 5]:1.0000;
+10. 10 --- 2 [10 --- 2]:0.8000;[10 <-- 2]:0.2000;
+11. 10 --- 4 [10 --> 4]:0.2000;[10 --- 4]:0.8000;
+12. 2 --- 4 [2 --- 4]:0.8000;[2 --> 4]:0.2000;
+13. 4 --> 14 [14 <-- 4]:0.8000;[no edge]:0.2000;
+14. 6 --> 14 [14 <-- 6]:0.8000;[14 --> 6]:0.2000;
+15. 10 --- 6 [10 --> 6]:0.4000;[10 --- 6]:0.6000;
+16. 11 --- 6 [11 --- 6]:0.6000;[11 <-- 6]:0.4000;
+17. 2 --- 6 [2 --> 6]:0.4000;[2 --- 6]:0.6000;
+18. 3 --> 14 [14 --- 3]:0.2000;[14 <-- 3]:0.6000;[14 --> 3]:0.2000;
+19. 6 --> 12 [12 <-- 6]:0.6000;[12 --- 6]:0.4000;
+20. 12 --> 0 [0 --> 12]:0.2000;[0 <-- 12]:0.4000;[0 --- 12]:0.4000;
+
+
+
+probDistribution finished in 10 ms
+============================
+Adjacency Confusion Matrix
+============================
+		Estimated
+n=190		No	Yes
+Truth: No	150	0
+Truth: Yes	20	20
+Accuracy: 0.8947368421052632
+Precision: 1.0
+Recall: 0.5
+============================
+
+=================================
+Edge Orientation Confusion Matrix
+=================================
+		Estimated
+n=190		nil	-->	<--	o->	<-o	o-o	<->	---
+Truth: nil	150	0	0	0	0	0	0	0
+Truth: -->	10	3	1	0	0	0	0	4
+Truth: <--	10	0	5	0	0	0	0	7
+Truth: o->	0	0	0	0	0	0	0	0
+Truth: <-o	0	0	0	0	0	0	0	0
+Truth: o-o	0	0	0	0	0	0	0	0
+Truth: <->	0	0	0	0	0	0	0	0
+Truth: ---	0	0	0	0	0	0	0	0
+Accuracy: 0.8315789473684211
+Precision: 0.4
+Recall: 0.2
+Resampling on the GFCI (Greedy Fast Causal Inference) using BDeu Test and BDeu Score
+Running Resamplings in Parallel Mode, numberResampling = 5
+thread started ... 
+knowledge being set ... 
+thread started ... 
+knowledge being set ... 
+thread started ... 
+knowledge being set ... 
+thread started ... 
+knowledge being set ... 
+Elapsed initializeForwardEdgesFromEmptyGraph = 2 ms
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+Elapsed initializeForwardEdgesFromEmptyGraph = 2 ms
+** FORWARD EQUIVALENCE SEARCH
+Epoch
+processing time of resampling for a thread was: 0.003 sec
+thread started ... 
+knowledge being set ... 
+** BACKWARD EQUIVALENCE SEARCH
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+Epoch
+processing time of resampling for a thread was: 0.006 sec
+Elapsed initializeForwardEdgesFromEmptyGraph = 6 ms
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+Elapsed initializeForwardEdgesFromEmptyGraph = 4 ms
+** FORWARD EQUIVALENCE SEARCH
+Epoch
+processing time of resampling for a thread was: 0.011 sec
+Elapsed initializeForwardEdgesFromEmptyGraph = 7 ms
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+Orienting edge (Away from collider): 2 --> 9
+Epoch
+Epoch
+processing time of resampling for a thread was: 0.013 sec
+** BACKWARD EQUIVALENCE SEARCH
+** FORWARD EQUIVALENCE SEARCH
+** BACKWARD EQUIVALENCE SEARCH
+Orienting edge (Away from collider): 6 --> 4
+Epoch
+Epoch
+processing time of resampling for a thread was: 0.01 sec
+Resampling number is : 5
+Processing time of total resamplings : 1.001 sec
+PAGs: 5
+Ensemble: Highest
+
+Resampling Search Result (0):
+Graph Nodes:
+0;1;2;3;4;5;6;7;8;9;10;12;13;15;16;17;18;19
+
+Graph Edges:
+1. 1 o-o 12
+2. 19 o-> 10
+3. 2 o-o 7
+4. 2 o-o 9
+5. 4 o-o 6
+6. 6 o-> 10
+7. 8 o-o 17
+
+Graph Attributes:
+BIC: 0.000000
+
+
+
+Resampling Search Result (1):
+Graph Nodes:
+0;1;2;3;4;5;6;7;8;9;10;12;13;15;16;17;18;19
+
+Graph Edges:
+1. 1 o-o 12
+2. 12 o-> 10
+3. 16 o-> 10
+4. 2 o-o 7
+5. 2 o-o 9
+6. 6 o-o 8
+7. 7 o-o 19
+8. 8 o-o 16
+
+Graph Attributes:
+BIC: 0.000000
+
+
+
+Resampling Search Result (2):
+Graph Nodes:
+0;1;2;3;4;5;6;7;8;9;10;12;13;15;16;17;18;19
+
+Graph Edges:
+1. 1 o-o 12
+2. 12 o-o 10
+3. 12 o-o 3
+4. 6 o-o 18
+5. 7 o-> 2
+6. 8 o-o 16
+7. 9 o-> 2
+
+Graph Attributes:
+BIC: 0.000000
+
+
+
+Resampling Search Result (3):
+Graph Nodes:
+0;1;2;3;4;5;6;7;8;9;10;12;13;15;16;17;18;19
+
+Graph Edges:
+1. 2 --> 9 dd nl
+2. 10 o-o 12
+3. 18 o-o 19
+4. 18 o-> 2
+5. 3 o-o 18
+6. 6 o-o 10
+7. 7 o-> 2
+
+Graph Attributes:
+BIC: 0.000000
+
+
+
+Resampling Search Result (4):
+Graph Nodes:
+0;1;2;3;4;5;6;7;8;9;10;12;13;15;16;17;18;19
+
+Graph Edges:
+1. 6 --> 4 dd nl
+2. 0 o-o 19
+3. 10 o-o 12
+4. 10 o-> 6
+5. 16 o-> 6
+6. 2 o-o 7
+
+Graph Attributes:
+BIC: 0.000000
+
+
+
+Final result: 10 o-o 12 : 0.6
+Final result: 1 o-o 12 : 0.6
+Final result: 2 o-o 7 : 0.6
+Final result: 2 o-o 9 : 0.4
+Final Resampling Search Result:
+Graph Nodes:
+0;1;10;12;13;15;16;17;18;19;2;3;4;5;6;7;8;9
+
+Graph Edges:
+1. 1 o-o 12 [1 o-o 12]:0.6000;[no edge]:0.4000;
+2. 10 o-o 12 [10 o-o 12]:0.6000;[10 <-o 12]:0.2000;[no edge]:0.2000;
+3. 2 o-o 7 [2 <-o 7]:0.4000;[2 o-o 7]:0.6000;
+4. 2 o-o 9 [2 <-o 9]:0.2000;[2 o-o 9]:0.4000;[2 --> 9 dd nl]:0.2000;[no edge]:0.2000;
+
+
+
+probDistribution finished in 7 ms
+============================
+Adjacency Confusion Matrix
+============================
+		Estimated
+n=153		No	Yes
+Truth: No	93	1
+Truth: Yes	56	3
+Accuracy: 0.6274509803921569
+Precision: 0.75
+Recall: 0.05084745762711865
+============================
+
+=================================
+Edge Orientation Confusion Matrix
+=================================
+		Estimated
+n=153		nil	-->	<--	o->	<-o	o-o	<->	---
+Truth: nil	93	0	0	0	0	1	0	0
+Truth: -->	10	0	0	0	0	1	0	0
+Truth: <--	12	0	0	0	0	0	0	0
+Truth: o->	19	0	0	0	0	0	0	0
+Truth: <-o	9	0	0	0	0	0	0	0
+Truth: o-o	3	0	0	0	0	2	0	0
+Truth: <->	3	0	0	0	0	0	0	0
+Truth: ---	0	0	0	0	0	0	0	0
+Accuracy: 0.6209150326797386
+Precision: 0.5
+Recall: 0.03389830508474576
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 2.146 sec
+Running edu.cmu.tetrad.test.TestCellTable
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+Running edu.cmu.tetrad.test.TestIndTestFisherZ
+true
+true
+true
+false
+false
+false
+false
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+true
+false
+true
+true
+true
+true
+true
+true
+true
+false
+true
+true
+true
+true
+true
+true
+true
+false
+false
+true
+true
+true
+true
+true
+true
+true
+false
+true
+true
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.13 sec
+Running edu.cmu.tetrad.test.TestCyclicity
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestPcStableMax
+<X4, X9, X6> score = 0.9929095130606853
+<X8, X10, X3> score = 0.965358661810944
+<X1, X10, X3> score = 0.8397352489559302
+<X1, X10, X4> score = 0.8110141197592762
+<X3, X10, X4> score = 0.7235952208206737
+<X8, X10, X4> score = 0.6174212380480564
+<X5, X6, X2> score = 0.2177453117250161
+<X4, X9, X6> score = 0.9929095130606853
+<X8, X10, X3> score = 0.965358661810944
+<X1, X10, X3> score = 0.8397352489559302
+<X1, X10, X4> score = 0.8110141197592762
+<X3, X10, X4> score = 0.7235952208206737
+<X8, X10, X4> score = 0.6174212380480564
+<X5, X6, X2> score = 0.2177453117250161
+/knowledge
+addtemporal
+
+
+forbiddirect
+D B
+B D
+C B
+
+requiredirect
+<A, B, C> score = 1.0
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.049 sec
+Running edu.cmu.tetrad.test.TestMultiDimIntTable
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestBayesBicScorer
+lDiff = 2159.432647442851
+nDiff = 6769
+bic = -19398.661663786927
+chisq = 4318.865294885702
+dof = 6769.0
+p = 1.0
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running edu.cmu.tetrad.test.TestGeneralizedSem
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestAndersonDarling
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestLexer
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestMatrixUtils
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running edu.cmu.tetrad.test.TestGraph
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running edu.cmu.tetrad.test.TestDagInPatternIterator
+Graph Nodes:
+X1;X2;X3;X4;X5;X6;X7;X8;X9;X10
+
+Graph Edges:
+1. X1 --> X5
+2. X1 --- X6
+3. X1 --- X7
+4. X2 --- X4
+5. X2 --> X5
+6. X2 --> X9
+7. X4 --> X9
+8. X5 --> X9
+9. X6 --> X10
+10. X8 --> X10
+
+
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running edu.cmu.tetrad.test.TestIndTestTimeSeries
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running edu.cmu.tetrad.test.TestDelimiterTokenizer
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestGraphConverter
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestIndependenceFact
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestFruchtermanReingoldLayout
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 sec
+Running edu.cmu.tetrad.test.TestSessionEvent
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running edu.cmu.tetrad.test.TestFdr
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestPc
+<X4, X9, X6> score = 0.9929095130606853
+<X8, X10, X3> score = 0.965358661810944
+<X1, X10, X3> score = 0.8397352489559302
+<X1, X10, X4> score = 0.8110141197592762
+<X3, X10, X4> score = 0.7235952208206737
+<X8, X10, X4> score = 0.6174212380480564
+<X5, X6, X2> score = 0.2177453117250161
+<X4, X9, X6> score = 0.9929095130606853
+<X8, X10, X3> score = 0.965358661810944
+<X1, X10, X3> score = 0.8397352489559302
+<X1, X10, X4> score = 0.8110141197592762
+<X3, X10, X4> score = 0.7235952208206737
+<X8, X10, X4> score = 0.6174212380480564
+<X5, X6, X2> score = 0.2177453117250161
+B --- D because it was forbidden by background knowledge.
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.204 sec
+Running edu.cmu.tetrad.test.TestEdgeListGraphSingleConnections
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+Running edu.cmu.tetrad.test.TestExpressionParser
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.281 sec
+Running edu.cmu.tetrad.test.TestCellProbabilities
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestEvidence
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestIndTestFisherGeneralizedInverse
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestTimeLagGraph
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestIndTestGSquare
+Loading src/test/resources/determinationtest.dat
+Loading src/test/resources/determinationtest.dat
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.056 sec
+Running edu.cmu.tetrad.test.TestEdgeListGraph
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running edu.cmu.tetrad.test.TestBoxDataSet
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running edu.cmu.tetrad.test.TestMatrix
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestDag
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestDelimiterType
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Running edu.cmu.tetrad.test.TestRowSummingUpdater
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running edu.cmu.tetrad.test.TestRegression
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+Running edu.cmu.tetrad.test.TestDeltaSextadTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 sec
+Running edu.cmu.tetrad.test.TestBayesIm
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running edu.cmu.tetrad.test.TestSemUpdater
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 328, Failures: 0, Errors: 0, Skipped: 13
+
+[INFO] 
+[INFO] -------------------------< edu.cmu:tetrad-gui >-------------------------
+[INFO] Building tetrad-gui 6.9.0-SNAPSHOT                                 [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ tetrad-gui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 689 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ tetrad-gui ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 630 source files to /workdir/tetrad/tetrad-gui/target/classes
+[INFO] /workdir/tetrad/tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/LoadKnowledgeAction.java: Some input files use or override a deprecated API.
+[INFO] /workdir/tetrad/tetrad-gui/src/main/java/edu/cmu/tetradapp/editor/LoadKnowledgeAction.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/tetrad/tetrad-gui/src/main/java/edu/cmu/tetradapp/workbench/AbstractWorkbench.java: Some input files use unchecked or unsafe operations.
+[INFO] /workdir/tetrad/tetrad-gui/src/main/java/edu/cmu/tetradapp/workbench/AbstractWorkbench.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ tetrad-gui ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ tetrad-gui ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to /workdir/tetrad/tetrad-gui/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ tetrad-gui ---
+[INFO] Surefire report directory: /workdir/tetrad/tetrad-gui/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running edu.cmu.tetradapp.test.TestGraphWorkbench
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.148 sec
+Running edu.cmu.tetradapp.test.TestDisplayNode
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running edu.cmu.tetradapp.test.TestDataWrapper
+Feb 15, 2021 4:02:40 AM java.util.prefs.FileSystemPreferences$6 run
+WARNING: Prefs file removed in background /home/maven/.java/.userPrefs/prefs.xml
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 sec
+Running edu.cmu.tetradapp.test.TestLogisticRegression
+Graph Nodes:
+X1;X2;X3;X4;X5
+
+Graph Edges:
+1. X1 --> X2
+2. X1 --> X4
+3. X2 --> X5
+4. X3 --> X4
+5. X3 --> X5
+
+
+edu.cmu.tetrad.regression.LogisticRegression@1b6e1eff
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.086 sec
+Running edu.cmu.tetradapp.test.TestCyclicity
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.001 sec
+Running edu.cmu.tetradapp.test.TestWatchedProcessDialogs
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running edu.cmu.tetradapp.test.TestVersion
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running edu.cmu.tetradapp.test.TestIndependenceFacts
+Looking up X4 _||_ X2 | X1, X2 in [X2 _||_ X3, X2 _||_ X4 | X1, X2, X2 _||_ X4 | X1, X3, X5, X2 _||_ X4 | X3, X2 _||_ X4 | X3, X6]
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for Tetrad Project 6.9.0-SNAPSHOT:
+[INFO] 
+[INFO] Tetrad Project ..................................... SUCCESS [  0.016 s]
+[INFO] data-reader ........................................ SUCCESS [  1.460 s]
+[INFO] tetrad-lib ......................................... SUCCESS [01:31 min]
+[INFO] tetrad-gui ......................................... SUCCESS [  5.287 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:38 min
+[INFO] Finished at: 2021-02-15T04:02:40Z
+[INFO] ------------------------------------------------------------------------

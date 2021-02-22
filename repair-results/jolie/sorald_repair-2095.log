@@ -1,21 +1,22 @@
 INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=27ms
+INFO  JavaClasspath initialization (done) | time=28ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
 INFO  686 source files to be analyzed
-INFO  112/686 files analyzed, current file: tools/jolie2java/src/main/java/joliex/java/impl/JavaDocumentCreator.java
-INFO  158/686 files analyzed, current file: jolie/src/main/java/jolie/process/NotificationProcess.java
-INFO  519/686 files analyzed, current file: lib/jolie-xml/src/main/java/jolie/xml/XmlUtils.java
+INFO  104/686 files analyzed, current file: tools/jolie2java/src/test/java/joliex/java/impl/JavaDocumentCreatorTest.java
+INFO  151/686 files analyzed, current file: jolie/src/main/java/jolie/process/SolicitResponseProcess.java
+INFO  495/686 files analyzed, current file: javaServices/coreJavaServices/src/main/java/joliex/util/ExecService.java
+INFO  653/686 files analyzed, current file: lib/xsom/src/main/java/com/sun/xml/xsom/impl/parser/state/Schema.java
 INFO  686/686 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=39444ms
+INFO  Java Main Files AST scan (done) | time=41119ms
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
 INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=2ms
 INFO  0/0 source files have been analyzed
 -----Number of fixes------
 UnclosedResourcesProcessor: 1
@@ -23,19 +24,19 @@ UnclosedResourcesProcessor: 1
 INFO  JavaClasspath initialization
 INFO  JavaClasspath initialization (done) | time=0ms
 INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  JavaTestClasspath initialization (done) | time=1ms
 INFO  Java Main Files AST scan
 INFO  686 source files to be analyzed
 INFO  151/686 files analyzed, current file: jolie/src/main/java/jolie/process/SolicitResponseProcess.java
-INFO  349/686 files analyzed, current file: libjolie/src/main/java/jolie/lang/parse/OLParser.java
-INFO  636/686 files analyzed, current file: lib/xsom/src/main/java/com/sun/xml/xsom/impl/parser/state/particle.java
-INFO  Java Main Files AST scan (done) | time=33445ms
+INFO  248/686 files analyzed, current file: jolie/src/main/java/jolie/runtime/expression/CompareCondition.java
+INFO  627/686 files analyzed, current file: lib/xsom/src/main/java/com/sun/xml/xsom/impl/parser/state/elementDeclBody.java
+INFO  Java Main Files AST scan (done) | time=35214ms
 INFO  Java Test Files AST scan
 INFO  686/686 source files have been analyzed
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=0ms
 INFO  Java Generated Files AST scan
-INFO  0 source files to be analyzed
-INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
+INFO  0 source files to be analyzed
+INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed

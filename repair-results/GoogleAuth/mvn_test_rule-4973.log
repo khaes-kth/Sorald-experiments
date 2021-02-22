@@ -1,0 +1,66 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.warrenstrange:googleauth >--------------------
+[INFO] Building com.warrenstrange:googleauth 1.6.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:3.0.0-M3:enforce (enforce-maven) @ googleauth ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ googleauth ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/GoogleAuth/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ googleauth ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ googleauth ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ googleauth ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ googleauth ---
+[INFO] Surefire report directory: /workdir/GoogleAuth/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.warrenstrange.googleauth.GoogleAuthTest
+getSecretKey invoked with user name testName returning KR52HV2U5Z4DWGLJ.
+Check VALIDATION_CODE = false
+saveUserCredentials invoked with user name testName
+Please register (otpauth uri): https://api.qrserver.com/v1/create-qr-code/?data=otpauth%3A%2F%2Ftotp%2FTest%2520Org.%3Atest%40prova.org%3Fsecret%3D5IOAMXMTGJFX7XUL2UIR3HLNUIVL47XA%26issuer%3DTest%2BOrg.%26algorithm%3DSHA1%26digits%3D6%26period%3D30&size=200x200&ecc=M&margin=0
+Secret key is 5IOAMXMTGJFX7XUL2UIR3HLNUIVL47XA
+Scratch code: 86183303
+Scratch code: 91369785
+Scratch code: 38308785
+Scratch code: 64143432
+Scratch code: 29302635
+Please register (otpauth uri): https://api.qrserver.com/v1/create-qr-code/?data=otpauth%3A%2F%2Ftotp%2FTest%2520Org.%3Atest%40prova.org%3Fsecret%3DMNbLehpAG07xynaBS8dinVlbVU8%253D%26issuer%3DTest%2BOrg.%26algorithm%3DSHA1%26digits%3D6%26period%3D30&size=200x200&ecc=M&margin=0
+Base64-encoded secret key is MNbLehpAG07xynaBS8dinVlbVU8=
+Scratch code: 54770833
+Scratch code: 97771321
+Scratch code: 87976460
+Scratch code: 57720235
+Scratch code: 94127310
+Scratch code: 77051093
+Scratch code: 54474936
+Scratch code: 82562484
+Scratch code: 49073122
+Scratch code: 71664275
+Check VALIDATION_CODE = false
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 sec
+Running com.warrenstrange.googleauth.GoogleAuthenticatorQRGeneratorTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.087 s
+[INFO] Finished at: 2021-02-14T18:00:56Z
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,373 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< io.opentracing.contrib:opentracing-jdbc >---------------
+[INFO] Building io.opentracing.contrib:opentracing-jdbc 0.2.13-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- jacoco-maven-plugin:0.8.5:prepare-agent (prepare-agent) @ opentracing-jdbc ---
+[INFO] argLine set to -javaagent:/home/maven/.m2/repository/org/jacoco/org.jacoco.agent/0.8.5/org.jacoco.agent-0.8.5-runtime.jar=destfile=/workdir/java-jdbc/target/jacoco.exec
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ opentracing-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ opentracing-jdbc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- license-maven-plugin:3.0:check (default) @ opentracing-jdbc ---
+[INFO] Checking licenses...
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair.out
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair.err
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule.in
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2142.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-1860.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2225.err
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-1217.err
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2184.err
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2111.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule-2225.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule-2272.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule-2116.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2142.err
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2095.err
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-4973.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule-1217.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2272.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule-2111.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule-2142.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule-2095.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2111.err
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-1860.err
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2095.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2272.err
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair.in
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2116.err
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule-1860.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2116.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule-4973.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-1217.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2184.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/patch.diff
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-4973.err
+[WARNING] Unknown file extension: /workdir/java-jdbc/mvn_test_rule-2184.log
+[WARNING] Unknown file extension: /workdir/java-jdbc/sorald_repair-2225.log
+[WARNING] Unable to find a comment style definition for some files. You may want to add a custom mapping for the relevant file extensions.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ opentracing-jdbc ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ opentracing-jdbc ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ opentracing-jdbc ---
+[INFO] Surefire report directory: /workdir/java-jdbc/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running io.opentracing.contrib.jdbc.JdbcTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.658 sec
+Running io.opentracing.contrib.jdbc.TracingDataSourceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 sec
+Running io.opentracing.contrib.jdbc.HibernateTest
+Feb 15, 2021 8:02:06 AM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate Core {5.4.10.Final}
+Feb 15, 2021 8:02:06 AM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+Feb 15, 2021 8:02:07 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Feb 15, 2021 8:02:07 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [io.opentracing.contrib.jdbc.TracingDriver] at URL [jdbc:tracing:h2:mem:hibernate?traceWithActiveSpanOnly=true]
+Feb 15, 2021 8:02:07 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=sa}
+Feb 15, 2021 8:02:07 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Feb 15, 2021 8:02:07 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Feb 15, 2021 8:02:07 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table Employee if exists
+Feb 15, 2021 8:02:07 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@17d28608] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: drop sequence if exists hibernate_sequence
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Feb 15, 2021 8:02:07 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7bc40c88] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: create table Employee (id bigint not null, primary key (id))
+Feb 15, 2021 8:02:07 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: call next value for hibernate_sequence
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into Employee (id) values (?)
+Hibernate: insert into Employee (id) values (?)
+Feb 15, 2021 8:02:08 AM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+INFO: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table Employee if exists
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@608de3fb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: drop sequence if exists hibernate_sequence
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:tracing:h2:mem:hibernate?traceWithActiveSpanOnly=true]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [io.opentracing.contrib.jdbc.TracingDriver] at URL [jdbc:tracing:h2:mem:hibernate?traceWithActiveSpanOnly=false]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=sa}
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Feb 15, 2021 8:02:08 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table Employee if exists
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1669899] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: drop sequence if exists hibernate_sequence
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38515041] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: create table Employee (id bigint not null, primary key (id))
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into Employee (id) values (?)
+Feb 15, 2021 8:02:08 AM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+INFO: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table Employee if exists
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@27f22d1a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: drop sequence if exists hibernate_sequence
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:tracing:h2:mem:hibernate?traceWithActiveSpanOnly=false]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [io.opentracing.contrib.jdbc.TracingDriver] at URL [jdbc:tracing:h2:mem:hibernate?traceWithActiveSpanOnly=false]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=sa}
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Feb 15, 2021 8:02:08 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table Employee if exists
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@e63d8d0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: drop sequence if exists hibernate_sequence
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3d608051] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: create table Employee (id bigint not null, primary key (id))
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: call next value for hibernate_sequence
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into Employee (id) values (?)
+Hibernate: insert into Employee (id) values (?)
+Feb 15, 2021 8:02:08 AM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+INFO: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table Employee if exists
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2291fb0c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: drop sequence if exists hibernate_sequence
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:tracing:h2:mem:hibernate?traceWithActiveSpanOnly=false]
+Feb 15, 2021 8:02:08 AM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: jpa_active_span_only]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [io.opentracing.contrib.jdbc.TracingDriver] at URL [jdbc:tracing:h2:mem:jpa?traceWithActiveSpanOnly=true]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=sa}
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Feb 15, 2021 8:02:08 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3e4bca9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7bbe1cc9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Feb 15, 2021 8:02:08 AM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+INFO: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@458556e4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:tracing:h2:mem:jpa?traceWithActiveSpanOnly=true]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [io.opentracing.contrib.jdbc.TracingDriver] at URL [jdbc:tracing:h2:mem:hibernate?ignoreForTracing="insert into Employee (id) values (?)";traceWithActiveSpanOnly=false]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=sa}
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Feb 15, 2021 8:02:08 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table Employee if exists
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3f88ca0e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: drop sequence if exists hibernate_sequence
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@69d7e75d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: create table Employee (id bigint not null, primary key (id))
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into Employee (id) values (?)
+Feb 15, 2021 8:02:08 AM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+INFO: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table Employee if exists
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@a4254b9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: drop sequence if exists hibernate_sequence
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:tracing:h2:mem:hibernate?ignoreForTracing="insert into Employee (id) values (?)";traceWithActiveSpanOnly=false]
+Feb 15, 2021 8:02:08 AM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: jpa]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [io.opentracing.contrib.jdbc.TracingDriver] at URL [jdbc:tracing:h2:mem:jpa]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=sa}
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Feb 15, 2021 8:02:08 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2f719c9d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@79374f2d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Feb 15, 2021 8:02:08 AM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+INFO: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@19827336] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:tracing:h2:mem:jpa]
+Feb 15, 2021 8:02:08 AM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: jpa_active_span_only]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [io.opentracing.contrib.jdbc.TracingDriver] at URL [jdbc:tracing:h2:mem:jpa?traceWithActiveSpanOnly=true]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=sa}
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Feb 15, 2021 8:02:08 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@dd2fec4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@cc8eb9b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Feb 15, 2021 8:02:08 AM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+INFO: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@38dbc0cf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:tracing:h2:mem:jpa?traceWithActiveSpanOnly=true]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [io.opentracing.contrib.jdbc.TracingDriver] at URL [jdbc:tracing:h2:mem:hibernate?traceWithActiveSpanOnly=true]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=sa}
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 10 (min=1)
+Feb 15, 2021 8:02:08 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Hibernate: drop table Employee if exists
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5f961b1e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: drop sequence if exists hibernate_sequence
+Hibernate: create sequence hibernate_sequence start with 1 increment by 1
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@560742f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: create table Employee (id bigint not null, primary key (id))
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Hibernate: call next value for hibernate_sequence
+Hibernate: insert into Employee (id) values (?)
+Feb 15, 2021 8:02:08 AM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+INFO: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table Employee if exists
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@19b26391] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Hibernate: drop sequence if exists hibernate_sequence
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:tracing:h2:mem:hibernate?traceWithActiveSpanOnly=true]
+Feb 15, 2021 8:02:08 AM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: jpa]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl configure
+WARN: HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001005: using driver [io.opentracing.contrib.jdbc.TracingDriver] at URL [jdbc:tracing:h2:mem:jpa]
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001001: Connection properties: {password=****, user=sa}
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl buildCreator
+INFO: HHH10001003: Autocommit mode: false
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PooledConnections <init>
+INFO: HHH000115: Hibernate connection pool size: 20 (min=1)
+Feb 15, 2021 8:02:08 AM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1ccedde8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4069f369] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Feb 15, 2021 8:02:08 AM org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl perform
+INFO: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Feb 15, 2021 8:02:08 AM org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl getIsolatedConnection
+INFO: HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@35c4686e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+Feb 15, 2021 8:02:08 AM org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState stop
+INFO: HHH10001008: Cleaning up connection pool [jdbc:tracing:h2:mem:jpa]
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.99 sec
+Running io.opentracing.contrib.jdbc.TracingDriverTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+Running io.opentracing.contrib.jdbc.parser.AS400URLParserTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running io.opentracing.contrib.jdbc.parser.URLParserTest
+Feb 15, 2021 8:02:08 AM io.opentracing.contrib.jdbc.parser.URLParser parse
+WARNING: error occurs when parsing jdbc url
+Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec
+Running io.opentracing.contrib.jdbc.parser.DB2URLParserTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running io.opentracing.contrib.jdbc.SpringTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.156 sec
+Running io.opentracing.contrib.jdbc.JdbcTracingUtilsTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec
+
+Results :
+
+Tests run: 68, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.640 s
+[INFO] Finished at: 2021-02-15T08:02:08Z
+[INFO] ------------------------------------------------------------------------

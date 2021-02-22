@@ -1,0 +1,192 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 4 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 4 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] argparse4j-root                                                    [pom]
+[INFO] argparse4j                                                         [jar]
+[INFO] argparse4j-extensions                                              [pom]
+[INFO] argparse4j-hadoop                                                  [jar]
+[INFO] 
+[INFO] -------------< net.sourceforge.argparse4j:argparse4j-root >-------------
+[INFO] Building argparse4j-root 0.9.0-SNAPSHOT                            [1/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ argparse4j-root ---
+[INFO] 
+[INFO] ---------------< net.sourceforge.argparse4j:argparse4j >----------------
+[INFO] Building argparse4j 0.9.0-SNAPSHOT                                 [2/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ argparse4j ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ argparse4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (java-9-module-compile) @ argparse4j ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (java-8-compile) @ argparse4j ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 62 source files to /workdir/argparse4j/main/target/classes
+[INFO] /workdir/argparse4j/main/src/main/java/net/sourceforge/argparse4j/impl/Arguments.java: /workdir/argparse4j/main/src/main/java/net/sourceforge/argparse4j/impl/Arguments.java uses or overrides a deprecated API.
+[INFO] /workdir/argparse4j/main/src/main/java/net/sourceforge/argparse4j/impl/Arguments.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/argparse4j/main/src/main/java/net/sourceforge/argparse4j/inf/Argument.java: Some input files use unchecked or unsafe operations.
+[INFO] /workdir/argparse4j/main/src/main/java/net/sourceforge/argparse4j/inf/Argument.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ argparse4j ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 9 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ argparse4j ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 32 source files to /workdir/argparse4j/main/target/test-classes
+[INFO] /workdir/argparse4j/main/src/test/java/net/sourceforge/argparse4j/impl/type/EnumArgumentTypeTest.java: Some input files use or override a deprecated API.
+[INFO] /workdir/argparse4j/main/src/test/java/net/sourceforge/argparse4j/impl/type/EnumArgumentTypeTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] /workdir/argparse4j/main/src/test/java/net/sourceforge/argparse4j/mock/MockArgument.java: /workdir/argparse4j/main/src/test/java/net/sourceforge/argparse4j/mock/MockArgument.java uses unchecked or unsafe operations.
+[INFO] /workdir/argparse4j/main/src/test/java/net/sourceforge/argparse4j/mock/MockArgument.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ argparse4j ---
+[INFO] Surefire report directory: /workdir/argparse4j/main/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running net.sourceforge.argparse4j.inf.NamespaceTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+Running net.sourceforge.argparse4j.helper.ReflectHelperTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running net.sourceforge.argparse4j.helper.CJKTextWidthCounterTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running net.sourceforge.argparse4j.helper.TypeNameLocalizationTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.043 sec
+Running net.sourceforge.argparse4j.helper.PrefixPatternTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running net.sourceforge.argparse4j.helper.TextHelperTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running net.sourceforge.argparse4j.internal.SubparsersImplTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running net.sourceforge.argparse4j.internal.ArgumentImplTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.037 sec
+Running net.sourceforge.argparse4j.internal.ArgumentParserImplTest
+usage: argparse4j [-h] -a A -c C b {install} ...
+
+positional arguments:
+  b
+  {install}
+
+named arguments:
+  -h, --help             show this help message and exit
+  -a A
+  -c C
+usage: argparse4j [-h]
+
+named arguments:
+  -h, --help             show this help message and exit
+Tests run: 83, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec
+Running net.sourceforge.argparse4j.ext.java7.PathArgumentTypeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec
+Running net.sourceforge.argparse4j.ArgumentParsersTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running net.sourceforge.argparse4j.impl.action.AppendArgumentActionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running net.sourceforge.argparse4j.impl.action.CountArgumentActionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running net.sourceforge.argparse4j.impl.action.AppendConstArgumentActionTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running net.sourceforge.argparse4j.impl.choice.CollectionArgumentChoiceTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running net.sourceforge.argparse4j.impl.choice.RangeArgumentChoiceTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running net.sourceforge.argparse4j.impl.type.EnumStringArgumentTypeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running net.sourceforge.argparse4j.impl.type.FileVerificationOrTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 sec
+Running net.sourceforge.argparse4j.impl.type.CaseInsensitiveEnumNameArgumentTypeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+Running net.sourceforge.argparse4j.impl.type.BooleanArgumentTypeTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+Running net.sourceforge.argparse4j.impl.type.CaseInsensitiveEnumStringArgumentTypeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running net.sourceforge.argparse4j.impl.type.EnumArgumentTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+Running net.sourceforge.argparse4j.impl.type.FileArgumentTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+Running net.sourceforge.argparse4j.impl.type.ConstructorArgumentTypeTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.005 sec
+Running net.sourceforge.argparse4j.impl.type.ReflectArgumentTypeTest
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
+
+Results :
+
+Tests run: 164, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] ----------< net.sourceforge.argparse4j:argparse4j-extensions >----------
+[INFO] Building argparse4j-extensions 0.9.0-SNAPSHOT                      [3/4]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ argparse4j-extensions ---
+[INFO] 
+[INFO] ------------< net.sourceforge.argparse4j:argparse4j-hadoop >------------
+[INFO] Building argparse4j-hadoop 0.9.0-SNAPSHOT                          [4/4]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-enforcer-plugin:1.4.1:enforce (enforce-maven) @ argparse4j-hadoop ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ argparse4j-hadoop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 5 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (java-9-module-compile) @ argparse4j-hadoop ---
+[WARNING] Can't extract module name from htrace-core-3.1.0-incubating.jar: Provider class com.fasterxml.jackson.core.JsonFactory not in module
+[WARNING] ***********************************************************************************************************************************************
+[WARNING] * Required filename-based automodules detected: [hadoop-common-2.7.0.jar]. Please don't publish this project to a public artifact repository! *
+[WARNING] ***********************************************************************************************************************************************
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /workdir/argparse4j/extensions/hadoop/target/classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (java-8-compile) @ argparse4j-hadoop ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/argparse4j/extensions/hadoop/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ argparse4j-hadoop ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/argparse4j/extensions/hadoop/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ argparse4j-hadoop ---
+[WARNING] Can't extract module name from htrace-core-3.1.0-incubating.jar: Provider class com.fasterxml.jackson.core.JsonFactory not in module
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to /workdir/argparse4j/extensions/hadoop/target/test-classes
+[INFO] /workdir/argparse4j/extensions/hadoop/src/test/java/net/sourceforge/argparse4j/ext/hadoop/mock/MockArgument.java: /workdir/argparse4j/extensions/hadoop/src/test/java/net/sourceforge/argparse4j/ext/hadoop/mock/MockArgument.java uses unchecked or unsafe operations.
+[INFO] /workdir/argparse4j/extensions/hadoop/src/test/java/net/sourceforge/argparse4j/ext/hadoop/mock/MockArgument.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ argparse4j-hadoop ---
+[INFO] Surefire report directory: /workdir/argparse4j/extensions/hadoop/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running net.sourceforge.argparse4j.ext.hadoop.PathArgumentTypeTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.104 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for argparse4j-root 0.9.0-SNAPSHOT:
+[INFO] 
+[INFO] argparse4j-root .................................... SUCCESS [  0.231 s]
+[INFO] argparse4j ......................................... SUCCESS [  2.584 s]
+[INFO] argparse4j-extensions .............................. SUCCESS [  0.003 s]
+[INFO] argparse4j-hadoop .................................. SUCCESS [  1.001 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.326 s
+[INFO] Finished at: 2021-02-14T18:03:05Z
+[INFO] ------------------------------------------------------------------------

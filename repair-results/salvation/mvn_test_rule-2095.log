@@ -1,0 +1,53 @@
+[INFO] Scanning for projects...
+[INFO] Inspecting build with total of 1 modules...
+[INFO] Installing Nexus Staging features:
+[INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+[INFO] 
+[INFO] --------------------< com.shapesecurity:salvation2 >--------------------
+[INFO] Building salvation 3.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ salvation2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /workdir/salvation/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:compile (default-compile) @ salvation2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ salvation2 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.3.2:testCompile (default-testCompile) @ salvation2 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ salvation2 ---
+[INFO] Surefire report directory: /workdir/salvation/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.shapesecurity.salvation2.ParserTest
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.067 sec
+Running com.shapesecurity.salvation2.LowLevelPolicyManipulationTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 sec
+Running com.shapesecurity.salvation2.HighLevelPolicyManipulationTest
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 sec
+Running com.shapesecurity.salvation2.QueryingTest
+Tests run: 24, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+
+Results :
+
+Tests run: 54, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-checkstyle-plugin:3.1.1:check (test) @ salvation2 ---
+[INFO] Starting audit...
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.930 s
+[INFO] Finished at: 2021-02-15T02:56:04Z
+[INFO] ------------------------------------------------------------------------

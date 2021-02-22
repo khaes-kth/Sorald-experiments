@@ -3,11 +3,28 @@ INFO  JavaClasspath initialization (done) | time=26ms
 INFO  JavaTestClasspath initialization
 INFO  JavaTestClasspath initialization (done) | time=0ms
 INFO  Java Main Files AST scan
-INFO  531 source files to be analyzed
-ERROR Unable to parse source file : 'protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/CollectionTest.java'
-ERROR Parse error at line 531 column 4: Syntax error, insert "Identifier (" to complete MethodHeaderName
-INFO  531/531 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=7725ms
+INFO  405 source files to be analyzed
+INFO  405/405 source files have been analyzed
+INFO  Java Main Files AST scan (done) | time=5817ms
+INFO  Java Test Files AST scan
+INFO  0 source files to be analyzed
+INFO  Java Test Files AST scan (done) | time=5ms
+INFO  Java Generated Files AST scan
+INFO  0 source files to be analyzed
+INFO  0/0 source files have been analyzed
+INFO  0/0 source files have been analyzed
+INFO  Java Generated Files AST scan (done) | time=0ms
+-----Number of fixes------
+CastArithmeticOperandProcessor: 0
+-----End of report------
+INFO  JavaClasspath initialization
+INFO  JavaClasspath initialization (done) | time=1ms
+INFO  JavaTestClasspath initialization
+INFO  JavaTestClasspath initialization (done) | time=0ms
+INFO  Java Main Files AST scan
+INFO  405 source files to be analyzed
+INFO  Java Main Files AST scan (done) | time=3719ms
+INFO  405/405 source files have been analyzed
 INFO  Java Test Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Test Files AST scan (done) | time=1ms
@@ -15,25 +32,4 @@ INFO  Java Generated Files AST scan
 INFO  0 source files to be analyzed
 INFO  Java Generated Files AST scan (done) | time=0ms
 INFO  0/0 source files have been analyzed
-INFO  0/0 source files have been analyzed
------Number of fixes------
-CastArithmeticOperandProcessor: 0
------End of report------
-INFO  JavaClasspath initialization
-INFO  JavaClasspath initialization (done) | time=0ms
-INFO  JavaTestClasspath initialization
-INFO  JavaTestClasspath initialization (done) | time=0ms
-INFO  Java Main Files AST scan
-INFO  531 source files to be analyzed
-ERROR Unable to parse source file : 'protostuff-runtime-md/target/extra-test-sources/io/protostuff/runtime/CollectionTest.java'
-ERROR Parse error at line 531 column 4: Syntax error, insert "Identifier (" to complete MethodHeaderName
-INFO  531/531 source files have been analyzed
-INFO  Java Main Files AST scan (done) | time=4857ms
-INFO  Java Test Files AST scan
-INFO  0 source files to be analyzed
-INFO  Java Test Files AST scan (done) | time=0ms
-INFO  Java Generated Files AST scan
-INFO  0 source files to be analyzed
-INFO  0/0 source files have been analyzed
-INFO  Java Generated Files AST scan (done) | time=1ms
 INFO  0/0 source files have been analyzed
