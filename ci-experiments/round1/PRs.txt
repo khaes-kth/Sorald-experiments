@@ -1,15 +1,15 @@
 created:
-https://github.com/AddstarMC/Prism-Bukkit/pull/247
-https://github.com/AddstarMC/Prism-Bukkit/pull/248
-https://github.com/kafka-ops/kafka-topology-builder/pull/206
-https://github.com/LinShunKang/MyPerf4J/pull/70
-https://github.com/kafka-ops/kafka-topology-builder/pull/207
-https://github.com/techa03/goodsKill/pull/79
-https://github.com/DanielYWoo/fast-object-pool/pull/26
-https://github.com/Athou/commafeed/pull/957
-https://github.com/LinShunKang/MyPerf4J/pull/71
-https://github.com/techa03/goodsKill/pull/80
-https://github.com/CloudburstMC/Nukkit/pull/1764
+https://github.com/AddstarMC/Prism-Bukkit/pull/247,not_merged
+https://github.com/AddstarMC/Prism-Bukkit/pull/248,not_merged
+https://github.com/kafka-ops/kafka-topology-builder/pull/206,not_merged
+https://github.com/LinShunKang/MyPerf4J/pull/70,merged
+https://github.com/kafka-ops/kafka-topology-builder/pull/207,merged
+https://github.com/techa03/goodsKill/pull/79,undecided
+https://github.com/DanielYWoo/fast-object-pool/pull/26,merged
+https://github.com/Athou/commafeed/pull/957,not_merged
+https://github.com/LinShunKang/MyPerf4J/pull/71,undecided
+https://github.com/techa03/goodsKill/pull/80,undecided
+https://github.com/CloudburstMC/Nukkit/pull/1764,not_merged
 
 not_created:
 https://github.com/khaes-kth/arthas/tree/fixed/Sonar_2095 => does not compile (source-level should go higher)
