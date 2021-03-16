@@ -1,0 +1,42 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 0,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 341,
+            "endColumn": 19,
+            "startColumn": 17,
+            "startLine": 341,
+            "filePath": "resource/FontRegistry.java",
+            "violationSpecifier": "4973:resource/FontRegistry.java:341:17:341:19"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./bundles/org.eclipse.jface/src/org/eclipse/jface",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "n-repair-4973-_bundles_org.eclipse.jface_src_org_eclipse_jface.json"
+        ]
+    },
+    "totalTimeMs": 16468,
+    "repairTimeMs": 1009,
+    "startTimeMs": 1615817715543,
+    "crashes": [],
+    "endTimeMs": 1615817732011,
+    "parseTimeMs": 7123
+}

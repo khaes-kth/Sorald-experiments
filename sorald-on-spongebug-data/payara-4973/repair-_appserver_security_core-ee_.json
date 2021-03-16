@@ -1,0 +1,42 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 0,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 666,
+            "endColumn": 27,
+            "startColumn": 25,
+            "startLine": 666,
+            "filePath": "src/main/java/com/sun/enterprise/security/jacc/JaccWebAuthorizationManager.java",
+            "violationSpecifier": "4973:src/main/java/com/sun/enterprise/security/jacc/JaccWebAuthorizationManager.java:666:25:666:27"
+        }],
+        "nbViolationsBefore": 1,
+        "nbTargetViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./appserver/security/core-ee/",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair-_appserver_security_core-ee_.json"
+        ]
+    },
+    "totalTimeMs": 7352,
+    "repairTimeMs": 355,
+    "startTimeMs": 1615477421298,
+    "crashes": [],
+    "endTimeMs": 1615477428650,
+    "parseTimeMs": 2884
+}

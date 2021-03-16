@@ -1,0 +1,42 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "BigDecimalDoubleConstructor",
+        "nbTargetViolationsAfter": 0,
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2111",
+        "performedRepairsLocations": [{
+            "endLine": 1364,
+            "endColumn": 65,
+            "startColumn": 46,
+            "startLine": 1364,
+            "filePath": "main/java/edu/umd/cs/findbugs/detect/DumbMethods.java",
+            "violationSpecifier": "2111:main/java/edu/umd/cs/findbugs/detect/DumbMethods.java:1364:46:1364:65"
+        }],
+        "nbViolationsBefore": 1,
+        "nbTargetViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "2111",
+            "--stats-output-file",
+            "/workdir/results//repair-2111-spotbugs_spotbugs_src.json"
+        ]
+    },
+    "totalTimeMs": 31308,
+    "repairTimeMs": 1566,
+    "startTimeMs": 1615561328729,
+    "crashes": [],
+    "endTimeMs": 1615561360037,
+    "parseTimeMs": 14244
+}

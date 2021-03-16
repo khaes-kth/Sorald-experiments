@@ -1,0 +1,42 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 0,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 264,
+            "endColumn": 18,
+            "startColumn": 16,
+            "startLine": 264,
+            "filePath": "ui/css/swt/internal/theme/ThemeEngine.java",
+            "violationSpecifier": "4973:ui/css/swt/internal/theme/ThemeEngine.java:264:16:264:18"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./bundles/org.eclipse.e4.ui.css.swt.theme/src/org/eclipse/e4",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "n-repair-4973-_bundles_org.eclipse.e4.ui.css.swt.theme_src_org_eclipse_e4.json"
+        ]
+    },
+    "totalTimeMs": 2878,
+    "repairTimeMs": 222,
+    "startTimeMs": 1615817602438,
+    "crashes": [],
+    "endTimeMs": 1615817605316,
+    "parseTimeMs": 900
+}

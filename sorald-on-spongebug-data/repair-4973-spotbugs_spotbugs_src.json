@@ -1,0 +1,132 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 12,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 0,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [
+            {
+                "endLine": 216,
+                "endColumn": 34,
+                "startColumn": 32,
+                "startLine": 216,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:216:32:216:34"
+            },
+            {
+                "endLine": 216,
+                "endColumn": 75,
+                "startColumn": 73,
+                "startLine": 216,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:216:73:216:75"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 34,
+                "startColumn": 32,
+                "startLine": 230,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:230:32:230:34"
+            },
+            {
+                "endLine": 230,
+                "endColumn": 75,
+                "startColumn": 73,
+                "startLine": 230,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:230:73:230:75"
+            },
+            {
+                "endLine": 244,
+                "endColumn": 34,
+                "startColumn": 32,
+                "startLine": 244,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:244:32:244:34"
+            },
+            {
+                "endLine": 272,
+                "endColumn": 48,
+                "startColumn": 46,
+                "startLine": 272,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:272:46:272:48"
+            },
+            {
+                "endLine": 275,
+                "endColumn": 35,
+                "startColumn": 33,
+                "startLine": 275,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:275:33:275:35"
+            },
+            {
+                "endLine": 289,
+                "endColumn": 33,
+                "startColumn": 31,
+                "startLine": 289,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:289:31:289:33"
+            },
+            {
+                "endLine": 306,
+                "endColumn": 34,
+                "startColumn": 32,
+                "startLine": 306,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:306:32:306:34"
+            },
+            {
+                "endLine": 318,
+                "endColumn": 33,
+                "startColumn": 31,
+                "startLine": 318,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:318:31:318:33"
+            },
+            {
+                "endLine": 331,
+                "endColumn": 35,
+                "startColumn": 33,
+                "startLine": 331,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:331:33:331:35"
+            },
+            {
+                "endLine": 340,
+                "endColumn": 36,
+                "startColumn": 34,
+                "startLine": 340,
+                "filePath": "main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java",
+                "violationSpecifier": "4973:main/java/edu/umd/cs/findbugs/visitclass/DismantleBytecode.java:340:34:340:36"
+            }
+        ],
+        "nbViolationsBefore": 12,
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 12
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "/workdir/results//repair-4973-spotbugs_spotbugs_src.json"
+        ]
+    },
+    "totalTimeMs": 31309,
+    "repairTimeMs": 1658,
+    "startTimeMs": 1615561165669,
+    "crashes": [],
+    "endTimeMs": 1615561196978,
+    "parseTimeMs": 14518
+}

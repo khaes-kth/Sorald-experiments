@@ -1,0 +1,42 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "nbTargetViolationsAfter": 0,
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 56,
+            "endColumn": 13,
+            "startColumn": 11,
+            "startLine": 56,
+            "filePath": "snippets/viewers/TableCursor.java",
+            "violationSpecifier": "4973:snippets/viewers/TableCursor.java:56:11:56:13"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./examples/org.eclipse.jface.snippets/Eclipse_JFace_Snippets/org/eclipse/jface",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "n-repair-4973-_examples_org.eclipse.jface.snippets_Eclipse_JFace_Snippets_org_eclipse_jface.json"
+        ]
+    },
+    "totalTimeMs": 6736,
+    "repairTimeMs": 372,
+    "startTimeMs": 1615817950063,
+    "crashes": [],
+    "endTimeMs": 1615817956799,
+    "parseTimeMs": 2683
+}

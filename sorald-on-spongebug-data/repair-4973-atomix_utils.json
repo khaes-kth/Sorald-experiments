@@ -1,0 +1,42 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 0,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 583,
+            "endColumn": 23,
+            "startColumn": 21,
+            "startLine": 583,
+            "filePath": "src/main/java/io/atomix/utils/serializer/Namespace.java",
+            "violationSpecifier": "4973:src/main/java/io/atomix/utils/serializer/Namespace.java:583:21:583:23"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "/workdir/results//repair-4973-atomix_utils.json"
+        ]
+    },
+    "totalTimeMs": 6572,
+    "repairTimeMs": 318,
+    "startTimeMs": 1615561156231,
+    "crashes": [],
+    "endTimeMs": 1615561162803,
+    "parseTimeMs": 2486
+}

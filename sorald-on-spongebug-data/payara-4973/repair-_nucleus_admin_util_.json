@@ -1,0 +1,42 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "nbTargetViolationsAfter": 0,
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 736,
+            "endColumn": 23,
+            "startColumn": 21,
+            "startLine": 736,
+            "filePath": "src/main/java/com/sun/enterprise/admin/util/ClassUtil.java",
+            "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/util/ClassUtil.java:736:21:736:23"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./nucleus/admin/util/",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair-_nucleus_admin_util_.json"
+        ]
+    },
+    "totalTimeMs": 8028,
+    "repairTimeMs": 445,
+    "startTimeMs": 1615478234848,
+    "crashes": [],
+    "endTimeMs": 1615478242876,
+    "parseTimeMs": 3056
+}

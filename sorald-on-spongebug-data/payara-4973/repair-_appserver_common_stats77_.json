@@ -1,0 +1,308 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 34,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 0,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [
+            {
+                "endLine": 159,
+                "endColumn": 23,
+                "startColumn": 21,
+                "startLine": 159,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/ClusterStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/ClusterStats.java:159:21:159:23"
+            },
+            {
+                "endLine": 409,
+                "endColumn": 23,
+                "startColumn": 21,
+                "startLine": 409,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:409:21:409:23"
+            },
+            {
+                "endLine": 527,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 527,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:527:11:527:13"
+            },
+            {
+                "endLine": 529,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 529,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:529:16:529:18"
+            },
+            {
+                "endLine": 531,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 531,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:531:16:531:18"
+            },
+            {
+                "endLine": 533,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 533,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:533:16:533:18"
+            },
+            {
+                "endLine": 535,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 535,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:535:16:535:18"
+            },
+            {
+                "endLine": 537,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 537,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:537:16:537:18"
+            },
+            {
+                "endLine": 539,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 539,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:539:16:539:18"
+            },
+            {
+                "endLine": 541,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 541,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:541:16:541:18"
+            },
+            {
+                "endLine": 543,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 543,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:543:16:543:18"
+            },
+            {
+                "endLine": 545,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 545,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:545:16:545:18"
+            },
+            {
+                "endLine": 547,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 547,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:547:16:547:18"
+            },
+            {
+                "endLine": 549,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 549,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:549:16:549:18"
+            },
+            {
+                "endLine": 551,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 551,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:551:16:551:18"
+            },
+            {
+                "endLine": 553,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 553,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:553:16:553:18"
+            },
+            {
+                "endLine": 555,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 555,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:555:16:555:18"
+            },
+            {
+                "endLine": 570,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 570,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:570:11:570:13"
+            },
+            {
+                "endLine": 572,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 572,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:572:11:572:13"
+            },
+            {
+                "endLine": 574,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 574,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:574:11:574:13"
+            },
+            {
+                "endLine": 576,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 576,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:576:11:576:13"
+            },
+            {
+                "endLine": 578,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 578,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:578:11:578:13"
+            },
+            {
+                "endLine": 580,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 580,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:580:11:580:13"
+            },
+            {
+                "endLine": 582,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 582,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:582:11:582:13"
+            },
+            {
+                "endLine": 584,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 584,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:584:11:584:13"
+            },
+            {
+                "endLine": 586,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 586,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:586:11:586:13"
+            },
+            {
+                "endLine": 588,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 588,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:588:11:588:13"
+            },
+            {
+                "endLine": 590,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 590,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:590:11:590:13"
+            },
+            {
+                "endLine": 592,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 592,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:592:11:592:13"
+            },
+            {
+                "endLine": 594,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 594,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:594:11:594:13"
+            },
+            {
+                "endLine": 596,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 596,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/InstanceStats.java:596:11:596:13"
+            },
+            {
+                "endLine": 216,
+                "endColumn": 23,
+                "startColumn": 21,
+                "startLine": 216,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/LoadBalancerStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/LoadBalancerStats.java:216:21:216:23"
+            },
+            {
+                "endLine": 288,
+                "endColumn": 13,
+                "startColumn": 11,
+                "startLine": 288,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/LoadBalancerStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/LoadBalancerStats.java:288:11:288:13"
+            },
+            {
+                "endLine": 290,
+                "endColumn": 18,
+                "startColumn": 16,
+                "startLine": 290,
+                "filePath": "src/main/java/com/sun/enterprise/admin/monitor/stats/lb/LoadBalancerStats.java",
+                "violationSpecifier": "4973:src/main/java/com/sun/enterprise/admin/monitor/stats/lb/LoadBalancerStats.java:290:16:290:18"
+            }
+        ],
+        "nbViolationsBefore": 34,
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 34
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./appserver/common/stats77/",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair-_appserver_common_stats77_.json"
+        ]
+    },
+    "totalTimeMs": 4696,
+    "repairTimeMs": 349,
+    "startTimeMs": 1615476882475,
+    "crashes": [],
+    "endTimeMs": 1615476887171,
+    "parseTimeMs": 1454
+}

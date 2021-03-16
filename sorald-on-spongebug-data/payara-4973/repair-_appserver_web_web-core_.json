@@ -1,0 +1,42 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 0,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 1163,
+            "endColumn": 43,
+            "startColumn": 41,
+            "startLine": 1163,
+            "filePath": "src/main/java/org/apache/catalina/servlets/CGIServlet.java",
+            "violationSpecifier": "4973:src/main/java/org/apache/catalina/servlets/CGIServlet.java:1163:41:1163:43"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./appserver/web/web-core/",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair-_appserver_web_web-core_.json"
+        ]
+    },
+    "totalTimeMs": 18299,
+    "repairTimeMs": 932,
+    "startTimeMs": 1615478058116,
+    "crashes": [],
+    "endTimeMs": 1615478076415,
+    "parseTimeMs": 7849
+}

@@ -1,0 +1,42 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 0,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 407,
+            "endColumn": 33,
+            "startColumn": 31,
+            "startLine": 407,
+            "filePath": "wfs/1.0.0/spatial-wfs-v1_0_0-source/src/main/java/org/codice/ddf/spatial/ogc/wfs/v1_0_0/catalog/source/WfsSource.java",
+            "violationSpecifier": "4973:wfs/1.0.0/spatial-wfs-v1_0_0-source/src/main/java/org/codice/ddf/spatial/ogc/wfs/v1_0_0/catalog/source/WfsSource.java:407:31:407:33"
+        }],
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "/workdir/results//repair-4973-ddf_catalog_spatial.json"
+        ]
+    },
+    "totalTimeMs": 25604,
+    "repairTimeMs": 1173,
+    "startTimeMs": 1615561114223,
+    "crashes": [],
+    "endTimeMs": 1615561139827,
+    "parseTimeMs": 13124
+}

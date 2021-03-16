@@ -1,0 +1,42 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 0,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [{
+            "endLine": 761,
+            "endColumn": 19,
+            "startColumn": 17,
+            "startLine": 761,
+            "filePath": "src/main/java/org/glassfish/ejb/security/application/EJBSecurityManager.java",
+            "violationSpecifier": "4973:src/main/java/org/glassfish/ejb/security/application/EJBSecurityManager.java:761:17:761:19"
+        }],
+        "nbViolationsBefore": 1,
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 1
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./appserver/ejb/ejb-container/",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "repair-_appserver_ejb_ejb-container_.json"
+        ]
+    },
+    "totalTimeMs": 15581,
+    "repairTimeMs": 828,
+    "startTimeMs": 1615476987185,
+    "crashes": [],
+    "endTimeMs": 1615477002766,
+    "parseTimeMs": 7243
+}

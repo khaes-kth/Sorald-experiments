@@ -1,0 +1,72 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 4,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 1,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "performedRepairsLocations": [
+            {
+                "endLine": 2163,
+                "endColumn": 51,
+                "startColumn": 49,
+                "startLine": 2163,
+                "filePath": "java/com/microsoft/sqlserver/jdbc/dtv.java",
+                "violationSpecifier": "4973:java/com/microsoft/sqlserver/jdbc/dtv.java:2163:49:2163:51"
+            },
+            {
+                "endLine": 1019,
+                "endColumn": 53,
+                "startColumn": 51,
+                "startLine": 1019,
+                "filePath": "java/com/microsoft/sqlserver/jdbc/SQLServerDatabaseMetaData.java",
+                "violationSpecifier": "4973:java/com/microsoft/sqlserver/jdbc/SQLServerDatabaseMetaData.java:1019:51:1019:53"
+            },
+            {
+                "endLine": 1021,
+                "endColumn": 60,
+                "startColumn": 58,
+                "startLine": 1021,
+                "filePath": "java/com/microsoft/sqlserver/jdbc/SQLServerDatabaseMetaData.java",
+                "violationSpecifier": "4973:java/com/microsoft/sqlserver/jdbc/SQLServerDatabaseMetaData.java:1021:58:1021:60"
+            },
+            {
+                "endLine": 74,
+                "endColumn": 21,
+                "startColumn": 19,
+                "startLine": 74,
+                "filePath": "java/com/microsoft/sqlserver/jdbc/SQLServerFMTQuery.java",
+                "violationSpecifier": "4973:java/com/microsoft/sqlserver/jdbc/SQLServerFMTQuery.java:74:19:74:21"
+            }
+        ],
+        "nbViolationsBefore": 4,
+        "nbViolationsAfter": 1,
+        "nbTargetViolationsBefore": 4
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "/workdir/results//repair-4973-mssql-jdbc_src_main.json"
+        ]
+    },
+    "totalTimeMs": 17908,
+    "repairTimeMs": 1316,
+    "startTimeMs": 1615561055893,
+    "crashes": [{
+        "description": "Crash in sorald.processor.CompareStringsBoxedTypesWithEqualsProcessor::repairInternal",
+        "stackTrace": "spoon.SpoonException: Cannot compare this: [118235, 118476] with other: [\"118289\", \"118821\"]\n\tat spoon.support.sniper.internal.ElementSourceFragment.compare(ElementSourceFragment.java:371)\n\tat spoon.support.sniper.internal.ElementSourceFragment.add(ElementSourceFragment.java:285)\n\tat spoon.support.sniper.internal.ElementSourceFragment.addChild(ElementSourceFragment.java:317)\n\tat spoon.support.sniper.internal.ElementSourceFragment.addChild(ElementSourceFragment.java:243)\n\tat spoon.support.sniper.internal.ElementSourceFragment.access$000(ElementSourceFragment.java:51)\n\tat spoon.support.sniper.internal.ElementSourceFragment$1.enter(ElementSourceFragment.java:200)\n\tat spoon.reflect.visitor.CtScanner.visitCtEnumValue(CtScanner.java:421)\n\tat spoon.support.reflect.declaration.CtEnumValueImpl.accept(CtEnumValueImpl.java:18)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.doScan(EarlyTerminatingScanner.java:145)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.scan(EarlyTerminatingScanner.java:121)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.scan(EarlyTerminatingScanner.java:106)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.scan(EarlyTerminatingScanner.java:83)\n\tat spoon.reflect.visitor.CtScanner.visitCtEnum(CtScanner.java:394)\n\tat spoon.support.reflect.declaration.CtEnumImpl.accept(CtEnumImpl.java:45)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.doScan(EarlyTerminatingScanner.java:145)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.scan(EarlyTerminatingScanner.java:121)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.scan(EarlyTerminatingScanner.java:106)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.scan(EarlyTerminatingScanner.java:83)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.doScan(EarlyTerminatingScanner.java:145)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.scan(EarlyTerminatingScanner.java:121)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.scan(EarlyTerminatingScanner.java:106)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.scan(EarlyTerminatingScanner.java:83)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.visitCtCompilationUnit(EarlyTerminatingScanner.java:160)\n\tat spoon.support.reflect.declaration.CtCompilationUnitImpl.accept(CtCompilationUnitImpl.java:407)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.doScan(EarlyTerminatingScanner.java:145)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.scan(EarlyTerminatingScanner.java:121)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.EarlyTerminatingScanner.scan(EarlyTerminatingScanner.java:106)\n\tat spoon.support.sniper.internal.ElementSourceFragment.createSourceFragmentsFrom(ElementSourceFragment.java:228)\n\tat spoon.support.reflect.declaration.CtCompilationUnitImpl.getOriginalSourceFragment(CtCompilationUnitImpl.java:359)\n\tat spoon.support.modelobs.SourceFragmentCreator.onChange(SourceFragmentCreator.java:32)\n\tat spoon.support.modelobs.ChangeCollector$ChangeListener.onObjectUpdate(ChangeCollector.java:169)\n\tat spoon.support.reflect.code.CtBinaryOperatorImpl.setRightHandOperand(CtBinaryOperatorImpl.java:62)\n\tat spoon.support.visitor.replace.ReplacementVisitor$CtBinaryOperatorRightHandOperandReplaceListener.set(ReplacementVisitor.java:1075)\n\tat spoon.support.visitor.replace.ReplacementVisitor$CtBinaryOperatorRightHandOperandReplaceListener.set(ReplacementVisitor.java:1066)\n\tat spoon.support.visitor.replace.ReplacementVisitor.replaceElementIfExist(ReplacementVisitor.java:1462)\n\tat spoon.support.visitor.replace.ReplacementVisitor.visitCtBinaryOperator(ReplacementVisitor.java:1551)\n\tat spoon.support.reflect.code.CtBinaryOperatorImpl.accept(CtBinaryOperatorImpl.java:34)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.replace.ReplacementVisitor.replace(ReplacementVisitor.java:1347)\n\tat spoon.support.reflect.declaration.CtElementImpl.replace(CtElementImpl.java:463)\n\tat sorald.processor.CompareStringsBoxedTypesWithEqualsProcessor.repairInternal(CompareStringsBoxedTypesWithEqualsProcessor.java:63)\n\tat sorald.processor.CompareStringsBoxedTypesWithEqualsProcessor.repairInternal(CompareStringsBoxedTypesWithEqualsProcessor.java:13)\n\tat sorald.processor.SoraldAbstractProcessor.repair(SoraldAbstractProcessor.java:86)\n\tat sorald.processor.SoraldAbstractProcessor.process(SoraldAbstractProcessor.java:143)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:72)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtBinaryOperator(CtScanner.java:292)\n\tat spoon.support.reflect.code.CtBinaryOperatorImpl.accept(CtBinaryOperatorImpl.java:34)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:482)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtIf(CtScanner.java:483)\n\tat spoon.support.reflect.code.CtIfImpl.accept(CtIfImpl.java:36)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtBlock(CtScanner.java:300)\n\tat spoon.support.reflect.code.CtBlockImpl.accept(CtBlockImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.visitCtMethod(CtScanner.java:566)\n\tat spoon.support.reflect.declaration.CtMethodImpl.accept(CtMethodImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:170)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:143)\n\tat spoon.reflect.visitor.CtScanner.visitCtClass(CtScanner.java:336)\n\tat spoon.support.reflect.declaration.CtClassImpl.accept(CtClassImpl.java:58)\n\tat spoon.reflect.visitor.CtScanner.scan(CtScanner.java:178)\n\tat spoon.support.visitor.ProcessingVisitor.scan(ProcessingVisitor.java:68)\n\tat spoon.support.QueueProcessingManager.process(QueueProcessingManager.java:118)\n\tat sorald.Repair.repairModelWithInitializedProcessor(Repair.java:279)\n\tat sorald.Repair.defaultRepair(Repair.java:176)\n\tat sorald.Repair.repair(Repair.java:153)\n\tat sorald.Repair.repair(Repair.java:97)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:128)\n\tat sorald.cli.RepairCommand.call(RepairCommand.java:32)\n\tat picocli.CommandLine.executeUserObject(CommandLine.java:1933)\n\tat picocli.CommandLine.access$1200(CommandLine.java:145)\n\tat picocli.CommandLine$RunLast.executeUserObjectOfLastSubcommandWithSameParent(CommandLine.java:2332)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2326)\n\tat picocli.CommandLine$RunLast.handle(CommandLine.java:2291)\n\tat picocli.CommandLine$AbstractParseResultHandler.execute(CommandLine.java:2159)\n\tat picocli.CommandLine.execute(CommandLine.java:2058)\n\tat sorald.Main.main(Main.java:7)\n",
+        "message": "Cannot compare this: [118235, 118476] with other: [\"118289\", \"118821\"]"
+    }],
+    "endTimeMs": 1615561073801,
+    "parseTimeMs": 8445
+}

@@ -1,0 +1,140 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 13,
+        "ruleName": "BigDecimalDoubleConstructor",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 0,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "2111",
+        "performedRepairsLocations": [
+            {
+                "endLine": 205,
+                "endColumn": 46,
+                "startColumn": 15,
+                "startLine": 205,
+                "filePath": "databinding/conversion/StringToNumberConverter.java",
+                "violationSpecifier": "2111:databinding/conversion/StringToNumberConverter.java:205:15:205:46"
+            },
+            {
+                "endLine": 226,
+                "endColumn": 51,
+                "startColumn": 20,
+                "startLine": 226,
+                "filePath": "databinding/conversion/StringToNumberConverter.java",
+                "violationSpecifier": "2111:databinding/conversion/StringToNumberConverter.java:226:20:226:51"
+            },
+            {
+                "endLine": 44,
+                "endColumn": 45,
+                "startColumn": 9,
+                "startLine": 44,
+                "filePath": "internal/databinding/conversion/NumberToBigDecimalConverter.java",
+                "violationSpecifier": "2111:internal/databinding/conversion/NumberToBigDecimalConverter.java:44:9:44:45"
+            },
+            {
+                "endLine": 48,
+                "endColumn": 45,
+                "startColumn": 9,
+                "startLine": 48,
+                "filePath": "internal/databinding/conversion/NumberToBigIntegerConverter.java",
+                "violationSpecifier": "2111:internal/databinding/conversion/NumberToBigIntegerConverter.java:48:9:48:45"
+            },
+            {
+                "endLine": 33,
+                "endColumn": 19,
+                "startColumn": 57,
+                "startLine": 32,
+                "filePath": "internal/databinding/conversion/StringToNumberParser.java",
+                "violationSpecifier": "2111:internal/databinding/conversion/StringToNumberParser.java:32:57:33:19"
+            },
+            {
+                "endLine": 35,
+                "endColumn": 20,
+                "startColumn": 57,
+                "startLine": 34,
+                "filePath": "internal/databinding/conversion/StringToNumberParser.java",
+                "violationSpecifier": "2111:internal/databinding/conversion/StringToNumberParser.java:34:57:35:20"
+            },
+            {
+                "endLine": 38,
+                "endColumn": 20,
+                "startColumn": 58,
+                "startLine": 37,
+                "filePath": "internal/databinding/conversion/StringToNumberParser.java",
+                "violationSpecifier": "2111:internal/databinding/conversion/StringToNumberParser.java:37:58:38:20"
+            },
+            {
+                "endLine": 40,
+                "endColumn": 21,
+                "startColumn": 58,
+                "startLine": 39,
+                "filePath": "internal/databinding/conversion/StringToNumberParser.java",
+                "violationSpecifier": "2111:internal/databinding/conversion/StringToNumberParser.java:39:58:40:21"
+            },
+            {
+                "endLine": 184,
+                "endColumn": 44,
+                "startColumn": 17,
+                "startLine": 184,
+                "filePath": "internal/databinding/conversion/StringToNumberParser.java",
+                "violationSpecifier": "2111:internal/databinding/conversion/StringToNumberParser.java:184:17:184:44"
+            },
+            {
+                "endLine": 199,
+                "endColumn": 52,
+                "startColumn": 16,
+                "startLine": 199,
+                "filePath": "internal/databinding/conversion/StringToNumberParser.java",
+                "violationSpecifier": "2111:internal/databinding/conversion/StringToNumberParser.java:199:16:199:52"
+            },
+            {
+                "endLine": 241,
+                "endColumn": 52,
+                "startColumn": 16,
+                "startLine": 241,
+                "filePath": "internal/databinding/conversion/StringToNumberParser.java",
+                "violationSpecifier": "2111:internal/databinding/conversion/StringToNumberParser.java:241:16:241:52"
+            },
+            {
+                "endLine": 246,
+                "endColumn": 44,
+                "startColumn": 17,
+                "startLine": 246,
+                "filePath": "internal/databinding/conversion/StringToNumberParser.java",
+                "violationSpecifier": "2111:internal/databinding/conversion/StringToNumberParser.java:246:17:246:44"
+            },
+            {
+                "endLine": 268,
+                "endColumn": 44,
+                "startColumn": 17,
+                "startLine": 268,
+                "filePath": "internal/databinding/conversion/StringToNumberParser.java",
+                "violationSpecifier": "2111:internal/databinding/conversion/StringToNumberParser.java:268:17:268:44"
+            }
+        ],
+        "nbViolationsBefore": 13,
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 13
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./bundles/org.eclipse.core.databinding/src/org/eclipse/core",
+            "--rule-keys",
+            "2111",
+            "--stats-output-file",
+            "n-repair-2111-_bundles_org.eclipse.core.databinding_src_org_eclipse_core.json"
+        ]
+    },
+    "totalTimeMs": 5653,
+    "repairTimeMs": 333,
+    "startTimeMs": 1615896579511,
+    "crashes": [],
+    "endTimeMs": 1615896585164,
+    "parseTimeMs": 2191
+}

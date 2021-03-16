@@ -1,0 +1,42 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 1,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "crashedRepairsLocations": [],
+        "nbTargetViolationsAfter": 0,
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "nbViolationsBefore": 1,
+        "performedRepairsLocations": [{
+            "endLine": 137,
+            "endColumn": 18,
+            "startColumn": 16,
+            "filePath": "internal/ide/registry/MarkerImageProviderRegistry.java",
+            "startLine": 137,
+            "violationSpecifier": "4973:internal/ide/registry/MarkerImageProviderRegistry.java:137:16:137:18"
+        }],
+        "nbTargetViolationsBefore": 1,
+        "nbViolationsAfter": 0
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./bundles/org.eclipse.ui.ide/src/org/eclipse/ui",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "n-repair-4973-_bundles_org.eclipse.ui.ide_src_org_eclipse_ui.json"
+        ]
+    },
+    "totalTimeMs": 19088,
+    "repairTimeMs": 864,
+    "startTimeMs": 1615817780960,
+    "crashes": [],
+    "endTimeMs": 1615817800048,
+    "parseTimeMs": 8986
+}

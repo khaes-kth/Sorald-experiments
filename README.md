@@ -10,3 +10,10 @@ The structure of the repository is as follows:
   - `commits-and-fixes.csv`: Includes data related to monitored commits and fix patches we generated for them.
   - `soraldbot-patches.txt`: The generated patches (RQ2).
   - `PRs.csv`: The submitted pull requests (RQ3).
+- `sorald-on-spongebugs-data/`: The results of running Sorald on the dataset from [2].
+
+
+````
+[1]: Marcilio, D., Bonifácio, R., Monteiro, E., Canedo, E., Luz, W., & Pinto, G. (2019, May). Are static analysis violations really fixed? a closer look at realistic usage of sonarqube. In 2019 IEEE/ACM 27th International Conference on Program Comprehension (ICPC) (pp. 209-219). IEEE.
+[2]: Marcilio, D., Furia, C. A., Bonifacio, R., & Pinto, G. (2020). SpongeBugs: Automatically generating fix suggestions in response to static code analysis warnings. Journal of Systems and Software, 168, 110671.
+````

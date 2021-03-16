@@ -1,0 +1,140 @@
+{
+    "repairs": [{
+        "nbPerformedRepairs": 13,
+        "ruleName": "CompareStringsBoxedTypesWithEquals",
+        "nbTargetViolationsAfter": 0,
+        "crashedRepairsLocations": [],
+        "nbCrashedRepairs": 0,
+        "ruleKey": "4973",
+        "nbViolationsBefore": 13,
+        "performedRepairsLocations": [
+            {
+                "endLine": 166,
+                "endColumn": 19,
+                "startColumn": 17,
+                "filePath": "actions/LabelRetargetAction.java",
+                "startLine": 166,
+                "violationSpecifier": "4973:actions/LabelRetargetAction.java:166:17:166:19"
+            },
+            {
+                "endLine": 51,
+                "endColumn": 15,
+                "startColumn": 13,
+                "filePath": "internal/UISynchronizer.java",
+                "startLine": 51,
+                "violationSpecifier": "4973:internal/UISynchronizer.java:51:13:51:15"
+            },
+            {
+                "endLine": 51,
+                "endColumn": 40,
+                "startColumn": 38,
+                "filePath": "internal/UISynchronizer.java",
+                "startLine": 51,
+                "violationSpecifier": "4973:internal/UISynchronizer.java:51:38:51:40"
+            },
+            {
+                "endLine": 65,
+                "endColumn": 15,
+                "startColumn": 13,
+                "filePath": "internal/UISynchronizer.java",
+                "startLine": 65,
+                "violationSpecifier": "4973:internal/UISynchronizer.java:65:13:65:15"
+            },
+            {
+                "endLine": 65,
+                "endColumn": 40,
+                "startColumn": 38,
+                "filePath": "internal/UISynchronizer.java",
+                "startLine": 65,
+                "violationSpecifier": "4973:internal/UISynchronizer.java:65:38:65:40"
+            },
+            {
+                "endLine": 67,
+                "endColumn": 15,
+                "startColumn": 13,
+                "filePath": "internal/UISynchronizer.java",
+                "startLine": 67,
+                "violationSpecifier": "4973:internal/UISynchronizer.java:67:13:67:15"
+            },
+            {
+                "endLine": 103,
+                "endColumn": 87,
+                "startColumn": 85,
+                "filePath": "internal/UISynchronizer.java",
+                "startLine": 103,
+                "violationSpecifier": "4973:internal/UISynchronizer.java:103:85:103:87"
+            },
+            {
+                "endLine": 119,
+                "endColumn": 43,
+                "startColumn": 41,
+                "filePath": "internal/UISynchronizer.java",
+                "startLine": 119,
+                "violationSpecifier": "4973:internal/UISynchronizer.java:119:41:119:43"
+            },
+            {
+                "endLine": 120,
+                "endColumn": 31,
+                "startColumn": 29,
+                "filePath": "internal/UISynchronizer.java",
+                "startLine": 120,
+                "violationSpecifier": "4973:internal/UISynchronizer.java:120:29:120:31"
+            },
+            {
+                "endLine": 104,
+                "endColumn": 47,
+                "startColumn": 45,
+                "filePath": "internal/dialogs/WorkingSetNewWizard.java",
+                "startLine": 104,
+                "violationSpecifier": "4973:internal/dialogs/WorkingSetNewWizard.java:104:45:104:47"
+            },
+            {
+                "endLine": 96,
+                "endColumn": 18,
+                "startColumn": 16,
+                "filePath": "internal/menus/FocusControlSourceProvider.java",
+                "startLine": 96,
+                "violationSpecifier": "4973:internal/menus/FocusControlSourceProvider.java:96:16:96:18"
+            },
+            {
+                "endLine": 236,
+                "endColumn": 20,
+                "startColumn": 18,
+                "filePath": "internal/util/Descriptors.java",
+                "startLine": 236,
+                "violationSpecifier": "4973:internal/util/Descriptors.java:236:18:236:20"
+            },
+            {
+                "endLine": 242,
+                "endColumn": 39,
+                "startColumn": 37,
+                "filePath": "internal/util/Descriptors.java",
+                "startLine": 242,
+                "violationSpecifier": "4973:internal/util/Descriptors.java:242:37:242:39"
+            }
+        ],
+        "nbViolationsAfter": 0,
+        "nbTargetViolationsBefore": 13
+    }],
+    "executionInfo": {
+        "soraldVersion": "commit: ",
+        "javaVersion": "11.0.8",
+        "originalArgs": [
+            "repair",
+            "--file-output-strategy",
+            "IN_PLACE",
+            "--original-files-path",
+            "./bundles/org.eclipse.ui.workbench/Eclipse_UI/org/eclipse/ui",
+            "--rule-keys",
+            "4973",
+            "--stats-output-file",
+            "n-repair-4973-_bundles_org.eclipse.ui.workbench_Eclipse_UI_org_eclipse_ui.json"
+        ]
+    },
+    "totalTimeMs": 35496,
+    "repairTimeMs": 1710,
+    "startTimeMs": 1615817861216,
+    "crashes": [],
+    "endTimeMs": 1615817896712,
+    "parseTimeMs": 16954
+}
