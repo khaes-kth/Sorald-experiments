@@ -1,4 +1,4 @@
-created:
+PR_URL,status
 https://github.com/AddstarMC/Prism-Bukkit/pull/247,not_merged
 https://github.com/AddstarMC/Prism-Bukkit/pull/248,not_merged
 https://github.com/kafka-ops/kafka-topology-builder/pull/206,not_merged
@@ -10,8 +10,6 @@ https://github.com/Athou/commafeed/pull/957,not_merged
 https://github.com/LinShunKang/MyPerf4J/pull/71,merged
 https://github.com/techa03/goodsKill/pull/80,undecided
 https://github.com/CloudburstMC/Nukkit/pull/1764,not_merged
-
-not_created:
-https://github.com/khaes-kth/arthas/tree/fixed/Sonar_2095 => does not compile (source-level should go higher)
-https://github.com/khaes-kth/Sorald-CI/blob/fixed_LianjiaTech/retrofit-spring-boot-starter_a6cfd41658170f108be0391fd26c353650d90d75_2095_1613019018315/fixed_repo/SoraldGitPatches/soraldpatch_0.patch => wrong detection
-https://github.com/khaes-kth/Sorald-CI/tree/fixed_alibaba/arthas_285b73d624180763a91fc8abb694c0a39d55004b_2184_1612994989169 => changes old code
+https://github.com/khaes-kth/arthas/tree/fixed/Sonar_2095,not_created(does not compile (source-level should go higher))
+https://github.com/khaes-kth/Sorald-CI/blob/fixed_LianjiaTech/retrofit-spring-boot-starter_a6cfd41658170f108be0391fd26c353650d90d75_2095_1613019018315/fixed_repo/SoraldGitPatches/soraldpatch_0.patch,not_created(wrong detection)
+https://github.com/khaes-kth/Sorald-CI/tree/fixed_alibaba/arthas_285b73d624180763a91fc8abb694c0a39d55004b_2184_1612994989169,not_created(changes old code)

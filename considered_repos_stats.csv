@@ -1,7 +1,6 @@
 repository_url,commit_id,#warnings,LOC
 https://github.com/ozzi-/JWT4B.git,c1e61531a6f4854eda7b9d8a324c10fc861380db,44,4986
 https://github.com/locationtech/jts.git,402acb6e4d8cfb0a1de061811455564176483288,778,184698
-https://github.com/openpnp/openpnp.git,7e18341cc64f673576ccfa3a9032eb4e1de9e0ea,434,99703
 https://github.com/Athou/commafeed.git,caba43bb5b8c22d7f03c51964b2f12e9c0a4d764,13,11876
 https://github.com/AddstarMC/Prism-Bukkit.git,5102696232ea136dd2033c69bca619f929937610,35,26378
 https://github.com/hsiafan/apk-parser.git,4d5a08e4d28fa2fce7fa356394c62c5e51a192e2,79,11273
@@ -12,7 +11,6 @@ https://github.com/spotify/missinglink.git,4e022aef2ba233358fc4e6516d2ab3242aee2
 https://github.com/JakeWharton/flip-tables.git,4adfe2c425ad7941f7a80bddfe7bdd4f0132bbd1,4,1689
 https://github.com/Password4j/password4j.git,722f724f5f59e321eb16e9f46c3033cbd5e80ba9,9,7678
 https://github.com/square/jna-gmp.git,42388dea22d727c61633d9cf66bad581236a2003,9,2823
-https://github.com/ChargeTimeEU/Java-OCA-OCPP.git,9ce7411ec2a9e08103cb28d204a00582071eab5c,52,40304
 https://github.com/rhuss/jolokia.git,913a35138235e8f53b31662b11b12992cf4bf702,139,56136
 https://github.com/ctran/TinyRadius.git,912f8077822c867903be0f10d1b0dc37546ac6ec,15,5546
 https://github.com/argparse4j/argparse4j.git,a0cef432451487d513382297cec2c5b14c147a30,11,13966
@@ -20,15 +18,11 @@ https://github.com/techa03/goodsKill.git,14436f806969b2c0ba7d1ea364da441780ddeea
 https://github.com/damianszczepanik/maven-cucumber-reporting.git,25f8c3b119fef3574a861af8f9c0c7b570b9c374,2,403
 https://github.com/toolbox4minecraft/amidst.git,2902ca61aa8f28e2e3cd903a732b5d29da93b9e3,141,31171
 https://github.com/mguymon/model-citizen.git,5d7f40e08de506f489852c4e5cbcd181ee47f704,5,4546
-https://github.com/ppiastucki/recast4j.git,fe90d24e2208db61293d72dddfe6df0fbb9a3dfa,1300,40008
-https://github.com/networknt/light-rest-4j.git,1b14e097408410f7a219d9e3bd4efa55a7d54ebe,28,7646
-https://github.com/geosolutions-it/imageio-ext.git,a92a9daeb565840d8c709c45fdbf986250f76e43,616,123634
 https://github.com/lucastheisen/jsch-nio.git,09a87eb6641eebeb62821018291b97517dc92889,19,4208
 https://github.com/modelmapper/modelmapper.git,f6321b01863e44a75d2b2ee52dbaf4f62cfa550b,114,39942
 https://github.com/palatable/lambda.git,3f23529573f7a2f7f7a11aca3d9d7e720cf2a15b,50,47366
 https://github.com/c-rack/cbor-java.git,91798fa96a63937f6eb64473efe10e51a8d9b996,41,8079
 https://github.com/uwolfer/gerrit-rest-java-client.git,de49b4e19572334d60f381955b72e1aa8bbbab49,24,25113
-https://github.com/vert-x3/vertx-service-proxy.git,94dfdc54b2dc1785cf8e1ba1036ae5aa5182d0b6,24,6709
 https://github.com/openmessaging/openmessaging-java.git,d8262897fb98e2d75d39e189bff763a25563e9f2,2,4138
 https://github.com/cloudbees-oss/zendesk-java-client.git,f6d766cd337c170e90165c488be9f2175147269e,254,14998
 https://github.com/ashwanthkumar/slack-java-webhook.git,3694aae5fd9d9bb30ab2c118881c3761996c8824,0,704
@@ -109,7 +103,6 @@ https://github.com/knowm/Yank.git,3c92dcfd7b513fac4485830e3d18bf666773a3cd,2,317
 https://github.com/cmu-phil/tetrad.git,6cb45f4518171b6a64e1d8f4eaa2ec9a371c40ce,1652,502440
 https://github.com/julman99/gson-fire.git,5dd4cd703065b0d4127390c6bdec1fb434ebec71,15,4759
 https://github.com/GoSimpleLLC/nbvcxz.git,dc1c098a5d1725d94b8c019b3ccadcd9b3869862,13,6649
-https://github.com/Waikato/moa.git,f1f147a73478cbde0ae7eb00889e1cc83ab42b06,833,164398
 https://github.com/mojohaus/build-helper-maven-plugin.git,ff8bdcf72cffd158589d97c2099bd08fe54687f4,10,4355
 https://github.com/opentripplanner/OpenTripPlanner.git,cc7de54e949771dca9cb7e91b1f0456ae141e9b6,448,180836
 https://github.com/xjodoin/torpedoquery.git,da8b5ad47115375a40d9a9b059cbfee615eb41ca,13,20326

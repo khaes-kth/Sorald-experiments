@@ -49,21 +49,6 @@
       "ruleKey": 2225,
       "ruleName": "ToStringReturningNull",
       "violationCnt": 22
-    },
-    {
-      "ruleKey": 1948,
-      "ruleName": "SerializableFieldInSerializableClass",
-      "violationCnt": 459
-    },
-    {
-      "ruleKey": 1854,
-      "ruleName": "DeadStore",
-      "violationCnt": 2668
-    },
-    {
-      "ruleKey": 1444,
-      "ruleName": "PublicStaticFieldShouldBeFinal",
-      "violationCnt": 799
     }
   ]
 }
