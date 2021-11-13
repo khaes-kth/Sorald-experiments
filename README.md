@@ -17,3 +17,9 @@ The structure of the repository is as follows:
 [1]: Marcilio, D., Bonifácio, R., Monteiro, E., Canedo, E., Luz, W., & Pinto, G. (2019, May). Are static analysis violations really fixed? a closer look at realistic usage of sonarqube. In 2019 IEEE/ACM 27th International Conference on Program Comprehension (ICPC) (pp. 209-219). IEEE.
 [2]: Marcilio, D., Furia, C. A., Bonifacio, R., & Pinto, G. (2020). SpongeBugs: Automatically generating fix suggestions in response to static code analysis warnings. Journal of Systems and Software, 168, 110671.
 ````
+
+# Sonar Rules Labelling
+Two authors label all SonarJava bug rules following the definitions below:
+- Fixable: we can design templates that remove the violation and implement the expected behavior. Note that we should know which template should be applied on each violation. If we have multiple templates but do not know which one would work for each violation, the rule is not fixable.
+- Partially fixable: there is a strict subset of the violations of the rule that are fixable. We should also be able to determine if a given violation lies in this subset or not.
+- Unfixable: neither fixable, nor partially fixable.
