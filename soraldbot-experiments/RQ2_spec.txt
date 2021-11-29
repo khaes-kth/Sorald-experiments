@@ -1,0 +1,4 @@
+repairnator version:
+	https://github.com/khaes-kth/repairnator/commit/0d48cdba1514cc6121451f25ccfd34a6205d4849
+Date:
+	started on: Nov 27, 2021
