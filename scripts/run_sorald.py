@@ -1,47 +1,51 @@
 import sys
 import os
 import multiprocessing as mp
+import datetime
+import subprocess
+
+
+def current_readable_time():
+	return datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S')
 
 rules = ["1217", "1860", "2095", "2111", "2116", "2142", "2184", "2225", "2272", "4973"]
 #rules = ["2095"]
 
+OUTPUT_DIR = f"output-{current_readable_time()}"
+os.mkdir(f'{OUTPUT_DIR}')
+
 def process(repo, commit):
+	reponame = repo.split("/")[-1].split(".")[0]
+	os.system(f"git clone {repo} {reponame}")
+	subprocess.run(f"git checkout {commit}", cwd=reponame, shell=True)
+	os.system(f"java -jar sorald.jar mine --source {reponame} --handled-rules --rule-types BUG --stats-output-file {OUTPUT_DIR}/{reponame}_sorald_mine_stats.json 1>> {OUTPUT_DIR}/{reponame}_sorald_mine.log 2>> {OUTPUT_DIR}/{reponame}_sorald_mine.err")
 	for rule in rules:
-		reponame = repo.split("/")[-1].split(".")[0]
 		exec_id = reponame + "_" + rule
-		print(f"Working on: {exec_id}")
-		os.system(f"git clone {repo} {exec_id}")
-		os.chdir(f"{exec_id}")
-		os.system(f"git checkout {commit}")
-		os.chdir("..")
-		os.system(f"java -jar sorald.jar repair --source {exec_id} --rule-key {rule} --stats-output-file output2/{exec_id}_sorald_stats.json 1>> output2/{exec_id}_sorald.log 2>> output2/{exec_id}_sorald.err")
-		os.chdir(f"{exec_id}")
-		os.system(f"git diff > ../output2/{exec_id}_diff.diff")
-		os.chdir("..")
-		with open(f"output2/{exec_id}_sorald.log", 'r') as file:
+		print(f"Working on: {exec_id}")	
+		os.system(f"java -jar sorald.jar repair --source {reponame} --rule-key {rule} --stats-output-file {OUTPUT_DIR}/{exec_id}_sorald_repair_stats.json 1>> {OUTPUT_DIR}/{exec_id}_sorald_repair.log 2>> {OUTPUT_DIR}/{exec_id}_sorald_repair.err")
+		subprocess.run(f"git diff > ../{OUTPUT_DIR}/{exec_id}_diff.diff", cwd=reponame, shell=True)
+		with open(f"{OUTPUT_DIR}/{exec_id}_sorald_repair_stats.json", 'r') as file:
 			sorald_result = file.read()
-		if not "No rule violations found" in sorald_result:
-			os.chdir(f"{exec_id}")
-			os.system(f"mvn test 1>> ../output2/{exec_id}_mvn.log 2>> ../output2/{exec_id}_mvn.err")
-			os.chdir("..")
+		if "nbViolationsBefore" in sorald_result:
+			subprocess.run(f"mvn test 1>> ../{OUTPUT_DIR}/{exec_id}_mvn.log 2>> ../{OUTPUT_DIR}/{exec_id}_mvn.err", cwd=reponame, shell=True)
 		else:
 			print(f"Skipping {exec_id} because of no change from sorald")
-		os.system(f"rm {exec_id} -rf")
+		subprocess.run("git reset HEAD --hard", cwd=reponame, shell=True)
 
 
 def main(argv):
-    pool = mp.Pool()
-    
-    with open(argv[0]) as file:
-        lines = file.readlines()
-        lines = [line.rstrip() for line in lines]
-        for i in range(1, len(lines)):
-            repo = lines[i].split(",")[0]
-            commit = lines[i].split(",")[1]
-            pool.apply_async(process, args = (repo, commit, ))
+	pool = mp.Pool()
+	
+	with open(argv[0]) as file:
+		lines = file.readlines()
+		lines = [line.rstrip() for line in lines]
+		for i in range(1, len(lines)):
+			repo = lines[i].split(",")[0]
+			commit = lines[i].split(",")[1]
+			pool.apply_async(process, args = (repo, commit, ))
 
-    pool.close()
-    pool.join()
+	pool.close()
+	pool.join()
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+	main(sys.argv[1:])
