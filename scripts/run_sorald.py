@@ -18,11 +18,13 @@ def process(repo, commit):
 	reponame = repo.split("/")[-1].split(".")[0]
 	os.system(f"git clone {repo} {reponame}")
 	subprocess.run(f"git checkout {commit}", cwd=reponame, shell=True)
-	os.system(f"java -jar sorald.jar mine --source {reponame} --handled-rules --rule-types BUG --stats-output-file {OUTPUT_DIR}/{reponame}_sorald_mine_stats.json 1>> {OUTPUT_DIR}/{reponame}_sorald_mine.log 2>> {OUTPUT_DIR}/{reponame}_sorald_mine.err")
+#	os.system(f"java -jar sorald.jar mine --source {reponame} --handled-rules --rule-types BUG --stats-output-file {OUTPUT_DIR}/{reponame}_sorald_mine_stats.json 1>> {OUTPUT_DIR}/{reponame}_sorald_mine.log 2>> {OUTPUT_DIR}/{reponame}_sorald_mine.err")
+	os.system(f"java -jar sorald-old.jar mine --original-files-path {reponame} --handled-rules --rule-types BUG --stats-output-file {OUTPUT_DIR}/{reponame}_sorald_mine_stats.json 1>> {OUTPUT_DIR}/{reponame}_sorald_mine.log 2>> {OUTPUT_DIR}/{reponame}_sorald_mine.err")
 	for rule in rules:
 		exec_id = reponame + "_" + rule
 		print(f"Working on: {exec_id}")	
-		os.system(f"java -jar sorald.jar repair --source {reponame} --rule-key {rule} --stats-output-file {OUTPUT_DIR}/{exec_id}_sorald_repair_stats.json 1>> {OUTPUT_DIR}/{exec_id}_sorald_repair.log 2>> {OUTPUT_DIR}/{exec_id}_sorald_repair.err")
+#		os.system(f"java -jar sorald.jar repair --source {reponame} --rule-key {rule} --stats-output-file {OUTPUT_DIR}/{exec_id}_sorald_repair_stats.json 1>> {OUTPUT_DIR}/{exec_id}_sorald_repair.log 2>> {OUTPUT_DIR}/{exec_id}_sorald_repair.err")
+		os.system(f"java -jar sorald-old.jar repair --original-files-path {reponame} --rule-keys {rule} --file-output-strategy IN_PLACE --stats-output-file {OUTPUT_DIR}/{exec_id}_sorald_repair_stats.json 1>> {OUTPUT_DIR}/{exec_id}_sorald_repair.log 2>> {OUTPUT_DIR}/{exec_id}_sorald_repair.err")
 		subprocess.run(f"git diff > ../{OUTPUT_DIR}/{exec_id}_diff.diff", cwd=reponame, shell=True)
 		with open(f"{OUTPUT_DIR}/{exec_id}_sorald_repair_stats.json", 'r') as file:
 			sorald_result = file.read()
