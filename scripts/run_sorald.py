@@ -34,7 +34,6 @@ def process(repo, commit):
 		with open(f"{OUTPUT_DIR}/{exec_id}_sorald_repair_stats.json", 'r') as file:
 			sorald_result = file.read()
 		if "nbViolationsBefore" in sorald_result:
-			clone(repo, reponame, commit)
 			subprocess.run(f"mvn test 1>> ../{OUTPUT_DIR}/{exec_id}_mvn.log 2>> ../{OUTPUT_DIR}/{exec_id}_mvn.err", cwd=reponame, shell=True)
 		else:
 			print(f"Skipping {exec_id} because of no change from sorald")
