@@ -1,0 +1,7 @@
+galimatias_4973_mvn.log intentional violation
+Vitro_4973_mvn.log intentional violation
+junit4_2225_mvn.log intentional violation
+geohash-java_2184_mvn.log intentionl violation
+nbvcxz_2111_mvn.log possible bug - https://github.com/GoSimpleLLC/nbvcxz/pull/67
+YCSB_2095_mvn.log wrong fix
+bitfinex-v2-wss-api-java_2111_mvn.log possible bug - https://github.com/jnidzwetzki/bitfinex-v2-wss-api-java/pull/254
