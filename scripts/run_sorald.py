@@ -22,7 +22,7 @@ def clone(repo, reponame, commit):
 def process(repo, commit):
 	reponame = repo.split("/")[-1].split(".")[0]
 	clone(repo, reponame, commit)
-	os.system(f"java -jar sorald.jar mine --source {reponame} --handled-rules --rule-types BUG --stats-output-file {OUTPUT_DIR}/{reponame}_sorald_mine_stats.json --resolve-classpath-from {reponame} 1>> {OUTPUT_DIR}/{reponame}_sorald_mine.log 2>> {OUTPUT_DIR}/{reponame}_sorald_mine.err")
+	os.system(f"java -jar sorald.jar mine --source {reponame} --rule-types BUG --stats-output-file {OUTPUT_DIR}/{reponame}_sorald_mine_stats.json --resolve-classpath-from {reponame} 1>> {OUTPUT_DIR}/{reponame}_sorald_mine.log 2>> {OUTPUT_DIR}/{reponame}_sorald_mine.err")
 #	os.system(f"java -jar sorald-old.jar mine --original-files-path {reponame} --handled-rules --rule-types BUG --stats-output-file {OUTPUT_DIR}/{reponame}_sorald_mine_stats.json 1>> {OUTPUT_DIR}/{reponame}_sorald_mine.log 2>> {OUTPUT_DIR}/{reponame}_sorald_mine.err")
 	for rule in rules:
 		exec_id = reponame + "_" + rule
