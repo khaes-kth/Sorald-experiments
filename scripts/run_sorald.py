@@ -28,7 +28,7 @@ def process(repo, commit):
 		exec_id = reponame + "_" + rule
 		print(f"Working on: {exec_id}")
 		clone(repo, reponame, commit)
-		os.system(f"java -jar sorald.jar repair --source {reponame} --rule-key {rule} --stats-output-file {OUTPUT_DIR}/{exec_id}_sorald_repair_stats.json 1>> {OUTPUT_DIR}/{exec_id}_sorald_repair.log 2>> {OUTPUT_DIR}/{exec_id}_sorald_repair.err")
+		os.system(f"java -jar sorald.jar repair --source {reponame} --rule-key {rule} --stats-output-file {OUTPUT_DIR}/{exec_id}_--resolve-classpath-from {reponame} sorald_repair_stats.json 1>> {OUTPUT_DIR}/{exec_id}_sorald_repair.log 2>> {OUTPUT_DIR}/{exec_id}_sorald_repair.err")
 #		os.system(f"java -jar sorald-old.jar repair --original-files-path {reponame} --rule-keys {rule} --file-output-strategy IN_PLACE --stats-output-file {OUTPUT_DIR}/{exec_id}_sorald_repair_stats.json 1>> {OUTPUT_DIR}/{exec_id}_sorald_repair.log 2>> {OUTPUT_DIR}/{exec_id}_sorald_repair.err")
 		subprocess.run(f"git diff > ../{OUTPUT_DIR}/{exec_id}_diff.diff", cwd=reponame, shell=True)
 		with open(f"{OUTPUT_DIR}/{exec_id}_sorald_repair_stats.json", 'r') as file:
