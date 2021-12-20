@@ -1,15 +1,30 @@
-PR_URL,status
-https://github.com/AddstarMC/Prism-Bukkit/pull/247,not_merged
-https://github.com/AddstarMC/Prism-Bukkit/pull/248,not_merged
-https://github.com/kafka-ops/kafka-topology-builder/pull/206,not_merged
-https://github.com/LinShunKang/MyPerf4J/pull/70,merged
-https://github.com/kafka-ops/kafka-topology-builder/pull/207,merged
-https://github.com/techa03/goodsKill/pull/79,undecided
-https://github.com/DanielYWoo/fast-object-pool/pull/26,merged
-https://github.com/Athou/commafeed/pull/957,not_merged
-https://github.com/LinShunKang/MyPerf4J/pull/71,merged
-https://github.com/techa03/goodsKill/pull/80,undecided
-https://github.com/CloudburstMC/Nukkit/pull/1764,not_merged
-https://github.com/khaes-kth/arthas/tree/fixed/Sonar_2095,not_created(does not compile (source-level should go higher))
-https://github.com/khaes-kth/Sorald-CI/blob/fixed_LianjiaTech/retrofit-spring-boot-starter_a6cfd41658170f108be0391fd26c353650d90d75_2095_1613019018315/fixed_repo/SoraldGitPatches/soraldpatch_0.patch,not_created(wrong detection)
-https://github.com/khaes-kth/Sorald-CI/tree/fixed_alibaba/arthas_285b73d624180763a91fc8abb694c0a39d55004b_2184_1612994989169,not_created(changes old code)
+PR_URL,rule,status
+https://github.com/DanielYWoo/fast-object-pool/pull/26,2142,merged
+https://github.com/LinShunKang/MyPerf4J/pull/70,2142,merged
+https://github.com/LinShunKang/MyPerf4J/pull/71,2184,merged
+https://github.com/kafka-ops/julie/pull/207,2095,merged
+https://github.com/locationtech/jts/pull/811,2184,merged
+https://github.com/pinterest/singer/pull/148,2142,merged
+https://github.com/rawls238/Scientist4J/pull/42,2142,merged
+https://github.com/vert-x3/vertx-jdbc-client/pull/258,2142,merged
+https://github.com/networknt/json-schema-validator/pull/488,2142,merged
+https://github.com/jMetal/jMetal/pull/442,2142,merged
+https://github.com/jMetal/jMetal/pull/443,2184,merged
+https://github.com/lolo101/MsgViewer/pull/65,2095,merged
+https://github.com/lolo101/MsgViewer/pull/66,2184,merged
+https://github.com/LianjiaTech/retrofit-spring-boot-starter/pull/84,2095,merged
+https://github.com/LianjiaTech/retrofit-spring-boot-starter/pull/85,2142,merged
+https://github.com/carml/carml/pull/110,2142,merged
+https://github.com/Athou/commafeed/pull/957,2142,declined
+https://github.com/CloudburstMC/Nukkit/pull/1764,2184,declined
+https://github.com/kafka-ops/julie/pull/206,2142,declined
+https://github.com/techa03/goodsKill/pull/79,2142,declined
+https://github.com/techa03/goodsKill/pull/80,2184,declined
+https://github.com/alibaba/arthas/pull/2037,2095,declined
+https://github.com/failsafe-lib/failsafe/pull/314,2142,declined
+https://github.com/failsafe-lib/failsafe/pull/315,2095,declined
+https://github.com/AddstarMC/Prism-Bukkit/pull/247,2184,declined
+https://github.com/AddstarMC/Prism-Bukkit/pull/248,2095,declined
+https://github.com/xerial/sqlite-jdbc/pull/696,2184,pending
+https://github.com/wmixvideo/nfe/pull/776,2111,pending
+https://github.com/cmu-phil/tetrad/pull/1355,2184,pending

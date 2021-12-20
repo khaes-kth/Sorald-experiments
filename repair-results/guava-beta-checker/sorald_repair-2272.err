@@ -1,8 +1,0 @@
-SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
-SLF4J: Defaulting to no-operation (NOP) logger implementation
-SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-WARNING: An illegal reflective access operation has occurred
-WARNING: Illegal reflective access by spoon.support.visitor.java.JavaReflectionTreeBuilder (file:/app/lib/sorald-1.1-SNAPSHOT-jar-with-dependencies.jar) to field com.sun.tools.javac.code.Symbol$OperatorSymbol$AccessCode.numberOfAccessCodes
-WARNING: Please consider reporting this to the maintainers of spoon.support.visitor.java.JavaReflectionTreeBuilder
-WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
-WARNING: All illegal access operations will be denied in a future release
