@@ -1,0 +1,156 @@
+Rules,Participant #1,Comments,Participant #2,Comment,Diff,Decision,In our dataset,In cited dataset,Already in Sorald,In the paper,Participant #3,Rule Number,New cnt in our dataset,Cnt in Marcilio including similar rules
+Math should not be performed on floats,Yes,,Yes,,,,2346,-1,X,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2164,2346,-1
+Floating point numbers should not be tested for equality,No,,No,The proper error is unkown,,,2232,339,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1244,2232,339
+"""equals"" methods should be symmetric and work for subclasses",Yes,,Yes,,,,880,1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2162,880,1
+Resources should be closed,Yes,,Yes,,,,-1,356,X,X,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2095,785,356
+Null pointers should not be dereferenced,Partially,Not sure it's a good idea,Partially,Too hard,,,-1,612,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2259,693,612
+"""InterruptedException"" should not be ignored",Yes,,Yes,,,,555,294,X,X,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2142,555,294
+Math operands should be cast before assignment,Yes,,Yes,,,,399,325,X,X,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2184,399,325
+"JEE applications should not ""getClassLoader""",Yes,,Yes,,,,292,-1,X,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3032,292,-1
+Zero should not be a possible denominator,Maybe,But not sure it's a good idea. I feel it's like NPE fixes.,No,,DIFF,No,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3518,241,-1
+"Non-primitive fields should not be ""volatile""",Maybe,,Yes,,DIFF,Partially,237,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3077,237,-1
+Conditionally executed code should be reachable,No,,No,Developer's intention unclear,,,-1,569,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2583,175,569
+Double Brace Initialization should not be used,Yes,,Partially,,DIFF,Partially?,146,-1,,,Yes,https://rules.sonarsource.com/java/type/Bug/RSPEC-3599,146,-1
+"""equals(Object obj)"" and ""hashCode()"" should be overridden in pairs",Maybe,,No,,DIFF,Participant #1 will check,131,140,,,No,https://rules.sonarsource.com/java/type/Bug/RSPEC-1206,131,140
+"""BigDecimal(double)"" should not be used",Yes,,Yes,,,,102,24,X,X,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2111,102,24
+"Strings and Boxed types should be compared using ""equals()""",Yes,,Yes,,,,92,-1,X,X,,https://rules.sonarsource.com/java/type/Bug/RSPEC-4973,92,398
+"""ThreadLocal"" variables should be cleaned up when no longer used",Partially,,Partially,,,,81,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5164,81,-1
+Boxing and unboxing should not be immediately reversed,Yes,There will be several cases,Yes,,,,62,47,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2153,62,47
+All branches in a conditional structure should not have exactly the same implementation,Partially,But seems very dangerous since we cannot be 100% sure the developers intention,No,,DIFF,No,56,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3923,56,1
+Identical expressions should not be used on both sides of a binary operator,No,We cannot know what to replace that by.,No,,,,54,35,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1764,54,35
+"""Random"" objects should be reused",Yes,,Yes,,,,52,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2119,52,-1
+Loops should not be infinite,No,,No,,,,-1,15,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2189,49,15
+Raw byte values should not be used in bitwise operations in combination with shifts,Yes,,Yes,,,,47,24,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3034,47,24
+The value returned from a stream read should be checked,Yes,,No,,DIFF,No,47,19,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2674,47,19
+"""Iterator.next()"" methods should throw ""NoSuchElementException""",Yes,,Yes,,,,42,54,X,X,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2272,42,54
+Method parameters caught exceptions and foreach variables' initial values should not be ignored,No,Those cases we can't even think in a template,No,,,,31,2915,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1226,31,2915
+Non-thread-safe fields should not be static,Yes,But this is one of the dangerous cases since it would require changing the API.,Partially,,DIFF,Partially,31,7,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2885,31,7
+"Inappropriate ""Collection"" calls should not be made",Maybe,I don't really know,No,,DIFF,No,30,5,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2175,30,5
+"""Serializable"" inner classes of non-serializable classes should be ""static""",Yes,It can be dangerous though,No,,DIFF,Yes,28,1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2066,28,1
+"Jump statements should not occur in ""finally"" blocks",Yes,,Yes,,,,26,75,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1143,26,75
+Getters and setters should be synchronized in pairs,Yes,,Yes,,,,26,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2886,26,-1
+Ints and longs should not be shifted by zero or more than their number of bits-1,No,,No,Intention unclear,,,25,24,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2183,25,24
+"""toString()"" and ""clone()"" methods should not return null",Partially,,Partially,,,,22,6,X,X,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2225,22,6
+Overrides should match their parent class methods in synchronization,Yes,,Yes,,,,22,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3551,22,-1
+Loops with at most one iteration should be refactored,No,,No,Intention unclear,,,20,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1751,20,-1
+Optional value should only be accessed after calling isPresent(),Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3655,18,-1
+"""equals(Object obj)"" should test argument type",Yes,Easely,Yes,Easily,,,16,10,X,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2097,16,10
+"""read"" and ""readLine"" return values should be used",Yes,But I don't think it's useful,No,What to do with the output?,DIFF,Partially,16,5,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2677,16,5
+"Blocks should be synchronized on ""private final"" fields",Yes,,Yes,,,,16,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2445,16,-1
+"Neither ""Math.abs"" nor negation should be used on numbers that could be ""MIN_VALUE""",Maybe,,Partially,,DIFF,Partially,14,8,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2676,14,8
+"Methods should not be named ""tostring"" ""hashcode"" or ""equal""",Maybe,We have exactly 2 templates in this case.,No,Intention unclear,DIFF,No,13,7,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1221,13,7
+"""null"" should not be used with ""Optional""",Yes,,Yes,,,,12,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2789,12,-1
+"""notifyAll"" should be used",Yes,,Yes,,,,11,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2446,11,-1
+"""compareTo"" results should not be checked for specific values",Yes,,Yes,,,,10,1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2200,10,1
+Double-checked locking should not be used,Yes,,Yes,,,,8,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2168,8,-1
+"Related ""if/else if"" statements should not have the same condition",No,We can't know what the developer meant,No,,,,7,8,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1862,7,8
+Values should not be uselessly incremented,Yes,,Yes,,,,7,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2123,7,-1
+Classes should not be compared by name,Yes,Not too hard,Yes,,,,6,114,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1872,6,114
+"""equals"" method overrides should accept ""Object"" parameters",Yes,A big template,Yes,,,,6,53,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1201,6,53
+"""wait(...)"" should be used instead of ""Thread.sleep(...)"" when a lock is held",Yes,,Yes,,,,6,2,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2276,6,2
+"""volatile"" variables should not be used with compound operators",Maybe,Multiple templates,Yes,,DIFF,Yes,6,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3078,6,-1
+Synchronization should not be done on instances of value-based classes,Yes,,Yes,,,,5,19,X,X,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1860,5,19
+Silly equality checks should not be made,No,We can't know what the developer meant,No,,,,5,2,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2159,5,2
+Return values from functions without side effects should not be ignored,Yes,But I don't think it's useful,No,,DIFF,Partially,5,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2201,5,86
+InputSteam.read() implementation should not return a signed byte,Yes,,Yes,,,,5,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-4517,5,-1
+"Classes extending java.lang.Thread should override the ""run"" method",No,,No,,,,4,1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2134,4,1
+"""toArray"" should be passed an array of the proper type",Yes,,Yes,,,,4,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3020,4,-1
+Assignment of lazy-initialized members should be the last step with double-checked locking,Yes,,Yes,,,,4,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3064,4,-1
+Collections should not be passed as arguments to their own methods,No,,No,,,,4,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2114,4,-1
+"Methods ""wait(...)"" ""notify()"" and ""notifyAll()"" should not be called on Thread instances",No,,No,,,,3,8,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2236,3,8
+"The signature of ""finalize()"" should match that of ""Object.finalize()""",Yes,But this is one of the dangerous cases since it would require changing the API. This is an interesting case that could be investigated in another research project (naming identifiers),No,Developer's intention unclear,DIFF,Yes,3,1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1175,3,1
+"""compareTo"" should not be overloaded",Yes,,Yes,,,,3,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-4351,3,1
+"A ""for"" loop update clause should move the counter in the right direction",Yes,,Yes,,,,3,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2251,3,-1
+Getters and setters should access the expected fields,Yes,,Yes,,,,3,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-4275,3,-1
+Printf-style format strings should not lead to unexpected behavior at runtime,Partially,It seems dangerous though,Partially,Context-dependent,,,2,164,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2275,2,164
+"""Thread.run()"" should not be called directly",Yes,,Yes,,,,2,5,X,X,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1217,2,5
+Variables should not be self-assigned,Partially,,Partially,,,,2,-1,X,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1656,2,-1
+Map values should not be replaced unconditionally,No,We can't even guess a template for that,No,,,,2,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-4143,2,-1
+"""iterator"" should not return ""this""",Yes,,Maybe,too hard,DIFF,Yes,2,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-4348,2,-1
+"Week Year (""YYYY"") should not be used for date formatting",Yes,,Yes,,,,2,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3986,2,-1
+"Classes that don't define ""hashCode()"" should not be used in hashes",Maybe,,No,,DIFF,Participant #1 will check,2,-1,,,Partially,https://rules.sonarsource.com/java/type/Bug/RSPEC-2141,2,-1
+Locks should be released,Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2222,2,-1
+"Expressions used in ""assert"" should not produce side effects",Yes,,Yes,,,,1,569,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3346,1,569
+Child class methods named for parent class methods should be overrides,Yes,It can be dangerous though,No,,DIFF,No,1,45,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2177,1,45
+"""Externalizable"" classes should have no-arguments constructors",Yes,,Yes,,,,1,2,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2060,1,2
+"""hashCode"" and ""toString"" should not be called on array instances",Yes,,Yes,,,,1,2,X,X,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2116,1,2
+Silly String operations should not be made,Yes,It seems dangerous though,Yes,Why is it bug? It should be smell,,,1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2121,1,-1
+Inappropriate regular expressions should not be used,No,We can't know what the developer meant,No,,,,1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2639,1,-1
+Collection sizes and array length comparisons should make sense,Partially,,Yes,,DIFF,No,1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3981,1,-1
+Constructor injection should be used instead of field injection,Yes,,Yes,,,,0,52,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3306,0,52
+Servlets should not have mutable instance fields,Maybe,,Partially,,DIFF,Partially,0,43,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2226,0,43
+"Non-serializable objects should not be stored in ""HttpSession"" objects",No,,No,,,,0,10,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2441,0,10
+Non-serializable classes should not be written,Yes,,Yes,,,,0,5,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2118,0,5
+"The non-serializable super class of a ""Serializable"" class should have a no-argument constructor",Yes,,Yes,,,,0,4,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2055,0,4
+"""wait"" ""notify"" and ""notifyAll"" should only be called when a lock is obviously held on an object",Yes,,Yes,,,,0,1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2273,0,1
+"""String"" calls should not go beyond their bounds",Yes,It seems dangerous though,Yes,Easy,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3039,0,-1
+"""getClass"" should not be used for synchronization",Yes,,Yes,,,,0,-1,X,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3067,0,-1
+"Invalid ""Date"" values should not be used",Yes,,Yes,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2110,0,-1
+""".equals()"" should not be used to test the values of ""Atomic"" classes",Yes,,Yes,,,,0,-1,X,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2204,0,-1
+Dissimilar primitive wrappers should not be used with the ternary operator without explicit casting,Yes,,Yes,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2154,0,-1
+"""=+"" should not be used instead of ""+=""",No,We can't know what the developer meant,Yes,,DIFF,No,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2757,0,-1
+"""wait"" should not be called when multiple locks are held",No,,No,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3046,0,-1
+"Non-public methods should not be ""@Transactional""",No,More than one possibility,No,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2230,0,-1
+Value-based classes should not be used for locking,No,,No,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3436,0,-1
+Unary prefix operators should not be repeated,Yes,,Yes,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2761,0,-1
+"Spring ""@Controller"" classes should not use ""@Scope""",Yes,But might be problematic,No,Removing @scope clearly causes problem,DIFF,No,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3750,0,-1
+"""compareTo"" should not return ""Integer.MIN_VALUE""",Yes,,Yes,,,,0,-1,X,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2167,0,-1
+Custom serialization method signatures should meet requirements,Yes,,Yes,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2061,0,-1
+Exceptions should not be created without being thrown,Yes,,Yes,,,,0,-1,X,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3984,0,-1
+"""runFinalizersOnExit"" should not be called",Yes,,Yes,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2151,0,-1
+"""Double.longBitsToDouble"" should not be used for ""int""",Maybe,I don't know for sure the alternative,Yes,,DIFF,Yes,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2127,0,-1
+"""@Controller"" classes that use ""@SessionAttributes"" must call ""setComplete"" on their ""SessionStatus"" objects",Maybe,,No,,DIFF,?,0,-1,,,Yes,https://rules.sonarsource.com/java/type/Bug/RSPEC-3753,0,-1
+"""super.finalize()"" should be called at the end of ""Object.finalize()"" implementations",Yes,,Yes,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1114,0,-1
+"""StringBuilder"" and ""StringBuffer"" should not be instantiated with a character",Yes,,Yes,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1317,0,-1
+"""@SpringBootApplication"" and ""@ComponentScan"" should not be used in the default package",Yes,But it would change the fully qualified name of the class thus it might be dangerous.,Yes,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-4602,0,-1
+The Object.finalize() method should not be called,Yes,Just remove it?,No,,DIFF,No,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1111,0,-1
+Loop conditions should be true at least once,No,,No,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2252,0,-1
+"""PreparedStatement"" and ""ResultSet"" methods should be called with valid indices",Yes,,Yes,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2695,0,-1
+Reflection should not be used to check non-runtime annotations,Maybe,,Partially,,DIFF,No,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2109,0,-1
+"Methods should not call same-class methods with incompatible ""@Transactional"" values",No,,No,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2229,0,-1
+"""Iterator.hasNext()"" should not call ""Iterator.next()""",Maybe,https://stackoverflow.com/questions/2176212/java-iterator-implementation-next-and-hasnext-enforcing-order,No,,DIFF,Yes,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-1849,0,-1
+"""ScheduledThreadPoolExecutor"" should not have 0 core threads",No,We can't know the intented number of threads.,No,,,,0,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2122,0,-1
+"""@NonNull"" values should not be set to null",Maybe,,No,,DIFF,Partially,-1,5,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2637,0,5
+Files opened in append mode should not be used with ObjectOutputStream,Yes,,Yes,Dangerous,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-2689,0,-1
+Consumed Stream pipelines should not be reused,Yes,,Partially,,DIFF,Partially,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3959,0,-1
+Min and max used in combination should not always return the same value,Maybe,It could be addressed if several repair attempts are done.,Yes,,DIFF,No,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3065,0,-1
+Custom resources should be closed,Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3546,0,-1
+Intermediate Stream methods should not be left unused,No,,No,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3958,0,-1
+"AssertJ assertions with ""Consumer"" arguments should contain assertion inside consumers",Partially,,Partially,Too many cases to be handled,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-6103,-1,-1
+Equals method should be overridden in records containing array fields,Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-6218,-1,-1
+"Dependencies should not have ""system"" scope",No,It is not on Java code,No,Not java,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3422,-1,-1
+The regex escape sequence \cX should only be used with characters in the @-_ range,Partially,It seems dangerous though,Partially,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-6070,-1,-1
+Assertions should not compare an object to itself,Maybe,,No,,DIFF,No,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5863,-1,-1
+Regex boundaries should not be used in a way that can never be matched,Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5996,-1,-1
+AssertJ methods setting the assertion context should come before an assertion,Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5833,-1,-1
+"AssertJ assertions ""allMatch"" and ""doesNotContains"" should also test for emptiness",Yes,,No,,DIFF,Partially,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5841,-1,-1
+Mockito argument matchers should be used on all parameters,Maybe,,Maybe,,,?,-1,-1,,,Partially,https://rules.sonarsource.com/java/type/Bug/RSPEC-6073,-1,-1
+Hibernate should not update database schemas,No,It is not on Java code,No,Not java,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3822,-1,-1
+Regex patterns following a possessive quantifier should not always fail,Maybe,,Yes,,DIFF,No,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5994,-1,-1
+DateTimeFormatters should not use mismatched year and week numbers,Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5917,-1,-1
+Alternatives in regular expressions should be grouped when used with anchors,No,,No,Intention unclear,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5850,-1,-1
+Regex alternatives should not be redundant,Maybe,It depends on how we can get what is redundant. Then just delete.,Maybe,,,No,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5855,-1,-1
+Assertions should not be used in production code,No,,No,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5960,-1,-1
+"""SingleConnectionFactory"" instances should be set to ""reconnectOnException""",No,It is not on Java code,No,Not java,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3438,-1,-1
+Reflection should not be used to increase accessibility of records' fields,No,,No,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-6216,-1,-1
+Regular expressions should not overflow the stack,Maybe,,Partially,,DIFF,Partially,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5998,-1,-1
+Regular expressions should be syntactically valid,No,,No,Intention unclear,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5856,-1,-1
+Regex lookahead assertions should not be contradictory,Maybe,,Maybe,,,?,-1,-1,,,No,https://rules.sonarsource.com/java/type/Bug/RSPEC-6002,-1,-1
+"Map ""computeIfAbsent()"" and ""computeIfPresent()"" should not be used to add ""null"" values.",Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-6104,-1,-1
+Back references in regular expressions should only refer to capturing groups that are matched before the reference,Maybe,,Partially,,DIFF,?,-1,-1,,,No,https://rules.sonarsource.com/java/type/Bug/RSPEC-6001,-1,-1
+Case insensitive Unicode regular expressions should enable the “UNICODE_CASE” flag,Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5866,-1,-1
+Assertion methods should not be used within the try block of a try-catch catching an Error,No,,No,Intention unclear,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5779,-1,-1
+Annotated Mockito objects should be initialized,Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5979,-1,-1
+Repeated patterns in regular expressions should not match the empty string,No,,No,Intention unclear,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5842,-1,-1
+Assertions comparing incompatible types should not be made,No,,No,Intention unclear,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5845,-1,-1
+Only one method invocation is expected when testing checked exceptions,No,,No,Intention unclear,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5783,-1,-1
+"""DefaultMessageListenerContainer"" instances should not drop messages during restarts",No,It is not on Java code,No,Not java,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-3439,-1,-1
+Tests method should not be annotated with competing annotations,Maybe,We could do trials,Partially,,DIFF,No,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5967,-1,-1
+Unicode Grapheme Clusters should be avoided inside regex character classes,Yes,,No,Intention unclear,DIFF,?,-1,-1,,,No,https://rules.sonarsource.com/java/type/Bug/RSPEC-5868,-1,-1
+Return values should not be ignored when they contain the operation status code,Yes,But it's not useful,No,,DIFF,No,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-899,-1,-1
+Members ignored during record serialization should not be used,No,,No,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-6209,-1,-1
+JUnit5 inner test classes should be annotated with @Nested,Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5790,-1,-1
+JUnit5 test classes and methods should not be silently ignored,Maybe,,Yes,,DIFF,Partially,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5810,-1,-1
+AssertJ configuration should be applied,Yes,,Yes,,,,-1,-1,,,,https://rules.sonarsource.com/java/type/Bug/RSPEC-5831,-1,-1
+,,,,,,,,,,,,,,
+,,,,,39,39,,,18,10,,,,
