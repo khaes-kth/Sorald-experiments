@@ -23,3 +23,4 @@ Two authors label all SonarJava bug rules following the definitions below:
 - Fixable: we can design templates that remove the violation and implement the expected behavior. Note that we should know which template should be applied on each violation. If we have multiple templates but do not know which one would work for each violation, the rule is not fixable.
 - Partially fixable: there is a strict subset of the violations of the rule that are fixable. We should also be able to determine if a given violation lies in this subset or not.
 - Unfixable: neither fixable, nor partially fixable.
+If the labels are not the same the conflict is resolved via discussion between the two participants. A third participant also labels the rule, when the first two participants do not reach a definitive decision.
