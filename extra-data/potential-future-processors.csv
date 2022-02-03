@@ -1,10 +1,10 @@
 Rule Descripiton,Rule URL,Count in our Dataset
 'equals' methods should be symmetric and work for subclasses,https://rules.sonarsource.com/java/type/Bug/RSPEC-2162,880
 Raw byte values should not be used in bitwise operations in combination with shifts,https://rules.sonarsource.com/java/type/Bug/RSPEC-3034,47
-Jump statements should not occur in "finally" blocks,https://rules.sonarsource.com/java/type/Bug/RSPEC-1143,26
+Jump statements should not occur in 'finally' blocks,https://rules.sonarsource.com/java/type/Bug/RSPEC-1143,26
 Values should not be uselessly incremented,https://rules.sonarsource.com/java/type/Bug/RSPEC-2123,7
 Classes should not be compared by name,https://rules.sonarsource.com/java/type/Bug/RSPEC-1872,6
-"equals" method overrides should accept "Object" parameters,https://rules.sonarsource.com/java/type/Bug/RSPEC-1201,6
-"wait(...)" should be used instead of "Thread.sleep(...)" when a lock is held,https://rules.sonarsource.com/java/type/Bug/RSPEC-2276,6
-Expressions used in "assert" should not produce side effects,https://rules.sonarsource.com/java/type/Bug/RSPEC-3346,1
-"Externalizable" classes should have no-arguments constructors,https://rules.sonarsource.com/java/type/Bug/RSPEC-2060,1
+'equals' method overrides should accept "Object" parameters,https://rules.sonarsource.com/java/type/Bug/RSPEC-1201,6
+'wait(...)' should be used instead of 'Thread.sleep(...)' when a lock is held,https://rules.sonarsource.com/java/type/Bug/RSPEC-2276,6
+Expressions used in 'assert' should not produce side effects,https://rules.sonarsource.com/java/type/Bug/RSPEC-3346,1
+'Externalizable' classes should have no-arguments constructors,https://rules.sonarsource.com/java/type/Bug/RSPEC-2060,1
