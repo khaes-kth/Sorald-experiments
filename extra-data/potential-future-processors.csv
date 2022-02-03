@@ -1,4 +1,4 @@
-Rule Descripiton,Rule URL,Count in our Dataset
+Rule Descripiton,Rule URL,Violation Count in Our Dataset
 'equals' methods should be symmetric and work for subclasses,https://rules.sonarsource.com/java/type/Bug/RSPEC-2162,880
 Raw byte values should not be used in bitwise operations in combination with shifts,https://rules.sonarsource.com/java/type/Bug/RSPEC-3034,47
 Jump statements should not occur in 'finally' blocks,https://rules.sonarsource.com/java/type/Bug/RSPEC-1143,26
