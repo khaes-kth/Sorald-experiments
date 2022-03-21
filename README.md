@@ -26,3 +26,5 @@ Two authors label all SonarJava bug rules following the definitions below:
 - Unfixable: neither fixable, nor partially fixable.
 
 If the labels are not the same the conflict is resolved via discussion between the two participants. A third participant also labels the rule, when the first two participants do not reach a definitive decision.
+
+The results of this experiment can be accessed [here](https://github.com/khaes-kth/Sorald-experiments/blob/master/extra-data/bug-rules-analysis.csv).
